@@ -4,10 +4,14 @@
 
 <h2>Commercial Support</h2>
 <p>
-Lots of corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. The following companies are happy to be explicitly listed as users of gtkmm. This list is small, because we only recently started asking for endorsments, and because companies have no incentive to give us permission.
+Lots of corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:
 <ul>
 <li><a href="http://www.180sw.com/">OneEighty Software</a> - embedded and telecoms</li>
 <li><a href="http://www.spacetec.no/">Kongsberg Spacetec</a> - satellite/meteorological</li>
+<li><a href="http://www.solvo.ru/eng/">Solvo Ltd.</a> - warehouse management systems</li>
+<li><a href="http://www.equalarea.com/paul/las.html">Linux Audio Systems</a> - professional audio/music systems</li>
+<li><a href="http://www.isotrol.com">Isotrol</a> - electrical engineering</li>
+<li><a href="http://www.eads.com">EADS</a> - aerospace/defence/satellite</li>
 </ul> 
 </p>
 <p>If you would like to be listed here please send email to the <a href="mailinglist.shtml">mailing list</a> or a maintainer.</p>
