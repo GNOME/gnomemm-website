@@ -1,3 +1,17 @@
+2002-06-28  Murray Cumming  <murrayc@usa.net>
+
+	* fragments/html_declaration.html_fragment: Increased release
+	version numbers.
+	* mailinglist.shtml: Updated for move to *-list@gnome.org mailing 
+	lists.
+
+2002-06-27  Murray Cumming  <murrayc@usa.net>
+
+	* Makefile: Used rsync instead of scp to upload files. From
+	example at
+	http://webclass.csuchico.edu/fc/COURSES/219/notes/makefile.html
+	This seems to be a bit more sensible.
+
 2002-06-26  Murray Cumming  <murrayc@localhost.localdomain>
 
 	* extras.shtml: Removed link to gladecc because chrsime says it's dead.
