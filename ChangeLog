@@ -1,3 +1,7 @@
+2002-12-17  Murray Cumming  <murrayc@usa.net>
+
+	* Makefile: Generate and uploads jhbuild-generated dependency graphs.
+
 2002-12-10  Murray Cumming  <murrayc@usa.net>
 
 	* fragments/html_declaration.html_fragment: Use 2.0.x, etc, for

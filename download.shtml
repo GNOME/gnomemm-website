@@ -19,6 +19,7 @@ The source packages for gtkmm are available on the
 <li><a href="http://libsigc.sourceforge.net">libsigc++</a> (1.0.x for gtkmm 1.2 and 1.2.x for gtkmm 2)</li>
 </ul>
 </p>
+<p>Here are dependency graphs for <a href="jhbuild_dot_gtkmm.png">gtkmm</a> and <a href="jhbuild_dot_gnomemm.png">gnomemm</a>, generated automatically with jhbuild and graphviz.</p>
 
 <h3>GTK+</h3>
 <p>You can download GTK+ and GNOME from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
