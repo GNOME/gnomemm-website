@@ -20,7 +20,7 @@
     <a class="menu" href="requirements.shtml">Requirements</a><br />
     <a class="menu" href="mailinglist.shtml">Mailinglist</a><br />
     <a class="menu" href="developers.shtml">Developers</a><br />
-    <a class="menu" href="http://www.gtkmm.org/gtkmm2/">Documentation</a><br />
+    <a class="menu" href="gtkmm2/">Documentation</a><br />
     <a class="menu" href="download.shtml">Download</a><br />
     <a class="menu" href="bugs.shtml">Bugs</a><br />
     <a class="menu" href="cvs.shtml">CVS</a><br />
