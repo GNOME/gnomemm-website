@@ -4,7 +4,7 @@
 
  <!-- Big gtkmm logo and introduction text: -->
  <div class="center">
-  <a href="http://www.gtkmm.org/gtkmm2/"><img src="images/gtkmm_logo.gif"
+  <a href="gtkmm2/"><img src="images/gtkmm_logo.gif"
    alt="gtkmm logo" width="375" height="145" border="0" /><br /></a>
   <h1>New: gtkmm 2</h1>
   <p>
@@ -14,13 +14,13 @@
  <!-- Descriptions of sub-parts: -->
 
  <h1>gtkmm</h1>
- gtkmm (previously known as Gtk--) is the official C++ interface for the popular GUI library <a href="http://www.gtk.org">GTK+</a>.  Highlights include
+ gtkmm (previously known as Gtk--) is the official C++ interface for the popular GUI library <a href="http://www.gtk.org/">GTK+</a>.  Highlights include
  typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widget classes that can be freely combined to quickly create complex user interfaces. gtkmm is free software distributed under the GNU Library
  General Public License(<a href="license.shtml">LGPL</a>).
  <h1>gnomemm</h1>
- gnomemm (Previously known as Gnome--) is a set of powerful C++ bindings for the <a href="http://www.gnome.org">GNOME</a> libraries, which provide additional functionality above GTK+/gtkmm. 
+ gnomemm (Previously known as Gnome--) is a set of powerful C++ bindings for the <a href="http://www.gnome.org/">GNOME</a> libraries, which provide additional functionality above GTK+/gtkmm. 
  <h1>libsigc++</h1>
- Also, be sure to check out our companion library, <a href="http://libsigc.sourceforge.net">libsigc++</a>.
+ Also, be sure to check out our companion library, <a href="http://libsigc.sourceforge.net/">libsigc++</a>.
  Due to popular demand our signal/slot library is now provided
  separately for use in non-GUI code. Thus
  all the power of typesafe callbacks and flexible adaptor classes is

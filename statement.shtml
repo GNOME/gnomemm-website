@@ -23,7 +23,7 @@ Further, the recently started project
 of the gtkmm project.  Inti
 is a separate C++ framework being developed by 
 <a href="http://www.redhat.com">Red Hat</a>.  Some of its goals
-contradict those long standing <a href="philosophy.html">philosophies</a> 
+contradict those long standing <a href="philosophy.shtml">philosophies</a> 
 of gtkmm.  Inti was
 written to support 
 Red Hat's need for a stable C++ framework for ISV programmers at the 
