@@ -1,0 +1,42 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<h2>Commercial Support</h2>
+<p>
+The mailing lists, irc, and documentation are helpful, but your company might
+require more in-depth assistance or custom development. If this is the
+case, you may contact the following developers directly to discuss a
+commercial arrangement. 
+</p>
+
+<table>
+<tr>
+<th>Name, email</th> <th>Location</th>
+</tr>
+
+<tr>
+<td><a href="mailto:murrayc@usa.net">Murray Cumming</a> <a href="http://www.murrayc.com">(www.murrayc.com)</a></td><td>UK, Europe</td>
+</tr>
+
+<tr>
+<td><a href="mailto:daniel.elstner@gmx.net">Daniel Elstner</a></td>
+<td>Germany</td>
+</tr>
+
+<tr>
+<td><a href="mailto:cactus@cactus.rulez.org">Gerg&otilde; &Eacute;rdi</a>
+ (<a href="http://cactus.rulez.org">cactus.rulez.org</a>)</td>
+ <td>Hungary</td>
+</tr>
+
+<tr>
+<td><a href="mailto:kenelson@ece.ucdavis.edu">Karl Nelson</a></td>
+<td>USA</td>
+</tr>
+
+</table>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->
