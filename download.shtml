@@ -33,7 +33,7 @@ The source packages for gtkmm are available on the
 <li><a href="http://fedora.redhat.com/">Fedora</a>/<a href="http://www.redhat.com">RedHat</a> Linux: Use <a href="http://www.fedora.us/wiki/FedoraHOWTO">yum</a>: yum install gtkmm2-docs to get the runtime, development, and documentation packages.</li>
 <li><a href="http://www.mandrakelinux.com/">Mandrake</a> Linux: Get libgtkmm2.0 from the contrib directory on their <a href="http://www.mandrakelinux.com/en/cookerdevel.php3">ftp</a> servers.</li>
 <li><a href="http://www.gentoo.org">Gentoo Linux</a>: Get dev-cpp/gtkmm.</li>
-<li><a href="http://www.suse.de/">SuSE</a> Linux: There are no official packages yet, but you can get rpms at <a href="http://www.usr-local-bin.org/misc.php">usr local bin</a>.</li>
+<li><a href="http://www.suse.com/">SuSE</a> Linux: There are no official packages yet, but you can get rpms at <a href="http://www.usr-local-bin.org/misc.php">usr local bin</a>.</li>
 <li>Windows: Here is an <a href="http://www.pcpm.ucl.ac.be/~gustin/win32_ports/">installer</a>.</li>
 <li>MacOS X: There is a <a href="http://fink.sourceforge.net/pdb/package.php/gtkmm2-dev">Fink package</a>.</li>
 </ul>
