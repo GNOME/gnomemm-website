@@ -22,7 +22,7 @@
     <a class="menu" href="cvs.shtml">CVS</a><br />
     <br />
     <b><a class="menu" href="docs/gtkmm-2.4/docs/">Documentation</a></b><br />
-    <a class="menu" href="docs/gtkmm-2.4/FAQ/html/index.html">FAQ</a><br />
+    <a class="menu" href="docs/gtkmm-2.4/docs/FAQ/html/index.html">FAQ</a><br />
     <a class="menu" href="mailinglist.shtml">Mailing Lists</a><br />
     <a class="menu" href="developers.shtml">Developers</a><br />
     <a class="menu" href="bugs.shtml">Bugs</a><br />
