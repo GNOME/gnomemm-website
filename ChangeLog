@@ -1,3 +1,8 @@
+2004-04-25  Murray Cumming  <murrayc@murrayc.com>
+
+	* download.shtml: Corrected URLs for 2.4/2.6 stuff, thanks to Jonathan 
+	Brandmeyer.
+
 2004-04-12  Murray Cumming  <murrayc@murrayc.com>
 
 	* fragments/html_declaration.html_fragment: Link to 2.4 docs instead of

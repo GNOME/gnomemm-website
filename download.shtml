@@ -12,14 +12,14 @@ The following source packages are available:</p>
 <h4>gtkmm 2.4 and GNOME bindings:</h4>
 <p>These install in parallel with gtkmm 2.0/2.2 and gtkmm 1.2.</p>
 <ul>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.3/">gtkmm 2.4</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.3/">libglademm 2.4</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.5/">libgnomecanvasmm 2.6</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gnome-vfsmm/2.5/">gnome-vfsmm 2.6</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.5/">gconfmm 2.6</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.5/">libgnomemm 2.6</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.5/">libgnomeuimm 2.6</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/2.5/">libpanelappletmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.4/">gtkmm 2.4</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.4/">libglademm 2.4</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.6/">libgnomecanvasmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gnome-vfsmm/2.6/">gnome-vfsmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.6/">gconfmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.6/">libgnomemm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.6/">libgnomeuimm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/2.6/">libpanelappletmm 2.6</a> (unstable)</li>
 <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libbonobomm/2.5/">libbonobomm 2.6</a> (unstable)</li>
 <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libbonobouimm/2.5/">libbonobouimm 2.6</a> (unstable)</li>
 <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeprintmm/2.5/">libgnomeprintmm 2.6</a> (unstable)</li>
