@@ -1,3 +1,8 @@
+2002-11-19  Murray Cumming  <murrayc@usa.net>
+
+	* extra.shtml: Rearranged applications into gtkmm 1.2 and gtkmm 2
+	lists.
+
 2002-11-10  Olle de Zwart  <olle@endforward.com>
 	
 	* bugs.shtml: Added "patch changelog" bullet point to the how 

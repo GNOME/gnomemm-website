@@ -27,18 +27,33 @@ widgets are available from other sources.
 <p>
 If all else fails, sometimes it is good to look at the source of
 some other projects using the same toolkit.
-(1.2)
+</p>
+
+<p> Using gtkmm 2:
+<ul>
+<li><a href="http://gabber.sourceforge.net/">Gabber 2</a> GNOME Jabber IM client.</li>
+<li><a href="http://gex.sourceforge.net/">Gex</a> File manager</li>
+<li><a href="http://www.glom.org/">Glom</a> MySQL Database GUI</li>
+<li><a href="http://lostirc.sourceforge.net/">LostIRC</a> IRC client</li>
+<li><a href="http://sourceforge.net/projects/prefixsuffix/">PrefixSuffix</a> Renames batches of files.</li>
+<li><a href="http://sourceforge.net/projects/regexxer/">Regexxer</a> Project-wide search/replace with visual feedback.</li>
+</ul>
+
+</p>
+
+<p>
+Using gtkmm 1.2:
 <ul>
 <li><a href="http://ardour.sourceforge.net/">ardour</a>, a multichannel hard disk recorder and digital audio workstation</li>
-<li><a href="http://gabber.sourceforge.net/">gabber</a>, GNOME Jabber client.</li>
-<li><a href="http://cdrdao.sourceforge.net/">gcdmaster</a>, a cdrdao frontend.</li>
 
+<li><a href="http://cdrdao.sourceforge.net/">gcdmaster</a>, a cdrdao frontend.</li>
+<li><a href="http://gabber.sourceforge.net/">gabber</a>, GNOME Jabber client.</li>
 <li><a href="http://gensql.sourceforge.net/">genSQL</a>, a generic SQL GUI.</li>
 <li><a href="http://cactus.rulez.org/projects/gnomoku/">Gnomoku</a>, Gomoku game for GNOME</li>
 <li><a href="http://gnuvoice.sourceforge.net/">gnuvoice</a>, a GUI voicemail / speakerphone / caller ID application.</li>
 <li><a href="http://gtkmail.sourceforge.net/">gtkmail</a>, a MIME compliant GUI email client</li>
 <li><a href="http://cactus.rulez.org/projects/guikachu/">Guikachu</a>, graphical resource editor for PalmOS applications</li>
-<li><a href="http://www.akio-solutions.com/guillaume/">Gvier</a>, game based off "Power of four"</li>
+<li><a href="http://www.akio-solutions.com/guillaume/">Gvier</a>, game based on "Power of four"</li>
 
 <li><a href="http://gvbox.sourceforge.net/">Gvbox</a>, graphical frontend to isdn4linux answering machine</li>
 <li><a href="http://yotam.freehosting.net/software/ped/ped.html">Ped</a> Path editor utility </li>
@@ -47,16 +62,14 @@ some other projects using the same toolkit.
 <li><a href="http://softwerk.sourceforge.net/">softwerk</a>, software analogue MIDI sequencer</li>
 
 <li><a href="http://terraform.sourceforge.net/">terraform</a>, Terrain generator (very cool)</li>
-<li><a href="http://www.glom.org/">Glom</a> MySQL Database GUI</li>
-<li><a href="http://lostirc.sourceforge.net/">LostIRC</a>, an IRC client</li>
+
+
 <li><a href="http://ickle.sourceforge.net/">ickle</a>, an ICQ client</li>
 <li><a href="http://cap.sourceforge.net/">Chained Audio Plugins</a></li>
 <li><a href="http://guillaume.cottenceau.free.fr/html/grany.html">Grany-3</a>, the cellular automaton simulator. </li>
 <li><a href="http://paloma.sourceforge.net/">Paloma</a>, music
 management system</li>
-<li><a href="http://gex.sourceforge.net/">Gex</a>File manager</li>
-<li><a href="http://sourceforge.net/projects/prefixsuffix/">PrefixSuffix</a>Renames batches of files.</li>
-<li><a href="http://sourceforge.net/projects/regexxer/">regexxer</a>Project-wide search/replace.</li>
+
 </ul>
 </p>
 
