@@ -146,6 +146,12 @@ You will need to run the autogen.sh script to generate the build files. We recom
   <td>libgnomeuimm</td>
   <td>2.6</td>
   <td>gnomemm/libgnomeuimm</td>
+  <td>gnome-2-6</td>
+</tr>
+<tr>
+  <td>libgnomeuimm</td>
+  <td>2.7/2.8</td>
+  <td>gnomemm/libgnomeuimm</td>
   <td>HEAD</td>
 </tr>
 <tr>
