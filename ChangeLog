@@ -1,5 +1,10 @@
 2004-04-12  Murray Cumming  <murrayc@murrayc.com>
 
+	* fragments/html_declaration.html_fragment: Link to 2.4 docs instead of
+	the 2.2 docs.
+
+2004-04-12  Murray Cumming  <murrayc@murrayc.com>
+
 	* fragments/html_declaration.html_fragment: Show new stable versions.
 	* extras.html: Show some gtkmm-2.4-using applications.
 
