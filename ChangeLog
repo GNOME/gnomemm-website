@@ -1,3 +1,11 @@
+2004-03-12  Murray Cumming  <murrayc@murrayc.com>
+
+	* fragments/html_declaration.html_fragment: Changed commercial support
+	title to commerical.
+	* commercial_support.shtml: Added Northrup Grumman, the gun-toting 
+	murdering bastards.
+	* downloads.shtml: Updated Mandrake information. Added gentoo.
+
 2004-02-26  Murray Cumming  <murrayc@murrayc.com>
 
 	* extras.shtml: Added Liar Liar.
