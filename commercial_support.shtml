@@ -4,6 +4,15 @@
 
 <h2>Commercial Support</h2>
 <p>
+Lots of corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. The following companies are happy to be explicitly listed as users of gtkmm. This list is small, because we only recently started asking for endorsments, and because companies have no incentive to give us permission.
+<ul>
+<li><a href="http://www.180sw.com/">OneEighty Software</a> - embedded and telecoms</li>
+<li><a href="http://www.spacetec.no/">Kongsberg Spacetec</a> - satellite/meteorological</li>
+</ul> 
+</p>
+<p>If you would like to be listed here please send email to the <a href="mailinglist.shtml">mailing list</a> or a maintainer.</p>
+
+<p>
 The mailing lists, irc, and documentation are helpful, but your company might
 require more in-depth assistance or custom development. If so feel free to contact the following freelance developers directly to discuss a commercial arrangement. If necessary we can also build larger development teams.
 </p>
