@@ -1,5 +1,10 @@
 2002-10-31  Murray Cumming  <murrayc@usa.net>
 
+	* Updated the "gtkmm2 is not yet complete" text now that we've 
+	release 2.0.0.
+
+2002-10-31  Murray Cumming  <murrayc@usa.net>
+
 	* Corrected FAQ link.
 
 2002-10-17  Murray Cumming  <murrayc@usa.net>
