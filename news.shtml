@@ -6,6 +6,9 @@
 <p>
 <ul>
 <li>
+October 2003: gtkmm 2.3.0 was released. This will become the new stable, parallel-installable, gtkmm 2.4 in March 2004.
+</li>
+<li>
 March 2003: libsigc++ <a href="http://www.ddj.com/documents/s=1642/ddj0303d/">article</a> in Dr Dobb's Journal.
 </li>
 <li>

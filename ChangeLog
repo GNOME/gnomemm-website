@@ -1,3 +1,7 @@
+2003-11-04  Murray Cumming  <murrayc@usa.net>
+
+	* news.shtml: Mentioned gtkmm 2.3.0. 
+
 2003-10-25  Murray Cumming  <murrayc@usa.net>
 
 	* index.shtml: Mentioned how we plan to sync with GTK+ and GNOME.
