@@ -9,16 +9,24 @@
 <a href="http://sourceforge.net/projects/gtkmm/">
 <img src="images/save.gif" vspace="0" border="0" width="24" height="24" alt="*" /></a>
 The source packages for gtkmm are available on the
-<a href="http://sourceforge.net/projects/gtkmm/">sourceforge download area</a>.
-Libsigc++ (1.0.x for gtkmm 1.2, and 1.1.x for the unstable gtkmm 1.3) must also be installed, available 
-<a
-href="http://sourceforge.net/project/showfiles.php?group_id=1970">here</a>
+<a href="http://sourceforge.net/projects/gtkmm/">sourceforge download area</a>.<br />
 </p>
+
+<h3>Requirements</h3>
+<p>
+<ul>
+<li><a href="http://www.gtk.org">GTK+</a></li>
+<li><a href="http://libsigc.sourceforge.net">libsigc++</a> (1.0.x for gtkmm 1.2 and 1.1.x for the unstable gtkmm 1.3)</li>
+</ul>
+</p>
+
+<h3>GTK+</h3>
+<p>You can download GTK+ and GNOME from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
 
 <h3>Links to package maintainer web pages and ftp sites</h3>
 <p>
 <ul>
-<li><a href="http://www.hvrlab.org/~hvr/gtk--/">rpm</a> packages web site by Herbert Valerio Riedel</li>
+<li><a href="http://www.hvrlab.org/~hvr/gtk--/">RPM</a> packages web site by Herbert Valerio Riedel</li>
 </ul>
 </p>
 

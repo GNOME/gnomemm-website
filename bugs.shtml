@@ -17,7 +17,7 @@
 
 <h3>Where to report?</h3>
 <ul>
-<li><a href="mailinglist.shtml"><img src="pix/mail.gif" border="0" width="24" height="24" alt="Mailling List" /> gtkmm mailing list</a> </li>
+<li><a href="mailinglist.shtml"><img src="images/mail.gif" border="0" width="24" height="24" alt="Mailling List" /> gtkmm mailing list</a> </li>
 <li>Bugs are tracked in GNOME's <a href="http://bugzilla.gnome.org">bugzilla</a><br>
 Submit gtkmm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm">here</a>.<br>
 Submit gnomemm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm">here</a>.

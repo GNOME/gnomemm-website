@@ -8,7 +8,7 @@
 
 <ul>
 <li>Mailing list: <a href="mailto:gtkmm-main@lists.sourceforge.net">gtkmm-main@lists.sourceforge.net</a>.<br />
-To subscribe, go to the <a href="http://lists.sourceforge.net/mailman/listinfo/gtkmm-main">subscribe page <img src="pix/mail.gif" border="0" width="24" height="24" alt="Mailing List" /></a>.
+To subscribe, go to the <a href="http://lists.sourceforge.net/mailman/listinfo/gtkmm-main">subscribe page <img src="images/mail.gif" border="0" width="24" height="24" alt="Mailing List" /></a>.
 </li>
 <li>For general GTK discussion, use the <a href="http://www.gtk.org/mailinglists.html">gtk-list</a>.
 </li>
@@ -16,7 +16,6 @@ To subscribe, go to the <a href="http://lists.sourceforge.net/mailman/listinfo/g
 
 <h3>What subject material is appropriate for the list?</h3>
 
-<br />
 The gtkmm mailing list is primarily used for discussion of 
 development, bug reports, suggestions, and improvements 
 of the gtkmm wrapper itself.  There is also some discussion of use of the wrapper. Questions about the underlying GTK+ widget set 
@@ -25,7 +24,6 @@ gtk-list.
 <p />
 
 <h3>Are there archives of the list?</h3>
-<br />
 The most complete archive is located at 
 <a href="http://www.progressive-comp.com/Lists/?l=gtkmm&amp;r=1&amp;w=2#gtkmm">MARC</a>. Another archiver is available at
 <a href="http://www.geocrawler.com/lists/3/SourceForge/1110/0/">Geocrawler</a>.

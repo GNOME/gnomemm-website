@@ -29,7 +29,7 @@
  Here's an <a href="docs/gtkmm-faq.html">FAQ</a> about gtkmm and gnomemm.
  If you are curious about the status of gtkmm in relation to 
  GNOME and Inti, please read this <a href="statement.shtml">
-  statement</a> regarding the differences.
+ statement</a> regarding the differences.<br />
  <a href="http://sourceforge.net/news/?group_id=1161"><img src="images/news.gif" border="0" width="24" height="24" alt="News" /></a>
  Current news about the latest version is on the <a href="http://sourceforge.net/news/?group_id=1161">news page</a>
  <h1>New gtkmm related libraries</h1>

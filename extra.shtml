@@ -2,7 +2,7 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<h2>Extra</h2>
+<h2>Additional Resources</h2>
 <h3>Available widgets</h3>
 <p>
 In addition to the wrappers distributed with gtkmm, additional
