@@ -9,8 +9,7 @@ In addition to the wrappers distributed with gtkmm and gnomemm, additional
 widgets are available from other sources.
 <ul>
 <li><a href="http://gtkglext.sourceforge.net">GtkGlExtmm</a> OpenGL rendering for gtkmm</li>
-<li><a href="http://cactus.rulez.org/projects/panelmm/">Panel--</a>, GNOME panel applet wrapper by Gerg? ?rdi</li>
-<li><a href="http://gtkextramm.sourceforge.net/">GtkExtra--</a>, Wrappers for GtkExtra (sheet, etc)</li>
+<li><a href="http://gtkextramm.sourceforge.net/">GtkExtra--</a>, Wrappers for GtkExtra (plot, sheet, etc)</li>
 
 </ul>
 </p>
@@ -29,10 +28,17 @@ If all else fails, sometimes it is good to look at the source of
 some other projects using the same toolkit.
 </p>
 
+<p> Using gtkmm 2.4:
+<ul>
+<li><a href="http://regexxer.sourceforge.net/">Regexxer</a> Multi-file search/replace with visual feedback.</li>
+<li><a href="http://subsubsub.sourceforge.net">SubSubSub</a> Creation of hierarchical text documents.</li>
+<li><a href="http://prefixsuffix.sourceforge.net/">PrefixSuffix</a> Renames batches of files.</li>
+</ul>
+</p>
+
 <p> Using gtkmm 2.0/2.2:
 <ul>
 <li><a href="http://www.stacken.kth.se/project/pptout/">Passepartout</a> DTP.</li>
-<li><a href="http://regexxer.sourceforge.net/">Regexxer</a> Multi-file search/replace with visual feedback.</li>
 <li><a href="http://www.workrave.org/">Workrave</a> Assists in recovery and prevention of RSI.</li>
 <li><a href="http://www.cs.auc.dk/~olau/hardware-monitor/">Hardware Monitor</a> GNOME panel applet.</li>
 <li><a href="http://heavymole.sourceforge.net/">HeavyMole</a> File sharing client.</li>
@@ -43,9 +49,7 @@ some other projects using the same toolkit.
 <li><a href="http://www.glom.org/">Glom</a> MySQL Database GUI</li>
 <li><a href="http://gspeakers.sourceforge.net/">gspeakers</a> Loudspeaker designer</li>
 <li><a href="http://lostirc.sourceforge.net/">LostIRC</a> IRC client</li>
-<li><a href="http://prefixsuffix.sourceforge.net/">PrefixSuffix</a> Renames batches of files.</li>
 <li><a href="http://www.cvine.freeserve.co.uk/efax-gtk/">Efax-gtk</a> GUI frontend for the efax fax program.</li>
-<li><a href="http://subsubsub.sourceforge.net">SubSubSub</a> Creation of hierarchical text documents.</li>
 <li><a href="http://visage.sourceforge.net">Visage</a> Organise and visualise information.</li>
 <li><a href="http://gwavmerger.sourceforge.net">gwavmerger</a> Foreign language learning tool.</li>
 <li><a href="http://www.nongnu.org/ghosts/gedcomviewer/">GEDCOM Viewer</a> Geneology database viewer.</li>
