@@ -9,22 +9,11 @@
 <ul>
 <li><a href="http://www.gtk.org">GTK+</a></li>
 <li><a href="http://libsigc.sourceforge.net">libsigc++</a></li>
-<li><a href="http://www.gnome.org">gnome-libs</a> (optional)</li>
 </ul>
 
 <h3>GTK+</h3>
 <p>You can download GTK+ and GNOME from <a href="http://download.gnome.org/">download.gnome.org</a>.</p>
 
-
-<h3>Tools</h3>
-The following tools are required for building gtkmm source packages: 
-<ul>
-  <li>GNU m4 (<a href="ftp://ftp.funet.fi/pub/gnu/gnu/">get</a>) </li>
-  <li>GNU make (<a href="ftp://ftp.funet.fi/pub/gnu/gnu/">get</a>)</li>
-  <li>Perl</li>
-
-</ul>
-</p>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->
