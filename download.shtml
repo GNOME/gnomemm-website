@@ -22,7 +22,7 @@ The source packages for gtkmm are available on the
 <p>Here are dependency graphs for <a href="jhbuild_dot_gtkmm.png">gtkmm</a> and <a href="jhbuild_dot_gnomemm.png">gnomemm</a>, generated automatically with jhbuild and graphviz.</p>
 
 <h3>GTK+</h3>
-<p>You can download GTK+ and GNOME from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
+<p>You can download GTK+ and GNOME source code from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
 
 <h3>Binary</h3>
 <p>You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your Linux distribution to provide official gtkmm packages.</para>
