@@ -1,3 +1,7 @@
+2004-09-02  Murray Cumming  <murrayc@murrayc.com>
+
+	* cvs.shtml: Mention new gtkmm branch.
+
 2004-07-17  Murray Cumming  <murrayc@murrayc.com>
 
 	* extra.shtml: Guikachu now uses gtkmm 2.4.
