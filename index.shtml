@@ -15,7 +15,7 @@
  typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widget classes that can be freely combined to quickly create complex user interfaces. Here's an <a href="gtkmm2/docs/">overview</a>, with documentation and status. gtkmm is free software distributed under the GNU Library
  General Public License (<a href="license.shtml">LGPL</a>).
 </p>
-<p>Development is currently in progress on the unstable gtkmm 2.3 branch, which will become the new stable gtkmm 2.4. gtkmm 2.3/2.4 can be installed in parallel with gtkmm 2.2. The stable (API/ABI-frozen) gtkmm 2.4.0 will be released soon after GTK+ 2.4.0. In general, we plan to synchronize with the <a href="http://www.gnome.org/start/2.5/">GNOME development schedule</a>.</p>
+<p>Development is currently in progress on the unstable gtkmm 2.3 branch, which will become the new stable gtkmm 2.4. gtkmm 2.3/2.4 can be installed in parallel with the previous stable gtkmm 2.2. The stable (API/ABI-frozen) gtkmm 2.4.0 will be released soon after GTK+ 2.4.0. We follow the official GNOME Platform Bindings <a href="http://www.gnome.org/start/unstable/">release schedule</a>.</p>
  <h1>gnomemm</h1>
 <p>
  gnomemm (Previously known as Gnome--) is a set of powerful C++
