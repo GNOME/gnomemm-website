@@ -21,7 +21,7 @@
     <a class="menu" href="download.shtml">Download</a><br />
     <a class="menu" href="cvs.shtml">CVS</a><br />
     <br />
-    <b><a class="menu" href="gtkmm2/">Documentation</a></b><br />
+    <b><a class="menu" href="gtkmm2/docs/">Documentation</a></b><br />
     <a class="menu" href="docs/gtkmm-faq.html">FAQ</a><br />
     <a class="menu" href="mailinglist.shtml">Mailing Lists</a><br />
     <a class="menu" href="developers.shtml">Developers</a><br />
