@@ -8,7 +8,14 @@
 <p>
 <a href="http://sourceforge.net/projects/gtkmm/">
 <img src="images/save.gif" vspace="0" border="0" width="24" height="24" alt="*" /></a>
-The following source packages are available:</p>
+You should use the <a href="#Binary">binary packages</a> provided for your operating system unless you wish to test the latest versions. However, the following source packages are available:</p>
+<h4>gtkmm 2.5/2.6 and GNOME bindings:</h4>
+<p>These replace the gtkmm 2.4 versions and are currently unstable:</p>
+<ul>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.5/">glibmm 2.5</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.5/">gtkmm 2.5</a> (unstable)</li>
+</ul>
+
 <h4>gtkmm 2.4 and GNOME bindings:</h4>
 <p>These install in parallel with gtkmm 2.0/2.2 and gtkmm 1.2.</p>
 <ul>
@@ -51,8 +58,8 @@ The following source packages are available:</p>
 <h3>Requirements</h3>
 <p>
 <ul>
-<li><a href="http://www.gtk.org">GTK+</a> (2.2 for gtkmm 2.2, 2.4 for gtkmm 2.4)</li>
-<li><a href="http://libsigc.sourceforge.net">libsigc++</a> (1.2.x for gtkmm 2, or 1.0.x for gtkmm 1.2)</li>
+<li><a href="http://www.gtk.org">GTK+</a> (2.2 for gtkmm 2.2, 2.4 for gtkmm 2.4, 2.5 for gtkmm 2.5)</li>
+<li><a href="http://libsigc.sourceforge.net">libsigc++</a> (1.2.x for gtkmm 2.x, or 1.0.x for gtkmm 1.2)</li>
 </ul>
 </p>
 <p>Here are dependency graphs for <a href="jhbuild_dot_gtkmm.png">gtkmm</a> and <a href="jhbuild_dot_gnomemm.png">gnomemm</a>, generated automatically with jhbuild and graphviz.</p>
@@ -60,7 +67,7 @@ The following source packages are available:</p>
 <h3>GTK+</h3>
 <p>You can download GTK+ and GNOME source code from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
 
-<h3>Binary</h3>
+<h3><a name="Binary"/>Binary</h3>
 <p>You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your Linux distribution to provide official gtkmm packages.</para>
 <h4>gtkmm 2.2:</h4>
 <p>
