@@ -1,0 +1,21 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<h2>Recommended Books</h2>
+
+<p>
+The gtkmm developers find these books helpful:
+</p>
+
+<ul>
+<li><a href="http://www.amazon.com/exec/obidos/ISBN=0201889544/murrayswebpages/">The C++ Programming Language, Bjarne Stroustrup</li>
+<li><a href="http://www.amazon.com/exec/obidos/ISBN=0201379260/murrayswebpages/">The C++ Standard Library, Nicolai M. Josuttis</li>
+<li><a href="http://www.amazon.com/exec/obidos/ISBN=0201633612/murrayswebpages/">Design Patterns, Erich Gamma et al</li>
+<li><a href="http://www.amazon.com/exec/obidos/ISBN=0201379279/murrayswebpages/">Advanced CORBA Programming with C++, Michi Henning & Steve Vinoski</li>
+</ul>
+
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->
