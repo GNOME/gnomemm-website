@@ -58,10 +58,10 @@ by your own code.</p>
 <h3>How do I create a patch?</h3>
 <ul>
 <li>Take code from <a href="cvs.shtml">cvs</a></li>
-<li>modify that version</li>
-<li>check it compiles</li>
-
-<li>use cvs to build a patch
+<li>Modify that version</li>
+<li>Check it compiles</li>
+<li>Edit the ChangeLog</i>
+<li>Use cvs to build a patch
 <pre>
   cvs diff -u &gt; my_fix.patch
 </pre></li>

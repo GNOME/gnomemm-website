@@ -1,3 +1,8 @@
+2002-11-10  Olle de Zwart  <olle@endforward.com>
+	
+	* bugs.shtml: Added "patch changelog" bullet point to the how 
+	do I create a patch? section.
+
 2002-11-05  Murray Cumming  <murrayc@usa.net>
 
 	* download.shtml: Updated binary packages section to point to
