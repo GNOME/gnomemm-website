@@ -1,3 +1,8 @@
+2002-11-05  Murray Cumming  <murrayc@usa.net>
+
+	* download.shtml: Updated binary packages section to point to
+	the Ximian RPMs and mention the debian apt-get debs.
+
 2002-10-31  Murray Cumming  <murrayc@usa.net>
 
 	* Added books page, with amazon links, so I can cash in.
