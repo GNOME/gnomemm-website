@@ -37,10 +37,13 @@ We recently moved the mailing list. The new archives are here:
 </li>
 </ul>
 
-The old mailing list is archived at 
 <a
-href="http://www.progressive-comp.com/Lists/?l=gtkmm&amp;r=1&amp;w=2#gtkmm">MARC</a>.
+href="http://www.progressive-comp.com/Lists/?l=gtkmm&amp;r=1&amp;w=2#gtkmm">MARC</a> archives both the old and new mailing list, and has a more reliable search engine.
 </p>
+
+<h3>irc channel</h3>
+<p>
+We also discuss development in the #c++ channel on irc.gnome.org, but questions are more likely to be answered properly on the mailing list. Plus, the mailing list is archived, so others can benefit from the answers.</p>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->

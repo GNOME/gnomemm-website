@@ -2,21 +2,17 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
- <!-- Big gtkmm logo and introduction text: -->
+ <!-- Big gtkmm logo: -->
  <div class="center">
   <a href="gtkmm2/docs/"><img src="images/gtkmm_logo.gif"
    alt="gtkmm logo" width="375" height="145" border="0" /><br /></a>
-  <h1>New: gtkmm 2</h1>
-  <p>
-  <a href="gtkmm2/docs/">gtkmm2</a> is now here, and it's even easier to use. Plus we also have a GNOME2 version of gnomemm.<br/>Here's an <a href="gtkmm2/docs/">overview</a>, with documentation and status.
-  </p>
  </div>
  <!-- Descriptions of sub-parts: -->
 
  <h1>gtkmm</h1>
 <p>
  gtkmm (previously known as Gtk--) is the official C++ interface for the popular GUI library <a href="http://www.gtk.org/">GTK+</a>.  Highlights include
- typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widget classes that can be freely combined to quickly create complex user interfaces. gtkmm is free software distributed under the GNU Library
+ typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widget classes that can be freely combined to quickly create complex user interfaces. Here's an <a href="gtkmm2/docs/">overview</a>, with documentation and status. gtkmm is free software distributed under the GNU Library
  General Public License (<a href="license.shtml">LGPL</a>).
 </p>
  <h1>gnomemm</h1>
@@ -28,7 +24,7 @@
  <h1>libsigc++</h1>
 <p>
  Also, be sure to check out our companion library, <a href="http://libsigc.sourceforge.net/">libsigc++</a>.
- Due to popular demand our signal/slot library is now provided
+ Due to popular demand our signal/slot library was provided
  separately for use in non-GUI code. Thus
  all the power of typesafe callbacks and flexible adaptor classes is
  available for use, without changes to the C++ language.
@@ -36,8 +32,8 @@
  <h1>Other gtkmm-related libraries</h1>
 <p>
  Be sure to check out <a href="http://bakery.sourceforge.net/">Bakery</a>
- a framework for constructing gnomemm applications.  It allows use of the Document/View architecture.  Also for gtkmm, 
- <a href="http://gtkextramm.sourceforge.net/"> GtkExtra--</a> for those 
+ a framework for constructing gtkmm/gnomemm applications.  It allows use of the Document/View architecture.  Also for gtkmm, 
+ <a href="http://gtkextramm.sourceforge.net/"> gtkextramm</a> for those 
  extra widget wrappers.
 </p>
 
