@@ -6,10 +6,10 @@
 
 <h3>Source Packages</h3>
 <p>
-<a href="http://sourceforge.net/project/showfiles.php?group_id=1161">
+<a href="http://sourceforge.net/projects/gtkmm/">
 <img src="images/save.gif" vspace="0" border="0" width="24" height="24" alt="*" /></a>
 The source packages for gtkmm are available on the
-<a href="http://sourceforge.net/project/showfiles.php?group_id=1161">sourceforge download area</a>.
+<a href="http://sourceforge.net/projects/gtkmm/">sourceforge download area</a>.
 Libsigc++ (1.0.x for gtkmm 1.2, and 1.1.x for the unstable gtkmm 1.3) must also be installed, available 
 <a
 href="http://sourceforge.net/project/showfiles.php?group_id=1970">here</a>
