@@ -1,3 +1,8 @@
+2002-12-23  Murray Cumming  <murrayc@usa.net>
+
+	* news.shtml: Added item about freezing of liglademm, gconfmm, and
+	libgnomecanvasmm.
+
 2002-12-17  Murray Cumming  <murrayc@usa.net>
 
 	* Makefile: Generate and uploads jhbuild-generated dependency graphs.

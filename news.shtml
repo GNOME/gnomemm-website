@@ -6,6 +6,9 @@
 <p>
 <ul>
 <li>
+December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 released - these APIs are binary-frozen.
+</li>
+<li>
 October 2002: gtkmm 2.0.0 is <a href="http://lists.gnome.org/archives/gtkmm-list/2002-October/msg00334.html">released</a> - the API is binary-frozen.
 </li>
 <li>
