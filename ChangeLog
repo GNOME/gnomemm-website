@@ -1,5 +1,9 @@
 2002-06-28  Murray Cumming  <murrayc@usa.net>
 
+	* extras.shtml: Removed some dead and uninteresting links.
+
+2002-06-28  Murray Cumming  <murrayc@usa.net>
+
 	* fragments/html_declaration.html_fragment: Increased release
 	version numbers.
 	* mailinglist.shtml: Updated for move to *-list@gnome.org mailing 
