@@ -1,5 +1,10 @@
 2004-03-12  Murray Cumming  <murrayc@murrayc.com>
 
+	* commercial_support.shtml: Added MySQL.com.
+	* extras.shtml: Added MySQL Administrator.
+
+2004-03-12  Murray Cumming  <murrayc@murrayc.com>
+
 	* fragments/html_declaration.html_fragment: Changed commercial support
 	title to commerical.
 	* commercial_support.shtml: Added Northrup Grumman, the gun-toting 
