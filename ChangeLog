@@ -1,3 +1,8 @@
+2002-12-10  Murray Cumming  <murrayc@usa.net>
+
+	* fragments/html_declaration.html_fragment: Use 2.0.x, etc, for
+	version numbers. It's annoying to keep updating this.
+
 2002-11-29  Murray Cumming  <murrayc@usa.net>
 
 	* bugs.shtml: Added orbitcpp bugzilla query links.
