@@ -29,8 +29,9 @@ If all else fails, sometimes it is good to look at the source of
 some other projects using the same toolkit.
 </p>
 
-<p> Using gtkmm 2:
+<p> Using gtkmm 2.0/2.2:
 <ul>
+<li><a href="http://www.stacken.kth.se/project/pptout/">Passepartout</a> DTP.</li>
 <li><a href="http://regexxer.sourceforge.net/">Regexxer</a> Multi-file search/replace with visual feedback.</li>
 <li><a href="http://www.workrave.org/">Workrave</a> Assists in recovery and prevention of RSI.</li>
 <li><a href="http://www.cs.auc.dk/~olau/hardware-monitor/">Hardware Monitor</a> GNOME panel applet.</li>

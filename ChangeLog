@@ -1,6 +1,14 @@
+2003-11-23  Murray Cumming  <murrayc@usa.net>
+
+	* extras.shtml: Added Passepartout.
+
+2003-11-23  Murray Cumming  <murrayc@usa.net>
+
+	* cvs.shtml: Added table of modules and branches.
+
 2003-11-05  Murray Cumming  <murrayc@usa.net>
 
-	* mailinglist.shtml: Mentioned the gladmem list and pointed out that
+	* mailinglist.shtml: Mentioned the glademm list and pointed out that
 	it != libglademm.
 	* cvs.shtml: Simplified the page.
 
