@@ -1,3 +1,7 @@
+2002-11-29  Murray Cumming  <murrayc@usa.net>
+
+	* bugs.shtml: Added orbitcpp bugzilla query links.
+
 2002-11-19  Murray Cumming  <murrayc@usa.net>
 
 	* extra.shtml: Rearranged applications into gtkmm 1.2 and gtkmm 2
