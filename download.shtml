@@ -30,7 +30,7 @@ The source packages for gtkmm are available on the
 <p>
 <ul>
 <li>Debian Linux: apt-get install libgtkmm2.0-dev</li>
-<li>RedHat Linux: Please request them <a href="http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=82473"></a>, giving reasons.</li>
+<li>RedHat Linux: Please request them <a href="http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=82473">here</a>, giving reasons.</li>
 <li>Windows: Here is an <a href="http://www.pcpm.ucl.ac.be/~gustin/win32_ports/">installer</a>.</li>
 </ul>
 </p>
