@@ -3,6 +3,12 @@
 	* extra.shtml: Rearranged applications into gtkmm 1.2 and gtkmm 2
 	lists.
 
+2002-11-15  Murray Cumming  <murrayc@usa.net>
+
+	* bugs.shtml: Added section for API bugs that will be fixed when
+	we do an API break. Kept them out of the stable-branch bugs sections.
+
+	
 2002-11-10  Olle de Zwart  <olle@endforward.com>
 	
 	* bugs.shtml: Added "patch changelog" bullet point to the how 
