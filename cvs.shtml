@@ -72,7 +72,7 @@ You will need to run the autogen.sh script to generate the build files. We recom
 </tr>
 <tr>
   <td>gtkmm</td>
-  <td>2.5/2.6</td>
+  <td>2.6</td>
   <td>gtkmm</td>
   <td>HEAD</td>
 </tr>
@@ -84,7 +84,13 @@ You will need to run the autogen.sh script to generate the build files. We recom
 </tr>
 <tr>
   <td>glibmm</td>
-  <td>2.5/2.6</td>
+  <td>2.6</td>
+  <td>glibmm</td>
+  <td>glibmm-2-6</td>
+</tr>
+<tr>
+  <td>glibmm</td>
+  <td>2.7/2.8</td>
   <td>glibmm</td>
   <td>HEAD</td>
 </tr>
