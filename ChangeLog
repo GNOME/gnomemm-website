@@ -1,5 +1,9 @@
 2002-10-31  Murray Cumming  <murrayc@usa.net>
 
+	* menu: Changed unstable to 2.0 and stable to old.
+
+2002-10-31  Murray Cumming  <murrayc@usa.net>
+
 	* Updated the "gtkmm2 is not yet complete" text now that we've 
 	release 2.0.0.
 
