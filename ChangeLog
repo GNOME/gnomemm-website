@@ -1,3 +1,8 @@
+2002-06-30  Murray Cumming  <murrayc@usa.net>
+
+	* news.shtml: Added bit about DDJ article.
+	* fragments/footer.html_fragment: Added link to website cvs source.
+
 2002-06-29  Murray Cumming  <murrayc@usa.net>
 
 	* Removed FAQ spiel from front page - added link to menu.

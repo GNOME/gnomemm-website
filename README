@@ -1,0 +1,11 @@
+This is the source of the gtkmm web site.
+
+Morten Brix Pedersen designed the visual layout and the CSS implementation. 
+
+* It uses CSS positioning via style.css.
+* It uses SSI to further reduce duplication of markup.
+* Use "make post-html" to upload the site.
+* Please mention changes in ChangeLog.
+* Please discuss changes on gtkmm-list@gnome.org
+* Please post patches to http://bugzilla.gnome.org
+
