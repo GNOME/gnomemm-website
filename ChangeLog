@@ -1,3 +1,7 @@
+2005-03-13  Murray Cumming  <murrayc@murrayc.com>
+
+	* news.shtml: Mentioned gtkmm 2.6.
+
 2005-02-01  Murray Cumming  <murrayc@murrayc.com>
 
 	* bugs.shtml: Removed the patches and no patches links because 

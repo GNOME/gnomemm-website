@@ -6,6 +6,9 @@
 <p>
 <ul>
 <li>
+March 2005: gtkmm and glibmm 2.6.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html"released</a>, as per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-compatible with gtkmm 2.4, with API additions.
+</li>
+<li>
 April 2004: gtkmm and glibmm 2.4.0 <a href="http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html"released</a>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2. 
 </li>
 <li>

@@ -11,20 +11,23 @@
 
  <h1>gtkmm</h1>
 <p>
- gtkmm is the official C++ interface for the popular GUI library <a href="http://www.gtk.org/">GTK+</a>. It closely follows GTK+ development. Highlights include
+ gtkmm is the official C++ interface for the popular GUI library <a href="http://www.gtk.org/">GTK+</a>. Highlights include
  typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widgets. You can create user interfaces either in code or with the Glade designer, using libglademm. Here's an <a href="docs/gtkmm-2.4/docs/">overview</a>, with documentation and status. gtkmm is free software distributed under the GNU Library
  General Public License (<a href="license.shtml">LGPL</a>).
 </p>
-<p>The new gtkmm 2.4 has recently become API/ABI stable, and can be installed in parallel with the previous stable gtkmm 2.2. gtkmm development is synchronised with GTK+. We follow the official GNOME Platform Bindings <a href="http://www.gnome.org/start/unstable/">release schedule</a>.</p>
+<p>We follow the official GNOME Platform Bindings <a href="http://www.gnome.org/start/unstable/">release schedule</a>. That guarantees API/ABI-stability and new releases on a predictable schedule, delivering C++ API for the underlying GTK+ and GNOME APIs as soon as possible.</p>
+
  <h1>gnomemm</h1>
 <p>
  There is also a set of powerful C++ bindings for the <a href="http://www.gnome.org/">GNOME</a> libraries,
  which provide additional functionality above GTK+/gtkmm.
 </p>
+
  <h1>libsigc++</h1>
 <p>
  Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <a href="http://libsigc.sourceforge.net/">libsigc++</a> (signal/slots).
 </p>  
+
  <h1>Other gtkmm-related libraries</h1>
 <p>
  Be sure to check out <a href="http://bakery.sourceforge.net/">Bakery</a>
