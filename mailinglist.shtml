@@ -7,12 +7,12 @@
 <h3>Where is the gtkmm mailing list?</h3>
 
 <ul>
-<li>gtkmm mailing list: <a
-href="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</a>. To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page <img src="images/mail.gif" border="0" width="24" height="24" alt="Mailing List" /></a>.
+<li><b>gtkmm mailing list</b>: <a
+href="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</a>. To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</a>.
 </li>
-<li>gnomemm mailing list: <a
-href="mailto:gtkmm-main@lists.sourceforge.net">gtkmm-main@lists.sourceforge.net</a>.
-To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gnomemm-list">subscribe page <img src="images/mail.gif" border="0" width="24" height="24" alt="Mailing List" /></a>.
+<li><b>gnomemm mailing list</b>: <a
+href="mailto:gnomemm-list@gnome.org">gnomemm-list@gnome.org</a>.
+To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gnomemm-list">subscribe page</a>.
 </li>
 <li>For general GTK+ discussion, please use the <a href="http://www.gtk.org/mailinglists.html">gtk-list</a>.
 </li>
