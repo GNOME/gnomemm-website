@@ -5,7 +5,7 @@
 <h2>License</h2>
 <p>
 gtkmm is licensed under the <a href="http://www.gnu.org">GNU</a> Library General Public License
-(<a href="http://www.gnu.org/licenses/lgpl.html#TOC1">LGPL</a>)for all platforms.  Our intent in licensing it in this way is to
+(<a href="http://www.gnu.org/licenses/lgpl.html#TOC1">LGPL</a>) for all platforms.  Our intent in licensing it in this way is to
 provide it for use through shared libraries in all projects both 
 open and proprietary.  Other GNU projects may of course integrate
 and link in a static manner.  The full body of the license is
