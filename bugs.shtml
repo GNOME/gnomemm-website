@@ -5,11 +5,12 @@
 <h2>Bugs</h2>
 <p>
 <h3>Current bugs/patches</h3>
+<p>See <a href="#NewBugs">Where to report</a> to submit new bugs or patches.</p>
 
-<h4>Stable branch (gtkmm 2.2)</h4>
+<h4>Stable branch (gtkmm 2.4)</h4>
 <ul>
-<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=1.2&version=2.0&version=2.2&version=unspecified&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&order=Reuse+same+sort+as+last+time&form_name=query">gtkmm bugs</a>
-(<a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=1.2&version=2.0&version=2.2&version=unspecified&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">patches</a>).</li>
+<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=2.4&version=unspecified&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&order=Reuse+same+sort+as+last+time&form_name=query">gtkmm bugs</a>
+(<a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=2.4&version=unspecified&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">patches</a>).</li>
 <li>Outstanding <a
 href="http://bugzilla.gnome.org/buglist.cgi?product=gnomemm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">gnomemm
 bugs</a>
@@ -19,8 +20,8 @@ href="http://bugzilla.gnome.org/buglist.cgi?product=orbit-cpp&bug_status=UNCONFI
 (<a href="http://bugzilla.gnome.org/buglist.cgi?product=orbit-cpp&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">patches</a>).</li>
 </ul>
 
-<h4>Unstable branch (glibmm/gtkmm 2.4)</h4>
-<para>These bugs might require API changes compared to gtkmm 2.0/2.2, and/or wrap new functionality in GTK+ 2.4.
+<h4>Unstable branch (glibmm/gtkmm 2.5)</h4>
+<p>These bugs might require API changes compared to gtkmm 2.4, and/or wrap new functionality in GTK+. These patches will be applied at some point in the future.</p> 
 <ul>
 <li>Outstanding 
 <a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=2.4&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">gtkmm bugs</a>
@@ -30,6 +31,13 @@ href="http://bugzilla.gnome.org/buglist.cgi?product=orbit-cpp&bug_status=UNCONFI
 <a href="http://bugzilla.gnome.org/buglist.cgi?product=glibmm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">glibmm bugs</a>
 (<a href="http://bugzilla.gnome.org/buglist.cgi?product=glibmm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">patches</a>) (<a href="http://bugzilla.gnome.org/buglist.cgi?product=glibmm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=nowords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">without patches</a>).</li>
 </ul>
+
+<h4>Old branches (gtkmm 2.0/2.2 and 1.2)</h4>
+<ul>
+<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=1.2&version=2.0&version=2.2&version=unspecified&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&order=Reuse+same+sort+as+last+time&form_name=query">gtkmm bugs</a>
+(<a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=1.2&version=2.0&version=2.2&version=unspecified&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">patches</a>).</li>
+</ul>
+
 
 <h4>Others</h4>
 <ul>
@@ -43,9 +51,8 @@ bugs</a> - a good way to get involved.</li>
 
 <p>As soon as a gtkmm or gnomemm patch has been clearly approved by a maintainer, anybody with cvs write access may apply it.</p>
 
-<h3>Where to report?</h3>
+<h3><a name="NewBugs"/>Where to report?</h3>
 <ul>
-<li><a href="mailinglist.shtml"><img src="images/mail.gif" border="0" width="24" height="24" alt="Mailling List" /> gtkmm mailing list</a> </li>
 <li>Bugs are tracked in GNOME's <a href="http://bugzilla.gnome.org">bugzilla</a><br>
 Submit gtkmm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm">here</a>.<br>
 Submit gnomemm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm">here</a>.
@@ -60,12 +67,11 @@ keyword in bugzilla, and remember to patch the ChangeLog, too.</li>
 
 <h3>What information is needed for a bug report?</h3>
 <ul>
-<li>version numbers of GTK+, gtkmm and other related software</li>
+<li>version numbers of GTK+, gtkmm and other related software, including your platform/distro/compiler.</li>
 <li>description of the bug</li>
 <li>information to reproduce the bug</li>
 <li>stack dump, if relevant:
 <pre>
-
 gdb ./proggy ; run ; *crash* ; where
 </pre></li>
 <li>keep it small but detailed</li>
@@ -84,25 +90,19 @@ by your own code.</p>
 <li>Edit the ChangeLog</i>
 <li>Use cvs to build a patch
 <pre>
-  cvs diff -u &gt; my_fix.patch
+  cvs diff -up &gt; my_fix.patch
 </pre></li>
 <li>Add the patch to bugzilla (see above).</li>
 </ul>
 
 <h3>Should I send a bug report?</h3>
+<p>
+Always send a bug report:
 <ul>
-<li>Always send a bug report:
-<ul>
-  <li>If you get sigsegv and you think it might be problem with gtkmm.</li>
+  <li>If you get a crash and you think it might be problem with gtkmm.</li>
 
   <li>If you cannot compile gtkmm.</li>
   <li>If you have a good idea of how to make gtkmm better.</li>
-</ul>
-</li>
-<li>Never send a bug report:
-<ul>
-  <li>If release notes or this web page mentions the bug. (a patch would be neat though)</li>
-</ul></li>
 </ul>
 
 </p>
