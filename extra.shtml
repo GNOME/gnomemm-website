@@ -36,6 +36,7 @@ some other projects using the same toolkit.
 <li><a href="http://towel.sourceforge.net">Towel</a> Audio player.</li>
 <li><a href="http://www.coaster-burn.org/">Coaster</a> CD Burning.</li>
 <li><a href="http://www.glom.org/">Glom</a> Database Environment.</li>
+<li><a href="http://cactus.rulez.org/projects/guikachu/">Guikachu</a>, graphical resource editor for PalmOS applications</li>
 </ul>
 </p>
 
@@ -80,7 +81,6 @@ Using gtkmm 1.2:
 <li><a href="http://cactus.rulez.org/projects/gnomoku/">Gnomoku</a>, Gomoku game for GNOME</li>
 <li><a href="http://gnuvoice.sourceforge.net/">gnuvoice</a>, a GUI voicemail / speakerphone / caller ID application.</li>
 <li><a href="http://gtkmail.sourceforge.net/">gtkmail</a>, a MIME compliant GUI email client</li>
-<li><a href="http://cactus.rulez.org/projects/guikachu/">Guikachu</a>, graphical resource editor for PalmOS applications</li>
 <li><a href="http://www.akio-solutions.com/guillaume/">Gvier</a>, game based on "Power of four"</li>
 
 <li><a href="http://gvbox.sourceforge.net/">Gvbox</a>, graphical frontend to isdn4linux answering machine</li>
