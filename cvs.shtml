@@ -151,7 +151,7 @@ You will need to run the autogen.sh script to generate the build files. We recom
 <tr>
   <td>libgnome-vfsmm</td>
   <td>2.6</td>
-  <td>gnomemm/libgnome-vfsmm</td>
+  <td>gnomemm/gnome-vfsmm</td>
   <td>HEAD</td>
 </tr>
 <tr>
