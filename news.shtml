@@ -6,6 +6,9 @@
 <p>
 <ul>
 <li>
+April 2004: gtkmm and glibmm 2.4.0 <a href="http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html"released</a>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2. 
+</li>
+<li>
 October 2003: gtkmm 2.3.0 was released. This will become the new stable, parallel-installable, gtkmm 2.4 in March 2004.
 </li>
 <li>
