@@ -30,9 +30,10 @@ Submit gtkmm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm
 Submit gnomemm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm">here</a>.
 
 </li>
-<li>Patches should be attached to bugzilla bugs rather than sent to
-the mailing list. Please use the PATCH keyword in bugzilla, and
-remember to patch the ChangeLog also.</li>
+<li>Patches should be attached to existing bugzilla bugs rather than sent to
+the mailing list.  When reporting a new bug you'll get a chance to attach a
+file to it immediately <em>after</em> opening the bug.  Please use the PATCH
+keyword in bugzilla, and remember to patch the ChangeLog, too.</li>
 </ul>
 <p />
 
