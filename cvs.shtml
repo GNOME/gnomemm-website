@@ -80,6 +80,12 @@ You will need to run the autogen.sh script to generate the build files. We recom
   <td>glibmm</td>
   <td>2.4</td>
   <td>glibmm</td>
+  <td>glibmm-2.4</td>
+</tr>
+<tr>
+  <td>glibmm</td>
+  <td>2.5/2.6</td>
+  <td>glibmm</td>
   <td>HEAD</td>
 </tr>
 </table>
@@ -128,6 +134,18 @@ You will need to run the autogen.sh script to generate the build files. We recom
   <td>gconfmm</td>
   <td>2.6</td>
   <td>gnomemm/gconfmm</td>
+  <td>HEAD</td>
+</tr>
+<tr>
+  <td>libgnomecanvasmm</td>
+  <td>2.0</td>
+  <td>gnomemm/libgnomecanvasmm</td>
+  <td>gnome-2-4</td>
+</tr>
+<tr>
+  <td>libgnomecanvasmm</td>
+  <td>2.6</td>
+  <td>gnomemm/libgnomecanvasmm</td>
   <td>HEAD</td>
 </tr>
 <tr>
