@@ -1,0 +1,52 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<!-- SSI fragments/header.html_fragment begin -->
+<!--#include virtual="fragments/header.html_fragment" -->
+<!-- SSI fragments/header.html_fragment end -->
+
+<table align="center" border="0">
+<tr>
+ 
+<td valign="top"> <!-- This page's text: -->
+<h2>Downloading</h2>
+
+<h3>Source Packages</h3>
+<p>
+<a href="http://sourceforge.net/project/showfiles.php?group_id=1161">
+<img src="images/save.gif" vspace="0" border="0" width="24" height="24" alt="*" /></a>
+The source packages for gtkmm are available on the
+<a href="http://sourceforge.net/project/showfiles.php?group_id=1161">sourceforge download area</a>.
+Libsigc++ (1.0.x for gtkmm 1.2, and 1.1.x for the unstable gtkmm 1.3) must also be installed, available 
+<a
+href="http://sourceforge.net/project/showfiles.php?group_id=1970">here</a>
+</p>
+
+<h3>Links to package maintainer web pages and ftp sites</h3>
+<p>
+<ul>
+<li><a href="http://www.hvrlab.org/~hvr/gtk--/">rpm</a> packages web site by Herbert Valerio Riedel</li>
+</ul>
+</p>
+
+</td>
+
+<td height="1" width="158" valign="top"> <!-- Menu: -->
+
+<!-- SSI fragments/menu.html_fragment begin -->
+<!--#include virtual="fragments/menu.html_fragment" -->
+<!-- SSI fragments/menu.html_fragment end -->
+
+</td>
+
+</tr>
+</table>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->
+
+</body>
+</html>
+

@@ -1,0 +1,124 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<!-- SSI fragments/header.html_fragment begin -->
+<!--#include virtual="fragments/header.html_fragment" -->
+<!-- SSI fragments/header.html_fragment end -->
+
+<table align="center" border="0">
+<tr>
+ 
+<td valign="top"> <!-- This page's text: -->
+<h2>Extra</h2>
+<h3>Available widgets</h3>
+<p>
+In addition to the wrappers distributed with gtkmm, additional
+widgets are available from other sources.
+<ul>
+<li>See <a href="http://developer.gnome.org/tools/repo/repo-gtk.html">GTK+ widget repository</a></li>
+<li><a href="http://www.ece.ucdavis.edu/~kenelson/gtkglareamm/">GtkGLArea--</a> an OpenGL widget that works with gtkmm</li>
+<li><a href="http://cactus.rulez.org/projects/panelmm">Panel--</a>, GNOME panel applet wrapper by Gerg? ?rdi</li>
+<li><a href="http://gtkextramm.sourceforge.net">GtkExtra--</a>, Wrappers for GtkExtra (sheet, etc)</li>
+<li><a href="http://gconfmm.sourceforge.net">GConf--</a>, Wrappers for GConf, particularly GConfClient</li>
+
+</ul>
+</p>
+<h3>gtkmm tools</h3>
+<p>
+<ul>
+<li><a href="http://home.wtal.de/petig/Gtk/">Glade--</a> - Module for <a href="http://glade.pn.org">Glade</a> the GTK+ GUI builder</li>
+<li><a href="http://www.geocities.com/SiliconValley/Bit/8083/gladecc.htm">Gladecc</a> Another module for Glade</li>
+<li><a href="http://bakery.sourceforge.net/">Bakery</a>- Document/View Model with XML</li>
+
+</ul>
+</p>
+
+<h3>Applications using gtkmm</h3>
+<p>
+If all else fails, sometimes it is good to look at the source of
+some other projects using the same toolkit.
+(1.2)
+<ul>
+<li><a href="http://ardour.sourceforge.net/">ardour</a>, a multichannel hard disk recorder and digital audio workstation</li>
+<li><a href="http://binars.sourceforge.net/">BINARS</a>, music sequencer for Linux, ALSA, and GNOME</li>
+<li><a href="http://gabber.sourceforge.net/">gabber</a>, GNOME Jabber client.</li>
+<li><a href="http://cdrdao.sourceforge.net/">gcdmaster</a>, a cdrdao frontend.</li>
+
+<li><a href="http://genSQL.sourceforge.net">genSQL</a>, a generic SQL GUI.</li>
+<li><a href="http://nagya.rulez.org/gnomoku/">Gnomoku</a>, Gomoku game for GNOME</li>
+<li><a href="http://gnuvoice.sourceforge.net">gnuvoice</a>, a GUI voicemail / speakerphone / caller ID application.</li>
+<li><a href="http://gtkmail.sourceforge.net">gtkmail</a>, a MIME compliant GUI email client</li>
+<li><a href="http://cactus.rulez.org/projects/guikachu">Guikachu</a>, graphical resource editor for PalmOS applications</li>
+<li><a href="http://www.akio-solutions.com/guillaume/">Gvier</a>, game based off "Power of four"</li>
+
+<li><a href="http://gvbox.sourceforge.net/">Gvbox</a>, graphical frontend to isdn4linux answering machine</li>
+<li><a href="http://yotam.freehosting.net/software/ped/ped.html">Ped</a> Path editor utility </li>
+<li><a href="http://PicMonger.sourceforge.net">PicMonger</a> Usenet picture grabber.</li>
+<li><a href="http://cactus.rulez.org/projects/radioactive/">RadioActive</a>, radio application for Video4Linux-compatible radio tuner cards.</li>
+<li><a href="http://softwerk.sourceforge.net/">softwerk</a>, software analogue MIDI sequencer</li>
+
+<li><a href="http://terraform.sourceforge.net/">terraform</a>, Terrain generator (very cool)</li>
+<li><a href="http://www.glom.org/">Glom</a> MySQL Database GUI</li>
+<li><a href="http://lostirc.sourceforge.net/">LostIRC</a>, an IRC client</li>
+<li><a href="http://ickle.sourceforge.net/">ickle</a>, an ICQ client</li>
+<li><a href="http://cap.sourceforge.net/">Chained Audio Plugins</a></li>
+<li><a href="http://guillaume.cottenceau.free.fr/html/grany.html">Grany-3</a>, the cellular automaton simulator. </li>
+
+<li><a href="http://paloma.sourceforge.net/">Paloma</a>, music management system</li>
+<li><a href="http://www.quasimodo.org/">Quasimodo</a> Real-time audio/MIDI Environment (cool)</li>
+</ul>
+</p>
+
+
+<h3>Links</h3>
+<h4 >GTK+ resources</h4>
+<p>
+<ul>
+<li>Sunsite's <a href="http://www.ibiblio.org/gtk/">GTK+ app repository</a></li>
+<li><a href="http://www.gimp.org">Gimp homepage</a></li>
+<li><a href="http://www.gtk.org">GTK+ homepage</a></li>
+<li><a href="http://www.gnome.org">GNOME homepage</a></li>
+
+</ul>
+</p>
+
+<h4>Other widget sets</h4>
+<p>
+Okay so maybe gtkmm isn't what you were looking for.  There are several other C++ widget sets available.
+<ul>
+<li><a href="http://fltk.easysw.com/">Fltk</a> (LGPL)</li>
+<li><a href="http://www.freiburg.linux.de/~wxxt/">wxGTK</a> (LGPL+exception)</li>
+<li><a href="http://www.trolltech.com">Trolltech's Qt</a> (QPL)</li>
+
+</ul>
+</p>
+
+<h4>Widget resource sites</h4>
+<p>
+<ul>
+<li><a href="http://atai.org/guitool/">The GUI Toolkit, Framework Page</a></li>
+<li><a href="http://SAL.KachinaTech.COM/F/5/index.shtml"> SAL: X11 Libraries and Toolkits </a></li>
+</ul>
+</p>
+
+</td>
+
+<td height="1" width="158" valign="top"> <!-- Menu: -->
+
+<!-- SSI fragments/menu.html_fragment begin -->
+<!--#include virtual="fragments/menu.html_fragment" -->
+<!-- SSI fragments/menu.html_fragment end -->
+
+</td>
+
+</tr>
+</table>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->
+
+</body>
+</html>
+

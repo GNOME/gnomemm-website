@@ -1,24 +1,23 @@
 <img src="images/vdiv.gif" align="left" border="0" width="8"
 height="300" alt=""></img>
 
+
+
   <table border="0" align="left" width="150">
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="4" height="4" alt=" " /><img src="pix/active.gif" alt="" /><a href="index.html"><font size="-1"><b>gtkmm</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="features.html"><font size="-1"><b>Features</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="license.html"><font size="-1"><b>License</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="philosophy.html"><font size="-1"><b>Philosophy</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="requirements.html"><font size="-1"><b>Requirements</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="mailinglist.html"><font size="-1"><b>Mailinglist</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="developers.html"><font size="-1"><b>Developers</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="4" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="documentation.html"><font size="-1"><b>Documentation</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="example.html"><font size="-1"><b>Examples</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="tutorial/t1.html"><font size="-1"><b>Tutorial</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="documentation.html#reference"><font size="-1"><b>Reference</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="documentation.html#other"><font size="-1"><b>Other</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="4" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="stable.html"><font size="-1"><b>Stable</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="download.html"><font size="-1"><b>Download</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="release_notes.html"><font size="-1"><b>Release Notes</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="bugs.html"><font size="-1"><b>Bugs</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="cvs.html"><font size="-1"><b>CVS</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="4" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="extra.html"><font size="-1"><b>Extra</b></font></a></td></tr>
-    <tr><td nowrap="nowrap"><img src="pix/blank.gif" border="0" width="24" height="4" alt=" " /><img src="pix/inactive.gif" alt="*" /><a href="extra.html#links"><font size="-1"><b>Links</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="index.shtml"><font size="-1"><b>gtkmm home</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="features.shtml"><font size="-1"><b>Features</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="license.shtml"><font size="-1"><b>License</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="philosophy.shtml"><font size="-1"><b>Philosophy</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="requirements.shtml"><font size="-1"><b>Requirements</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="mailinglist.shtml"><font size="-1"><b>Mailinglist</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="developers.shtml"><font size="-1"><b>Developers</b></font></a></td></tr>
+
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="http://www.gtkmm.org/gtkmm2/"><font size="-1"><b>Documentation</b></font></a></td></tr>
+ 
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="download.shtml"><font size="-1"><b>Download</b></font></a></td></tr>
+   
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="bugs.shtml"><font size="-1"><b>Bugs</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="cvs.shtml"><font size="-1"><b>CVS</b></font></a></td></tr>
+    <tr><td nowrap="nowrap"><img src="images/blank.gif" border="0" width="4" height="4" alt=" " /><img src="images/inactive.gif" alt="*" /><a href="extra.shtml"><font size="-1"><b>Extra</b></font></a></td></tr>
+    
   </table>

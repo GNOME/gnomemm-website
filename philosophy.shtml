@@ -1,0 +1,87 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<!-- SSI fragments/header.html_fragment begin -->
+<!--#include virtual="fragments/header.html_fragment" -->
+<!-- SSI fragments/header.html_fragment end -->
+
+<table align="center" border="0">
+<tr>
+ 
+<td valign="top"> <!-- This page's text: -->
+<h2>Philosophy</h2>
+<p>
+<a name="phil"><font size="+1"><b>Philosophy</b></font></a><br></br>
+
+<p /><cite>Have you seen C code that simulates class hierarchies,
+parameterized types, or exceptions? Such code tend to be a complete
+mess of pointers, casts, and macros. In C++, such code can be clean
+and simple. Most importantly, the constructs have well-specified
+semantics rather than just comments explaining the intent of code
+fragments. What has happened is that the complexity has been
+transferred from the code to the language definition (and compiler).
+</cite>
+<p /><i>Bjarne Stroustrup</i>
+<br />
+<p>gtkmm strives to provide a high quality wrapper for the GTK+
+widget system.  To achieve this, we strive to 
+</p>
+<ul>
+<li><b>Avoiding unnecessary dependencies between user code and gtkmm.</b><br />
+
+This is why we don't have our own string class or container classes,
+but we try to encourage the use of standard string and container classes,
+while not forcing their use. The advantage of this is more reusable code
+that does not rely on gtkmm. The signal system is also one tool to
+avoid unnecessary dependencies between gtkmm and user code. (see <a
+href="http://www.objectmentor.com/publications/dip.pdf">Dependency Inversion
+Principle</a>)
+</li>
+<li><b>Provide compile time type safety</b><br />
+
+We try to keep all our interfaces compile time typesafe. Internals of
+gtkmm should be typesafe where possible to make maintaining it
+easier. This is recommended for applications using gtkmm too.  This
+will sometimes make using gtkmm harder, but we believe it is worth the
+effort.
+</li>
+<li><b>Offer simpler abstractions</b><br />
+
+We try to make all interfaces simpler and easier to use and extend. If
+someone comes with better method of doing something, it'll probably be
+used, instead of using inferior solution.
+
+</li>
+<li><b>Maintain separation of user interface and functionality</b><br />
+
+We recommend that you use designs like 
+<a href="http://ootips.org/mvc-pattern.html">Model-View-Controller</a>, <a href="http://www.cs.uta.fi/~aj/omtpp/oois.ps">Abstract
+partners</a>, bridge patterns, abstract baseclasses or something else
+to avoid dependencies to gtkmm on your applications. Including gtkmm
+header files to your module causes it to depend on gtkmm. This can
+make your module less reusable.
+
+</li>
+</ul>
+</p>
+</td>
+
+<td height="1" width="158" valign="top"> <!-- Menu: -->
+
+<!-- SSI fragments/menu.html_fragment begin -->
+<!--#include virtual="fragments/menu.html_fragment" -->
+<!-- SSI fragments/menu.html_fragment end -->
+
+</td>
+
+</tr>
+</table>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->
+
+</body>
+</html>
+

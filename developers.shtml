@@ -1,0 +1,76 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<!-- SSI fragments/header.html_fragment begin -->
+<!--#include virtual="fragments/header.html_fragment" -->
+<!-- SSI fragments/header.html_fragment end -->
+
+<table align="center" border="0">
+<tr>
+ 
+<td valign="top"> <!-- This page's text: -->
+<h2>Developers</h2>
+<p>
+<a name="developers"><font size="+1"><b>Developers and Contributors</b></font></a><br></br>
+
+<ul>
+<li><b>Current maintainers</b><br />
+<a href="mailto:murrayc@usa.net">Murray Cumming</a>
+ (<a href="http://www.murrayc.com">www.murrayc.com</a>)<br/>
+<a href="mailto:daniel.elstner@gmx.net">Daniel Elstner</a>
+<br/>
+</li>
+<li><b>Other gtkmm2 developers</b><br/>
+<a href="mailto:kenelson@ece.ucdavis.edu">Karl Nelson</a>
+
+<br/>
+<a href="mailto:cactus@cactus.rulez.org">Gerg&otilde; &Eacute;rdi</a>
+ (<a href="http://cactus.rulez.org">cactus.rulez.org</a>)<br/>
+<a href="mailto:andreas.holzmann@epost.de">Andreas Holzmann</a>
+<br/>
+<a href="mailto:mhl.schulze@t-online.de">Martin Schulze</a>
+<br/>
+<li><b>Previous maintainers</b><br />
+
+<a href="mailto:glaurent@telegraph-road.org">Guillaume Laurent</a>
+<br />
+<a href="mailto:terop@assari.cc.tut.fi">Tero Pulkkinen</a>
+<br />  
+</li>
+<li><b>1.2 Documentation Group</b><br />
+Michael Ashton, Bernhard Rieder, Robert Gasch, Daniel Schudel
+</li>
+<li><b>1.2 Major contributors</b><br />
+Peter Lerner, Hanee Patenaude, Herbert Valerio Riedel, Todd Dukes, Joe Yandle, Murray Cumming
+</li>
+<li><b>1.0 Major contributors</b><br />
+
+Elliot Lee, Phil Dawes, Stephan Kulow, Erik Andersen,<br />
+Bibek Sahu, Chris Cannam, Mirko Streckenbach, <br />
+Havoc Pennington, Marcus Brinkmann, Todd Dukes<br />
+</li>
+</ul>
+There have been many patches, bug fixes and improvements from a lot
+of people. Thanks to them.
+</p>
+</td>
+
+<td height="1" width="158" valign="top"> <!-- Menu: -->
+
+<!-- SSI fragments/menu.html_fragment begin -->
+<!--#include virtual="fragments/menu.html_fragment" -->
+<!-- SSI fragments/menu.html_fragment end -->
+
+</td>
+
+</tr>
+</table>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->
+
+</body>
+</html>
+

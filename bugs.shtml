@@ -1,0 +1,101 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<!-- SSI fragments/header.html_fragment begin -->
+<!--#include virtual="fragments/header.html_fragment" -->
+<!-- SSI fragments/header.html_fragment end -->
+
+<table align="center" border="0">
+<tr>
+ 
+<td valign="top"> <!-- This page's text: -->
+<h2>Bugs</h2>
+<p>
+<a name="currentbugs"><font size="+1"><b>Current bugs/patches</b></font></a><br></br>
+
+<ul>
+<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">gtkmm bugs</a>
+(<a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">patches</a>).</li>
+<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?product=gnomemm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">gnomemm bugs</a>
+(<a href="http://bugzilla.gnome.org/buglist.cgi?product=gnomemm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=PATCH&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">patches</a>).</li>
+<li><a href="http://bugzilla.gnome.org/buglist.cgi?product=gnomemm&product=gtkmm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=easy-fix&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">easy-fix bugs</a> - a good way to get involved.</li>
+
+</ul>
+
+<a name="report"><font size="+1"><b>Where to report?</b></font></a><br></br>
+<ul>
+<li><a href="http://gtkmm.sourceforge.net/mailinglist.html"><img src="pix/mail.gif" border="0" width="24" height="24" alt="Mailling List" /> gtkmm mailing list</a> </li>
+<li>Bugs are tracked in GNOME's <a href="http://bugzilla.gnome.org">bugzilla</a><br>
+Submit gtkmm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm">here</a>.<br>
+Submit gnomemm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm">here</a>.
+
+</li>
+<li>Patches should be attached to bugzilla bugs rather than sent to the mailing list. Please use the PATCH keyword in bugzilla.</li>
+</ul>
+<p />
+
+<a name="info"><font size="+1"><b>What information is needed for a bug report?</b></font></a><br></br>
+<ul>
+<li>version numbers of GTK+, gtkmm and other related software</li>
+<li>description of the bug</li>
+<li>information to reproduce the bug</li>
+<li>stack dump, if relevant:
+<pre>
+
+gdb ./proggy ; run ; *crash* ; where
+</pre></li>
+<li>keep it small but detailed</li>
+<li>if possible, provide a patch</li>
+</ul>
+
+<a name="patch"><font size="+1"><b>How do I create a patch?</b></font></a><br></br>
+<ul>
+<li>Take code from cvs</li>
+<li>modify that version</li>
+<li>check it compiles</li>
+
+<li>use cvs to build a patch
+<pre>
+  cvs diff -u &gt; my_fix.patch
+</pre></li>
+<li>Add the patch to bugzilla (see above).</li>
+</ul>
+
+<a name="when"><font size="+1"><b>Should I send a bug report?</b></font></a><br></br>
+<ul>
+<li>Always send a bug report:
+<ul>
+  <li>If you get sigsegv and you think it might be problem with gtkmm.</li>
+
+  <li>If you cannot compile gtkmm.</li>
+  <li>If you have a good idea of how to make gtkmm better.</li>
+</ul>
+</li>
+<li>Never send a bug report:
+<ul>
+  <li>If release notes or this web page mentions the bug. (a patch would be neat though)</li>
+</ul></li>
+</ul>
+
+</p>
+</td>
+
+<td height="1" width="158" valign="top"> <!-- Menu: -->
+
+<!-- SSI fragments/menu.html_fragment begin -->
+<!--#include virtual="fragments/menu.html_fragment" -->
+<!-- SSI fragments/menu.html_fragment end -->
+
+</td>
+
+</tr>
+</table>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->
+
+</body>
+</html>
+
