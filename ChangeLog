@@ -1,3 +1,10 @@
+2005-02-01  Murray Cumming  <murrayc@murrayc.com>
+
+	* bugs.shtml: Removed the patches and no patches links because 
+	they do not work with the new bugzilla patch-review system.
+	Added link to query for all gtkmm and glibmm and gnomemm bugs, 
+	regardless of version, so that things do not go unnoticed.
+
 2005-01-04  Murray Cumming  <murrayc@murrayc.com>
 
 	* extras.shtml: Added links to vtemm and gtkmozembedmm.
