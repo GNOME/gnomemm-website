@@ -30,7 +30,8 @@ The source packages for gtkmm are available on the
 <p>
 <ul>
 <li>Debian Linux: apt-get install libgtkmm2.0-dev</li>
-<li>RedHat Linux: Please request them <a href="http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=82473">here</a>, giving reasons.</li>
+<li>RedHat Linux: None yet - you could add your email address to the CC field in this <a href="http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=82473">bugzilla bug</a> to be informed when they are in the official release.</li>
+<li>Mandrake Linux: They will be in the next release of the distro. They are already in the <a href="http://www.linux-mandrake.com/en/cookerdevel.php3">beta</a>.</li>
 <li>Windows: Here is an <a href="http://www.pcpm.ucl.ac.be/~gustin/win32_ports/">installer</a>.</li>
 </ul>
 </p>

@@ -32,6 +32,8 @@ some other projects using the same toolkit.
 <p> Using gtkmm 2:
 <ul>
 <li><a href="http://regexxer.sourceforge.net/">Regexxer</a> Multi-file search/replace with visual feedback.</li>
+<li><a href="http://www.workrave.org/">Workrave</a> Assists in recovery and prevention of RSI.</li>
+<li><a href="http://www.cs.auc.dk/~olau/hardware-monitor/">Hardware Monitor</a> GNOME panel applet.</li>
 <li><a href="http://gabber.sourceforge.net/">Gabber 2</a> GNOME Jabber IM client.</li>
 <li><a href="http://gex.sourceforge.net/">Gex</a> File manager</li>
 <li><a href="http://www.glom.org/">Glom</a> MySQL Database GUI</li>
