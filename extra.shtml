@@ -10,16 +10,16 @@ widgets are available from other sources.
 <ul>
 <li>See <a href="http://developer.gnome.org/tools/repo/repo-gtk.html">GTK+ widget repository</a></li>
 <li><a href="http://www.ece.ucdavis.edu/~kenelson/gtkglareamm/">GtkGLArea--</a> an OpenGL widget that works with gtkmm</li>
-<li><a href="http://cactus.rulez.org/projects/panelmm">Panel--</a>, GNOME panel applet wrapper by Gerg? ?rdi</li>
-<li><a href="http://gtkextramm.sourceforge.net">GtkExtra--</a>, Wrappers for GtkExtra (sheet, etc)</li>
-<li><a href="http://gconfmm.sourceforge.net">GConf--</a>, Wrappers for GConf, particularly GConfClient</li>
+<li><a href="http://cactus.rulez.org/projects/panelmm/">Panel--</a>, GNOME panel applet wrapper by Gerg? ?rdi</li>
+<li><a href="http://gtkextramm.sourceforge.net/">GtkExtra--</a>, Wrappers for GtkExtra (sheet, etc)</li>
+<li><a href="http://gconfmm.sourceforge.net/">GConf--</a>, Wrappers for GConf, particularly GConfClient</li>
 
 </ul>
 </p>
 <h3>gtkmm tools</h3>
 <p>
 <ul>
-<li><a href="http://home.wtal.de/petig/Gtk/">Glade--</a> - Module for <a href="http://glade.pn.org">Glade</a> the GTK+ GUI builder</li>
+<li><a href="http://home.wtal.de/petig/Gtk/">Glade--</a> - Module for <a href="http://glade.pn.org/">Glade</a> the GTK+ GUI builder</li>
 <li><a href="http://www.geocities.com/SiliconValley/Bit/8083/gladecc.htm">Gladecc</a> Another module for Glade</li>
 <li><a href="http://bakery.sourceforge.net/">Bakery</a>- Document/View Model with XML</li>
 
@@ -33,20 +33,19 @@ some other projects using the same toolkit.
 (1.2)
 <ul>
 <li><a href="http://ardour.sourceforge.net/">ardour</a>, a multichannel hard disk recorder and digital audio workstation</li>
-<li><a href="http://binars.sourceforge.net/">BINARS</a>, music sequencer for Linux, ALSA, and GNOME</li>
 <li><a href="http://gabber.sourceforge.net/">gabber</a>, GNOME Jabber client.</li>
 <li><a href="http://cdrdao.sourceforge.net/">gcdmaster</a>, a cdrdao frontend.</li>
 
-<li><a href="http://genSQL.sourceforge.net">genSQL</a>, a generic SQL GUI.</li>
-<li><a href="http://nagya.rulez.org/gnomoku/">Gnomoku</a>, Gomoku game for GNOME</li>
-<li><a href="http://gnuvoice.sourceforge.net">gnuvoice</a>, a GUI voicemail / speakerphone / caller ID application.</li>
-<li><a href="http://gtkmail.sourceforge.net">gtkmail</a>, a MIME compliant GUI email client</li>
-<li><a href="http://cactus.rulez.org/projects/guikachu">Guikachu</a>, graphical resource editor for PalmOS applications</li>
+<li><a href="http://gensql.sourceforge.net/">genSQL</a>, a generic SQL GUI.</li>
+<li><a href="http://cactus.rulez.org/projects/gnomoku/">Gnomoku</a>, Gomoku game for GNOME</li>
+<li><a href="http://gnuvoice.sourceforge.net/">gnuvoice</a>, a GUI voicemail / speakerphone / caller ID application.</li>
+<li><a href="http://gtkmail.sourceforge.net/">gtkmail</a>, a MIME compliant GUI email client</li>
+<li><a href="http://cactus.rulez.org/projects/guikachu/">Guikachu</a>, graphical resource editor for PalmOS applications</li>
 <li><a href="http://www.akio-solutions.com/guillaume/">Gvier</a>, game based off "Power of four"</li>
 
 <li><a href="http://gvbox.sourceforge.net/">Gvbox</a>, graphical frontend to isdn4linux answering machine</li>
 <li><a href="http://yotam.freehosting.net/software/ped/ped.html">Ped</a> Path editor utility </li>
-<li><a href="http://PicMonger.sourceforge.net">PicMonger</a> Usenet picture grabber.</li>
+<li><a href="http://picmonger.sourceforge.net/">PicMonger</a> Usenet picture grabber.</li>
 <li><a href="http://cactus.rulez.org/projects/radioactive/">RadioActive</a>, radio application for Video4Linux-compatible radio tuner cards.</li>
 <li><a href="http://softwerk.sourceforge.net/">softwerk</a>, software analogue MIDI sequencer</li>
 
@@ -58,7 +57,6 @@ some other projects using the same toolkit.
 <li><a href="http://guillaume.cottenceau.free.fr/html/grany.html">Grany-3</a>, the cellular automaton simulator. </li>
 
 <li><a href="http://paloma.sourceforge.net/">Paloma</a>, music management system</li>
-<li><a href="http://www.quasimodo.org/">Quasimodo</a> Real-time audio/MIDI Environment (cool)</li>
 </ul>
 </p>
 
@@ -68,9 +66,9 @@ some other projects using the same toolkit.
 <p>
 <ul>
 <li>Sunsite's <a href="http://www.ibiblio.org/gtk/">GTK+ app repository</a></li>
-<li><a href="http://www.gimp.org">Gimp homepage</a></li>
-<li><a href="http://www.gtk.org">GTK+ homepage</a></li>
-<li><a href="http://www.gnome.org">GNOME homepage</a></li>
+<li><a href="http://www.gimp.org/">Gimp homepage</a></li>
+<li><a href="http://www.gtk.org/">GTK+ homepage</a></li>
+<li><a href="http://www.gnome.org/">GNOME homepage</a></li>
 
 </ul>
 </p>
@@ -81,7 +79,7 @@ Okay so maybe gtkmm isn't what you were looking for.  There are several other C+
 <ul>
 <li><a href="http://fltk.easysw.com/">Fltk</a> (LGPL)</li>
 <li><a href="http://www.freiburg.linux.de/~wxxt/">wxGTK</a> (LGPL+exception)</li>
-<li><a href="http://www.trolltech.com">Trolltech's Qt</a> (QPL)</li>
+<li><a href="http://www.trolltech.com/">Trolltech's Qt</a> (QPL)</li>
 
 </ul>
 </p>
