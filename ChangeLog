@@ -1,3 +1,7 @@
+2002-06-23  Murray Cumming  <murrayc@usa.net>
+
+	* bugs.shtml: Added "Bugs fixed in last 30 days" link.
+
 2002-06-21  Daniel Elstner  <daniel.elstner@gmx.net>
 
 	* website/fragments/html_declaration.html_fragment:
