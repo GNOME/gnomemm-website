@@ -21,21 +21,38 @@ anonymous CVS checkouts are available from anoncvs.gnome.org.
 </p>
 
 <p>
-To check out the latest development version:
+To check out the latest development version of <b>gtkmm</b>:
 <pre>
 cvs -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login 
 <i>(hit return as the password)</i>
-cvs -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm-1.3
+cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm2
 </pre>
 </p>
 
 <p>
-The stable version (with any bug fixes made between releases) is
+The stable version of gtkmm (with any bug fixes made between releases) is
 also available.
 <pre>
 cvs -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login 
 <i>(hit return as the password)</i>
-cvs -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtk--
+cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtk--
+</pre>
+</p>
+
+<p>
+To check out the latest development version of <b>gnomemm</b>:
+<pre>
+Login as with gtkmm and:
+cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gnomemm
+</pre>
+</p>
+
+<p>
+The stable version of gnomemm (with any bug fixes made between releases) is
+also available.
+<pre>
+Login and:
+cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gnome--
 </pre>
 </p>
 
