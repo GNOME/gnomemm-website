@@ -37,12 +37,12 @@
    <div class="releasebox">
     <span style="font-size: 15px"><u><b>Latest Versions</b></u><br /></span>
     <br/>
-    <b>2.2</b><br/>
-    gtkmm <b><a href="download.shtml">2.1.x (unstable)</a></b><br />
-    <br/>
-    <b>2.0</b><br />
-    gtkmm <b><a href="download.shtml">2.0.x</a></b><br />
-    gnomemm <b><a href="download.shtml">1.3.x (unstable)</a></b><br />
+    <b>2.0/2.2</b><br />
+    gtkmm <b><a href="download.shtml">2.2.x</a></b><br />
+    libglademm <b><a href="download.shtml">2.0.x</a></b><br />
+    gconfmm <b><a href="download.shtml">2.0.x</a></b><br />
+    libgnomecanvasmm <b><a href="download.shtml">2.0.x</a></b><br />
+    libgnomeuimm <b><a href="download.shtml">1.3.x (unstable)</a></b><br />
     <br/>
     <b>Older</b><br />
     gtkmm <b><a href="download.shtml">1.2.x</a></b><br />

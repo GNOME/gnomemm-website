@@ -1,3 +1,8 @@
+2003-01-07  Murray Cumming  <murrayc@usa.net>
+
+	* fragments/html_declaration.html_fragment: Mentioned gtkmm 2.2 and
+	stable parts of gnomemm.
+
 2003-01-06  Murray Cumming  <murrayc@usa.net>
 
 	* index.shtml: Removed "gtkmm2 is now here" introduction. It's old news
