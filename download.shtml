@@ -28,7 +28,7 @@ The source packages for gtkmm are available on the
 <h4>gtkmm 2.0:</h4>
 <p>
 <ul>
-<li>Debian: apt-get install libgtkmm-2.0-dev</li>
+<li>Debian: apt-get install libgtkmm2.0-dev</li>
 </ul>
 </p>
 
