@@ -8,8 +8,43 @@
 <p>
 <a href="http://sourceforge.net/projects/gtkmm/">
 <img src="images/save.gif" vspace="0" border="0" width="24" height="24" alt="*" /></a>
-The source packages for gtkmm are available on the
-<a href="http://sourceforge.net/projects/gtkmm/">sourceforge download area</a>.<br />
+The following source packages are available:</p>
+<h4>gtkmm 2.4 and GNOME bindings:</h4>
+<p>These install in parallel with gtkmm 2.0/2.2 and gtkmm 1.2.</p>
+<ul>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.3/">gtkmm 2.4</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.3/">libglademm 2.4</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.5/">libgnomecanvasmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gnome-vfsmm/2.5/">gnome-vfsmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.5/">gconfmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.5/">libgnomemm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.5/">libgnomeuimm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/2.5/">libpanelappletmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libbonobomm/2.5/">libbonobomm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libbonobouimm/2.5/">libbonobouimm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeprintmm/2.5/">libgnomeprintmm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeprintuimm/2.5/">libgnomeprintuimm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgdamm/2.5/">libgdamm 2.6</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm-hello/2.6/">gtkmm-hello 2.6</a></li>
+</ul>
+
+<h4>gtkmm 2.0/2.2 and GNOME bindings:</h4>
+<p>These install in parallel with gtkmm 1.2.</p>
+<ul>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.2/">gtkmm 2.2</a></li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.2/">libglademm 2.2</a></li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.0/">libgnomecanvasmm 2.0</a> </li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.0/">gconfmm 2.0</a></li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.0/">libgnomemm 2.0</a></li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.0/">libgnomeuimm 2.0</a></li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm-hello/2.0/">gtkmm-hello 2.0</a></li>
+</ul>
+
+<h4>gtkmm 1.2 and GNOME bindings:</h4>
+<ul>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/1.2/">gtkmm 1.2</a></li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gnomemm/1.2/">gnomemm 1.2</a></li>
+</ul>
 </p>
 
 <h3>Requirements</h3>
@@ -33,7 +68,7 @@ The source packages for gtkmm are available on the
 <li><a href="http://fedora.redhat.com/">Fedora</a>/<a href="http://www.redhat.com">RedHat</a> Linux: Use <a href="http://www.fedora.us/wiki/FedoraHOWTO">yum</a>: yum install gtkmm2-docs to get the runtime, development, and documentation packages.</li>
 <li><a href="http://www.mandrakelinux.com/">Mandrake</a> Linux: Get libgtkmm2.0 from the contrib directory on their <a href="http://www.mandrakelinux.com/en/cookerdevel.php3">ftp</a> servers.</li>
 <li><a href="http://www.gentoo.org">Gentoo Linux</a>: Get dev-cpp/gtkmm.</li>
-<li><a href="http://www.suse.com/">SuSE</a> Linux: There are no official packages yet, but you can get rpms at <a href="http://www.usr-local-bin.org/misc.php">usr local bin</a>.</li>
+<li><a href="http://www.suse.com/">SuSE Linux</a>: There are no official packages yet, but you can get rpms at <a href="http://www.usr-local-bin.org/misc.php">usr local bin</a>.</li>
 <li>Windows: Here is an <a href="http://www.pcpm.ucl.ac.be/~gustin/win32_ports/">installer</a>.</li>
 <li>MacOS X: There is a <a href="http://fink.sourceforge.net/pdb/package.php/gtkmm2-dev">Fink package</a>.</li>
 </ul>
