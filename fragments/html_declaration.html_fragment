@@ -35,17 +35,18 @@
 
    <div class="releasebox">
     <span style="font-size: 15px"><u><b>Latest Versions</b></u><br /></span>
-    <b>Stable</b><br />
-    gtkmm release:
-    <b><a href="download.shtml">1.2.10</a></b><br />
-    gnomemm release:
-    <b><a href="download.shtml">1.2.2</a></b><br />
-    <br />
-    <b>Unstable (Development)</b><br />
+    <b>2.0</b><br />
     gtkmm release:
     <b><a href="download.shtml">2.0.0</a></b><br />
     gnomemm release:
     <b><a href="download.shtml">1.3.10</a></b><br />
+    <br/>
+    <b>Older</b><br />
+    gtkmm release:
+    <b><a href="download.shtml">1.2.10</a></b><br />
+    gnomemm release:
+    <b><a href="download.shtml">1.2.2</a></b><br />
+
    </div>
   </div>
 
