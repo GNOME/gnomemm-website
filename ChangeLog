@@ -1,3 +1,7 @@
+2004-10-20  Murray Cumming  <murrayc@murrayc.com>
+
+	* cvs.shtml: Corrected glibmm and gtkmm branch names.
+
 2004-09-02  Murray Cumming  <murrayc@murrayc.com>
 
 	* cvs.shtml: Mention new gtkmm branch.
