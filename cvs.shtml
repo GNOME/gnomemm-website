@@ -7,13 +7,9 @@
 CVS is a powerful tool for maintain version control with
 multiple developers produced by <a href="http://www.cvshome.org/">Cyclic</a>.  
 Both the stable and developer versions
-of gtkmm are housed in the <a href="http://www.gnome.org">Gnome</a> CVS repository.  
-</p>
-<p>
-Documentation for CVS is available at 
-<a href="http://www.cvshome.org/cyclic/cvs/doc-blandy-text.html">Introduction to CVS</a> or the <a href="http://www.loria.fr/~molli/cvs/doc/cvs_toc.html">CVS manual</a>.
-CVS is available on a wide number of
-platforms including Unix, Window 95/NT, and Macintosh.  
+of gtkmm are housed in the <a href="http://www.gnome.org">Gnome</a>
+CVS repository. Additional information about cvs.gnome.org is
+available at <a href="http://developer.gnome.org/tools/cvs.html">developer.gnome.org</a>. 
 </p>
 
 <h3>Anonymous CVS</h3>

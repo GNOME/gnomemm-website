@@ -23,7 +23,9 @@ Submit gtkmm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm
 Submit gnomemm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm">here</a>.
 
 </li>
-<li>Patches should be attached to bugzilla bugs rather than sent to the mailing list. Please use the PATCH keyword in bugzilla.</li>
+<li>Patches should be attached to bugzilla bugs rather than sent to
+the mailing list. Please use the PATCH keyword in bugzilla, and
+remember to patch the ChangeLog also.</li>
 </ul>
 <p />
 
@@ -40,10 +42,14 @@ gdb ./proggy ; run ; *crash* ; where
 <li>keep it small but detailed</li>
 <li>if possible, provide a patch</li>
 </ul>
+<p>If we can't solve the problem immediately then we might ask you to
+create a simple-as-possible example that actually builds. This helps
+us to isolate the problem, and proves that the problem is not caused
+by your own code.</p>
 
 <h3>How do I create a patch?</h3>
 <ul>
-<li>Take code from cvs</li>
+<li>Take code from <a href="cvs.shtml">cvs</a></li>
 <li>modify that version</li>
 <li>check it compiles</li>
 
