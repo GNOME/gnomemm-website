@@ -4,10 +4,7 @@
 
 <h2>CVS</h2>
 <p>
-CVS is a powerful tool for maintain version control with
-multiple developers produced by <a href="http://www.cvshome.org/">Cyclic</a>.  
-Both the stable and developer versions
-of gtkmm are housed in the <a href="http://www.gnome.org">Gnome</a>
+We use <a href="http://www.cvshome.org/">CVS</a> to maintain our source code, in the <a href="http://www.gnome.org">GNOME</a>
 CVS repository. Additional information about cvs.gnome.org is
 available at <a href="http://developer.gnome.org/tools/cvs.html">developer.gnome.org</a>. 
 </p>
@@ -32,16 +29,6 @@ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm2
 <p>The unstable glibmm 2.4 and gtkmm 2.4 are in the glibmm and gtkmm cvs modules.</p>
 
 <p>
-The older 1.2 version of gtkmm (with any bug fixes made between releases) is
-also available.
-<pre>
-cvs -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login 
-<i>(hit return as the password)</i>
-cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtk--
-</pre>
-</p>
-
-<p>
 To check out the latest development version of <b>gnomemm</b>:
 <pre>
 Login as with gtkmm and:
@@ -50,16 +37,11 @@ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gnomemm
 </p>
 
 <p>
-The stable 1.2 version of gnomemm (with any bug fixes made between releases) is
-also available.
-<pre>
-Login and:
-cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gnome--
-</pre>
+The stable 1.2 versions of gtkmm and gnomemm are also available, in the gtk-- and gnome-- modules..
 </p>
 
 <p>
-You will need to run the autogen.sh script to generate the build files.</p>
+You will need to run the autogen.sh script to generate the build files. We recommend jhbuild for setting up a separate development prefix.</p>
 </p>
 
 <!-- SSI fragments/footer.html_fragment begin -->

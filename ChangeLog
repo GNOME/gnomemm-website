@@ -1,3 +1,9 @@
+2003-11-05  Murray Cumming  <murrayc@usa.net>
+
+	* mailinglist.shtml: Mentioned the gladmem list and pointed out that
+	it != libglademm.
+	* cvs.shtml: Simplified the page.
+
 2003-11-04  Murray Cumming  <murrayc@usa.net>
 
 	* news.shtml: Mentioned gtkmm 2.3.0. 
