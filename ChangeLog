@@ -1,3 +1,9 @@
+2003-10-25  Murray Cumming  <murrayc@usa.net>
+
+	* index.shtml: Mentioned how we plan to sync with GTK+ and GNOME.
+	* fragments/html_declaration.html_fragment: Mentioned latest branches
+	on the left-hand sidebar.
+
 2003-09-29  Murray Cumming  <murrayc@usa.net>
 
 	* Makefile: Build the jhbuild dot graph for gtkmm (2.4) instead of
