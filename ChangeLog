@@ -1,3 +1,9 @@
+2003-05-28  Murray Cumming  <murrayc@usa.net>
+
+	* extra.shtml: Mentioned HeavyMole and gtkglextmm.
+	* bugs.shtml: Added text encouraging people to apply patches if they
+	have cvs access.
+
 2003-05-02  Murray Cumming  <murrayc@usa.net>
 
 	* download.shtml: Changed RedHat bugzilla text, to avoid spamming 

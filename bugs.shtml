@@ -41,6 +41,8 @@ bugs</a> - a good way to get involved.</li>
 
 </ul>
 
+<p>As soon as a gtkmm or gnomemm patch has been clearly approved by a maintainer, anybody with cvs write access may apply it.</p>
+
 <h3>Where to report?</h3>
 <ul>
 <li><a href="mailinglist.shtml"><img src="images/mail.gif" border="0" width="24" height="24" alt="Mailling List" /> gtkmm mailing list</a> </li>

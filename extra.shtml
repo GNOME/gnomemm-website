@@ -8,7 +8,7 @@
 In addition to the wrappers distributed with gtkmm and gnomemm, additional
 widgets are available from other sources.
 <ul>
-<li><a href="http://www.ece.ucdavis.edu/~kenelson/gtkglareamm/">GtkGLArea--</a> an OpenGL widget that works with gtkmm</li>
+<li><a href="http://gtkglext.sourceforge.net">GtkGlExtmm</a> OpenGL rendering for gtkmm</li>
 <li><a href="http://cactus.rulez.org/projects/panelmm/">Panel--</a>, GNOME panel applet wrapper by Gerg? ?rdi</li>
 <li><a href="http://gtkextramm.sourceforge.net/">GtkExtra--</a>, Wrappers for GtkExtra (sheet, etc)</li>
 
@@ -34,6 +34,7 @@ some other projects using the same toolkit.
 <li><a href="http://regexxer.sourceforge.net/">Regexxer</a> Multi-file search/replace with visual feedback.</li>
 <li><a href="http://www.workrave.org/">Workrave</a> Assists in recovery and prevention of RSI.</li>
 <li><a href="http://www.cs.auc.dk/~olau/hardware-monitor/">Hardware Monitor</a> GNOME panel applet.</li>
+<li><a href="http://heavymole.sourceforge.net/">HeavyMole</a> File sharing client.</li>
 <li><a href="http://gabber.sourceforge.net/">Gabber 2</a> GNOME Jabber IM client.</li>
 <li><a href="http://gex.sourceforge.net/">Gex</a> File manager</li>
 <li><a href="http://www.glom.org/">Glom</a> MySQL Database GUI</li>
