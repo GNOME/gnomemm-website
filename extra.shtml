@@ -20,7 +20,6 @@ widgets are available from other sources.
 <p>
 <ul>
 <li><a href="http://home.wtal.de/petig/Gtk/">Glade--</a> - Module for <a href="http://glade.pn.org/">Glade</a> the GTK+ GUI builder</li>
-<li><a href="http://www.geocities.com/SiliconValley/Bit/8083/gladecc.htm">Gladecc</a> Another module for Glade</li>
 <li><a href="http://bakery.sourceforge.net/">Bakery</a>- Document/View Model with XML</li>
 
 </ul>

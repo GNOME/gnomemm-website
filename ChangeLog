@@ -1,3 +1,7 @@
+2002-06-26  Murray Cumming  <murrayc@localhost.localdomain>
+
+	* extras.shtml: Removed link to gladecc because chrsime says it's dead.
+
 2002-06-23  Murray Cumming  <murrayc@usa.net>
 
 	* bugs.shtml: Added "Bugs fixed in last 30 days" link.
