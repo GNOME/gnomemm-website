@@ -1,0 +1,77 @@
+2002-06-21  Daniel Elstner  <daniel.elstner@gmx.net>
+
+	* website/fragments/html_declaration.html_fragment:
+	Fix Documentation link.
+
+2002-06-21  Daniel Elstner  <daniel.elstner@gmx.net>
+
+	* website/bugs.shtml index.shtml requirements.shtml statement.shtml:
+	Fix various broken links, and append '/' to directory URLs.
+	
+2002-06-22  Murray Cumming  <murrayc@usa.net>
+
+	* style.css: Specified foreground color, as suggested by
+	Morten and jsado@attbi.com.
+
+2002-06-22  Murray Cumming  <murrayc@usa.net>
+
+	* cvs.shtml: Added link to developer.gnome.org cvs docs.
+	* bugs.shtml: Added link to cvs.shtml and added text about
+	patching ChangeLog and creating simple-as-possible examples.
+
+2002-06-22  Morten Brix Pedersen  <morten@wtf.dk>
+
+	* Merged requirements into download.
+	* Menu: Made documentation link bold, and added some separation.
+	
+2002-06-21  Murray Cumming  <murrayc@usa.net>
+
+	* requirements.shtml: Corrected.
+	* license.shtml: Added GNU links and added some text countering
+	LGPL/GPL confusion and some more subtle QT bashing.
+	
+2002-06-21  Murray Cumming  <murrayc@usa.net>
+
+	* download.shtml: Use simpler download URL which only shows
+	latest versions.
+	* developers.shtml: Added Morten and Jarek.
+	
+2002-06-21  Morten Brix Pedersen  <morten@wtf.dk>
+
+	* Bug #80195:
+	* Used CSS Positioning instead of tables. There is now much less
+	repetition of HTML - TEMPLATE.shtml is now incredibly small, and
+	we should be able to change parts of the design just by changing
+	the style.css file.
+	* Added images/gtkmm_logo_small.png.
+	* Redesigned layout.
+	
+2002-06-19  Murray Cumming  <murrayc@usa.net>
+
+	* Added statement.shtml from old site.
+
+2002-06-19  Murray Cumming  <murrayc@usa.net>
+
+	* fragments/footer.html_fragment: Removed most little icon links to
+	sourceforge stuff that we don't use anymore.
+	* Changed upload path to main htdocs - this site is now live.
+
+2002-06-19  Murray Cumming  <murrayc@usa.net>
+
+	* Added the other .shtml pages.
+	* Used fragment/html_declaration.html_fragment to avoid some
+	duplication.
+	* Added TEMPLATE.shtml - just copy it to make a new top-level
+	page. It has "Your text here" parts.
+	* Simplified menu:
+	  - Not hierarchical.
+	  - Documentation just points to our documentation overview page.
+
+2002-06-19  Murray Cumming  <murrayc@usa.net>
+
+	* Created gnomemm/website in gnome cvs.
+	* Recreated front page as SSI: index.shtml is a simple <table>
+	that #includes HTML code from fragments/*.html_fragments. The
+	other pages will still duplicate some <table> code, but it won't
+	be too much and it should be easy to understand.
+
