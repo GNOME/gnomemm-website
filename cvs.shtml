@@ -90,7 +90,7 @@ You will need to run the autogen.sh script to generate the build files. We recom
 <table>
 <tr>
   <th>Component</th>
-  <th>Version</th>
+  <th>API Version</th>
   <th>CVS Module</th>
   <th>Branch name</th>
 </tr>
@@ -114,7 +114,7 @@ You will need to run the autogen.sh script to generate the build files. We recom
 </tr>
 <tr>
   <td>libglademm</td>
-  <td>2.6</td>
+  <td>2.4</td>
   <td>gnomemm/libglademm</td>
   <td>HEAD</td>
 </tr>
