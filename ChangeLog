@@ -1,3 +1,9 @@
+2003-09-29  Murray Cumming  <murrayc@usa.net>
+
+	* Makefile: Build the jhbuild dot graph for gtkmm (2.4) instead of
+	gtkmm 2, so that the upload works with the gnome26 jhbuild 
+	moduleset.
+
 2003-09-04  Murray Cumming  <murrayc@usa.net>
 
 	* features.shtml: Mentioned all the platforms that gtkmm runs on.
