@@ -1,3 +1,9 @@
+2002-06-29  Murray Cumming  <murrayc@usa.net>
+
+	* Removed FAQ spiel from front page - added link to menu.
+	* Added News page.
+	* United philosphy/features page.
+
 2002-06-28  Murray Cumming  <murrayc@usa.net>
 
 	* extras.shtml: Removed some dead and uninteresting links.
@@ -19,6 +25,15 @@
 2002-06-26  Murray Cumming  <murrayc@localhost.localdomain>
 
 	* extras.shtml: Removed link to gladecc because chrsime says it's dead.
+
+2002-06-23  Daniel Elstner  <daniel.elstner@gmx.net>
+
+	[ this should go into website/ChangeLog, when the file gets added :]
+
+	* website/extra.shtml: Remove BINARS link, because it's no longer
+	using gtkmm.  Fix link to Gnomoku.  Remove QUASIMODO link because
+	the domain is not registered anymore.  Also append a trailing slash
+	to several directory URLs.  (Hints from Morten Brix Pedersen).	
 
 2002-06-23  Murray Cumming  <murrayc@usa.net>
 

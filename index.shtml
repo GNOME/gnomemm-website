@@ -14,31 +14,32 @@
  <!-- Descriptions of sub-parts: -->
 
  <h1>gtkmm</h1>
+<p>
  gtkmm (previously known as Gtk--) is the official C++ interface for the popular GUI library <a href="http://www.gtk.org/">GTK+</a>.  Highlights include
  typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widget classes that can be freely combined to quickly create complex user interfaces. gtkmm is free software distributed under the GNU Library
- General Public License(<a href="license.shtml">LGPL</a>).
+ General Public License (<a href="license.shtml">LGPL</a>).
+</p>
  <h1>gnomemm</h1>
- gnomemm (Previously known as Gnome--) is a set of powerful C++ bindings for the <a href="http://www.gnome.org/">GNOME</a> libraries, which provide additional functionality above GTK+/gtkmm. 
+<p>
+ gnomemm (Previously known as Gnome--) is a set of powerful C++
+ bindings for the <a href="http://www.gnome.org/">GNOME</a> libraries,
+ which provide additional functionality above GTK+/gtkmm.
+</p>
  <h1>libsigc++</h1>
+<p>
  Also, be sure to check out our companion library, <a href="http://libsigc.sourceforge.net/">libsigc++</a>.
  Due to popular demand our signal/slot library is now provided
  separately for use in non-GUI code. Thus
  all the power of typesafe callbacks and flexible adaptor classes is
- available for use, without changes to the C++ language.  
- <h1>Frequently Asked Questions</h1>
- Here's an <a href="docs/gtkmm-faq.html">FAQ</a> about gtkmm and gnomemm.
- If you are curious about the status of gtkmm in relation to 
- GNOME and Inti, please read this <a href="statement.shtml">
- statement</a> regarding the differences.<br />
- <a href="http://sourceforge.net/news/?group_id=1161"><img src="images/news.gif" border="0" width="24" height="24" alt="News" /></a>
- Current news about the latest version is on the <a href="http://sourceforge.net/news/?group_id=1161">news page</a>
- <h1>New gtkmm related libraries</h1>
+ available for use, without changes to the C++ language.
+</p>  
+ <h1>Other gtkmm-related libraries</h1>
+<p>
  Be sure to check out <a href="http://bakery.sourceforge.net/">Bakery</a>
- a framework for constructing gnomemm applications.  It allows for
- quick use of the Document/View architecture.  Also for gtkmm, 
+ a framework for constructing gnomemm applications.  It allows use of the Document/View architecture.  Also for gtkmm, 
  <a href="http://gtkextramm.sourceforge.net/"> GtkExtra--</a> for those 
  extra widget wrappers.
- <p />
+</p>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->

@@ -1,0 +1,23 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<h2>News</h2>
+<p>
+<ul>
+<li>
+May 2002: <a href="http://www.linuxorbit.com/modules.php?op=modload&name=Sections&file=index&req=viewarticle&artid=527">gtkmm
+maintainer interviewed by Linux Orbit</a>.
+</li>
+<li>
+April 2002: gtkmm article in <a href="http://www.cuj.com">C/C++ User's Journal</a>.
+<li>
+April 2002: gtkmm2 <a href="http://www.murrayc.com/murray/talks/2002/GUADEC3/">
+presentation</a> at <a href="www.guadec.org">GUADEC3</a> in Seville.
+</li>
+</ul>
+</p>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->

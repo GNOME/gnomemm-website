@@ -16,13 +16,14 @@
     <a class="menu" href="index.shtml">gtkmm home</a><br />
     <a class="menu" href="features.shtml">Features</a><br />
     <a class="menu" href="license.shtml">License</a><br />
-    <a class="menu" href="philosophy.shtml">Philosophy</a><br />
+    <a class="menu" href="news.shtml">News</a><br />
     <br />
     <a class="menu" href="download.shtml">Download</a><br />
     <a class="menu" href="cvs.shtml">CVS</a><br />
     <br />
     <b><a class="menu" href="gtkmm2/">Documentation</a></b><br />
-    <a class="menu" href="mailinglist.shtml">Mailing List</a><br />
+    <a class="menu" href="docs/gtkmm-faq.html">FAQ</a><br />
+    <a class="menu" href="mailinglist.shtml">Mailing Lists</a><br />
     <a class="menu" href="developers.shtml">Developers</a><br />
     <a class="menu" href="bugs.shtml">Bugs</a><br />
     <a class="menu" href="extra.shtml">Additional Resources</a><br />
