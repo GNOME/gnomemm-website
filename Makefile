@@ -10,8 +10,13 @@ dependencies_gnomemm:
 	jhbuild dot gnomemm/libgnomeuimm > jhbuild_gnomemm.dot
 	dot jhbuild_gnomemm.dot -Tpng > jhbuild_dot_gnomemm.png
 
+# This is not relevant to C++, but it is interesting.
+dependencies_gnome_desktop:
+	jhbuild dot meta-gnome-desktop > jhbuild_gnome_desktop.dot
+	dot jhbuild_gnome_desktop.dot -Tpng > jhbuild_dot_gnome_desktop.png
 
-post-html: dependencies_gtkmm dependencies_gnomemm
+
+post-html: dependencies_gtkmm dependencies_gnomemm dependencies_gnome_desktop
 	rsync -avz --rsh ssh --cvs-exclude * $$USER@shell.sourceforge.net:$(web_path)
 
 

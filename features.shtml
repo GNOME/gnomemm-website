@@ -20,7 +20,7 @@
 </ul>
 <li>Full use of C++ namespaces.</li>
 <li>No macros.</li>
-<li>Cross-platform: Linux, Solaris, Win32, others</li>
+<li>Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte), Win32 (gcc, MSVC++ .Net 2003), MacOS X (gcc), others</li>
 <li>Free software and free of cost for both Open Source and
 proprietary development.</li>
 <li>Discussed, designed and implemented in public.</li> 
