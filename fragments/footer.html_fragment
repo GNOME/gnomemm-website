@@ -3,10 +3,6 @@
 <tr>
 <td><a href="http://sourceforge.net/project/?group_id=1161"><img src="images/anvil24.gif" border="0" width="24" height="24" alt="Record" /></a></td>
 <td><a href="http://gtkmm.sourceforge.net"><img src="images/home.gif" border="0" width="24" height="24" alt="Home" /></a></td>
-<td><a href="http://sourceforge.net/bugs/?group_id=1161"><img src="images/bug.gif" border="0" width="24" height="24" alt="Bugs" /></a></td>
-<td><a href="http://sourceforge.net/mail/?group_id=1161"><img src="images/mail.gif" border="0" width="24" height="24" alt="Mailing List" /></a></td>
-<td><a href="http://sourceforge.net/news/?group_id=1161"><img src="images/news.gif" border="0" width="24" height="24" alt="News" /></a></td>
-<td><a href="http://sourceforge.net/project/filelist.php?group_id=1161"><img src="images/save.gif" border="0" width="24" height="24" alt="Download" /></a></td>
 </tr>
 </table>
 </div>
@@ -19,8 +15,6 @@
 <a href="mailto:gtkmm-main@lists.sourceforge.net">gtkmm development team mailing list</a>
 
 </address>
-Last updated: <i>Sunday, June 16, 2002
-</i>
 </td>
 <td align="right">
 <a href="http://sourceforge.net"> 
