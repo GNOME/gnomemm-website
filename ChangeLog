@@ -1,3 +1,8 @@
+2003-01-23  Murray Cumming  <murrayc@usa.net>
+
+	* bugs.shtml: Changed 2.4 bug URLs to search for version=2.4 instead
+	of target=3.
+
 2003-01-07  Murray Cumming  <murrayc@usa.net>
 
 	* fragments/html_declaration.html_fragment: Mentioned gtkmm 2.2 and
