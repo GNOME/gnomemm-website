@@ -9,6 +9,8 @@ In addition to the wrappers distributed with gtkmm and gnomemm, additional
 widgets are available from other sources.
 <ul>
 <li><a href="http://gtkglext.sourceforge.net">GtkGlExtmm</a> OpenGL rendering for gtkmm</li>
+<li><a href="http://ftp.gnome.org/sources/gtkmozembedmm/">gtkmozembedmm</a> Mozilla-based web browser widget</li>
+<li><a href="http://vtemm.sourceforge.jp/">VTEmm</a> Terminal widget</li>
 <li><a href="http://gtkextramm.sourceforge.net/">GtkExtra--</a>, Wrappers for GtkExtra (plot, sheet, etc)</li>
 
 </ul>
