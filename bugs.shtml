@@ -2,17 +2,9 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<!-- SSI fragments/header.html_fragment begin -->
-<!--#include virtual="fragments/header.html_fragment" -->
-<!-- SSI fragments/header.html_fragment end -->
-
-<table align="center" border="0">
-<tr>
- 
-<td valign="top"> <!-- This page's text: -->
 <h2>Bugs</h2>
 <p>
-<a name="currentbugs"><font size="+1"><b>Current bugs/patches</b></font></a><br></br>
+<h3>Current bugs/patches</h3>
 
 <ul>
 <li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">gtkmm bugs</a>
@@ -23,7 +15,7 @@
 
 </ul>
 
-<a name="report"><font size="+1"><b>Where to report?</b></font></a><br></br>
+<h3>Where to report?</h3>
 <ul>
 <li><a href="http://gtkmm.sourceforge.net/mailinglist.html"><img src="pix/mail.gif" border="0" width="24" height="24" alt="Mailling List" /> gtkmm mailing list</a> </li>
 <li>Bugs are tracked in GNOME's <a href="http://bugzilla.gnome.org">bugzilla</a><br>
@@ -35,7 +27,7 @@ Submit gnomemm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gno
 </ul>
 <p />
 
-<a name="info"><font size="+1"><b>What information is needed for a bug report?</b></font></a><br></br>
+<h3>What information is needed for a bug report?</h3>
 <ul>
 <li>version numbers of GTK+, gtkmm and other related software</li>
 <li>description of the bug</li>
@@ -49,7 +41,7 @@ gdb ./proggy ; run ; *crash* ; where
 <li>if possible, provide a patch</li>
 </ul>
 
-<a name="patch"><font size="+1"><b>How do I create a patch?</b></font></a><br></br>
+<h3>How do I create a patch?</h3>
 <ul>
 <li>Take code from cvs</li>
 <li>modify that version</li>
@@ -62,7 +54,7 @@ gdb ./proggy ; run ; *crash* ; where
 <li>Add the patch to bugzilla (see above).</li>
 </ul>
 
-<a name="when"><font size="+1"><b>Should I send a bug report?</b></font></a><br></br>
+<h3>Should I send a bug report?</h3>
 <ul>
 <li>Always send a bug report:
 <ul>
@@ -79,23 +71,6 @@ gdb ./proggy ; run ; *crash* ; where
 </ul>
 
 </p>
-</td>
-
-<td height="1" width="158" valign="top"> <!-- Menu: -->
-
-<!-- SSI fragments/menu.html_fragment begin -->
-<!--#include virtual="fragments/menu.html_fragment" -->
-<!-- SSI fragments/menu.html_fragment end -->
-
-</td>
-
-</tr>
-</table>
-
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->
 <!-- SSI fragments/footer.html_fragment begin -->
-
-</body>
-</html>
-

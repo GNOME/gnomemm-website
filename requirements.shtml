@@ -2,17 +2,9 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<!-- SSI fragments/header.html_fragment begin -->
-<!--#include virtual="fragments/header.html_fragment" -->
-<!-- SSI fragments/header.html_fragment end -->
-
-<table align="center" border="0">
-<tr>
- 
-<td valign="top"> <!-- This page's text: -->
 <h2>Requirements</h2>
 <p>
-<a name="require"><font size="+1"><b>Requirements</b></font></a><br></br>
+<h3>Requirements</h3>
 
 <ul>
 <li><a href="http://www.gtk.org">GTK+</a></li>
@@ -20,11 +12,11 @@
 <li><a href="http://www.gnome.org">gnome-libs</a> (optional)</li>
 </ul>
 
-<a name="gtk"><font size="+1"><b>GTK+</b></font></a><br></br>
+<h3>GTK+</h3>
 <p>You can download GTK+ and GNOME from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
 
 
-<a name="tools"><font size="+1"><b>Tools</b></font></a><br></br>
+<h3>Tools</h3>
 The following tools are required for building gtkmm source packages: 
 <ul>
   <li>GNU m4 (<a href="ftp://ftp.funet.fi/pub/gnu/gnu/">get</a>) </li>
@@ -33,23 +25,7 @@ The following tools are required for building gtkmm source packages:
 
 </ul>
 </p>
-</td>
-
-<td height="1" width="158" valign="top"> <!-- Menu: -->
-
-<!-- SSI fragments/menu.html_fragment begin -->
-<!--#include virtual="fragments/menu.html_fragment" -->
-<!-- SSI fragments/menu.html_fragment end -->
-
-</td>
-
-</tr>
-</table>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->
 <!-- SSI fragments/footer.html_fragment begin -->
-
-</body>
-</html>
-

@@ -2,35 +2,14 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<!-- SSI fragments/header.html_fragment begin -->
-<!--#include virtual="fragments/header.html_fragment" -->
-<!-- SSI fragments/header.html_fragment end -->
-
-<table align="center" border="0">
-<tr>
- 
-<td valign="top"> <!-- This page's text: -->
 <h2>Your Title Here</h2>
+
+<h3>Your Subtitle Here</h3>
+
 <p>
 Your Text Here.
 </p>
-</td>
-
-<td height="1" width="158" valign="top"> <!-- Menu: -->
-
-<!-- SSI fragments/menu.html_fragment begin -->
-<!--#include virtual="fragments/menu.html_fragment" -->
-<!-- SSI fragments/menu.html_fragment end -->
-
-</td>
-
-</tr>
-</table>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->
 <!-- SSI fragments/footer.html_fragment begin -->
-
-</body>
-</html>
-

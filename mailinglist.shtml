@@ -2,17 +2,9 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<!-- SSI fragments/header.html_fragment begin -->
-<!--#include virtual="fragments/header.html_fragment" -->
-<!-- SSI fragments/header.html_fragment end -->
-
-<table align="center" border="0">
-<tr>
- 
-<td valign="top"> <!-- This page's text: -->
 <h2>Mailing List</h2>
 <p>
-<a name="where"><font size="+1"><b>Where is the gtkmm mailinglist?</b></font></a><br></br>
+<h3>Where is the gtkmm mailinglist?</h3>
 
 <ul>
 <li>Mailing list: <a href="mailto:gtkmm-main@lists.sourceforge.net">gtkmm-main@lists.sourceforge.net</a>.<br />
@@ -22,7 +14,7 @@ To subscribe, go to the <a href="http://lists.sourceforge.net/mailman/listinfo/g
 </li>
 </ul>
 
-<a name="subject"><font size="+1"><b>What subject material is appropriate for the list?</b></font></a><br></br>
+<h3>What subject material is appropriate for the list?</h3>
 
 <br />
 The gtkmm mailing list is primarily used for discussion of 
@@ -32,29 +24,13 @@ are more likely to be answered quickly through the
 gtk-list.
 <p />
 
-<a name="archives"><font size="+1"><b>Are there archives of the list?</b></font></a><br></br>
+<h3>Are there archives of the list?</h3>
 <br />
 The most complete archive is located at 
 <a href="http://www.progressive-comp.com/Lists/?l=gtkmm&amp;r=1&amp;w=2#gtkmm">MARC</a>. Another archiver is available at
 <a href="http://www.geocrawler.com/lists/3/SourceForge/1110/0/">Geocrawler</a>.
 </p>
-</td>
-
-<td height="1" width="158" valign="top"> <!-- Menu: -->
-
-<!-- SSI fragments/menu.html_fragment begin -->
-<!--#include virtual="fragments/menu.html_fragment" -->
-<!-- SSI fragments/menu.html_fragment end -->
-
-</td>
-
-</tr>
-</table>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->
 <!-- SSI fragments/footer.html_fragment begin -->
-
-</body>
-</html>
-

@@ -1,89 +1,45 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/xhtml1-transitional.dtd">
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
 
-<html>
-<head>
-<title>gtkmm - the C++ interface for GTK+</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-</head>
-
-<body bgcolor="#F0F0F0" link="#0000D0" vlink="#000060">
-
-<!-- SSI fragments/header.html_fragment begin -->
-<!--#include virtual="fragments/header.html_fragment" -->
-<!-- SSI fragments/header.html_fragment end -->
-
-<table align="center" border="0">
-<tr>
-<td valign="top"></td>
-<td rowspan="2" height="1" width="158" valign="top">
-
-<!-- SSI fragments/menu.html_fragment begin -->
-<!--#include virtual="fragments/menu.html_fragment" -->
-<!-- SSI fragments/menu.html_fragment end -->
-
-</td></tr>
-
-<tr> <!-- Big gtkmm logo and introduction text: -->
-<td valign="top">
-  <div align="center">
-  <a href="documentation.html"><img src="images/gtkmm_logo.gif" border="0" alt="Logo" /><br /></a>
-  </div>
-  <center>
+ <!-- Big gtkmm logo and introduction text: -->
+ <div class="center">
+  <a href="http://www.gtkmm.org/gtkmm2/"><img src="images/gtkmm_logo.gif"
+   alt="gtkmm logo" width="375" height="145" border="0" /><br /></a>
   <h1>New: gtkmm 2</h1>
   <p>
   <a href="gtkmm2/">gtkmm2</a> is not yet as complete as gtkmm 1.2, but it's already easier to use. And we also have a GNOME2 version of gnomemm.<br/>Here's an <a href="gtkmm2/">overview</a>, with documentation and status.
   </p>
-  </center>
-</td></tr>
+ </div>
+ <!-- Descriptions of sub-parts: -->
 
-<tr><td colspan="2"> <!-- Descriptions of sub-parts: -->
-
-<h1>gtkmm</h1>
-gtkmm (previously known as Gtk--) is the official C++ interface for the popular GUI library <a href="http://www.gtk.org">GTK+</a>.  Highlights include
-typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widget classes that can be freely combined to quickly create complex user interfaces. gtkmm is free software distributed under the GNU Library
-General Public License(<a href="license.shtml">LGPL</a>).
-<h1>gnomemm</h1>
-gnomemm (Previously known as Gnome--) is a set of powerful C++ bindings for the <a href="http://www.gnome.org">GNOME</a> libraries, which provide additional functionality above GTK+/gtkmm. 
-<h1>libsigc++</h1>
-Also, be sure to check out our companion library, <a href="http://libsigc.sourceforge.net">libsigc++</a>.
-Due to popular demand our signal/slot library is now provided
-separately for use in non-GUI code. Thus
-all the power of typesafe callbacks and flexible adaptor classes is
-available for use, without changes to the C++ language.  
-<h1>Frequently Asked Questions</h1>
-Here's an <a href="docs/gtkmm-faq.html">FAQ</a> about gtkmm and gnomemm.
-If you are curious about the status of gtkmm in relation to 
-GNOME and Inti, please read this <a href="statement.shtml">
-statement</a> regarding the differences.
-<h1>Latest Versions</h1>
-<h2>Stable</h2>
-gtkmm release: 
-<b><a href="download.shtml">1.2.10</a></b><br />
-gnomemm release: 
-<b><a href="download.shtml">1.2.2</a></b><br />
-<h2>Unstable (Development)</h2>
-gtkmm release: 
-<b><a href="download.shtml">1.3.16</a></b><br />
-gnomemm release: 
-<b><a href="download.shtml"> 1.3.6 </a></b><br />
-<a href="http://sourceforge.net/news/?group_id=1161"><img src="images/news.gif" border="0" width="24" height="24" alt="News" /></a>
-Current news about the latest version is on the <a href="http://sourceforge.net/news/?group_id=1161">news page</a>
-<h1>New gtkmm related libraries</h1>
-Be sure to check out <a href="http://bakery.sourceforge.net/">Bakery</a>
-a framework for constructing gnomemm applications.  It allows for
-quick use of the Document/View architecture.  Also for gtkmm, 
-<a href="http://gtkextramm.sourceforge.net/"> GtkExtra--</a> for those 
-extra widget wrappers.
-<p />
-
-</td>
-</tr>
-</table>
+ <h1>gtkmm</h1>
+ gtkmm (previously known as Gtk--) is the official C++ interface for the popular GUI library <a href="http://www.gtk.org">GTK+</a>.  Highlights include
+ typesafe callbacks, widgets extensible via inheritance and a comprehensive set of widget classes that can be freely combined to quickly create complex user interfaces. gtkmm is free software distributed under the GNU Library
+ General Public License(<a href="license.shtml">LGPL</a>).
+ <h1>gnomemm</h1>
+ gnomemm (Previously known as Gnome--) is a set of powerful C++ bindings for the <a href="http://www.gnome.org">GNOME</a> libraries, which provide additional functionality above GTK+/gtkmm. 
+ <h1>libsigc++</h1>
+ Also, be sure to check out our companion library, <a href="http://libsigc.sourceforge.net">libsigc++</a>.
+ Due to popular demand our signal/slot library is now provided
+ separately for use in non-GUI code. Thus
+ all the power of typesafe callbacks and flexible adaptor classes is
+ available for use, without changes to the C++ language.  
+ <h1>Frequently Asked Questions</h1>
+ Here's an <a href="docs/gtkmm-faq.html">FAQ</a> about gtkmm and gnomemm.
+ If you are curious about the status of gtkmm in relation to 
+ GNOME and Inti, please read this <a href="statement.shtml">
+  statement</a> regarding the differences.
+ <a href="http://sourceforge.net/news/?group_id=1161"><img src="images/news.gif" border="0" width="24" height="24" alt="News" /></a>
+ Current news about the latest version is on the <a href="http://sourceforge.net/news/?group_id=1161">news page</a>
+ <h1>New gtkmm related libraries</h1>
+ Be sure to check out <a href="http://bakery.sourceforge.net/">Bakery</a>
+ a framework for constructing gnomemm applications.  It allows for
+ quick use of the Document/View architecture.  Also for gtkmm, 
+ <a href="http://gtkextramm.sourceforge.net/"> GtkExtra--</a> for those 
+ extra widget wrappers.
+ <p />
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->
 <!-- SSI fragments/footer.html_fragment begin -->
-
-</body>
-</html>
-

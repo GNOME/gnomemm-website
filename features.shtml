@@ -2,17 +2,9 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<!-- SSI fragments/header.html_fragment begin -->
-<!--#include virtual="fragments/header.html_fragment" -->
-<!-- SSI fragments/header.html_fragment end -->
-
-<table align="center" border="0">
-<tr>
- 
-<td valign="top"> <!-- This page's text: -->
 <h2>Supported Features</h2>
 <p>
-<a name="framework"><font size="+1"><b>Widget wrapping framework</b></font></a><br></br>
+<h3>Widget wrapping framework</h3>
 
 <ul>
 <li>Automatic wrapping system for converting foreign resources</li>
@@ -34,7 +26,7 @@
 </li>
 </ul>
 
-<a name="gtk_widgets"><font size="+1"><b>gtkmm widgets</b></font></a><br></br>
+<h3>gtkmm widgets</h3>
 <ul>
 <li>Tracks GTK+ development</li>
 <li>Single inheritance widget hierarchy</li>
@@ -46,7 +38,7 @@
 <li>Factories for constructing Toolbars and Menus</li>
 </ul>
 
-<a name="gnome_widgets"><font size="+1"><b>gnomemm widgets</b></font></a><br></br>
+<h3>gnomemm widgets</h3>
 <ul>
 <li> Full Canvas support</li>
 
@@ -55,7 +47,7 @@
 <li> MDI support</li>
 </ul>
 
-<a name="signals"><font size="+1"><b>Type-safe signal system</b></font></a><br></br> (via sigc++)
+<h3>Type-safe signal system</h3> (via sigc++)
 <ul>
 <li>One-to-Many callbacks</li>
 
@@ -73,23 +65,7 @@
 </ul>
 
 </p>
-</td>
-
-<td height="1" width="158" valign="top"> <!-- Menu: -->
-
-<!-- SSI fragments/menu.html_fragment begin -->
-<!--#include virtual="fragments/menu.html_fragment" -->
-<!-- SSI fragments/menu.html_fragment end -->
-
-</td>
-
-</tr>
-</table>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->
 <!-- SSI fragments/footer.html_fragment begin -->
-
-</body>
-</html>
-
