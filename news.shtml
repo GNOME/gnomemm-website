@@ -6,6 +6,12 @@
 <p>
 <ul>
 <li>
+March 2003: libsigc++ <a href="http://www.ddj.com/documents/s=1642/ddj0303d/">article</a> in Dr Dobb's Journal.
+</li>
+<li>
+January 2003: gtkmm 2.2.0 <a href="http://lists.gnome.org/archives/gtkmm-list/2003-January/msg00040.html"released</a>, API/ABI-compatible with gtkmm 2.0, with API additions.
+</li>
+<li>
 December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 released - these APIs are binary-frozen.
 </li>
 <li>

@@ -16,7 +16,7 @@ The source packages for gtkmm are available on the
 <p>
 <ul>
 <li><a href="http://www.gtk.org">GTK+</a></li>
-<li><a href="http://libsigc.sourceforge.net">libsigc++</a> (1.0.x for gtkmm 1.2 and 1.2.x for gtkmm 2)</li>
+<li><a href="http://libsigc.sourceforge.net">libsigc++</a> (1.2.x for gtkmm 2, or 1.0.x for gtkmm 1.2)</li>
 </ul>
 </p>
 <p>Here are dependency graphs for <a href="jhbuild_dot_gtkmm.png">gtkmm</a> and <a href="jhbuild_dot_gnomemm.png">gnomemm</a>, generated automatically with jhbuild and graphviz.</p>
@@ -25,11 +25,13 @@ The source packages for gtkmm are available on the
 <p>You can download GTK+ and GNOME from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
 
 <h3>Binary</h3>
-<p>You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your linux distribution to provide official gtkmm packages.</para>
+<p>You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your Linux distribution to provide official gtkmm packages.</para>
 <h4>gtkmm 2.0:</h4>
 <p>
 <ul>
-<li>Debian: apt-get install libgtkmm2.0-dev</li>
+<li>Debian Linux: apt-get install libgtkmm2.0-dev</li>
+<li>RedHat Linux: Please request them <a href="http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=82473"></a>, giving reasons.</li>
+<li>Windows: Here is an <a href="http://www.pcpm.ucl.ac.be/~gustin/win32_ports/">installer</a>.</li>
 </ul>
 </p>
 
