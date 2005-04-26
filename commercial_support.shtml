@@ -4,7 +4,7 @@
 
 <h2>Commercial Support</h2>
 <p>
-Lots of corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:
+Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:
 <ul>
 <li><a href="http://www.180sw.com/">OneEighty Software</a> - embedded and telecoms</li>
 <li><a href="http://www.spacetec.no/">Kongsberg Spacetec</a> - satellite/meteorological</li>
@@ -17,12 +17,14 @@ Lots of corporations use gtkmm to implement their products and internal projects
 <li><a href="http://www.dme.net">DME</a> - mold engineering</li>
 <li><a href="http://www.petig-baender.de">Adolf Petig GmbH</a> - textile ribbon manufacturing</li>
 <li><a href="http://www.northropgrumman.com">Northrup Grumman</a> - military/defense</li>
-<li><a href="http://www.mysql.com">MySQL</a> -Databases</li>
-<li><a href="http://www.bifab.de">Bibliographisches Institut & F.A. Brockhaus AG</a> - Publishing</li>
+<li><a href="http://www.mysql.com">MySQL</a> - databases</li>
+<li><a href="http://www.bifab.de">Bibliographisches Institut & F.A. Brockhaus AG</a> - publishing</li>
 <li><a href="http://www.hasar.com">Hasar</a> - POS software/hardware</li>
-<li><a href="http://www.icodsi.biz">iCodsi</a> - Security/encryption software</li>
-<li><a href="http://www.aplik.com/">Aplik</a> - Process engineering</li>
-<li><a href="http://www.fis-cal.com/">Fiscal</a> - Fiscal Systems, POS</li>
+<li><a href="http://www.icodsi.biz">iCodsi</a> - security/encryption software</li>
+<li><a href="http://www.aplik.com/">Aplik</a> - process engineering</li>
+<li><a href="http://www.fis-cal.com/">Fiscal</a> - fiscal Systems, POS</li>
+<li><a href="http://www.thewrittenword.com/">The Written Word</a> - prebuilt software packages</li>
+<li><a href="http://www.vmware.com/">VMWare</a> - network management, emulation</li>
 </ul> 
 </p>
 <p>If you would like to be listed here please send email to the <a href="mailinglist.shtml">mailing list</a> or a maintainer.</p>
