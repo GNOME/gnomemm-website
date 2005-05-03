@@ -40,19 +40,23 @@ some other projects using the same toolkit.
 <li><a href="http://www.glom.org/">Glom</a> Database Environment.</li>
 <li><a href="http://cactus.rulez.org/projects/guikachu/">Guikachu</a>, graphical resource editor for PalmOS  applications</li>
 <li><a href="http://www.inkscape.org/">Inkscape</a> Vector graphics drawing.</li>
+<li><a href="http://gnomoradio.org/">Gnomoradio</a> peer to peer sharing of freely licensed music.</li>
+<li><a href="http://www.debain.org/software/gip/">Gip</a> IP address calculator.</li>
+<li><a href="http://www.k-3d.org/">K-3D</a> 3D modelling and animation.</li>
+<li><a href="http://www.cs.auc.dk/~olau/hardware-monitor/">Hardware Monitor</a> GNOME panel applet.</li>
+<li><a href="http://www.workrave.org/">Workrave</a> Assists in recovery and prevention of RSI.</li>
+<li><a href="http://kino.schirmacher.de/article/view/51/1/11">timfx</a> digital video effects plug-in for <a href="http://www.kinodv.org/">Kino</a>.</li> 
+<li><a href="http://www.cs.auc.dk/~olau/monster-masher/">Monster Masher</a> Game.</li>
+<li><a href="http://gparted.sourceforge.net/">GParted</a> disk partiioning tool.</li>
 </ul>
 </p>
 
 <p> Using gtkmm 2.0/2.2:
 <ul>
 <li><a href="http://www.stacken.kth.se/project/pptout/">Passepartout</a> DTP.</li>
-<li><a href="http://www.workrave.org/">Workrave</a> Assists in recovery and prevention of RSI.</li>
-<li><a href="http://www.cs.auc.dk/~olau/hardware-monitor/">Hardware Monitor</a> GNOME panel applet.</li>
 <li><a href="http://heavymole.sourceforge.net/">HeavyMole</a> File sharing client.</li>
-<li><a href="http://www.cs.auc.dk/~olau/monster-masher/">Monster Masher</a> Game.</li>
 <li><a href="http://gabber.sourceforge.net/">Gabber 2</a> GNOME Jabber IM client.</li>
 <li><a href="http://gex.sourceforge.net/">Gex</a> File manager</li>
-<li><a href="http://www.glom.org/">Glom</a> MySQL Database GUI</li>
 <li><a href="http://gspeakers.sourceforge.net/">gspeakers</a> Loudspeaker designer</li>
 <li><a href="http://lostirc.sourceforge.net/">LostIRC</a> IRC client</li>
 <li><a href="http://www.cvine.freeserve.co.uk/efax-gtk/">Efax-gtk</a> GUI frontend for the efax fax program.</li>
@@ -64,10 +68,6 @@ some other projects using the same toolkit.
 <li><a href="http://www.mysql.com/downloads/administrator.html">MySQL Administrator</a> Database GUI.</li>
 <li><a href="http://telgarsky.com/cug/">CUG</a> 3D equation plotter.</li>
 <li><a href="http://granule.sourceforge.net/">Granule</a> Index cards.</li>
-<li><a href="http://www.k-3d.org/">K-3D</a> 3D modelling and animation.</li>
-<li><a href="http://gnomoradio.org/">Gnomoradio</a> peer to peer sharing of freely licensed music.</li>
-
-
 </ul>
 
 
