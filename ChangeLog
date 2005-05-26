@@ -1,3 +1,8 @@
+2005-05-26  Murray Cumming <murrayc@murrayc.com>
+
+	* extra.shtml: Move cdmaster to 2.4 section. Added 
+	WaveMixer.
+
 2005-03-14  Murray Cumming  <murrayc@murrayc.com>
 
 	* downloads.shtml: Mention thewrittenword.com for odd UNIX 

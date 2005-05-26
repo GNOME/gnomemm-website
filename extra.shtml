@@ -30,7 +30,7 @@ If all else fails, sometimes it is good to look at the source of
 some other projects using the same toolkit.
 </p>
 
-<p> Using gtkmm 2.4:
+<p> Using gtkmm 2.4/2.6:
 <ul>
 <li><a href="http://regexxer.sourceforge.net/">Regexxer</a> Multi-file search/replace with visual feedback.</li>
 <li><a href="http://subsubsub.sourceforge.net">SubSubSub</a> Creation of hierarchical text documents.</li>
@@ -50,6 +50,7 @@ some other projects using the same toolkit.
 <li><a href="http://gparted.sourceforge.net/">GParted</a> disk partiioning tool.</li>
 <li><a href="http://sysinfo.r8.org/">Sysinfo</a> system monitor.</li>
 <li><a href="http://www.openldev.org/">OpenLDev</a> software development IDE.</li>
+<li><a href="http://cdrdao.sourceforge.net/">gcdmaster</a>, a cdrdao frontend.</li>
 </ul>
 </p>
 
@@ -70,6 +71,7 @@ some other projects using the same toolkit.
 <li><a href="http://www.mysql.com/downloads/administrator.html">MySQL Administrator</a> Database GUI.</li>
 <li><a href="http://telgarsky.com/cug/">CUG</a> 3D equation plotter.</li>
 <li><a href="http://granule.sourceforge.net/">Granule</a> Index cards.</li>
+<li><a href="http://wavemixer.sourceforge.net/">WaveMixer</a> sound editor.</li>
 </ul>
 
 
@@ -79,8 +81,6 @@ some other projects using the same toolkit.
 Using gtkmm 1.2:
 <ul>
 <li><a href="http://ardour.sourceforge.net/">ardour</a>, a multichannel hard disk recorder and digital audio workstation</li>
-
-<li><a href="http://cdrdao.sourceforge.net/">gcdmaster</a>, a cdrdao frontend.</li>
 <li><a href="http://gabber.sourceforge.net/">gabber</a>, GNOME Jabber client.</li>
 <li><a href="http://gensql.sourceforge.net/">genSQL</a>, a generic SQL GUI.</li>
 <li><a href="http://cactus.rulez.org/projects/gnomoku/">Gnomoku</a>, Gomoku game for GNOME</li>
