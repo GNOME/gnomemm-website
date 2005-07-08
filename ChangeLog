@@ -1,3 +1,8 @@
+2005-07-08  Murray Cumming  <murrayc@murrayc.com>
+
+	* extra.shtml: Added MLView, now ported to 
+	gtkmm.
+
 2005-06-28  Murray Cumming <murrayc@murrayc.com>
 
 	* extra.shtml: Added Wallpaper Tray.
