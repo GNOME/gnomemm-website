@@ -25,6 +25,7 @@ Many corporations use gtkmm to implement their products and internal projects. Y
 <li><a href="http://www.fis-cal.com/">Fiscal</a> - fiscal Systems, POS</li>
 <li><a href="http://www.thewrittenword.com/">The Written Word</a> - prebuilt software packages</li>
 <li><a href="http://www.vmware.com/">VMWare</a> - network management, emulation</li>
+<li><a href="http://www.exact-med.com/">Allcare</a> - ExactMed eMAR, medication administration</li>
 </ul> 
 </p>
 <p>If you would like to be listed here please send email to the <a href="mailinglist.shtml">mailing list</a> or a maintainer.</p>
