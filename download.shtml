@@ -9,24 +9,27 @@
 <a href="http://sourceforge.net/projects/gtkmm/">
 <img src="images/save.gif" vspace="0" border="0" width="24" height="24" alt="*" /></a>
 You should use the <a href="#Binary">binary packages</a> provided for your operating system unless you wish to test the latest versions. However, the following source packages are available:</p>
-<h4>gtkmm 2.7/2.8 and GNOME bindings:</h4>
-<p>These replace the gtkmm 2.6 versions and are currently unstable:</p>
-<ul>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.7/">glibmm 2.7</a> (unstable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.7/">gtkmm 2.7</a> (unstable)</li>
-</ul>
 
-<h4>gtkmm 2.6 and GNOME bindings:</h4>
+<!--
+<h4>gtkmm 2.9/2.10 and GNOME bindings:</h4>
+<p>These replace the gtkmm 2.8 versions and are currently unstable:</p>
+<ul>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.7/">glibmm 2.9</a> (unstable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.7/">gtkmm 2.9</a> (unstable)</li>
+</ul>
+-->
+
+<h4>gtkmm 2.8 and GNOME bindings:</h4>
 <p>These install in parallel with gtkmm 2.0/2.2 and gtkmm 1.2.</p>
 <ul>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.6/">glibmm 2.6</a> (stable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.6/">gtkmm 2.6</a> (stable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.8/">glibmm 2.8</a> (stable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.8/">gtkmm 2.8</a> (stable)</li>
 <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.6/">libglademm 2.6</a> (stable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.10/">libgnomecanvasmm 2.10</a> (stable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gnome-vfsmm/2.10/">gnome-vfsmm 2.10</a> (stable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.10/">gconfmm 2.10</a> (stable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.10/">libgnomemm 2.6</a> (stable)</li>
-<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.10/">libgnomeuimm 2.10</a> (stable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.12/">libgnomecanvasmm 2.12</a> (stable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gnome-vfsmm/2.12/">gnome-vfsmm 2.12</a> (stable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.12/">gconfmm 2.12</a> (stable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.12/">libgnomemm 2.2</a> (stable)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.12/">libgnomeuimm 2.12</a> (stable)</li>
 <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/">libpanelappletmm 2.6</a> (unstable)</li>
 <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libbonobomm/">libbonobomm 2.6</a> (unstable)</li>
 <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libbonobouimm/">libbonobouimm 2.6</a> (unstable)</li>
