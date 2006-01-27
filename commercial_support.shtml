@@ -6,10 +6,10 @@
 <p>
 Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:
 <ul>
-<li><a href="http://www.180sw.com/">OneEighty Software</a> - embedded and telecoms</li>
+<!-- Bought by another company: <li><a href="http://www.180sw.com/">OneEighty Software</a> - embedded and telecoms</li> -->
 <li><a href="http://www.spacetec.no/">Kongsberg Spacetec</a> - satellite/meteorological</li>
-<li><a href="http://www.solvo.ru/eng/">Solvo Ltd.</a> - warehouse management systems</li>
-<li><a href="http://www.equalarea.com/paul/las.html">Linux Audio Systems</a> - professional audio/music systems</li>
+<li><a href="http://www.solvo.ru/">Solvo Ltd.</a> - warehouse management systems</li>
+<li><a href="http://linuxaudiosystems.com/">Linux Audio Systems</a> - professional audio/music systems</li>
 <li><a href="http://www.isotrol.com">Isotrol</a> - electrical engineering</li>
 <li><a href="http://www.eads.com">EADS</a> - aerospace/defense/satellite</li>
 <li><a href="http://www.henson.com">Jim Henson's Muppet Workshop</a> - animatronics</li>
