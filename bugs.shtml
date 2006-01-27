@@ -3,7 +3,7 @@
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
 <h2>Bugs</h2>
-<p>
+
 <h3>Current bugs/patches</h3>
 <p>See <a href="#NewBugs">Where to report</a> to submit new bugs or patches.</p>
 
@@ -53,12 +53,10 @@ bugs</a> - a good way to get involved.</li>
 <li>Bugs are tracked in GNOME's <a href="http://bugzilla.gnome.org">bugzilla</a><br>
 Submit gtkmm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm">here</a>.<br>
 Submit gnomemm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm">here</a>.
-
 </li>
 <li>Patches should be attached to existing bugzilla bugs rather than sent to
 the mailing list.  When reporting a new bug you'll get a chance to attach a
-file to it immediately <em>after</em> opening the bug.  Please use the PATCH
-keyword in bugzilla, and remember to patch the ChangeLog, too.</li>
+file to it immediately <em>after</em> opening the bug. Please remember to patch the ChangeLog too.</li>
 </ul>
 <p />
 
