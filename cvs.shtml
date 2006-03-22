@@ -18,30 +18,22 @@ anonymous CVS checkouts are available from anoncvs.gnome.org.
 </p>
 
 <p>
-To check out the latest stable version of <b>gtkmm 2.2</b>:
+For instance, to check out the latest version of <b>gtkmm</b>:
 <pre>
 cvs -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login 
 <i>(hit return as the password)</i>
-cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm2
+cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm
 </pre>
 </p>
 
-<p>The unstable glibmm 2.4 and gtkmm 2.4 are in the glibmm and gtkmm cvs modules - see below.</p>
-
-<p>
-To check out the latest development version of <b>gnomemm</b>:
-<pre>
-Login as with gtkmm and:
-cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gnomemm
-</pre>
-</p>
+<p>glibmm 2.4 and gtkmm 2.4 are in the glibmm and gtkmm cvs modules - see below.</p>
 
 <p>
 You will need to run the autogen.sh script to generate the build files. We recommend jhbuild for setting up a separate development prefix.</p>
 </p>
 
 <h3>Modules and branches</h3>
-<p>This has been a bit of a mess, but you can see that it is getting better. Now that we are synchronized with the GNOME release schedule, we will use <a href="http://developer.gnome.org/dotplan/for_maintainers.html#Branches">standard GNOME branch names</a>.</p>
+<p>We are synchronized with the GNOME release schedule, so we use <a href="http://developer.gnome.org/dotplan/for_maintainers.html#Branches">standard GNOME branch names</a>.</p>
 
 <h4>gtkmm and glibmm</h4>
 <p>
@@ -78,7 +70,13 @@ You will need to run the autogen.sh script to generate the build files. We recom
 </tr>
 <tr>
   <td>gtkmm</td>
-  <td>2.7/2.8</td>
+  <td>2.8</td>
+  <td>gtkmm</td>
+  <td>gtkmm-2-8</td>
+</tr>
+<tr>
+  <td>gtkmm</td>
+  <td>2.9/2.10</td>
   <td>gtkmm</td>
   <td>HEAD</td>
 </tr>
@@ -96,7 +94,19 @@ You will need to run the autogen.sh script to generate the build files. We recom
 </tr>
 <tr>
   <td>glibmm</td>
-  <td>2.7/2.8</td>
+  <td>2.8</td>
+  <td>glibmm</td>
+  <td>glibmm-2-8</td>
+</tr>
+<tr>
+  <td>glibmm</td>
+  <td>2.10</td>
+  <td>glibmm</td>
+  <td>HEAD</td>
+</tr>
+<tr>
+  <td>glibmm</td>
+  <td>2.11/1.12</td>
   <td>glibmm</td>
   <td>HEAD</td>
 </tr>
