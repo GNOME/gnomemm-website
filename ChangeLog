@@ -1,3 +1,8 @@
+2006-04-24  Murray Cumming  <murrayc@murrayc.com>
+
+	* extra.shtml: Corrected the gtkmozembedmm link, thanks to 
+	Matt Thomson.
+
 2006-04-05  Murray Cumming  <murrayc@murrayc.com>
 
 	* extra.shtml: Added Goupil.
