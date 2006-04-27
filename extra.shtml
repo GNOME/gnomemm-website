@@ -10,8 +10,10 @@ widgets are available from other sources.
 <ul>
 <li><a href="http://gtkglext.sourceforge.net">GtkGlExtmm</a> OpenGL rendering for gtkmm</li>
 <li><a href="http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/">gtkmozembedmm</a> Mozilla-based web browser widget</li>
+<li><a href="http://plotmm.sourceforge.net/">Plotmm</a> Plot widget for scientific applications</li>
 <li><a href="http://vtemm.sourceforge.jp/">VTEmm</a> Terminal widget</li>
-<li><a href="http://gtkextramm.sourceforge.net/">GtkExtra--</a>, Wrappers for GtkExtra (plot, sheet, etc)</li>
+<li><a href="http://gtkextramm.sourceforge.net/">gtkextramm</a>, Wrappers for GtkExtra (plot, sheet, etc)</li>
+<li><a href="http://www.nongnu.org/om-synth/flowcanvas.html">FlowCanvas</a> Canvas for data flow systems.</li>
 
 </ul>
 </p>
@@ -62,7 +64,9 @@ some other projects using the same toolkit.
 <li><a href="http://pupuedit.sourceforge.net/">Pihlaja</a> Non-linear video/audio editor.</li>
 <li><a href="http://free-doko.sourceforge.net/en/">FreeDoko</a> Card game.</li>
 <li><a href="http://www.minisip.org/">miniSIP</a> Internet Telephone.</li>
-<li><a href="http://goupil.tuxfamily.org/">Goupil</a> Membership Management.</li> 
+<li><a href="http://goupil.tuxfamily.org/">Goupil</a> Membership Management.</li>
+<li><a href="http://www.nongnu.org/om-synth/index.html">Om</a> Modular synthesizer and effects processor.</li>
+<li><a href="http://minuslab.net/code/nitrogen/">Nitrogen</a> Background browser and setter.</li>
 
 </ul>
 </p>

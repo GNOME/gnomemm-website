@@ -1,3 +1,7 @@
+2006-04-27  Murray Cumming  <murrayc@murrayc.com>
+
+	* extra.shtml: Added Plotmm, FlowCanvas, Om.
+
 2006-04-24  Murray Cumming  <murrayc@murrayc.com>
 
 	* extra.shtml: Corrected the gtkmozembedmm link, thanks to 
