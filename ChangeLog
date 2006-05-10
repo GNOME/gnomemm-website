@@ -1,3 +1,12 @@
+2006-05-10  Murray Cumming  <murrayc@murrayc.com>
+
+	* cvs.shtml: Mention the glibmm-2-10 branch name
+	* developers.shtml: Update email addresses for me and Daniel Elstner.
+	Remove email address for Karl Nelson because it does not work and we 
+	do not know of a working one. Where are you Karl? Removed information 
+	about 1.0 developers. Current gtkmm developers should feel free to 
+	add themselves to this page.
+
 2006-04-27  Murray Cumming  <murrayc@murrayc.com>
 
 	* extra.shtml: Added Plotmm, FlowCanvas, Om.

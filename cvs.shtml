@@ -102,7 +102,7 @@ You will need to run the autogen.sh script to generate the build files. We recom
   <td>glibmm</td>
   <td>2.10</td>
   <td>glibmm</td>
-  <td>HEAD</td>
+  <td>glibmm-2-10</td>
 </tr>
 <tr>
   <td>glibmm</td>
