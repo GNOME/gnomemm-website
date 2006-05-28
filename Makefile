@@ -16,7 +16,8 @@ dependencies_gnome_desktop:
 	dot jhbuild_gnome_desktop.dot -Tpng > jhbuild_dot_gnome_desktop.png
 
 
-post-html: dependencies_gtkmm dependencies_gnomemm dependencies_gnome_desktop
+#post-html: dependencies_gtkmm dependencies_gnomemm dependencies_gnome_desktop
+post-html:
 	rsync -avz --rsh ssh --cvs-exclude * $$USER@shell.sourceforge.net:$(web_path)
 
 

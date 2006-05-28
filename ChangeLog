@@ -1,3 +1,10 @@
+2006-05-28  Murray Cumming  <murrayc@murrayc.com>
+
+	* Makefile: Uncomment jhbuild dot graph generation because it seems to be 
+	broken.
+	* commercial_support.shtml: Move support companies to top and add 
+	Made To Order Software Corp, based on email from Alexis Wilke.
+
 2006-05-10  Murray Cumming  <murrayc@murrayc.com>
 
 	* cvs.shtml: Mention the glibmm-2-10 branch name
