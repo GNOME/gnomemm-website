@@ -10,12 +10,8 @@
 <li><b>gtkmm mailing list</b>: <a
 href="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</a>. To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</a>.
 </li>
-<li><b>gnomemm mailing list</b>: <a
-href="mailto:gnomemm-list@gnome.org">gnomemm-list@gnome.org</a>.
-To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gnomemm-list">subscribe page</a>.
-</li>
 <li>For general GTK+ discussion, please use the <a href="http://www.gtk.org/mailinglists.html">gtk-list</a>.</li>
-<li>For <a href="http://home.wtal.de/petig/Gtk/">glademm</a> discussion, please use the <a href="http://mail.gnome.org/mailman/listinfo/glademm-list">glademm-list</a>. Please note that glademm is a code-generator and is not part of gtkmm or gnomemm. It is not the same thing as <a href="http://www.gtkmm.org/gtkmm2/docs/tutorial/html/ch19.html">libglademm</a>, which is part of gnomemm. libglademm instantiates user interfaces from .glade files.</li>
+<li>For <a href="http://home.wtal.de/petig/Gtk/">glademm</a> discussion, please use the <a href="http://mail.gnome.org/mailman/listinfo/glademm-list">glademm-list</a>. Please note that glademm is a code-generator and is not part of gtkmm or gnomemm. It is not the same thing as <a href="http://www.gtkmm.org/gtkmm2/docs/tutorial/html/ch19.html">libglademm</a>, which is part of the gtkmm project. libglademm instantiates user interfaces from .glade files.</li>
 </ul>
 
 <h3>What subject material is appropriate for the list?</h3>
@@ -32,8 +28,6 @@ gtk-list.
 We recently moved the mailing list. The new archives are here:
 <ul>
 <li>gtkmm-list <a href="http://mail.gnome.org/archives/gtkmm-list/">archive</a>.
-</li>
-<li>gnomemm-list <a href="http://mail.gnome.org/archives/gnomemm-list/">archive</a>.
 </li>
 </ul>
 

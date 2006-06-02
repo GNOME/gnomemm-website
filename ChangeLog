@@ -1,3 +1,7 @@
+2006-06-02  Murray Cumming  <murrayc@murrayc.com>
+
+	* mailinglist.shtml: Removed mention of gnomemm-list. It will soon die.
+
 2006-05-28  Murray Cumming  <murrayc@murrayc.com>
 
 	* Makefile: Uncomment jhbuild dot graph generation because it seems to be 
