@@ -3,41 +3,50 @@
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
 <h2>Mailing List</h2>
-<p>
 <h3>Where is the gtkmm mailing list?</h3>
 
 <ul>
-<li><b>gtkmm mailing list</b>: <a
-href="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</a>. To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</a>.
-</li>
-<li>For general GTK+ discussion, please use the <a href="http://www.gtk.org/mailinglists.html">gtk-list</a>.</li>
-<li>For <a href="http://home.wtal.de/petig/Gtk/">glademm</a> discussion, please use the <a href="http://mail.gnome.org/mailman/listinfo/glademm-list">glademm-list</a>. Please note that glademm is a code-generator and is not part of gtkmm or gnomemm. It is not the same thing as <a href="http://www.gtkmm.org/gtkmm2/docs/tutorial/html/ch19.html">libglademm</a>, which is part of the gtkmm project. libglademm instantiates user interfaces from .glade files.</li>
+    <li><b>gtkmm mailing list</b>: <a
+            href="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</a>. To subscribe, go to the <a href="http://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</a>.
+    </li>
+    <li>For general GTK+ discussion, please use the <a href="http://www.gtk.org/mailinglists.html">gtk-list</a>.</li>
+    <li>For <a href="http://home.wtal.de/petig/Gtk/">glademm</a> discussion, please use the <a href="http://mail.gnome.org/mailman/listinfo/glademm-list">glademm-list</a>. <em>Please note that glademm is a code-generator and is not part of gtkmm or gnomemm. It is not the same thing as <a href="http://www.gtkmm.org/gtkmm2/docs/tutorial/html/ch19.html">libglademm</a>, which is part of gnomemm</em>. libglademm instantiates user interfaces from .glade files.</li>
 </ul>
 
 <h3>What subject material is appropriate for the list?</h3>
 
-The mailing lists are used for discussion of 
-development, bug reports, suggestions, and improvements 
-of the C++ wrappers themselves. There is also  discussion of the use of the wrapper. Questions about the underlying GTK+ widget set 
-are more likely to be answered quickly through the
-gtk-list.
-<p />
-
-<h3>Are there archives of the list?</h3>
 <p>
-We recently moved the mailing list. The new archives are here:
-<ul>
-<li>gtkmm-list <a href="http://mail.gnome.org/archives/gtkmm-list/">archive</a>.
-</li>
-</ul>
-
-<a
-href="http://www.progressive-comp.com/Lists/?l=gtkmm&amp;r=1&amp;w=2#gtkmm">MARC</a> archives both the old and new mailing list, and has a more reliable search engine.
+    The mailing lists are used for discussion of development, bug reports,
+    suggestions, and improvements of the C++ wrappers themselves. There is
+    also  discussion of the use of the wrapper. Questions about the
+    underlying GTK+ widget set are more likely to be answered quickly
+    through the gtk-list.
 </p>
 
-<h3>irc channel</h3>
+<h3>List Archives</h3>
 <p>
-We also discuss development in the #c++ channel on irc.gnome.org, but questions are more likely to be answered properly on the mailing list. Plus, the mailing list is archived, so others can benefit from the answers.</p>
+    The archive of messages since the list was move to gnome.org hosting can
+    be found in the following locations:
+</p>
+<ul>
+    <li>gtkmm-list <a href="http://mail.gnome.org/archives/gtkmm-list/">archive</a>.
+    </li>
+</ul>
+
+<p>
+    <a
+        href="http://www.progressive-comp.com/Lists/?l=gtkmm&amp;r=1&amp;w=2#gtkmm">MARC</a>
+    archives both the old and new mailing list, and has a more reliable
+    search engine.
+</p>
+
+<h3>IRC channel</h3>
+<p>
+    We also discuss development in the <strong>#c++</strong> channel on
+    irc.gnome.org, but questions are more likely to be answered properly on
+    the mailing list. Plus, the mailing list is archived, so others can
+    benefit from the answers.
+</p>
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->

@@ -4,8 +4,8 @@
 
 <h2>Bugs</h2>
 
+<p class="highlight">See <a href="#NewBugs">Where to report</a> to submit new bugs or patches.</p>
 <h3>Current bugs/patches</h3>
-<p>See <a href="#NewBugs">Where to report</a> to submit new bugs or patches.</p>
 
 <p><a href="http://bugzilla.gnome.org/buglist.cgi?short_desc_type=substring&short_desc=&product=glibmm&product=gnomemm&product=gtkmm&long_desc_type=substring&long_desc=&status_whiteboard_type=substring&status_whiteboard=&keywords_type=nowords&keywords=API&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_status=VERIFIED&emailassigned_to1=1&emailtype1=substring&email1=&emailreporter2=1&emailtype2=substring&email2=&bugidtype=include&bug_id=&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=">All outstanding gtkmm, glibmm, and gnomemm bugs</a></p>
 
@@ -48,7 +48,7 @@ bugs</a> - a good way to get involved.</li>
 
 <p>As soon as a gtkmm or gnomemm patch has been clearly approved by a maintainer, anybody with cvs write access may apply it.</p>
 
-<h3><a name="NewBugs"/>Where to report?</h3>
+<h3><a name="NewBugs"/>Where to report?</a></h3>
 <ul>
 <li>Bugs are tracked in GNOME's <a href="http://bugzilla.gnome.org">bugzilla</a><br>
 Submit gtkmm bugs <a href="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm">here</a>.<br>
@@ -77,7 +77,7 @@ create a simple-as-possible example that actually builds. This helps
 us to isolate the problem, and proves that the problem is not caused
 by your own code.</p>
 
-<h3><a name="CreatingPatches"/>How do I create a patch?</h3>
+<h3><a name="CreatingPatches"/>How do I create a patch?</a></h3>
 <ul>
 <li>Take code from <a href="cvs.shtml">cvs</a></li>
 <li>Modify that version</li>

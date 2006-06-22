@@ -1,65 +1,120 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html>
- <head>
-  <title>gtkmm - the C++ interface to GTK+</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <link rel="stylesheet" href="style.css" type="text/css" />
- </head>
- <body>
+    <head>
+        <title>gtkmm - the C++ interface to GTK+</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+    <body>
 
-  <div id="menu">
-   <div class="center" style="padding-bottom: 10px">
-    <img src="images/gtkmm_logo_small.png" width="150" height="58" alt="small gtkmm logo" /><br />
-   </div>
-   <div class="menubox">
-    <b><a class="menu" href="index.shtml">gtkmm home</a></b><br />
-    <a class="menu" href="features.shtml">Features</a><br />
-    <a class="menu" href="license.shtml">License</a><br />
-    <a class="menu" href="news.shtml">News</a><br />
-    <br />
-    <a class="menu" href="download.shtml">Download</a><br />
-    <a class="menu" href="cvs.shtml">CVS</a><br />
-    <br />
-    <b><a class="menu" href="docs/gtkmm-2.4/docs/">Documentation</a></b><br />
-    <a class="menu" href="docs/gtkmm-2.4/docs/FAQ/html/index.html">FAQ</a><br />
-    <a class="menu" href="mailinglist.shtml">Mailing Lists</a><br />
-    <a class="menu" href="developers.shtml">Developers</a><br />
-    <a class="menu" href="bugs.shtml">Bugs</a><br />
-    <a class="menu" href="extra.shtml">Additional Resources</a><br />
-    <a class="menu" href="books.shtml">Books</a><br />
-    <br />
-    <a class="menu" href="commercial_support.shtml">Commercial</a><br />
-   </div>
+        <div id="everything">
+            <div id="header">
+                <div class="content">
+                    <h1>gtkmm</h1>
+                    <p>C++ Interfaces for GTK+ and GNOME</p>
+                </div>
+                <div class="banner">
+                    <ul>
+                        <li><a href="index.shtml">Home</a></li>
+                        <li><a href="license.shtml">License</a></li>
+                        <li><a href="download.shtml">Download</a></li>
+                        <li><a href="docs/gtkmm-2.4/docs/">Documentation</a></li>
+                        <li><a href="developers.shtml">Development</a></li>
+                    </ul>
+                </div>
+            </div>
 
-   <br />
+            <div id="content-wrapper">
+            <div id="sidebar">
+                <div id="resource-menu">
+                    <h2>Other Resources</h2>
+                    <ul>
+                        <li><a href="news.shtml">News</a></li>
+                        <li><a href="docs/gtkmm-2.4/docs/FAQ/html/index.html">FAQ</a></li>
+                        <li><a href="mailinglist.shtml">Mailing Lists</a></li>
+                        <li><a href="cvs.shtml">CVS</a></li>
+                        <li><a href="bugs.shtml">Bugs</a></li>
+                        <li><a href="books.shtml">Books</a></li>
+                        <li><a href="commercial_support.shtml">Commercial Support</a></li>
+                        <li><a href="extra.shtml">Additional Resources</a></li>
+                    </ul>
+                </div>
+                <!-- before releases inclusion -->
+                <div id="releasebox">
+                    <div id="releasebox-inner">
+                        <h2>Latest Versions</h2>
+                        <h3>Stable</h3>
+                        <ul>
+                            <li>
+                                glibmm:
+                                <a href="download.shtml">2.8.x</a>
+                            </li>
+                            <li>
+                                gtkmm:
+                                <a href="download.shtml">2.8.x</a>
+                            </li>
+                            <li>
+                                libglademm:
+                                <a href="download.shtml">2.6.x</a>
+                            </li>
+                            <li>
+                                gconfmm:
+                                <a href="download.shtml">2.12.x</a>
+                            </li>
+                            <li>
+                                libgnomecanvasmm:
+                                <a href="download.shtml">2.12.x</a>
+                            </li>
+                            <li>
+                                libgnomeuimm:
+                                <a href="download.shtml">2.12.0</a>
+                            </li>
+                        </ul>
 
-   <div class="releasebox">
-    <span style="font-size: 15px"><u><b>Latest Versions</b></u><br /></span>
-    <br/>
+                        <h3>Unstable</h3>
+                        <ul>
+                            <li>
+                                glibmm:
+                                <a href="download.shtml">2.9.x</a>
+                            </li>
+                            <li>
+                                gtkmm:
+                                <a href="download.shtml">2.9.x</a>
+                            </li>
+                        </ul>
 
-    <b>2.8 (stable)</b><br />
-    glibmm <b><a href="download.shtml">2.8.x</a></b><br />
-    gtkmm <b><a href="download.shtml">2.8.x</a></b><br />
-    libglademm <b><a href="download.shtml">2.6.x</a></b><br />
-    gconfmm <b><a href="download.shtml">2.12.x</a></b><br />
-    libgnomecanvasmm <b><a href="download.shtml">2.12.x</a></b><br />
-    libgnomeuimm <b><a href="download.shtml">2.12.0</a></b><br />
-    <br/>
+                        <h3>Older</h3>
+                        <ul>
+                            <li>
+                                gtkmm:
+                                <a href="download.shtml">2.2.x</a>
+                            </li>
+                            <li>
+                                libglademm:
+                                <a href="download.shtml">2.0.x</a>
+                            </li>
+                            <li>
+                                gconfmm:
+                                <a href="download.shtml">2.0.x</a>
+                            </li>
+                            <li>
+                                libgnomecanvasmm:
+                                <a href="download.shtml">2.0.x</a>
+                            </li>
+                            <li>
+                                libgnomeuimm:
+                                <a href="download.shtml">2.0.x</a>
+                            </li>
+                        </ul>
 
-    <b>2.9 (unstable)</b><br />
-    glibmm <b><a href="download.shtml">2.9.x</a></b><br />
-    gtkmm <b><a href="download.shtml">2.9.x</a></b><br />
-    <br/>
-    
-    <b>Older</b><br />
-    gtkmm <b><a href="download.shtml">2.2.x</a></b><br />
-    libglademm <b><a href="download.shtml">2.0.x</a></b><br />
-    gconfmm <b><a href="download.shtml">2.0.x</a></b><br />
-    libgnomecanvasmm <b><a href="download.shtml">2.0.x</a></b><br />
-    libgnomeuimm <b><a href="download.shtml">2.0.x</a></b><br />
-
-   </div>
-  </div>
-
-  <div class="contentsbox">
+                    </div>
+                </div>
+                <!-- after releases inclusion -->
+                <div id="sidebar-credits">
+                    <a href="http://gtk.org"><img src="images/gtk-logo.png" alt="GTK+ logo" /></a>
+                    <a href="http://gnome.org"><img src="images/GNOME-logo.png" alt="GNOME logo" /></a>
+                </div>
+            </div>
+            <!-- end of sidebar -->
+            <div id="content">

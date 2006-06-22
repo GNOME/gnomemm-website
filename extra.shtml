@@ -20,8 +20,9 @@ widgets are available from other sources.
 <h3>gtkmm tools</h3>
 <p>
 <ul>
-<li><a href="http://home.wtal.de/petig/Gtk/">glademm</a> - Module for <a href="http://glade.pn.org/">Glade</a> the GTK+ GUI builder</li>
-<li><a href="http://bakery.sourceforge.net/">Bakery</a> - Document/View Model</li>
+    <li><a href="http://glade.gnome.org/">Glade</a> - User Interface Designer for GTK+.  Glade UI files can be used from a gtkmm program by using libglademm.</li>
+    <li><a href="http://home.wtal.de/petig/Gtk/">glademm</a> - Glade Module for automatically generating gtkmm code. (Note: glademm is different than libglademm)</li>
+    <li><a href="http://bakery.sourceforge.net/">Bakery</a> - Document/View Model</li>
 
 </ul>
 </p>
@@ -32,7 +33,7 @@ If all else fails, sometimes it is good to look at the source of
 some other projects using the same toolkit.
 </p>
 
-<p> Using gtkmm 2.4/2.6:
+<h4> Using gtkmm 2.4/2.6:</h4>
 <ul>
 <li><a href="http://regexxer.sourceforge.net/">Regexxer</a> Multi-file search/replace with visual feedback.</li>
 <li><a href="http://subsubsub.sourceforge.net">SubSubSub</a> Creation of hierarchical text documents.</li>
@@ -69,9 +70,8 @@ some other projects using the same toolkit.
 <li><a href="http://minuslab.net/code/nitrogen/">Nitrogen</a> Background browser and setter.</li>
 
 </ul>
-</p>
 
-<p> Using gtkmm 2.0/2.2:
+<h4> Using gtkmm 2.0/2.2:</h4>
 <ul>
 <li><a href="http://www.stacken.kth.se/project/pptout/">Passepartout</a> DTP.</li>
 <li><a href="http://heavymole.sourceforge.net/">HeavyMole</a> File sharing client.</li>
@@ -89,11 +89,7 @@ some other projects using the same toolkit.
 <li><a href="http://wavemixer.sourceforge.net/">WaveMixer</a> sound editor.</li>
 </ul>
 
-
-</p>
-
-<p>
-Using gtkmm 1.2:
+<h4>Using gtkmm 1.2:</h4>
 <ul>
 <li><a href="http://ardour.sourceforge.net/">ardour</a>, a multichannel hard disk recorder and digital audio workstation</li>
 <li><a href="http://gabber.sourceforge.net/">gabber</a>, GNOME Jabber client.</li>
@@ -120,12 +116,9 @@ management system</li>
 <li><a href="http://cellumat3d.sourceforge.net/">Cellumat3D</a>, 3D cellular automata simulator</li>
 
 </ul>
-</p>
-
 
 <h3>Links</h3>
 <h4>GTK+ resources</h4>
-<p>
 <ul>
 <li><a href="http://www.gtk.org/">GTK+ homepage</a></li>
 <li><a href="http://www.gnome.org/">GNOME homepage</a></li>
@@ -133,8 +126,6 @@ management system</li>
 <li><a href="http://www.gimp.org/">Gimp homepage</a></li>
 
 </ul>
-</p>
-
 
 <!-- SSI fragments/footer.html_fragment begin -->
 <!--#include virtual="fragments/footer.html_fragment" -->

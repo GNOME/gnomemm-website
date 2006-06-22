@@ -1,40 +1,42 @@
 <!-- SSI fragments/htm_declaration.html_fragment begin -->
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
-
-<h2>Developers</h2>
+<h2>gtkmm Development</h2>
 <p>
-<h3>Developers and Contributors</h3>
+gtkmm development is done in the <a href="http://gnome.org/">GNOME</a> CVS
+repository.  To get started developing gtkmm, see the <a
+    href="cvs.shtml">detailed CVS instructions</a>.  Discussion about gtkmm
+development happens on the <a href="mailinglist.shtml">mailing list</a>.
 
-<p>Do not mail us directly - be generous and use the <a href="mailinglist.shtml">mailing list</a>.</p>
+<p class="highlight">
+Please do not mail us directly - use the <a href="mailinglist.shtml">mailing
+    list</a> instead.
+</p>
 
+<h2>Developers and Contributors</h2>
+<h3>Current maintainers</h3>
 <ul>
-<li><b>Current maintainers</b><br />
-<a href="mailto:murrayc@murrayc.com">Murray Cumming</a> (<a href="http://www.murrayc.com">www.murrayc.com</a>)<br/>
-<a href="mailto:daniel.kitta@googlemail.com">Daniel Elstner</a>
-<br/>
-</li>
-<li><b>Other gtkmm2 developers</b><br/>
-<a href="mailto:bryan@reigndropsfall.net">Bryan Forbes</a>  (<a href="http://www.reigndropsfall.net/">www.reigndropsfall.net</a>)<br/>
-Karl Nelson<br/>
-<a href="mailto:cactus@cactus.rulez.org">Gerg&otilde; &Eacute;rdi</a> (<a href="http://cactus.rulez.org">cactus.rulez.org</a>)<br/>
-<a href="mailto:andreas.holzmann@epost.de">Andreas Holzmann</a>
-<br/>
-<a href="mailto:mhl.schulze@t-online.de">Martin Schulze</a>
-<br/>
-<a href="mailto:madmaxer@poczta.fm">Jarek Dukat</a>
-<br/>
-<a href="mailto:morten@wtf.dk">Morten Brix Pedersen</a>
-<br/>
-<li><b>Previous maintainers</b><br />
-
-<a href="mailto:glaurent@telegraph-road.org">Guillaume Laurent</a>
-<br />
-<a href="mailto:terop@assari.cc.tut.fi">Tero Pulkkinen</a>
-<br />  
-</li>
-
+    <li><a href="mailto:murrayc@murrayc.com">Murray Cumming</a> (<a href="http://www.murrayc.com">www.murrayc.com</a>)</li>
+    <li><a href="mailto:daniel.kitta@googlemail.com">Daniel Elstner</a></li>
 </ul>
+<h3>Other gtkmm2 developers</h3>
+<ul>
+    <li><a href="mailto:bryan@reigndropsfall.net">Bryan Forbes</a>  (<a href="http://www.reigndropsfall.net/">www.reigndropsfall.net</a>)</li>
+    <li>Karl Nelson</li>
+    <li><a href="mailto:cactus@cactus.rulez.org">Gerg&otilde; &Eacute;rdi</a> (<a href="http://cactus.rulez.org">cactus.rulez.org</a>)</li>
+    <li><a href="mailto:andreas.holzmann@epost.de">Andreas Holzmann</a></li>
+    <li><a href="mailto:mhl.schulze@t-online.de">Martin Schulze</a></li>
+    <li><a href="mailto:madmaxer@poczta.fm">Jarek Dukat</a></li>
+    <li><a href="mailto:morten@wtf.dk">Morten Brix Pedersen</a></li>
+    <li><a href="mailto:jonathon.jongsma@gmail.com">Jonathon Jongsma</a></li>
+</ul>
+<h3>Previous maintainers</h3>
+<ul>
+    <li><a href="mailto:glaurent@telegraph-road.org">Guillaume Laurent</a></li>
+    <li><a href="mailto:terop@assari.cc.tut.fi">Tero Pulkkinen</a></li>
+</ul>
+</ul>
+<p>
 There have been many patches, bug fixes and improvements from a lot
 of people. Thanks to them.
 </p>

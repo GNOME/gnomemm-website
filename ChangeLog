@@ -1,3 +1,13 @@
+2006-06-21  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
+
+	* bugs.shtml, commercial_support.shtml, cvs.shtml, developers.shtml,
+	download.shtml, extra.shtml, fragments/footer.html_fragment,
+	fragments/html_declaration.html_fragment, images/GNOME-logo.png,
+	images/banner-gradient.gif, images/content-gradient-top.gif,
+	images/gtk-logo.png, images/header-gradient.gif,
+	images/highlight-stripe.gif, images/sidebar-stripe.gif, index.shtml,
+	license.shtml, mailinglist.shtml, style.css: website redesign
+
 2006-06-02  Murray Cumming  <murrayc@murrayc.com>
 
 	* mailinglist.shtml: Removed mention of gnomemm-list. It will soon die.
