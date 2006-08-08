@@ -1,5 +1,11 @@
 2006-08-08  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
 
+	* download.shtml:
+	* fragments/html_declaration.html_fragment: add download links for unstable
+	versions of gtkmm / glibmm
+
+2006-08-08  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
+
 	* fragments/html_declaration.html_fragment: add a link to the live.gnome.org
 	wiki page in the sidebar
 

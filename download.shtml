@@ -9,11 +9,17 @@ operating system unless you wish to test the latest versions. However,
 <a href="#Source">source packages</a> are available as well.
 </p>
 
-<h3><a name="Binary"/>Binary</a></h3>
+<a name="Binary"></a>
+<h3>Binary</h3>
 <p>You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your Linux distribution to provide official gtkmm packages.</p>
 <h4>gtkmm 2.4:</h4>
+<p>
+Note that in this context, gtkmm 2.4 refers to the API / ABI compatibility
+version.  So don't be surprised if your distribution actually provides a later
+version such as gtkmm 2.8.x when you install the gtkmm 2.4 package.
+</p>
 <ul>
-    <li><a href="http://www.debian.org/">Debian</a> Linux: apt-get install libgtkmm2.4-dev. These <a href="http://packages.qa.debian.org/g/gtkmm2.4.html">project pages</a> might give status.</li>
+    <li><a href="http://www.debian.org/">Debian</a> GNU/Linux: apt-get install libgtkmm2.4-dev. These <a href="http://packages.qa.debian.org/g/gtkmm2.4.html">project pages</a> might give status.</li>
     <li><a href="http://fedora.redhat.com/">Fedora</a>/<a href="http://www.redhat.com">RedHat</a> Linux: Use <a href="http://www.fedoraproject.org/wiki/Extras">Fedora Extras via yum</a>: yum install gtkmm24-docs to get the runtime, development, and documentation packages.</li>
     <li><a href="http://www.mandrakelinux.com/">Mandrake</a> Linux: Get libgtkmm2.4 from the contrib directory on their <a href="http://www.mandrakelinux.com/en/cookerdevel.php3">ftp</a> servers.</li>
     <li><a href="http://www.gentoo.org">Gentoo Linux</a>: Get dev-cpp/gtkmm.</li>
@@ -24,21 +30,22 @@ operating system unless you wish to test the latest versions. However,
 </ul>
 <p>Please tell us about others.</p>
 
-<h3><a name="Source">Source</a></h3>
+<a name="Source"></a>
+<h3>Source</h3>
 
-<!--
+<a name="devel"></a>
 <h4>gtkmm 2.9/2.10 and GNOME bindings:</h4>
 <p>These replace the gtkmm 2.8 versions and are currently unstable:</p>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.7/">glibmm 2.9</a> (unstable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.7/">gtkmm 2.9</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.11/">glibmm 2.11</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.9/">gtkmm 2.9</a> (unstable)</li>
 </ul>
--->
 
-<h4>gtkmm 2.8 and GNOME bindings:</h4>
+<a name="stable"></a>
+<h4>Stable gtkmm 2.8 and GNOME bindings:</h4>
 <p>These install in parallel with gtkmm 2.0/2.2 and gtkmm 1.2.</p>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.8/">glibmm 2.8</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.10/">glibmm 2.10</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.8/">gtkmm 2.8</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.6/">libglademm 2.6</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.12/">libgnomecanvasmm 2.12</a> (stable)</li>
@@ -55,6 +62,7 @@ operating system unless you wish to test the latest versions. However,
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm_hello/2.4/">gtkmm-hello 2.4</a></li>
 </ul>
 
+<a name="old"></a>
 <h4>gtkmm 2.0/2.2 and GNOME bindings:</h4>
 <p>These install in parallel with gtkmm 1.2.</p>
 <ul>
