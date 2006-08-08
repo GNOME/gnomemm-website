@@ -1,3 +1,8 @@
+2006-08-08  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
+
+	* fragments/html_declaration.html_fragment: add a link to the live.gnome.org
+	wiki page in the sidebar
+
 2006-06-21  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
 
 	* bugs.shtml, commercial_support.shtml, cvs.shtml, developers.shtml,
