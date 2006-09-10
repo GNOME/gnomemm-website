@@ -34,15 +34,15 @@ version such as gtkmm 2.8.x when you install the gtkmm 2.4 package.
 <h3>Source</h3>
 
 <a name="devel"></a>
-<h4>gtkmm 2.9/2.10 and GNOME bindings:</h4>
-<p>These replace the gtkmm 2.8 versions and are currently unstable:</p>
+<h4>Unstable gtkmm and GNOME bindings:</h4>
+<p>These replace the stable glibmm 2.12 and gtkmm 2.10 versions and are currently unstable:</p>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.11/">glibmm 2.11</a> (unstable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.9/">gtkmm 2.9</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.13/">glibmm 2.13</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.11/">gtkmm 2.11</a> (unstable)</li>
 </ul>
 
 <a name="stable"></a>
-<h4>Stable gtkmm 2.8 and GNOME bindings:</h4>
+<h4>Stable gtkmm and GNOME bindings:</h4>
 <p>These install in parallel with gtkmm 2.0/2.2 and gtkmm 1.2.</p>
 <ul>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.12/">glibmm 2.12</a> (stable)</li>

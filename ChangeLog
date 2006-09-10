@@ -1,3 +1,9 @@
+2006-09-10  Murray Cumming  <murrayc@murrayc.com>
+
+	* download.shtml:
+	* fragments/html_declaration.html_fragment: Update the version numbers and 
+	remove mentions of libbonobo*mm because they are useless and unmaintained.
+
 2006-08-08  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
 
 	* download.shtml:
