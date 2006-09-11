@@ -85,7 +85,7 @@ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm</pre>
         </tr>
         <tr>
             <td>gtkmm</td>
-            <td>2.9/2.10</td>
+            <td>2.10</td>
             <td>gtkmm</td>
             <td>HEAD</td>
         </tr>
@@ -115,7 +115,13 @@ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm</pre>
         </tr>
         <tr>
             <td>glibmm</td>
-            <td>2.11/1.12</td>
+            <td>2.12</td>
+            <td>glibmm</td>
+            <td>glibmm-2-12</td>
+        </tr>
+        <tr>
+            <td>glibmm</td>
+            <td>2.13/2.14</td>
             <td>glibmm</td>
             <td>HEAD</td>
         </tr>
