@@ -1,5 +1,10 @@
 2006-09-11  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
 
+	* extra.shtml: Updated the name of my application (renamed to Agave), added
+	Dodji's debugger frontend (Nemiver)
+
+2006-09-11  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
+
 	* cvs.shtml: update branch names (glibmm branched for 2.12)
 
 2006-09-10  Murray Cumming  <murrayc@murrayc.com>
