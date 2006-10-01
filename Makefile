@@ -1,4 +1,5 @@
-web_path = /home/groups/g/gt/gtkmm/htdocs/
+web_path = /home/murrayc/gtkmm.org/
+#web_path = /home/groups/g/gt/gtkmm/htdocs/
 
 #Use jhbuild to get a graphiv .dot file,
 #and use the graphviz dot utility to make a .png of it:
@@ -18,7 +19,7 @@ dependencies_gnome_desktop:
 
 #post-html: dependencies_gtkmm dependencies_gnomemm dependencies_gnome_desktop
 post-html:
-	rsync -avz --rsh ssh --cvs-exclude * $$USER@shell.sourceforge.net:$(web_path)
+	rsync -avz --rsh ssh --cvs-exclude * $$USER@www.gtkmm.org:$(web_path)
 
 
 

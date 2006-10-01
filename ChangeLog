@@ -1,3 +1,7 @@
+2006-10-01  Murray Cumming  <murrayc@murrayc.com>
+
+	* Makefile: Upload to the new hoster instead of sourceforge.
+
 2006-09-11  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
 
 	* extra.shtml: Updated the name of my application (renamed to Agave), added
