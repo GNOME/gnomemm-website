@@ -11,6 +11,7 @@ widgets are available from other sources.
 <li><a href="http://gtkglext.sourceforge.net">GtkGlExtmm</a> OpenGL rendering for gtkmm</li>
 <li><a href="http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/">gtkmozembedmm</a> Mozilla-based web browser widget</li>
 <li><a href="http://plotmm.sourceforge.net/">Plotmm</a> Plot widget for scientific applications</li>
+<li><a href="http://home.gna.org/gtksourceviewmm/">gtksourceviewmm</a>, Wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)</li>
 <li><a href="http://vtemm.sourceforge.jp/">VTEmm</a> Terminal widget</li>
 <li><a href="http://gtkextramm.sourceforge.net/">gtkextramm</a>, Wrappers for GtkExtra (plot, sheet, etc)</li>
 <li><a href="http://www.nongnu.org/om-synth/flowcanvas.html">FlowCanvas</a> Canvas for data flow systems.</li>
@@ -70,6 +71,7 @@ some other projects using the same toolkit.
 <li><a href="http://minuslab.net/code/nitrogen/">Nitrogen</a> Background browser and setter.</li>
 <li><a href="http://home.gna.org/nemiver/">Nemiver</a> GUI for the GNU debugger gdb</li>
 <li><a href="http://bmpx.beep-media-player.org/site/BMPx_Homepage">BMP</a> Audio player</li>
+<li><a href="http://usbsink.sourceforge.net/">USBSink</a> File Synchronization over USB.</li>
 
 </ul>
 

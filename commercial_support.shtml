@@ -61,7 +61,8 @@ Many corporations use gtkmm to implement their products and internal projects. Y
 <li><a href="https://www.sendoutcards.com/">SendOutCards.com</a> - Specialized internal applications</li>
 <li><a href="http://www.epictechnology.co.uk/">EPIC Technology</a> - Point Of Sale systems</li>
 <li><a href="http://www.i-medlab.com/">iMed</a> Medical imaging - <a href="http://www.i-medlab.com/Products/page1.html">CAD Colon</a>.</li>
-<li><a href="http://www.downeysavings.com/">Downey Savings</a> - Banking.</li>
+<li><a href="http://www.downeysavings.com/">Downey Savings</a> - Banking</li>
+<li><a href="http://www.supersonicimagine.fr/">Supersonic Imagine</a> - Medical Imaging</li>
 </ul> 
 </p>
 <p>If you would like to be listed here please send email to the <a href="mailinglist.shtml">mailing list</a> or a maintainer.</p>
