@@ -3,9 +3,9 @@
 <!-- SSI fragments/html_declaration.html_fragment end -->
 <h2>gtkmm Development</h2>
 <p>
-gtkmm development is done in the <a href="http://gnome.org/">GNOME</a> CVS
+gtkmm development is done in the <a href="http://gnome.org/">GNOME</a> Subversion
 repository.  To get started developing gtkmm, see the <a
-    href="cvs.shtml">detailed CVS instructions</a>.  Discussion about gtkmm
+    href="svn.shtml">detailed SVN instructions</a>.  Discussion about gtkmm
 development happens on the <a href="mailinglist.shtml">mailing list</a>.
 
 <p class="highlight">

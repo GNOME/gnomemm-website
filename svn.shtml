@@ -2,18 +2,16 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<h2>CVS</h2>
+<h2>SVN</h2>
 <p>
-    We use <a href="http://www.cvshome.org/">CVS</a> to maintain our source
-    code, in the <a href="http://www.gnome.org">GNOME</a> CVS repository.
-    Additional information about cvs.gnome.org is available at <a
-        href="http://developer.gnome.org/tools/cvs.html">developer.gnome.org</a>.
-    The main CVS repository is located at cvs.gnome.org and requires a developer
-    login.   
+    We use <a href="http://subversion.tigris.org/">Subversion (SVN)</a> to maintain our source
+    code, in the <a href="http://www.gnome.org">GNOME</a> Subversion repository.
+    Additional information about svn.gnome.org is available at <a
+        href="http://developer.gnome.org/tools/svn.html">developer.gnome.org</a>. 
 </p>
 
 <p>
-    glibmm 2.4 and gtkmm 2.4 are in the glibmm and gtkmm cvs modules - see
+    glibmm 2.4 and gtkmm 2.4 are in the glibmm and gtkmm modules - see
     below.
 </p>
 
@@ -23,17 +21,15 @@
 </p>
 
 <div class="highlight">
-    <h3>Anonymous CVS</h3>
+    <h3>Anonymous Access</h3>
     <p>
-        For those who do not have a GNOME login, anonymous CVS checkouts are
-        available from <code>anoncvs.gnome.org</code>.
+        For those who do not have a GNOME login, anonymous checkouts are
+        available.
     </p>
 
     <p>
         For instance, to check out the latest version of gtkmm:
-        <pre>cvs -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome login 
-<i>(hit return as the password)</i>
-cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm</pre>
+        <pre>svn co http://svn.gnome.org/svn/gtkmm/trunk gtkmm</pre>
     </p>
 </div>
 
@@ -50,7 +46,7 @@ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm</pre>
         <tr>
             <th>Component</th>
             <th>Version</th>
-            <th>CVS Module</th>
+            <th>SVN Module</th>
             <th>Branch name</th>
         </tr>
         <tr>
@@ -134,7 +130,7 @@ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm</pre>
         <tr>
             <th>Component</th>
             <th>API Version</th>
-            <th>CVS Module</th>
+            <th>SVN Module</th>
             <th>Branch name</th>
         </tr>
         <tr>
@@ -234,7 +230,7 @@ cvs -z3 -d :pserver:anonymous@anoncvs.gnome.org:/cvs/gnome co gtkmm</pre>
         <tr>
             <th>Component</th>
             <th>Version</th>
-            <th>CVS Module</th>
+            <th>SVN Module</th>
             <th>Branch name</th>
         </tr>
         <tr>

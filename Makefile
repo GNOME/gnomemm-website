@@ -19,7 +19,7 @@ dependencies_gnome_desktop:
 
 #post-html: dependencies_gtkmm dependencies_gnomemm dependencies_gnome_desktop
 post-html:
-	rsync -avz --rsh ssh --cvs-exclude * $$USER@www.gtkmm.org:$(web_path)
+	rsync -avz --rsh ssh --cvs-exclude  * $$USER@www.gtkmm.org:$(web_path)
 
 
 

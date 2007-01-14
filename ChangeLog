@@ -1,3 +1,11 @@
+2007-01-14  Murray Cumming  <murrayc@murrayc.com>
+
+	* cvs.shtml: renamed to:
+	* svn.shtml:
+	* developers.shtml:
+	* fragments/html_declaration.html_fragment: Update for the cvs->svn 
+	migration.
+
 2006-12-09  Murray Cumming  <murrayc@murrayc.com>
 
 	* extra.shtml: Added Elfelli, which has some cool screenshots.
