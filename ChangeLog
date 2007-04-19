@@ -1,3 +1,9 @@
+2007-04-19  Jonathon Jongsma  <jjongsma@gnome.org>
+
+	* extra.shtml: Removed some sites that seem to have disappeared, moved
+	some apps up to the gtkmm 2.4 column that have apparently been ported to the
+	2.4 API, updated some project urls, etc.
+
 2007-03-08  Jonathon Jongsma  <jjongsma@gnome.org>
 
 	* extra.shtml: added Referencer to the list of gtkmm applications
