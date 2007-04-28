@@ -1,3 +1,8 @@
+2007-04-28  Murray Cumming  <murrayc@murrayc.com>
+
+	* extra.shtml: Some more updating. MySQL Administrator is now ported to gtkmm-2.4, 
+	which is nice.
+
 2007-04-19  Jonathon Jongsma  <jjongsma@gnome.org>
 
 	* extra.shtml: Removed some sites that seem to have disappeared, moved
