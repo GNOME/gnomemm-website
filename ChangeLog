@@ -1,3 +1,12 @@
+2007-05-05  Jonathon Jongsma  <jjongsma@gnome.org>
+
+	* style/*: isolate the style-related stuff in a subdirectory so that it can
+	be included into other projects more easily if necessary (e.g. documentation
+	sites, etc).  I don't have any plans to do anything with this at the moment,
+	but it's nice to know which images are part of the style design and which
+	are content images.
+	* fragments/html_declaration.html_fragment: update stylesheet location
+
 2007-04-28  Murray Cumming  <murrayc@murrayc.com>
 
 	* extra.shtml: Some more updating. MySQL Administrator is now ported to gtkmm-2.4, 
