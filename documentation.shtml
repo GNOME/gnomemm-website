@@ -1,0 +1,197 @@
+<!-- SSI fragments/htm_declaration.html_fragment begin -->
+<!--#include virtual="fragments/html_declaration.html_fragment" -->
+<!-- SSI fragments/html_declaration.html_fragment end -->
+
+<!--#set var="doc_base" value="/docs/gtkmm-2.4/docs" -->
+<!--#set var="glibmm_doc_base" value="/docs/glibmm-2.4/docs" -->
+
+<h2>Documentation Overview</h2>
+<div class="highlight">
+    <p>This documentation is for the gtkmm 2.4 and gnomemm 2.6 APIs. There is
+    also documentation for the <a href="http://www.gtkmm.org/gtkmm2/docs/">gtkmm
+        2.0/2.2 APIs</a>.</p>
+    <p>Note that the version numbers here refer to API / ABI compatibility
+    versions and not release versions.  gtkmm has maintained API and ABI
+    compatibility since the 2.4 release, so all subsequent releases are backwards
+    compatible and are known generically as "gtkmm-2.4".</p>
+</div>
+<h3>Getting Started with gtkmm</h3>
+<p>If you've never used gtkmm before, you may want to start by reading the
+tutorial-style online book <em>Programming with gtkmm</em>.  This book is
+available for free online and was written by gtkmm authors and users.  The book
+is also included as part of the gtkmm download for those that want to have a
+local copy to reference.  If you have suggestions for improving the book, feel
+free to contact us.</p>
+<p><a href="<!--#echo var="doc_base"-->/tutorial/html/index.html">Contents</a> of whole online book.</p>
+<p>Selected chapters:
+<ul>
+    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/ch02.html">Installation</a></li>
+    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/ch03.html">Basics</a></li>
+    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/apb.html">Signals</a></li>
+    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/ch07.html">Container Widgets</a></li>
+    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/ch08.html">TreeView</a></li>
+    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/ch22.html">Memory Management</a></li>
+    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/ch23.html">Glade and libglademm</a></li>
+
+</ul>
+</p>
+<h3>API Reference</h3>
+
+<table>
+    <tbody>
+        <tr>
+            <th>gtkmm (Gtk::)</th>
+            <th>glibmm (used by gtkmm)</th>
+            <th>glibmm (others)</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li><b><a href="<!--#echo var="doc_base"-->/reference/widget_hierarchy.html">Hierarchy</a></b></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__Widgets.html">Widgets</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__Containers.html">Containers</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__TreeView.html">TreeView</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__TextView.html">TextView</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__Dialogs.html">Dialogs</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/classGtk_1_1UIManager.html">Menus and Toolbars</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/classGtk_1_1Main.html">Main loop</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__gtkmmEnums.html">enums and flags</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGtk_1_1Stock.html">Stock IDs</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1ustring.html">ustring</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1Exception.html">Exceptions</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1RefPtr.html">RefPtr&lt;&gt;</a><br>
+                    </li>
+
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MainLoop.html">Main Event loop</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Spawn.html">Spawning Processes</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Threads.html">Threads</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MiscUtils.html">Miscellaneous Utility Functions</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__CharsetConv.html">Character set conversion</a></li>
+
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <th>Full</th>
+            <th>Namespaces</th>
+            <th>Extra Modules</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/hierarchy.html">Inheritance Hierarchy</a></li>
+                    <li>Class Chart (image)</li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/classes.html">All Classes</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/functions.html">All methods (long)</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/pages.html">Deprecated and new API</a></li>
+                    <li>
+                    <!-- Search Google -->
+                    <form method="get" action="http://www.google.com/custom">
+                        <input type="text" name="q" size="31" maxlength="255" value="" />
+                        <input type="submit" name="sa" VALUE="Google gtkmm Search" />
+                        <input type="hidden" name="cof" VALUE="L:http://www.gtkmm.org/images/gtkmm_logo_small.png;AH:center;S:http://www.gtkmm.org;" />
+                        <input type="hidden" name="domains" value="http://www.gtkmm.org/docs/" />
+                        <input type="hidden" name="sitesearch" value="http://www.gtkmm.org/docs/" />
+                    </form>
+                    <!-- Search Google -->
+                    </li>
+
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceAtk.html">Atk</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGdk.html">Gdk</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/namespaceGlib.html">Glib</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGtk.html">Gtk</a></li>
+                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespacePango.html">Pango</a></li>
+
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>gnomemm:<br>
+
+                    <ul>
+                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Canvas.html">
+                            Gnome::Canvas</a> (libgnomecanvasmm)</li>
+                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Conf.html">
+                            Gnome::Conf</a> (gconfmm)</li>
+                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1UI.html">
+                            Gnome::UI</a> (libgnomeuimm)</li>
+                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Glade.html">
+                            Gnome::Glade</a> (libglademm)</li>
+                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Vfs.html">
+                            Gnome::Vfs</a> (gnome-vfsmm)</li>
+
+
+                    </ul>
+                    </li>
+                    <li><a href="http://bakery.sourceforge.net">Bakery</a></li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Other Information</h3>
+<table>
+    <tbody>
+        <tr>
+            <th>External Documentation</th>
+            <th>Unusual Platforms</th>
+        </tr>
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="http://libsigc.sourceforge.net/doc.shtml">libsigc++ documentation</a></li>
+                    <li><a
+                        href="http://www.gtk.org/api/">GTK+ reference</a></li>
+                    <li><a
+                        href="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index.html">Standard C++ Library (STL)</a></li>
+                </ul>
+            </td>
+
+            <td>
+                <ul>
+                    <li><a href="http://svn.gnome.org/viewcvs/gtkmm/trunk/README.SUN?view=markup">Solaris, with Sun's Forte C++.</a></li>
+                    <li><a href="http://svn.gnome.org/viewcvs/gtkmm/trunk/README.win32?view=markup">Windows, with mingw and cygwin</a></li>
+                    <li><a href="http://svn.gnome.org/viewcvs/gtkmm/trunk/MSVC_Net2003/README?view=markup">Windows, with MSVC++</a></li>
+                </ul>
+            </td>
+
+        </tr>
+
+    </tbody>
+</table>
+
+<h3>Porting your Application</h3>
+</p>If your application is written using an older version of the gtkmm or
+gnomemm libraries, you may find the following documents helpful:</p>
+<ul>
+    <li><a
+        href="http://svn.gnome.org/viewcvs/gtkmm-root/base/trunk/PORTING?view=markup">Porting
+        from gtkmm 1.2.x to gtkmm 2.0.x</a></li>
+    <li><a
+        href="http://svn.gnome.org/viewcvs/gnomemm/trunk/PORTING?view=markup">Porting
+        from gnomemm 1.2.x to gnomemm 2.0.x</a></li>
+</ul>
+
+<h3>Examples</h3>
+<p>Sometimes you need to look at examples to figure out how something is
+supposed to work.  There are quite a few examples that ship with the gtkmm
+source code release, but you can also view them online: <a
+    href="docs/gtkmm-2.4/examples/">gtkmm examples</a>
+</p>
+
+<!-- SSI fragments/footer.html_fragment begin -->
+<!--#include virtual="fragments/footer.html_fragment" -->
+<!-- SSI fragments/footer.html_fragment begin -->

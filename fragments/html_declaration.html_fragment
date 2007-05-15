@@ -19,7 +19,7 @@
                         <li><a href="index.shtml">Home</a></li>
                         <li><a href="license.shtml">License</a></li>
                         <li><a href="download.shtml">Download</a></li>
-                        <li><a href="docs/gtkmm-2.4/docs/">Documentation</a></li>
+                        <li><a href="documentation.shtml">Documentation</a></li>
                         <li><a href="developers.shtml">Development</a></li>
                     </ul>
                 </div>

@@ -175,3 +175,18 @@ pre {
 .highlight > pre    {
     background-color: transparent;
 }
+
+th
+{
+    text-align: left;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.3em;
+    width: 33%;
+}
+
+td
+{
+    vertical-align: top;
+}

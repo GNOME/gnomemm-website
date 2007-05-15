@@ -1,3 +1,14 @@
+2007-05-14  Jonathon Jongsma  <jjongsma@gnome.org>
+
+	* documentation.shtml: add a new documwentation overview page that fits in
+	better with the rest of gtkmm.org.  This page is essentially the same
+	content as the old documentation overview page, but some things were taken
+	out since they would have duplicated existing sidebar or main menu links.
+	* fragments/html_declaration.html_fragment: point at the new documentation
+	overview page
+	* style/style.css: add styling for table headers for the new documentation
+	overview page
+
 2007-05-05  Jonathon Jongsma  <jjongsma@gnome.org>
 
 	* style/*: isolate the style-related stuff in a subdirectory so that it can
