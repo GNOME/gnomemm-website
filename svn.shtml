@@ -53,13 +53,13 @@
             <td>gtkmm</td>
             <td>1.2</td>
             <td>gtk--</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>gtkmm</td>
             <td>2.2</td>
             <td>gtkmm2</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>gtkmm</td>
@@ -83,7 +83,13 @@
             <td>gtkmm</td>
             <td>2.10</td>
             <td>gtkmm</td>
-            <td>HEAD</td>
+            <td>gtkmm-2-10</td>
+        </tr>
+	<tr>
+            <td>gtkmm</td>
+            <td>2.11/2.12</td>
+            <td>gtkmm</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>glibmm</td>
@@ -119,7 +125,7 @@
             <td>glibmm</td>
             <td>2.13/2.14</td>
             <td>glibmm</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
     </table>
 </p>
@@ -137,7 +143,7 @@
             <td>gnomemm</td>
             <td>1.2</td>
             <td>gnome--</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>libglademm</td>
@@ -155,7 +161,7 @@
             <td>libglademm</td>
             <td>2.4</td>
             <td>gnomemm/libglademm</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>gconfmm</td>
@@ -167,7 +173,7 @@
             <td>gconfmm</td>
             <td>2.6</td>
             <td>gnomemm/gconfmm</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomecanvasmm</td>
@@ -179,7 +185,7 @@
             <td>libgnomecanvasmm</td>
             <td>2.6</td>
             <td>gnomemm/libgnomecanvasmm</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomemm</td>
@@ -191,7 +197,7 @@
             <td>libgnomemm</td>
             <td>2.6</td>
             <td>gnomemm/libgnomemm</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomeuimm</td>
@@ -209,13 +215,7 @@
             <td>libgnome-vfsmm</td>
             <td>2.6</td>
             <td>gnomemm/gnome-vfsmm</td>
-            <td>HEAD</td>
-        </tr>
-        <tr>
-            <td>libpanelappletmm</td>
-            <td>2.6</td>
-            <td>gnomemm/libpanelappletmm</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
     </table>
 </p>
@@ -234,40 +234,22 @@
             <th>Branch name</th>
         </tr>
         <tr>
-            <td>orbitcpp</td>
-            <td></td>
-            <td>orbitcpp</td>
-            <td>HEAD</td>
-        </tr>
-        <tr>
-            <td>libbonobomm</td>
-            <td></td>
-            <td>gnomemm/libbonobomm</td>
-            <td>HEAD</td>
-        </tr>
-        <tr>
-            <td>libbonobouimm</td>
-            <td></td>
-            <td>gnomemm/libbonobouimm</td>
-            <td>HEAD</td>
-        </tr>
-        <tr>
             <td>libgdamm</td>
             <td></td>
             <td>gnomemm/libgdamm</td>
-            <td>HEAD</td>
+            <td>trunk</td>
         </tr>
         <tr>
-            <td>libgnomeprintmm</td>
+            <td>libgnomedbmm</td>
             <td></td>
-            <td>gnomemm/libgnomeprintmm</td>
-            <td>HEAD</td>
+            <td>gnomemm/libgnomedbmm</td>
+            <td>trunk</td>
         </tr>
         <tr>
-            <td>libgnomeprintuimm</td>
-            <td></td>
-            <td>gnomemm/libgnomeprintuimm</td>
-            <td>HEAD</td>
+            <td>libpanelappletmm</td>
+            <td>2.6</td>
+            <td>gnomemm/libpanelappletmm</td>
+            <td>trunk</td>
         </tr>
     </table>
 

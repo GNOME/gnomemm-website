@@ -46,7 +46,7 @@ bugs</a> - a good way to get involved.</li>
 
 </ul>
 
-<p>As soon as a gtkmm or gnomemm patch has been clearly approved by a maintainer, anybody with cvs write access may apply it.</p>
+<p>As soon as a gtkmm or gnomemm patch has been clearly approved by a maintainer, anybody with svn write access may apply it.</p>
 
 <h3><a name="NewBugs"/>Where to report?</a></h3>
 <ul>
@@ -79,13 +79,13 @@ by your own code.</p>
 
 <h3><a name="CreatingPatches"/>How do I create a patch?</a></h3>
 <ul>
-<li>Take code from <a href="cvs.shtml">cvs</a></li>
+<li>Take code from <a href="svn.shtml">svn</a></li>
 <li>Modify that version</li>
 <li>Check it compiles</li>
 <li>Edit the ChangeLog</i>
-<li>Use cvs to build a patch
+<li>Use svn to create a patch
 <pre>
-  cvs diff -up &gt; my_fix.patch
+  svn diff &gt; my_fix.patch
 </pre></li>
 <li>Add the patch to bugzilla (see above).</li>
 </ul>

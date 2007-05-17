@@ -7,22 +7,11 @@
 
 <h2>Documentation Overview</h2>
 <div class="highlight">
-    <p>This documentation is for the gtkmm 2.4 and gnomemm 2.6 APIs. There is
-    also documentation for the <a href="http://www.gtkmm.org/gtkmm2/docs/">gtkmm
-        2.0/2.2 APIs</a>.</p>
-    <p>Note that the version numbers here refer to API / ABI compatibility
-    versions and not release versions.  gtkmm has maintained API and ABI
-    compatibility since the 2.4 release, so all subsequent releases are backwards
-    compatible and are known generically as "gtkmm-2.4".</p>
+    <p>This documentation is for the gtkmm-2.4 and gnomemm-2.6 APIs. There is an older gtkmm API called gtkmm-2.0 which can be installed in parallel. Tthe gtkmm-2.4 name refers to the API/ABI series and not the release version. For instance, gtkmm 2.10 is a version of the gtkmm-2.4 API.</p>
 </div>
 <h3>Getting Started with gtkmm</h3>
-<p>If you've never used gtkmm before, you may want to start by reading the
-tutorial-style online book <em>Programming with gtkmm</em>.  This book is
-available for free online and was written by gtkmm authors and users.  The book
-is also included as part of the gtkmm download for those that want to have a
-local copy to reference.  If you have suggestions for improving the book, feel
-free to contact us.</p>
-<p><a href="<!--#echo var="doc_base"-->/tutorial/html/index.html">Contents</a> of whole online book.</p>
+<p>You might start by reading the <em>Programming with gtkmm</em> online book.</p>
+<p><a href="<!--#echo var="doc_base"-->/tutorial/html/index.html">Contents</a> of the whole online book.</p>
 <p>Selected chapters:
 <ul>
     <li><a href="<!--#echo var="doc_base"-->/tutorial/html/ch02.html">Installation</a></li>

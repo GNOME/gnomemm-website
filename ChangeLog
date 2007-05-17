@@ -1,3 +1,10 @@
+2007-05-17  Murray Cumming  <murrayc@murrayc-desktop>
+
+	* documentation.shtml: Make some text more compact, so it's easier to get to 
+	the good stuff.
+	* bugs.shtml: Change cvs mentions to svn.
+	* svn.shtml: Update branch names.
+
 2007-05-14  Jonathon Jongsma  <jjongsma@gnome.org>
 
 	* documentation.shtml: add a new documwentation overview page that fits in
