@@ -177,8 +177,8 @@ gnomemm libraries, you may find the following documents helpful:</p>
 <h3>Examples</h3>
 <p>Sometimes you need to look at examples to figure out how something is
 supposed to work.  There are quite a few examples that ship with the gtkmm
-source code release, but you can also view them online: <a
-    href="docs/gtkmm-2.4/examples/">gtkmm examples</a>
+source code release, and many of these are included in the gtkmm book, but you can also view them online: <a
+    href="docs/gtkmm-2.4/examples/book/">gtkmm examples</a>
 </p>
 
 <!-- SSI fragments/footer.html_fragment begin -->

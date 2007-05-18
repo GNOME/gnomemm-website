@@ -1,3 +1,10 @@
+2007-05-18  Murray Cumming  <murrayc@murrayc-desktop>
+
+	* documentation.shtml: Link to examples/book/ rather than examples, 
+	because only these ones are really good-enough, and it is hard to know that 
+	there are so many under book/.
+	* index.shtml: Correct a link, to the new documentation page.
+
 2007-05-17  Murray Cumming  <murrayc@murrayc-desktop>
 
 	* documentation.shtml: Make some text more compact, so it's easier to get to 

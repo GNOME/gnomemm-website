@@ -12,7 +12,7 @@
         inheritance. You can create user interfaces either in code
         or with the <a href="http://glade.gnome.org/">Glade User Interface
             designer</a>, using libglademm. There's <a
-            href="docs/gtkmm-2.4/docs/">extensive documentation</a>, including
+            href="documentation.shtml">extensive documentation</a>, including
         API reference and a tutorial.
     </p>
     <p>
