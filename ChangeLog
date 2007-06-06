@@ -1,3 +1,7 @@
+2007-06-06  Jonathon Jongsma  <jjongsma@gnome.org>
+
+	* extra.shtml: add link to paco, a source code package organizer
+
 2007-05-18  Murray Cumming  <murrayc@murrayc-desktop>
 
 	* documentation.shtml: Link to examples/book/ rather than examples, 

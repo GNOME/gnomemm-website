@@ -85,6 +85,7 @@ some other projects using the same toolkit.
 <li><a href="http://wavemixer.sourceforge.net/">WaveMixer</a> sound editor.</li>
 <li><a href="http://lostirc.sourceforge.net/">LostIRC</a> IRC client</li>
 <li><a href="http://www.mysql.com/downloads/administrator.html">MySQL Administrator</a> Database GUI.</li>
+<li><a href="http://paco.sourceforge.net/">Paco</a> source code package organizer</li>
 </ul>
 
 <h4> Using gtkmm 2.0/2.2:</h4>
