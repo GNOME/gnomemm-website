@@ -86,6 +86,7 @@ some other projects using the same toolkit.
 <li><a href="http://lostirc.sourceforge.net/">LostIRC</a> IRC client</li>
 <li><a href="http://www.mysql.com/downloads/administrator.html">MySQL Administrator</a> Database GUI.</li>
 <li><a href="http://paco.sourceforge.net/">Paco</a> source code package organizer</li>
+<li><a href="http://www.gnome.org/">GNOME System Monitor</a> system monitor</li>
 </ul>
 
 <h4> Using gtkmm 2.0/2.2:</h4>

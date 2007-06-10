@@ -1,3 +1,10 @@
+2007-06-10  Murray Cumming  <murrayc@murrayc-desktop>
+
+	* bugs.shtml: Simplified the list of bugs links, and used the new 
+	bugzilla product overview pages for the links.
+	* extras.shtml: Added GNOME System Monitor which uses gtkmm for just a few 
+	things so far along with mostly C code.
+
 2007-06-06  Jonathon Jongsma  <jjongsma@gnome.org>
 
 	* extra.shtml: add link to paco, a source code package organizer

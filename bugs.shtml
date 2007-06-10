@@ -5,36 +5,13 @@
 <h2>Bugs</h2>
 
 <p class="highlight">See <a href="#NewBugs">Where to report</a> to submit new bugs or patches.</p>
-<h3>Current bugs/patches</h3>
+<h3>Current bugs and patches</h3>
 
-<p><a href="http://bugzilla.gnome.org/buglist.cgi?short_desc_type=substring&short_desc=&product=glibmm&product=gnomemm&product=gtkmm&long_desc_type=substring&long_desc=&status_whiteboard_type=substring&status_whiteboard=&keywords_type=nowords&keywords=API&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_status=VERIFIED&emailassigned_to1=1&emailtype1=substring&email1=&emailreporter2=1&emailtype2=substring&email2=&bugidtype=include&bug_id=&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=">All outstanding gtkmm, glibmm, and gnomemm bugs</a></p>
-
-<h4>Stable branch (gtkmm 2.4)</h4>
 <ul>
-<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?short_desc_type=substring&short_desc=&product=gtkmm&version=2.4&version=unspecified&long_desc_type=substring&long_desc=&status_whiteboard_type=substring&status_whiteboard=&keywords_type=nowords&keywords=API&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_status=VERIFIED&emailassigned_to1=1&emailtype1=substring&email1=&emailreporter2=1&emailtype2=substring&email2=&bugidtype=include&bug_id=&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=">gtkmm bugs</a></li>
-<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?short_desc_type=substring&short_desc=&product=glibmm&version=2.4.x&version=unspecified&long_desc_type=substring&long_desc=&status_whiteboard_type=substring&status_whiteboard=&keywords_type=nowords&keywords=API&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_status=VERIFIED&emailassigned_to1=1&emailtype1=substring&email1=&emailreporter2=1&emailtype2=substring&email2=&bugidtype=include&bug_id=&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=">glibmm bugs</a></li>
-<li>Outstanding <a
-href="http://bugzilla.gnome.org/buglist.cgi?product=gnomemm&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">gnomemm
-bugs</a></li>
-<li>Outstanding <a
-href="http://bugzilla.gnome.org/buglist.cgi?product=orbit-cpp&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&form_name=query">orbitcpp bugs</a></li>
+<li>Outstanding <a href="http://bugzilla.gnome.org/browse.cgi?product=gtkmm">gtkmm bugs</a></li>
+<li>Outstanding <a href="http://bugzilla.gnome.org/browse.cgi?product=glibmm">glibmm bugs</a></li>
+<li>Outstanding <a href="http://bugzilla.gnome.org/browse.cgi?product=gnomemm">gnomemm bugs</a></li>
 </ul>
-
-<h4>Unstable branch (glibmm/gtkmm 2.5)</h4>
-<p>These bugs might require API changes compared to gtkmm 2.4, and/or wrap new functionality in GTK+. These patches will be applied at some point in the future.</p> 
-<ul>
-<li>Outstanding 
-<a href="http://bugzilla.gnome.org/buglist.cgi?short_desc_type=substring&short_desc=&product=gtkmm&long_desc_type=substring&long_desc=&status_whiteboard_type=substring&status_whiteboard=&keywords_type=anywords&keywords=API&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_status=VERIFIED&emailassigned_to1=1&emailtype1=substring&email1=&emailreporter2=1&emailtype2=substring&email2=&bugidtype=include&bug_id=&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=">gtkmm bugs</a></li>
-
-<li>Outstanding 
-<a href="http://bugzilla.gnome.org/buglist.cgi?short_desc_type=substring&short_desc=&product=glibmm&long_desc_type=substring&long_desc=&status_whiteboard_type=substring&status_whiteboard=&keywords_type=anywords&keywords=API&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=REOPENED&bug_status=NEEDINFO&bug_status=VERIFIED&emailassigned_to1=1&emailtype1=substring&email1=&emailreporter2=1&emailtype2=substring&email2=&bugidtype=include&bug_id=&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&cmdtype=doit&namedcmd=gnome-libs+past+20+days&newqueryname=&order=Reuse+same+sort+as+last+time&field0-0-0=noop&type0-0-0=noop&value0-0-0=">glibmm bugs</a></li>
-</ul>
-
-<h4>Old branches (gtkmm 2.0/2.2 and 1.2)</h4>
-<ul>
-<li>Outstanding <a href="http://bugzilla.gnome.org/buglist.cgi?product=gtkmm&version=1.2&version=2.0&version=2.2&version=unspecified&bug_status=UNCONFIRMED&bug_status=NEW&bug_status=ASSIGNED&bug_status=NEEDINFO&bug_status=REOPENED&bug_status=VERIFIED&email1=&emailtype1=substring&emailassigned_to1=1&email2=&emailtype2=substring&emailreporter2=1&changedin=&chfieldfrom=&chfieldto=Now&chfieldvalue=&short_desc=&short_desc_type=substring&long_desc=&long_desc_type=substring&bug_file_loc=&bug_file_loc_type=substring&status_whiteboard=&status_whiteboard_type=substring&keywords=&keywords_type=anywords&op_sys_details=&op_sys_details_type=substring&version_details=&version_details_type=substring&cmdtype=doit&order=Reuse+same+sort+as+last+time&form_name=query">gtkmm bugs</a></li>
-</ul>
-
 
 <h4>Others</h4>
 <ul>
