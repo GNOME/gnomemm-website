@@ -1,3 +1,8 @@
+2007-07-04  Murray Cumming  <murrayc@murrayc-desktop>
+
+	* mailinglist.shtml: The MARC mailing list archive has moved. 
+	Corrected the URI. Thanks to Joachim Banzhaf.
+
 2007-06-10  Murray Cumming  <murrayc@murrayc-desktop>
 
 	* bugs.shtml: Simplified the list of bugs links, and used the new 
