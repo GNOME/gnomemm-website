@@ -49,11 +49,11 @@
                         <ul>
                             <li>
                                 glibmm:
-                                <a href="download.shtml#stable">2.12.x</a>
+                                <a href="download.shtml#stable">2.14.x</a>
                             </li>
                             <li>
                                 gtkmm:
-                                <a href="download.shtml#stable">2.10.x</a>
+                                <a href="download.shtml#stable">2.12.x</a>
                             </li>
                             <li>
                                 libglademm:
@@ -61,15 +61,11 @@
                             </li>
                             <li>
                                 gconfmm:
-                                <a href="download.shtml#stable">2.16.x</a>
+                                <a href="download.shtml#stable">2.20.x</a>
                             </li>
                             <li>
                                 libgnomecanvasmm:
-                                <a href="download.shtml#stable">2.16.x</a>
-                            </li>
-                            <li>
-                                libgnomeuimm:
-                                <a href="download.shtml#stable">2.16.0</a>
+                                <a href="download.shtml#stable">2.20.x</a>
                             </li>
                         </ul>
 
@@ -77,35 +73,11 @@
                         <ul>
                             <li>
                                 glibmm:
+                                <a href="download.shtml#devel">2.15.x</a>
+                            </li>
+                            <li>
+                                gtkmm:
                                 <a href="download.shtml#devel">2.13.x</a>
-                            </li>
-                            <li>
-                                gtkmm:
-                                <a href="download.shtml#devel">2.11.x</a>
-                            </li>
-                        </ul>
-
-                        <h3>Older</h3>
-                        <ul>
-                            <li>
-                                gtkmm:
-                                <a href="download.shtml#old">2.2.x</a>
-                            </li>
-                            <li>
-                                libglademm:
-                                <a href="download.shtml#old">2.0.x</a>
-                            </li>
-                            <li>
-                                gconfmm:
-                                <a href="download.shtml#old">2.0.x</a>
-                            </li>
-                            <li>
-                                libgnomecanvasmm:
-                                <a href="download.shtml#old">2.0.x</a>
-                            </li>
-                            <li>
-                                libgnomeuimm:
-                                <a href="download.shtml#old">2.0.x</a>
                             </li>
                         </ul>
 
