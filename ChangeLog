@@ -1,3 +1,10 @@
+2007-09-28  Murray Cumming  <murrayc@murrayc-desktop>
+
+	* MAINTAINERS: Added.
+	* download.shtml: Corrected the version numbers to show what is the 
+	latest stable. Removed mention of 2.2 and 1.2 - they are so old that 
+	nobody should be using them anymore.
+
 2007-07-04  Murray Cumming  <murrayc@murrayc-desktop>
 
 	* mailinglist.shtml: The MARC mailing list archive has moved. 
