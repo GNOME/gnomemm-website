@@ -10,7 +10,7 @@
     <p>This documentation is for the gtkmm-2.4 and gnomemm-2.6 APIs. There is an older gtkmm API called gtkmm-2.0 which can be installed in parallel. Tthe gtkmm-2.4 name refers to the API/ABI series and not the release version. For instance, gtkmm 2.10 is a version of the gtkmm-2.4 API.</p>
 </div>
 <h3>Getting Started with gtkmm</h3>
-<p>You might start by reading the <em>Programming with gtkmm</em> online book.</p>
+<p>You might start by reading the <em>Programming with gtkmm</em> online book, also available as a <a href="<!--#echo var="doc_base"-->/tutorial/pdf/programming-with-gtkmm.pdf">PDF</a>.</p>
 <p><a href="<!--#echo var="doc_base"-->/tutorial/html/index.html">Contents</a> of the whole online book.</p>
 <p>Selected chapters:
 <ul>
