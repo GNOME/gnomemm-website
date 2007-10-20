@@ -1,3 +1,9 @@
+2007-10-20  Murray Cumming  <murrayc@murrayc.com>
+
+	* svn.shtml: Updated, adding a link to the browse svn pages.
+	Update the branch names, removing some useless old stuff. We could maybe 
+	remove this, because viewsvn makes it easy to see branch names.
+
 2007-10-16  Murray Cumming  <murrayc@murrayc.com>
 
 	* documentation.shtml: Add a link to the PDF version, now that I have 

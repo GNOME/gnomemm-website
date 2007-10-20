@@ -11,8 +11,8 @@
 </p>
 
 <p>
-    glibmm 2.4 and gtkmm 2.4 are in the glibmm and gtkmm modules - see
-    below.
+    glibmm 2.4 and gtkmm 2.4 are in the <a href="http://svn.gnome.org/viewvc/glibmm/trunk/">glibmm</a> and <a href="http://svn.gnome.org/viewvc/gtkmm/trunk/">gtkmm</a> modules. 
+    There is also a <a href="http://svn.gnome.org/viewvc/gtkmm-documentation/trunk/">gtkmm-documentation</a> module which contains the gtkmm book and its examples. See below for instructions.
 </p>
 
 <p>
@@ -49,83 +49,28 @@
             <th>SVN Module</th>
             <th>Branch name</th>
         </tr>
-        <tr>
+	<tr>
             <td>gtkmm</td>
-            <td>1.2</td>
-            <td>gtk--</td>
+            <td>2.13/2.14</td>
+            <td>gtkmm</td>
             <td>trunk</td>
-        </tr>
-        <tr>
-            <td>gtkmm</td>
-            <td>2.2</td>
-            <td>gtkmm2</td>
-            <td>trunk</td>
-        </tr>
-        <tr>
-            <td>gtkmm</td>
-            <td>2.4</td>
-            <td>gtkmm</td>
-            <td>gtkmm-2-4</td>
-        </tr>
-        <tr>
-            <td>gtkmm</td>
-            <td>2.6</td>
-            <td>gtkmm</td>
-            <td>gtkmm-2-6</td>
-        </tr>
-        <tr>
-            <td>gtkmm</td>
-            <td>2.8</td>
-            <td>gtkmm</td>
-            <td>gtkmm-2-8</td>
-        </tr>
-        <tr>
-            <td>gtkmm</td>
-            <td>2.10</td>
-            <td>gtkmm</td>
-            <td>gtkmm-2-10</td>
         </tr>
 	<tr>
             <td>gtkmm</td>
-            <td>2.11/2.12</td>
-            <td>gtkmm</td>
-            <td>trunk</td>
-        </tr>
-        <tr>
-            <td>glibmm</td>
-            <td>2.4</td>
-            <td>glibmm</td>
-            <td>glibmm-2-4</td>
-        </tr>
-        <tr>
-            <td>glibmm</td>
-            <td>2.6</td>
-            <td>glibmm</td>
-            <td>glibmm-2-6</td>
-        </tr>
-        <tr>
-            <td>glibmm</td>
-            <td>2.8</td>
-            <td>glibmm</td>
-            <td>glibmm-2-8</td>
-        </tr>
-        <tr>
-            <td>glibmm</td>
-            <td>2.10</td>
-            <td>glibmm</td>
-            <td>glibmm-2-10</td>
-        </tr>
-        <tr>
-            <td>glibmm</td>
             <td>2.12</td>
+            <td>gtkmm</td>
+            <td>gtkmm-2-12</td>
+        </tr>
             <td>glibmm</td>
-            <td>glibmm-2-12</td>
+            <td>2.15/16</td>
+            <td>glibmm</td>
+            <td>trunk</td>
         </tr>
         <tr>
             <td>glibmm</td>
-            <td>2.13/2.14</td>
+            <td>2.14</td>
             <td>glibmm</td>
-            <td>trunk</td>
+            <td>glibmm-2-14</td>
         </tr>
     </table>
 </p>
@@ -139,81 +84,40 @@
             <th>SVN Module</th>
             <th>Branch name</th>
         </tr>
-        <tr>
-            <td>gnomemm</td>
-            <td>1.2</td>
-            <td>gnome--</td>
-            <td>trunk</td>
-        </tr>
+       
         <tr>
             <td>libglademm</td>
-            <td>2.0</td>
-            <td>gnomemm/libglademm</td>
-            <td>libglademm-2-0</td>
-        </tr>
-        <tr>
-            <td>libglademm</td>
-            <td>2.2</td>
-            <td>gnomemm/libglademm</td>
-            <td>gnome-2-4</td>
-        </tr>
-        <tr>
-            <td>libglademm</td>
-            <td>2.4</td>
+            <td></td>
             <td>gnomemm/libglademm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>gconfmm</td>
-            <td>2.0</td>
-            <td>gnomemm/gconfmm</td>
-            <td>gnome-2-4</td>
-        </tr>
-        <tr>
-            <td>gconfmm</td>
-            <td>2.6</td>
+            <td></td>
             <td>gnomemm/gconfmm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomecanvasmm</td>
-            <td>2.0</td>
-            <td>gnomemm/libgnomecanvasmm</td>
-            <td>gnome-2-4</td>
-        </tr>
-        <tr>
-            <td>libgnomecanvasmm</td>
-            <td>2.6</td>
+            <td></td>
             <td>gnomemm/libgnomecanvasmm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomemm</td>
-            <td>2.0</td>
-            <td>gnomemm/libgnomemm</td>
-            <td>gnome-2-4</td>
-        </tr>
-        <tr>
-            <td>libgnomemm</td>
-            <td>2.6</td>
+            <td></td>
             <td>gnomemm/libgnomemm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomeuimm</td>
-            <td>2.0</td>
-            <td>gnomemm/libgnomeuimm</td>
-            <td>gnome-2-4</td>
-        </tr>
-        <tr>
-            <td>libgnomeuimm</td>
-            <td>2.6</td>
+            <td></td>
             <td>gnomemm/libgnomeuimm</td>
             <td>gnome-2-6</td>
         </tr>
         <tr>
             <td>libgnome-vfsmm</td>
-            <td>2.6</td>
+            <td></td>
             <td>gnomemm/gnome-vfsmm</td>
             <td>trunk</td>
         </tr>
@@ -246,8 +150,14 @@
             <td>trunk</td>
         </tr>
         <tr>
+            <td>goocanvasmm</td>
+            <td></td>
+            <td>gnomemm/goocanvasmm</td>
+            <td>trunk</td>
+        </tr>
+        <tr>
             <td>libpanelappletmm</td>
-            <td>2.6</td>
+            <td></td>
             <td>gnomemm/libpanelappletmm</td>
             <td>trunk</td>
         </tr>
