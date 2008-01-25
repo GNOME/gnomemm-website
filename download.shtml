@@ -64,7 +64,7 @@ version such as gtkmm 2.8.x when you install the gtkmm 2.4 package.
     <li><a href="http://libsigc.sourceforge.net">libsigc++</a></li>
 </ul>
 </p>
-<p>Here are dependency graphs for <a href="jhbuild_dot_gtkmm.png">gtkmm</a> and <a href="jhbuild_dot_gnomemm.png">gnomemm</a>, generated automatically with jhbuild and graphviz.</p>
+<p>Here is a dependency graphs for <a href="jhbuild_dot_gtkmm.png">gtkmm</a>, generated automatically with jhbuild and graphviz.</p>
 
 <h3>GTK+</h3>
 <p>You can download GTK+ and GNOME source code from <a href="http://download.gnome.org">download.gnome.org</a>.</p>
