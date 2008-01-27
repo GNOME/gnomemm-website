@@ -12,7 +12,7 @@ widgets are available from other sources.
 <li><a href="http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/">gtkmozembedmm</a> Mozilla-based web browser widget</li>
 <li><a href="http://plotmm.sourceforge.net/">Plotmm</a> Plot widget for scientific applications</li>
 <li><a href="http://home.gna.org/gtksourceviewmm/">gtksourceviewmm</a>, Wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)</li>
-<li><a href="http://home.gna.org/gtkhttp://ftp.gnome.org/pub/GNOME/sources/gstreamermm/">gstreamermm</a>, Wrappers for gstreamer (streaming media)</li>
+<li><a href="http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/">gstreamermm</a>, Wrappers for gstreamer (streaming media)</li>
 <li><a href="http://vtemm.sourceforge.jp/">VTEmm</a> Terminal widget</li>
 <li><a href="http://gtkextramm.sourceforge.net/">gtkextramm</a>, Wrappers for GtkExtra (plot, sheet, etc)</li>
 <li><a href="http://www.nongnu.org/om-synth/flowcanvas.html">FlowCanvas</a> Canvas for data flow systems.</li>
