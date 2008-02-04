@@ -100,6 +100,7 @@
                     <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceAtk.html">Atk</a></li>
                     <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGdk.html">Gdk</a></li>
                     <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/namespaceGlib.html">Glib</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/namespaceGio.html">Gio</a></li>
                     <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGtk.html">Gtk</a></li>
                     <li><a href="<!--#echo var="doc_base"-->/reference/html/namespacePango.html">Pango</a></li>
 
