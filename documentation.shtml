@@ -30,8 +30,8 @@
     <tbody>
         <tr>
             <th>gtkmm (Gtk::)</th>
-            <th>glibmm (used by gtkmm)</th>
-            <th>glibmm (others)</th>
+            <th>glibmm (Glib::)</th>
+            <th>giomm (Gio::)</th>
         </tr>
         <tr>
             <td>
@@ -53,18 +53,19 @@
                     <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1ustring.html">ustring</a></li>
                     <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1Exception.html">Exceptions</a></li>
                     <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1RefPtr.html">RefPtr&lt;&gt;</a><br>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MainLoop.html">Main Event loop</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Spawn.html">Spawning Processes</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Threads.html">Threads</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MiscUtils.html">Miscellaneous Utility Functions</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__CharsetConv.html">Character set conversion</a></li>
                     </li>
 
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MainLoop.html">Main Event loop</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Spawn.html">Spawning Processes</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Threads.html">Threads</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MiscUtils.html">Miscellaneous Utility Functions</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__CharsetConv.html">Character set conversion</a></li>
-
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGio_1_1File.html">File</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Streams.html">Streams</a></li>
                 </ul>
             </td>
         </tr>
