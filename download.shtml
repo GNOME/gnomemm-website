@@ -35,16 +35,16 @@ version such as gtkmm 2.8.x when you install the gtkmm 2.4 package.
 
 <a name="devel"></a>
 <h4>Unstable gtkmm and GNOME bindings:</h4>
-<p>These replace the stable glibmm 2.14 and gtkmm 2.12 versions and are currently unstable:</p>
+<p>These replace the stable glibmm 2.16 and gtkmm 2.12 versions and are currently unstable:</p>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.15/">glibmm 2.15</a> (unstable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.12/">gtkmm 2.12</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.16/">glibmm 2.16</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.13/">gtkmm 2.13</a> (unstable)</li>
 </ul>
 
 <a name="stable"></a>
 <h4>Stable gtkmm and GNOME bindings:</h4>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.14/">glibmm 2.14</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.16/">glibmm 2.16</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.12/">gtkmm 2.12</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.6/">libglademm 2.6</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.20/">libgnomecanvasmm 2.20</a> (stable)</li>
