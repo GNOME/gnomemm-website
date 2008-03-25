@@ -1,3 +1,9 @@
+2008-03-25  Murray Cumming  <murrayc@murrayc.com>
+
+	* download.shtml: Updated versions. Corrected debian package name and 
+	added a line for Ubuntu.
+	* fragments/html_declaration.html_fragment: Updated versions.
+
 2008-03-17  Murray Cumming  <murrayc@murrayc.com>
 
 	* download.shtml:

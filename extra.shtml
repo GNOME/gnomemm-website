@@ -6,7 +6,7 @@
 <h3>Available widgets</h3>
 <p>
 In addition to the wrappers distributed with gtkmm and gnomemm, additional
-widgets are available from other sources.
+widgets and libraries are available from other sources.
 <ul>
 <li><a href="http://gtkglext.sourceforge.net">GtkGlExtmm</a> OpenGL rendering for gtkmm</li>
 <li><a href="http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/">gtkmozembedmm</a> Mozilla-based web browser widget</li>

@@ -19,11 +19,12 @@ version.  So don't be surprised if your distribution actually provides a later
 version such as gtkmm 2.8.x when you install the gtkmm 2.4 package.
 </p>
 <ul>
-    <li><a href="http://www.debian.org/">Debian</a> GNU/Linux: apt-get install libgtkmm2.4-dev. These <a href="http://packages.qa.debian.org/g/gtkmm2.4.html">project pages</a> might give status.</li>
+    <li><a href="http://www.debian.org/">Debian</a> GNU/Linux: apt-get install libgtkmm-2.4-dev. These <a href="http://packages.qa.debian.org/g/gtkmm2.4.html">project pages</a> might give status.</li>
     <li><a href="http://fedora.redhat.com/">Fedora</a>/<a href="http://www.redhat.com">RedHat</a> Linux: Use <a href="http://www.fedoraproject.org/wiki/Extras">Fedora Extras via yum</a>: yum install gtkmm24-docs to get the runtime, development, and documentation packages.</li>
     <li><a href="http://www.mandrakelinux.com/">Mandrake</a> Linux: Get libgtkmm2.4 from the contrib directory on their <a href="http://www.mandrakelinux.com/en/cookerdevel.php3">ftp</a> servers.</li>
     <li><a href="http://www.gentoo.org">Gentoo Linux</a>: Get dev-cpp/gtkmm.</li>
     <li><a href="http://www.suse.com/">SuSE Linux</a>: Use yast to install gtkmm2-devel.</li>
+    <li><a href="http://www.ubuntu.com/">Ubuntu</a> Linux: apt-get install libgtkmm-2.4-dev.</li>
     <li>Windows: Here is an <a href="http://www.pcpm.ucl.ac.be/~gustin/win32_ports/">installer</a>.</li>
     <li>MacOS X: There is a <a href="http://fink.sourceforge.net/pdb/package.php/gtkmm2.4-dev">Fink package</a>.</li>
     <li>SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <a href="http://thewrittenword.com">The Written Word</a> offer binary gtkmm packages, with packagement management.</li>  
@@ -47,13 +48,12 @@ version such as gtkmm 2.8.x when you install the gtkmm 2.4 package.
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.16/">glibmm 2.16</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.12/">gtkmm 2.12</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.6/">libglademm 2.6</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.20/">libgnomecanvasmm 2.20</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gnome-vfsmm/2.20/">gnome-vfsmm 2.20</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.20/">gconfmm 2.20</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.20/">libgnomemm 2.20</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.20/">libgnomeuimm 2.20</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.22/">libgnomecanvasmm 2.22</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.22/">gconfmm 2.22</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.22/">libgnomemm 2.22</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.22/">libgnomeuimm 2.22</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgdamm/">libgdamm</a></li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/">libpanelappletmm 2.6</a> (unstable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgdamm/">libgdamm 1.3</a> (unstable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm_hello/2.4/">gtkmm-hello 2.4</a></li>
 </ul>
 
