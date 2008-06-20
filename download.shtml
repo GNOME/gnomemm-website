@@ -25,7 +25,7 @@ version such as gtkmm 2.8.x when you install the gtkmm 2.4 package.
     <li><a href="http://www.gentoo.org">Gentoo Linux</a>: Get dev-cpp/gtkmm.</li>
     <li><a href="http://www.suse.com/">SuSE Linux</a>: Use yast to install gtkmm2-devel.</li>
     <li><a href="http://www.ubuntu.com/">Ubuntu</a> Linux: apt-get install libgtkmm-2.4-dev.</li>
-    <li>Windows: Here is an <a href="http://www.pcpm.ucl.ac.be/~gustin/win32_ports/">installer</a>.</li>
+    <li>Windows: Here is an <a href="http://live.gnome.org/gtkmm/MSWindows">installer</a>.</li>
     <li>MacOS X: There is a <a href="http://fink.sourceforge.net/pdb/package.php/gtkmm2.4-dev">Fink package</a>.</li>
     <li>SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <a href="http://thewrittenword.com">The Written Word</a> offer binary gtkmm packages, with packagement management.</li>  
 </ul>

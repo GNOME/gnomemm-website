@@ -1,3 +1,9 @@
+2008-06-20  Murray Cumming  <murrayc@murrayc.com>
+
+	* download.shtml: The Windows link is dead, so I changed it to point 
+	to a live.gnome.org wiki page that will hopefully be filled with useful 
+	information.
+
 2008-04-04  Murray Cumming  <murrayc@murrayc.com>
 
 	* download.shtml: Mention 2.17 as the unstable glibmm, though it 
