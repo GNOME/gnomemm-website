@@ -4,6 +4,7 @@
 
 <!--#set var="doc_base" value="/docs/gtkmm-2.4/docs" -->
 <!--#set var="glibmm_doc_base" value="/docs/glibmm-2.4/docs" -->
+<!--#set var="pangomm_doc_base" value="/docs/pangomm-1.4/docs" -->
 
 <h2>Documentation Overview</h2>
 <div class="highlight">
@@ -103,7 +104,7 @@
                     <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/namespaceGlib.html">Glib</a></li>
                     <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/namespaceGio.html">Gio</a></li>
                     <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGtk.html">Gtk</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespacePango.html">Pango</a></li>
+                    <li><a href="<!--#echo var="pangomm_doc_base"-->/reference/html/namespacePango.html">Pango</a></li>
 
                 </ul>
             </td>

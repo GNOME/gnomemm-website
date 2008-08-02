@@ -1,3 +1,8 @@
+2008-08-02  Murray Cumming  <murrayc@murrayc.com>
+
+	* documentation.shtml: Correct the link to pangomm, using a new 
+	pangomm_docbase shtml variable.
+
 2008-06-20  Murray Cumming  <murrayc@murrayc.com>
 
 	* download.shtml: The Windows link is dead, so I changed it to point 
