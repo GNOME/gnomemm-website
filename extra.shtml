@@ -16,6 +16,7 @@ widgets and libraries are available from other sources.
 <li><a href="http://vtemm.sourceforge.jp/">VTEmm</a> Terminal widget</li>
 <li><a href="http://gtkextramm.sourceforge.net/">gtkextramm</a>, Wrappers for GtkExtra (plot, sheet, etc)</li>
 <li><a href="http://www.nongnu.org/om-synth/flowcanvas.html">FlowCanvas</a> Canvas for data flow systems.</li>
+<li><a href="http://www.xs4all.nl/~carlo17/cwchessboard/index.html">cwchessboard</a>, A C++ chess board tool set for gtkmm.</li>
 
 </ul>
 </p>
