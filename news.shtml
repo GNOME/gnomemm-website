@@ -6,6 +6,18 @@
 <p>
 <ul>
 <li>
+September 2008: gtkmm and glibmm 2.14.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2008-September/msg00099.html"released</a>, as per the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-compatible with gtkmm 2.4, with API additions.
+</li>
+<li>
+September 2007: gtkmm and glibmm 2.12.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"released</a>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, with API additions.
+</li>
+<li>
+August 2006: gtkmm and glibmm 2.10.0 <a href="http://mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html"released</a>, as per the GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-compatible with gtkmm 2.8, with API additions.
+</li>
+<li>
+September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm 2.6, with API additions.
+</li>
+<li>
 March 2005: gtkmm and glibmm 2.6.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html"released</a>, as per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-compatible with gtkmm 2.4, with API additions.
 </li>
 <li>
