@@ -49,11 +49,11 @@
                         <ul>
                             <li>
                                 glibmm:
-                                <a href="download.shtml#stable">2.16.x</a>
+                                <a href="download.shtml#stable">2.18.x</a>
                             </li>
                             <li>
                                 gtkmm:
-                                <a href="download.shtml#stable">2.12.x</a>
+                                <a href="download.shtml#stable">2.14.x</a>
                             </li>
                             <li>
                                 libglademm:
@@ -61,11 +61,11 @@
                             </li>
                             <li>
                                 gconfmm:
-                                <a href="download.shtml#stable">2.22.x</a>
+                                <a href="download.shtml#stable">2.24.x</a>
                             </li>
                             <li>
                                 libgnomecanvasmm:
-                                <a href="download.shtml#stable">2.22.x</a>
+                                <a href="download.shtml#stable">2.24.x</a>
                             </li>
                         </ul>
 
@@ -73,11 +73,11 @@
                         <ul>
                             <li>
                                 glibmm:
-                                <a href="download.shtml#devel">2.17.x</a>
+                                <a href="download.shtml#devel">2.19.x</a>
                             </li>
                             <li>
                                 gtkmm:
-                                <a href="download.shtml#devel">2.13.x</a>
+                                <a href="download.shtml#devel">2.15.x</a>
                             </li>
                         </ul>
 

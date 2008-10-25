@@ -1,3 +1,8 @@
+2008-10-25  Murray Cumming  <murrayc@murrayc.com>
+
+	* fragments/html_declaration.html_fragment:
+	* svn.shtml: Updated version numbers.
+
 2008-10-14  Murray Cumming  <murrayc@murrayc.com>
 
 	* news.shtml: Mentioned releases. Somehow this had nothing since 2.6.

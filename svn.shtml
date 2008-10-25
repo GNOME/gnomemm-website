@@ -51,18 +51,18 @@
         </tr>
 	<tr>
             <td>gtkmm</td>
-            <td>2.13/2.14</td>
+            <td>2.15/2.16</td>
             <td>gtkmm</td>
             <td>trunk</td>
         </tr>
 	<tr>
             <td>gtkmm</td>
-            <td>2.12</td>
+            <td>2.14</td>
             <td>gtkmm</td>
-            <td>gtkmm-2-12</td>
+            <td>gtkmm-2-14</td>
         </tr>
             <td>glibmm</td>
-            <td>2.15/16</td>
+            <td>2.19/20</td>
             <td>glibmm</td>
             <td>trunk</td>
         </tr>
@@ -70,7 +70,7 @@
             <td>glibmm</td>
             <td>2.14</td>
             <td>glibmm</td>
-            <td>glibmm-2-14</td>
+            <td>glibmm-2-18</td>
         </tr>
     </table>
 </p>
