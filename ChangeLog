@@ -1,3 +1,8 @@
+2008-11-25  Murray Cumming  <murrayc@murrayc.com>
+
+	* download.shtml: Update the SUSE Linux link, because www.suse.org now 
+	just redirects to Novell.
+
 2008-10-25  Murray Cumming  <murrayc@murrayc.com>
 
 	* fragments/html_declaration.html_fragment:
