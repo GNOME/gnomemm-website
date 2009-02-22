@@ -1,3 +1,9 @@
+2009-02-22  Murray Cumming  <murrayc@murrayc.com>
+
+	* commercial_support.shtml: Add Amazon, because their MP3 Downloader 
+	uses gtkmm, at least on Linux. Put the other well-known companies at 
+	the top.
+
 2008-11-25  Murray Cumming  <murrayc@murrayc.com>
 
 	* download.shtml: Update the SUSE Linux link, because www.suse.org now 

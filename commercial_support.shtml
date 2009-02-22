@@ -34,31 +34,33 @@ require more in-depth assistance or custom development. If so feel free to conta
 Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:
 <ul>
 <!-- Bought by another company: <li><a href="http://www.180sw.com/">OneEighty Software</a> - embedded and telecoms</li> -->
+<li><a href="http://www.mysql.com">MySQL</a> - Databases</li>
+<li><a href="http://www.vmware.com/">VMWare</a> - Virtualization, network management</li>
+<li><a href="http://www.amazon.com/">Amazon</a> - MP3 Downloader</li>
+<li><a href="http://www.supersonicimagine.fr/">Supersonic Imagine</a> - Medical imaging</li>
+<li><a href="http://www.garmin.com/">Garmin</a> - Consumer navigation devices</li>
 <li><a href="http://www.spacetec.no/">Kongsberg Spacetec</a> - satellite/meteorological</li>
 <li><a href="http://www.solvo.ru/">Solvo Ltd.</a> - warehouse management systems</li>
-<li><a href="http://linuxaudiosystems.com/">Linux Audio Systems</a> - professional audio/music systems</li>
-<li><a href="http://www.isotrol.com">Isotrol</a> - electrical engineering</li>
 <li><a href="http://www.eads.com">EADS</a> - aerospace/defense/satellite</li>
+<li><a href="http://www.northropgrumman.com">Northrup Grumman</a> - military/defense</li>
 <li><a href="http://www.henson.com">Jim Henson's Muppet Workshop</a> - animatronics</li>
+<li><a href="http://www.isotrol.com">Isotrol</a> - electrical engineering</li>
+<li><a href="http://linuxaudiosystems.com/">Linux Audio Systems</a> - professional audio/music systems</li>
 <li><a href="http://www.designadvantage.com">Design Advantage</a> - electrical/mechanical engineering</li>
 <li><a href="http://www.dme.net">DME</a> - mold engineering</li>
 <li><a href="http://www.petig-baender.de">Adolf Petig GmbH</a> - textile ribbon manufacturing</li>
-<li><a href="http://www.northropgrumman.com">Northrup Grumman</a> - military/defense</li>
-<li><a href="http://www.mysql.com">MySQL</a> - databases</li>
 <li><a href="http://www.bifab.de">Bibliographisches Institut & F.A. Brockhaus AG</a> - publishing</li>
 <li><a href="http://www.hasar.com">Hasar</a> - POS software/hardware</li>
 <li><a href="http://www.icodsi.biz">iCodsi</a> - security/encryption software</li>
 <li><a href="http://www.aplik.com/">Aplik</a> - process engineering</li>
 <li><a href="http://www.fis-cal.com/">Fiscal</a> - fiscal Systems, POS</li>
 <li><a href="http://www.thewrittenword.com/">The Written Word</a> - prebuilt software packages</li>
-<li><a href="http://www.vmware.com/">VMWare</a> - network management, emulation</li>
 <li><a href="http://www.exact-med.com/">Allcare</a> - ExactMed eMAR, medication administration</li>
 <li><a href="https://www.sendoutcards.com/">SendOutCards.com</a> - Specialized internal applications</li>
 <li><a href="http://www.epictechnology.co.uk/">EPIC Technology</a> - Point Of Sale systems</li>
 <li><a href="http://www.i-medlab.com/">iMed</a> Medical imaging - <a href="http://www.i-medlab.com/Products/page1.html">CAD Colon</a>.</li>
 <li><a href="http://www.downeysavings.com/">Downey Savings</a> - Banking</li>
-<li><a href="http://www.supersonicimagine.fr/">Supersonic Imagine</a> - Medical imaging</li>
-<li><a href="http://www.garmin.com/">Garmin</a> - Consumer navigation devices</li>
+
 
 </ul> 
 </p>
