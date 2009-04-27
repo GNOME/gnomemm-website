@@ -33,20 +33,17 @@ operating system unless you wish to test the latest versions. However,
 <h4>Unstable gtkmm and GNOME bindings:</h4>
 <p>These replace the stable glibmm and gtkmm versions and are currently unstable:</p>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.19/">glibmm 2.19</a> (unstable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.15/">gtkmm 2.15</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.1`/">glibmm 2.21</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.17/">gtkmm 2.17</a> (unstable)</li>
 </ul>
 
 <a name="stable"></a>
 <h4>Stable gtkmm and GNOME bindings:</h4>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.18/">glibmm 2.18</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.14/">gtkmm 2.14</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libglademm/2.6/">libglademm 2.6</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm/2.24/">libgnomecanvasmm 2.24</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm/2.24/">gconfmm 2.24</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomemm/2.24/">libgnomemm 2.24</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomeuimm/2.24/">libgnomeuimm 2.24</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.20/">glibmm 2.20</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.16/">gtkmm 2.16</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm">libgnomecanvasmm</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm">gconfmm</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgdamm/">libgdamm</a></li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/">libpanelappletmm 2.6</a> (unstable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm_hello/2.4/">gtkmm-hello 2.4</a></li>
