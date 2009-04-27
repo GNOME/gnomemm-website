@@ -1,5 +1,10 @@
 2009-04-27  Murray Cumming  <murrayc@murrayc.com>
 
+	* fragments/html_declaration.html_fragment: Link to git.shtml instead of 
+	svn.shtml.
+
+2009-04-27  Murray Cumming  <murrayc@murrayc.com>
+
 	* fragments/html_declaration.html_fragment:
 	* git.shtml: Update versions, and remove mention of semi-deprecated modules.
 

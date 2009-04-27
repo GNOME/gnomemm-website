@@ -34,7 +34,7 @@
                         <li><a href="docs/gtkmm-2.4/docs/FAQ/html/index.html">FAQ</a></li>
                         <li><a href="http://live.gnome.org/gtkmm">Wiki</a></li>
                         <li><a href="mailinglist.shtml">Mailing Lists</a></li>
-                        <li><a href="svn.shtml">SVN</a></li>
+                        <li><a href="git.shtml">Git</a></li>
                         <li><a href="bugs.shtml">Bugs</a></li>
                         <li><a href="books.shtml">Books</a></li>
                         <li><a href="commercial_support.shtml">Commercial Support</a></li>
