@@ -23,7 +23,7 @@ bugs</a> - a good way to get involved.</li>
 
 </ul>
 
-<p>As soon as a gtkmm or gnomemm patch has been clearly approved by a maintainer, anybody with svn write access may apply it.</p>
+<p>As soon as a gtkmm or gnomemm patch has been clearly approved by a maintainer, anybody with git write access may apply it.</p>
 
 <h3><a name="NewBugs"/>Where to report?</a></h3>
 <ul>
@@ -55,14 +55,15 @@ us to isolate the problem, and proves that the problem is not caused
 by your own code.</p>
 
 <h3><a name="CreatingPatches"/>How do I create a patch?</a></h3>
+<p>There are many ways to use Git, but this is the simplest way to create a patch if you are unfamiliar with Git:</p>
 <ul>
-<li>Take code from <a href="svn.shtml">svn</a></li>
+<li>Take code from <a href="git.shtml">git</a></li>
 <li>Modify that version</li>
 <li>Check it compiles</li>
 <li>Edit the ChangeLog</i>
-<li>Use svn to create a patch
+<li>Use git to create a patch
 <pre>
-  svn diff &gt; my_fix.patch
+  git diff -u &gt; my_fix.patch
 </pre></li>
 <li>Add the patch to bugzilla (see above).</li>
 </ul>

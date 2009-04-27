@@ -1,3 +1,11 @@
+2009-04-27  Murray Cumming  <murrayc@murrayc.com>
+
+	Updated for the git conversion.
+	
+	* git.shtml: Renamed from svn.shtml and made appropriate changes.
+	* bugs.shtml: Changed patch instructions for git. Kept it simple.
+	* documentation.shtml: Changed URLs for git.
+
 2009-02-22  Murray Cumming  <murrayc@murrayc.com>
 
 	* commercial_support.shtml: Add Amazon, because their MP3 Downloader 

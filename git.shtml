@@ -2,17 +2,16 @@
 <!--#include virtual="fragments/html_declaration.html_fragment" -->
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
-<h2>SVN</h2>
+<h2>Git</h2>
 <p>
-    We use <a href="http://subversion.tigris.org/">Subversion (SVN)</a> to maintain our source
-    code, in the <a href="http://www.gnome.org">GNOME</a> Subversion repository.
-    Additional information about svn.gnome.org is available at <a
-        href="http://developer.gnome.org/tools/svn.html">developer.gnome.org</a>. 
+    We use <a href="http://git-scm.com/">Git</a> to maintain our source
+    code, in the <a href="http://www.gnome.org">GNOME</a> Git repository.
+    Additional information about git.gnome.org is available at <a href="http://live.gnome.org/Git">live.gnome.org/Git</a>. 
 </p>
 
 <p>
-    glibmm 2.4 and gtkmm 2.4 are in the <a href="http://svn.gnome.org/viewvc/glibmm/trunk/">glibmm</a> and <a href="http://svn.gnome.org/viewvc/gtkmm/trunk/">gtkmm</a> modules. 
-    There is also a <a href="http://svn.gnome.org/viewvc/gtkmm-documentation/trunk/">gtkmm-documentation</a> module which contains the gtkmm book and its examples. See below for instructions.
+    glibmm and gtkmm are in the <a href="http://git.gnome.org/cgit/glibmm/tree/">glibmm</a> and <a href="http://git.gnome.org/cgit/gtkmm/tree/">gtkmm</a> modules. 
+    There is also a <a href="http://git.gnome.org/cgit/gtkmm-documentation/tree/">gtkmm-documentation</a> module which contains the gtkmm book and its examples. See below for instructions.
 </p>
 
 <p>
@@ -29,7 +28,7 @@
 
     <p>
         For instance, to check out the latest version of gtkmm:
-        <pre>svn co http://svn.gnome.org/svn/gtkmm/trunk gtkmm</pre>
+        <pre>git clone git://git.gnome.org/gtkmm</pre>
     </p>
 </div>
 
@@ -46,7 +45,7 @@
         <tr>
             <th>Component</th>
             <th>Version</th>
-            <th>SVN Module</th>
+            <th>Git Module</th>
             <th>Branch name</th>
         </tr>
 	<tr>
@@ -81,44 +80,44 @@
         <tr>
             <th>Component</th>
             <th>API Version</th>
-            <th>SVN Module</th>
+            <th>Git Module</th>
             <th>Branch name</th>
         </tr>
        
         <tr>
             <td>libglademm</td>
             <td></td>
-            <td>gnomemm/libglademm</td>
+            <td>libglademm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>gconfmm</td>
             <td></td>
-            <td>gnomemm/gconfmm</td>
+            <td>gconfmm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomecanvasmm</td>
             <td></td>
-            <td>gnomemm/libgnomecanvasmm</td>
+            <td>libgnomecanvasmm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomemm</td>
             <td></td>
-            <td>gnomemm/libgnomemm</td>
+            <td>libgnomemm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomeuimm</td>
             <td></td>
-            <td>gnomemm/libgnomeuimm</td>
+            <td>libgnomeuimm</td>
             <td>gnome-2-6</td>
         </tr>
         <tr>
             <td>libgnome-vfsmm</td>
             <td></td>
-            <td>gnomemm/gnome-vfsmm</td>
+            <td>gnome-vfsmm</td>
             <td>trunk</td>
         </tr>
     </table>
@@ -134,31 +133,31 @@
         <tr>
             <th>Component</th>
             <th>Version</th>
-            <th>SVN Module</th>
+            <th>Git Module</th>
             <th>Branch name</th>
         </tr>
         <tr>
             <td>libgdamm</td>
             <td></td>
-            <td>gnomemm/libgdamm</td>
+            <td>libgdamm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libgnomedbmm</td>
             <td></td>
-            <td>gnomemm/libgnomedbmm</td>
+            <td>libgnomedbmm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>goocanvasmm</td>
             <td></td>
-            <td>gnomemm/goocanvasmm</td>
+            <td>goocanvasmm</td>
             <td>trunk</td>
         </tr>
         <tr>
             <td>libpanelappletmm</td>
             <td></td>
-            <td>gnomemm/libpanelappletmm</td>
+            <td>libpanelappletmm</td>
             <td>trunk</td>
         </tr>
     </table>
