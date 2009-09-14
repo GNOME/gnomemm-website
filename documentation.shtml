@@ -3,8 +3,10 @@
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
 <!--#set var="doc_base" value="/docs/gtkmm-2.4/docs" -->
-<!--#set var="glibmm_doc_base" value="/docs/glibmm-2.4/docs" -->
-<!--#set var="pangomm_doc_base" value="/docs/pangomm-1.4/docs" -->
+<!--#set var="book_doc_base" value="/docs/gtkmm-2.4/docs/tutorial/html/" -->
+<!--#set var="gtkmm_doc_base" value="http://library.gnome.org/devel/gtkmm/unstable/" -->
+<!--#set var="glibmm_doc_base" value="http://library.gnome.org/devel/glibmm/unstable/" -->
+<!--#set var="pangomm_doc_base" value="http://library.gnome.org/devel/pangomm/unstable/" -->
 
 <h2>Documentation Overview</h2>
 <div class="highlight">
@@ -12,16 +14,16 @@
 </div>
 <h3>Getting Started with gtkmm</h3>
 <p>You might start by reading the <em>Programming with gtkmm</em> online book, also available as a <a href="<!--#echo var="doc_base"-->/tutorial/pdf/programming-with-gtkmm.pdf">PDF</a>.</p>
-<p><a href="<!--#echo var="doc_base"-->/tutorial/html/index.html">Contents</a> of the whole online book.</p>
+<p><a href="<!--#echo var="book_doc_base"-->index.html">Contents</a> of the whole online book.</p>
 <p>Selected chapters:
 <ul>
-    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/chapter-installation.html">Installation</a></li>
-    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/chapter-basics.html">Basics</a></li>
-    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/chapter-signals.html">Signals</a></li>
-    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/chapter-container-widgets.html">Container Widgets</a></li>
-    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/chapter-treeview.html">TreeView</a></li>
-    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/chapter-memory.html">Memory Management</a></li>
-    <li><a href="<!--#echo var="doc_base"-->/tutorial/html/chapter-libglademm.html">Glade and libglademm</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-installation.html">Installation</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-basics.html">Basics</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-signals.html">Signals</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-container-widgets.html">Container Widgets</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-treeview.html">TreeView</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-memory.html">Memory Management</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-libglademm.html">Glade and libglademm</a></li>
 
 </ul>
 </p>
@@ -38,101 +40,48 @@
             <td>
                 <ul>
                     <li><b><a href="<!--#echo var="doc_base"-->/reference/widget_hierarchy.html">Hierarchy</a></b></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__Widgets.html">Widgets</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__Containers.html">Containers</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__TreeView.html">TreeView</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__TextView.html">TextView</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__Dialogs.html">Dialogs</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/classGtk_1_1UIManager.html">Menus and Toolbars</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/classGtk_1_1Main.html">Main loop</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/group__gtkmmEnums.html">enums and flags</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGtk_1_1Stock.html">Stock IDs</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->group__Widgets.html">Widgets</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->group__Containers.html">Containers</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->group__TreeView.html">TreeView</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->group__TextView.html">TextView</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->group__Dialogs.html">Dialogs</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->classGtk_1_1UIManager.html">Menus and Toolbars</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->classGtk_1_1Main.html">Main loop</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->group__gtkmmEnums.html">enums and flags</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->namespaceGtk_1_1Stock.html">Stock IDs</a></li>
+                    <li><a href="<!--#echo var="gtkmm_doc_base"-->namespaceGtk.html">Gtk Namespace</a></li>
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1ustring.html">ustring</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1Exception.html">Exceptions</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGlib_1_1RefPtr.html">RefPtr&lt;&gt;</a><br>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MainLoop.html">Main Event loop</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Spawn.html">Spawning Processes</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Threads.html">Threads</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__MiscUtils.html">Miscellaneous Utility Functions</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__CharsetConv.html">Character set conversion</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->classGlib_1_1ustring.html">ustring</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->classGlib_1_1Exception.html">Exceptions</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->classGlib_1_1RefPtr.html">RefPtr&lt;&gt;</a><br>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->group__MainLoop.html">Main Event loop</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->group__Spawn.html">Spawning Processes</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->group__Threads.html">Threads</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->group__MiscUtils.html">Miscellaneous Utility Functions</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->group__CharsetConv.html">Character set conversion</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->namespaceGlib.html">Glib Namespace</a></li>
                     </li>
 
                 </ul>
             </td>
             <td>
                 <ul>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/classGio_1_1File.html">File</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/group__Streams.html">Streams</a></li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <th>Full</th>
-            <th>Namespaces</th>
-            <th>Extra Modules</th>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/hierarchy.html">Inheritance Hierarchy</a></li>
-                    <li>Class Chart (image)</li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/classes.html">All Classes</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/functions.html">All methods (long)</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/pages.html">Deprecated and new API</a></li>
-                    <li>
-                    <!-- Search Google -->
-                    <form method="get" action="http://www.google.com/custom">
-                        <input type="text" name="q" size="31" maxlength="255" value="" />
-                        <input type="submit" name="sa" VALUE="Google gtkmm Search" />
-                        <input type="hidden" name="cof" VALUE="L:http://www.gtkmm.org/images/gtkmm_logo_small.png;AH:center;S:http://www.gtkmm.org;" />
-                        <input type="hidden" name="domains" value="http://www.gtkmm.org/docs/" />
-                        <input type="hidden" name="sitesearch" value="http://www.gtkmm.org/docs/" />
-                    </form>
-                    <!-- Search Google -->
-                    </li>
-
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceAtk.html">Atk</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGdk.html">Gdk</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/namespaceGlib.html">Glib</a></li>
-                    <li><a href="<!--#echo var="glibmm_doc_base"-->/reference/html/namespaceGio.html">Gio</a></li>
-                    <li><a href="<!--#echo var="doc_base"-->/reference/html/namespaceGtk.html">Gtk</a></li>
-                    <li><a href="<!--#echo var="pangomm_doc_base"-->/reference/html/namespacePango.html">Pango</a></li>
-
-                </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>gnomemm:<br>
-
-                    <ul>
-                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Canvas.html">
-                            Gnome::Canvas</a> (libgnomecanvasmm)</li>
-                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Conf.html">
-                            Gnome::Conf</a> (gconfmm)</li>
-                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1UI.html">
-                            Gnome::UI</a> (libgnomeuimm)</li>
-                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Glade.html">
-                            Gnome::Glade</a> (libglademm)</li>
-                        <li><a href="http://www.gtkmm.org/gnomemm2/reference/html/namespaceGnome_1_1Vfs.html">
-                            Gnome::Vfs</a> (gnome-vfsmm)</li>
-
-
-                    </ul>
-                    </li>
-                    <li><a href="http://bakery.sourceforge.net">Bakery</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->classGio_1_1File.html">File</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->group__Streams.html">Streams</a></li>
+                    <li><a href="<!--#echo var="glibmm_doc_base"-->namespaceGio.html">Gio Namespace</a></li>
                 </ul>
             </td>
         </tr>
     </tbody>
 </table>
+
+<h3>Extra Modules</h3>
+
+<p>
+API reference documentation for other C++ modules, such as gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <a href="http://library.gnome.org/devel/references#c++-bindings">library.gnome.org C++ Bindings</a> section.</p>
 
 <h3>Other Information</h3>
 <table>
@@ -166,9 +115,7 @@
 </table>
 
 <h3>Examples</h3>
-<p>Sometimes you need to look at examples to figure out how something is
-supposed to work.  There are quite a few examples that ship with the gtkmm
-source code release, and many of these are included in the gtkmm book, but you can also view them online: <a
+<p>Sometimes you need to look at examples to figure out how something should work. Many examples are included in the gtkmm book, but you can also view them online: <a
     href="docs/gtkmm-2.4/examples/book/">gtkmm examples</a>
 </p>
 

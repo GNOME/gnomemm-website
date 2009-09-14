@@ -1,3 +1,11 @@
+2009-09-14  Murray Cumming  <murrayc@murrayc.com>
+
+	* documentation.shtml: Link to library.gnome.org for reference API docs.
+	The gtkmm tutorial is not there yet, but we will change that too soon.
+	Remove some Gtk-specific links that were not obviously Gtk-specific.
+	Link to the general C++ section on library.gnome.org so we never need 
+	to keep the links up-to-date here.
+
 2009-04-27  Murray Cumming  <murrayc@murrayc.com>
 
 	* fragments/html_declaration.html_fragment: Link to git.shtml instead of 
