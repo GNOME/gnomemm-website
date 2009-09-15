@@ -3,17 +3,22 @@
 <!-- SSI fragments/html_declaration.html_fragment end -->
 
 <!--#set var="doc_base" value="/docs/gtkmm-2.4/docs" -->
-<!--#set var="book_doc_base" value="/docs/gtkmm-2.4/docs/tutorial/html/" -->
+<!--#set var="book_doc_base" value="http://library.gnome.org/devel/gtkmm-tutorial/unstable/" -->
 <!--#set var="gtkmm_doc_base" value="http://library.gnome.org/devel/gtkmm/unstable/" -->
 <!--#set var="glibmm_doc_base" value="http://library.gnome.org/devel/glibmm/unstable/" -->
 <!--#set var="pangomm_doc_base" value="http://library.gnome.org/devel/pangomm/unstable/" -->
 
 <h2>Documentation Overview</h2>
 <div class="highlight">
-    <p>This documentation is for the gtkmm-2.4 and gnomemm-2.6 APIs. There is an older gtkmm API called gtkmm-2.0 which can be installed in parallel. Tthe gtkmm-2.4 name refers to the API/ABI series and not the release version. For instance, gtkmm 2.10 is a version of the gtkmm-2.4 API.</p>
+    <p>This documentation is for the gtkmm-2.4 and gnomemm-2.6 APIs. There is an older gtkmm API called gtkmm-2.0 which can be installed in parallel. The gtkmm-2.4 name refers to the API/ABI series and not the release version. For instance, gtkmm 2.10 is a version of the gtkmm-2.4 API.</p>
 </div>
 <h3>Getting Started with gtkmm</h3>
-<p>You might start by reading the <em>Programming with gtkmm</em> online book, also available as a <a href="<!--#echo var="doc_base"-->/tutorial/pdf/programming-with-gtkmm.pdf">PDF</a>.</p>
+<p>You might start by reading the <em>Programming with gtkmm</em> online book.</p>
+
+<!-- Commented out due to library.gnome.org bug https://bugzilla.gnome.org/show_bug.cgi?id=595280
+also available as a tutorial/pdf/programming-with-gtkmm.pdf PDF
+-->
+
 <p><a href="<!--#echo var="book_doc_base"-->index.html">Contents</a> of the whole online book.</p>
 <p>Selected chapters:
 <ul>
@@ -39,6 +44,7 @@
         <tr>
             <td>
                 <ul>
+                    <!-- TODO: Put the hierarchy picture in the book so it appears on library.gnome.org -->
                     <li><b><a href="<!--#echo var="doc_base"-->/reference/widget_hierarchy.html">Hierarchy</a></b></li>
                     <li><a href="<!--#echo var="gtkmm_doc_base"-->group__Widgets.html">Widgets</a></li>
                     <li><a href="<!--#echo var="gtkmm_doc_base"-->group__Containers.html">Containers</a></li>
