@@ -41,37 +41,7 @@
                         <li><a href="extra.shtml">Additional Resources</a></li>
                     </ul>
                 </div>
-                <!-- before releases inclusion -->
-                <div id="releasebox">
-                    <div id="releasebox-inner">
-                        <h2>Latest Versions</h2>
-                        <h3>Stable</h3>
-                        <ul>
-                            <li>
-                                glibmm:
-                                <a href="download.shtml#stable">2.20.x</a>
-                            </li>
-                            <li>
-                                gtkmm:
-                                <a href="download.shtml#stable">2.16.x</a>
-                            </li>
-                        </ul>
-
-                        <h3>Unstable</h3>
-                        <ul>
-                            <li>
-                                glibmm:
-                                <a href="download.shtml#devel">2.21.x</a>
-                            </li>
-                            <li>
-                                gtkmm:
-                                <a href="download.shtml#devel">2.17.x</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-                <!-- after releases inclusion -->
+                
                 <div id="sidebar-credits">
                     <a href="http://gtk.org"><img src="images/gtk-logo.png" alt="GTK+ logo" /></a>
                     <a href="http://gnome.org"><img src="images/GNOME-logo.png" alt="GNOME logo" /></a>

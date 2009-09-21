@@ -1,3 +1,12 @@
+2009-09-21  Murray Cumming  <murrayc@murrayc.com>
+
+	Download: Update versions.
+
+	* download.shtml: Update versions because we will hit stable releases 
+	today.
+	* fragments/html_declaration.html_fragment: Remove extra mentions of 
+	versions in the sidebar because it is annoying to keep it in sync.
+
 2009-09-15  Murray Cumming  <murrayc@murrayc.com>
 
 	* documentation.shtml: Change book links to library.gnome.org now that 

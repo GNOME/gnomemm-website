@@ -33,15 +33,15 @@ operating system unless you wish to test the latest versions. However,
 <h4>Unstable gtkmm and GNOME bindings:</h4>
 <p>These replace the stable glibmm and gtkmm versions and are currently unstable:</p>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.1`/">glibmm 2.21</a> (unstable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.17/">gtkmm 2.17</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.23/">glibmm 2.23</a> (unstable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.19/">gtkmm 2.19</a> (unstable)</li>
 </ul>
 
 <a name="stable"></a>
 <h4>Stable gtkmm and GNOME bindings:</h4>
 <ul>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.20/">glibmm 2.20</a> (stable)</li>
-    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.16/">gtkmm 2.16</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.22/">glibmm 2.22</a> (stable)</li>
+    <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.18/">gtkmm 2.18</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm">libgnomecanvasmm</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/gconfmm">gconfmm</a> (stable)</li>
     <li><a href="http://ftp.gnome.org/pub/GNOME/sources/libgdamm/">libgdamm</a></li>
