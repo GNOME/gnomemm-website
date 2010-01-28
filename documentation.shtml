@@ -28,7 +28,7 @@ also available as a tutorial/pdf/programming-with-gtkmm.pdf PDF
     <li><a href="<!--#echo var="book_doc_base"-->chapter-container-widgets.html">Container Widgets</a></li>
     <li><a href="<!--#echo var="book_doc_base"-->chapter-treeview.html">TreeView</a></li>
     <li><a href="<!--#echo var="book_doc_base"-->chapter-memory.html">Memory Management</a></li>
-    <li><a href="<!--#echo var="book_doc_base"-->chapter-libglademm.html">Glade and libglademm</a></li>
+    <li><a href="<!--#echo var="book_doc_base"-->chapter-builder.html">Glade and Gtk::Builder</a></li>
 
 </ul>
 </p>
