@@ -1,3 +1,13 @@
+2010-05-03  Tao Wang <dancefire@gmail.com>
+
+	* developers.shtml: Replace "Subversion" with "Git", Replace "gtkmm2" with "gtkmm".
+	* documentation.shtml: Remove the unavailable link to "Windows, with MSVC++ 2003"
+	* extra.shtml: Replace "libglademm" with "Gtk::Builder"
+	* fragments/html_declaration.html_fragment: Change encoding from "iso-8859-1" to "utf-8".
+	* index.shtml: Replace "libglademm" with "Gtk::Builder"; add MSVC 2005, 2008 support; add a missing sentence in section "gnomemm"; 
+	* mailinglist.shtml: Remove the maillist for "glademm", which is not recommanded and not active for a long time.
+	* news.shtml: Add release news for gtkmm 2.20 and glib 2.24; add missing ">" in front of "released</a>"; fix some release info.
+
 2010-03-30  Murray Cumming  <murrayc@murrayc.com>
 
 	* commercial_support.shtml: Update the link to the GTK+ success stories.

@@ -6,22 +6,25 @@
 <p>
 <ul>
 <li>
-September 2008: gtkmm and glibmm 2.14.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2008-September/msg00099.html"released</a>, as per the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-compatible with gtkmm 2.4, with API additions.
+March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070.html">released</a>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 and is API/ABI-compatible with gtkmm >= 2.4. It is a version of the gtkmm-2.4 API with API additions.
 </li>
 <li>
-September 2007: gtkmm and glibmm 2.12.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"released</a>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, with API additions.
+September 22, 2008: gtkmm 2.14.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2008-September/msg00099.html">released</a>, as per the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-compatible with gtkmm 2.12, 2.10, 2.8, 2.6 and 2.4. It is a version of the gtkmm-2.4 API, with API additions.
 </li>
 <li>
-August 2006: gtkmm and glibmm 2.10.0 <a href="http://mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html"released</a>, as per the GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-compatible with gtkmm 2.8, with API additions.
+September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html">released</a>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 and 2.4. It is a version of the gtkmm-2.4 API, with API additions.
+</li>
+<li>
+August 2006: gtkmm and glibmm 2.10.0 <a href="http://mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html">released</a>, as per the GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-compatible with gtkmm 2.8, with API additions.
 </li>
 <li>
 September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm 2.6, with API additions.
 </li>
 <li>
-March 2005: gtkmm and glibmm 2.6.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html"released</a>, as per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-compatible with gtkmm 2.4, with API additions.
+March 2005: gtkmm and glibmm 2.6.0 <a href="http://mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html">released</a>, as per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-compatible with gtkmm 2.4, with API additions.
 </li>
 <li>
-April 2004: gtkmm and glibmm 2.4.0 <a href="http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html"released</a>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2. 
+April 2004: gtkmm and glibmm 2.4.0 <a href="http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html">released</a>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2. 
 </li>
 <li>
 October 2003: gtkmm 2.3.0 was released. This will become the new stable, parallel-installable, gtkmm 2.4 in March 2004.
@@ -30,7 +33,7 @@ October 2003: gtkmm 2.3.0 was released. This will become the new stable, paralle
 March 2003: libsigc++ <a href="http://www.ddj.com/documents/s=1642/ddj0303d/">article</a> in Dr Dobb's Journal.
 </li>
 <li>
-January 2003: gtkmm 2.2.0 <a href="http://lists.gnome.org/archives/gtkmm-list/2003-January/msg00040.html"released</a>, API/ABI-compatible with gtkmm 2.0, with API additions.
+January 2003: gtkmm 2.2.0 <a href="http://lists.gnome.org/archives/gtkmm-list/2003-January/msg00040.html">released</a>, API/ABI-compatible with gtkmm 2.0, with API additions.
 </li>
 <li>
 December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 released - these APIs are binary-frozen.

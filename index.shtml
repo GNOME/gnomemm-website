@@ -11,7 +11,7 @@
         callbacks, and a comprehensive set of widgets that are easily extensible via
         inheritance. You can create user interfaces either in code
         or with the <a href="http://glade.gnome.org/">Glade User Interface
-            designer</a>, using libglademm. There's <a
+            designer</a>, using Gtk::Builder. There's <a
             href="documentation.shtml">extensive documentation</a>, including
         API reference and a tutorial.
     </p>
@@ -43,7 +43,7 @@
     </li>
     <li>Full use of C++ namespaces.</li>
     <li>No macros.</li>
-    <li>Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte), Win32 (gcc, MSVC++ .Net 2003), MacOS X (gcc), others</li>
+    <li>Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others</li>
     <li>Free software and free of cost for both Open Source and
         proprietary development.</li>
     <li>Discussed, designed and implemented in public.</li> 
@@ -56,6 +56,7 @@
     best C++ GUI toolkit. That mandate does not cover generic C++ data
     structures, an XML parser, or database access. Even our signal/slots
     system is part of a separate (<a href="http://libsigc.sourceforge.net">libsigc++</a>) library.
+	However, gtkmm is designed to work well with all other C++ libraries.
 </p>
 <p>
     The gnomemm libraries cover some of these other tasks, but they are

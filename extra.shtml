@@ -23,8 +23,8 @@ widgets and libraries are available from other sources.
 <h3>gtkmm tools</h3>
 <p>
 <ul>
-    <li><a href="http://glade.gnome.org/">Glade</a> - User Interface Designer for GTK+.  Glade UI files can be used from a gtkmm program by using libglademm.</li>
-    <li><a href="http://home.wtal.de/petig/Gtk/">glademm</a> - Glade Module for automatically generating gtkmm code. (Note: glademm is different than libglademm)</li>
+    <li><a href="http://glade.gnome.org/">Glade</a> - User Interface Designer for GTK+.  Glade UI files can be used from a gtkmm program by using Gtk::Builder.</li>
+    <li><a href="http://home.wtal.de/petig/Gtk/">glademm</a> - Glade Module for automatically generating gtkmm code. (Note: glademm is different than libglademm or Gtk::Builder)</li>
     <li><a href="http://bakery.sourceforge.net/">Bakery</a> - Document/View Model</li>
 
 </ul>

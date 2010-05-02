@@ -111,7 +111,6 @@ API reference documentation for other C++ modules, such as gdkmm, pangomm, gstre
                 <ul>
                     <li><a href="http://git.gnome.org/cgit/gtkmm/tree/README.SUN?view=markup">Solaris, with Sun's Forte C++.</a></li>
                     <li><a href="http://git.gnome.org/cgit/gtkmm/tree/README.win32?view=markup">Windows, with mingw and cygwin</a></li>
-                    <li><a href="http://git.gnome.org/cgit/gtkmm/tree/MSVC_Net2003/README?view=markup">Windows, with MSVC++</a></li>
                 </ul>
             </td>
 

@@ -3,7 +3,7 @@
 <!-- SSI fragments/html_declaration.html_fragment end -->
 <h2>gtkmm Development</h2>
 <p>
-gtkmm development is done in the <a href="http://gnome.org/">GNOME</a> Subversion
+gtkmm development is done in the <a href="http://gnome.org/">GNOME</a> Git
 repository.  To get started developing gtkmm, see the <a
     href="git.shtml">detailed Git instructions</a>.  Discussion about gtkmm
 development happens on the <a href="mailinglist.shtml">mailing list</a>.
@@ -19,7 +19,7 @@ Please do not mail us directly - use the <a href="mailinglist.shtml">mailing
     <li><a href="mailto:murrayc@murrayc.com">Murray Cumming</a> (<a href="http://www.murrayc.com">www.murrayc.com</a>)</li>
     <li><a href="mailto:daniel.kitta@googlemail.com">Daniel Elstner</a></li>
 </ul>
-<h3>Other gtkmm2 developers</h3>
+<h3>Other gtkmm developers</h3>
 <ul>
     <li><a href="mailto:bryan@reigndropsfall.net">Bryan Forbes</a>  (<a href="http://www.reigndropsfall.net/">www.reigndropsfall.net</a>)</li>
     <li>Karl Nelson</li>
