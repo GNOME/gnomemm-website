@@ -1,3 +1,12 @@
+2010-07-15  Tao Wang <dancefire@gmail.com>
+
+	Use DocBook XML to allow translation.
+
+	Removed .shtml files, putting all their content in 
+	gnomemm-website.xml, with translations in lang/*.po.
+	Generated html (for each language) then appears in 
+	html/en/*.html
+
 2010-05-03  Tao Wang <dancefire@gmail.com>
 
 	* developers.shtml: Replace "Subversion" with "Git", Replace "gtkmm2" with "gtkmm".

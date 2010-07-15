@@ -1,11 +1,39 @@
 This is the source of the gtkmm web site.
 
-Morten Brix Pedersen designed the visual layout and the CSS implementation. 
 
-* It uses CSS positioning via style.css.
-* It uses SSI to further reduce duplication of markup.
-* Use "make post-html" to upload the site.
-* Please mention changes in ChangeLog.
-* Please discuss changes on gtkmm-list@gnome.org
-* Please post patches to http://bugzilla.gnome.org
+To create the website, just run 'make all'.
+
+To add a new language:
+
+1. Generate the .po file for your locale, say xx_XX:
+
+	msginit -i lang/gnomemm-website.pot -o lang/xx_XX.po -l xx_XX.utf8
+
+2. Translate the .po. 
+
+3. Modify gnomemm-website.xml
+
+	Find "<formalpara id="language-menu">", and add your locale in.
+
+            <listitem>
+              <para><ulink url="../xx_XX/index.html">XXXX</ulink></para>
+            </listitem>
+
+4. Modify Makefile
+
+	1) add your locale
+
+	xx_XX: l10n_base
+		bash generate.sh xx_XX
+
+	2) add the dependencies to 'all'
+
+	all: en zh_CN xx_XX
+
+	3) add clean code
+
+	clean:
+		rm -rf html/en/*.html html/zh_CN/*.html html/xx_XX/*.html
+
+5. run 'make all' to generate all pages.
 

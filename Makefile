@@ -1,3 +1,26 @@
+BASENAME=gnomemm-website
+SOURCE=$(BASENAME).xml
+PARAM=param.xsl
+
+all: en zh_CN
+
+en: $(SOURCE) $(PARAM)
+	bash generate.sh
+
+l10n_base: pot $(PARAM)
+
+zh_CN: l10n_base
+	bash generate.sh zh_CN
+
+pot: $(SOURCE)
+	xml2po -o lang/$(BASENAME).pot $(BASENAME).xml
+
+clean:
+	rm -rf html/en/*.html html/zh_CN/*.html
+	
+	
+#Upload:
+
 web_path = /home/murrayc/gtkmm.org/
 #web_path = /home/groups/g/gt/gtkmm/htdocs/
 
@@ -13,13 +36,14 @@ dependencies_gnomemm:
 
 # This is not relevant to C++, but it is interesting.
 dependencies_gnome_desktop:
-	jhbuild dot meta-gnome-desktop > jhbuild_gnome_desktop.dot
-	dot jhbuild_gnome_desktop.dot -Tpng > jhbuild_dot_gnome_desktop.png
+	jhbuild dot meta-gnome-desktop > html/jhbuild_gnome_desktop.dot
+	dot jhbuild_gnome_desktop.dot -Tpng > html/jhbuild_dot_gnome_desktop.png
 
 
 #post-html: dependencies_gtkmm dependencies_gnomemm dependencies_gnome_desktop
 post-html:
-	rsync -avz --rsh ssh --cvs-exclude  * $$USER@www.gtkmm.org:$(web_path)
+	rsync -avz --rsh ssh --cvs-exclude  html/* $$USER@www.gtkmm.org:$(web_path)
+
 
 
 
