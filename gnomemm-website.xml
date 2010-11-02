@@ -101,11 +101,11 @@
     <highlights>
       <para>
    &gtkmm; is the official C++ interface for the popular GUI library
-   <ulink url="http://www.gtk.org/">GTK+</ulink>.Highlights include 
-   typesafe callbacks, and a comprehensive set of widgets that are 
+   <ulink url="http://www.gtk.org/">GTK+</ulink>. Highlights include
+   typesafe callbacks, and a comprehensive set of widgets that are
    easily extensible via inheritance. You can create user interfaces
-   either in code or with the <ulink url="http://glade.gnome.org/">Glade User Interface designer</ulink>, using Gtk::Builder. There&apos;s 
-   <ulink url="documentation.shtml">extensive documentation</ulink>, 
+   either in code or with the <ulink url="http://glade.gnome.org/">Glade User Interface designer</ulink>, using Gtk::Builder. There&apos;s
+   <ulink url="documentation.shtml">extensive documentation</ulink>,
    including API reference and a tutorial.
   </para>
       <para>
@@ -114,7 +114,7 @@
   </para>
       <para>
    &gtkmm; follows the official <ulink url="http://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</ulink>. This guarantees
-   API/ABI-stability and new releases on a predictable schedule, 
+   API/ABI-stability and new releases on a predictable schedule,
    delivering C++ API for the underlying GTK+ and GNOME APIs as soon as possible.
   </para>
     </highlights>
@@ -303,8 +303,8 @@
       <sect2>
         <title>What information is needed for a bug report?</title>
         <para>
- 
- 
+
+
  </para>
         <itemizedlist>
           <listitem>
@@ -361,7 +361,7 @@
         <title>Should I send a bug report?</title>
         <para>
  Always send a bug report:
- 
+
  </para>
         <itemizedlist>
           <listitem>
@@ -1142,7 +1142,7 @@ some other projects using the same toolkit.</para>
       <para>We use <ulink url="http://git-scm.com/">Git</ulink> to maintain our source
     code, in the <ulink url="http://www.gnome.org">GNOME</ulink> Git repository.
     Additional information about git.gnome.org is available at <ulink url="http://live.gnome.org/Git">live.gnome.org/Git</ulink>.</para>
-      <para>glibmm and gtkmm are in the <ulink url="http://git.gnome.org/cgit/glibmm/tree/">glibmm</ulink> and <ulink url="http://git.gnome.org/cgit/gtkmm/tree/">gtkmm</ulink> modules. 
+      <para>glibmm and gtkmm are in the <ulink url="http://git.gnome.org/cgit/glibmm/tree/">glibmm</ulink> and <ulink url="http://git.gnome.org/cgit/gtkmm/tree/">gtkmm</ulink> modules.
     There is also a <ulink url="http://git.gnome.org/cgit/gtkmm-documentation/tree/">gtkmm-documentation</ulink> module which contains the gtkmm book and its examples. See below for instructions.</para>
       <para>You will need to run the autogen.sh script to generate the build files. We
     recommend jhbuild for setting up a separate development prefix.</para>
@@ -1264,7 +1264,7 @@ some other projects using the same toolkit.</para>
       <title>License</title>
       <para>gtkmm is licensed under the <ulink url="http://www.gnu.org">GNU</ulink> Library General Public License
 (<ulink url="http://www.gnu.org/licenses/lgpl.html#TOC1">LGPL</ulink>) for all platforms.  Our intent in licensing it in this way is to
-provide it for use through shared libraries in all projects both 
+provide it for use through shared libraries in all projects both
 open and proprietary.  Other GNU projects may of course integrate
 and link in a static manner.  The full body of the license is
 provided for your inspection.</para>
@@ -1352,7 +1352,7 @@ if you do not agree to its terms, you may not use this software.</para>
           </listitem>
           <listitem>
             <para>
-  April 2004: gtkmm and glibmm 2.4.0 <ulink url="http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html">released</ulink>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2. 
+  April 2004: gtkmm and glibmm 2.4.0 <ulink url="http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html">released</ulink>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2.
   </para>
           </listitem>
           <listitem>

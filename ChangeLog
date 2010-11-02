@@ -1,17 +1,23 @@
+2010-11-02  Murray Cumming  <murrayc@murrayc.com>
+
+	Front page: Add a missing space.
+
+	* gnomemm-website.xml: Add a missing space.
+
 2010-07-15  Murray Cumming  <murrayc@murrayc.com>
 
 	Added .htaccess rules so that old URL still take people to pages.
 
-	* html/.htaccess: Added some voodoo rules to redirect *.shtml at the top to 
+	* html/.htaccess: Added some voodoo rules to redirect *.shtml at the top to
 	en/*.html (though it shows it as en/*.shtml unfortunately).
 
 2010-07-15  Tao Wang <dancefire@gmail.com>
 
 	Use DocBook XML to allow translation.
 
-	Removed .shtml files, putting all their content in 
+	Removed .shtml files, putting all their content in
 	gnomemm-website.xml, with translations in lang/*.po.
-	Generated html (for each language) then appears in 
+	Generated html (for each language) then appears in
 	html/en/*.html
 
 2010-05-03  Tao Wang <dancefire@gmail.com>
@@ -20,7 +26,7 @@
 	* documentation.shtml: Remove the unavailable link to "Windows, with MSVC++ 2003"
 	* extra.shtml: Replace "libglademm" with "Gtk::Builder"
 	* fragments/html_declaration.html_fragment: Change encoding from "iso-8859-1" to "utf-8".
-	* index.shtml: Replace "libglademm" with "Gtk::Builder"; add MSVC 2005, 2008 support; add a missing sentence in section "gnomemm"; 
+	* index.shtml: Replace "libglademm" with "Gtk::Builder"; add MSVC 2005, 2008 support; add a missing sentence in section "gnomemm";
 	* mailinglist.shtml: Remove the maillist for "glademm", which is not recommanded and not active for a long time.
 	* news.shtml: Add release news for gtkmm 2.20 and glib 2.24; add missing ">" in front of "released</a>"; fix some release info.
 
@@ -31,7 +37,7 @@
 
 2010-01-28  Murray Cumming  <murrayc@murrayc.com>
 
-	* documentation.shtml: Update the libglademm chapter link to mention 
+	* documentation.shtml: Update the libglademm chapter link to mention
 	the Gtk::Builder chapter instead.
 
 2010-01-27  Murray Cumming  <murrayc@murrayc.com>>
@@ -46,14 +52,14 @@
 
 	Download: Update versions.
 
-	* download.shtml: Update versions because we will hit stable releases 
+	* download.shtml: Update versions because we will hit stable releases
 	today.
-	* fragments/html_declaration.html_fragment: Remove extra mentions of 
+	* fragments/html_declaration.html_fragment: Remove extra mentions of
 	versions in the sidebar because it is annoying to keep it in sync.
 
 2009-09-15  Murray Cumming  <murrayc@murrayc.com>
 
-	* documentation.shtml: Change book links to library.gnome.org now that 
+	* documentation.shtml: Change book links to library.gnome.org now that
 	it is online there.
 
 2009-09-14  Murray Cumming  <murrayc@murrayc.com>
@@ -61,12 +67,12 @@
 	* documentation.shtml: Link to library.gnome.org for reference API docs.
 	The gtkmm tutorial is not there yet, but we will change that too soon.
 	Remove some Gtk-specific links that were not obviously Gtk-specific.
-	Link to the general C++ section on library.gnome.org so we never need 
+	Link to the general C++ section on library.gnome.org so we never need
 	to keep the links up-to-date here.
 
 2009-04-27  Murray Cumming  <murrayc@murrayc.com>
 
-	* fragments/html_declaration.html_fragment: Link to git.shtml instead of 
+	* fragments/html_declaration.html_fragment: Link to git.shtml instead of
 	svn.shtml.
 
 2009-04-27  Murray Cumming  <murrayc@murrayc.com>
@@ -77,20 +83,20 @@
 2009-04-27  Murray Cumming  <murrayc@murrayc.com>
 
 	Updated for the git conversion.
-	
+
 	* git.shtml: Renamed from svn.shtml and made appropriate changes.
 	* bugs.shtml: Changed patch instructions for git. Kept it simple.
 	* documentation.shtml: Changed URLs for git.
 
 2009-02-22  Murray Cumming  <murrayc@murrayc.com>
 
-	* commercial_support.shtml: Add Amazon, because their MP3 Downloader 
-	uses gtkmm, at least on Linux. Put the other well-known companies at 
+	* commercial_support.shtml: Add Amazon, because their MP3 Downloader
+	uses gtkmm, at least on Linux. Put the other well-known companies at
 	the top.
 
 2008-11-25  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: Update the SUSE Linux link, because www.suse.org now 
+	* download.shtml: Update the SUSE Linux link, because www.suse.org now
 	just redirects to Novell.
 
 2008-10-25  Murray Cumming  <murrayc@murrayc.com>
@@ -104,7 +110,7 @@
 
 2008-09-24  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: Removed mention of the 2.4 API because we do not 
+	* download.shtml: Removed mention of the 2.4 API because we do not
 	mention the 2 APIs anymore, because the 2.0 one is too old.
 
 2008-09-12  Jonathon Jongsma  <jjongsma@gnome.org>
@@ -117,23 +123,23 @@
 
 2008-08-02  Murray Cumming  <murrayc@murrayc.com>
 
-	* documentation.shtml: Correct the link to pangomm, using a new 
+	* documentation.shtml: Correct the link to pangomm, using a new
 	pangomm_docbase shtml variable.
 
 2008-06-20  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: The Windows link is dead, so I changed it to point 
-	to a live.gnome.org wiki page that will hopefully be filled with useful 
+	* download.shtml: The Windows link is dead, so I changed it to point
+	to a live.gnome.org wiki page that will hopefully be filled with useful
 	information.
 
 2008-04-04  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: Mention 2.17 as the unstable glibmm, though it 
+	* download.shtml: Mention 2.17 as the unstable glibmm, though it
 	does not actually exist yet.
 
 2008-03-25  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: Updated versions. Corrected debian package name and 
+	* download.shtml: Updated versions. Corrected debian package name and
 	added a line for Ubuntu.
 	* fragments/html_declaration.html_fragment: Updated versions.
 
@@ -164,48 +170,48 @@
 
 2008-01-25  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: Remove the link to the (not very useful) gnomemm 
-	dependencies. Also re-uploaded so that the gtkmm dependencies graph is 
+	* download.shtml: Remove the link to the (not very useful) gnomemm
+	dependencies. Also re-uploaded so that the gtkmm dependencies graph is
 	online. Bug #512083 (Alvaro Begue, Jonathan Jongsma).
 
 2007-11-06  Murray Cumming  <murrayc@murrayc.com>
 
-	* documentation.shtml: Updated the links to the book chapters, using 
+	* documentation.shtml: Updated the links to the book chapters, using
 	the new filenames after the improvements from Jonathon Jongsma.
 
 2007-10-20  Murray Cumming  <murrayc@murrayc.com>
 
 	* svn.shtml: Updated, adding a link to the browse svn pages.
-	Update the branch names, removing some useless old stuff. We could maybe 
+	Update the branch names, removing some useless old stuff. We could maybe
 	remove this, because viewsvn makes it easy to see branch names.
 
 2007-10-16  Murray Cumming  <murrayc@murrayc.com>
 
-	* documentation.shtml: Add a link to the PDF version, now that I have 
+	* documentation.shtml: Add a link to the PDF version, now that I have
 	added it to the upload target in the gtkmm-documentation module.
 
 2007-09-28  Murray Cumming  <murrayc@murrayc.com>
 
-	* fragments/html_declaration.html_fragment: Correct the version numbers 
+	* fragments/html_declaration.html_fragment: Correct the version numbers
 	here too. Remove the section about older versions.
 
 2007-09-28  Murray Cumming  <murrayc@murrayc.com>
 
 	* MAINTAINERS: Added.
-	* download.shtml: Corrected the version numbers to show what is the 
-	latest stable. Removed mention of 2.2 and 1.2 - they are so old that 
+	* download.shtml: Corrected the version numbers to show what is the
+	latest stable. Removed mention of 2.2 and 1.2 - they are so old that
 	nobody should be using them anymore.
 
 2007-07-04  Murray Cumming  <murrayc@murrayc.com>
 
-	* mailinglist.shtml: The MARC mailing list archive has moved. 
+	* mailinglist.shtml: The MARC mailing list archive has moved.
 	Corrected the URI. Thanks to Joachim Banzhaf.
 
 2007-06-10  Murray Cumming  <murrayc@murrayc.com>
 
-	* bugs.shtml: Simplified the list of bugs links, and used the new 
+	* bugs.shtml: Simplified the list of bugs links, and used the new
 	bugzilla product overview pages for the links.
-	* extras.shtml: Added GNOME System Monitor which uses gtkmm for just a few 
+	* extras.shtml: Added GNOME System Monitor which uses gtkmm for just a few
 	things so far along with mostly C code.
 
 2007-06-06  Jonathon Jongsma  <jjongsma@gnome.org>
@@ -214,14 +220,14 @@
 
 2007-05-18  Murray Cumming  <murrayc@murrayc.com>
 
-	* documentation.shtml: Link to examples/book/ rather than examples, 
-	because only these ones are really good-enough, and it is hard to know that 
+	* documentation.shtml: Link to examples/book/ rather than examples,
+	because only these ones are really good-enough, and it is hard to know that
 	there are so many under book/.
 	* index.shtml: Correct a link, to the new documentation page.
 
 2007-05-17  Murray Cumming  <murrayc@murrayc.com>
 
-	* documentation.shtml: Make some text more compact, so it's easier to get to 
+	* documentation.shtml: Make some text more compact, so it's easier to get to
 	the good stuff.
 	* bugs.shtml: Change cvs mentions to svn.
 	* svn.shtml: Update branch names.
@@ -248,7 +254,7 @@
 
 2007-04-28  Murray Cumming  <murrayc@murrayc.com>
 
-	* extra.shtml: Some more updating. MySQL Administrator is now ported to gtkmm-2.4, 
+	* extra.shtml: Some more updating. MySQL Administrator is now ported to gtkmm-2.4,
 	which is nice.
 
 2007-04-19  Jonathon Jongsma  <jjongsma@gnome.org>
@@ -266,7 +272,7 @@
 	* cvs.shtml: renamed to:
 	* svn.shtml:
 	* developers.shtml:
-	* fragments/html_declaration.html_fragment: Update for the cvs->svn 
+	* fragments/html_declaration.html_fragment: Update for the cvs->svn
 	migration.
 
 2006-12-09  Murray Cumming  <murrayc@murrayc.com>
@@ -280,8 +286,8 @@
 
 2006-11-20  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: Change the link for the Mac OS Fink 
-	package to the 2.4 package, though it is still stuck on 
+	* download.shtml: Change the link for the Mac OS Fink
+	package to the 2.4 package, though it is still stuck on
 	version 2.6.
 Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
@@ -303,7 +309,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 2006-09-10  Murray Cumming  <murrayc@murrayc.com>
 
 	* download.shtml:
-	* fragments/html_declaration.html_fragment: Update the version numbers and 
+	* fragments/html_declaration.html_fragment: Update the version numbers and
 	remove mentions of libbonobo*mm because they are useless and unmaintained.
 
 2006-08-08  Jonathon Jongsma  <jonathon.jongsma@gmail.com>
@@ -333,18 +339,18 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2006-05-28  Murray Cumming  <murrayc@murrayc.com>
 
-	* Makefile: Uncomment jhbuild dot graph generation because it seems to be 
+	* Makefile: Uncomment jhbuild dot graph generation because it seems to be
 	broken.
-	* commercial_support.shtml: Move support companies to top and add 
+	* commercial_support.shtml: Move support companies to top and add
 	Made To Order Software Corp, based on email from Alexis Wilke.
 
 2006-05-10  Murray Cumming  <murrayc@murrayc.com>
 
 	* cvs.shtml: Mention the glibmm-2-10 branch name
 	* developers.shtml: Update email addresses for me and Daniel Elstner.
-	Remove email address for Karl Nelson because it does not work and we 
-	do not know of a working one. Where are you Karl? Removed information 
-	about 1.0 developers. Current gtkmm developers should feel free to 
+	Remove email address for Karl Nelson because it does not work and we
+	do not know of a working one. Where are you Karl? Removed information
+	about 1.0 developers. Current gtkmm developers should feel free to
 	add themselves to this page.
 
 2006-04-27  Murray Cumming  <murrayc@murrayc.com>
@@ -353,7 +359,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2006-04-24  Murray Cumming  <murrayc@murrayc.com>
 
-	* extra.shtml: Corrected the gtkmozembedmm link, thanks to 
+	* extra.shtml: Corrected the gtkmozembedmm link, thanks to
 	Matt Thomson.
 
 2006-04-05  Murray Cumming  <murrayc@murrayc.com>
@@ -367,8 +373,8 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2006-02-14  Murray Cumming  <murrayc@murrayc.com>
 
-	* commercial_support.shtml: Added EPIC Technology and 
-	SendOutCards.com - gtkmm users found on the GTK+ 
+	* commercial_support.shtml: Added EPIC Technology and
+	SendOutCards.com - gtkmm users found on the GTK+
 	success page.
 
 2006-02-14  Murray Cumming  <murrayc@murrayc.com>
@@ -385,7 +391,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2005-10-29  Murray Cumming <murrayc@murrayc.com>
 
-	* extra.shtml: Removed OpenLDev. He ported it 
+	* extra.shtml: Removed OpenLDev. He ported it
 	to C.
 
 2005-09-28  Murray Cumming  <murrayc@murrayc.com>
@@ -395,7 +401,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 2005-09-13  Murray Cumming  <murrayc@murrayc.com>
 
 	* download.shtml:
-	* fragments/html_declaration.html_fragment: 
+	* fragments/html_declaration.html_fragment:
 	Mention new versions.
 
 2005-07-27  Murray Cumming  <murrayc@murrayc.com>
@@ -408,7 +414,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2005-07-08  Murray Cumming  <murrayc@murrayc.com>
 
-	* extra.shtml: Added MLView, now ported to 
+	* extra.shtml: Added MLView, now ported to
 	gtkmm.
 
 2005-06-28  Murray Cumming <murrayc@murrayc.com>
@@ -417,12 +423,12 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2005-05-26  Murray Cumming <murrayc@murrayc.com>
 
-	* extra.shtml: Move cdmaster to 2.4 section. Added 
+	* extra.shtml: Move cdmaster to 2.4 section. Added
 	WaveMixer.
 
 2005-03-14  Murray Cumming  <murrayc@murrayc.com>
 
-	* downloads.shtml: Mention thewrittenword.com for odd UNIX 
+	* downloads.shtml: Mention thewrittenword.com for odd UNIX
 	platforms.
 
 2005-03-13  Murray Cumming  <murrayc@murrayc.com>
@@ -431,9 +437,9 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2005-02-01  Murray Cumming  <murrayc@murrayc.com>
 
-	* bugs.shtml: Removed the patches and no patches links because 
+	* bugs.shtml: Removed the patches and no patches links because
 	they do not work with the new bugzilla patch-review system.
-	Added link to query for all gtkmm and glibmm and gnomemm bugs, 
+	Added link to query for all gtkmm and glibmm and gnomemm bugs,
 	regardless of version, so that things do not go unnoticed.
 
 2005-01-04  Murray Cumming  <murrayc@murrayc.com>
@@ -442,7 +448,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2004-12-24  Murray Cumming  <murrayc@murrayc.com>
 
-	* commercial_support.shtml: Added Aplik, at the request of 
+	* commercial_support.shtml: Added Aplik, at the request of
 	Nicolas Slusarenko.
 
 2004-11-30  Murray Cumming  <murrayc@murrayc.com>
@@ -484,7 +490,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2004-04-25  Murray Cumming  <murrayc@murrayc.com>
 
-	* download.shtml: Corrected URLs for 2.4/2.6 stuff, thanks to Jonathan 
+	* download.shtml: Corrected URLs for 2.4/2.6 stuff, thanks to Jonathan
 	Brandmeyer.
 
 2004-04-12  Murray Cumming  <murrayc@murrayc.com>
@@ -499,7 +505,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2004-03-31  Murray Cumming  <murrayc@murrayc.com>
 
-	* downloads.shtml: Added GNOME ftp links for source packages instead 
+	* downloads.shtml: Added GNOME ftp links for source packages instead
 	of using sourceforge.
 
 2004-03-22  Murray Cumming  <murrayc@murrayc.com>
@@ -515,7 +521,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 	* fragments/html_declaration.html_fragment: Changed commercial support
 	title to commerical.
-	* commercial_support.shtml: Added Northrup Grumman, the gun-toting 
+	* commercial_support.shtml: Added Northrup Grumman, the gun-toting
 	murdering bastards.
 	* downloads.shtml: Updated Mandrake information. Added gentoo.
 
@@ -553,7 +559,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2003-11-04  Murray Cumming  <murrayc@usa.net>
 
-	* news.shtml: Mentioned gtkmm 2.3.0. 
+	* news.shtml: Mentioned gtkmm 2.3.0.
 
 2003-10-25  Murray Cumming  <murrayc@usa.net>
 
@@ -564,7 +570,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 2003-09-29  Murray Cumming  <murrayc@usa.net>
 
 	* Makefile: Build the jhbuild dot graph for gtkmm (2.4) instead of
-	gtkmm 2, so that the upload works with the gnome26 jhbuild 
+	gtkmm 2, so that the upload works with the gnome26 jhbuild
 	moduleset.
 
 2003-09-04  Murray Cumming  <murrayc@usa.net>
@@ -591,7 +597,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2003-05-02  Murray Cumming  <murrayc@usa.net>
 
-	* download.shtml: Changed RedHat bugzilla text, to avoid spamming 
+	* download.shtml: Changed RedHat bugzilla text, to avoid spamming
 	Havoc. Mentioned that we will be in Mandrake soon too.
 	* extras.shtml: Mentioned Workrave and Hardware Monitor.
 
@@ -655,10 +661,10 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 	* bugs.shtml: Added section for API bugs that will be fixed when
 	we do an API break. Kept them out of the stable-branch bugs sections.
 
-	
+
 2002-11-10  Olle de Zwart  <olle@endforward.com>
-	
-	* bugs.shtml: Added "patch changelog" bullet point to the how 
+
+	* bugs.shtml: Added "patch changelog" bullet point to the how
 	do I create a patch? section.
 
 2002-11-05  Murray Cumming  <murrayc@usa.net>
@@ -673,11 +679,11 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 2002-10-31  Murray Cumming  <murrayc@usa.net>
 
 	* menu: Changed unstable to 2.0 and stable to old.
-	
+
 
 2002-10-31  Murray Cumming  <murrayc@usa.net>
 
-	* Updated the "gtkmm2 is not yet complete" text now that we've 
+	* Updated the "gtkmm2 is not yet complete" text now that we've
 	release 2.0.0.
 
 2002-10-31  Murray Cumming  <murrayc@usa.net>
@@ -690,7 +696,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 2002-10-16  James Widman <james@jwidman.com>
 
-	* cvs instructions: Corrected module names, and mentioned gnomemm 
+	* cvs instructions: Corrected module names, and mentioned gnomemm
 	module.
 
 2002-08-10  Murray Cumming  <murrayc@usa.net>
@@ -717,7 +723,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 	* fragments/html_declaration.html_fragment: Increased release
 	version numbers.
-	* mailinglist.shtml: Updated for move to *-list@gnome.org mailing 
+	* mailinglist.shtml: Updated for move to *-list@gnome.org mailing
 	lists.
 
 2002-06-27  Murray Cumming  <murrayc@usa.net>
@@ -738,7 +744,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 	* website/extra.shtml: Remove BINARS link, because it's no longer
 	using gtkmm.  Fix link to Gnomoku.  Remove QUASIMODO link because
 	the domain is not registered anymore.  Also append a trailing slash
-	to several directory URLs.  (Hints from Morten Brix Pedersen).	
+	to several directory URLs.  (Hints from Morten Brix Pedersen).
 
 2002-06-23  Murray Cumming  <murrayc@usa.net>
 
@@ -753,7 +759,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 	* website/bugs.shtml index.shtml requirements.shtml statement.shtml:
 	Fix various broken links, and append '/' to directory URLs.
-	
+
 2002-06-22  Murray Cumming  <murrayc@usa.net>
 
 	* style.css: Specified foreground color, as suggested by
@@ -769,19 +775,19 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 
 	* Merged requirements into download.
 	* Menu: Made documentation link bold, and added some separation.
-	
+
 2002-06-21  Murray Cumming  <murrayc@usa.net>
 
 	* requirements.shtml: Corrected.
 	* license.shtml: Added GNU links and added some text countering
 	LGPL/GPL confusion and some more subtle QT bashing.
-	
+
 2002-06-21  Murray Cumming  <murrayc@usa.net>
 
 	* download.shtml: Use simpler download URL which only shows
 	latest versions.
 	* developers.shtml: Added Morten and Jarek.
-	
+
 2002-06-21  Morten Brix Pedersen  <morten@wtf.dk>
 
 	* Bug #80195:
@@ -791,7 +797,7 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 	the style.css file.
 	* Added images/gtkmm_logo_small.png.
 	* Redesigned layout.
-	
+
 2002-06-19  Murray Cumming  <murrayc@usa.net>
 
 	* Added statement.shtml from old site.
@@ -820,4 +826,3 @@ Sun, 05 Nov 2006 14:25:39 +0100 Dodji Seketeli
 	that #includes HTML code from fragments/*.html_fragments. The
 	other pages will still duplicate some <table> code, but it won't
 	be too much and it should be easy to understand.
-
