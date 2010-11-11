@@ -562,11 +562,14 @@ of people. Thanks to them.
     <sect1>
       <title>Documentation Overview</title>
       <highlights>
+
+        <!-- This is no longer likely to be a common problem, though we should add some explanation of gtkmm-2.4 versus gtkmm-3.0 when we go stable.
         <para>This documentation is for the gtkmm-2.4 and gnomemm-2.6 APIs. There is an older gtkmm API called gtkmm-2.0 which can be installed in parallel. The gtkmm-2.4 name refers to the API/ABI series and not the release version. For instance, gtkmm 2.10 is a version of the gtkmm-2.4 API.</para>
+        -->
       </highlights>
       <sect2>
         <title>Getting Started with gtkmm</title>
-        <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book.</para>
+        <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book. This book is also <ulink url="http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4">available on the Amazon Kindle</ulink>.</para>
         <para><ulink url="&url_refdocs_base_book_html;index.html">Contents</ulink> of the whole online book.</para>
         <para>Selected chapters:<itemizedlist>
             <listitem>

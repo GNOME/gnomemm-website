@@ -1,3 +1,11 @@
+2010-11-11  Murray Cumming  <murrayc@murrayc.com>
+
+	Documentation: Link to the Kindle version.
+
+	* gnomemm-website.xml: Add a link to the Kindle page for Programming with gtkmm.
+	Also remove the warning about gtkmm-2.0 versus gtkmm-2.4 because it's
+	probably not a problem now.
+
 2010-11-02  Murray Cumming  <murrayc@murrayc.com>
 
 	Front page: Add a missing space.
