@@ -1,5 +1,11 @@
 2010-11-18  Murray Cumming  <murrayc@murrayc.com>
 
+	Bugs: Update the easy-fix link to use the gnome-love keyword.
+
+	* gnomemm-website.xml: Thanks to Nick Glynn for noticing.
+
+2010-11-18  Murray Cumming  <murrayc@murrayc.com>
+
 	Documentation: Updated the link to the GTK+ API reference.
 
 	* gnomemm-website.xml: Thanks to halbtaxabo for noticing the dead link.
