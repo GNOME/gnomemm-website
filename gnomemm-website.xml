@@ -709,7 +709,7 @@ of people. Thanks to them.
                   <para><ulink url="http://libsigc.sourceforge.net/doc.shtml">libsigc++ documentation</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="http://www.gtk.org/api/">GTK+ reference</ulink></para>
+                  <para><ulink url="http://library.gnome.org/devel/gtk/stable/">GTK+ reference</ulink></para>
                 </listitem>
                 <listitem>
                   <para><ulink url="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index.html">Standard C++ Library (STL)</ulink></para>

@@ -1,3 +1,9 @@
+2010-11-18  Murray Cumming  <murrayc@murrayc.com>
+
+	Documentation: Updated the link to the GTK+ API reference.
+
+	* gnomemm-website.xml: Thanks to halbtaxabo for noticing the dead link.
+
 2010-11-11  Murray Cumming  <murrayc@murrayc.com>
 
 	Documentation: Link to the Kindle version.
