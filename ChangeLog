@@ -1,5 +1,15 @@
 2010-11-24  Murray Cumming  <murrayc@murrayc.com>
 
+	Again renerate html in en/
+
+	* Move param.xsl, style.css, and images to docs/html.
+	* docs/Makefile.am: Generate the html in html/en, with shared style/images
+	stuff (for all locales) in html/.
+	This is more like the generation before I rearranged it. I still need to
+	re-add generation of translated content.
+
+2010-11-24  Murray Cumming  <murrayc@murrayc.com>
+
 	Re-Add the jhbuild graph generation.
 
 	* docs/Makefile.am: Re-Add the jhbuild graph generation.

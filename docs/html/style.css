@@ -21,7 +21,7 @@ body    {
     color: white;
     padding: 0em 2em;
     text-align: left;
-    background-image: url("images/banner-gradient.gif");
+    background-image: url("../style_images/banner-gradient.gif");
     background-repeat: repeat-x;
     background-position: 0% 100%;
 }
@@ -53,7 +53,7 @@ body    {
 #header .content    {
     background-color: #7f201f;
     color: white;
-    background-image: url("images/header-gradient.gif");
+    background-image: url("../style_images/header-gradient.gif");
     background-repeat: repeat-x;
     padding: 1em 2em;
     font-size: 120%;
@@ -72,7 +72,7 @@ body    {
 /* wrappers around the content and sidebar.  This is to enable drop-shadow
 * effects via background-image directives */
 #content-wrapper    {
-    background-image: url("images/content-gradient-top.gif");
+    background-image: url("../style_images/content-gradient-top.gif");
     background-repeat: repeat-x;
     background-position: 0% 0%;
 }
@@ -95,7 +95,7 @@ body    {
     padding: 1em 2em;
     margin: 1em 0em 2em 0em;
     background-color: #ccff99;
-    background-image: url("images/highlight-stripe.gif");
+    background-image: url("../style_images/highlight-stripe.gif");
     border: 1px solid #87a865;
 }
 
@@ -115,7 +115,7 @@ a:active    {
     padding: 1em 1.5em;
     font-size: 90%;
     background-color: #f6f6f6;
-    background-image: url("images/sidebar-stripe.gif");
+    background-image: url("../style_images/sidebar-stripe.gif");
     border: 1px solid #eeeeee;
 }
 
@@ -154,7 +154,7 @@ h2  {
 #footer {
     background-color: #7f201f;
     color: white;
-    background-image: url("images/header-gradient.gif");
+    background-image: url("../style_images/header-gradient.gif");
     background-repeat: repeat-x;
     text-align: center;
     padding: 2em 2em 5em 2em;

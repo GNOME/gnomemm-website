@@ -7,7 +7,6 @@ gnomemmwebsite_docdir = $(datadir)/doc/gnomemmwebsite-2.4
 vpath_srclist = $(patsubst $(srcdir)/%,%,$(wildcard $(addprefix $(srcdir)/,$(1))))
 vpath_listall = $(sort $(wildcard $(1)) $(if $(srcdir:.=),$(vpath_srclist)))
 
-DOCBOOK_STYLESHEET_HTML ?= http://docbook.sourceforge.net/release/xsl/current/html/chunk.xsl
 XMLLINT = xmllint
 XSLTPROC = xsltproc
 
@@ -18,32 +17,14 @@ DOC_FIGURES =
 
 DOC_LINGUAS = zh_CN
 
-MAINTAINERCLEANFILES = html/*.html $(srcdir)/html/*.html
-
-# Set the use.id.as.filename param so that we don't use the chapter / section
-# number as the filename, otherwise the url will change every time anything is
-# re-ordered or inserted in the documentation
-xslt_params = $(strip						\
-	--param       toc.section.depth		1		\
-	--stringparam html.stylesheet		'style.css'	\
-	--stringparam admon.graphics		'1'		\
-	--stringparam admon.graphics.path	'icons/'	\
-	--stringparam admon.graphics.extension	'.png'		\
-	--stringparam chunker.output.indent	'yes'		\
-	--stringparam chunker.output.encoding	'UTF-8'		\
-	--stringparam navig.graphics		'yes'		\
-	--stringparam navig.graphics.extension	'.png'		\
-	--stringparam navig.graphics.path	'icons/'	\
-	--stringparam toc.list.type		'ul'		\
-	--stringparam use.id.as.filename	'1'		\
-	)
+MAINTAINERCLEANFILES = html/en/*.html $(srcdir)/html/en/*.html
 
 tutorialdir         = $(gnomemmwebsite_docdir)/tutorial
 tutorial_htmldir    = $(tutorialdir)/html
 tutorial_figuresdir = $(tutorial_htmldir)/figures
 tutorial_iconsdir   = $(tutorial_htmldir)/icons
 
-tutorial_html_files = $(call vpath_listall,html/*.html) style.css
+tutorial_html_files = $(call vpath_listall,html/en/*.html) html/style.css
 tutorial_html_inst  = $(foreach\
 	file,$(tutorial_html_files),$(or $(wildcard $(file)),$(srcdir)/$(file)))
 
@@ -62,22 +43,21 @@ dist_tutorial_icons_DATA =
 
 include $(top_srcdir)/build/gnome-doc-utils.make
 
-all-local: $(DOC_LINGUAS) $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS)) html/index.html
+all-local: $(DOC_LINGUAS) $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS)) html/en/index.html
 
 $(DOC_LINGUAS):
 	@$(MKDIR_P) $@
 
 # Create a html generation of the C locale's version of the DocBook,
 # using our custom stylesheet and graphics:
-html/index.html: $(srcdir)/C/gnomemm-website.xml
-	$(AM_V_at)rm -fr html
-	$(AM_V_at)$(MKDIR_P) html
-	$(AM_V_GEN)$(XSLTPROC) $(xslt_params) -o html/ --xinclude --catalogs \
-		'$(DOCBOOK_STYLESHEET_HTML)' $<
+html/en/index.html: $(srcdir)/C/gnomemm-website.xml
+	$(AM_V_at)rm -fr html/en
+	$(AM_V_at)$(MKDIR_P) html/en
+	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $<
 
 # Make sure that the documentation will always have been generated before
 # executing the commands of a rule that depends on files in html/.
-html/chapter-%.html html/sec-%.html: | html/index.html
+html/chapter-%.html html/sec-%.html: | html/en/index.html
 
 validate: $(srcdir)/C/gnomemm-website.xml
 	$(XMLLINT) --xinclude --postvalid --noout $<
@@ -110,3 +90,14 @@ dependencies_gnomemm:
 dependencies_gnome_desktop:
 	jhbuild dot meta-gnome-desktop > html/jhbuild_gnome_desktop.dot
 	dot jhbuild_gnome_desktop.dot -Tpng > html/jhbuild_dot_gnome_desktop.png
+
+
+
+
+#Upload:
+
+web_path = /home/murrayc/gtkmm.org/
+
+#post-html: dependencies_gtkmm dependencies_gnomemm dependencies_gnome_desktop
+post-html:
+	rsync -avz --rsh ssh --cvs-exclude  html/.htaccess html/* $$USER@www.gtkmm.org:$(web_path)
