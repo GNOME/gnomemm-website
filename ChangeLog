@@ -1,5 +1,11 @@
 2010-11-24  Murray Cumming  <murrayc@murrayc.com>
 
+	Remove unnecessary stuff from configure.ac.
+
+	* build/.gitignore: Also add this to make sure that build/ always exists.
+
+2010-11-24  Murray Cumming  <murrayc@murrayc.com>
+
 	Move style stuff into style/ to avoid a clash with our redirect.
 
 2010-11-24  Murray Cumming  <murrayc@murrayc-desktop>

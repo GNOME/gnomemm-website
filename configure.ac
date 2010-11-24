@@ -12,9 +12,6 @@ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES])
 AM_MAINTAINER_MODE
 AC_ARG_VAR([ACLOCAL_FLAGS], [aclocal flags, e.g. -I <macro dir>])
 
-AC_PROG_CXX
-AC_PATH_PROG([PERL], [perl], [perl])
-
 AC_LANG([C++])
 
 GNOME_DOC_INIT([0.9.0],,
