@@ -1,5 +1,11 @@
 2010-11-24  Murray Cumming  <murrayc@murrayc.com>
 
+	Re-Add the jhbuild graph generation.
+
+	* docs/Makefile.am: Re-Add the jhbuild graph generation.
+
+2010-11-24  Murray Cumming  <murrayc@murrayc.com>
+
 	Rearranged the directory structure to be more like a normal translated module.
 
 	* Moved gnomemm-website.xml to docs/C/.

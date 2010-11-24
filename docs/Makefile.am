@@ -88,3 +88,25 @@ validate: $(srcdir)/C/gnomemm-website.xml
 # Instruct GNU make to delete the targets of a rule after it failed, in
 # order to avoid the complication of handling that situation manually.
 .DELETE_ON_ERROR:
+
+
+
+
+
+
+
+
+#Use jhbuild to get a graphiv .dot file,
+#and use the graphviz dot utility to make a .png of it:
+dependencies_gtkmm:
+	jhbuild dot gtkmm > jhbuild_gtkmm.dot
+	dot jhbuild_gtkmm.dot -Tpng > jhbuild_dot_gtkmm.png
+
+dependencies_gnomemm:
+	jhbuild dot gnomemm/libgnomeuimm > jhbuild_gnomemm.dot
+	dot jhbuild_gnomemm.dot -Tpng > jhbuild_dot_gnomemm.png
+
+# This is not relevant to C++, but it is interesting.
+dependencies_gnome_desktop:
+	jhbuild dot meta-gnome-desktop > html/jhbuild_gnome_desktop.dot
+	dot jhbuild_gnome_desktop.dot -Tpng > html/jhbuild_dot_gnome_desktop.png
