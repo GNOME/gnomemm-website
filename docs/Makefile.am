@@ -43,7 +43,7 @@ dist_tutorial_icons_DATA =
 
 include $(top_srcdir)/build/gnome-doc-utils.make
 
-all-local: $(DOC_LINGUAS) $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS)) html/en/index.html
+all-local: $(DOC_LINGUAS) $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS)) html/en/index.html html/zh_CN/index.html
 
 $(DOC_LINGUAS):
 	@$(MKDIR_P) $@
@@ -55,9 +55,11 @@ html/en/index.html: $(srcdir)/C/gnomemm-website.xml
 	$(AM_V_at)$(MKDIR_P) html/en
 	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $<
 
-# Make sure that the documentation will always have been generated before
-# executing the commands of a rule that depends on files in html/.
-html/chapter-%.html html/sec-%.html: | html/en/index.html
+html/zh_CN/index.html: $(srcdir)/C/gnomemm-website.xml
+	$(AM_V_at)rm -fr html/zh_CN
+	$(AM_V_at)$(MKDIR_P) html/zh_CN
+	xml2po -t zh_CN/zh_CN.mo -o $(DOC_MODULE).zh_CN.xml $<
+	$(AM_V_GEN)$(XSLTPROC) -o html/zh_CN/ --xinclude param.xsl $(DOC_MODULE).zh_CN.xml
 
 validate: $(srcdir)/C/gnomemm-website.xml
 	$(XMLLINT) --xinclude --postvalid --noout $<

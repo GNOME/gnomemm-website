@@ -1,3 +1,14 @@
+2010-11-24  Murray Cumming  <murrayc@murrayc-desktop>
+
+	Also genereate the Chinese translation.
+
+	* html/.htaccess:
+	* html/index.html: Move these to here:
+	* docs/html/.htaccess:
+	* docs/html/index.html:
+	* docs/Makefile.am: Merge and build the zh_CN translation too, though
+	we really need some generic way that will avoid the copy/paste.
+
 2010-11-24  Murray Cumming  <murrayc@murrayc.com>
 
 	Again renerate html in en/
