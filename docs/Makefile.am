@@ -1,6 +1,4 @@
-## This file is part of gtkmm-documentation.
-
-gtkmm_docdir = $(datadir)/doc/gtkmm-2.4
+gnomemmwebsite_docdir = $(datadir)/doc/gnomemmwebsite-2.4
 
 # Function: $(call vpath_listall,PATTERN ...)
 # Get all filenames which match a PATTERN from the list.  Look for files
@@ -40,7 +38,7 @@ xslt_params = $(strip						\
 	--stringparam use.id.as.filename	'1'		\
 	)
 
-tutorialdir         = $(gtkmm_docdir)/tutorial
+tutorialdir         = $(gnomemmwebsite_docdir)/tutorial
 tutorial_htmldir    = $(tutorialdir)/html
 tutorial_figuresdir = $(tutorial_htmldir)/figures
 tutorial_iconsdir   = $(tutorial_htmldir)/icons
