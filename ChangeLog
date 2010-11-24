@@ -1,3 +1,7 @@
+2010-11-24  Murray Cumming  <murrayc@murrayc.com>
+
+	Move style stuff into style/ to avoid a clash with our redirect.
+
 2010-11-24  Murray Cumming  <murrayc@murrayc-desktop>
 
 	Also genereate the Chinese translation.

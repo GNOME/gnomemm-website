@@ -4,7 +4,7 @@ xmlns="http://www.w3.org/1999/xhtml"
 version="1.0">
 <xsl:import href="http://docbook.sourceforge.net/release/xsl/current/xhtml/chunk.xsl" />
 
-<xsl:param name="html.stylesheet" select="'../style.css'" />
+<xsl:param name="html.stylesheet" select="'../style/style.css'" />
 <xsl:param name="chunker.output.encoding" select="'utf-8'" />
 <xsl:param name="chunker.output.indent" select="'yes'" />
 <xsl:param name="chunk.section.depth" select="0" />
