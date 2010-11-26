@@ -1,5 +1,12 @@
 2010-11-26  Murray Cumming  <murrayc@murrayc.com>
 
+	Slight Makefile.am cleanup
+
+	* docs/Makefile.am: Make it easier to copy/paste a new target for a new 
+	translation, though this should really be automatic.
+
+2010-11-26  Murray Cumming  <murrayc@murrayc.com>
+
 	Split the XMl into separate files.
 	
 	Having one .xml file corresponding to each generated web page, with the 

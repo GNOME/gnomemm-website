@@ -66,14 +66,16 @@ $(DOC_LINGUAS):
 # Create a html generation of the C locale's version of the DocBook,
 # using our custom stylesheet and graphics:
 html/en/index.html: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
-	$(AM_V_at)rm -fr html/en
-	$(AM_V_at)$(MKDIR_P) html/en
+  thelocale=en
+	$(AM_V_at)rm -fr html/$(thelocale)
+	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
 	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $(srcdir)/C/$(doc_module_with_ext)
 
 html/zh_CN/index.html: $(addprefix $(srcdir)/zh_CN/,$(doc_module_with_ext) $(DOC_INCLUDES))
-	$(AM_V_at)rm -fr html/zh_CN
-	$(AM_V_at)$(MKDIR_P) html/zh_CN
-	$(AM_V_GEN)$(XSLTPROC) -o html/zh_CN/ --xinclude param.xsl $(srcdir)/zh_CN/$(doc_module_with_ext)
+  thelocale=zh_CN
+	$(AM_V_at)rm -fr html/$(thelocale)
+	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
+	$(AM_V_GEN)$(XSLTPROC) -o html/$(thelocale)/ --xinclude param.xsl $(srcdir)/$(thelocale)/$(doc_module_with_ext)
 
 validate: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
 	$(XMLLINT) --xinclude --postvalid --noout $<
