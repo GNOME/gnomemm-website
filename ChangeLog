@@ -1,3 +1,10 @@
+2010-11-26  Murray Cumming  <murrayc@murrayc.com>
+
+	Split the XMl into separate files.
+	
+	Having one .xml file corresponding to each generated web page, with the 
+	same filename, is much more familiar to people editing web pages.
+
 2010-11-24  Murray Cumming  <murrayc@murrayc.com>
 
 	Remove unnecessary stuff from configure.ac.

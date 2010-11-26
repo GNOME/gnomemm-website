@@ -1,0 +1,115 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+>
+
+  <article id="commercial_support">
+    <sect1>
+      <title>Commercial Support</title>
+      <para>The mailing lists, irc, and documentation are helpful, but your company might
+require more in-depth assistance or custom development. If so feel free to contact the following freelance developers and companies directly to discuss a commercial arrangement. If necessary we can also build larger development teams.</para>
+      <informaltable>
+        <tr>
+          <th>Name, email</th>
+          <th>Location</th>
+        </tr>
+        <tr>
+          <td><ulink url="http://www.openismus.com">Openismus</ulink>: Custom software development using open source software.</td>
+          <td>Germany, Austria, UK</td>
+        </tr>
+        <tr>
+          <td><ulink url="http://www.m2osw.com">Made to Order Software Corp.</ulink>: Quality software with easy to use interfaces from simple utilities to complex e-Business solutions.</td>
+          <td>USA, UK</td>
+        </tr>
+        <tr>
+          <td><ulink url="mailto:cactus@cactus.rulez.org">Gergő Érdi</ulink>(<ulink url="http://cactus.rulez.org">cactus.rulez.org</ulink>)</td>
+          <td>Hungary</td>
+        </tr>
+      </informaltable>
+      <para>Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:<itemizedlist>
+          <listitem>
+            <para><ulink url="http://www.mysql.com">MySQL</ulink> - Databases</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.vmware.com/">VMWare</ulink> - Virtualization, network management</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.amazon.com/">Amazon</ulink> - MP3 Downloader</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.supersonicimagine.fr/">Supersonic Imagine</ulink> - Medical imaging</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.garmin.com/">Garmin</ulink> - Consumer navigation devices</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.spacetec.no/">Kongsberg Spacetec</ulink> - satellite/meteorological</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.solvo.ru/">Solvo Ltd.</ulink> - warehouse management systems</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.eads.com">EADS</ulink> - aerospace/defense/satellite</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.northropgrumman.com">Northrup Grumman</ulink> - military/defense</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.henson.com">Jim Henson&apos;s Muppet Workshop</ulink> - animatronics</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.isotrol.com">Isotrol</ulink> - electrical engineering</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://linuxaudiosystems.com/">Linux Audio Systems</ulink> - professional audio/music systems</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.designadvantage.com">Design Advantage</ulink> - electrical/mechanical engineering</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.dme.net">DME</ulink> - mold engineering</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.petig-baender.de">Adolf Petig GmbH</ulink> - textile ribbon manufacturing</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.bifab.de">Bibliographisches Institut &amp; F.A. Brockhaus AG</ulink> - publishing</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.hasar.com">Hasar</ulink> - POS software/hardware</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.icodsi.biz">iCodsi</ulink> - security/encryption software</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.aplik.com/">Aplik</ulink> - process engineering</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.fis-cal.com/">Fiscal</ulink> - fiscal Systems, POS</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.thewrittenword.com/">The Written Word</ulink> - prebuilt software packages</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.exact-med.com/">Allcare</ulink> - ExactMed eMAR, medication administration</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="https://www.sendoutcards.com/">SendOutCards.com</ulink> - Specialized internal applications</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.epictechnology.co.uk/">EPIC Technology</ulink> - Point Of Sale systems</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.i-medlab.com/">iMed</ulink> Medical imaging - <ulink url="http://www.i-medlab.com/Products/page1.html">CAD Colon</ulink>.</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.downeysavings.com/">Downey Savings</ulink> - Banking</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="http://www.innoventis.de/htm/produkte_canmonitor.php">Innoventis</ulink> - Automotive systems</para>
+          </listitem>
+        </itemizedlist></para>
+      <para>If you would like to be listed here please send email to the <ulink url="mailinglist.html">mailing list</ulink> or a maintainer.</para>
+      <para>See also <ulink url="http://www.gtk.org/commerce.html">GTK+ success stories</ulink>.</para>
+    </sect1>
+  </article>

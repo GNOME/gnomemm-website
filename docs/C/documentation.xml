@@ -1,0 +1,187 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY url_refdocs_base_glibmm_html "http://library.gnome.org/devel/glibmm/unstable/">
+  <!ENTITY url_refdocs_base_gtkmm_html "http://library.gnome.org/devel/gtkmm/unstable/">
+  <!ENTITY url_refdocs_base_book_html "http://library.gnome.org/devel/gtkmm-tutorial/unstable/">
+  <!ENTITY url_refdocs_base_pangomm_html "http://library.gnome.org/devel/pangomm/unstable/">
+  <!ENTITY url_examples_base "http://git.gnome.org/cgit/gtkmm-documentation/tree/examples/book/">
+]>
+
+  <article id="documentation">
+    <sect1>
+      <title>Documentation Overview</title>
+
+      <!-- This is no longer likely to be a common problem, though we should add some explanation of gtkmm-2.4 versus gtkmm-3.0 when we go stable.
+      <highlights>
+        <para>This documentation is for the gtkmm-2.4 and gnomemm-2.6 APIs. There is an older gtkmm API called gtkmm-2.0 which can be installed in parallel. The gtkmm-2.4 name refers to the API/ABI series and not the release version. For instance, gtkmm 2.10 is a version of the gtkmm-2.4 API.</para>
+      </highlights>
+      -->
+
+      <sect2>
+        <title>Getting Started with gtkmm</title>
+        <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book. This book is also <ulink url="http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4">available on the Amazon Kindle</ulink>.</para>
+        <para><ulink url="&url_refdocs_base_book_html;index.html">Contents</ulink> of the whole online book.</para>
+        <para>Selected chapters:<itemizedlist>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-installation.html">Installation</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-basics.html">Basics</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-signals.html">Signals</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-container-widgets.html">Container Widgets</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-treeview.html">TreeView</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-memory.html">Memory Management</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-builder.html">Glade and Gtk::Builder</ulink></para>
+            </listitem>
+          </itemizedlist></para>
+      </sect2>
+      <sect2>
+        <title>API Reference</title>
+        <informaltable>
+          <tr>
+            <th>gtkmm (Gtk::)</th>
+            <th>glibmm (Glib::)</th>
+            <th>giomm (Gio::)</th>
+          </tr>
+          <tr>
+            <td>
+              <itemizedlist>
+                <listitem>
+                  <para><emphasis role="bold">
+                      <ulink url="&url_refdocs_base_gtkmm_html;hierarchy.html">Hierarchy</ulink>
+                    </emphasis></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;group__Widgets.html">Widgets</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;group__Containers.html">Containers</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;group__TreeView.html">TreeView</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;group__TextView.html">TextView</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;group__Dialogs.html">Dialogs</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;classGtk_1_1UIManager.html">Menus and Toolbars</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;classGtk_1_1Main.html">Main loop</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;group__gtkmmEnums.html">enums and flags</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;namespaceGtk_1_1Stock.html">Stock IDs</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;namespaceGtk.html">Gtk Namespace</ulink></para>
+                </listitem>
+              </itemizedlist>
+            </td>
+            <td>
+              <itemizedlist>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;classGlib_1_1ustring.html">ustring</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;classGlib_1_1Exception.html">Exceptions</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;classGlib_1_1RefPtr.html">RefPtr&lt;&gt;</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;group__MainLoop.html">Main Event loop</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;group__Spawn.html">Spawning Processes</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;group__Threads.html">Threads</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;group__MiscUtils.html">Miscellaneous Utility Functions</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;group__CharsetConv.html">Character set conversion</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;namespaceGlib.html">Glib Namespace</ulink></para>
+                </listitem>
+              </itemizedlist>
+            </td>
+            <td>
+              <itemizedlist>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;classGio_1_1File.html">File</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;group__Streams.html">Streams</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;namespaceGio.html">Gio Namespace</ulink></para>
+                </listitem>
+              </itemizedlist>
+            </td>
+          </tr>
+        </informaltable>
+      </sect2>
+      <sect2>
+        <title>Extra Modules</title>
+        <para>API reference documentation for other C++ modules, such as gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink url="http://library.gnome.org/devel/references#c++-bindings">library.gnome.org C++ Bindings</ulink> section.</para>
+      </sect2>
+      <sect2>
+        <title>Other Information</title>
+        <informaltable>
+          <tr>
+            <th>External Documentation</th>
+            <th>Unusual Platforms</th>
+          </tr>
+          <tr>
+            <td>
+              <itemizedlist>
+                <listitem>
+                  <para><ulink url="http://libsigc.sourceforge.net/doc.shtml">libsigc++ documentation</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="http://library.gnome.org/devel/gtk/stable/">GTK+ reference</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index.html">Standard C++ Library (STL)</ulink></para>
+                </listitem>
+              </itemizedlist>
+            </td>
+            <td>
+              <itemizedlist>
+                <listitem>
+                  <para><ulink url="http://git.gnome.org/cgit/gtkmm/tree/README.SUN?view=markup">Solaris, with Sun&apos;s Forte C++.</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="http://git.gnome.org/cgit/gtkmm/tree/README.win32?view=markup">Windows, with mingw and cygwin</ulink></para>
+                </listitem>
+              </itemizedlist>
+            </td>
+          </tr>
+        </informaltable>
+      </sect2>
+      <sect2>
+        <title>Examples</title>
+        <para>Sometimes you need to look at examples to figure out how something should work. Many examples are included in the gtkmm book, but you can also view them online: <ulink url="&url_examples_base;">gtkmm examples</ulink></para>
+      </sect2>
+    </sect1>
+  </article>

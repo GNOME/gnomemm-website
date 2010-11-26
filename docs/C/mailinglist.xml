@@ -1,0 +1,46 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+>
+
+ <article id="mailinglist">
+    <sect1>
+      <title>Mailing List</title>
+      <sect2>
+        <title>Where is the gtkmm mailing list?</title>
+        <para><itemizedlist>
+            <listitem>
+              <para><emphasis role="bold">gtkmm mailing list</emphasis>: <ulink url="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</ulink>. To subscribe, go to the <ulink url="http://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</ulink>.</para>
+            </listitem>
+            <listitem>
+              <para>For general GTK+ discussion, please use the <ulink url="http://www.gtk.org/mailinglists.html">gtk-list</ulink>.</para>
+            </listitem>
+          </itemizedlist></para>
+      </sect2>
+      <sect2>
+        <title>What subject material is appropriate for the list?</title>
+        <para>    The mailing lists are used for discussion of development, bug reports,
+    suggestions, and improvements of the C++ wrappers themselves. There is
+    also  discussion of the use of the wrapper. Questions about the
+    underlying GTK+ widget set are more likely to be answered quickly
+    through the gtk-list.</para>
+      </sect2>
+      <sect2>
+        <title>List Archives</title>
+        <para>The archive of messages can be found at:</para>
+        <para><itemizedlist>
+            <listitem>
+              <para>gtkmm-list <ulink url="http://mail.gnome.org/archives/gtkmm-list/">archive</ulink>.</para>
+            </listitem>
+          </itemizedlist></para>
+        <para><ulink url="http://marc.info/?l=gtkmm">MARC</ulink> archives messages even from before 2002, and has a more reliable search engine.</para>
+      </sect2>
+      <sect2>
+        <title>IRC channel</title>
+        <para>We also discuss development in the <emphasis role="bold">#c++</emphasis> channel on
+    irc.gnome.org, but questions are more likely to be answered properly on
+    the mailing list. Plus, the mailing list is archived, so others can
+    benefit from the answers.</para>
+      </sect2>
+    </sect1>
+ </article>

@@ -1,0 +1,58 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+>
+
+  <article id="books">
+    <sect1>
+      <title>Recommended Books</title>
+      <para>
+   The gtkmm developers find these books helpful:
+  </para>
+      <sect2>
+        <title>Core books</title>
+        <para>
+    <itemizedlist>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201889544/murrayswebpages/">The C++ Programming Language, Bjarne Stroustrup</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201379260/murrayswebpages/">The C++ Standard Library, Nicolai M. Josuttis</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201633612/murrayswebpages/">Design Patterns, Erich Gamma et al</ulink></para>
+            </listitem>
+          </itemizedlist>
+   </para>
+      </sect2>
+      <sect2>
+        <title>For beginners</title>
+        <para>
+    <itemizedlist>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=020170353X/murrayswebpages/">Accelerated C++ - Practical Programming by Example, Andrew Koenig &amp; Barbara E. Moo</ulink></para>
+            </listitem>
+          </itemizedlist>
+   </para>
+      </sect2>
+      <sect2>
+        <title>Others</title>
+        <para>
+    <itemizedlist>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0764526413/murrayswebpages/">About Face 2.0: The essentials of interaction design, Alan Cooper &amp; Robert M. Reimann</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201379279/murrayswebpages/">Advanced CORBA Programming with C++, Michi Henning &amp; Steve Vinoski</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=1578701902/murrayswebpages/">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=1565921127/murrayswebpages/">Programming With Gnu Software, Michael Kosta Loukides et al</ulink></para>
+            </listitem>
+          </itemizedlist>
+   </para>
+      </sect2>
+    </sect1>
+  </article>

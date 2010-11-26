@@ -1,0 +1,128 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+>
+
+  <article id="git">
+    <sect1>
+      <title>Git</title>
+      <para>We use <ulink url="http://git-scm.com/">Git</ulink> to maintain our source
+    code, in the <ulink url="http://www.gnome.org">GNOME</ulink> Git repository.
+    Additional information about git.gnome.org is available at <ulink url="http://live.gnome.org/Git">live.gnome.org/Git</ulink>.</para>
+      <para>glibmm and gtkmm are in the <ulink url="http://git.gnome.org/cgit/glibmm/tree/">glibmm</ulink> and <ulink url="http://git.gnome.org/cgit/gtkmm/tree/">gtkmm</ulink> modules.
+    There is also a <ulink url="http://git.gnome.org/cgit/gtkmm-documentation/tree/">gtkmm-documentation</ulink> module which contains the gtkmm book and its examples. See below for instructions.</para>
+      <para>You will need to run the autogen.sh script to generate the build files. We
+    recommend jhbuild for setting up a separate development prefix.</para>
+      <highlights>
+        <para><emphasis role="bold">Anonymous Access</emphasis></para>
+        <para>For those who do not have a GNOME login, anonymous checkouts are
+        available.</para>
+        <para>For instance, to check out the latest version of gtkmm: <command>git clone git://git.gnome.org/gtkmm</command></para>
+      </highlights>
+      <sect2>
+        <title>Modules and branches</title>
+        <para>We are synchronized with the GNOME release schedule, so we use <ulink url="http://developer.gnome.org/dotplan/for_maintainers.html#Branches">standard GNOME branch names</ulink></para>
+        <sect3>
+          <title>gtkmm and glibmm</title>
+          <para><informaltable>
+              <tr>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Git Module</th>
+                <th>Branch name</th>
+              </tr>
+              <tr>
+                <td>gtkmm</td>
+                <td>2.17/18</td>
+                <td>gtkmm</td>
+                <td>master</td>
+              </tr>
+              <tr>
+                <td>gtkmm</td>
+                <td>2.16</td>
+                <td>gtkmm</td>
+                <td>gtkmm-2-16</td>
+              </tr>
+              <tr>
+                <td>glibmm</td>
+                <td>2.21/22</td>
+                <td>glibmm</td>
+                <td>master</td>
+              </tr>
+              <tr>
+                <td>glibmm</td>
+                <td>2.20</td>
+                <td>glibmm</td>
+                <td>glibmm-2-20</td>
+              </tr>
+            </informaltable></para>
+        </sect3>
+        <sect3>
+          <title>gnomemm</title>
+          <para><informaltable>
+              <tr>
+                <th>Component</th>
+                <th>API Version</th>
+                <th>Git Module</th>
+                <th>Branch name</th>
+              </tr>
+              <tr>
+                <td>libglademm</td>
+                <td/>
+                <td>libglademm</td>
+                <td>master</td>
+              </tr>
+              <tr>
+                <td>gconfmm</td>
+                <td/>
+                <td>gconfmm</td>
+                <td>master</td>
+              </tr>
+              <tr>
+                <td>libgnomecanvasmm</td>
+                <td/>
+                <td>libgnomecanvasmm</td>
+                <td>master</td>
+              </tr>
+            </informaltable></para>
+        </sect3>
+        <sect3>
+          <title>*mm bindings for other GNOME-related APIs</title>
+          <para>The following bindings are not necessarily on the same schedule as those
+    listed above.</para>
+          <para><informaltable>
+              <tr>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Git Module</th>
+                <th>Branch name</th>
+              </tr>
+              <tr>
+                <td>libgdamm</td>
+                <td/>
+                <td>libgdamm</td>
+                <td>master</td>
+              </tr>
+              <tr>
+                <td>libgnomedbmm</td>
+                <td/>
+                <td>libgnomedbmm</td>
+                <td>master</td>
+              </tr>
+              <tr>
+                <td>goocanvasmm</td>
+                <td/>
+                <td>goocanvasmm</td>
+                <td>master</td>
+              </tr>
+              <tr>
+                <td>libpanelappletmm</td>
+                <td/>
+                <td>libpanelappletmm</td>
+                <td>master</td>
+              </tr>
+            </informaltable></para>
+        </sect3>
+      </sect2>
+    </sect1>
+  </article>

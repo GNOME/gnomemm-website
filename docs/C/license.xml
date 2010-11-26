@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+>
+
+<article id="license">
+    <sect1>
+      <title>License</title>
+      <para>gtkmm is licensed under the <ulink url="http://www.gnu.org">GNU</ulink> Library General Public License
+(<ulink url="http://www.gnu.org/licenses/lgpl.html#TOC1">LGPL</ulink>) for all platforms.  Our intent in licensing it in this way is to
+provide it for use through shared libraries in all projects both
+open and proprietary.  Other GNU projects may of course integrate
+and link in a static manner.  The full body of the license is
+provided for your inspection.</para>
+      <para>This is the only license which grants you use of the software, so
+if you do not agree to its terms, you may not use this software.</para>
+      <highlights>
+        <para>Note that this license <emphasis role="bold">does not require you to release the source code of your own applications or libraries</emphasis> and <emphasis role="bold">does not require you to pay any fees.</emphasis></para>
+      </highlights>
+    </sect1>
+</article>

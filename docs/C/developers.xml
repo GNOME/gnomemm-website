@@ -1,0 +1,76 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+>
+
+  <article id="developers">
+    <sect1>
+      <title>gtkmm Development</title>
+      <para>gtkmm development is done in the <ulink url="http://gnome.org/">GNOME</ulink> Git
+repository.  To get started developing gtkmm, see the <ulink url="git.html">detailed Git instructions</ulink>.  Discussion about gtkmm
+development happens on the <ulink url="mailinglist.html">mailing list</ulink>.</para>
+      <highlights>
+        <para>Please do not mail us directly - use the <ulink url="mailinglist.html">mailing list</ulink> instead.</para>
+      </highlights>
+    </sect1>
+    <sect1>
+      <title>Developers and Contributors</title>
+      <sect2>
+        <title>Current maintainers</title>
+        <itemizedlist>
+          <listitem>
+            <para><ulink url="mailto:murrayc@murrayc.com">Murray Cumming</ulink> (<ulink url="http://www.murrayc.com">www.murrayc.com</ulink>)</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:daniel.kitta@googlemail.com">Daniel Elstner</ulink></para>
+          </listitem>
+        </itemizedlist>
+      </sect2>
+      <sect2>
+        <title>Other gtkmm developers</title>
+        <itemizedlist>
+          <listitem>
+            <para><ulink url="mailto:bryan@reigndropsfall.net">Bryan Forbes</ulink>  (<ulink url="http://www.reigndropsfall.net/">www.reigndropsfall.net</ulink>)</para>
+          </listitem>
+          <listitem>
+            <para>Karl Nelson</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:cactus@cactus.rulez.org">Gergő Érdi</ulink> (<ulink url="http://cactus.rulez.org">cactus.rulez.org</ulink>)</para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:andreas.holzmann@epost.de">Andreas Holzmann</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:mhl.schulze@t-online.de">Martin Schulze</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:madmaxer@poczta.fm">Jarek Dukat</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:morten@wtf.dk">Morten Brix Pedersen</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:jonathon.jongsma@gmail.com">Jonathon Jongsma</ulink></para>
+          </listitem>
+        </itemizedlist>
+      </sect2>
+      <sect2>
+        <title>Previous maintainers</title>
+        <itemizedlist>
+          <listitem>
+            <para><ulink url="mailto:glaurent@telegraph-road.org">Guillaume Laurent</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:terop@assari.cc.tut.fi">Tero Pulkkinen</ulink></para>
+          </listitem>
+        </itemizedlist>
+      </sect2>
+      <sect2>
+        <title/>
+        <para>There have been many patches, bug fixes and improvements from a lot
+of people. Thanks to them.
+</para>
+      </sect2>
+    </sect1>
+  </article>

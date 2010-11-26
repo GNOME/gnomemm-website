@@ -11,9 +11,24 @@ XMLLINT = xmllint
 XSLTPROC = xsltproc
 
 DOC_MODULE = gnomemm-website
+doc_module_with_ext = $(DOC_MODULE).xml
 DOC_ENTITIES =
-DOC_INCLUDES =
 DOC_FIGURES =
+
+# The names of any files included by xinclude (preferred):
+DOC_INCLUDES = \
+	books.xml \
+	bugs.xml \
+	commercial_support.xml \
+	developers.xml \
+	documentation.xml \
+	download.xml \
+	extra.xml \
+	git.xml \
+	index.xml \
+	license.xml \
+	mailinglist.xml \
+	news.xml
 
 DOC_LINGUAS = zh_CN
 
@@ -50,18 +65,17 @@ $(DOC_LINGUAS):
 
 # Create a html generation of the C locale's version of the DocBook,
 # using our custom stylesheet and graphics:
-html/en/index.html: $(srcdir)/C/gnomemm-website.xml
+html/en/index.html: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
 	$(AM_V_at)rm -fr html/en
 	$(AM_V_at)$(MKDIR_P) html/en
-	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $<
+	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $(srcdir)/C/$(doc_module_with_ext)
 
-html/zh_CN/index.html: $(srcdir)/C/gnomemm-website.xml
+html/zh_CN/index.html: $(addprefix $(srcdir)/zh_CN/,$(doc_module_with_ext) $(DOC_INCLUDES))
 	$(AM_V_at)rm -fr html/zh_CN
 	$(AM_V_at)$(MKDIR_P) html/zh_CN
-	xml2po -t zh_CN/zh_CN.mo -o $(DOC_MODULE).zh_CN.xml $<
-	$(AM_V_GEN)$(XSLTPROC) -o html/zh_CN/ --xinclude param.xsl $(DOC_MODULE).zh_CN.xml
+	$(AM_V_GEN)$(XSLTPROC) -o html/zh_CN/ --xinclude param.xsl $(srcdir)/zh_CN/$(doc_module_with_ext)
 
-validate: $(srcdir)/C/gnomemm-website.xml
+validate: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
 	$(XMLLINT) --xinclude --postvalid --noout $<
 
 

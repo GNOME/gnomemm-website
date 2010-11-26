@@ -1,0 +1,108 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+  <!ENTITY gtkmm "<application>gtkmm</application>">
+]>
+
+  <article id="index">
+    <highlights>
+      <para>
+   &gtkmm; is the official C++ interface for the popular GUI library
+   <ulink url="http://www.gtk.org/">GTK+</ulink>. Highlights include
+   typesafe callbacks, and a comprehensive set of widgets that are
+   easily extensible via inheritance. You can create user interfaces
+   either in code or with the <ulink url="http://glade.gnome.org/">Glade User Interface designer</ulink>, using Gtk::Builder. There&apos;s
+   <ulink url="documentation.shtml">extensive documentation</ulink>,
+   including API reference and a tutorial.
+  </para>
+      <para>
+   &gtkmm; is free software distributed under the GNU Library General
+    Public License (<ulink url="license.shtml">LGPL</ulink>).
+  </para>
+      <para>
+   &gtkmm; follows the official <ulink url="http://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</ulink>. This guarantees
+   API/ABI-stability and new releases on a predictable schedule,
+   delivering C++ API for the underlying GTK+ and GNOME APIs as soon as possible.
+  </para>
+    </highlights>
+    <sect1>
+      <title>Features</title>
+      <para>
+  <itemizedlist>
+          <listitem>
+            <para>Use inheritance to derive custom widgets.</para>
+          </listitem>
+          <listitem>
+            <para>Type-safe signal handlers, in standard C++.</para>
+          </listitem>
+          <listitem>
+            <para>Polymorphism.</para>
+          </listitem>
+          <listitem>
+            <para>Use of Standard C++ Library, including strings, containers, and iterators.</para>
+          </listitem>
+          <listitem>
+            <para>Full internationalisation with UTF8.</para>
+          </listitem>
+          <listitem>
+            <para>Complete C++ memory management
+    <itemizedlist>
+                <listitem>
+                  <para>Object composition</para>
+                </listitem>
+                <listitem>
+                  <para>Automatic deallocation of dynamically allocated widgets.</para>
+                </listitem>
+              </itemizedlist>
+   </para>
+          </listitem>
+          <listitem>
+            <para>Full use of C++ namespaces.</para>
+          </listitem>
+          <listitem>
+            <para>No macros.</para>
+          </listitem>
+          <listitem>
+            <para>Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others</para>
+          </listitem>
+          <listitem>
+            <para>Free software and free of cost for both Open Source and
+    proprietary development.</para>
+          </listitem>
+          <listitem>
+            <para>Discussed, designed and implemented in public.</para>
+          </listitem>
+        </itemizedlist>
+  </para>
+    </sect1>
+    <sect1>
+      <title>Other gtkmm-related libraries</title>
+      <sect2>
+        <title>gnomemm</title>
+        <para>
+   gtkmm is a GUI toolkit and nothing more, and it strives to be the
+   best C++ GUI toolkit. That mandate does not cover generic C++ data
+   structures, an XML parser, or database access. Even our signal/slots
+   system is part of a separate (<ulink url="http://libsigc.sourceforge.net">libsigc++</ulink>) library.
+   However, gtkmm is designed to work well with all other C++ libraries.
+   </para>
+        <para>
+   The gnomemm libraries cover some of these other tasks, but they are
+   optional.
+   </para>
+      </sect2>
+      <sect2>
+        <title>libsigc++</title>
+        <para>
+    Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <ulink url="http://libsigc.sourceforge.net/">libsigc++</ulink> (signal/slots).
+   </para>
+      </sect2>
+      <sect2>
+        <title>Others</title>
+        <para>
+    Be sure to check out <ulink url="http://bakery.sourceforge.net/">Bakery</ulink>,
+    a framework for constructing gtkmm/gnomemm applications.  It allows use of the Document/View architecture.
+   </para>
+      </sect2>
+    </sect1>
+  </article>

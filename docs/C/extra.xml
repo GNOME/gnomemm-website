@@ -1,0 +1,310 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
+>
+
+  <article id="extra">
+    <sect1>
+      <title>Additional Resources</title>
+      <sect2>
+        <title>Available widgets</title>
+        <para>In addition to the wrappers distributed with gtkmm and gnomemm, additional
+widgets and libraries are available from other sources.
+    <itemizedlist>
+            <listitem>
+              <para><ulink url="http://gtkglext.sourceforge.net">GtkGlExtmm</ulink> OpenGL rendering for gtkmm</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/">gtkmozembedmm</ulink> Mozilla-based web browser widget</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://plotmm.sourceforge.net/">Plotmm</ulink> Plot widget for scientific applications</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://home.gna.org/gtksourceviewmm/">gtksourceviewmm</ulink>, Wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/">gstreamermm</ulink>, Wrappers for gstreamer (streaming media)</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://vtemm.sourceforge.jp/">VTEmm</ulink> Terminal widget</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gtkextramm.sourceforge.net/">gtkextramm</ulink>, Wrappers for GtkExtra (plot, sheet, etc)</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.nongnu.org/om-synth/flowcanvas.html">FlowCanvas</ulink> Canvas for data flow systems.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.xs4all.nl/~carlo17/cwchessboard/index.html">cwchessboard</ulink>, A C++ chess board tool set for gtkmm.</para>
+            </listitem>
+          </itemizedlist></para>
+      </sect2>
+      <sect2>
+        <title>gtkmm tools</title>
+        <para><itemizedlist>
+            <listitem>
+              <para><ulink url="http://glade.gnome.org/">Glade</ulink> - User Interface Designer for GTK+.  Glade UI files can be used from a gtkmm program by using Gtk::Builder.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://home.wtal.de/petig/Gtk/">glademm</ulink> - Glade Module for automatically generating gtkmm code. (Note: glademm is different than libglademm or Gtk::Builder)</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://bakery.sourceforge.net/">Bakery</ulink> - Document/View Model</para>
+            </listitem>
+          </itemizedlist></para>
+      </sect2>
+      <sect2>
+        <title>Applications using gtkmm</title>
+        <para>If all else fails, sometimes it is good to look at the source of
+some other projects using the same toolkit.</para>
+        <sect3>
+          <title>Using gtkmm:</title>
+          <itemizedlist>
+            <listitem>
+              <para><ulink url="http://regexxer.sourceforge.net/">Regexxer</ulink> Multi-file search/replace with visual feedback.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://subsubsub.sourceforge.net">SubSubSub</ulink> Creation of hierarchical text documents.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://prefixsuffix.sourceforge.net/">PrefixSuffix</ulink> Renames batches of files.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://towel.sourceforge.net">Towel</ulink> Audio player.</para>
+            </listitem>
+<!-- Website appears to be gone
+  <listitem><para><ulink url="http://www.coaster-burn.org/">Coaster</ulink> CD Burning.</para></listitem>
+  -->            <listitem>
+              <para><ulink url="http://www.glom.org/">Glom</ulink> Database Environment.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://cactus.rulez.org/projects/guikachu/">Guikachu</ulink>, graphical resource editor for PalmOS  applications</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.inkscape.org/">Inkscape</ulink> Vector graphics drawing.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gnomoradio.org/">Gnomoradio</ulink> peer to peer sharing of freely licensed music.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.debain.org/software/gip/">Gip</ulink> IP address calculator.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.k-3d.org/">K-3D</ulink> 3D modelling and animation.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.cs.auc.dk/~olau/hardware-monitor/">Hardware Monitor</ulink> GNOME panel applet.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.workrave.org/">Workrave</ulink> Assists in recovery and prevention of RSI.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://kino.schirmacher.de/article/view/51/1/11">timfx</ulink> digital video effects plug-in for <ulink url="http://www.kinodv.org/">Kino</ulink>.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.cs.auc.dk/~olau/monster-masher/">Monster Masher</ulink> Game.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gparted.sourceforge.net/">GParted</ulink> disk partitioning tool.</para>
+            </listitem>
+<!-- website appears to be gone
+  <listitem><para><ulink url="http://sysinfo.r8.org/">Sysinfo</ulink> system monitor.</para></listitem>
+  -->            <listitem>
+              <para><ulink url="http://cdrdao.sourceforge.net/">gcdmaster</ulink>, a cdrdao frontend.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://planetearthworm.com/projects/wp_tray/">Wallpaper Tray</ulink>, GNOME panel applet.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.freespiders.org/projects/gmlview/">MLView</ulink> XML Editor.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://sourceforge.net/projects/duty-roaster">Duty Roaster</ulink> Manages duty rotas.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gobby.0x539.de">Gobby</ulink> Collaborative text editor.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://pinot.berlios.de/">Pinot</ulink> Metasearch tool.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://home.gna.org/colorscheme/">Agave</ulink> Color scheme generator.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://amyedit.sourceforge.net/">AmyEdit</ulink> LaTeX editor.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://aeskulap.nongnu.org/">Aeskulap</ulink> Medical image viewer.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gspeakers.sourceforge.net/">gspeakers</ulink> Loudspeaker designer</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://pupuedit.sourceforge.net/">Pihlaja</ulink> Non-linear video/audio editor.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://free-doko.sourceforge.net/en/">FreeDoko</ulink> Card game.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.minisip.org/">miniSIP</ulink> Internet Telephone.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://goupil.tuxfamily.org/">Goupil</ulink> Membership Management.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.nongnu.org/om-synth/index.html">Om</ulink> Modular synthesizer and effects processor.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://minuslab.net/code/nitrogen/">Nitrogen</ulink> Background browser and setter.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://home.gna.org/nemiver/">Nemiver</ulink> GUI for the GNU debugger gdb</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://bmpx.beep-media-player.org/site/BMPx_Homepage">BMP</ulink> Audio player</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://usbsink.sourceforge.net/">USBSink</ulink> File Synchronization over USB.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://home.gna.org/elfelli/">Elfelli</ulink> Electric flux line simulation.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://icculus.org/~jcspray/referencer/">Referencer</ulink> document organiser and bibliography manager</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://granule.sourceforge.net/">Granule</ulink> Index cards.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://ardour.org/">Ardour 2</ulink>, a multichannel hard disk recorder and digital audio workstation</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.stacken.kth.se/project/pptout/">Passepartout</ulink> DTP.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gwavmerger.sourceforge.net">gwavmerger</ulink> Foreign language learning tool.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://wavemixer.sourceforge.net/">WaveMixer</ulink> sound editor.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://lostirc.sourceforge.net/">LostIRC</ulink> IRC client</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.mysql.com/downloads/administrator.html">MySQL Administrator</ulink> Database GUI.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://paco.sourceforge.net/">Paco</ulink> source code package organizer</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.gnome.org/">GNOME System Monitor</ulink> system monitor</para>
+            </listitem>
+          </itemizedlist>
+        </sect3>
+        <sect3>
+          <title>Using gtkmm 2.0/2.2:</title>
+          <itemizedlist>
+            <listitem>
+              <para><ulink url="http://heavymole.sourceforge.net/">HeavyMole</ulink> File sharing client.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gabber.sourceforge.net/">Gabber 2</ulink> GNOME Jabber IM client.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gex.sourceforge.net/">Gex</ulink> File manager</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.cvine.freeserve.co.uk/efax-gtk/">Efax-gtk</ulink> GUI frontend for the efax fax program.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://visage.sourceforge.net">Visage</ulink> Organise and visualise information.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.nongnu.org/ghosts/">Ghosts GEDCOM Viewer</ulink> Geneology database viewer.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://liarliar.sourceforge.net/">Liar Liar</ulink> Voice stress analysis tool.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://telgarsky.com/matusacode/cug.html">CUG</ulink> 3D equation plotter.</para>
+            </listitem>
+          </itemizedlist>
+        </sect3>
+        <sect3>
+          <title>Using gtkmm 1.2:</title>
+          <itemizedlist>
+            <listitem>
+              <para><ulink url="http://gensql.sourceforge.net/">genSQL</ulink>, a generic SQL GUI.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://cactus.rulez.org/projects/gnomoku/">Gnomoku</ulink>, Gomoku game for GNOME</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gnuvoice.sourceforge.net/">gnuvoice</ulink>, a GUI voicemail / speakerphone / caller ID application.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gtkmail.sourceforge.net/">gtkmail</ulink>, a MIME compliant GUI email client</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.akio-solutions.com/guillaume/">Gvier</ulink>, game based on &quot;Power of four&quot;</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://gvbox.sourceforge.net/">Gvbox</ulink>, graphical frontend to isdn4linux answering machine</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://yotam.freehosting.net/software/ped/ped.html">Ped</ulink> Path editor utility </para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://picmonger.sourceforge.net/">PicMonger</ulink> Usenet picture grabber.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://cactus.rulez.org/projects/radioactive/">RadioActive</ulink>, radio application for Video4Linux-compatible radio tuner cards.</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://softwerk.sourceforge.net/">softwerk</ulink>, software analogue MIDI sequencer</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://terraform.sourceforge.net/">terraform</ulink>, Terrain generator (very cool)</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://ickle.sourceforge.net/">ickle</ulink>, an ICQ client</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://cap.sourceforge.net/">Chained Audio Plugins</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://guillaume.cottenceau.free.fr/html/grany.html">Grany-3</ulink>, the cellular automaton simulator. </para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://paloma.sourceforge.net/">Paloma</ulink>, music
+  management system</para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://cellumat3d.sourceforge.net/">Cellumat3D</ulink>, 3D cellular automata simulator</para>
+            </listitem>
+          </itemizedlist>
+        </sect3>
+      </sect2>
+      <sect2>
+        <title>Links</title>
+        <sect3>
+          <title>GTK+ resources</title>
+          <itemizedlist>
+            <listitem>
+              <para><ulink url="http://www.gtk.org/">GTK+ homepage</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.gnome.org/">GNOME homepage</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://developer.gnome.org/">GNOME development</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://www.gimp.org/">Gimp homepage</ulink></para>
+            </listitem>
+          </itemizedlist>
+        </sect3>
+      </sect2>
+    </sect1>
+  </article>
