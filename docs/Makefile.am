@@ -30,7 +30,7 @@ DOC_INCLUDES = \
 	mailinglist.xml \
 	news.xml
 
-DOC_LINGUAS = zh_CN
+DOC_LINGUAS = es zh_CN
 
 MAINTAINERCLEANFILES = html/en/*.html $(srcdir)/html/en/*.html
 
