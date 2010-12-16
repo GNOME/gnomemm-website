@@ -1,3 +1,10 @@
+2010-12-16  Murray Cumming  <murrayc@murrayc.com>>
+
+	Books: Added links.
+
+	* docs/C/books.xml: Link to the gtkmm book for Kindle, and link to the 
+	documentation page.
+
 2010-11-26  Murray Cumming  <murrayc@murrayc.com>
 
 	Slight Makefile.am cleanup

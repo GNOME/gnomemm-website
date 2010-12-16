@@ -6,8 +6,10 @@
   <article id="books">
     <sect1>
       <title>Recommended Books</title>
+      
+      <para>The <ulink url="http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4">Programming with gtkmm</ulink> book is available for Amazon's Kindle E-Reader, and also available online along with the rest of our <ulink url="documentation.html">documentation</ulink>.</para>
       <para>
-   The gtkmm developers find these books helpful:
+   The gtkmm developers also find these books helpful:
   </para>
       <sect2>
         <title>Core books</title>
