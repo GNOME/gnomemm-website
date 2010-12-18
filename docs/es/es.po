@@ -1,15 +1,15 @@
 # Spanish translation for gnomemm-website.
 # Copyright (C) 2010 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010.
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2010-11-26 12:01+0000\n"
-"PO-Revision-Date: 2010-12-11 18:46+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"POT-Creation-Date: 2010-12-16 09:24+0000\n"
+"PO-Revision-Date: 2010-12-16 12:24+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,8 +25,8 @@ msgid ""
 "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
 "gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
 "ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 "
-"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the "
-"gtkmm-2.4 API with API additions."
+"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-"
+"2.4 API with API additions."
 msgstr ""
 
 #: C/news.xml:16(para)
@@ -178,7 +178,7 @@ msgstr ""
 
 #: C/mailinglist.xml:29(title)
 msgid "List Archives"
-msgstr ""
+msgstr "Listar archivos"
 
 #: C/mailinglist.xml:30(para)
 msgid "The archive of messages can be found at:"
@@ -189,6 +189,8 @@ msgid ""
 "gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
 "\">archive</ulink>."
 msgstr ""
+"gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
+"\">archivo</ulink>."
 
 #: C/mailinglist.xml:36(para)
 msgid ""
@@ -290,7 +292,7 @@ msgstr ""
 
 #: C/index.xml:51(para)
 msgid "Object composition"
-msgstr ""
+msgstr "Composición de objetos"
 
 #: C/index.xml:54(para)
 msgid "Automatic deallocation of dynamically allocated widgets."
@@ -306,7 +308,7 @@ msgstr "Uso completo de los espacios de nombres de C++."
 
 #: C/index.xml:63(para)
 msgid "No macros."
-msgstr ""
+msgstr "Sin macros."
 
 #: C/index.xml:66(para)
 msgid ""
@@ -326,11 +328,11 @@ msgstr ""
 
 #: C/index.xml:79(title)
 msgid "Other gtkmm-related libraries"
-msgstr ""
+msgstr "Otras bibliotecas relacionadas con gtkmm"
 
 #: C/index.xml:81(title) C/git.xml:61(title)
 msgid "gnomemm"
-msgstr ""
+msgstr "gnomemm"
 
 #: C/index.xml:82(para)
 msgid ""
@@ -358,7 +360,7 @@ msgid ""
 "+</ulink> (signal/slots)."
 msgstr ""
 
-#: C/index.xml:101(title) C/bugs.xml:26(title) C/books.xml:39(title)
+#: C/index.xml:101(title) C/bugs.xml:26(title) C/books.xml:41(title)
 msgid "Others"
 msgstr "Otros"
 
@@ -398,7 +400,7 @@ msgstr ""
 
 #: C/git.xml:17(emphasis)
 msgid "Anonymous Access"
-msgstr ""
+msgstr "Acceso anónimo"
 
 #: C/git.xml:18(para)
 msgid ""
@@ -525,17 +527,19 @@ msgstr "libpanelappletmm"
 
 #: C/extra.xml:8(title) C/gnomemm-website.xml:57(ulink)
 msgid "Additional Resources"
-msgstr ""
+msgstr "Recursos adicionales"
 
 #: C/extra.xml:10(title)
 msgid "Available widgets"
-msgstr ""
+msgstr "Widgets disponibles"
 
 #: C/extra.xml:15(para)
 msgid ""
 "<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL "
 "rendering for gtkmm"
 msgstr ""
+"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> "
+"renderizado OpenGL para gtkmm"
 
 #: C/extra.xml:18(para)
 msgid ""
@@ -548,6 +552,8 @@ msgid ""
 "<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> Plot widget for "
 "scientific applications"
 msgstr ""
+"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> widget de Plot "
+"para aplicaciones científicas"
 
 #: C/extra.xml:24(para)
 msgid ""
@@ -857,6 +863,8 @@ msgid ""
 "<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> Foreign "
 "language learning tool."
 msgstr ""
+"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> "
+"Herramienta de aprendizaje de idioma extranjero."
 
 #: C/extra.xml:189(para)
 msgid ""
@@ -880,6 +888,8 @@ msgid ""
 "<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> source code package "
 "organizer"
 msgstr ""
+"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> organizador de "
+"paquetes de código fuente"
 
 #: C/extra.xml:201(para)
 msgid ""
@@ -889,7 +899,7 @@ msgstr ""
 
 #: C/extra.xml:206(title)
 msgid "Using gtkmm 2.0/2.2:"
-msgstr ""
+msgstr "Usando gtkmm 2.0/2.2:"
 
 #: C/extra.xml:209(para)
 msgid ""
@@ -1014,7 +1024,7 @@ msgstr ""
 
 #: C/extra.xml:274(ulink)
 msgid "Chained Audio Plugins"
-msgstr ""
+msgstr "Complementos de sonido encadenados"
 
 #: C/extra.xml:277(para)
 msgid ""
@@ -1226,6 +1236,8 @@ msgid ""
 "You can download GTK+ and GNOME source code from <ulink url=\"http://"
 "download.gnome.org\">download.gnome.org</ulink>."
 msgstr ""
+"Puede descargar el código fuente de GTK+ y de GNOME desde <ulink url="
+"\"http://download.gnome.org\">download.gnome.org</ulink>."
 
 #: C/documentation.xml:13(title)
 msgid "Documentation Overview"
@@ -1233,15 +1245,15 @@ msgstr "Resumen de la documentación"
 
 #: C/documentation.xml:22(title)
 msgid "Getting Started with gtkmm"
-msgstr ""
+msgstr "Primeros pasos con gtkmm"
 
 #: C/documentation.xml:23(para)
 msgid ""
 "You might start by reading the <emphasis role=\"bold\">Programming with "
 "gtkmm</emphasis> online book. This book is also <ulink url=\"http://www."
 "amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;"
-"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;"
-"creativeASIN=B0049P1RP4\">available on the Amazon Kindle</ulink>."
+"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4"
+"\">available on the Amazon Kindle</ulink>."
 msgstr ""
 
 #: C/documentation.xml:24(para)
@@ -1252,7 +1264,7 @@ msgstr ""
 
 #: C/documentation.xml:27(ulink)
 msgid "Installation"
-msgstr ""
+msgstr "Instalación"
 
 #: C/documentation.xml:30(ulink)
 msgid "Basics"
@@ -1284,7 +1296,7 @@ msgstr ""
 
 #: C/documentation.xml:50(title)
 msgid "API Reference"
-msgstr ""
+msgstr "Referencia del API"
 
 #: C/documentation.xml:53(th)
 msgid "gtkmm (Gtk::)"
@@ -1316,7 +1328,7 @@ msgstr ""
 
 #: C/documentation.xml:78(ulink)
 msgid "Dialogs"
-msgstr ""
+msgstr "Diálogos"
 
 #: C/documentation.xml:81(ulink)
 msgid "Menus and Toolbars"
@@ -1380,7 +1392,7 @@ msgstr ""
 
 #: C/documentation.xml:134(ulink)
 msgid "Streams"
-msgstr ""
+msgstr "Flujos"
 
 #: C/documentation.xml:137(ulink)
 msgid "Gio Namespace"
@@ -1432,7 +1444,7 @@ msgstr ""
 
 #: C/documentation.xml:183(title)
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: C/documentation.xml:184(para)
 msgid ""
@@ -1474,6 +1486,8 @@ msgid ""
 "<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
 "\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
 msgstr ""
+"<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
+"\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
 
 #: C/developers.xml:25(ulink)
 msgid "Daniel Elstner"
@@ -1488,6 +1502,8 @@ msgid ""
 "<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
 "url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
 msgstr ""
+"<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
+"url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
 
 #: C/developers.xml:36(para)
 msgid "Karl Nelson"
@@ -1498,6 +1514,8 @@ msgid ""
 "<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url="
 "\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
 msgstr ""
+"<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url="
+"\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
 
 #: C/developers.xml:42(ulink)
 msgid "Andreas Holzmann"
@@ -1539,7 +1557,7 @@ msgstr ""
 
 #: C/commercial_support.xml:8(title) C/gnomemm-website.xml:54(ulink)
 msgid "Commercial Support"
-msgstr ""
+msgstr "Soporte comercial"
 
 #: C/commercial_support.xml:9(para)
 msgid ""
@@ -1556,7 +1574,7 @@ msgstr ""
 
 #: C/commercial_support.xml:14(th)
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 #: C/commercial_support.xml:17(ulink)
 msgid "Openismus"
@@ -1595,11 +1613,11 @@ msgstr "cactus.rulez.org"
 
 #: C/commercial_support.xml:25(td)
 msgid "<placeholder-1/>(<placeholder-2/>)"
-msgstr ""
+msgstr "<placeholder-1/>(<placeholder-2/>)"
 
 #: C/commercial_support.xml:26(td)
 msgid "Hungary"
-msgstr ""
+msgstr "Hungría"
 
 #: C/commercial_support.xml:31(para)
 msgid "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Databases"
@@ -1774,7 +1792,7 @@ msgstr ""
 
 #: C/bugs.xml:8(title) C/gnomemm-website.xml:48(ulink)
 msgid "Bugs"
-msgstr ""
+msgstr "Errores"
 
 #: C/bugs.xml:10(para)
 msgid ""
@@ -1954,51 +1972,60 @@ msgstr ""
 msgid "Recommended Books"
 msgstr "Libros recomendados"
 
-#: C/books.xml:9(para)
-msgid "The gtkmm developers find these books helpful:"
+#: C/books.xml:10(para)
+msgid ""
+"The <ulink url=\"http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;"
+"tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;"
+"creativeASIN=B0049P1RP4\">Programming with gtkmm</ulink> book is available "
+"for Amazon's Kindle E-Reader, and also available online along with the rest "
+"of our <ulink url=\"documentation.html\">documentation</ulink>."
 msgstr ""
 
-#: C/books.xml:13(title)
+#: C/books.xml:11(para)
+msgid "The gtkmm developers also find these books helpful:"
+msgstr ""
+
+#: C/books.xml:15(title)
 msgid "Core books"
 msgstr ""
 
-#: C/books.xml:17(ulink)
+#: C/books.xml:19(ulink)
 msgid "The C++ Programming Language, Bjarne Stroustrup"
 msgstr ""
 
-#: C/books.xml:20(ulink)
+#: C/books.xml:22(ulink)
 msgid "The C++ Standard Library, Nicolai M. Josuttis"
 msgstr ""
 
-#: C/books.xml:23(ulink)
+#: C/books.xml:25(ulink)
 msgid "Design Patterns, Erich Gamma et al"
 msgstr ""
 
-#: C/books.xml:29(title)
+#: C/books.xml:31(title)
 msgid "For beginners"
 msgstr "Para principiantes"
 
-#: C/books.xml:33(ulink)
+#: C/books.xml:35(ulink)
 msgid ""
 "Accelerated C++ - Practical Programming by Example, Andrew Koenig &amp; "
 "Barbara E. Moo"
 msgstr ""
 
-#: C/books.xml:43(ulink)
+#: C/books.xml:45(ulink)
 msgid ""
 "About Face 2.0: The essentials of interaction design, Alan Cooper &amp; "
 "Robert M. Reimann"
 msgstr ""
 
-#: C/books.xml:46(ulink)
+#: C/books.xml:48(ulink)
 msgid "Advanced CORBA Programming with C++, Michi Henning &amp; Steve Vinoski"
 msgstr ""
 
-#: C/books.xml:49(ulink)
+#: C/books.xml:51(ulink)
 msgid "GNU Autoconf, Automake, and Libtool, Gary Vaughan et al"
 msgstr ""
 
-#: C/books.xml:52(ulink)
+#: C/books.xml:54(ulink)
 msgid "Programming With Gnu Software, Michael Kosta Loukides et al"
 msgstr ""
 
