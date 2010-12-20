@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2010-12-16 09:24+0000\n"
-"PO-Revision-Date: 2010-12-16 12:24+0100\n"
+"POT-Creation-Date: 2010-12-18 12:39+0000\n"
+"PO-Revision-Date: 2010-12-20 12:31+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -144,11 +144,11 @@ msgstr ""
 
 #: C/mailinglist.xml:8(title)
 msgid "Mailing List"
-msgstr ""
+msgstr "Lista de correo"
 
 #: C/mailinglist.xml:10(title)
 msgid "Where is the gtkmm mailing list?"
-msgstr ""
+msgstr "¿Dónde está la lista de correo de gtkmm?"
 
 #: C/mailinglist.xml:13(para)
 msgid ""
@@ -182,7 +182,7 @@ msgstr "Listar archivos"
 
 #: C/mailinglist.xml:30(para)
 msgid "The archive of messages can be found at:"
-msgstr ""
+msgstr "El archivo de mensajes se puede encontrar en:"
 
 #: C/mailinglist.xml:33(para)
 msgid ""
@@ -645,6 +645,8 @@ msgid ""
 "<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> Creation "
 "of hierarchical text documents."
 msgstr ""
+"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> Creación "
+"de documentos de texto jerárquicos."
 
 #: C/extra.xml:71(para)
 msgid ""
@@ -916,6 +918,7 @@ msgstr ""
 #: C/extra.xml:215(para)
 msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> File manager"
 msgstr ""
+"<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> Gestor de archivos"
 
 #: C/extra.xml:218(para)
 msgid ""
@@ -962,6 +965,8 @@ msgid ""
 "<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink>, "
 "Gomoku game for GNOME"
 msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink>, "
+"juego Gomoku para GNOME"
 
 #: C/extra.xml:244(para)
 msgid ""
@@ -1081,7 +1086,7 @@ msgstr ""
 
 #: C/download.xml:14(title)
 msgid "<anchor id=\"Binary\"/>Binary"
-msgstr ""
+msgstr "<anchor id=\"Binary\"/>Binario"
 
 #: C/download.xml:15(para)
 msgid ""
@@ -1155,7 +1160,7 @@ msgstr ""
 
 #: C/download.xml:48(title)
 msgid "<anchor id=\"Source\"/>Source"
-msgstr ""
+msgstr "<anchor id=\"Source\"/>Fuente"
 
 #: C/download.xml:50(title)
 msgid "<anchor id=\"devel\"/>Unstable gtkmm and GNOME bindings:"
@@ -1276,7 +1281,7 @@ msgstr "Señales"
 
 #: C/documentation.xml:36(ulink)
 msgid "Container Widgets"
-msgstr ""
+msgstr "Widgets contenedores"
 
 #: C/documentation.xml:39(ulink) C/documentation.xml:72(ulink)
 msgid "TreeView"
@@ -1284,15 +1289,15 @@ msgstr "TreeView"
 
 #: C/documentation.xml:42(ulink)
 msgid "Memory Management"
-msgstr ""
+msgstr "Gestión de la memoria"
 
 #: C/documentation.xml:45(ulink)
 msgid "Glade and Gtk::Builder"
-msgstr ""
+msgstr "Glade y Gtk::Builder"
 
 #: C/documentation.xml:25(para)
 msgid "Selected chapters:<placeholder-1/>"
-msgstr ""
+msgstr "Capítulos seleccionados:<placeholder-1/>"
 
 #: C/documentation.xml:50(title)
 msgid "API Reference"
@@ -1332,11 +1337,11 @@ msgstr "Diálogos"
 
 #: C/documentation.xml:81(ulink)
 msgid "Menus and Toolbars"
-msgstr ""
+msgstr "Menús y barras de herramientas"
 
 #: C/documentation.xml:84(ulink)
 msgid "Main loop"
-msgstr ""
+msgstr "Bucle principal"
 
 #: C/documentation.xml:87(ulink)
 msgid "enums and flags"
@@ -1348,7 +1353,7 @@ msgstr ""
 
 #: C/documentation.xml:93(ulink)
 msgid "Gtk Namespace"
-msgstr ""
+msgstr "Espacio de nombres de GTK"
 
 #: C/documentation.xml:100(ulink)
 msgid "ustring"
@@ -1356,7 +1361,7 @@ msgstr "ustring"
 
 #: C/documentation.xml:103(ulink)
 msgid "Exceptions"
-msgstr ""
+msgstr "Excepciones"
 
 #: C/documentation.xml:106(ulink)
 msgid "RefPtr&lt;&gt;"
