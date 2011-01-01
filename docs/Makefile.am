@@ -80,7 +80,7 @@ html/zh_CN/index.html: $(addprefix $(srcdir)/zh_CN/,$(doc_module_with_ext) $(DOC
 	$(AM_V_GEN)$(XSLTPROC) -o html/$(thelocale)/ --xinclude param.xsl $(srcdir)/$(thelocale)/$(doc_module_with_ext)
 
 html/de/index.html: $(addprefix $(srcdir)/de/,$(doc_module_with_ext) $(DOC_INCLUDES))
-  thelocale=zh_CN
+  thelocale=de
 	$(AM_V_at)rm -fr html/$(thelocale)
 	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
 	$(AM_V_GEN)$(XSLTPROC) -o html/$(thelocale)/ --xinclude param.xsl $(srcdir)/$(thelocale)/$(doc_module_with_ext)
