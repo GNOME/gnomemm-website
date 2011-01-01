@@ -32,7 +32,9 @@ DOC_INCLUDES = \
 
 DOC_LINGUAS = de es zh_CN
 
-MAINTAINERCLEANFILES = html/en/*.html $(srcdir)/html/en/*.html
+MAINTAINERCLEANFILES =  html/en/*.html $(srcdir)/html/en/*.html	\
+			html/zh_CN/*.html $(srcdir)/html/zh_CN/*.html	\
+			html/de/*.html $(srcdir)/html/de/*.html
 
 tutorialdir         = $(gnomemmwebsite_docdir)/tutorial
 tutorial_htmldir    = $(tutorialdir)/html
@@ -58,7 +60,7 @@ dist_tutorial_icons_DATA =
 
 include $(top_srcdir)/build/gnome-doc-utils.make
 
-all-local: $(DOC_LINGUAS) $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS)) html/en/index.html html/zh_CN/index.html
+all-local: $(DOC_LINGUAS) $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS)) html/en/index.html html/zh_CN/index.html html/de/index.html
 
 $(DOC_LINGUAS):
 	@$(MKDIR_P) $@
@@ -72,6 +74,12 @@ html/en/index.html: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUD
 	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $(srcdir)/C/$(doc_module_with_ext)
 
 html/zh_CN/index.html: $(addprefix $(srcdir)/zh_CN/,$(doc_module_with_ext) $(DOC_INCLUDES))
+  thelocale=zh_CN
+	$(AM_V_at)rm -fr html/$(thelocale)
+	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
+	$(AM_V_GEN)$(XSLTPROC) -o html/$(thelocale)/ --xinclude param.xsl $(srcdir)/$(thelocale)/$(doc_module_with_ext)
+
+html/de/index.html: $(addprefix $(srcdir)/de/,$(doc_module_with_ext) $(DOC_INCLUDES))
   thelocale=zh_CN
 	$(AM_V_at)rm -fr html/$(thelocale)
 	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
