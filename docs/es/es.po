@@ -2,13 +2,13 @@
 # Copyright (C) 2010 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2010-12-18 12:39+0000\n"
-"PO-Revision-Date: 2010-12-20 12:31+0100\n"
+"POT-Creation-Date: 2011-01-01 13:41+0000\n"
+"PO-Revision-Date: 2011-01-02 14:21+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,8 +25,8 @@ msgid ""
 "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
 "gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
 "ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 "
-"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-"
-"2.4 API with API additions."
+"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the "
+"gtkmm-2.4 API with API additions."
 msgstr ""
 
 #: C/news.xml:16(para)
@@ -288,7 +288,7 @@ msgstr ""
 
 #: C/index.xml:45(para)
 msgid "Full internationalisation with UTF8."
-msgstr ""
+msgstr "Internacionalización completa con UTF8."
 
 #: C/index.xml:51(para)
 msgid "Object composition"
@@ -348,6 +348,8 @@ msgstr ""
 msgid ""
 "The gnomemm libraries cover some of these other tasks, but they are optional."
 msgstr ""
+"Las bibliotecas de gnomemm cubren algunas de estas tareas, pero son "
+"opcionales."
 
 #: C/index.xml:95(title) C/download.xml:95(ulink)
 msgid "libsigc++"
@@ -382,6 +384,10 @@ msgid ""
 "repository. Additional information about git.gnome.org is available at "
 "<ulink url=\"http://live.gnome.org/Git\">live.gnome.org/Git</ulink>."
 msgstr ""
+"Usamos <ulink url=\"http://git-scm.com/\">Git</ulink> para mantener nuestro "
+"código fuente, en el repositorio Git de <ulink url=\"http://www.gnome.org"
+"\">GNOME</ulink>. Consulte la información adicional sobre git.gnome.org en "
+"<ulink url=\"http://live.gnome.org/Git\">live.gnome.org/Git</ulink>."
 
 #: C/git.xml:12(para)
 msgid ""
@@ -546,6 +552,8 @@ msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
 "\">gtkmozembedmm</ulink> Mozilla-based web browser widget"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+"\">gtkmozembedmm</ulink> widget para navegador web basado en Mozilla"
 
 #: C/extra.xml:21(para)
 msgid ""
@@ -560,35 +568,47 @@ msgid ""
 "<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink>, "
 "Wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
 msgstr ""
+"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink>, "
+"envolventes para GtkSourceView (Gtk::TextView con resaltado de sintaxis)"
 
 #: C/extra.xml:27(para)
 msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
 "\">gstreamermm</ulink>, Wrappers for gstreamer (streaming media)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
+"\">gstreamermm</ulink>, envolventes para gstreamer (dispositivo de streaming)"
 
 #: C/extra.xml:30(para)
 msgid ""
 "<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> Terminal widget"
 msgstr ""
+"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> widget de terminal"
 
 #: C/extra.xml:33(para)
 msgid ""
 "<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink>, "
 "Wrappers for GtkExtra (plot, sheet, etc)"
 msgstr ""
+"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink>, "
+"envolventes para GtkExtra (plot, sheet, etc)"
 
 #: C/extra.xml:36(para)
 msgid ""
 "<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
 "ulink> Canvas for data flow systems."
 msgstr ""
+"<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
+"ulink> ventana para sistemas de flujo de datos."
 
 #: C/extra.xml:39(para)
 msgid ""
 "<ulink url=\"http://www.xs4all.nl/~carlo17/cwchessboard/index.html"
 "\">cwchessboard</ulink>, A C++ chess board tool set for gtkmm."
 msgstr ""
+"<ulink url=\"http://www.xs4all.nl/~carlo17/cwchessboard/index.html"
+"\">cwchessboard</ulink>, un conjunto de herramientas de tablero de ajedrez "
+"en C++ para gtkmm."
 
 #: C/extra.xml:11(para)
 msgid ""
@@ -606,6 +626,9 @@ msgid ""
 "Designer for GTK+. Glade UI files can be used from a gtkmm program by using "
 "Gtk::Builder."
 msgstr ""
+"<ulink url=\"http://glade.gnome.org/\">Glade</ulink> - diseñador de "
+"interfaces de usuario para GTK+. Los archivos UI de Glade se pueden usar "
+"desde un programa de gtkmm usando Gtk::Builder."
 
 #: C/extra.xml:50(para)
 msgid ""
@@ -613,6 +636,9 @@ msgid ""
 "for automatically generating gtkmm code. (Note: glademm is different than "
 "libglademm or Gtk::Builder)"
 msgstr ""
+"<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink>: módulo de "
+"Glade para generar código gtkmm automáticamente. (Nota: glademm es diferente "
+"de libglademm o de Gtk::Builder)"
 
 #: C/extra.xml:53(para)
 msgid ""
@@ -639,13 +665,15 @@ msgid ""
 "<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> Multi-file "
 "search/replace with visual feedback."
 msgstr ""
+"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> búsqueda/"
+"reemplazado de varios archivos con comentarios visuales."
 
 #: C/extra.xml:68(para)
 msgid ""
 "<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> Creation "
 "of hierarchical text documents."
 msgstr ""
-"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> Creación "
+"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> creación "
 "de documentos de texto jerárquicos."
 
 #: C/extra.xml:71(para)
@@ -653,10 +681,14 @@ msgid ""
 "<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
 "Renames batches of files."
 msgstr ""
+"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
+"renombra baterías de archivos."
 
 #: C/extra.xml:74(para)
 msgid "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> Audio player."
 msgstr ""
+"<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> reproductor de "
+"audio."
 
 #: C/extra.xml:79(para)
 msgid "<ulink url=\"http://www.glom.org/\">Glom</ulink> Database Environment."
@@ -866,7 +898,7 @@ msgid ""
 "language learning tool."
 msgstr ""
 "<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> "
-"Herramienta de aprendizaje de idioma extranjero."
+"herramienta de aprendizaje de idioma extranjero."
 
 #: C/extra.xml:189(para)
 msgid ""
@@ -918,7 +950,7 @@ msgstr ""
 #: C/extra.xml:215(para)
 msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> File manager"
 msgstr ""
-"<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> Gestor de archivos"
+"<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> gestor de archivos"
 
 #: C/extra.xml:218(para)
 msgid ""
@@ -1257,8 +1289,8 @@ msgid ""
 "You might start by reading the <emphasis role=\"bold\">Programming with "
 "gtkmm</emphasis> online book. This book is also <ulink url=\"http://www."
 "amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;"
-"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4"
-"\">available on the Amazon Kindle</ulink>."
+"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;"
+"creativeASIN=B0049P1RP4\">available on the Amazon Kindle</ulink>."
 msgstr ""
 
 #: C/documentation.xml:24(para)
@@ -1930,7 +1962,7 @@ msgstr ""
 
 #: C/bugs.xml:91(para)
 msgid "Take code from <ulink url=\"git.html\">git</ulink>"
-msgstr "Obten el código del <ulink url=\"git.html\">git</ulink>"
+msgstr "Obtenga el código de <ulink url=\"git.html\">git</ulink>"
 
 #: C/bugs.xml:94(para)
 msgid "Modify that version"
@@ -2036,13 +2068,13 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnomemm-website.xml:75(None)
+#: C/gnomemm-website.xml:78(None)
 msgid "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnomemm-website.xml:82(None)
+#: C/gnomemm-website.xml:85(None)
 msgid "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
@@ -2098,7 +2130,11 @@ msgstr "Inglés"
 msgid "中文"
 msgstr "中文"
 
-#: C/gnomemm-website.xml:87(ulink)
+#: C/gnomemm-website.xml:71(ulink)
+msgid "Deutsch"
+msgstr ""
+
+#: C/gnomemm-website.xml:90(ulink)
 msgid "Contact Us"
 msgstr "Contáctenos"
 
