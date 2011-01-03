@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-01 13:41+0000\n"
-"PO-Revision-Date: 2011-01-02 14:21+0100\n"
+"POT-Creation-Date: 2011-01-02 13:25+0000\n"
+"PO-Revision-Date: 2011-01-03 18:00+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,8 +25,8 @@ msgid ""
 "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
 "gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
 "ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 "
-"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the "
-"gtkmm-2.4 API with API additions."
+"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-"
+"2.4 API with API additions."
 msgstr ""
 
 #: C/news.xml:16(para)
@@ -271,7 +271,7 @@ msgstr "Características"
 
 #: C/index.xml:33(para)
 msgid "Use inheritance to derive custom widgets."
-msgstr ""
+msgstr "Usar herencia para derivar widgets personalizados."
 
 #: C/index.xml:36(para)
 msgid "Type-safe signal handlers, in standard C++."
@@ -693,35 +693,45 @@ msgstr ""
 #: C/extra.xml:79(para)
 msgid "<ulink url=\"http://www.glom.org/\">Glom</ulink> Database Environment."
 msgstr ""
+"<ulink url=\"http://www.glom.org/\">Glom</ulink> entorno de bases de datos."
 
 #: C/extra.xml:82(para)
 msgid ""
 "<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink>, "
 "graphical resource editor for PalmOS applications"
 msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink>, "
+"editor gráfico de recursos para aplicaciones de PalmOS"
 
 #: C/extra.xml:85(para)
 msgid ""
 "<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> Vector graphics "
 "drawing."
 msgstr ""
+"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> editor de gráficos "
+"vectoriales."
 
 #: C/extra.xml:88(para)
 msgid ""
 "<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> peer to peer "
 "sharing of freely licensed music."
 msgstr ""
+"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> compartición punto "
+"a punto de música libre."
 
 #: C/extra.xml:91(para)
 msgid ""
 "<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> IP address "
 "calculator."
 msgstr ""
+"<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> calculadora "
+"de direcciones IP."
 
 #: C/extra.xml:94(para)
 msgid ""
 "<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modelling and animation."
 msgstr ""
+"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> modelado 3-D y animación."
 
 #: C/extra.xml:97(para)
 msgid ""
@@ -741,24 +751,33 @@ msgid ""
 "digital video effects plug-in for <ulink url=\"http://www.kinodv.org/"
 "\">Kino</ulink>."
 msgstr ""
+"<ulink url=\"http://kino.schirmacher.de/article/view/51/1/11\">timfx</ulink> "
+"complemento de efectos digitales de vídeo para <ulink url=\"http://www."
+"kinodv.org/\">Kino</ulink>."
 
 #: C/extra.xml:106(para)
 msgid ""
 "<ulink url=\"http://www.cs.auc.dk/~olau/monster-masher/\">Monster Masher</"
 "ulink> Game."
 msgstr ""
+"<ulink url=\"http://www.cs.auc.dk/~olau/monster-masher/\">Monster Masher</"
+"ulink> juego."
 
 #: C/extra.xml:109(para)
 msgid ""
 "<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> disk "
 "partitioning tool."
 msgstr ""
+"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> herramienta "
+"de particionado de discos."
 
 #: C/extra.xml:114(para)
 msgid ""
 "<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink>, a cdrdao "
 "frontend."
 msgstr ""
+"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink>, un frontal "
+"para cdrdao."
 
 #: C/extra.xml:117(para)
 msgid ""
@@ -771,6 +790,8 @@ msgid ""
 "<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
 "XML Editor."
 msgstr ""
+"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
+"editor XML."
 
 #: C/extra.xml:123(para)
 msgid ""
@@ -782,10 +803,14 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> Collaborative text editor."
 msgstr ""
+"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> editor de texto "
+"colaborativo."
 
 #: C/extra.xml:129(para)
 msgid "<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink> Metasearch tool."
 msgstr ""
+"<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink> herramienta para "
+"metabúsquedas."
 
 #: C/extra.xml:132(para)
 msgid ""
@@ -803,6 +828,8 @@ msgid ""
 "<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> Medical image "
 "viewer."
 msgstr ""
+"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> visor de "
+"imágenes médicas."
 
 #: C/extra.xml:141(para)
 msgid ""
@@ -821,11 +848,15 @@ msgid ""
 "<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> Card "
 "game."
 msgstr ""
+"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> juego "
+"de cartas."
 
 #: C/extra.xml:150(para)
 msgid ""
 "<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> Internet Telephone."
 msgstr ""
+"<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> teléfono para "
+"internet."
 
 #: C/extra.xml:153(para)
 msgid ""
@@ -850,6 +881,8 @@ msgid ""
 "<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI for the GNU "
 "debugger gdb"
 msgstr ""
+"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> IU para el "
+"depurador gdb de GNU."
 
 #: C/extra.xml:165(para)
 msgid ""
@@ -862,6 +895,8 @@ msgid ""
 "<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> File "
 "Synchronization over USB."
 msgstr ""
+"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> "
+"sincronización de archivos sobre USB."
 
 #: C/extra.xml:171(para)
 msgid ""
@@ -905,11 +940,15 @@ msgid ""
 "<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> sound "
 "editor."
 msgstr ""
+"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> editor de "
+"sonido."
 
 #: C/extra.xml:192(para)
 msgid ""
 "<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC client"
 msgstr ""
+"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> cliente de "
+"IRC."
 
 #: C/extra.xml:195(para)
 msgid ""
@@ -1289,8 +1328,8 @@ msgid ""
 "You might start by reading the <emphasis role=\"bold\">Programming with "
 "gtkmm</emphasis> online book. This book is also <ulink url=\"http://www."
 "amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;"
-"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;"
-"creativeASIN=B0049P1RP4\">available on the Amazon Kindle</ulink>."
+"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4"
+"\">available on the Amazon Kindle</ulink>."
 msgstr ""
 
 #: C/documentation.xml:24(para)
