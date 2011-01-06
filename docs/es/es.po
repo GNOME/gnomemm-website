@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-02 13:25+0000\n"
-"PO-Revision-Date: 2011-01-03 18:00+0100\n"
+"POT-Creation-Date: 2011-01-03 19:30+0000\n"
+"PO-Revision-Date: 2011-01-04 13:53+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -626,7 +626,7 @@ msgid ""
 "Designer for GTK+. Glade UI files can be used from a gtkmm program by using "
 "Gtk::Builder."
 msgstr ""
-"<ulink url=\"http://glade.gnome.org/\">Glade</ulink> - diseñador de "
+"<ulink url=\"http://glade.gnome.org/\">Glade</ulink>: diseñador de "
 "interfaces de usuario para GTK+. Los archivos UI de Glade se pueden usar "
 "desde un programa de gtkmm usando Gtk::Builder."
 
@@ -638,7 +638,7 @@ msgid ""
 msgstr ""
 "<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink>: módulo de "
 "Glade para generar código gtkmm automáticamente. (Nota: glademm es diferente "
-"de libglademm o de Gtk::Builder)"
+"de libglademm o de Gtk::Builder)."
 
 #: C/extra.xml:53(para)
 msgid ""
@@ -1532,7 +1532,7 @@ msgstr ""
 
 #: C/developers.xml:8(title)
 msgid "gtkmm Development"
-msgstr ""
+msgstr "Desarrollo de gtkmm"
 
 #: C/developers.xml:9(para)
 msgid ""
@@ -1551,11 +1551,11 @@ msgstr ""
 
 #: C/developers.xml:17(title)
 msgid "Developers and Contributors"
-msgstr ""
+msgstr "Desarrolladores y contribuidores"
 
 #: C/developers.xml:19(title)
 msgid "Current maintainers"
-msgstr ""
+msgstr "Mantenedores actuales"
 
 #: C/developers.xml:22(para)
 msgid ""
@@ -1571,7 +1571,7 @@ msgstr "Daniel Elstner"
 
 #: C/developers.xml:30(title)
 msgid "Other gtkmm developers"
-msgstr ""
+msgstr "Otros desarrolladores de gtkmm"
 
 #: C/developers.xml:33(para)
 msgid ""
@@ -1615,7 +1615,7 @@ msgstr "Jonathon Jongsma"
 
 #: C/developers.xml:59(title)
 msgid "Previous maintainers"
-msgstr ""
+msgstr "Mantenedores anteriores"
 
 #: C/developers.xml:62(ulink)
 msgid "Guillaume Laurent"
@@ -1646,7 +1646,7 @@ msgstr ""
 
 #: C/commercial_support.xml:13(th)
 msgid "Name, email"
-msgstr ""
+msgstr "Nombre, correo-e"
 
 #: C/commercial_support.xml:14(th)
 msgid "Location"
@@ -1663,7 +1663,7 @@ msgstr ""
 
 #: C/commercial_support.xml:18(td)
 msgid "Germany, Austria, UK"
-msgstr ""
+msgstr "Alemania, Austria, Reino Unido"
 
 #: C/commercial_support.xml:21(ulink)
 msgid "Made to Order Software Corp."
@@ -1677,7 +1677,7 @@ msgstr ""
 
 #: C/commercial_support.xml:22(td)
 msgid "USA, UK"
-msgstr ""
+msgstr "EE. UU., Reino Unido"
 
 #: C/commercial_support.xml:25(ulink)
 msgid "Gergő Érdi"
@@ -1697,17 +1697,20 @@ msgstr "Hungría"
 
 #: C/commercial_support.xml:31(para)
 msgid "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Databases"
-msgstr ""
+msgstr "<ulink url=\"http://www.mysql.com\">MySQL</ulink>: bases de datos."
 
 #: C/commercial_support.xml:34(para)
 msgid ""
 "<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualization, "
 "network management"
 msgstr ""
+"<ulink url=\"http://www.vmware.com/\">VMWare</ulink>: virtualización, "
+"administración de redes."
 
 #: C/commercial_support.xml:37(para)
 msgid "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3 Downloader"
 msgstr ""
+"<ulink url=\"http://www.amazon.com/\">Amazon</ulink>: descargas en MP3."
 
 #: C/commercial_support.xml:40(para)
 msgid ""
@@ -1743,6 +1746,8 @@ msgid ""
 "<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - "
 "military/defense"
 msgstr ""
+"<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink>: "
+"militar/defensa."
 
 #: C/commercial_support.xml:58(para)
 msgid ""
@@ -1755,6 +1760,7 @@ msgid ""
 "<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - electrical "
 "engineering"
 msgstr ""
+"<ulink url=\"http://www.isotrol.com\">Isotrol</ulink>: ingeniería eléctrica."
 
 #: C/commercial_support.xml:64(para)
 msgid ""
@@ -1839,12 +1845,15 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - Banking"
 msgstr ""
+"<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink>: banca."
 
 #: C/commercial_support.xml:109(para)
 msgid ""
 "<ulink url=\"http://www.innoventis.de/htm/produkte_canmonitor.php"
 "\">Innoventis</ulink> - Automotive systems"
 msgstr ""
+"<ulink url=\"http://www.innoventis.de/htm/produkte_canmonitor.php"
+"\">Innoventis</ulink>: sistemas de automoción."
 
 #: C/commercial_support.xml:29(para)
 msgid ""
@@ -1878,7 +1887,7 @@ msgstr ""
 
 #: C/bugs.xml:13(title)
 msgid "Current bugs and patches"
-msgstr ""
+msgstr "Errores actuales y parches"
 
 #: C/bugs.xml:16(para)
 msgid ""
@@ -1919,10 +1928,20 @@ msgid ""
 "product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
 "\">gnome-love bugs</ulink> - a good way to get involved."
 msgstr ""
+"<ulink url=\"https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;"
+"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
+"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
+"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
+"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
+"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
+"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
+"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
+"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
+"\">errores en gnome-love</ulink>: una buena manera de involucrarse."
 
 #: C/bugs.xml:32(ulink)
 msgid "Bugs fixed in the last 30 days"
-msgstr ""
+msgstr "Errores corregidos en últimos 30 días"
 
 #: C/bugs.xml:35(para)
 msgid ""
@@ -2019,6 +2038,8 @@ msgstr ""
 msgid ""
 "Use git to create a patch <command> git diff -u &gt; my_fix.patch </command>"
 msgstr ""
+"Usar git para crear un parche <command> git diff -u &gt; mi_parche.patch </"
+"command>"
 
 #: C/bugs.xml:107(para)
 msgid "Add the patch to bugzilla (see above)."
@@ -2038,7 +2059,7 @@ msgstr ""
 
 #: C/bugs.xml:122(para)
 msgid "If you cannot compile gtkmm."
-msgstr ""
+msgstr "Si no puede compilar gtkmm."
 
 #: C/bugs.xml:125(para)
 msgid "If you have a good idea of how to make gtkmm better."
