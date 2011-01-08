@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-03 19:30+0000\n"
-"PO-Revision-Date: 2011-01-04 13:53+0100\n"
+"POT-Creation-Date: 2011-01-06 09:55+0000\n"
+"PO-Revision-Date: 2011-01-07 17:29+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -397,6 +397,12 @@ msgid ""
 "cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> module which "
 "contains the gtkmm book and its examples. See below for instructions."
 msgstr ""
+"glibmm anyd gtkmm están en los módulos <ulink url=\"http://git.gnome.org/"
+"cgit/glibmm/tree/\">glibmm</ulink> y <ulink url=\"http://git.gnome.org/cgit/"
+"gtkmm/tree/\">gtkmm</ulink>. También hay un módulo <ulink url=\"http://git."
+"gnome.org/cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> que "
+"contiene el libro de gtkmm y sus ejemplos. Consulte las instrucciones más "
+"abajo."
 
 #: C/git.xml:14(para)
 msgid ""
@@ -544,7 +550,7 @@ msgid ""
 "<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL "
 "rendering for gtkmm"
 msgstr ""
-"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> "
+"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink>: "
 "renderizado OpenGL para gtkmm"
 
 #: C/extra.xml:18(para)
@@ -553,14 +559,14 @@ msgid ""
 "\">gtkmozembedmm</ulink> Mozilla-based web browser widget"
 msgstr ""
 "<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
-"\">gtkmozembedmm</ulink> widget para navegador web basado en Mozilla"
+"\">gtkmozembedmm</ulink>: widget para navegador web basado en Mozilla"
 
 #: C/extra.xml:21(para)
 msgid ""
 "<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> Plot widget for "
 "scientific applications"
 msgstr ""
-"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> widget de Plot "
+"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink>: widget de Plot "
 "para aplicaciones científicas"
 
 #: C/extra.xml:24(para)
@@ -568,7 +574,7 @@ msgid ""
 "<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink>, "
 "Wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
 msgstr ""
-"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink>, "
+"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink>: "
 "envolventes para GtkSourceView (Gtk::TextView con resaltado de sintaxis)"
 
 #: C/extra.xml:27(para)
@@ -577,20 +583,20 @@ msgid ""
 "\">gstreamermm</ulink>, Wrappers for gstreamer (streaming media)"
 msgstr ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
-"\">gstreamermm</ulink>, envolventes para gstreamer (dispositivo de streaming)"
+"\">gstreamermm</ulink>: envolventes para gstreamer (dispositivo de streaming)"
 
 #: C/extra.xml:30(para)
 msgid ""
 "<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> Terminal widget"
 msgstr ""
-"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> widget de terminal"
+"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink>: widget de terminal"
 
 #: C/extra.xml:33(para)
 msgid ""
 "<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink>, "
 "Wrappers for GtkExtra (plot, sheet, etc)"
 msgstr ""
-"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink>, "
+"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink>: "
 "envolventes para GtkExtra (plot, sheet, etc)"
 
 #: C/extra.xml:36(para)
@@ -599,7 +605,7 @@ msgid ""
 "ulink> Canvas for data flow systems."
 msgstr ""
 "<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
-"ulink> ventana para sistemas de flujo de datos."
+"ulink>: ventana para sistemas de flujo de datos."
 
 #: C/extra.xml:39(para)
 msgid ""
@@ -607,7 +613,7 @@ msgid ""
 "\">cwchessboard</ulink>, A C++ chess board tool set for gtkmm."
 msgstr ""
 "<ulink url=\"http://www.xs4all.nl/~carlo17/cwchessboard/index.html"
-"\">cwchessboard</ulink>, un conjunto de herramientas de tablero de ajedrez "
+"\">cwchessboard</ulink>: un conjunto de herramientas de tablero de ajedrez "
 "en C++ para gtkmm."
 
 #: C/extra.xml:11(para)
@@ -645,6 +651,8 @@ msgid ""
 "<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> - Document/View "
 "Model"
 msgstr ""
+"<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink>: modelo "
+"Documento/Vista."
 
 #: C/extra.xml:58(title)
 msgid "Applications using gtkmm"
@@ -665,7 +673,7 @@ msgid ""
 "<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> Multi-file "
 "search/replace with visual feedback."
 msgstr ""
-"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> búsqueda/"
+"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink>: búsqueda/"
 "reemplazado de varios archivos con comentarios visuales."
 
 #: C/extra.xml:68(para)
@@ -673,7 +681,7 @@ msgid ""
 "<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> Creation "
 "of hierarchical text documents."
 msgstr ""
-"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> creación "
+"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink>: creación "
 "de documentos de texto jerárquicos."
 
 #: C/extra.xml:71(para)
@@ -681,26 +689,26 @@ msgid ""
 "<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
 "Renames batches of files."
 msgstr ""
-"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
+"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink>: "
 "renombra baterías de archivos."
 
 #: C/extra.xml:74(para)
 msgid "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> Audio player."
 msgstr ""
-"<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> reproductor de "
+"<ulink url=\"http://towel.sourceforge.net\">Towel</ulink>: reproductor de "
 "audio."
 
 #: C/extra.xml:79(para)
 msgid "<ulink url=\"http://www.glom.org/\">Glom</ulink> Database Environment."
 msgstr ""
-"<ulink url=\"http://www.glom.org/\">Glom</ulink> entorno de bases de datos."
+"<ulink url=\"http://www.glom.org/\">Glom</ulink>: entorno de bases de datos."
 
 #: C/extra.xml:82(para)
 msgid ""
 "<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink>, "
 "graphical resource editor for PalmOS applications"
 msgstr ""
-"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink>, "
+"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink>: "
 "editor gráfico de recursos para aplicaciones de PalmOS"
 
 #: C/extra.xml:85(para)
@@ -708,7 +716,7 @@ msgid ""
 "<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> Vector graphics "
 "drawing."
 msgstr ""
-"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> editor de gráficos "
+"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink>: editor de gráficos "
 "vectoriales."
 
 #: C/extra.xml:88(para)
@@ -716,7 +724,7 @@ msgid ""
 "<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> peer to peer "
 "sharing of freely licensed music."
 msgstr ""
-"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> compartición punto "
+"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink>: compartición punto "
 "a punto de música libre."
 
 #: C/extra.xml:91(para)
@@ -724,20 +732,22 @@ msgid ""
 "<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> IP address "
 "calculator."
 msgstr ""
-"<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> calculadora "
+"<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink>: calculadora "
 "de direcciones IP."
 
 #: C/extra.xml:94(para)
 msgid ""
 "<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modelling and animation."
 msgstr ""
-"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> modelado 3-D y animación."
+"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink>: modelado 3-D y animación."
 
 #: C/extra.xml:97(para)
 msgid ""
 "<ulink url=\"http://www.cs.auc.dk/~olau/hardware-monitor/\">Hardware "
 "Monitor</ulink> GNOME panel applet."
 msgstr ""
+"<ulink url=\"http://www.cs.auc.dk/~olau/hardware-monitor/\">Hardware "
+"Monitor</ulink>: miniaplicación del panel de GNOME."
 
 #: C/extra.xml:100(para)
 msgid ""
@@ -751,9 +761,9 @@ msgid ""
 "digital video effects plug-in for <ulink url=\"http://www.kinodv.org/"
 "\">Kino</ulink>."
 msgstr ""
-"<ulink url=\"http://kino.schirmacher.de/article/view/51/1/11\">timfx</ulink> "
-"complemento de efectos digitales de vídeo para <ulink url=\"http://www."
-"kinodv.org/\">Kino</ulink>."
+"<ulink url=\"http://kino.schirmacher.de/article/view/51/1/11\">timfx</"
+"ulink>: complemento de efectos digitales de vídeo para <ulink url=\"http://"
+"www.kinodv.org/\">Kino</ulink>."
 
 #: C/extra.xml:106(para)
 msgid ""
@@ -761,14 +771,14 @@ msgid ""
 "ulink> Game."
 msgstr ""
 "<ulink url=\"http://www.cs.auc.dk/~olau/monster-masher/\">Monster Masher</"
-"ulink> juego."
+"ulink>: juego."
 
 #: C/extra.xml:109(para)
 msgid ""
 "<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> disk "
 "partitioning tool."
 msgstr ""
-"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> herramienta "
+"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink>: herramienta "
 "de particionado de discos."
 
 #: C/extra.xml:114(para)
@@ -776,7 +786,7 @@ msgid ""
 "<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink>, a cdrdao "
 "frontend."
 msgstr ""
-"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink>, un frontal "
+"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink>: un frontal "
 "para cdrdao."
 
 #: C/extra.xml:117(para)
@@ -790,7 +800,7 @@ msgid ""
 "<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
 "XML Editor."
 msgstr ""
-"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
+"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink>: "
 "editor XML."
 
 #: C/extra.xml:123(para)
@@ -803,13 +813,13 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> Collaborative text editor."
 msgstr ""
-"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> editor de texto "
+"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink>: editor de texto "
 "colaborativo."
 
 #: C/extra.xml:129(para)
 msgid "<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink> Metasearch tool."
 msgstr ""
-"<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink> herramienta para "
+"<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink>: herramienta para "
 "metabúsquedas."
 
 #: C/extra.xml:132(para)
@@ -817,6 +827,8 @@ msgid ""
 "<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> Color scheme "
 "generator."
 msgstr ""
+"<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink>: generador de "
+"esquemas de color."
 
 #: C/extra.xml:135(para)
 msgid ""
@@ -828,7 +840,7 @@ msgid ""
 "<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> Medical image "
 "viewer."
 msgstr ""
-"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> visor de "
+"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink>: visor de "
 "imágenes médicas."
 
 #: C/extra.xml:141(para)
@@ -848,14 +860,14 @@ msgid ""
 "<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> Card "
 "game."
 msgstr ""
-"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> juego "
+"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink>: juego "
 "de cartas."
 
 #: C/extra.xml:150(para)
 msgid ""
 "<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> Internet Telephone."
 msgstr ""
-"<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> teléfono para "
+"<ulink url=\"http://www.minisip.org/\">miniSIP</ulink>: teléfono para "
 "internet."
 
 #: C/extra.xml:153(para)
@@ -881,7 +893,7 @@ msgid ""
 "<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI for the GNU "
 "debugger gdb"
 msgstr ""
-"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> IU para el "
+"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink>: IU para el "
 "depurador gdb de GNU."
 
 #: C/extra.xml:165(para)
@@ -895,7 +907,7 @@ msgid ""
 "<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> File "
 "Synchronization over USB."
 msgstr ""
-"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> "
+"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink>: "
 "sincronización de archivos sobre USB."
 
 #: C/extra.xml:171(para)
@@ -932,7 +944,7 @@ msgid ""
 "<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> Foreign "
 "language learning tool."
 msgstr ""
-"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> "
+"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink>: "
 "herramienta de aprendizaje de idioma extranjero."
 
 #: C/extra.xml:189(para)
@@ -940,14 +952,14 @@ msgid ""
 "<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> sound "
 "editor."
 msgstr ""
-"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> editor de "
-"sonido."
+"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink>: editor "
+"de sonido."
 
 #: C/extra.xml:192(para)
 msgid ""
 "<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC client"
 msgstr ""
-"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> cliente de "
+"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink>: cliente de "
 "IRC."
 
 #: C/extra.xml:195(para)
@@ -955,13 +967,15 @@ msgid ""
 "<ulink url=\"http://www.mysql.com/downloads/administrator.html\">MySQL "
 "Administrator</ulink> Database GUI."
 msgstr ""
+"<ulink url=\"http://www.mysql.com/downloads/administrator.html\">MySQL "
+"Administrator</ulink>: IGU de bases de datos."
 
 #: C/extra.xml:198(para)
 msgid ""
 "<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> source code package "
 "organizer"
 msgstr ""
-"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> organizador de "
+"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink>: organizador de "
 "paquetes de código fuente"
 
 #: C/extra.xml:201(para)
@@ -979,6 +993,8 @@ msgid ""
 "<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> File "
 "sharing client."
 msgstr ""
+"<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink>: cliente "
+"de compartición de archivos."
 
 #: C/extra.xml:212(para)
 msgid ""
@@ -989,13 +1005,15 @@ msgstr ""
 #: C/extra.xml:215(para)
 msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> File manager"
 msgstr ""
-"<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> gestor de archivos"
+"<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink>: gestor de archivos"
 
 #: C/extra.xml:218(para)
 msgid ""
 "<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> "
 "GUI frontend for the efax fax program."
 msgstr ""
+"<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink>: "
+"frontal gráfico para el programa «efax»."
 
 #: C/extra.xml:221(para)
 msgid ""
@@ -1036,7 +1054,7 @@ msgid ""
 "<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink>, "
 "Gomoku game for GNOME"
 msgstr ""
-"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink>, "
+"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink>: "
 "juego Gomoku para GNOME"
 
 #: C/extra.xml:244(para)
@@ -1754,6 +1772,8 @@ msgid ""
 "<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - "
 "animatronics"
 msgstr ""
+"<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink>: "
+"animatronics."
 
 #: C/commercial_support.xml:61(para)
 msgid ""
@@ -1767,12 +1787,16 @@ msgid ""
 "<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - "
 "professional audio/music systems"
 msgstr ""
+"<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink>: "
+"sistemas profesionales de sonido/música."
 
 #: C/commercial_support.xml:67(para)
 msgid ""
 "<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - "
 "electrical/mechanical engineering"
 msgstr ""
+"<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink>: "
+"ingeniería eléctrica/mecánica."
 
 #: C/commercial_support.xml:70(para)
 msgid "<ulink url=\"http://www.dme.net\">DME</ulink> - mold engineering"
@@ -1789,6 +1813,8 @@ msgid ""
 "<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
 "Brockhaus AG</ulink> - publishing"
 msgstr ""
+"<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
+"Brockhaus AG</ulink>: publicación."
 
 #: C/commercial_support.xml:79(para)
 msgid ""
@@ -1800,6 +1826,8 @@ msgid ""
 "<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - security/encryption "
 "software"
 msgstr ""
+"<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink>: software de seguridad y "
+"cifrado."
 
 #: C/commercial_support.xml:85(para)
 msgid ""
@@ -1816,12 +1844,16 @@ msgid ""
 "<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - "
 "prebuilt software packages"
 msgstr ""
+"<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink>: "
+"paquetes de software preconstruidos."
 
 #: C/commercial_support.xml:94(para)
 msgid ""
 "<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, "
 "medication administration"
 msgstr ""
+"<ulink url=\"http://www.exact-med.com/\">Allcare</ulink>: ExactMed eMAR, "
+"administración de medicación."
 
 #: C/commercial_support.xml:97(para)
 msgid ""
@@ -1840,6 +1872,8 @@ msgid ""
 "<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> Medical imaging - "
 "<ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
 msgstr ""
+"<ulink url=\"http://www.i-medlab.com/\">iMed</ulink>: imágenes médicas; "
+"<ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
 
 #: C/commercial_support.xml:106(para)
 msgid ""
