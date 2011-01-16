@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-06 09:55+0000\n"
-"PO-Revision-Date: 2011-01-07 17:29+0100\n"
+"POT-Creation-Date: 2011-01-08 10:32+0000\n"
+"PO-Revision-Date: 2011-01-14 11:55+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -255,6 +255,9 @@ msgid ""
 "<application>gtkmm</application> is free software distributed under the GNU "
 "Library General Public License (<ulink url=\"license.shtml\">LGPL</ulink>)."
 msgstr ""
+"<application>gtkmm</application> es software libre distribuido bajo la "
+"Licencia Pública General Reducida de GNU (<ulink url=\"license.shtml\">LGPL</"
+"ulink>)."
 
 #: C/index.xml:22(para)
 msgid ""
@@ -418,6 +421,8 @@ msgstr "Acceso anónimo"
 msgid ""
 "For those who do not have a GNOME login, anonymous checkouts are available."
 msgstr ""
+"Para aquellos que no tienen una cuenta de GNOME, se permiten las descargas "
+"anónimas"
 
 #: C/git.xml:20(para)
 msgid ""
@@ -794,6 +799,8 @@ msgid ""
 "<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
 "ulink>, GNOME panel applet."
 msgstr ""
+"<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
+"ulink>: miniaplicación del panel de GNOME."
 
 #: C/extra.xml:120(para)
 msgid ""
@@ -834,6 +841,7 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX editor."
 msgstr ""
+"<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink>: editor LaTeX."
 
 #: C/extra.xml:138(para)
 msgid ""
@@ -854,6 +862,8 @@ msgid ""
 "<ulink url=\"http://pupuedit.sourceforge.net/\">Pihlaja</ulink> Non-linear "
 "video/audio editor."
 msgstr ""
+"<ulink url=\"http://pupuedit.sourceforge.net/\">Pihlaja</ulink>: editor de "
+"sonido/vídeo no lineal."
 
 #: C/extra.xml:147(para)
 msgid ""
@@ -875,6 +885,8 @@ msgid ""
 "<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> Membership "
 "Management."
 msgstr ""
+"<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink>: administración "
+"de miembros."
 
 #: C/extra.xml:156(para)
 msgid ""
@@ -887,6 +899,8 @@ msgid ""
 "<ulink url=\"http://minuslab.net/code/nitrogen/\">Nitrogen</ulink> "
 "Background browser and setter."
 msgstr ""
+"<ulink url=\"http://minuslab.net/code/nitrogen/\">Nitrogen</ulink>: "
+"explorador y configurador de fondos de escritorio."
 
 #: C/extra.xml:162(para)
 msgid ""
@@ -915,17 +929,22 @@ msgid ""
 "<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> Electric flux "
 "line simulation."
 msgstr ""
+"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink>: simulación de "
+"línea de flujo eléctrico."
 
 #: C/extra.xml:174(para)
 msgid ""
 "<ulink url=\"http://icculus.org/~jcspray/referencer/\">Referencer</ulink> "
 "document organiser and bibliography manager"
 msgstr ""
+"<ulink url=\"http://icculus.org/~jcspray/referencer/\">Referencer</ulink>: "
+"organizador de documentos y gestor bibliográfico"
 
 #: C/extra.xml:177(para)
 msgid ""
 "<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> Index cards."
 msgstr ""
+"<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink>: fichas."
 
 #: C/extra.xml:180(para)
 msgid ""
@@ -983,6 +1002,8 @@ msgid ""
 "<ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink> system "
 "monitor"
 msgstr ""
+"<ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink>: monitor "
+"del sistema."
 
 #: C/extra.xml:206(title)
 msgid "Using gtkmm 2.0/2.2:"
@@ -1001,6 +1022,8 @@ msgid ""
 "<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME Jabber "
 "IM client."
 msgstr ""
+"<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink>: cliente de "
+"GNOME Jabber IM."
 
 #: C/extra.xml:215(para)
 msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> File manager"
@@ -1020,12 +1043,16 @@ msgid ""
 "<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> Organise and "
 "visualise information."
 msgstr ""
+"<ulink url=\"http://visage.sourceforge.net\">Visage</ulink>: organiza y "
+"visualiza información."
 
 #: C/extra.xml:224(para)
 msgid ""
 "<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> "
 "Geneology database viewer."
 msgstr ""
+"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink>: "
+"visor de bases de datos genealógicas."
 
 #: C/extra.xml:227(para)
 msgid ""
@@ -1048,6 +1075,8 @@ msgid ""
 "<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink>, a generic SQL "
 "GUI."
 msgstr ""
+"<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink>: una IGU de SQL "
+"genérica."
 
 #: C/extra.xml:241(para)
 msgid ""
@@ -1115,6 +1144,8 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink>, an ICQ client"
 msgstr ""
+"<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink>: un cliente de "
+"ICQ."
 
 #: C/extra.xml:274(ulink)
 msgid "Chained Audio Plugins"
@@ -1131,6 +1162,8 @@ msgid ""
 "<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink>, music "
 "management system"
 msgstr ""
+"<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink>: sistema de "
+"gestión de música."
 
 #: C/extra.xml:284(para)
 msgid ""
@@ -1217,18 +1250,24 @@ msgid ""
 "<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Use yast to "
 "install gtkmm2-devel."
 msgstr ""
+"<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: use yast "
+"para instalar gtkmm2-devel."
 
 #: C/download.xml:33(para)
 msgid ""
 "<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
 "install libgtkmm-2.4-dev</command>."
 msgstr ""
+"<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
+"install libgtkmm-2.4-dev</command>."
 
 #: C/download.xml:36(para)
 msgid ""
 "Windows: Here is an <ulink url=\"http://live.gnome.org/gtkmm/MSWindows"
 "\">installer</ulink>."
 msgstr ""
+"Windows: aquí hay un <ulink url=\"http://live.gnome.org/gtkmm/MSWindows"
+"\">instalador</ulink>."
 
 #: C/download.xml:39(para)
 msgid ""
@@ -1482,7 +1521,7 @@ msgstr ""
 
 #: C/documentation.xml:131(ulink)
 msgid "File"
-msgstr ""
+msgstr "Archivo"
 
 #: C/documentation.xml:134(ulink)
 msgid "Streams"
@@ -1506,15 +1545,15 @@ msgstr ""
 
 #: C/documentation.xml:149(title)
 msgid "Other Information"
-msgstr ""
+msgstr "Otra información"
 
 #: C/documentation.xml:152(th)
 msgid "External Documentation"
-msgstr ""
+msgstr "Documentación externa"
 
 #: C/documentation.xml:153(th)
 msgid "Unusual Platforms"
-msgstr ""
+msgstr "Plataformas poco habituales"
 
 #: C/documentation.xml:159(ulink)
 msgid "libsigc++ documentation"
@@ -1522,7 +1561,7 @@ msgstr ""
 
 #: C/documentation.xml:162(ulink)
 msgid "GTK+ reference"
-msgstr ""
+msgstr "Referencia de GTK+"
 
 #: C/documentation.xml:165(ulink)
 msgid "Standard C++ Library (STL)"
