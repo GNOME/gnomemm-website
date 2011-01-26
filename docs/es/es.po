@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-08 10:32+0000\n"
-"PO-Revision-Date: 2011-01-14 11:55+0100\n"
+"POT-Creation-Date: 2011-01-16 11:51+0000\n"
+"PO-Revision-Date: 2011-01-26 09:42+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -759,6 +759,8 @@ msgid ""
 "<ulink url=\"http://www.workrave.org/\">Workrave</ulink> Assists in recovery "
 "and prevention of RSI."
 msgstr ""
+"<ulink url=\"http://www.workrave.org/\">Workrave</ulink>: asiste en la "
+"recuperación y prevención de RSI."
 
 #: C/extra.xml:103(para)
 msgid ""
@@ -856,6 +858,8 @@ msgid ""
 "<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> "
 "Loudspeaker designer"
 msgstr ""
+"<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink>: altavoz "
+"de diseño."
 
 #: C/extra.xml:144(para)
 msgid ""
@@ -893,6 +897,8 @@ msgid ""
 "<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> Modular "
 "synthesizer and effects processor."
 msgstr ""
+"<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink>: "
+"sintetizador modular y procesador de efectos."
 
 #: C/extra.xml:159(para)
 msgid ""
@@ -915,6 +921,8 @@ msgid ""
 "<ulink url=\"http://bmpx.beep-media-player.org/site/BMPx_Homepage\">BMP</"
 "ulink> Audio player"
 msgstr ""
+"<ulink url=\"http://bmpx.beep-media-player.org/site/BMPx_Homepage\">BMP</"
+"ulink>: reproductor de sonido."
 
 #: C/extra.xml:168(para)
 msgid ""
@@ -951,12 +959,16 @@ msgid ""
 "<ulink url=\"http://ardour.org/\">Ardour 2</ulink>, a multichannel hard disk "
 "recorder and digital audio workstation"
 msgstr ""
+"<ulink url=\"http://ardour.org/\">Ardour 2</ulink>: un grabador de disco "
+"duro multicanal y estación de trabajo de sonido digital."
 
 #: C/extra.xml:183(para)
 msgid ""
 "<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
 "ulink> DTP."
 msgstr ""
+"<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
+"ulink> DTP."
 
 #: C/extra.xml:186(para)
 msgid ""
@@ -1059,12 +1071,16 @@ msgid ""
 "<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> Voice "
 "stress analysis tool."
 msgstr ""
+"<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink>: "
+"herramienta de análisis de estrés de voz."
 
 #: C/extra.xml:230(para)
 msgid ""
 "<ulink url=\"http://telgarsky.com/matusacode/cug.html\">CUG</ulink> 3D "
 "equation plotter."
 msgstr ""
+"<ulink url=\"http://telgarsky.com/matusacode/cug.html\">CUG</ulink>: plotter "
+"de ecuaciones 3D."
 
 #: C/extra.xml:235(title)
 msgid "Using gtkmm 1.2:"
@@ -1097,6 +1113,8 @@ msgid ""
 "<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink>, a MIME "
 "compliant GUI email client"
 msgstr ""
+"<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink>: una IGU de "
+"correo electrónico compatible con MIME."
 
 #: C/extra.xml:250(para)
 msgid ""
@@ -1109,6 +1127,8 @@ msgid ""
 "<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink>, graphical "
 "frontend to isdn4linux answering machine"
 msgstr ""
+"<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink>: frontal gráfico "
+"para el contestador automático isdn4linux."
 
 #: C/extra.xml:256(para)
 msgid ""
@@ -1205,6 +1225,10 @@ msgid ""
 "for your operating system unless you wish to test the latest versions. "
 "However,<ulink url=\"#Source\">source packages</ulink> are available as well."
 msgstr ""
+"Debería usar los <ulink url=\"#Binary\">paquetes binarios</ulink> "
+"proporcionados para su sistema operativo, a menos que quiera probar las "
+"últimas versiones. Sin embargo, también están disponibles los<ulink url="
+"\"#Source\">paquetes de código fuente</ulink>."
 
 #: C/download.xml:14(title)
 msgid "<anchor id=\"Binary\"/>Binary"
@@ -1244,6 +1268,8 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Get dev-cpp/gtkmm."
 msgstr ""
+"<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: obtenga dev-cpp/"
+"gtkmm."
 
 #: C/download.xml:30(para)
 msgid ""
@@ -1274,6 +1300,8 @@ msgid ""
 "MacOS X: There is a <ulink url=\"http://fink.sourceforge.net/pdb/package.php/"
 "gtkmm2.4-dev\">Fink package</ulink>."
 msgstr ""
+"MacOS X: Hay un <ulink url=\"http://fink.sourceforge.net/pdb/package.php/"
+"gtkmm2.4-dev\">paquete Fink</ulink>."
 
 #: C/download.xml:42(para)
 msgid ""
@@ -1281,6 +1309,9 @@ msgid ""
 "url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary "
 "gtkmm packages, with packagement management."
 msgstr ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc o los compiladores de la "
+"plataforma): <ulink url=\"http://thewrittenword.com\">The Written Word</"
+"ulink> ofrece paquetes binarios de gtkmm, con gestión de empaquetado."
 
 #: C/download.xml:45(para)
 msgid "Please tell us about others."
@@ -1305,12 +1336,16 @@ msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.23/\">glibmm "
 "2.23</ulink> (unstable)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.23/\">glibmm "
+"2.23</ulink> (inestable)"
 
 #: C/download.xml:57(para)
 msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.19/\">gtkmm "
 "2.19</ulink> (unstable)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.19/\">gtkmm "
+"2.19</ulink> (inestable)"
 
 #: C/download.xml:62(title)
 msgid "<anchor id=\"stable\"/>Stable gtkmm and GNOME bindings:"
@@ -1321,30 +1356,40 @@ msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.22/\">glibmm "
 "2.22</ulink> (stable)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.22/\">glibmm "
+"2.22</ulink> (estable)"
 
 #: C/download.xml:68(para)
 msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.18/\">gtkmm "
 "2.18</ulink> (stable)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.18/\">gtkmm "
+"2.18</ulink> (estable)"
 
 #: C/download.xml:71(para)
 msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm"
 "\">libgnomecanvasmm</ulink> (stable)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm"
+"\">libgnomecanvasmm</ulink> (estable)"
 
 #: C/download.xml:74(para)
 msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gconfmm\">gconfmm</"
 "ulink> (stable)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gconfmm\">gconfmm</"
+"ulink> (estable)"
 
 #: C/download.xml:80(para)
 msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/"
 "\">libpanelappletmm 2.6</ulink> (unstable)"
 msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/"
+"\">libpanelappletmm 2.6</ulink> (inestable)"
 
 #: C/download.xml:83(ulink)
 msgid "gtkmm-hello 2.4"
