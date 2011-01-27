@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-16 11:51+0000\n"
-"PO-Revision-Date: 2011-01-26 09:42+0100\n"
+"POT-Creation-Date: 2011-01-26 19:49+0000\n"
+"PO-Revision-Date: 2011-01-27 15:04+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -412,6 +412,9 @@ msgid ""
 "You will need to run the autogen.sh script to generate the build files. We "
 "recommend jhbuild for setting up a separate development prefix."
 msgstr ""
+"Deberá ejecutar el script «autogen.sh» para generar los archivos de "
+"construcción. Recomendamos jhbuild para configurar un prefijo de desarrollo "
+"aparte."
 
 #: C/git.xml:17(emphasis)
 msgid "Anonymous Access"
@@ -1121,6 +1124,8 @@ msgid ""
 "<ulink url=\"http://www.akio-solutions.com/guillaume/\">Gvier</ulink>, game "
 "based on \"Power of four\""
 msgstr ""
+"<ulink url=\"http://www.akio-solutions.com/guillaume/\">Gvier</ulink>: juego "
+"basado en «Power of four»."
 
 #: C/extra.xml:253(para)
 msgid ""
@@ -1135,6 +1140,8 @@ msgid ""
 "<ulink url=\"http://yotam.freehosting.net/software/ped/ped.html\">Ped</"
 "ulink> Path editor utility"
 msgstr ""
+"<ulink url=\"http://yotam.freehosting.net/software/ped/ped.html\">Ped</"
+"ulink>: utilidad para edición de rutas."
 
 #: C/extra.xml:259(para)
 msgid ""
@@ -1147,18 +1154,25 @@ msgid ""
 "<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
 "ulink>, radio application for Video4Linux-compatible radio tuner cards."
 msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
+"ulink>: aplicación de radio para tarjetas sintonizadoras de radio "
+"compatibles con Video4Linux."
 
 #: C/extra.xml:265(para)
 msgid ""
 "<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink>, software "
 "analogue MIDI sequencer"
 msgstr ""
+"<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink>: "
+"secuenciador analógico MIDI."
 
 #: C/extra.xml:268(para)
 msgid ""
 "<ulink url=\"http://terraform.sourceforge.net/\">terraform</ulink>, Terrain "
 "generator (very cool)"
 msgstr ""
+"<ulink url=\"http://terraform.sourceforge.net/\">terraform</ulink>: "
+"simulador de terrenos (muy curioso)."
 
 #: C/extra.xml:271(para)
 msgid ""
@@ -1176,6 +1190,8 @@ msgid ""
 "<ulink url=\"http://guillaume.cottenceau.free.fr/html/grany.html\">Grany-3</"
 "ulink>, the cellular automaton simulator."
 msgstr ""
+"<ulink url=\"http://guillaume.cottenceau.free.fr/html/grany.html\">Grany-3</"
+"ulink>: simulador de autómatas celulares."
 
 #: C/extra.xml:280(para)
 msgid ""
@@ -1190,6 +1206,8 @@ msgid ""
 "<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink>, 3D "
 "cellular automata simulator"
 msgstr ""
+"<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink>: "
+"simulador de autómatas celulares 3D."
 
 #: C/extra.xml:290(title)
 msgid "Links"
@@ -1439,6 +1457,8 @@ msgid ""
 "<ulink url=\"http://library.gnome.org/devel/gtkmm-tutorial/unstable/index."
 "html\">Contents</ulink> of the whole online book."
 msgstr ""
+"<ulink url=\"http://library.gnome.org/devel/gtkmm-tutorial/unstable/index."
+"html\">Contenidos</ulink> del libro en línea completo."
 
 #: C/documentation.xml:27(ulink)
 msgid "Installation"
@@ -1550,7 +1570,7 @@ msgstr ""
 
 #: C/documentation.xml:115(ulink)
 msgid "Threads"
-msgstr ""
+msgstr "Hilos"
 
 #: C/documentation.xml:118(ulink)
 msgid "Miscellaneous Utility Functions"
@@ -1562,7 +1582,7 @@ msgstr ""
 
 #: C/documentation.xml:124(ulink)
 msgid "Glib Namespace"
-msgstr ""
+msgstr "Espacio de nombres Glib"
 
 #: C/documentation.xml:131(ulink)
 msgid "File"
@@ -1574,11 +1594,11 @@ msgstr "Flujos"
 
 #: C/documentation.xml:137(ulink)
 msgid "Gio Namespace"
-msgstr ""
+msgstr "Espacio de nombres Gio"
 
 #: C/documentation.xml:145(title)
 msgid "Extra Modules"
-msgstr ""
+msgstr "Módulos adicionales"
 
 #: C/documentation.xml:146(para)
 msgid ""
@@ -1602,7 +1622,7 @@ msgstr "Plataformas poco habituales"
 
 #: C/documentation.xml:159(ulink)
 msgid "libsigc++ documentation"
-msgstr ""
+msgstr "documentación de libsigc++"
 
 #: C/documentation.xml:162(ulink)
 msgid "GTK+ reference"
@@ -1618,7 +1638,7 @@ msgstr ""
 
 #: C/documentation.xml:175(ulink)
 msgid "Windows, with mingw and cygwin"
-msgstr ""
+msgstr "Windows, con mingw y cygwin"
 
 #: C/documentation.xml:183(title)
 msgid "Examples"
@@ -1819,6 +1839,8 @@ msgid ""
 "<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - "
 "Medical imaging"
 msgstr ""
+"<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink>: "
+"imágenes médicas."
 
 #: C/commercial_support.xml:43(para)
 msgid ""
@@ -1884,7 +1906,7 @@ msgstr ""
 
 #: C/commercial_support.xml:70(para)
 msgid "<ulink url=\"http://www.dme.net\">DME</ulink> - mold engineering"
-msgstr ""
+msgstr "<ulink url=\"http://www.dme.net\">DME</ulink>: ingeniería de moldes."
 
 #: C/commercial_support.xml:73(para)
 msgid ""
@@ -2146,11 +2168,11 @@ msgstr "Modificar esa versión"
 
 #: C/bugs.xml:97(para)
 msgid "Check it compiles"
-msgstr ""
+msgstr "Comprobar si compila"
 
 #: C/bugs.xml:100(para)
 msgid "Edit the ChangeLog"
-msgstr ""
+msgstr "Editar el registro de cambios"
 
 #: C/bugs.xml:103(para)
 msgid ""
