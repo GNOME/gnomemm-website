@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-26 19:49+0000\n"
-"PO-Revision-Date: 2011-01-27 15:04+0100\n"
+"POT-Creation-Date: 2011-01-27 20:18+0000\n"
+"PO-Revision-Date: 2011-01-29 17:59+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,8 +25,8 @@ msgid ""
 "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
 "gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
 "ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 "
-"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-"
-"2.4 API with API additions."
+"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the "
+"gtkmm-2.4 API with API additions."
 msgstr ""
 
 #: C/news.xml:16(para)
@@ -559,7 +559,7 @@ msgid ""
 "rendering for gtkmm"
 msgstr ""
 "<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink>: "
-"renderizado OpenGL para gtkmm"
+"renderizado OpenGL para gtkmm."
 
 #: C/extra.xml:18(para)
 msgid ""
@@ -567,7 +567,7 @@ msgid ""
 "\">gtkmozembedmm</ulink> Mozilla-based web browser widget"
 msgstr ""
 "<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
-"\">gtkmozembedmm</ulink>: widget para navegador web basado en Mozilla"
+"\">gtkmozembedmm</ulink>: widget para navegador web basado en Mozilla."
 
 #: C/extra.xml:21(para)
 msgid ""
@@ -575,7 +575,7 @@ msgid ""
 "scientific applications"
 msgstr ""
 "<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink>: widget de Plot "
-"para aplicaciones científicas"
+"para aplicaciones científicas."
 
 #: C/extra.xml:24(para)
 msgid ""
@@ -583,7 +583,7 @@ msgid ""
 "Wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
 msgstr ""
 "<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink>: "
-"envolventes para GtkSourceView (Gtk::TextView con resaltado de sintaxis)"
+"envolventes para GtkSourceView (Gtk::TextView con resaltado de sintaxis)."
 
 #: C/extra.xml:27(para)
 msgid ""
@@ -591,13 +591,15 @@ msgid ""
 "\">gstreamermm</ulink>, Wrappers for gstreamer (streaming media)"
 msgstr ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
-"\">gstreamermm</ulink>: envolventes para gstreamer (dispositivo de streaming)"
+"\">gstreamermm</ulink>: envolventes para gstreamer (dispositivo de "
+"streaming)."
 
 #: C/extra.xml:30(para)
 msgid ""
 "<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> Terminal widget"
 msgstr ""
-"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink>: widget de terminal"
+"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink>: widget de "
+"terminal."
 
 #: C/extra.xml:33(para)
 msgid ""
@@ -605,7 +607,7 @@ msgid ""
 "Wrappers for GtkExtra (plot, sheet, etc)"
 msgstr ""
 "<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink>: "
-"envolventes para GtkExtra (plot, sheet, etc)"
+"envolventes para GtkExtra (plot, sheet, etc)."
 
 #: C/extra.xml:36(para)
 msgid ""
@@ -717,7 +719,7 @@ msgid ""
 "graphical resource editor for PalmOS applications"
 msgstr ""
 "<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink>: "
-"editor gráfico de recursos para aplicaciones de PalmOS"
+"editor gráfico de recursos para aplicaciones de PalmOS."
 
 #: C/extra.xml:85(para)
 msgid ""
@@ -949,7 +951,7 @@ msgid ""
 "document organiser and bibliography manager"
 msgstr ""
 "<ulink url=\"http://icculus.org/~jcspray/referencer/\">Referencer</ulink>: "
-"organizador de documentos y gestor bibliográfico"
+"organizador de documentos y gestor bibliográfico."
 
 #: C/extra.xml:177(para)
 msgid ""
@@ -1010,7 +1012,7 @@ msgid ""
 "organizer"
 msgstr ""
 "<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink>: organizador de "
-"paquetes de código fuente"
+"paquetes de código fuente."
 
 #: C/extra.xml:201(para)
 msgid ""
@@ -1043,7 +1045,7 @@ msgstr ""
 #: C/extra.xml:215(para)
 msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> File manager"
 msgstr ""
-"<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink>: gestor de archivos"
+"<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink>: gestor de archivos."
 
 #: C/extra.xml:218(para)
 msgid ""
@@ -1103,7 +1105,7 @@ msgid ""
 "Gomoku game for GNOME"
 msgstr ""
 "<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink>: "
-"juego Gomoku para GNOME"
+"juego Gomoku para GNOME."
 
 #: C/extra.xml:244(para)
 msgid ""
@@ -1448,8 +1450,8 @@ msgid ""
 "You might start by reading the <emphasis role=\"bold\">Programming with "
 "gtkmm</emphasis> online book. This book is also <ulink url=\"http://www."
 "amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;"
-"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4"
-"\">available on the Amazon Kindle</ulink>."
+"linkCode=as2&amp;camp=1789&amp;creative=9325&amp;"
+"creativeASIN=B0049P1RP4\">available on the Amazon Kindle</ulink>."
 msgstr ""
 
 #: C/documentation.xml:24(para)
@@ -1466,7 +1468,7 @@ msgstr "Instalación"
 
 #: C/documentation.xml:30(ulink)
 msgid "Basics"
-msgstr ""
+msgstr "Conceptos básicos"
 
 #: C/documentation.xml:33(ulink)
 msgid "Signals"
@@ -1522,7 +1524,7 @@ msgstr "Contenedores"
 
 #: C/documentation.xml:75(ulink)
 msgid "TextView"
-msgstr ""
+msgstr "TextView"
 
 #: C/documentation.xml:78(ulink)
 msgid "Dialogs"
@@ -1542,7 +1544,7 @@ msgstr ""
 
 #: C/documentation.xml:90(ulink)
 msgid "Stock IDs"
-msgstr ""
+msgstr "ID de almacenamiento"
 
 #: C/documentation.xml:93(ulink)
 msgid "Gtk Namespace"
@@ -1578,7 +1580,7 @@ msgstr ""
 
 #: C/documentation.xml:121(ulink)
 msgid "Character set conversion"
-msgstr ""
+msgstr "Conversión de conjuntos de caracteres"
 
 #: C/documentation.xml:124(ulink)
 msgid "Glib Namespace"
@@ -1630,7 +1632,7 @@ msgstr "Referencia de GTK+"
 
 #: C/documentation.xml:165(ulink)
 msgid "Standard C++ Library (STL)"
-msgstr ""
+msgstr "Biblioteca C++ estándar (STL)"
 
 #: C/documentation.xml:172(ulink)
 msgid "Solaris, with Sun's Forte C++."
@@ -1926,6 +1928,7 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS software/hardware"
 msgstr ""
+"<ulink url=\"http://www.hasar.com\">Hasar</ulink>: software/hardware POS."
 
 #: C/commercial_support.xml:82(para)
 msgid ""
@@ -1939,11 +1942,14 @@ msgstr ""
 msgid ""
 "<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - process engineering"
 msgstr ""
+"<ulink url=\"http://www.aplik.com/\">Aplik</ulink>: ingeniería de procesos."
 
 #: C/commercial_support.xml:88(para)
 msgid ""
 "<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - fiscal Systems, POS"
 msgstr ""
+"<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink>: sistemas fiscales, "
+"POS."
 
 #: C/commercial_support.xml:91(para)
 msgid ""
@@ -2183,7 +2189,7 @@ msgstr ""
 
 #: C/bugs.xml:107(para)
 msgid "Add the patch to bugzilla (see above)."
-msgstr ""
+msgstr "Añadir el parche a bugzilla (ver arriba)."
 
 #: C/bugs.xml:112(title)
 msgid "Should I send a bug report?"
@@ -2191,7 +2197,7 @@ msgstr "¿Debería enviar un informe de error?"
 
 #: C/bugs.xml:113(para)
 msgid "Always send a bug report:"
-msgstr ""
+msgstr "Enviar siempre un informe de error:"
 
 #: C/bugs.xml:119(para)
 msgid "If you get a crash and you think it might be problem with gtkmm."
