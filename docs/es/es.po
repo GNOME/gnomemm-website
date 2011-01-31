@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-27 20:18+0000\n"
-"PO-Revision-Date: 2011-01-29 17:59+0100\n"
+"POT-Creation-Date: 2011-01-29 17:16+0000\n"
+"PO-Revision-Date: 2011-01-31 21:17+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1150,6 +1150,8 @@ msgid ""
 "<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> Usenet "
 "picture grabber."
 msgstr ""
+"<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink>: "
+"capturador de imágenes de Usenet."
 
 #: C/extra.xml:262(para)
 msgid ""
@@ -1267,6 +1269,10 @@ msgid ""
 "get install libgtkmm-2.4-dev</command>. These <ulink url=\"http://packages."
 "qa.debian.org/g/gtkmm2.4.html\">project pages</ulink> might give status."
 msgstr ""
+"<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-"
+"get install libgtkmm-2.4-dev</command>. Estas <ulink url=\"http://packages."
+"qa.debian.org/g/gtkmm2.4.html\">páginas del proyecto</ulink> pueden dar el "
+"estado."
 
 #: C/download.xml:21(para)
 msgid ""
@@ -1283,6 +1289,9 @@ msgid ""
 "libgtkmm2.4 from the contrib directory on their <ulink url=\"http://www."
 "mandrakelinux.com/en/cookerdevel.php3\">ftp</ulink> servers."
 msgstr ""
+"<ulink url=\"http://www.mandrakelinux.com/\">Mandrake</ulink> Linux: obtenga "
+"libgtkmm2.4 de la carpeta «contrib» en sus servidores <ulink url=\"http://"
+"www.mandrakelinux.com/en/cookerdevel.php3\">ftp</ulink>."
 
 #: C/download.xml:27(para)
 msgid ""
@@ -1428,6 +1437,8 @@ msgid ""
 "Here is a dependency graphs for <ulink url=\"jhbuild_dot_gtkmm.png\">gtkmm</"
 "ulink>, generated automatically with jhbuild and graphviz."
 msgstr ""
+"Aquí hay unos gráficos de dependencias para <ulink url=\"jhbuild_dot_gtkmm."
+"png\">gtkmm</ulink>, generados automáticamente con  jhbuild y graphviz."
 
 #: C/download.xml:102(para)
 msgid ""
@@ -1568,7 +1579,7 @@ msgstr ""
 
 #: C/documentation.xml:112(ulink)
 msgid "Spawning Processes"
-msgstr ""
+msgstr "Generar procesos"
 
 #: C/documentation.xml:115(ulink)
 msgid "Threads"
@@ -1915,6 +1926,8 @@ msgid ""
 "<ulink url=\"http://www.petig-baender.de\">Adolf Petig GmbH</ulink> - "
 "textile ribbon manufacturing"
 msgstr ""
+"<ulink url=\"http://www.petig-baender.de\">Adolf Petig GmbH</ulink>: "
+"fabricación de cintas textiles."
 
 #: C/commercial_support.xml:76(para)
 msgid ""
@@ -2020,6 +2033,8 @@ msgid ""
 "See also <ulink url=\"http://www.gtk.org/commerce.html\">GTK+ success "
 "stories</ulink>."
 msgstr ""
+"Consulte también <ulink url=\"http://www.gtk.org/commerce.html\">casos de "
+"éxito de GTK+</ulink>."
 
 #: C/bugs.xml:8(title) C/gnomemm-website.xml:48(ulink)
 msgid "Bugs"
@@ -2097,7 +2112,7 @@ msgstr ""
 
 #: C/bugs.xml:39(title)
 msgid "<anchor id=\"NewBugs\"/>Where to report?"
-msgstr ""
+msgstr "<anchor id=\"NewBugs\"/>¿Dónde informar de un error?"
 
 #: C/bugs.xml:42(para)
 msgid ""
@@ -2117,7 +2132,7 @@ msgstr ""
 
 #: C/bugs.xml:55(title)
 msgid "What information is needed for a bug report?"
-msgstr ""
+msgstr "¿Que información se necesita para informar de un error?"
 
 #: C/bugs.xml:62(para)
 msgid ""
@@ -2138,6 +2153,8 @@ msgid ""
 "stack dump, if relevant: <command> gdb ./proggy ; run ; *crash* ; where </"
 "command>"
 msgstr ""
+"volcado de pila, si es relevante: <command> gdb ./proggy ; run ; *crash* ; "
+"where </command>"
 
 #: C/bugs.xml:75(para)
 msgid "keep it small but detailed"
@@ -2156,13 +2173,15 @@ msgstr ""
 
 #: C/bugs.xml:87(title)
 msgid "<anchor id=\"CreatingPatches\"/>How do I create a patch?"
-msgstr ""
+msgstr "<anchor id=\"CreatingPatches\"/>¿Cómo crear un parche?"
 
 #: C/bugs.xml:88(para)
 msgid ""
 "There are many ways to use Git, but this is the simplest way to create a "
 "patch if you are unfamiliar with Git:"
 msgstr ""
+"Hay varias maneras de usar git, pero la más sencilla, si no está "
+"familiarizado con git, es crear un parche:"
 
 #: C/bugs.xml:91(para)
 msgid "Take code from <ulink url=\"git.html\">git</ulink>"
@@ -2209,7 +2228,7 @@ msgstr "Si no puede compilar gtkmm."
 
 #: C/bugs.xml:125(para)
 msgid "If you have a good idea of how to make gtkmm better."
-msgstr ""
+msgstr "Si tiene una buena idea para mejorar gtkmm."
 
 #: C/books.xml:8(title)
 msgid "Recommended Books"
@@ -2226,7 +2245,7 @@ msgstr ""
 
 #: C/books.xml:11(para)
 msgid "The gtkmm developers also find these books helpful:"
-msgstr ""
+msgstr "Los desarrolladores de gtkmm también encuentran útiles estos libros:"
 
 #: C/books.xml:15(title)
 msgid "Core books"
@@ -2242,7 +2261,7 @@ msgstr ""
 
 #: C/books.xml:25(ulink)
 msgid "Design Patterns, Erich Gamma et al"
-msgstr ""
+msgstr "Patrones de diseño, Erich Gamma y otros"
 
 #: C/books.xml:31(title)
 msgid "For beginners"
