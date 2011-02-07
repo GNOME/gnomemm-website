@@ -2,13 +2,14 @@
 # Copyright (C) 2010 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011.
+# 
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011., 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-29 17:16+0000\n"
-"PO-Revision-Date: 2011-01-31 21:17+0100\n"
+"POT-Creation-Date: 2011-01-31 20:17+0000\n"
+"PO-Revision-Date: 2011-02-05 10:26+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -157,16 +158,22 @@ msgid ""
 "<ulink url=\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">subscribe "
 "page</ulink>."
 msgstr ""
+"<emphasis role=\"bold\">lista de correo de gtkmm</emphasis>: <ulink url="
+"\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. Para "
+"suscribirse, vaya a la <ulink url=\"http://mail.gnome.org/mailman/listinfo/"
+"gtkmm-list\">pagina de suscripción</ulink>."
 
 #: C/mailinglist.xml:16(para)
 msgid ""
 "For general GTK+ discussion, please use the <ulink url=\"http://www.gtk.org/"
 "mailinglists.html\">gtk-list</ulink>."
 msgstr ""
+"Para discusiones generales sobre GTK+, por favor use la <ulink url=\"http://"
+"www.gtk.org/mailinglists.html\">lista de gtk</ulink>."
 
 #: C/mailinglist.xml:21(title)
 msgid "What subject material is appropriate for the list?"
-msgstr ""
+msgstr "¿Qué tema es apropiado para la lista? "
 
 #: C/mailinglist.xml:22(para)
 msgid ""
@@ -175,6 +182,10 @@ msgid ""
 "discussion of the use of the wrapper. Questions about the underlying GTK+ "
 "widget set are more likely to be answered quickly through the gtk-list."
 msgstr ""
+"Las listas de correo se usan para discusiones sobre desarrollo, informes de "
+"errores, sugerencias y mejoras en los wrappers C++. También hay discusiones "
+"sobre el uso de estos. Las preguntas sobre los widgets GTK+ internos se "
+"suelen responder más rápidamente en la lista de gtk."
 
 #: C/mailinglist.xml:29(title)
 msgid "List Archives"
@@ -197,6 +208,8 @@ msgid ""
 "<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> archives messages even "
 "from before 2002, and has a more reliable search engine."
 msgstr ""
+"<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> archiva mensajes desde "
+"antes del 2002, y posee un motor de búsqueda mas confiable."
 
 #: C/mailinglist.xml:39(title)
 msgid "IRC channel"
@@ -209,6 +222,10 @@ msgid ""
 "properly on the mailing list. Plus, the mailing list is archived, so others "
 "can benefit from the answers."
 msgstr ""
+"También discutimos sobre el desarrollo en el canal <emphasis role=\"bold\">#c"
+"++</emphasis> en irc.gnome.org, pero es más probable que las preguntas se "
+"contesten en la lista de correo. Además, la lista de correo se archiva para "
+"que otros puedan beneficiarse de las respuestas."
 
 #: C/license.xml:8(title) C/gnomemm-website.xml:17(ulink)
 msgid "License"
@@ -224,12 +241,21 @@ msgid ""
 "integrate and link in a static manner. The full body of the license is "
 "provided for your inspection."
 msgstr ""
+"gtkmm se libera en todas las plataformas bajo la licencia pública reducida "
+"<ulink url=\"http://www.gnu.org\">GNU</ulink> LGPL (<ulink url=\"http://www."
+"gnu.org/licenses/lgpl.html#TOC1\">LGPL</ulink>) Nuestra intención de "
+"liberarlo bajo esta licencia es que pueda usarse en bibliotecas compartidas "
+"en todo tipo de proyectos, ya sean abiertos o propietarios. Otros proyectos "
+"GNU pueden también integrarse y unirse de manera estática. Se entrega el "
+"texto completo de la licencia para su inspección."
 
 #: C/license.xml:15(para)
 msgid ""
 "This is the only license which grants you use of the software, so if you do "
 "not agree to its terms, you may not use this software."
 msgstr ""
+"Esta es la única licencia que le otorga permiso para usar el software, si no "
+"está de acuerdo con los términos de la misma, no podrá usarlo."
 
 #: C/license.xml:18(para)
 msgid ""
