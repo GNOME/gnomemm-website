@@ -1,16 +1,18 @@
 # Spanish translation for gnomemm-website.
 # Copyright (C) 2010 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
-# Jorge González <jorgegonz@svn.gnome.org>, 2010.
 # 
+# 
+# Fidel Sanchez-Bueno <axl456@axl456.com.ve>, 2011.
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011., 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2010., 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-01-31 20:17+0000\n"
-"PO-Revision-Date: 2011-02-05 10:26+0100\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"POT-Creation-Date: 2011-02-07 18:51+0000\n"
+"PO-Revision-Date: 2011-02-19 13:27+0100\n"
+"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1370,7 +1372,7 @@ msgstr ""
 
 #: C/download.xml:45(para)
 msgid "Please tell us about others."
-msgstr ""
+msgstr "Por favor, infórmenos acerca de otros."
 
 #: C/download.xml:48(title)
 msgid "<anchor id=\"Source\"/>Source"
@@ -1385,6 +1387,8 @@ msgid ""
 "These replace the stable glibmm and gtkmm versions and are currently "
 "unstable:"
 msgstr ""
+"Éstas reemplazan las versiones estables de glibmm y gtkmm y actualmente son "
+"inestables:"
 
 #: C/download.xml:54(para)
 msgid ""
@@ -1404,7 +1408,7 @@ msgstr ""
 
 #: C/download.xml:62(title)
 msgid "<anchor id=\"stable\"/>Stable gtkmm and GNOME bindings:"
-msgstr ""
+msgstr "<anchor id=\"stable\"/>bindings estables de gtkmm y GNOME:"
 
 #: C/download.xml:65(para)
 msgid ""
@@ -1490,6 +1494,11 @@ msgid ""
 "linkCode=as2&amp;camp=1789&amp;creative=9325&amp;"
 "creativeASIN=B0049P1RP4\">available on the Amazon Kindle</ulink>."
 msgstr ""
+"Puede comenzar leyendo el libro <emphasis role=\"bold\">Programming with "
+"gtkmm</emphasis> en línea. Este libro se encuentra también disponible para "
+"el <ulink url=\"http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;"
+"tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;"
+"creativeASIN=B0049P1RP4\"> Kindle de Amazon</ulink>."
 
 #: C/documentation.xml:24(para)
 msgid ""
@@ -1577,7 +1586,7 @@ msgstr "Bucle principal"
 
 #: C/documentation.xml:87(ulink)
 msgid "enums and flags"
-msgstr ""
+msgstr "enums y flags"
 
 #: C/documentation.xml:90(ulink)
 msgid "Stock IDs"
@@ -1601,7 +1610,7 @@ msgstr "RefPtr&lt;&gt;"
 
 #: C/documentation.xml:109(ulink)
 msgid "Main Event loop"
-msgstr ""
+msgstr "Bucle del evento principal"
 
 #: C/documentation.xml:112(ulink)
 msgid "Spawning Processes"
@@ -1613,7 +1622,7 @@ msgstr "Hilos"
 
 #: C/documentation.xml:118(ulink)
 msgid "Miscellaneous Utility Functions"
-msgstr ""
+msgstr "Funciones de utilidades variadas"
 
 #: C/documentation.xml:121(ulink)
 msgid "Character set conversion"
@@ -1646,6 +1655,10 @@ msgid ""
 "url=\"http://library.gnome.org/devel/references#c++-bindings\">library.gnome."
 "org C++ Bindings</ulink> section."
 msgstr ""
+"La documentacion de referencia para la API de otros modulos de C++, tales "
+"como gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, se encuentra "
+"también disponible en la seccion <ulink url=\"http://library.gnome.org/devel/"
+"references#c++-bindings\">Bindings de C++ de library.gnome.org</ulink> "
 
 #: C/documentation.xml:149(title)
 msgid "Other Information"
@@ -1673,7 +1686,7 @@ msgstr "Biblioteca C++ estándar (STL)"
 
 #: C/documentation.xml:172(ulink)
 msgid "Solaris, with Sun's Forte C++."
-msgstr ""
+msgstr "Solaris, con Forte C++ de Sun."
 
 #: C/documentation.xml:175(ulink)
 msgid "Windows, with mingw and cygwin"
@@ -1690,6 +1703,10 @@ msgid ""
 "them online: <ulink url=\"http://git.gnome.org/cgit/gtkmm-documentation/tree/"
 "examples/book/\">gtkmm examples</ulink>"
 msgstr ""
+"En ocasiones es necesario ver ejemplos para entender la manera en que algo "
+"trabaja. Se incluyen varios ejemplos en el libro de gtkmm, pero también "
+"puedes encontrarlos en línea: <ulink url=\"http://git.gnome.org/cgit/gtkmm-"
+"documentation/tree/examples/book/\">ejemplos de gtkmm</ulink>"
 
 #: C/developers.xml:8(title)
 msgid "gtkmm Development"
@@ -1703,12 +1720,19 @@ msgid ""
 "development happens on the <ulink url=\"mailinglist.html\">mailing list</"
 "ulink>."
 msgstr ""
+"El desarrollo de gtkmm se realiza en el repositorio git de <ulink url="
+"\"http://gnome.org/\">GNOME</ulink>. Para iniciarse en el desarrollo de "
+"gtkmm, vea las <ulink url=\"git.html\">instrucciones detalladas de git</"
+"ulink>. Las discusiones sobre el desarrollo de gtkmm se realizan en la "
+"<ulink url=\"mailinglist.html\">lista de correo</ulink>."
 
 #: C/developers.xml:13(para)
 msgid ""
 "Please do not mail us directly - use the <ulink url=\"mailinglist.html"
 "\">mailing list</ulink> instead."
 msgstr ""
+"Por favor no nos escriba directamente, use la <ulink url=\"mailinglist.html"
+"\">lista de correo</ulink> en su lugar."
 
 #: C/developers.xml:17(title)
 msgid "Developers and Contributors"
@@ -1791,6 +1815,8 @@ msgid ""
 "There have been many patches, bug fixes and improvements from a lot of "
 "people. Thanks to them."
 msgstr ""
+"Ha habido muchos parches, correcciones de errores y mejoras de muchas "
+"personas. Muchas gracias a ellos."
 
 #: C/commercial_support.xml:8(title) C/gnomemm-website.xml:54(ulink)
 msgid "Commercial Support"
@@ -1804,6 +1830,11 @@ msgid ""
 "discuss a commercial arrangement. If necessary we can also build larger "
 "development teams."
 msgstr ""
+"Las listas de correo, irc, y documentación son de gran ayuda, pero su "
+"compañía puede necesitar asistencia mas específica, o personalizada. En tal "
+"caso siéntase libre de contactar los siguientes desarrollares independientes "
+"y compañías para discutir un arreglo comercial. En caso de que sea necesario "
+"nosotros también podemos crear equipos de desarrollo más grandes."
 
 #: C/commercial_support.xml:13(th)
 msgid "Name, email"
@@ -1821,6 +1852,8 @@ msgstr "Openismus"
 msgid ""
 "<placeholder-1/>: Custom software development using open source software."
 msgstr ""
+"<placeholder-1/>: desarrollo de software personalizado usando software de "
+"código abierto."
 
 #: C/commercial_support.xml:18(td)
 msgid "Germany, Austria, UK"
@@ -1828,13 +1861,15 @@ msgstr "Alemania, Austria, Reino Unido"
 
 #: C/commercial_support.xml:21(ulink)
 msgid "Made to Order Software Corp."
-msgstr ""
+msgstr "Made to Order Software Corp."
 
 #: C/commercial_support.xml:21(td)
 msgid ""
 "<placeholder-1/>: Quality software with easy to use interfaces from simple "
 "utilities to complex e-Business solutions."
 msgstr ""
+"<placeholder-1/>: software de calidad con interfaces de usuario intuitivas, "
+"desde utilidades simples hasta soluciones complejas de e-Business."
 
 #: C/commercial_support.xml:22(td)
 msgid "USA, UK"
@@ -1886,23 +1921,31 @@ msgid ""
 "<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - Consumer navigation "
 "devices"
 msgstr ""
+"<ulink url=\"http://www.garmin.com/\">Garmin</ulink>: dispositivos de "
+"navegación para el consumidor."
 
 #: C/commercial_support.xml:46(para)
 msgid ""
 "<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - "
 "satellite/meteorological"
 msgstr ""
+"<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink>: satélite/"
+"meteorológico"
 
 #: C/commercial_support.xml:49(para)
 msgid ""
 "<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - warehouse "
 "management systems"
 msgstr ""
+"<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink>: sistemas de gestión "
+"de almacenes."
 
 #: C/commercial_support.xml:52(para)
 msgid ""
 "<ulink url=\"http://www.eads.com\">EADS</ulink> - aerospace/defense/satellite"
 msgstr ""
+"<ulink url=\"http://www.eads.com\">EADS</ulink>: defensa/satélite/"
+"aeroespacial."
 
 #: C/commercial_support.xml:55(para)
 msgid ""
@@ -2011,12 +2054,16 @@ msgid ""
 "<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - "
 "Specialized internal applications"
 msgstr ""
+"<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink>: "
+"aplicaciones internas especializadas."
 
 #: C/commercial_support.xml:100(para)
 msgid ""
 "<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - "
 "Point Of Sale systems"
 msgstr ""
+"<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink>: "
+"sistemas POS "
 
 #: C/commercial_support.xml:103(para)
 msgid ""
@@ -2047,12 +2094,18 @@ msgid ""
 "on the mailing list. Here is a small list of some of those companies:"
 "<placeholder-1/>"
 msgstr ""
+"Varias compañías usan gtkmm para la implementación de sus productos o "
+"proyectos internos. Usted puede hacerse una idea de esto viendo las "
+"direcciones de correo en la lista de correo. Esta es una pequeña lista de "
+"algunas de esas compañías:<placeholder-1/>"
 
 #: C/commercial_support.xml:112(para)
 msgid ""
 "If you would like to be listed here please send email to the <ulink url="
 "\"mailinglist.html\">mailing list</ulink> or a maintainer."
 msgstr ""
+"Si quiere que se incluya aquí, envie un correo a la <ulink url=\"mailinglist."
+"html\">lista de correo</ulink> o a un mantenedor."
 
 #: C/commercial_support.xml:113(para)
 msgid ""
@@ -2071,6 +2124,8 @@ msgid ""
 "See <ulink url=\"#NewBugs\">Where to report</ulink> to submit new bugs or "
 "patches."
 msgstr ""
+"Vea <ulink url=\"#NewBugs\">dónde informar</ulink> para enviar errores "
+"nuevos o parches."
 
 #: C/bugs.xml:13(title)
 msgid "Current bugs and patches"
@@ -2081,12 +2136,16 @@ msgid ""
 "Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=gtkmm"
 "\">gtkmm bugs</ulink>"
 msgstr ""
+"Errores pendientes de <ulink url=\"http://bugzilla.gnome.org/browse.cgi?"
+"product=gtkmm\">gtkmm</ulink>"
 
 #: C/bugs.xml:19(para)
 msgid ""
 "Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=glibmm"
 "\">glibmm bugs</ulink>"
 msgstr ""
+"Errores pendientes de <ulink url=\"http://bugzilla.gnome.org/browse.cgi?"
+"product=glibmm\">glibmm</ulink>"
 
 #: C/bugs.xml:22(para)
 msgid ""
@@ -2101,6 +2160,16 @@ msgid ""
 "product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
 "\">*mm bugs</ulink>"
 msgstr ""
+"Errores pendientes de <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?"
+"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
+"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
+"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
+"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
+"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
+"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
+"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
+"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
+"\">*mm </ulink>"
 
 #: C/bugs.xml:29(para)
 msgid ""
@@ -2135,6 +2204,8 @@ msgid ""
 "As soon as a gtkmm patch has been clearly approved by a maintainer, anybody "
 "with git write access may apply it."
 msgstr ""
+"Tan pronto como un mantenedor aprueba un parche de gtkmm, cualquiera con "
+"permisos de escritura en git puede aplicarlo."
 
 #: C/bugs.xml:39(title)
 msgid "<anchor id=\"NewBugs\"/>Where to report?"
@@ -2147,6 +2218,11 @@ msgid ""
 "enter_bug.cgi?product=gtkmm\">here</ulink>. Submit gnomemm bugs <ulink url="
 "\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm\">here</ulink>."
 msgstr ""
+"Los errores se revisan en el <ulink url=\"http://bugzilla.gnome.org"
+"\">bugzilla</ulink> de GNOME. Envíe errores de gtkmm <ulink url=\"http://"
+"bugzilla.gnome.org/enter_bug.cgi?product=gtkmm\">aquí</ulink>. Envíe errores "
+"de gnomemm <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gnomemm\">aquí</ulink>."
 
 #: C/bugs.xml:48(para)
 msgid ""
@@ -2155,6 +2231,10 @@ msgid ""
 "to it immediately <emphasis role=\"bold\">after</emphasis> opening the bug. "
 "Please remember to patch the ChangeLog too."
 msgstr ""
+"Los parches se deben adjuntar a los errores existentes en bugzilla, en vez "
+"de enviados a la lista de correo. Al informar de un error nuevo, se tiene la "
+"oportunidad de adjuntar un archivo al mismo <emphasis role=\"bold\">después</"
+"emphasis> de crearlo. Por favor acuérdese de parchear también el ChangeLog."
 
 #: C/bugs.xml:55(title)
 msgid "What information is needed for a bug report?"
@@ -2165,6 +2245,8 @@ msgid ""
 "version numbers of GTK+, gtkmm and other related software, including your "
 "platform/distro/compiler."
 msgstr ""
+"Versiones de GTK+, gtkmm y otro software relacionads,incluyendo también su "
+"plataforma/distribución/compilador."
 
 #: C/bugs.xml:65(para)
 msgid "description of the bug"
@@ -2184,11 +2266,11 @@ msgstr ""
 
 #: C/bugs.xml:75(para)
 msgid "keep it small but detailed"
-msgstr ""
+msgstr "manténgalo pequeño pero detallado"
 
 #: C/bugs.xml:78(para)
 msgid "if possible, provide a patch"
-msgstr "si es posible, proporciona un parche"
+msgstr "si es posible, proporcione un parche"
 
 #: C/bugs.xml:81(para)
 msgid ""
@@ -2196,6 +2278,9 @@ msgid ""
 "simple-as-possible example that actually builds. This helps us to isolate "
 "the problem, and proves that the problem is not caused by your own code."
 msgstr ""
+"En caso de que no podamos solucionar el problema inmediatamente, es posible "
+"que le pidamos un ejemplo lo más sencillo posible que compile. Esto nos "
+"permite aislar el problema, y comprobar que no es causado por nuestro código."
 
 #: C/bugs.xml:87(title)
 msgid "<anchor id=\"CreatingPatches\"/>How do I create a patch?"
@@ -2246,7 +2331,7 @@ msgstr "Enviar siempre un informe de error:"
 
 #: C/bugs.xml:119(para)
 msgid "If you get a crash and you think it might be problem with gtkmm."
-msgstr ""
+msgstr "Si obtiene un error y piensa que puede ser un problema con gtkmm."
 
 #: C/bugs.xml:122(para)
 msgid "If you cannot compile gtkmm."
@@ -2268,6 +2353,12 @@ msgid ""
 "for Amazon's Kindle E-Reader, and also available online along with the rest "
 "of our <ulink url=\"documentation.html\">documentation</ulink>."
 msgstr ""
+"El libro <ulink url=\"http://www.amazon.com/gp/product/B0049P1RP4?"
+"ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;"
+"creative=9325&amp;creativeASIN=B0049P1RP4\">Programming with gtkmm</ulink> "
+"esta disponible para el Kindle de Amazon, y también está disponible en línea "
+"junto con el resto de nuestra <ulink url=\"documentation.html"
+"\">documentación</ulink>."
 
 #: C/books.xml:11(para)
 msgid "The gtkmm developers also find these books helpful:"
@@ -2275,19 +2366,19 @@ msgstr "Los desarrolladores de gtkmm también encuentran útiles estos libros:"
 
 #: C/books.xml:15(title)
 msgid "Core books"
-msgstr ""
+msgstr "Libros basicos"
 
 #: C/books.xml:19(ulink)
 msgid "The C++ Programming Language, Bjarne Stroustrup"
-msgstr ""
+msgstr "Bjarne Stroustrup, «The C++ Programming Language»"
 
 #: C/books.xml:22(ulink)
 msgid "The C++ Standard Library, Nicolai M. Josuttis"
-msgstr ""
+msgstr "Nicolai M. Josuttis, «The C++ Standard Library»"
 
 #: C/books.xml:25(ulink)
 msgid "Design Patterns, Erich Gamma et al"
-msgstr "Patrones de diseño, Erich Gamma y otros"
+msgstr "Erich Gamma et al, «Design Patterns»"
 
 #: C/books.xml:31(title)
 msgid "For beginners"
@@ -2298,24 +2389,29 @@ msgid ""
 "Accelerated C++ - Practical Programming by Example, Andrew Koenig &amp; "
 "Barbara E. Moo"
 msgstr ""
+"Andrew Koenig &amp; Barbara E. Moo, «Accelerated C++ - Practical Programming "
+"by Example»"
 
 #: C/books.xml:45(ulink)
 msgid ""
 "About Face 2.0: The essentials of interaction design, Alan Cooper &amp; "
 "Robert M. Reimann"
 msgstr ""
+"Alan Cooper &amp; Robert M. Reimann, «About Face 2.0: The essentials of "
+"interaction design»"
 
 #: C/books.xml:48(ulink)
 msgid "Advanced CORBA Programming with C++, Michi Henning &amp; Steve Vinoski"
 msgstr ""
+"Michi Henning &amp; «Steve Vinoski, Advanced CORBA Programming with C++»"
 
 #: C/books.xml:51(ulink)
 msgid "GNU Autoconf, Automake, and Libtool, Gary Vaughan et al"
-msgstr ""
+msgstr "Gary Vaughan et al, «GNU Autoconf, Automake, and Libtool»"
 
 #: C/books.xml:54(ulink)
 msgid "Programming With Gnu Software, Michael Kosta Loukides et al"
-msgstr ""
+msgstr "Michael Kosta Loukides et al, «Programming With Gnu Software»"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2375,15 +2471,16 @@ msgstr "Idioma"
 
 #: C/gnomemm-website.xml:65(ulink)
 msgid "English"
-msgstr "Inglés"
+msgstr "Inglés"
 
+# Dado que es una lista de lenguages cada uno escrito nativamente (aleman esta escrito como "Deutsch" y no "German") edito esta linea para dejarla en "English"
 #: C/gnomemm-website.xml:68(ulink)
 msgid "中文"
 msgstr "中文"
 
 #: C/gnomemm-website.xml:71(ulink)
 msgid "Deutsch"
-msgstr ""
+msgstr "Alemán"
 
 #: C/gnomemm-website.xml:90(ulink)
 msgid "Contact Us"
@@ -2393,5 +2490,6 @@ msgstr "Contáctenos"
 #: C/gnomemm-website.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2010\n"
-"Jorge González <jorgegonz@svn.gnome.org>, 2010"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011\n"
+"Jorge González <jorgegonz@svn.gnome.org>, 2010, 2011\n"
+"Fidel Sanchez-Bueno <axl456@axl456.com.ve>, 2011"
