@@ -98,6 +98,7 @@
   <xi:include href="books.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <xi:include href="bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <xi:include href="commercial_support.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="developers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <xi:include href="download.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
   <xi:include href="extra.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>

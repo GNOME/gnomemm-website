@@ -70,6 +70,7 @@ $(website_indexes): html/%/index.html:$(addprefix %/,$(doc_module_with_ext) $(DO
 	$(AM_V_at)rm -rf html/$(lang)
 	$(AM_V_at)$(MKDIR_P) html/$(lang)
 	$(AM_V_GEN)$(XSLTPROC) -o html/$(lang)/ --xinclude param.xsl $(srcdir)/$(lang)/$(doc_module_with_ext)
+	$(AM_V_at)rm -f html/$(lang)/root.html
 
 # Create a html generation of the C locale's version of the DocBook,
 # using our custom stylesheet and graphics:
