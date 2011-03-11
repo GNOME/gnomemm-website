@@ -32,9 +32,8 @@ DOC_INCLUDES = \
 
 DOC_LINGUAS = de es zh_CN
 
-MAINTAINERCLEANFILES =  html/en/*.html $(srcdir)/html/en/*.html	\
-			html/zh_CN/*.html $(srcdir)/html/zh_CN/*.html	\
-			html/de/*.html $(srcdir)/html/de/*.html
+MAINTAINERCLEANFILES =  $(foreach lang,en $(DOC_LINGUAS),html/$(lang)/*.html) \
+			$(foreach lang,en $(DOC_LINGUAS),$(srcdir)/html/$(lang)/*.html)
 
 tutorialdir         = $(gnomemmwebsite_docdir)/tutorial
 tutorial_htmldir    = $(tutorialdir)/html
@@ -46,7 +45,8 @@ tutorial_html_inst  = $(foreach\
 	file,$(tutorial_html_files),$(or $(wildcard $(file)),$(srcdir)/$(file)))
 
 tutorial_xml_files  = $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS))
-tutorial_po_files   = $(foreach lang,$(lang)/$(lang).po,$(DOC_LINGUAS))
+tutorial_po_files   = $(foreach lang, $(DOC_LINGUAS), $(lang)/$(lang).po)
+website_indexes	    = $(foreach lang,$(DOC_LINGUAS),html/$(lang)/index.html)
 
 dist_noinst_DATA =		\
 	C/gnomemm-website.xml	\
@@ -60,31 +60,24 @@ dist_tutorial_icons_DATA =
 
 include $(top_srcdir)/build/gnome-doc-utils.make
 
-all-local: $(DOC_LINGUAS) $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS)) html/en/index.html html/zh_CN/index.html html/de/index.html
-
-$(DOC_LINGUAS):
+$(DOC_LINGUAS): %: 
 	@$(MKDIR_P) $@
+
+all-local: $(DOC_LINGUAS) html/en/index.html $(website_indexes)
+
+$(website_indexes): html/%/index.html:$(addprefix %/,$(doc_module_with_ext) $(DOC_INCLUDES))
+  lang=$(subst html/,,$(subst /index.html,,$@))
+	$(AM_V_at)rm -rf html/$(lang)
+	$(AM_V_at)$(MKDIR_P) html/$(lang)
+	$(AM_V_GEN)$(XSLTPROC) -o html/$(lang)/ --xinclude param.xsl $(srcdir)/$(lang)/$(doc_module_with_ext)
 
 # Create a html generation of the C locale's version of the DocBook,
 # using our custom stylesheet and graphics:
 html/en/index.html: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
-  thelocale=en
-	$(AM_V_at)rm -fr html/$(thelocale)
-	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
+	$(AM_V_at)rm -fr html/en
+	$(AM_V_at)$(MKDIR_P) html/en
 	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $(srcdir)/C/$(doc_module_with_ext)
-
-html/zh_CN/index.html: $(addprefix $(srcdir)/zh_CN/,$(doc_module_with_ext) $(DOC_INCLUDES))
-  thelocale=zh_CN
-	$(AM_V_at)rm -fr html/$(thelocale)
-	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
-	$(AM_V_GEN)$(XSLTPROC) -o html/$(thelocale)/ --xinclude param.xsl $(srcdir)/$(thelocale)/$(doc_module_with_ext)
-
-html/de/index.html: $(addprefix $(srcdir)/de/,$(doc_module_with_ext) $(DOC_INCLUDES))
-  thelocale=de
-	$(AM_V_at)rm -fr html/$(thelocale)
-	$(AM_V_at)$(MKDIR_P) html/$(thelocale)
-	$(AM_V_GEN)$(XSLTPROC) -o html/$(thelocale)/ --xinclude param.xsl $(srcdir)/$(thelocale)/$(doc_module_with_ext)
-
+	
 validate: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
 	$(XMLLINT) --xinclude --postvalid --noout $<
 
