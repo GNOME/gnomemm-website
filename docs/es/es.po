@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-02-19 12:30+0000\n"
-"PO-Revision-Date: 2011-03-03 10:10+0100\n"
+"POT-Creation-Date: 2011-03-11 09:16+0000\n"
+"PO-Revision-Date: 2011-03-11 18:23+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -258,7 +258,7 @@ msgid ""
 "gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
 "\">archive</ulink>."
 msgstr ""
-"gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
+"gtkmm-list: <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
 "\">archivo</ulink>."
 
 #: C/mailinglist.xml:36(para)
@@ -397,7 +397,7 @@ msgstr "Internacionalización completa con UTF8."
 
 #: C/index.xml:51(para)
 msgid "Object composition"
-msgstr "Composición de objetos"
+msgstr "Composición de objetos."
 
 #: C/index.xml:54(para)
 msgid "Automatic deallocation of dynamically allocated widgets."
@@ -421,7 +421,7 @@ msgid ""
 "Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others"
 msgstr ""
 "Multi-plataforma: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
-"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), otros"
+"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), otros."
 
 #: C/index.xml:69(para)
 msgid ""
@@ -433,7 +433,7 @@ msgstr ""
 
 #: C/index.xml:73(para)
 msgid "Discussed, designed and implemented in public."
-msgstr "Discutido, diseñado e implementado en publico."
+msgstr "Discutido, diseñado e implementado en público."
 
 #: C/index.xml:79(title)
 msgid "Other gtkmm-related libraries"
@@ -2334,10 +2334,10 @@ msgid ""
 "\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm\">here</ulink>."
 msgstr ""
 "Los errores se revisan en el <ulink url=\"http://bugzilla.gnome.org"
-"\">bugzilla</ulink> de GNOME. Envíe errores de gtkmm <ulink url=\"http://"
-"bugzilla.gnome.org/enter_bug.cgi?product=gtkmm\">aquí</ulink>. Envíe errores "
-"de gnomemm <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=gnomemm\">aquí</ulink>."
+"\">bugzilla</ulink> de GNOME. Informe de errores de gtkmm <ulink url="
+"\"http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm\">aquí</ulink>. "
+"Envíe errores de gnomemm <ulink url=\"http://bugzilla.gnome.org/enter_bug."
+"cgi?product=gnomemm\">aquí</ulink>."
 
 #: C/bugs.xml:48(para)
 msgid ""
@@ -2347,9 +2347,10 @@ msgid ""
 "Please remember to patch the ChangeLog too."
 msgstr ""
 "Los parches se deben adjuntar a los errores existentes en bugzilla, en vez "
-"de enviados a la lista de correo. Al informar de un error nuevo, se tiene la "
-"oportunidad de adjuntar un archivo al mismo <emphasis role=\"bold\">después</"
-"emphasis> de crearlo. Por favor acuérdese de parchear también el ChangeLog."
+"de enviarlos a la lista de correo. Al informar de un error nuevo, se tiene "
+"la oportunidad de adjuntar un archivo al mismo <emphasis role=\"bold"
+"\">después</emphasis> de crearlo. Por favor acuérdese de parchear también el "
+"ChangeLog."
 
 #: C/bugs.xml:55(title)
 msgid "What information is needed for a bug report?"
@@ -2360,7 +2361,7 @@ msgid ""
 "version numbers of GTK+, gtkmm and other related software, including your "
 "platform/distro/compiler."
 msgstr ""
-"Versiones de GTK+, gtkmm y otro software relacionads,incluyendo también su "
+"versiones de GTK+, gtkmm y otro software relacionado, incluyendo también su "
 "plataforma/distribución/compilador."
 
 #: C/bugs.xml:65(para)
@@ -2411,7 +2412,7 @@ msgstr ""
 
 #: C/bugs.xml:91(para)
 msgid "Take code from <ulink url=\"git.html\">git</ulink>"
-msgstr "Obtenga el código de <ulink url=\"git.html\">git</ulink>"
+msgstr "Obtener el código de <ulink url=\"git.html\">git</ulink>"
 
 #: C/bugs.xml:94(para)
 msgid "Modify that version"
@@ -2530,13 +2531,13 @@ msgstr "Michael Kosta Loukides et al, «Programming With Gnu Software»"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnomemm-website.xml:78(None)
+#: C/gnomemm-website.xml:81(None)
 msgid "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnomemm-website.xml:85(None)
+#: C/gnomemm-website.xml:88(None)
 msgid "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
@@ -2585,19 +2586,23 @@ msgid "Language"
 msgstr "Idioma"
 
 #: C/gnomemm-website.xml:65(ulink)
-msgid "English"
-msgstr "Inglés"
-
-# Dado que es una lista de lenguages cada uno escrito nativamente (aleman esta escrito como "Deutsch" y no "German") edito esta linea para dejarla en "English"
-#: C/gnomemm-website.xml:68(ulink)
-msgid "中文"
-msgstr "中文"
-
-#: C/gnomemm-website.xml:71(ulink)
 msgid "Deutsch"
 msgstr "Alemán"
 
-#: C/gnomemm-website.xml:90(ulink)
+#: C/gnomemm-website.xml:68(ulink)
+msgid "English"
+msgstr "Inglés"
+
+#: C/gnomemm-website.xml:71(ulink)
+msgid "Español"
+msgstr "Español"
+
+# Dado que es una lista de lenguages cada uno escrito nativamente (aleman esta escrito como "Deutsch" y no "German") edito esta linea para dejarla en "English"
+#: C/gnomemm-website.xml:74(ulink)
+msgid "中文"
+msgstr "中文"
+
+#: C/gnomemm-website.xml:93(ulink)
 msgid "Contact Us"
 msgstr "Contáctenos"
 
