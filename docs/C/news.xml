@@ -9,6 +9,21 @@
       <para><itemizedlist>
           <listitem>
             <para>
+  April 6, 2011: <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00043.html">gtkmm 3.0.0</ulink> and <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm 3.0 wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 API.
+  </para>
+          </listitem>
+           <listitem>
+            <para>
+  February 10, 2011: gtkmm 2.24.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2011-February/msg00020.html">released</ulink>. gtkmm 2.24.0 wraps new API in GTK+ 2.24 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions. It deprecates some API, helping application developers to prepare for gtkmm 3.0.
+  </para>
+          </listitem>
+           <listitem>
+            <para>
+  September 22, 2010: gtkmm 2.22.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2010-September/msg00087.html">released</ulink>, as per the GNOME schedule. gtkmm 2.22.0 wraps new API in GTK+ 2.22 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions.
+  </para>
+          </listitem>
+          <listitem>
+            <para>
   March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070.html">released</ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions.
   </para>
           </listitem>
@@ -44,16 +59,6 @@
           </listitem>
           <listitem>
             <para>
-  October 2003: gtkmm 2.3.0 was released. This will become the new stable, parallel-installable, gtkmm 2.4 in March 2004.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  March 2003: libsigc++ <ulink url="http://www.ddj.com/documents/s=1642/ddj0303d/">article</ulink> in Dr Dobb&apos;s Journal.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
   January 2003: gtkmm 2.2.0 <ulink url="http://lists.gnome.org/archives/gtkmm-list/2003-January/msg00040.html">released</ulink>, API/ABI-compatible with gtkmm 2.0, with API additions.
   </para>
           </listitem>
@@ -65,31 +70,6 @@
           <listitem>
             <para>
   October 2002: gtkmm 2.0.0 is <ulink url="http://lists.gnome.org/archives/gtkmm-list/2002-October/msg00334.html">released</ulink> - the API is binary-frozen.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  September 2002: gtkmm article in <ulink url="http://www.software.com.pl/">Software 2.0 (Polish)</ulink> magazine.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  May 2002: <ulink url="http://www.linuxorbit.com/modules.php?op=modload&amp;name=Sections&amp;file=index&amp;req=viewarticle&amp;artid=527">gtkmm maintainer interviewed by Linux Orbit</ulink>.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  April 2002: gtkmm 1.2 article in <ulink url="http://www.cuj.com">C/C++ User&apos;s Journal</ulink>.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  April 2002: gtkmm2 <ulink url="http://www.murrayc.com/murray/talks/2002/GUADEC3/"> presentation</ulink> at <ulink url="http://www.guadec.org">GUADEC3</ulink> in Seville.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  October 2001: Al Stevens reviews gtkmm 1.2 favourably in <ulink url="http://www.ddj.com">Dr Dobb&apos;s Journal</ulink>.
   </para>
           </listitem>
         </itemizedlist></para>

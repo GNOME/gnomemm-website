@@ -1,22 +1,31 @@
+2011-04-08  Murray Cumming  <murrayc@murrayc.com>
+
+	Mention new versions.
+
+	* docs/C/download.xml: Mention the new versions, with a warning that
+	gtkmm 3 binary packages don't exist yet.
+	* docs/C/news.xml: Mention the recent releases and remove very old news
+	items.
+
 2010-12-16  Murray Cumming  <murrayc@murrayc.com>>
 
 	Books: Added links.
 
-	* docs/C/books.xml: Link to the gtkmm book for Kindle, and link to the 
+	* docs/C/books.xml: Link to the gtkmm book for Kindle, and link to the
 	documentation page.
 
 2010-11-26  Murray Cumming  <murrayc@murrayc.com>
 
 	Slight Makefile.am cleanup
 
-	* docs/Makefile.am: Make it easier to copy/paste a new target for a new 
+	* docs/Makefile.am: Make it easier to copy/paste a new target for a new
 	translation, though this should really be automatic.
 
 2010-11-26  Murray Cumming  <murrayc@murrayc.com>
 
 	Split the XMl into separate files.
-	
-	Having one .xml file corresponding to each generated web page, with the 
+
+	Having one .xml file corresponding to each generated web page, with the
 	same filename, is much more familiar to people editing web pages.
 
 2010-11-24  Murray Cumming  <murrayc@murrayc.com>
