@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-03-11 09:16+0000\n"
-"PO-Revision-Date: 2011-03-11 18:23+0100\n"
+"POT-Creation-Date: 2011-04-08 07:48+0000\n"
+"PO-Revision-Date: 2011-04-08 10:37+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,6 +26,67 @@ msgid "News"
 msgstr "Noticias"
 
 #: C/news.xml:11(para)
+#| msgid ""
+#| "April 2004: gtkmm and glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/"
+#| "archives/gnome-announce-list/2004-April/msg00016.html\">released</ulink>, "
+#| "as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and "
+#| "installs in parallel with gtkmm 2.2."
+msgid ""
+"April 6, 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
+"list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> and <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
+"\">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm 3.0 "
+"wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 API."
+msgstr ""
+"6 abril de 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
+"list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> y <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
+"\">glibmm 2.28.0</ulink> liberados, según el calendario de GNOME. gtkmm 3.0 "
+"envuelve la nueva API en GTK+ 3.0 y se instala paralelamente con la API "
+"gtkmm 2.4."
+
+#: C/news.xml:16(para)
+#| msgid ""
+#| "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
+#| "gnome.org/archives/gnome-announce-list/2010-March/msg00070.html"
+#| "\">released</ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new "
+#| "API in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a "
+#| "version of the gtkmm-2.4 API with API additions."
+msgid ""
+"February 10, 2011: gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2011-February/msg00020.html\">released</ulink>. gtkmm "
+"2.24.0 wraps new API in GTK+ 2.24 and is API/ABI-compatible with gtkmm &gt;= "
+"2.4. It is a version of the gtkmm-2.4 API with API additions. It deprecates "
+"some API, helping application developers to prepare for gtkmm 3.0."
+msgstr ""
+"10 de febrero, 2011: gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2011-February/msg00020.html\">liberado</ulink>. "
+"gtkmm 2.24.0  envuelve la nueva API en GTK+ 2.24 y es compatible a nivel de "
+"API/ABI con gtkmm &gt;= 2.4. Es una versión de la API de gtkmm-2.4, con "
+"adiciones en la API. Deja obsoletas algunas API, ayudando a los "
+"programadores de aplicaciones a prepararse para gtkmm 3.0."
+
+#: C/news.xml:21(para)
+#| msgid ""
+#| "September 22, 2008: gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/"
+#| "archives/gnome-announce-list/2008-September/msg00099.html\">released</"
+#| "ulink>, as per the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ "
+#| "2.14 and is API/ABI-compatible with gtkmm 2.12, 2.10, 2.8, 2.6 and 2.4. "
+#| "It is a version of the gtkmm-2.4 API, with API additions."
+msgid ""
+"September 22, 2010: gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2010-September/msg00087.html\">released</ulink>, as per "
+"the GNOME schedule. gtkmm 2.22.0 wraps new API in GTK+ 2.22 and is API/ABI-"
+"compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with "
+"API additions."
+msgstr ""
+"22 de septiembre, 2010: gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2010-September/msg00087.html\">liberado</"
+"ulink>, según el calendario de GNOME. gtkmm 2.22.0 envuelve la nueva API en "
+"GTK+ 2.22 y es compatible a nivel de API/ABI con gtkmm &gt;= 2.4. Es una "
+"versión de la API de gtkmm-2.4, con adiciones en la API."
+
+#: C/news.xml:26(para)
 msgid ""
 "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
 "gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
@@ -39,7 +100,7 @@ msgstr ""
 "GTK+ 2.20 y es compatible a nivel de API/ABI con gtkmm &gt;= 2.4. Es una "
 "versión de la API de gtkmm-2.4, con adiciones en la API."
 
-#: C/news.xml:16(para)
+#: C/news.xml:31(para)
 msgid ""
 "September 22, 2008: gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/archives/"
 "gnome-announce-list/2008-September/msg00099.html\">released</ulink>, as per "
@@ -53,7 +114,7 @@ msgstr ""
 "GTK+ 2.14 y es compatible a nivel de API/ABI con gtkmm 2.12, 2.10, 2.8, 2.6 "
 "y 2.4. Es una versión de la API de gtkmm-2.4, con adiciones en la API."
 
-#: C/news.xml:21(para)
+#: C/news.xml:36(para)
 msgid ""
 "September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <ulink url=\"http://mail."
 "gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"
@@ -68,7 +129,7 @@ msgstr ""
 "2.8, 2.6 y 2.4. Es una versión de la API de gtkmm-2.4, con adiciones en la "
 "API."
 
-#: C/news.xml:26(para)
+#: C/news.xml:41(para)
 msgid ""
 "August 2006: gtkmm and glibmm 2.10.0 <ulink url=\"http://mail.gnome.org/"
 "archives/gtkmm-list/2006-August/msg00254.html\">released</ulink>, as per the "
@@ -80,7 +141,7 @@ msgstr ""
 "calendario de GNOME. gtkmm 2.10.0 envuelve la nueva API en GTK+ 2.10 y es "
 "compatible a nivel de API/ABI con gtkmm 2.8, con adiciones en la API."
 
-#: C/news.xml:31(para)
+#: C/news.xml:46(para)
 msgid ""
 "September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. "
 "gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm "
@@ -90,7 +151,7 @@ msgstr ""
 "GNOME. gtkmm 2.8.0 envuelve la nueva API en GTK+ 2.8 y es compatible a nivel "
 "de API/ABI con gtkmm 2.6, con adiciones en la API."
 
-#: C/news.xml:36(para)
+#: C/news.xml:51(para)
 msgid ""
 "March 2005: gtkmm and glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/"
 "archives/gnome-announce-list/2005-March/msg00026.html\">released</ulink>, as "
@@ -102,7 +163,7 @@ msgstr ""
 "según el calendario de GNOME. gtkmm 2.6.0 envuelve la nueva API en GTK+ 2.6 "
 "y es compatible a nivel de  API/ABI con gtkmm 2.4, con adiciones en la API."
 
-#: C/news.xml:41(para)
+#: C/news.xml:56(para)
 msgid ""
 "April 2004: gtkmm and glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/"
 "archives/gnome-announce-list/2004-April/msg00016.html\">released</ulink>, as "
@@ -114,23 +175,7 @@ msgstr ""
 "según el calendario de GNOME. gtkmm 2.4.0 envuelve la nueva en GTK+ 2.4 y se "
 "instala paralelamente con gtkmm 2.2."
 
-#: C/news.xml:46(para)
-msgid ""
-"October 2003: gtkmm 2.3.0 was released. This will become the new stable, "
-"parallel-installable, gtkmm 2.4 in March 2004."
-msgstr ""
-"Octubre de 2003: se liberó gtkmm 2.3.0. Este se convertirá en el nuevo, "
-"estable, paralelamente instalable, gtkmm 2.4 en marzo de 2004."
-
-#: C/news.xml:51(para)
-msgid ""
-"March 2003: libsigc++ <ulink url=\"http://www.ddj.com/documents/s=1642/"
-"ddj0303d/\">article</ulink> in Dr Dobb's Journal."
-msgstr ""
-"Marzo de 2003: <ulink url=\"http://www.ddj.com/documents/s=1642/ddj0303d/"
-"\">artículo</ulink> de libsigc++  en Dr Dobb's Journal."
-
-#: C/news.xml:56(para)
+#: C/news.xml:61(para)
 msgid ""
 "January 2003: gtkmm 2.2.0 <ulink url=\"http://lists.gnome.org/archives/gtkmm-"
 "list/2003-January/msg00040.html\">released</ulink>, API/ABI-compatible with "
@@ -140,7 +185,7 @@ msgstr ""
 "gtkmm-list/2003-January/msg00040.html\">libera</ulink>, es compatible a "
 "nivel de API/ABI con gtkmm 2.0, con adiciones en la API."
 
-#: C/news.xml:61(para)
+#: C/news.xml:66(para)
 msgid ""
 "December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 "
 "released - these APIs are binary-frozen."
@@ -148,7 +193,7 @@ msgstr ""
 "Diciembre de 2002: libglademm 2.0.0, gconfmm 2.0.0 y libgnomecanvasmm 2.0.0 "
 "liberados; las APIs se congelan."
 
-#: C/news.xml:66(para)
+#: C/news.xml:71(para)
 msgid ""
 "October 2002: gtkmm 2.0.0 is <ulink url=\"http://lists.gnome.org/archives/"
 "gtkmm-list/2002-October/msg00334.html\">released</ulink> - the API is binary-"
@@ -156,50 +201,6 @@ msgid ""
 msgstr ""
 "Octubre de 2002: gtkmm 2.0.0 es <ulink url=\"http://lists.gnome.org/archives/"
 "gtkmm-list/2002-October/msg00334.html\">liberado</ulink>; la API se congela."
-
-#: C/news.xml:71(para)
-msgid ""
-"September 2002: gtkmm article in <ulink url=\"http://www.software.com.pl/"
-"\">Software 2.0 (Polish)</ulink> magazine."
-msgstr ""
-"Septiembre de 2002: artículo de gtkmm en la revista <ulink url=\"http://www."
-"software.com.pl/\">Software 2.0 (Polaco)</ulink>."
-
-#: C/news.xml:76(para)
-msgid ""
-"May 2002: <ulink url=\"http://www.linuxorbit.com/modules.php?op=modload&amp;"
-"name=Sections&amp;file=index&amp;req=viewarticle&amp;artid=527\">gtkmm "
-"maintainer interviewed by Linux Orbit</ulink>."
-msgstr ""
-"Mayo de 2002: <ulink url=\"http://www.linuxorbit.com/modules.php?"
-"op=modload&amp;name=Sections&amp;file=index&amp;req=viewarticle&amp;artid=527"
-"\"> mantenedor de gtkmm entrevistado por Linux Orbit</ulink>."
-
-#: C/news.xml:81(para)
-msgid ""
-"April 2002: gtkmm 1.2 article in <ulink url=\"http://www.cuj.com\">C/C++ "
-"User's Journal</ulink>."
-msgstr ""
-"Abril de 2002: artículo de gtkmm 1.2 en <ulink url=\"http://www.cuj.com\">C/C"
-"++ User's Journal</ulink>."
-
-#: C/news.xml:86(para)
-msgid ""
-"April 2002: gtkmm2 <ulink url=\"http://www.murrayc.com/murray/talks/2002/"
-"GUADEC3/\"> presentation</ulink> at <ulink url=\"http://www.guadec.org"
-"\">GUADEC3</ulink> in Seville."
-msgstr ""
-"Abril de 2002: <ulink url=\"http://www.murrayc.com/murray/talks/2002/GUADEC3/"
-"\">presentación</ulink> de gtkmm2 en la <ulink url=\"http://www.guadec.org"
-"\">GUADEC3</ulink> en Sevilla."
-
-#: C/news.xml:91(para)
-msgid ""
-"October 2001: Al Stevens reviews gtkmm 1.2 favourably in <ulink url=\"http://"
-"www.ddj.com\">Dr Dobb's Journal</ulink>."
-msgstr ""
-"Octubre de 2001: Al Stevens reseña gtkmm 1.2 de manera favorable en <ulink "
-"url=\"http://www.ddj.com\">Dr Dobb's Journal</ulink>."
 
 #: C/mailinglist.xml:8(title)
 msgid "Mailing List"
@@ -467,7 +468,7 @@ msgstr ""
 "Las bibliotecas de gnomemm cubren algunas de estas tareas, pero son "
 "opcionales."
 
-#: C/index.xml:95(title) C/download.xml:95(ulink)
+#: C/index.xml:95(title) C/download.xml:91(ulink)
 msgid "libsigc++"
 msgstr "libsigc++"
 
@@ -655,7 +656,7 @@ msgstr ""
 "Los siguientes bindings no están necesariamente en el mismo calendario que "
 "los listados anteriormente."
 
-#: C/git.xml:101(td) C/git.xml:103(td) C/download.xml:77(ulink)
+#: C/git.xml:101(td) C/git.xml:103(td) C/download.xml:76(ulink)
 msgid "libgdamm"
 msgstr "libgdamm"
 
@@ -1377,21 +1378,36 @@ msgid "Downloading"
 msgstr "Descarga"
 
 #: C/download.xml:10(para)
+#| msgid ""
+#| "You should use the <ulink url=\"#Binary\">binary packages</ulink> "
+#| "provided for your operating system unless you wish to test the latest "
+#| "versions. However,<ulink url=\"#Source\">source packages</ulink> are "
+#| "available as well."
 msgid ""
 "You should use the <ulink url=\"#Binary\">binary packages</ulink> provided "
 "for your operating system unless you wish to test the latest versions. "
-"However,<ulink url=\"#Source\">source packages</ulink> are available as well."
+"However, <ulink url=\"#Source\">source packages</ulink> are available as "
+"well."
 msgstr ""
 "Debería usar los <ulink url=\"#Binary\">paquetes binarios</ulink> "
 "proporcionados para su sistema operativo, a menos que quiera probar las "
-"últimas versiones. Sin embargo, también están disponibles los<ulink url="
-"\"#Source\">paquetes de código fuente</ulink>."
+"últimas versiones. Sin embargo, también están disponibles los <ulink url="
+"\"#Source\">paquetes de fuentes</ulink>."
 
-#: C/download.xml:14(title)
+#: C/download.xml:12(para)
+msgid ""
+"This page currently mentions gtkmm 2 binary packages. We will update this "
+"page soon as binary packages for gtkmm 3 become available."
+msgstr ""
+"Actualmente, esta página menciona los paquetes binarios de gtkmm 2. Esta "
+"página se actualizará tan pronto como los paquetes para gtkmm 3 estén "
+"disponibles."
+
+#: C/download.xml:16(title)
 msgid "<anchor id=\"Binary\"/>Binary"
 msgstr "<anchor id=\"Binary\"/>Binario"
 
-#: C/download.xml:15(para)
+#: C/download.xml:17(para)
 msgid ""
 "You might find a variety of 3rd party RPMs and debs on the internet, but "
 "only the ones listed here are approved by the gtkmm team. Please encourage "
@@ -1401,7 +1417,7 @@ msgstr ""
 "listados aquí están aprobados por el equipo de gtkmm. Por favor anime a su "
 "distribución de Linux para proporcionar paquetes oficiales de gtkmm."
 
-#: C/download.xml:18(para)
+#: C/download.xml:20(para)
 msgid ""
 "<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-"
 "get install libgtkmm-2.4-dev</command>. These <ulink url=\"http://packages."
@@ -1412,7 +1428,7 @@ msgstr ""
 "qa.debian.org/g/gtkmm2.4.html\">páginas del proyecto</ulink> pueden dar el "
 "estado."
 
-#: C/download.xml:21(para)
+#: C/download.xml:23(para)
 msgid ""
 "<ulink url=\"http://fedora.redhat.com/\">Fedora</ulink>/<ulink url=\"http://"
 "www.redhat.com\">RedHat</ulink> Linux: Use <ulink url=\"http://www."
@@ -1426,7 +1442,7 @@ msgstr ""
 "<command>yum install gtkmm24-docs</command> para obtener los paquetes de "
 "ejecución, desarrollo y documentación."
 
-#: C/download.xml:24(para)
+#: C/download.xml:26(para)
 msgid ""
 "<ulink url=\"http://www.mandrakelinux.com/\">Mandrake</ulink> Linux: Get "
 "libgtkmm2.4 from the contrib directory on their <ulink url=\"http://www."
@@ -1436,14 +1452,14 @@ msgstr ""
 "libgtkmm2.4 de la carpeta «contrib» en sus servidores <ulink url=\"http://www."
 "mandrakelinux.com/en/cookerdevel.php3\">ftp</ulink>."
 
-#: C/download.xml:27(para)
+#: C/download.xml:29(para)
 msgid ""
 "<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Get dev-cpp/gtkmm."
 msgstr ""
 "<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: obtenga dev-cpp/"
 "gtkmm."
 
-#: C/download.xml:30(para)
+#: C/download.xml:32(para)
 msgid ""
 "<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Use yast to "
 "install gtkmm2-devel."
@@ -1451,7 +1467,7 @@ msgstr ""
 "<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: use yast "
 "para instalar gtkmm2-devel."
 
-#: C/download.xml:33(para)
+#: C/download.xml:35(para)
 msgid ""
 "<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
 "install libgtkmm-2.4-dev</command>."
@@ -1459,7 +1475,7 @@ msgstr ""
 "<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
 "install libgtkmm-2.4-dev</command>."
 
-#: C/download.xml:36(para)
+#: C/download.xml:38(para)
 msgid ""
 "Windows: Here is an <ulink url=\"http://live.gnome.org/gtkmm/MSWindows"
 "\">installer</ulink>."
@@ -1467,7 +1483,7 @@ msgstr ""
 "Windows: aquí hay un <ulink url=\"http://live.gnome.org/gtkmm/MSWindows"
 "\">instalador</ulink>."
 
-#: C/download.xml:39(para)
+#: C/download.xml:41(para)
 msgid ""
 "MacOS X: There is a <ulink url=\"http://fink.sourceforge.net/pdb/package.php/"
 "gtkmm2.4-dev\">Fink package</ulink>."
@@ -1475,7 +1491,7 @@ msgstr ""
 "MacOS X: Hay un <ulink url=\"http://fink.sourceforge.net/pdb/package.php/"
 "gtkmm2.4-dev\">paquete Fink</ulink>."
 
-#: C/download.xml:42(para)
+#: C/download.xml:44(para)
 msgid ""
 "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink "
 "url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary "
@@ -1485,19 +1501,19 @@ msgstr ""
 "plataforma): <ulink url=\"http://thewrittenword.com\">The Written Word</"
 "ulink> ofrece paquetes binarios de gtkmm, con gestión de empaquetado."
 
-#: C/download.xml:45(para)
+#: C/download.xml:47(para)
 msgid "Please tell us about others."
 msgstr "Por favor, infórmenos acerca de otros."
 
-#: C/download.xml:48(title)
+#: C/download.xml:50(title)
 msgid "<anchor id=\"Source\"/>Source"
 msgstr "<anchor id=\"Source\"/>Fuente"
 
-#: C/download.xml:50(title)
+#: C/download.xml:52(title)
 msgid "<anchor id=\"devel\"/>Unstable gtkmm and GNOME bindings:"
 msgstr "<anchor id=\"devel\"/>Bindings inestables de gtkmm y GNOME:"
 
-#: C/download.xml:51(para)
+#: C/download.xml:53(para)
 msgid ""
 "These replace the stable glibmm and gtkmm versions and are currently "
 "unstable:"
@@ -1505,43 +1521,55 @@ msgstr ""
 "Éstas reemplazan las versiones estables de glibmm y gtkmm y actualmente son "
 "inestables:"
 
-#: C/download.xml:54(para)
+#: C/download.xml:56(para)
+#| msgid ""
+#| "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.23/\">glibmm "
+#| "2.23</ulink> (unstable)"
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.23/\">glibmm "
-"2.23</ulink> (unstable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.29/\">glibmm "
+"2.29</ulink> (unstable)"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.23/\">glibmm "
-"2.23</ulink> (inestable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.29/\">glibmm "
+"2.29</ulink> (inestable)"
 
-#: C/download.xml:57(para)
+#: C/download.xml:59(para)
+#| msgid ""
+#| "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.19/\">gtkmm "
+#| "2.19</ulink> (unstable)"
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.19/\">gtkmm "
-"2.19</ulink> (unstable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.1/\">gtkmm 3.1</"
+"ulink> (unstable)"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.19/\">gtkmm "
-"2.19</ulink> (inestable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.1/\">gtkmm 3.1</"
+"ulink> (inestable)"
 
-#: C/download.xml:62(title)
+#: C/download.xml:64(title)
 msgid "<anchor id=\"stable\"/>Stable gtkmm and GNOME bindings:"
 msgstr "<anchor id=\"stable\"/>bindings estables de gtkmm y GNOME:"
 
-#: C/download.xml:65(para)
+#: C/download.xml:67(para)
+#| msgid ""
+#| "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.22/\">glibmm "
+#| "2.22</ulink> (stable)"
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.22/\">glibmm "
-"2.22</ulink> (stable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.28/\">glibmm "
+"2.28</ulink> (stable)"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.22/\">glibmm "
-"2.22</ulink> (estable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.28/\">glibmm "
+"2.28</ulink> (estable)"
 
-#: C/download.xml:68(para)
+#: C/download.xml:70(para)
+#| msgid ""
+#| "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.18/\">gtkmm "
+#| "2.18</ulink> (stable)"
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.18/\">gtkmm "
-"2.18</ulink> (stable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.0/\">gtkmm 3.0</"
+"ulink> (stable)"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/2.18/\">gtkmm "
-"2.18</ulink> (estable)"
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.0/\">gtkmm 3.0</"
+"ulink> (estable)"
 
-#: C/download.xml:71(para)
+#: C/download.xml:73(para)
 msgid ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm"
 "\">libgnomecanvasmm</ulink> (stable)"
@@ -1549,35 +1577,19 @@ msgstr ""
 "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm"
 "\">libgnomecanvasmm</ulink> (estable)"
 
-#: C/download.xml:74(para)
-msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gconfmm\">gconfmm</"
-"ulink> (stable)"
-msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gconfmm\">gconfmm</"
-"ulink> (estable)"
-
-#: C/download.xml:80(para)
-msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/"
-"\">libpanelappletmm 2.6</ulink> (unstable)"
-msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/"
-"\">libpanelappletmm 2.6</ulink> (inestable)"
-
-#: C/download.xml:83(ulink)
+#: C/download.xml:79(ulink)
 msgid "gtkmm-hello 2.4"
 msgstr "gtkmm-hello 2.4"
 
-#: C/download.xml:89(title)
+#: C/download.xml:85(title)
 msgid "Requirements"
 msgstr "Requerimientos"
 
-#: C/download.xml:92(ulink) C/download.xml:101(title)
+#: C/download.xml:88(ulink) C/download.xml:97(title)
 msgid "GTK+"
 msgstr "GTK+"
 
-#: C/download.xml:98(para)
+#: C/download.xml:94(para)
 msgid ""
 "Here is a dependency graphs for <ulink url=\"jhbuild_dot_gtkmm.png\">gtkmm</"
 "ulink>, generated automatically with jhbuild and graphviz."
@@ -1585,7 +1597,7 @@ msgstr ""
 "Aquí hay unos gráficos de dependencias para <ulink url=\"jhbuild_dot_gtkmm."
 "png\">gtkmm</ulink>, generados automáticamente con  jhbuild y graphviz."
 
-#: C/download.xml:102(para)
+#: C/download.xml:98(para)
 msgid ""
 "You can download GTK+ and GNOME source code from <ulink url=\"http://"
 "download.gnome.org\">download.gnome.org</ulink>."
@@ -2613,3 +2625,70 @@ msgstr ""
 "Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2010, 2011\n"
 "Fidel Sanchez-Bueno <axl456@axl456.com.ve>, 2011"
+
+#~ msgid ""
+#~ "October 2003: gtkmm 2.3.0 was released. This will become the new stable, "
+#~ "parallel-installable, gtkmm 2.4 in March 2004."
+#~ msgstr ""
+#~ "Octubre de 2003: se liberó gtkmm 2.3.0. Este se convertirá en el nuevo, "
+#~ "estable, paralelamente instalable, gtkmm 2.4 en marzo de 2004."
+
+#~ msgid ""
+#~ "March 2003: libsigc++ <ulink url=\"http://www.ddj.com/documents/s=1642/"
+#~ "ddj0303d/\">article</ulink> in Dr Dobb's Journal."
+#~ msgstr ""
+#~ "Marzo de 2003: <ulink url=\"http://www.ddj.com/documents/s=1642/ddj0303d/"
+#~ "\">artículo</ulink> de libsigc++  en Dr Dobb's Journal."
+
+#~ msgid ""
+#~ "September 2002: gtkmm article in <ulink url=\"http://www.software.com.pl/"
+#~ "\">Software 2.0 (Polish)</ulink> magazine."
+#~ msgstr ""
+#~ "Septiembre de 2002: artículo de gtkmm en la revista <ulink url=\"http://"
+#~ "www.software.com.pl/\">Software 2.0 (Polaco)</ulink>."
+
+#~ msgid ""
+#~ "May 2002: <ulink url=\"http://www.linuxorbit.com/modules.php?"
+#~ "op=modload&amp;name=Sections&amp;file=index&amp;req=viewarticle&amp;"
+#~ "artid=527\">gtkmm maintainer interviewed by Linux Orbit</ulink>."
+#~ msgstr ""
+#~ "Mayo de 2002: <ulink url=\"http://www.linuxorbit.com/modules.php?"
+#~ "op=modload&amp;name=Sections&amp;file=index&amp;req=viewarticle&amp;"
+#~ "artid=527\"> mantenedor de gtkmm entrevistado por Linux Orbit</ulink>."
+
+#~ msgid ""
+#~ "April 2002: gtkmm 1.2 article in <ulink url=\"http://www.cuj.com\">C/C++ "
+#~ "User's Journal</ulink>."
+#~ msgstr ""
+#~ "Abril de 2002: artículo de gtkmm 1.2 en <ulink url=\"http://www.cuj.com"
+#~ "\">C/C++ User's Journal</ulink>."
+
+#~ msgid ""
+#~ "April 2002: gtkmm2 <ulink url=\"http://www.murrayc.com/murray/talks/2002/"
+#~ "GUADEC3/\"> presentation</ulink> at <ulink url=\"http://www.guadec.org"
+#~ "\">GUADEC3</ulink> in Seville."
+#~ msgstr ""
+#~ "Abril de 2002: <ulink url=\"http://www.murrayc.com/murray/talks/2002/"
+#~ "GUADEC3/\">presentación</ulink> de gtkmm2 en la <ulink url=\"http://www."
+#~ "guadec.org\">GUADEC3</ulink> en Sevilla."
+
+#~ msgid ""
+#~ "October 2001: Al Stevens reviews gtkmm 1.2 favourably in <ulink url="
+#~ "\"http://www.ddj.com\">Dr Dobb's Journal</ulink>."
+#~ msgstr ""
+#~ "Octubre de 2001: Al Stevens reseña gtkmm 1.2 de manera favorable en "
+#~ "<ulink url=\"http://www.ddj.com\">Dr Dobb's Journal</ulink>."
+
+#~ msgid ""
+#~ "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gconfmm\">gconfmm</"
+#~ "ulink> (stable)"
+#~ msgstr ""
+#~ "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gconfmm\">gconfmm</"
+#~ "ulink> (estable)"
+
+#~ msgid ""
+#~ "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/"
+#~ "\">libpanelappletmm 2.6</ulink> (unstable)"
+#~ msgstr ""
+#~ "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libpanelappletmm/"
+#~ "\">libpanelappletmm 2.6</ulink> (inestable)"
