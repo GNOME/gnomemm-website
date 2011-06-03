@@ -20,7 +20,7 @@
 
       <sect2>
         <title>Getting Started with gtkmm</title>
-        <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book. This book is also <ulink url="http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4">available on the Amazon Kindle</ulink>.</para>
+        <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book. This book is also <ulink url="http://www.amazon.com/gp/product/B0050I6FR4/ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050I6FR4">available on the Amazon Kindle</ulink>. Versions for the older gtkmm 2 API are also available.</para>
         <para><ulink url="&url_refdocs_base_book_html;index.html">Contents</ulink> of the whole online book.</para>
         <para>Selected chapters:<itemizedlist>
             <listitem>

@@ -1,3 +1,11 @@
+2011-06-03  Murray Cumming  <murrayc@murrayc.com>
+
+	Add links to Programming with gtkmm 3 on Kindle.
+
+	* docs/C/books.xml: Mention both kindle versions.
+	* docs/C/documentation.xml: Update the kindle link and mention that 
+	there are versions for gtkmm 2.
+
 2011-04-08  Murray Cumming  <murrayc@murrayc.com>
 
 	Mention new versions.
