@@ -21,7 +21,7 @@
       </highlights>
       <sect2>
         <title>Modules and branches</title>
-        <para>We are synchronized with the GNOME release schedule, so we use <ulink url="http://developer.gnome.org/dotplan/for_maintainers.html#Branches">standard GNOME branch names</ulink></para>
+        <para>We are synchronized with the GNOME release schedule, so we use <ulink url="http://developer.gnome.org/dotplan/for_maintainers.html#Branches">standard GNOME branch names</ulink>.</para>
         <sect3>
           <title>gtkmm and glibmm</title>
           <para><informaltable>
