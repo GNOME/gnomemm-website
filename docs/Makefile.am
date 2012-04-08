@@ -30,7 +30,7 @@ DOC_INCLUDES = \
 	mailinglist.xml \
 	news.xml
 
-DOC_LINGUAS = de es zh_CN
+DOC_LINGUAS = de es sl zh_CN
 
 MAINTAINERCLEANFILES =  $(foreach lang,en $(DOC_LINGUAS),html/$(lang)/*.html) \
 			$(foreach lang,en $(DOC_LINGUAS),$(srcdir)/html/$(lang)/*.html)
