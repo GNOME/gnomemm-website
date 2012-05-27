@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-12-30 21:55+0000\n"
-"PO-Revision-Date: 2012-04-08 21:13+0100\n"
+"POT-Creation-Date: 2012-04-08 20:13+0000\n"
+"PO-Revision-Date: 2012-05-27 01:17+0100\n"
 "Last-Translator: filmsi\n"
 "Language-Team: Slovenian <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: C/index.xml:51(para)
 msgid "Object composition"
-msgstr ""
+msgstr "Sestavljanje predmeta"
 
 #: C/index.xml:54(para)
 msgid "Automatic deallocation of dynamically allocated widgets."
@@ -186,11 +186,11 @@ msgstr ""
 
 #: C/index.xml:48(para)
 msgid "Complete C++ memory management <placeholder-1/>"
-msgstr ""
+msgstr "Popolno upravljanje pomnilnika C++ "
 
 #: C/index.xml:60(para)
 msgid "Full use of C++ namespaces."
-msgstr ""
+msgstr "Polna raba imenskih prostorov C++."
 
 #: C/index.xml:63(para)
 msgid "No macros."
@@ -210,7 +210,7 @@ msgstr ""
 
 #: C/index.xml:79(title)
 msgid "Other gtkmm-related libraries"
-msgstr ""
+msgstr "Druge knjižnice, sorodne z gtkmm"
 
 #: C/index.xml:81(title)
 #: C/git.xml:61(title)
@@ -482,7 +482,7 @@ msgstr ""
 
 #: C/extra.xml:62(title)
 msgid "Using gtkmm:"
-msgstr "Uporaba gtkmm:"
+msgstr "gtkmm uporabljajo:"
 
 #: C/extra.xml:65(para)
 msgid "<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> multi-file search/replace with visual feedback"
@@ -518,11 +518,11 @@ msgstr ""
 
 #: C/extra.xml:91(para)
 msgid "<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> IP address calculator"
-msgstr ""
+msgstr "Kalkulator naslovov IP <ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink>"
 
 #: C/extra.xml:94(para)
 msgid "<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modelling and animation"
-msgstr ""
+msgstr "3D-modeliranje in animacija <ulink url=\"http://www.k-3d.org/\">K-3D</ulink>"
 
 #: C/extra.xml:97(para)
 msgid "<ulink url=\"http://www.cs.auc.dk/~olau/hardware-monitor/\">Hardware Monitor</ulink> GNOME panel applet"
@@ -666,7 +666,7 @@ msgstr ""
 
 #: C/extra.xml:206(title)
 msgid "Using gtkmm 2.0/2.2:"
-msgstr ""
+msgstr "gtkmm 2.0/2.2 uporabljajo:"
 
 #: C/extra.xml:209(para)
 msgid "<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> file sharing client"
@@ -702,11 +702,11 @@ msgstr ""
 
 #: C/extra.xml:235(title)
 msgid "Using gtkmm 1.2:"
-msgstr ""
+msgstr "gtkmm 1.2 uporabljajo:"
 
 #: C/extra.xml:238(para)
 msgid "<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> generic SQL GUI"
-msgstr ""
+msgstr "splošni up. vmesnik za SQL <ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink>"
 
 #: C/extra.xml:241(para)
 msgid "<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> Gomoku game for GNOME"
@@ -750,7 +750,7 @@ msgstr ""
 
 #: C/extra.xml:271(para)
 msgid "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ client"
-msgstr ""
+msgstr "Odjemalec ICQ <ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink>"
 
 #: C/extra.xml:274(ulink)
 msgid "Chained Audio Plugins"
@@ -850,11 +850,11 @@ msgstr ""
 
 #: C/download.xml:47(para)
 msgid "Please tell us about others."
-msgstr ""
+msgstr "Povejte nam še o drugih."
 
 #: C/download.xml:50(title)
 msgid "<anchor id=\"Source\"/>Source"
-msgstr ""
+msgstr "<anchor id=\"Source\"/>Izvorna koda"
 
 #: C/download.xml:52(title)
 msgid "<anchor id=\"devel\"/>Unstable gtkmm and GNOME bindings:"
@@ -984,7 +984,7 @@ msgstr "Gradniki"
 
 #: C/documentation.xml:69(ulink)
 msgid "Containers"
-msgstr ""
+msgstr "Vsebniki"
 
 #: C/documentation.xml:75(ulink)
 msgid "TextView"
@@ -1000,7 +1000,7 @@ msgstr "Meniji in orodne vrstice"
 
 #: C/documentation.xml:84(ulink)
 msgid "Main loop"
-msgstr ""
+msgstr "Glavna zanka"
 
 #: C/documentation.xml:87(ulink)
 msgid "enums and flags"
@@ -1044,11 +1044,11 @@ msgstr ""
 
 #: C/documentation.xml:121(ulink)
 msgid "Character set conversion"
-msgstr ""
+msgstr "Pretvorba kodne tabele"
 
 #: C/documentation.xml:124(ulink)
 msgid "Glib Namespace"
-msgstr ""
+msgstr "Imenski prostor Glib"
 
 #: C/documentation.xml:131(ulink)
 msgid "File"
@@ -1056,15 +1056,15 @@ msgstr "Datoteka"
 
 #: C/documentation.xml:134(ulink)
 msgid "Streams"
-msgstr ""
+msgstr "Toki"
 
 #: C/documentation.xml:137(ulink)
 msgid "Gio Namespace"
-msgstr ""
+msgstr "Imenski prostor Gio"
 
 #: C/documentation.xml:145(title)
 msgid "Extra Modules"
-msgstr ""
+msgstr "Dodatni moduli"
 
 #: C/documentation.xml:146(para)
 msgid "API reference documentation for other C++ modules, such as gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink url=\"http://library.gnome.org/devel/references#c++-bindings\">library.gnome.org C++ Bindings</ulink> section."
@@ -1072,11 +1072,11 @@ msgstr ""
 
 #: C/documentation.xml:149(title)
 msgid "Other Information"
-msgstr ""
+msgstr "Drugi podatki"
 
 #: C/documentation.xml:152(th)
 msgid "External Documentation"
-msgstr ""
+msgstr "Zunanja dokumentacija"
 
 #: C/documentation.xml:153(th)
 msgid "Unusual Platforms"
@@ -1096,11 +1096,11 @@ msgstr ""
 
 #: C/documentation.xml:172(ulink)
 msgid "Solaris, with Sun's Forte C++."
-msgstr ""
+msgstr "Solaris, s Forte C++ podjetja Sun."
 
 #: C/documentation.xml:175(ulink)
 msgid "Windows, with mingw and cygwin"
-msgstr ""
+msgstr "Windows, z mingw in cygwin"
 
 #: C/documentation.xml:183(title)
 msgid "Examples"
@@ -1201,11 +1201,11 @@ msgstr ""
 
 #: C/commercial_support.xml:13(th)
 msgid "Name, email"
-msgstr ""
+msgstr "Ime, e-poštni naslov"
 
 #: C/commercial_support.xml:14(th)
 msgid "Location"
-msgstr ""
+msgstr "Kraj"
 
 #: C/commercial_support.xml:17(ulink)
 msgid "Openismus"
@@ -1313,11 +1313,11 @@ msgstr ""
 
 #: C/commercial_support.xml:79(para)
 msgid "<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS software/hardware"
-msgstr ""
+msgstr "<ulink url=\"http://www.hasar.com\">Hasar</ulink> - programska/strojna oprema POS"
 
 #: C/commercial_support.xml:82(para)
 msgid "<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - security/encryption software"
-msgstr ""
+msgstr "<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - program za varnost/šifriranje"
 
 #: C/commercial_support.xml:85(para)
 msgid "<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - process engineering"
@@ -1325,7 +1325,7 @@ msgstr ""
 
 #: C/commercial_support.xml:88(para)
 msgid "<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - fiscal Systems, POS"
-msgstr ""
+msgstr "<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - davčni sistemi, POS"
 
 #: C/commercial_support.xml:91(para)
 msgid "<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - prebuilt software packages"
@@ -1349,7 +1349,7 @@ msgstr ""
 
 #: C/commercial_support.xml:106(para)
 msgid "<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - Banking"
-msgstr ""
+msgstr "<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - bančništvo"
 
 #: C/commercial_support.xml:109(para)
 msgid "<ulink url=\"http://www.innoventis.de/htm/produkte_canmonitor.php\">Innoventis</ulink> - Automotive systems"
@@ -1398,7 +1398,7 @@ msgstr ""
 
 #: C/bugs.xml:32(ulink)
 msgid "Bugs fixed in the last 30 days"
-msgstr ""
+msgstr "Hrošči, odpravljeni v zadnjem mesecu"
 
 #: C/bugs.xml:35(para)
 msgid "As soon as a gtkmm patch has been clearly approved by a maintainer, anybody with git write access may apply it."
@@ -1502,7 +1502,7 @@ msgstr ""
 
 #: C/books.xml:8(title)
 msgid "Recommended Books"
-msgstr ""
+msgstr "Priporočene knjige"
 
 #: C/books.xml:10(para)
 msgid "The <ulink url=\"http://www.amazon.com/gp/product/B0050I6FR4/ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050I6FR4\">Programming with gtkmm 3</ulink> and <ulink url=\"http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4\">Programming with gtkmm 2</ulink> books are available for Amazon's Kindle E-Reader, and also available online along with the rest of our <ulink url=\"documentation.html\">documentation</ulink>."
@@ -1566,7 +1566,7 @@ msgstr "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
 #: C/gnomemm-website.xml:10(subtitle)
 msgid "C++ Interfaces for GTK+ and GNOME"
-msgstr ""
+msgstr "Vmesniki C++ za GTK+ in GNOME"
 
 #: C/gnomemm-website.xml:14(ulink)
 msgid "Home"
