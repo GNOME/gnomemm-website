@@ -1,0 +1,1598 @@
+# Brazilian Portuguese translation for gnomemm-website.
+# Copyright (C) 2013 gnomemm-website's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnomemm-website package.
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemm-website master\n"
+"POT-Creation-Date: 2013-04-07 14:48+0000\n"
+"PO-Revision-Date: 2013-07-10 16:25-0300\n"
+"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: C/ne'ws.xml:8(title) C/gnomemm-website.xml:33(ulink)
+msgid "News"
+msgstr "Notícias"
+
+#: C/news.xml:11(para)
+msgid "April 6, 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> and <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html\">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm 3.0 wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 API."
+msgstr "6 de abril de 2011: Lançamento de <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> e <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html\">glibmm 2.28.0</ulink>, seguindo o planejamento do GNOME. gtkmm 3.0 atua como interface da API no GTK+ 3.0 e instala em paralelo com a API do gtkmm-2.4."
+
+#: C/news.xml:16(para)
+msgid "February 10, 2011: gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-February/msg00020.html\">released</ulink>. gtkmm 2.24.0 wraps new API in GTK+ 2.24 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions. It deprecates some API, helping application developers to prepare for gtkmm 3.0."
+msgstr "10 de fevereiro de 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-February/msg00020.html\">Lançamento</ulink> do gtkmm 2.24.0, o qual atua como interface da nova API em GTK+ 2.24 e é compatível por API/ABI com gtkmm &gt;= 2.4. É uma versão da API do gtkmm-2.4 com adições. Torna algumas APIs obsoletas, ajudando desenvolvedores de aplicativos a se preparar para gtkmm 3.0."
+
+#: C/news.xml:21(para)
+msgid "September 22, 2010: gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2010-September/msg00087.html\">released</ulink>, as per the GNOME schedule. gtkmm 2.22.0 wraps new API in GTK+ 2.22 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions."
+msgstr "22 de setembro de 2010: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2010-September/msg00087.html\">Lançamento</ulink> do gtkmm 2.22.0, seguindo o planejamento do GNOME. gtkmm 2.22.0 atua como interface da nova API no GTK+ 2.22 e é compatível por API/ABI com gtkmm &gt;= 2.4. É uma versão da API do gtkmm-2.4 com adições."
+
+#: C/news.xml:26(para)
+msgid "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions."
+msgstr "29 de março de 2010: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">Lançamento</ulink> do gtkmm 2.20.0 e glibmm 2.24.0, seguindo o planejamento do GNOME. gtkmm 2.20.0 atua como interface da nova API no GTK+ 2.20 e é compatível por API/ABI com gtkmm &gt;= 2.4. É uma versão da API do gtkmm-2.4 com adições."
+
+#: C/news.xml:31(para)
+msgid "September 22, 2008: gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2008-September/msg00099.html\">released</ulink>, as per the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-compatible with gtkmm 2.12, 2.10, 2.8, 2.6 and 2.4. It is a version of the gtkmm-2.4 API, with API additions."
+msgstr "22 de setembro de 2008: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2008-September/msg00099.html\">Lançamento</ulink> do gtkmm 2.14.0, seguindo o planejamento do GNOME. gtkmm 2.14.0 atua como interface da nova API no GTK+ 2.14 e é compatível por API/ABI com gtkmm 2.12, 2.10, 2.8, 2.6 e 2.4. É uma versão da API do gtkmm-2.4 com adições."
+
+#: C/news.xml:36(para)
+msgid "September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html\">released</ulink>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 and 2.4. It is a version of the gtkmm-2.4 API, with API additions."
+msgstr "14 de setembro de 2007: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html\">Lançamento</ulink> do gtkmm 2.12.0 e glibmm 2.14.0, seguindo o planejamento do GNOME. gtkmm 2.12.0 atua como interface da nova API no GTK+ 2.12 e é compatível por API/ABI com 2.10, 2.8, 2.6 e 2.4. É uma versão da API do gtkmm-2.4, com adições."
+
+#: C/news.xml:41(para)
+msgid "August 2006: gtkmm and glibmm 2.10.0 <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html\">released</ulink>, as per the GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-compatible with gtkmm 2.8, with API additions."
+msgstr "Agosto de 2006: <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html\">Lançamento</ulink> do gtkmm e glibmm 2.10.0, seguindo o planejamento do GNOME. gtkmm 2.10.0 atua como interface da nova API no GTK+ 2.10 e é compatível por API/ABI com gtkmm 2.8, com adições."
+
+#: C/news.xml:46(para)
+msgid "September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm 2.6, with API additions."
+msgstr "Setembro de 2005: Lançamento do gtkmm e glibmm 2.8.0, seguindo o planejamento do GNOME. gtkmm 2.8.0 atua como interface da nova API no GTK+ 2.8 e é compatível por API/ABI com gtkmm 2.6, com adições."
+
+#: C/news.xml:51(para)
+msgid "March 2005: gtkmm and glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html\">released</ulink>, as per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-compatible with gtkmm 2.4, with API additions."
+msgstr "Março de 2005: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html\">Lançamento</ulink> do gtkmm and glibmm 2.6.0, como se o agendamento do GNOME. gtkmm 2.6.0 atua como interface da nova API no GTK+ 2.6 e é compatível por API/ABI com gtkmm 2.4, com adições."
+
+#: C/news.xml:56(para)
+msgid "April 2004: gtkmm and glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html\">released</ulink>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2."
+msgstr "Abril de 2004: <ulink url=\"http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html\">Lançamento</ulink> do gtkmm and glibmm 2.4.0, seguindo o planejamento do GNOME. gtkmm 2.4.0 atua como interface da nova API no GTK+ 2.4 e instala em paralelo com gtkmm 2.2."
+
+#: C/news.xml:61(para)
+msgid "January 2003: gtkmm 2.2.0 <ulink url=\"http://lists.gnome.org/archives/gtkmm-list/2003-January/msg00040.html\">released</ulink>, API/ABI-compatible with gtkmm 2.0, with API additions."
+msgstr "Janeiro de 2003: <ulink url=\"http://lists.gnome.org/archives/gtkmm-list/2003-January/msg00040.html\">Lançamento</ulink> do gtkmm 2.2.0, compatível por API/ABI com gtkmm 2.0, com adições."
+
+#: C/news.xml:66(para)
+msgid "December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 released - these APIs are binary-frozen."
+msgstr "Dezembro de 2002: Lançamento de libglademm 2.0.0, gconfmm 2.0.0 e libgnomecanvasmm 2.0.0 - essas APIs estão em congelamento de binário."
+
+#: C/news.xml:71(para)
+msgid "October 2002: gtkmm 2.0.0 is <ulink url=\"http://lists.gnome.org/archives/gtkmm-list/2002-October/msg00334.html\">released</ulink> - the API is binary-frozen."
+msgstr "Outubro de 2002: <ulink url=\"http://lists.gnome.org/archives/gtkmm-list/2002-October/msg00334.html\">Lançamento</ulink> do gtkmm 2.0.0 - a API está em congelamento de binário."
+
+#: C/mailinglist.xml:8(title)
+msgid "Mailing List"
+msgstr "Lista de discussão"
+
+#: C/mailinglist.xml:10(title)
+msgid "Where is the gtkmm mailing list?"
+msgstr "Onde está a lista de discussão do gtkmm?"
+
+#: C/mailinglist.xml:13(para)
+msgid "<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <ulink url=\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. To subscribe, go to the <ulink url=\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">subscribe page</ulink>."
+msgstr "<emphasis role=\"bold\">Lista de discussão do gtkmm</emphasis>: <ulink url=\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. Para se inscrever nela, acesse sua <ulink url=\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">página de inscrição</ulink>."
+
+#: C/mailinglist.xml:16(para)
+msgid "For general GTK+ discussion, please use the <ulink url=\"http://www.gtk.org/mailinglists.html\">gtk-list</ulink>."
+msgstr "Para discussão sobre GTK+ em geral, por favor use a <ulink url=\"http://www.gtk.org/mailinglists.html\">gtk-list</ulink>."
+
+#: C/mailinglist.xml:21(title)
+msgid "What subject material is appropriate for the list?"
+msgstr "Qual assunto é apropriado para esta lista?"
+
+#: C/mailinglist.xml:22(para)
+msgid "The mailing lists are used for discussion of development, bug reports, suggestions, and improvements of the C++ wrappers themselves. There is also discussion of the use of the wrapper. Questions about the underlying GTK+ widget set are more likely to be answered quickly through the gtk-list."
+msgstr "As listas de discussão são usadas para debater sobre desenvolvimento, relatórios de erros, sugestões e melhoramentos das interfaces de C++. Há também discussão sobre o uso da interface. Questões sobre o conjunto de widgets subjacentes ao GTK+ provavelmente serão respondidos mais rápidos na gtk-list."
+
+#: C/mailinglist.xml:29(title)
+msgid "List Archives"
+msgstr "Todos os pacotes"
+
+#: C/mailinglist.xml:30(para)
+msgid "The archive of messages can be found at:"
+msgstr "O arquivo de mensagens pode ser encontrado no:"
+
+#: C/mailinglist.xml:33(para)
+msgid "gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/\">archive</ulink>."
+msgstr "<ulink url=\"http://mail.gnome.org/archives/gtkmm-list/\">arquivo</ulink> da gtkmm-list."
+
+#: C/mailinglist.xml:36(para)
+msgid "<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> archives messages even from before 2002, and has a more reliable search engine."
+msgstr "<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> arquiva mensagens de antes de 2002 e possui um mecanismo de pesquisa mais confiável."
+
+#: C/mailinglist.xml:39(title)
+msgid "IRC channel"
+msgstr "Canal IRC"
+
+#: C/mailinglist.xml:40(para)
+msgid "We also discuss development in the <emphasis role=\"bold\">#c++</emphasis> channel on irc.gnome.org, but questions are more likely to be answered properly on the mailing list. Plus, the mailing list is archived, so others can benefit from the answers."
+msgstr "Nós também discutimos o desenvolvimento no canal <emphasis role=\"bold\">#c++</emphasis> no irc.gnome.org, mas as perguntas provavelmente serão melhor respondidas nas listas de discussão. Além disso, a lista de discussão é arquivada, de forma que outras pessoas podem se beneficiar das respostas."
+
+#: C/license.xml:8(title) C/gnomemm-website.xml:17(ulink)
+msgid "License"
+msgstr "Licença"
+
+#: C/license.xml:9(para)
+msgid "gtkmm is licensed under the <ulink url=\"http://www.gnu.org\">GNU</ulink> Library General Public License (<ulink url=\"http://www.gnu.org/licenses/lgpl.html#TOC1\">LGPL</ulink>) for all platforms. Our intent in licensing it in this way is to provide it for use through shared libraries in all projects both open and proprietary. Other GNU projects may of course integrate and link in a static manner. The full body of the license is provided for your inspection."
+msgstr "gtkmm está licenciado sob a Licença Pública Geral de Biblioteca <ulink url=\"http://www.gnu.org\">GNU</ulink> (<ulink url=\"http://www.gnu.org/licenses/lgpl.html#TOC1\">LGPL</ulink>) para todas as plataformas. Nossa intenção em licenciar desta forma é fornecê-lo para uso por meio de bibliotecas compartilhadas em todos os projetos, tanto abertos quanto proprietários. Outros projetos da GNU podem, é claro, integrar e vincular de uma maneira estática. O conteúdo completo da licença é fornecida para sua inspeção."
+
+#: C/license.xml:15(para)
+msgid "This is the only license which grants you use of the software, so if you do not agree to its terms, you may not use this software."
+msgstr "Essa é a única licença que concede a você uso deste software. Então, se você não concorda com estes termos, você não pode usar este software."
+
+#: C/license.xml:18(para)
+msgid "Note that this license <emphasis role=\"bold\">does not require you to release the source code of your own applications or libraries</emphasis> and <emphasis role=\"bold\">does not require you to pay any fees.</emphasis>"
+msgstr "Note que esta licença <emphasis role=\"bold\">não exige que você disponibilize o código fonte de seus próprios aplicativos ou bibliotecas</emphasis> e <emphasis role=\"bold\">não exige que você pague quaisquer taxas.</emphasis>"
+
+#: C/index.xml:9(para)
+msgid "<application>gtkmm</application> is the official C++ interface for the popular GUI library <ulink url=\"http://www.gtk.org/\">GTK+</ulink>. Highlights include typesafe callbacks, and a comprehensive set of widgets that are easily extensible via inheritance. You can create user interfaces either in code or with the <ulink url=\"http://glade.gnome.org/\">Glade User Interface designer</ulink>, using Gtk::Builder. There's <ulink url=\"documentation.shtml\">extensive documentation</ulink>, including API reference and a tutorial."
+msgstr "<application>gtkmm</application> é a interface C++ oficial para a popular biblioteca de interface gráfica <ulink url=\"http://www.gtk.org/\">GTK+</ulink>. Destaques incluem chamadas seguras e um conjunto compreensível de widgets que são facilmente extensíveis via herança. Você pode criar interfaces de usuário em seu código ou com o <ulink url=\"http://glade.gnome.org/\">construtor de interfaces de usuário Glade</ulink>, usando o Gtk::Builder. Há uma <ulink url=\"documentation.shtml\">documentação extensa</ulink>, incluindo referência da API e um tutorial."
+
+#: C/index.xml:18(para)
+msgid "<application>gtkmm</application> is free software distributed under the GNU Library General Public License (<ulink url=\"license.shtml\">LGPL</ulink>)."
+msgstr "<application>gtkmm</application> é um software livre distribuído sob a Licença Pública Geral de Biblioteca GNU (<ulink url=\"license.shtml\">LGPL</ulink>)."
+
+#: C/index.xml:22(para)
+msgid "<application>gtkmm</application> follows the official <ulink url=\"http://www.gnome.org/start/unstable/\"> GNOME Platform Bindings release schedule</ulink>. This guarantees API/ABI-stability and new releases on a predictable schedule, delivering C++ API for the underlying GTK+ and GNOME APIs as soon as possible."
+msgstr "<application>gtkmm</application> segue o <ulink url=\"http://www.gnome.org/start/unstable/\">agendamento para lançamento de bindings da plataforma do GNOME</ulink>. Isso garante estabilidade na API/ABI e novos lançamentos em um agendamento previsível, entregando uma API de C++ para as APIs subjacentes do GTK+ e GNOME o mais cedo possível."
+
+#: C/index.xml:29(title)
+msgid "Features"
+msgstr "Funcionalidades"
+
+#: C/index.xml:33(para)
+msgid "Use inheritance to derive custom widgets."
+msgstr "Usa herança para derivar widgets personalizados."
+
+#: C/index.xml:36(para)
+msgid "Type-safe signal handlers, in standard C++."
+msgstr "Manipuladores de sinais seguros, em C++ tradicional."
+
+#: C/index.xml:39(para)
+msgid "Polymorphism."
+msgstr "Polimorfismo."
+
+#: C/index.xml:42(para)
+msgid "Use of Standard C++ Library, including strings, containers, and iterators."
+msgstr "Uso da biblioteca C++ tradicional, incluindo strings, containers e iterators."
+
+#: C/index.xml:45(para)
+msgid "Full internationalisation with UTF8."
+msgstr "Internacionalização completa com UTF8."
+
+#: C/index.xml:51(para)
+msgid "Object composition"
+msgstr "Composição de objeto"
+
+#: C/index.xml:54(para)
+msgid "Automatic deallocation of dynamically allocated widgets."
+msgstr "Desalocação automática de widgets alocados dinamicamente."
+
+#: C/index.xml:48(para)
+msgid "Complete C++ memory management <placeholder-1/>"
+msgstr "Gerenciamento de memória em C++ completo <placeholder-1/>"
+
+#: C/index.xml:60(para)
+msgid "Full use of C++ namespaces."
+msgstr "Uso completo da espaços de nomes em C++."
+
+#: C/index.xml:63(para)
+msgid "No macros."
+msgstr "Sem macros."
+
+#: C/index.xml:66(para)
+msgid "Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others"
+msgstr "Multiplataforma: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc) e outros."
+
+#: C/index.xml:69(para)
+msgid "Free software and free of cost for both Open Source and proprietary development."
+msgstr "Software livre e gratuito para desenvolvimento tanto código aberto quanto proprietário."
+
+#: C/index.xml:73(para)
+msgid "Discussed, designed and implemented in public."
+msgstr "Discutido, desenhado e implementado em público."
+
+#: C/index.xml:79(title)
+msgid "Other gtkmm-related libraries"
+msgstr "Outras bibliotecas relacionadas ao gtkmm"
+
+#: C/index.xml:81(title) C/git.xml:61(title)
+msgid "gnomemm"
+msgstr "gnomemm"
+
+#: C/index.xml:82(para)
+msgid "gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ GUI toolkit. That mandate does not cover generic C++ data structures, an XML parser, or database access. Even our signal/slots system is part of a separate (<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>) library. However, gtkmm is designed to work well with all other C++ libraries."
+msgstr "gtkmm é um kit de ferramentas de interface gráfica e nada mais, visando ser o melhor kit de ferramentas de C++. Este encargo não inclui estruturas de dados C++ genéricas, um interpretador XML ou um acesso a banco de dados. Mesmo nosso sistema de sinais/slots é parte de uma biblioteca separada (<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>). Porém, gtkmm é desenhado para funcionar bem com todas as outras bibliotecas C++."
+
+#: C/index.xml:89(para)
+msgid "The gnomemm libraries cover some of these other tasks, but they are optional."
+msgstr "As bibliotecas do gnomemm cobre algumas dessas outras tarefas, mas elas são opcionais."
+
+#: C/index.xml:95(title) C/download.xml:91(ulink)
+msgid "libsigc++"
+msgstr "libsigc++"
+
+#: C/index.xml:96(para)
+msgid "Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <ulink url=\"http://libsigc.sourceforge.net/\">libsigc++</ulink> (signal/slots)."
+msgstr "Também, não deixe de verificar nossas bibliotecas companheiras, glibmm (strings em UTF8, threading, etc.) e <ulink url=\"http://libsigc.sourceforge.net/\">libsigc++</ulink> (sinais/slots)."
+
+#: C/index.xml:101(title) C/bugs.xml:26(title) C/books.xml:41(title)
+msgid "Others"
+msgstr "Outras"
+
+#: C/index.xml:102(para)
+msgid "Be sure to check out <ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink>, a framework for constructing gtkmm/gnomemm applications. It allows use of the Document/View architecture."
+msgstr "Não deixe de verificar nosso <ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink>, uma infraestrutura para construção de aplicativos em gtkmm/gnomemm. Ele permite usar a arquitetura de documento/visão."
+
+#: C/git.xml:8(title) C/gnomemm-website.xml:45(ulink)
+msgid "Git"
+msgstr "GIT"
+
+#: C/git.xml:9(para)
+msgid "We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our source code, in the <ulink url=\"http://www.gnome.org\">GNOME</ulink> Git repository. Additional information about git.gnome.org is available at <ulink url=\"http://live.gnome.org/Git\">live.gnome.org/Git</ulink>."
+msgstr "Nós usamos o <ulink url=\"http://git-scm.com/\">Git</ulink> para manter nosso código fonte, no repositório Git do <ulink url=\"http://www.gnome.org\">GNOME</ulink>. Informações adicionais sobre o git.gnome.org estão disponíveis em <ulink url=\"http://live.gnome.org/Git\">live.gnome.org/Git</ulink>."
+
+#: C/git.xml:12(para)
+msgid "glibmm and gtkmm are in the <ulink url=\"http://git.gnome.org/cgit/glibmm/tree/\">glibmm</ulink> and <ulink url=\"http://git.gnome.org/cgit/gtkmm/tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"http://git.gnome.org/cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> module which contains the gtkmm book and its examples. See below for instructions."
+msgstr "glibmm e gtkmm estão nos módulos <ulink url=\"http://git.gnome.org/cgit/glibmm/tree/\">glibmm</ulink> e <ulink url=\"http://git.gnome.org/cgit/gtkmm/tree/\">gtkmm</ulink>. Há também um módulo <ulink url=\"http://git.gnome.org/cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> que contém o livro do gtkmm e seus exemplos. Veja abaixo para instruções."
+
+#: C/git.xml:14(para)
+msgid "You will need to run the autogen.sh script to generate the build files. We recommend jhbuild for setting up a separate development prefix."
+msgstr "Você vai precisar executar o script autogen.sh para gerar os arquivos para compilação. Nós recomendamos o jhbuild para configurar um prefixo de desenvolvimento separado."
+
+#: C/git.xml:17(emphasis)
+msgid "Anonymous Access"
+msgstr "Acesso anônimo"
+
+#: C/git.xml:18(para)
+msgid "For those who do not have a GNOME login, anonymous checkouts are available."
+msgstr "Para aqueles que não possuem uma conta no GNOME, checkouts anônimos estão disponíveis."
+
+#: C/git.xml:20(para)
+msgid "For instance, to check out the latest version of gtkmm: <command>git clone git://git.gnome.org/gtkmm</command>"
+msgstr "Por exemplo, para baixar a última versão do gtkmm: <command>git clone git://git.gnome.org/gtkmm</command>"
+
+#: C/git.xml:23(title)
+msgid "Modules and branches"
+msgstr "Módulos e ramos"
+
+#: C/git.xml:24(para)
+msgid "We are synchronized with the GNOME release schedule, so we use <ulink url=\"http://developer.gnome.org/dotplan/for_maintainers.html#Branches\">standard GNOME branch names</ulink>."
+msgstr "Nós estamos sincronizados com o agendamento de lançamentos do GNOME. Então, nós usamos os <ulink url=\"http://developer.gnome.org/dotplan/for_maintainers.html#Branches\">nomes de ramos do GNOME</ulink>."
+
+#: C/git.xml:26(title)
+msgid "gtkmm and glibmm"
+msgstr "gtkmm e glibmm"
+
+#: C/git.xml:29(th) C/git.xml:64(th) C/git.xml:95(th)
+msgid "Component"
+msgstr "Componente"
+
+#: C/git.xml:30(th) C/git.xml:96(th)
+msgid "Version"
+msgstr "Versão"
+
+#: C/git.xml:31(th) C/git.xml:66(th) C/git.xml:97(th)
+msgid "Git Module"
+msgstr "Módulo Git"
+
+#: C/git.xml:32(th) C/git.xml:67(th) C/git.xml:98(th)
+msgid "Branch name"
+msgstr "Nome do ramo:"
+
+#: C/git.xml:35(td) C/git.xml:37(td) C/git.xml:41(td) C/git.xml:43(td)
+#: C/gnomemm-website.xml:9(title)
+msgid "gtkmm"
+msgstr "gtkmm"
+
+#: C/git.xml:36(td)
+msgid "2.17/18"
+msgstr "2.17/18"
+
+#: C/git.xml:38(td) C/git.xml:50(td) C/git.xml:73(td) C/git.xml:79(td)
+#: C/git.xml:85(td) C/git.xml:104(td) C/git.xml:110(td) C/git.xml:116(td)
+#: C/git.xml:122(td)
+msgid "master"
+msgstr "master"
+
+#: C/git.xml:42(td)
+msgid "2.16"
+msgstr "2.16"
+
+#: C/git.xml:44(td)
+msgid "gtkmm-2-16"
+msgstr "gtkmm-2-16"
+
+#: C/git.xml:47(td) C/git.xml:49(td) C/git.xml:53(td) C/git.xml:55(td)
+msgid "glibmm"
+msgstr "glibmm"
+
+#: C/git.xml:48(td)
+msgid "2.21/22"
+msgstr "2.21/22"
+
+#: C/git.xml:54(td)
+msgid "2.20"
+msgstr "2.20"
+
+#: C/git.xml:56(td)
+msgid "glibmm-2-20"
+msgstr "glibmm-2-20"
+
+#: C/git.xml:65(th)
+msgid "API Version"
+msgstr "Versão da API"
+
+#: C/git.xml:70(td) C/git.xml:72(td)
+msgid "libglademm"
+msgstr "libglademm"
+
+#: C/git.xml:76(td) C/git.xml:78(td)
+msgid "gconfmm"
+msgstr "gconfmm"
+
+#: C/git.xml:82(td) C/git.xml:84(td)
+msgid "libgnomecanvasmm"
+msgstr "libgnomecanvasmm"
+
+#: C/git.xml:90(title)
+msgid "*mm bindings for other GNOME-related APIs"
+msgstr "*mm bindings para outras APIs relacionadas com o GNOME"
+
+#: C/git.xml:91(para)
+msgid "The following bindings are not necessarily on the same schedule as those listed above."
+msgstr "Os seguintes bindings não estão necessariamente no mesmo agendamento que aqueles listados acima."
+
+#: C/git.xml:101(td) C/git.xml:103(td) C/download.xml:76(ulink)
+msgid "libgdamm"
+msgstr "libgdamm"
+
+#: C/git.xml:107(td) C/git.xml:109(td)
+msgid "libgnomedbmm"
+msgstr "libgnomedbmm"
+
+#: C/git.xml:113(td) C/git.xml:115(td)
+msgid "goocanvasmm"
+msgstr "goocanvasmm"
+
+#: C/git.xml:119(td) C/git.xml:121(td)
+msgid "libpanelappletmm"
+msgstr "libpanelappletmm"
+
+#: C/extra.xml:8(title) C/gnomemm-website.xml:57(ulink)
+msgid "Additional Resources"
+msgstr "Recursos adicionais"
+
+#: C/extra.xml:10(title)
+msgid "Available widgets"
+msgstr "Widgets disponíveis"
+
+#: C/extra.xml:15(para)
+msgid "<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL rendering for gtkmm"
+msgstr "<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> renderização OpenGL para gtkmm"
+
+#: C/extra.xml:18(para)
+msgid "<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/\">gtkmozembedmm</ulink> Mozilla-based web browser widget"
+msgstr "<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/\">gtkmozembedmm</ulink> widget baseado em navegador web da Mozilla"
+
+#: C/extra.xml:21(para)
+msgid "<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> plot widget for scientific applications"
+msgstr "<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> widget de traçamento para aplicativos científicos"
+
+#: C/extra.xml:24(para)
+msgid "<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
+msgstr "<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> interfaces para GtkSourceView (Gtk::TextView com destaque de sintaxe)"
+
+#: C/extra.xml:27(para)
+msgid "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/\">gstreamermm</ulink> wrappers for gstreamer (streaming media)"
+msgstr "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/\">gstreamermm</ulink> interfaces para gstreamer (fluxo de mídia)"
+
+#: C/extra.xml:30(para)
+msgid "<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> terminal widget"
+msgstr "<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> widget de terminal"
+
+#: C/extra.xml:33(para)
+msgid "<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> wrappers for GtkExtra (plot, sheet, etc)"
+msgstr "<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> interfaces para GtkExtra (traços, folhas, etc.)"
+
+#: C/extra.xml:36(para)
+msgid "<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</ulink> canvas for data flow systems"
+msgstr "<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</ulink> tela para sistemas de fluxo de dados"
+
+#: C/extra.xml:39(para)
+msgid "<ulink url=\"http://www.xs4all.nl/~carlo17/cwchessboard/index.html\">cwchessboard</ulink> C++ chess board tool set for gtkmm"
+msgstr "<ulink url=\"http://www.xs4all.nl/~carlo17/cwchessboard/index.html\">cwchessboard</ulink> conjunto de ferramentas de tabuleiro de xadrez em C++ para gtkmm"
+
+#: C/extra.xml:11(para)
+msgid "In addition to the wrappers distributed with gtkmm and gnomemm, additional widgets and libraries are available from other sources. <placeholder-1/>"
+msgstr "Além das interfaces distribuídas com gtkmm e gnomemm, widgets e bibliotecas adicionais estão disponíveis de outras fontes. <placeholder-1/>"
+
+#: C/extra.xml:44(title)
+msgid "gtkmm tools"
+msgstr "Ferramentas do gtkmm"
+
+#: C/extra.xml:47(para)
+msgid "<ulink url=\"http://glade.gnome.org/\">Glade</ulink> User Interface Designer for GTK+, glade UI files can be used from a gtkmm program by using Gtk::Builder"
+msgstr "<ulink url=\"http://glade.gnome.org/\">Glade</ulink> Construtor de interface de usuário por GTK+, arquivos de interface de usuário glade podem ser usados de um programa de gtkmm usando um Gtk::Builder"
+
+#: C/extra.xml:50(para)
+msgid "<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> glade module for automatically generating gtkmm code (note: glademm is different than libglademm or Gtk::Builder)"
+msgstr "<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> módulo do glade para criação automática de código em gtkmm (note: glademm é diferente de libglademm ou Gtk::Builder)"
+
+#: C/extra.xml:53(para)
+msgid "<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> Document/View Model"
+msgstr "<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> Modelo de documento/visão"
+
+#: C/extra.xml:58(title)
+msgid "Applications using gtkmm"
+msgstr "Aplicativos usando o gtkmm"
+
+#: C/extra.xml:59(para)
+msgid "If all else fails, sometimes it is good to look at the source of some other projects using the same toolkit."
+msgstr "Se tudo mais falhar, algumas vezes é bom olhar no código de alguns projetos usando o mesmo kit de ferramentas."
+
+#: C/extra.xml:62(title)
+msgid "Using gtkmm:"
+msgstr "Usando gtkmm:"
+
+#: C/extra.xml:65(para)
+msgid "<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> multi-file search/replace with visual feedback"
+msgstr "<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> pesquisa/substituição de múltiplos arquivos com feedback visual"
+
+#: C/extra.xml:68(para)
+msgid "<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> creation of hierarchical text documents"
+msgstr "<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> criação de documentos de texto hierárquicos"
+
+#: C/extra.xml:71(para)
+msgid "<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> renames batches of files"
+msgstr "<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> renomeia lotes de arquivos"
+
+#: C/extra.xml:74(para)
+msgid "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> audio player"
+msgstr "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> reprodutor de áudio"
+
+#: C/extra.xml:79(para)
+msgid "<ulink url=\"http://www.glom.org/\">Glom</ulink> database environment"
+msgstr "<ulink url=\"http://www.glom.org/\">Glom</ulink> ambiente de banco de dados"
+
+#: C/extra.xml:82(para)
+msgid "<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> graphical resource editor for PalmOS applications"
+msgstr "<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> editor de recurso gráfico para aplicativos PalmOS"
+
+#: C/extra.xml:85(para)
+msgid "<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> vector graphics drawing"
+msgstr "<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> desenho de gráficos vetorizados"
+
+#: C/extra.xml:88(para)
+msgid "<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> peer to peer sharing of freely licensed music"
+msgstr "<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> compartilhamentos ponto-a-ponto de músicas licenciadas livremente"
+
+#: C/extra.xml:91(para)
+msgid "<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> IP address calculator"
+msgstr "<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> calculadora de endereço IP"
+
+#: C/extra.xml:94(para)
+msgid "<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modelling and animation"
+msgstr "<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> animação e modelagem 3D"
+
+#: C/extra.xml:97(para)
+msgid "<ulink url=\"http://www.cs.auc.dk/~olau/hardware-monitor/\">Hardware Monitor</ulink> GNOME panel applet"
+msgstr "<ulink url=\"http://www.cs.auc.dk/~olau/hardware-monitor/\">Hardware Monitor</ulink> miniaplicativo do GNOME"
+
+#: C/extra.xml:100(para)
+msgid "<ulink url=\"http://www.workrave.org/\">Workrave</ulink> assists in recovery and prevention of RSI"
+msgstr "<ulink url=\"http://www.workrave.org/\">Workrave</ulink> auxilia na recuperação e prevenção de RSI"
+
+#: C/extra.xml:103(para)
+msgid "<ulink url=\"http://kino.schirmacher.de/article/view/51/1/11\">timfx</ulink> digital video effects plug-in for <ulink url=\"http://www.kinodv.org/\">Kino</ulink>"
+msgstr "<ulink url=\"http://kino.schirmacher.de/article/view/51/1/11\">timfx</ulink> plug-in com efeitos de vídeo digital para <ulink url=\"http://www.kinodv.org/\">Kino</ulink>"
+
+#: C/extra.xml:106(para)
+msgid "<ulink url=\"http://www.cs.auc.dk/~olau/monster-masher/\">Monster Masher</ulink> game"
+msgstr "<ulink url=\"http://www.cs.auc.dk/~olau/monster-masher/\">Monster Masher</ulink> jogo"
+
+#: C/extra.xml:109(para)
+msgid "<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> disk partitioning tool"
+msgstr "<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> ferramenta de particionamento de disco"
+
+#: C/extra.xml:114(para)
+msgid "<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> cdrdao frontend"
+msgstr "<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> interface gráfica do cdrdao"
+
+#: C/extra.xml:117(para)
+msgid "<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</ulink> GNOME panel applet"
+msgstr "<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</ulink> miniaplicativo do GNOME"
+
+#: C/extra.xml:120(para)
+msgid "<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> XML Editor"
+msgstr "<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> Editor de XML"
+
+#: C/extra.xml:123(para)
+msgid "<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</ulink> manages duty rotas"
+msgstr "<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</ulink> gerencia logística de tarefas"
+
+#: C/extra.xml:126(para)
+msgid "<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> collaborative text editor"
+msgstr "<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> editor de texto colaborativo"
+
+#: C/extra.xml:129(para)
+msgid "<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink> metasearch tool"
+msgstr "<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink> ferramenta de metabusca"
+
+#: C/extra.xml:132(para)
+msgid "<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> color scheme generator"
+msgstr "<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> gerador de esquema de cores"
+
+#: C/extra.xml:135(para)
+msgid "<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX editor"
+msgstr "<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> editor LaTeX"
+
+#: C/extra.xml:138(para)
+msgid "<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> medical image viewer"
+msgstr "<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> visualizador de imagens médicas"
+
+#: C/extra.xml:141(para)
+msgid "<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> loudspeaker designer"
+msgstr "<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> projetor de auto-falante"
+
+#: C/extra.xml:144(para)
+msgid "<ulink url=\"http://pupuedit.sourceforge.net/\">Pihlaja</ulink> non-linear video/audio editor"
+msgstr "<ulink url=\"http://pupuedit.sourceforge.net/\">Pihlaja</ulink> editor de áudio/vídeo não linear"
+
+#: C/extra.xml:147(para)
+msgid "<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> card game"
+msgstr "<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> jogo de cartas"
+
+#: C/extra.xml:150(para)
+msgid "<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> Internet telephone"
+msgstr "<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> telefone Internet"
+
+#: C/extra.xml:153(para)
+msgid "<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> membership management"
+msgstr "<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> gerenciamento de membros"
+
+#: C/extra.xml:156(para)
+msgid "<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> modular synthesizer and effects processor"
+msgstr "<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> processador de efeitos e sintetizador modular"
+
+#: C/extra.xml:159(para)
+msgid "<ulink url=\"http://minuslab.net/code/nitrogen/\">Nitrogen</ulink> background browser and setter"
+msgstr "<ulink url=\"http://minuslab.net/code/nitrogen/\">Nitrogen</ulink> navegador e definir de plano de fundo"
+
+#: C/extra.xml:162(para)
+msgid "<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI for the GNU debugger gdb"
+msgstr "<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> interface gráfica para o depurador GNU gdb"
+
+#: C/extra.xml:165(para)
+msgid "<ulink url=\"http://bmpx.beep-media-player.org/site/BMPx_Homepage\">BMP</ulink> audio player"
+msgstr "<ulink url=\"http://bmpx.beep-media-player.org/site/BMPx_Homepage\">BMP</ulink> reprodutor de áudio"
+
+#: C/extra.xml:168(para)
+msgid "<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> file synchronization over USB"
+msgstr "<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> sincronização de arquivos por USB"
+
+#: C/extra.xml:171(para)
+msgid "<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electric flux line simulation"
+msgstr "<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> simulação de linha de fluxo elétrico"
+
+#: C/extra.xml:174(para)
+msgid "<ulink url=\"http://icculus.org/~jcspray/referencer/\">Referencer</ulink> document organiser and bibliography manager"
+msgstr "<ulink url=\"http://icculus.org/~jcspray/referencer/\">Referencer</ulink> organizador de documentos e gerenciador de bibliografia"
+
+#: C/extra.xml:177(para)
+msgid "<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> index cards"
+msgstr "<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> índice de cartas"
+
+#: C/extra.xml:180(para)
+msgid "<ulink url=\"http://ardour.org/\">Ardour 2</ulink> multichannel hard disk recorder and digital audio workstation"
+msgstr "<ulink url=\"http://ardour.org/\">Ardour 2</ulink> estação de áudio digital e gravador de disco rígido em multicanal"
+
+#: C/extra.xml:183(para)
+msgid "<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</ulink> desktop publishing"
+msgstr "<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</ulink> editoração eletrônica"
+
+#: C/extra.xml:186(para)
+msgid "<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> foreign language learning tool"
+msgstr "<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> ferramenta para aprendizado de idiomas estrangeiros"
+
+#: C/extra.xml:189(para)
+msgid "<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> sound editor"
+msgstr "<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> editor de som"
+
+#: C/extra.xml:192(para)
+msgid "<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC client"
+msgstr "<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> cliente IRC"
+
+#: C/extra.xml:195(para)
+msgid "<ulink url=\"http://www.mysql.com/downloads/administrator.html\">MySQL Administrator</ulink> database GUI"
+msgstr "<ulink url=\"http://www.mysql.com/downloads/administrator.html\">MySQL Administrator</ulink> interface gráfica de banco de dados"
+
+#: C/extra.xml:198(para)
+msgid "<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> source code package organizer"
+msgstr "<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> organizador de pacote de código fonte"
+
+#: C/extra.xml:201(para)
+msgid "<ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink> system monitor"
+msgstr "Monitoramento de sistema <ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink>"
+
+#: C/extra.xml:206(title)
+msgid "Using gtkmm 2.0/2.2:"
+msgstr "Usando gtkmm 2.0/2.2:"
+
+#: C/extra.xml:209(para)
+msgid "<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> file sharing client"
+msgstr "<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> cliente de compartilhamento de arquivos"
+
+#: C/extra.xml:212(para)
+msgid "<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME Jabber IM client"
+msgstr "<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> cliente de mensagem instantânea Jabber do GNOME"
+
+#: C/extra.xml:215(para)
+msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> file manager"
+msgstr "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> gerenciador de arquivos"
+
+#: C/extra.xml:218(para)
+msgid "<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> GUI frontend for the efax fax program"
+msgstr "<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> interface gráfica para o programa de fax efax"
+
+#: C/extra.xml:221(para)
+msgid "<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> organise and visualise information"
+msgstr "<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> organize e visualize informações"
+
+#: C/extra.xml:224(para)
+msgid "<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> geneology database viewer"
+msgstr "<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> visualização de banco de dados de genealogia"
+
+#: C/extra.xml:227(para)
+msgid "<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> voice stress analysis tool"
+msgstr "<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> ferramenta de análise de estresse na voz"
+
+#: C/extra.xml:230(para)
+msgid "<ulink url=\"http://telgarsky.com/matusacode/cug.html\">CUG</ulink> 3D equation plotter"
+msgstr "<ulink url=\"http://telgarsky.com/matusacode/cug.html\">CUG</ulink> tracejador de equação 3D"
+
+#: C/extra.xml:235(title)
+msgid "Using gtkmm 1.2:"
+msgstr "Usando gtkmm 1.2:"
+
+#: C/extra.xml:238(para)
+msgid "<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> generic SQL GUI"
+msgstr "<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> interface gráfica genérica de SQL "
+
+#: C/extra.xml:241(para)
+msgid "<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> Gomoku game for GNOME"
+msgstr "<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> jogo gomoku para GNOME"
+
+#: C/extra.xml:244(para)
+msgid "<ulink url=\"http://gnuvoice.sourceforge.net/\">gnuvoice</ulink> GUI voicemail / speakerphone / caller ID application"
+msgstr "<ulink url=\"http://gnuvoice.sourceforge.net/\">gnuvoice</ulink> aplicativo de interface gráfica de correio de voz / viva-voz / identificador de chamadas"
+
+#: C/extra.xml:247(para)
+msgid "<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> MIME compliant GUI email client"
+msgstr "<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> cliente de e-mail com interface gráfica compatível com MIME"
+
+#: C/extra.xml:250(para)
+msgid "<ulink url=\"http://www.akio-solutions.com/guillaume/\">Gvier</ulink> game based on \"Power of four\""
+msgstr "<ulink url=\"http://www.akio-solutions.com/guillaume/\">Gvier</ulink> jogo baseado no \"Power of four\""
+
+#: C/extra.xml:253(para)
+msgid "<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> graphical frontend to isdn4linux answering machine"
+msgstr "<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> interface gráfica para a secretária eletrônica isdn4linux"
+
+#: C/extra.xml:256(para)
+msgid "<ulink url=\"http://yotam.freehosting.net/software/ped/ped.html\">Ped</ulink> path editor utility"
+msgstr "<ulink url=\"http://yotam.freehosting.net/software/ped/ped.html\">Ped</ulink> utilitário para edição de caminho"
+
+#: C/extra.xml:259(para)
+msgid "<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> Usenet picture grabber"
+msgstr "<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> baixador de imagendas da Usenet"
+
+#: C/extra.xml:262(para)
+msgid "<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</ulink> radio application for Video4Linux-compatible radio tuner cards"
+msgstr "<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</ulink> aplicativo de rádio para placas de sintonização de rádios compatíveis com Video4Linux"
+
+#: C/extra.xml:265(para)
+msgid "<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> software analogue MIDI sequencer"
+msgstr "<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> sequenciador de MIDI analógico por software"
+
+#: C/extra.xml:268(para)
+msgid "<ulink url=\"http://terraform.sourceforge.net/\">terraform</ulink> terrain generator (very cool)"
+msgstr "<ulink url=\"http://terraform.sourceforge.net/\">terraform</ulink> gerador de terreno (muito legal)"
+
+#: C/extra.xml:271(para)
+msgid "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ client"
+msgstr "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> cliente ICQ"
+
+# É o nome do software
+#: C/extra.xml:274(ulink)
+msgid "Chained Audio Plugins"
+msgstr "Chained Audio Plugins"
+
+#: C/extra.xml:277(para)
+msgid "<ulink url=\"http://guillaume.cottenceau.free.fr/html/grany.html\">Grany-3</ulink> cellular automaton simulator"
+msgstr "<ulink url=\"http://guillaume.cottenceau.free.fr/html/grany.html\">Grany-3</ulink> simulador de automação celular"
+
+#: C/extra.xml:280(para)
+msgid "<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> music management system"
+msgstr "<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> sistema de gerenciamento de músicas"
+
+#: C/extra.xml:283(para)
+msgid "<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> 3D cellular automata simulator"
+msgstr "<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> simulador de autômato celular 3D"
+
+#: C/extra.xml:289(title)
+msgid "Links"
+msgstr "Links"
+
+#: C/extra.xml:291(title)
+msgid "GTK+ resources"
+msgstr "Recursos do GTK+"
+
+#: C/extra.xml:294(ulink)
+msgid "GTK+ homepage"
+msgstr "Página inicial do GTK+"
+
+#: C/extra.xml:297(ulink)
+msgid "GNOME homepage"
+msgstr "Página inicial do GNOME"
+
+#: C/extra.xml:300(ulink)
+msgid "GNOME development"
+msgstr "Desenvolvimento do GNOME"
+
+#: C/extra.xml:303(ulink)
+msgid "Gimp homepage"
+msgstr "Página inicial do Gimp"
+
+#: C/download.xml:8(title)
+msgid "Downloading"
+msgstr "Baixando"
+
+#: C/download.xml:10(para)
+msgid "You should use the <ulink url=\"#Binary\">binary packages</ulink> provided for your operating system unless you wish to test the latest versions. However, <ulink url=\"#Source\">source packages</ulink> are available as well."
+msgstr "Você deveria usar os <ulink url=\"#Binary\">pacotes binários</ulink> fornecidos para seu sistema operacional, a menos que você deseje testar as últimas versões. Porém, <ulink url=\"#Source\">pacotes de fontes</ulink> também estão disponíveis."
+
+#: C/download.xml:12(para)
+msgid "This page currently mentions gtkmm 2 binary packages. We will update this page soon as binary packages for gtkmm 3 become available."
+msgstr "Esta páginas atualmente menciona pacotes binários de gtkmm 2. Nós vamos atualizar esta página assim que os pacotes binários de gtkmm 3 estiverem disponíveis."
+
+#: C/download.xml:16(title)
+msgid "<anchor id=\"Binary\"/>Binary"
+msgstr "<anchor id=\"Binary\"/>Executável"
+
+#: C/download.xml:17(para)
+msgid "You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your Linux distribution to provide official gtkmm packages."
+msgstr "Você pode encontrar uma variedade de RPMs e debs feitos por outras pessoas na Internet, mas apenas aqueles listados aqui são aprovados pela equipe do gtkmm. Por favor, encoraje a sua distribuição Linux a fornecer pacotes gtkmm oficial."
+
+#: C/download.xml:20(para)
+msgid "<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-get install libgtkmm-2.4-dev</command>. These <ulink url=\"http://packages.qa.debian.org/g/gtkmm2.4.html\">project pages</ulink> might give status."
+msgstr "<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-get install libgtkmm-2.4-dev</command>. Estas <ulink url=\"http://packages.qa.debian.org/g/gtkmm2.4.html\">páginas de projeto</ulink> podem fornecer o estado."
+
+#: C/download.xml:23(para)
+msgid "<ulink url=\"http://fedora.redhat.com/\">Fedora</ulink>/<ulink url=\"http://www.redhat.com\">RedHat</ulink> Linux: Use <ulink url=\"http://www.fedoraproject.org/wiki/Extras\">Fedora Extras via yum</ulink>: <command>yum install gtkmm24-docs</command> to get the runtime, development, and documentation packages."
+msgstr "<ulink url=\"http://fedora.redhat.com/\">Fedora</ulink>/<ulink url=\"http://www.redhat.com\">RedHat</ulink> Linux: Use <ulink url=\"http://www.fedoraproject.org/wiki/Extras\">Fedora Extras via yum</ulink>: <command>yum install gtkmm24-docs</command> para obter os pacotes de tempo de execução, desenvolvimento e documentação."
+
+#: C/download.xml:26(para)
+msgid "<ulink url=\"http://www.mandrakelinux.com/\">Mandrake</ulink> Linux: Get libgtkmm2.4 from the contrib directory on their <ulink url=\"http://www.mandrakelinux.com/en/cookerdevel.php3\">ftp</ulink> servers."
+msgstr "<ulink url=\"http://www.mandrakelinux.com/\">Mandrake</ulink> Linux: Obtenha libgtkmm2.4 do diretório de contrib nos servidores <ulink url=\"http://www.mandrakelinux.com/en/cookerdevel.php3\">ftp</ulink>."
+
+#: C/download.xml:29(para)
+msgid "<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Get dev-cpp/gtkmm."
+msgstr "<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Obtenha dev-cpp/gtkmm."
+
+#: C/download.xml:32(para)
+msgid "<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Use yast to install gtkmm2-devel."
+msgstr "<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Use yast para instalar gtkmm2-devel."
+
+#: C/download.xml:35(para)
+msgid "<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get install libgtkmm-2.4-dev</command>."
+msgstr "<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get install libgtkmm-2.4-dev</command>."
+
+#: C/download.xml:38(para)
+msgid "Windows: Here is an <ulink url=\"http://live.gnome.org/gtkmm/MSWindows\">installer</ulink>."
+msgstr "Windows: Aqui está um <ulink url=\"http://live.gnome.org/gtkmm/MSWindows\">instalador</ulink>."
+
+#: C/download.xml:41(para)
+msgid "MacOS X: There is a <ulink url=\"http://fink.sourceforge.net/pdb/package.php/gtkmm2.4-dev\">Fink package</ulink>."
+msgstr "MacOS X: Há um <ulink url=\"http://fink.sourceforge.net/pdb/package.php/gtkmm2.4-dev\">pacote Fink</ulink>."
+
+#: C/download.xml:44(para)
+msgid "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary gtkmm packages, with packagement management."
+msgstr "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc ou outros compiladores de plataforma): <ulink url=\"http://thewrittenword.com\">The Written Word</ulink> oferece pacotes binários do gtkmm, com gerenciamento de pacotes."
+
+#: C/download.xml:47(para)
+msgid "Please tell us about others."
+msgstr "Por favor, fale-nos de outros."
+
+#: C/download.xml:50(title)
+msgid "<anchor id=\"Source\"/>Source"
+msgstr "<anchor id=\"Source\"/>Fonte"
+
+#: C/download.xml:52(title)
+msgid "<anchor id=\"devel\"/>Unstable gtkmm and GNOME bindings:"
+msgstr "<anchor id=\"devel\"/>gtkmm instável e bindings do GNOME:"
+
+#: C/download.xml:53(para)
+msgid "These replace the stable glibmm and gtkmm versions and are currently unstable:"
+msgstr "Substitui as versões estáveis glibmm e gtkmm e são atualmente instáveis:"
+
+#: C/download.xml:56(para)
+msgid "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.29/\">glibmm 2.29</ulink> (unstable)"
+msgstr "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.29/\">glibmm 2.29</ulink> (instável)"
+
+#: C/download.xml:59(para)
+msgid "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.1/\">gtkmm 3.1</ulink> (unstable)"
+msgstr "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.1/\">gtkmm 3.1</ulink> (instável)"
+
+#: C/download.xml:64(title)
+msgid "<anchor id=\"stable\"/>Stable gtkmm and GNOME bindings:"
+msgstr "<anchor id=\"stable\"/>gtkmm estável e bindings do GNOME:"
+
+#: C/download.xml:67(para)
+msgid "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.28/\">glibmm 2.28</ulink> (stable)"
+msgstr "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.28/\">glibmm 2.28</ulink> (estável)"
+
+#: C/download.xml:70(para)
+msgid "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.0/\">gtkmm 3.0</ulink> (stable)"
+msgstr "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.0/\">gtkmm 3.0</ulink> (estável)"
+
+#: C/download.xml:73(para)
+msgid "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm\">libgnomecanvasmm</ulink> (stable)"
+msgstr "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgnomecanvasmm\">libgnomecanvasmm</ulink> (estável)"
+
+#: C/download.xml:79(ulink)
+msgid "gtkmm-hello 2.4"
+msgstr "gtkmm-hello 2.4"
+
+#: C/download.xml:85(title)
+msgid "Requirements"
+msgstr "Requisitos"
+
+#: C/download.xml:88(ulink) C/download.xml:97(title)
+msgid "GTK+"
+msgstr "GTK+"
+
+#: C/download.xml:94(para)
+msgid "Here is a dependency graphs for <ulink url=\"jhbuild_dot_gtkmm.png\">gtkmm</ulink>, generated automatically with jhbuild and graphviz."
+msgstr "Aqui está um gráfico de dependências do <ulink url=\"jhbuild_dot_gtkmm.png\">gtkmm</ulink>, gerado automaticamente com jhbuild e graphviz."
+
+#: C/download.xml:98(para)
+msgid "You can download GTK+ and GNOME source code from <ulink url=\"http://download.gnome.org\">download.gnome.org</ulink>."
+msgstr "Você pode baixar o código fonte do GTK+ e do GNOME no <ulink url=\"http://download.gnome.org\">download.gnome.org</ulink>."
+
+#: C/documentation.xml:13(title)
+msgid "Documentation Overview"
+msgstr "Visão geral da documentação"
+
+#: C/documentation.xml:22(title)
+msgid "Getting Started with gtkmm"
+msgstr "Primeiros passos com o gtkmm"
+
+#: C/documentation.xml:23(para)
+msgid "You might start by reading the <emphasis role=\"bold\">Programming with gtkmm</emphasis> online book. This book is also <ulink url=\"http://www.amazon.com/gp/product/B0050I6FR4/ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050I6FR4\">available on the Amazon Kindle</ulink>. Versions for the older gtkmm 2 API are also available."
+msgstr "Você pode começar lendo o livro on-line (ebook) <emphasis role=\"bold\">Programando com gtkmm</emphasis>. Este livro também está <ulink url=\"http://www.amazon.com/gp/product/B0050I6FR4/ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050I6FR4\">disponível no Amazon Kindle</ulink>. Versões para API mais antiga do gtkmm 2 também estão disponíveis."
+
+#: C/documentation.xml:24(para)
+msgid "<ulink url=\"http://library.gnome.org/devel/gtkmm-tutorial/unstable/index.html\">Contents</ulink> of the whole online book."
+msgstr "<ulink url=\"http://library.gnome.org/devel/gtkmm-tutorial/unstable/index.html\">Conteúdo</ulink> of the whole online book."
+
+#: C/documentation.xml:27(ulink)
+msgid "Installation"
+msgstr "Instalação"
+
+#: C/documentation.xml:30(ulink)
+msgid "Basics"
+msgstr "Básico"
+
+#: C/documentation.xml:33(ulink)
+msgid "Signals"
+msgstr "Sinais"
+
+#: C/documentation.xml:36(ulink)
+msgid "Container Widgets"
+msgstr "Widgets recipientes"
+
+#: C/documentation.xml:39(ulink) C/documentation.xml:72(ulink)
+msgid "TreeView"
+msgstr "Visão em árvore"
+
+#: C/documentation.xml:42(ulink)
+msgid "Memory Management"
+msgstr "Gerenciamento de memória"
+
+#: C/documentation.xml:45(ulink)
+msgid "Glade and Gtk::Builder"
+msgstr "Glade e Gtk::Builder"
+
+#: C/documentation.xml:25(para)
+msgid "Selected chapters:<placeholder-1/>"
+msgstr "Capítulos selecionados:<placeholder-1/>"
+
+#: C/documentation.xml:50(title)
+msgid "API Reference"
+msgstr "Referência da API"
+
+#: C/documentation.xml:53(th)
+msgid "gtkmm (Gtk::)"
+msgstr "gtkmm (Gtk::)"
+
+#: C/documentation.xml:54(th)
+msgid "glibmm (Glib::)"
+msgstr "glibmm (Glib::)"
+
+#: C/documentation.xml:55(th)
+msgid "giomm (Gio::)"
+msgstr "giomm (Gio::)"
+
+#: C/documentation.xml:62(ulink)
+msgid "Hierarchy"
+msgstr "Hierarquia"
+
+#: C/documentation.xml:66(ulink)
+msgid "Widgets"
+msgstr "Widgets"
+
+#: C/documentation.xml:69(ulink)
+msgid "Containers"
+msgstr "Containers"
+
+#: C/documentation.xml:75(ulink)
+msgid "TextView"
+msgstr "TextView"
+
+#: C/documentation.xml:78(ulink)
+msgid "Dialogs"
+msgstr "Diálogos"
+
+#: C/documentation.xml:81(ulink)
+msgid "Menus and Toolbars"
+msgstr "Menus e barras de ferramentas"
+
+#: C/documentation.xml:84(ulink)
+msgid "Main loop"
+msgstr "Main loop"
+
+#: C/documentation.xml:87(ulink)
+msgid "enums and flags"
+msgstr "enums e flags"
+
+#: C/documentation.xml:90(ulink)
+msgid "Stock IDs"
+msgstr "Stock IDs"
+
+#: C/documentation.xml:93(ulink)
+msgid "Gtk Namespace"
+msgstr "Namespace de GTK"
+
+#: C/documentation.xml:100(ulink)
+msgid "ustring"
+msgstr "ustring"
+
+#: C/documentation.xml:103(ulink)
+msgid "Exceptions"
+msgstr "Exceções"
+
+#: C/documentation.xml:106(ulink)
+msgid "RefPtr&lt;&gt;"
+msgstr "RefPtr&lt;&gt;"
+
+#: C/documentation.xml:109(ulink)
+msgid "Main Event loop"
+msgstr "Main Event loop"
+
+#: C/documentation.xml:112(ulink)
+msgid "Spawning Processes"
+msgstr "Spawning(criação) de processos"
+
+#: C/documentation.xml:115(ulink)
+msgid "Threads"
+msgstr "Threads"
+
+#: C/documentation.xml:118(ulink)
+msgid "Miscellaneous Utility Functions"
+msgstr "Funções de utilitárias miscelâneas"
+
+#: C/documentation.xml:121(ulink)
+msgid "Character set conversion"
+msgstr "Conversão de codificação de caracteres"
+
+#: C/documentation.xml:124(ulink)
+msgid "Glib Namespace"
+msgstr "Namespace de Glib"
+
+#: C/documentation.xml:131(ulink)
+msgid "File"
+msgstr "Arquivo"
+
+#: C/documentation.xml:134(ulink)
+msgid "Streams"
+msgstr "Streams"
+
+#: C/documentation.xml:137(ulink)
+msgid "Gio Namespace"
+msgstr "Namespace de Gio"
+
+#: C/documentation.xml:145(title)
+msgid "Extra Modules"
+msgstr "Módulos extras"
+
+#: C/documentation.xml:146(para)
+msgid "API reference documentation for other C++ modules, such as gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink url=\"http://library.gnome.org/devel/references#c++-bindings\">library.gnome.org C++ Bindings</ulink> section."
+msgstr "Documentação da referência da API para outros módulos de C++, como gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, também estão disponíveis na seção de <ulink url=\"http://library.gnome.org/devel/references#c++-bindings\">Bindings C++ da library.gnome.org</ulink>."
+
+#: C/documentation.xml:149(title)
+msgid "Other Information"
+msgstr "Outras informações"
+
+#: C/documentation.xml:152(th)
+msgid "External Documentation"
+msgstr "Documentação externa"
+
+#: C/documentation.xml:153(th)
+msgid "Unusual Platforms"
+msgstr "Plataformas incomuns"
+
+#: C/documentation.xml:159(ulink)
+msgid "libsigc++ documentation"
+msgstr "Documentação da libsigc++"
+
+#: C/documentation.xml:162(ulink)
+msgid "GTK+ reference"
+msgstr "Referência do GTK+"
+
+#: C/documentation.xml:165(ulink)
+msgid "Standard C++ Library (STL)"
+msgstr "Biblioteca padrão por C++ (STL)"
+
+#: C/documentation.xml:172(ulink)
+msgid "Solaris, with Sun's Forte C++."
+msgstr "Solaris, com Forte C++ da Sun."
+
+#: C/documentation.xml:175(ulink)
+msgid "Windows, with mingw and cygwin"
+msgstr "Windows, com mingw e cygwin"
+
+#: C/documentation.xml:183(title)
+msgid "Examples"
+msgstr "Exemplos"
+
+#: C/documentation.xml:184(para)
+msgid "Sometimes you need to look at examples to figure out how something should work. Many examples are included in the gtkmm book, but you can also view them online: <ulink url=\"http://git.gnome.org/cgit/gtkmm-documentation/tree/examples/book/\">gtkmm examples</ulink>"
+msgstr "Algumas vezes você precisa olhar exemplos para descobrir como fazer para alguma coisa funcionar. Muitis exemplos estão inclusos no livro do gtkmm, mas você pode vê-los online: <ulink url=\"http://git.gnome.org/cgit/gtkmm-documentation/tree/examples/book/\">exemplos de gtkmm</ulink>"
+
+#: C/developers.xml:8(title)
+msgid "gtkmm Development"
+msgstr "Desenvolvimento do gtkmm"
+
+#: C/developers.xml:9(para)
+msgid "gtkmm development is done in the <ulink url=\"http://gnome.org/\">GNOME</ulink> Git repository. To get started developing gtkmm, see the <ulink url=\"git.html\">detailed Git instructions</ulink>. Discussion about gtkmm development happens on the <ulink url=\"mailinglist.html\">mailing list</ulink>."
+msgstr "O desenvolvimento do gtkmm é feito norepositório Git do <ulink url=\"http://gnome.org/\">GNOME</ulink>. Para começar a desenvolver com gtkmm, veja as <ulink url=\"git.html\">instruções detalhadas de Git</ulink>. Discussão sobre desenvolvimento do gtkmmm acontece na <ulink url=\"mailinglist.html\">lista de discussão</ulink>."
+
+#: C/developers.xml:13(para)
+msgid "Please do not mail us directly - use the <ulink url=\"mailinglist.html\">mailing list</ulink> instead."
+msgstr "Por favor, não nos envie e-mail diretamente - use a <ulink url=\"mailinglist.html\">lista de e-mail</ulink>."
+
+#: C/developers.xml:17(title)
+msgid "Developers and Contributors"
+msgstr "Desenvolvedores e contribuidores"
+
+#: C/developers.xml:19(title)
+msgid "Current maintainers"
+msgstr "Mantenedores atuais"
+
+#: C/developers.xml:22(para)
+msgid "<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url=\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+msgstr "<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url=\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+
+#: C/developers.xml:25(ulink)
+msgid "Daniel Elstner"
+msgstr "Daniel Elstner"
+
+#: C/developers.xml:30(title)
+msgid "Other gtkmm developers"
+msgstr "Outros desenvolvedores do gtkmm"
+
+#: C/developers.xml:33(para)
+msgid "<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+msgstr "<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+
+#: C/developers.xml:36(para)
+msgid "Karl Nelson"
+msgstr "Karl Nelson"
+
+#: C/developers.xml:39(para)
+msgid "<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url=\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+msgstr "<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url=\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+
+#: C/developers.xml:42(ulink)
+msgid "Andreas Holzmann"
+msgstr "Andreas Holzmann"
+
+#: C/developers.xml:45(ulink)
+msgid "Martin Schulze"
+msgstr "Martin Schulze"
+
+#: C/developers.xml:48(ulink)
+msgid "Jarek Dukat"
+msgstr "Jarek Dukat"
+
+#: C/developers.xml:51(ulink)
+msgid "Morten Brix Pedersen"
+msgstr "Morten Brix Pedersen"
+
+#: C/developers.xml:54(ulink)
+msgid "Jonathon Jongsma"
+msgstr "Jonathon Jongsma"
+
+#: C/developers.xml:59(title)
+msgid "Previous maintainers"
+msgstr "Mantenedores anteriores"
+
+#: C/developers.xml:62(ulink)
+msgid "Guillaume Laurent"
+msgstr "Guillaume Laurent"
+
+#: C/developers.xml:65(ulink)
+msgid "Tero Pulkkinen"
+msgstr "Tero Pulkkinen"
+
+#: C/developers.xml:71(para)
+msgid "There have been many patches, bug fixes and improvements from a lot of people. Thanks to them."
+msgstr "Tem acontecido muitos patches, correções de erros e melhoramentos por parte de muitas pessoas. Nossos agradecimentos a essas pessoas."
+
+#: C/commercial_support.xml:8(title) C/gnomemm-website.xml:54(ulink)
+msgid "Commercial Support"
+msgstr "Suporte comercial"
+
+#: C/commercial_support.xml:9(para)
+msgid "The mailing lists, irc, and documentation are helpful, but your company might require more in-depth assistance or custom development. If so feel free to contact the following freelance developers and companies directly to discuss a commercial arrangement. If necessary we can also build larger development teams."
+msgstr "As listas de e-mail, irc e documentação já de grande ajuda, mas sua empresa pode precisar de uma assistência mais aprofundada ou desenvolvimento personalizado. Se for o seu caso, então sinta-se à vontade para contatar os seguintes empresas e desenvolvedores autônomos diretamente para discutir um acordo comercial. Se necessário, nós também podemos criar arquivos de desenvolvimento maiores."
+
+#: C/commercial_support.xml:13(th)
+msgid "Name, email"
+msgstr "Nome, e-mail"
+
+#: C/commercial_support.xml:14(th)
+msgid "Location"
+msgstr "Local"
+
+#: C/commercial_support.xml:17(ulink)
+msgid "Openismus"
+msgstr "Openismus"
+
+#: C/commercial_support.xml:17(td)
+msgid "<placeholder-1/>: Custom software development using open source software."
+msgstr "<placeholder-1/>: Desenvolvimento de software personalizado usando software de códio aberto."
+
+#: C/commercial_support.xml:18(td)
+msgid "Germany, Austria, UK"
+msgstr "Alemanha, Áustria, UK"
+
+#: C/commercial_support.xml:21(ulink)
+msgid "Made to Order Software Corp."
+msgstr "Made to Order Software Corp."
+
+#: C/commercial_support.xml:21(td)
+msgid "<placeholder-1/>: Quality software with easy to use interfaces from simple utilities to complex e-Business solutions."
+msgstr "<placeholder-1/>: Software de qualidade com interface fácil de usar de utilitários simples até complexas soluções e-Business."
+
+#: C/commercial_support.xml:22(td)
+msgid "USA, UK"
+msgstr "USA, UK"
+
+#: C/commercial_support.xml:25(ulink)
+msgid "Gergő Érdi"
+msgstr "Gergő Érdi"
+
+#: C/commercial_support.xml:25(ulink)
+msgid "cactus.rulez.org"
+msgstr "cactus.rulez.org"
+
+#: C/commercial_support.xml:25(td)
+msgid "<placeholder-1/>(<placeholder-2/>)"
+msgstr "<placeholder-1/>(<placeholder-2/>)"
+
+#: C/commercial_support.xml:26(td)
+msgid "Hungary"
+msgstr "Hungary"
+
+#: C/commercial_support.xml:31(para)
+msgid "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Databases"
+msgstr "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Banco de dados"
+
+#: C/commercial_support.xml:34(para)
+msgid "<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualization, network management"
+msgstr "<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualização, gerenciamento de redes"
+
+#: C/commercial_support.xml:37(para)
+msgid "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3 Downloader"
+msgstr "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - Download de MP3"
+
+#: C/commercial_support.xml:40(para)
+msgid "<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - Medical imaging"
+msgstr "<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - Imagens médicas"
+
+#: C/commercial_support.xml:43(para)
+msgid "<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - Consumer navigation devices"
+msgstr "<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - dispositivos de navegação para clientes"
+
+#: C/commercial_support.xml:46(para)
+msgid "<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - satellite/meteorological"
+msgstr "<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - satélite/meteorológico"
+
+#: C/commercial_support.xml:49(para)
+msgid "<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - warehouse management systems"
+msgstr "<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - sistemas de gerenciamentos de armazéns"
+
+#: C/commercial_support.xml:52(para)
+msgid "<ulink url=\"http://www.eads.com\">EADS</ulink> - aerospace/defense/satellite"
+msgstr "<ulink url=\"http://www.eads.com\">EADS</ulink> - aeroespaço/defesa/satélite"
+
+#: C/commercial_support.xml:55(para)
+msgid "<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - military/defense"
+msgstr "<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - militar/defesa"
+
+#: C/commercial_support.xml:58(para)
+msgid "<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - animatronics"
+msgstr "<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - animatrônica"
+
+#: C/commercial_support.xml:61(para)
+msgid "<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - electrical engineering"
+msgstr "<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - engenharia elétrica"
+
+#: C/commercial_support.xml:64(para)
+msgid "<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - professional audio/music systems"
+msgstr "<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - sistemas de áudio/músicas profissionais"
+
+#: C/commercial_support.xml:67(para)
+msgid "<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - electrical/mechanical engineering"
+msgstr "<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - engenharia mecânica/elétrica"
+
+#: C/commercial_support.xml:70(para)
+msgid "<ulink url=\"http://www.dme.net\">DME</ulink> - mold engineering"
+msgstr "<ulink url=\"http://www.dme.net\">DME</ulink> - engenharia de moldes"
+
+#: C/commercial_support.xml:73(para)
+msgid "<ulink url=\"http://www.petig-baender.de\">Adolf Petig GmbH</ulink> - textile ribbon manufacturing"
+msgstr "<ulink url=\"http://www.petig-baender.de\">Adolf Petig GmbH</ulink> - fabricação de fita de têxtil"
+
+#: C/commercial_support.xml:76(para)
+msgid "<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. Brockhaus AG</ulink> - publishing"
+msgstr "<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. Brockhaus AG</ulink> - publicação"
+
+#: C/commercial_support.xml:79(para)
+msgid "<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS software/hardware"
+msgstr "<ulink url=\"http://www.hasar.com\">Hasar</ulink> - software/hardware de POS"
+
+#: C/commercial_support.xml:82(para)
+msgid "<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - security/encryption software"
+msgstr "<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - software de criptografia/segurança"
+
+#: C/commercial_support.xml:85(para)
+msgid "<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - process engineering"
+msgstr "<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - engenharia de processos"
+
+#: C/commercial_support.xml:88(para)
+msgid "<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - fiscal Systems, POS"
+msgstr "<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - sistemas fiscais, POS"
+
+#: C/commercial_support.xml:91(para)
+msgid "<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - prebuilt software packages"
+msgstr "<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - pacotes de software pré-compilados"
+
+#: C/commercial_support.xml:94(para)
+msgid "<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, medication administration"
+msgstr "<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, administração de medicação"
+
+#: C/commercial_support.xml:97(para)
+msgid "<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - Specialized internal applications"
+msgstr "<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - aplicativos internos especializados"
+
+#: C/commercial_support.xml:100(para)
+msgid "<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - Point Of Sale systems"
+msgstr "<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - sistemas de pontos de venda"
+
+#: C/commercial_support.xml:103(para)
+msgid "<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> Medical imaging - <ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
+msgstr "<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> imagens médicas - <ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
+
+#: C/commercial_support.xml:106(para)
+msgid "<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - Banking"
+msgstr "<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - bancário"
+
+#: C/commercial_support.xml:109(para)
+msgid "<ulink url=\"http://www.innoventis.de/htm/produkte_canmonitor.php\">Innoventis</ulink> - Automotive systems"
+msgstr "<ulink url=\"http://www.innoventis.de/htm/produkte_canmonitor.php\">Innoventis</ulink> - sistemas automotivos"
+
+#: C/commercial_support.xml:29(para)
+msgid "Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:<placeholder-1/>"
+msgstr "Muitas empresa usam o gtkmm para implementar seus produtos e projetos internos. Você pode obter uma ideia geral disso olhando nos endereços de e-mail na lista de discussão. aqui está uma pequena lista de algumas daquelas empresa:<placeholder-1/>"
+
+#: C/commercial_support.xml:112(para)
+msgid "If you would like to be listed here please send email to the <ulink url=\"mailinglist.html\">mailing list</ulink> or a maintainer."
+msgstr "Se você gostaria de estar listado aqui, por favor envie um e-mail para a <ulink url=\"mailinglist.html\">lista de discussão</ulink> ou um mantenedor."
+
+#: C/commercial_support.xml:113(para)
+msgid "See also <ulink url=\"http://www.gtk.org/commerce.html\">GTK+ success stories</ulink>."
+msgstr "Veja também <ulink url=\"http://www.gtk.org/commerce.html\">históricos de sucesso de GTK+</ulink>."
+
+#: C/bugs.xml:8(title) C/gnomemm-website.xml:48(ulink)
+msgid "Bugs"
+msgstr "Problemas"
+
+#: C/bugs.xml:10(para)
+msgid "See <ulink url=\"#NewBugs\">Where to report</ulink> to submit new bugs or patches."
+msgstr "Veja <ulink url=\"#NewBugs\">Onde relatar</ulink> para relatar novos problemas e enviar patches."
+
+#: C/bugs.xml:13(title)
+msgid "Current bugs and patches"
+msgstr "Problemas atuais e patches"
+
+#: C/bugs.xml:16(para)
+msgid "Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=gtkmm\">gtkmm bugs</ulink>"
+msgstr "Problemas existentes do <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=gtkmm\">gtkmm</ulink>"
+
+#: C/bugs.xml:19(para)
+msgid "Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=glibmm\">glibmm bugs</ulink>"
+msgstr "Problemas existentes do <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=glibmm\">glibmm</ulink>"
+
+#: C/bugs.xml:22(para)
+msgid "Outstanding <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;product=gtkmm;product=gtksourceviewmm;product=libgdamm;product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm\">*mm bugs</ulink>"
+msgstr "Problemas existentes de <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;product=gtkmm;product=gtksourceviewmm;product=libgdamm;product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm\">*mm</ulink>"
+
+#: C/bugs.xml:29(para)
+msgid "<ulink url=\"https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;product=gtkmm;product=gtksourceviewmm;product=libgdamm;product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm\">gnome-love bugs</ulink> - a good way to get involved."
+msgstr "Problemas existentes do <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;product=gtkmm;product=gtksourceviewmm;product=libgdamm;product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm\">gnome-love</ulink> - uma boa forma de contribuir."
+
+#: C/bugs.xml:32(ulink)
+msgid "Bugs fixed in the last 30 days"
+msgstr "Problemas corrigidos nos últimos 30 dias"
+
+#: C/bugs.xml:35(para)
+msgid "As soon as a gtkmm patch has been clearly approved by a maintainer, anybody with git write access may apply it."
+msgstr "Asssim que um patch do gtkmm for claramente aprovado por um mantenedor, qualquer pessoa com acesso de escrita no git pode aplicá-lo."
+
+#: C/bugs.xml:39(title)
+msgid "<anchor id=\"NewBugs\"/>Where to report?"
+msgstr "<anchor id=\"NewBugs\"/>Onde relatar?"
+
+#: C/bugs.xml:42(para)
+msgid "Bugs are tracked in GNOME's <ulink url=\"http://bugzilla.gnome.org\">bugzilla</ulink> Submit gtkmm bugs <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm\">here</ulink>. Submit gnomemm bugs <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm\">here</ulink>."
+msgstr "Problemas são rastreados no <ulink url=\"http://bugzilla.gnome.org\">bugzilla</ulink> do GNOME. Envie relatórios de problemas do gtkmm <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm\">aqui</ulink>. Envie relatórios de problemas do gnomemm <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm\">aqui</ulink>."
+
+#: C/bugs.xml:48(para)
+msgid "Patches should be attached to existing bugzilla bugs rather than sent to the mailing list. When reporting a new bug you'll get a chance to attach a file to it immediately <emphasis role=\"bold\">after</emphasis> opening the bug. Please remember to patch the ChangeLog too."
+msgstr "Patches deveriam ser anexados a relatórios de problemas existentes no bugzilla, em vez de ser enviados para a lista de discussão. Ao relatar um novo erro, você vai obter uma chance de anexar um arquivo imediatamente <emphasis role=\"bold\">após</emphasis> fazer o relatório. Por favor, lembre-se de fazer um patch do ChangeLog também."
+
+#: C/bugs.xml:55(title)
+msgid "What information is needed for a bug report?"
+msgstr "Quais informações são necessárias para um relatório de problema?"
+
+#: C/bugs.xml:62(para)
+msgid "version numbers of GTK+, gtkmm and other related software, including your platform/distro/compiler."
+msgstr "números de versão do GTK+, gtkmm e outros softwares relacionados, incluindo sua plataforma/distribuição/compilador."
+
+#: C/bugs.xml:65(para)
+msgid "description of the bug"
+msgstr "descrição do erro"
+
+#: C/bugs.xml:68(para)
+msgid "information to reproduce the bug"
+msgstr "informação para reproduzir o erro"
+
+#: C/bugs.xml:71(para)
+msgid "stack dump, if relevant: <command> gdb ./proggy ; run ; *crash* ; where </command>"
+msgstr "extração da pilha, se relevante: <command> gdb ./proggy ; run ; *crash* ; where </command>"
+
+#: C/bugs.xml:75(para)
+msgid "keep it small but detailed"
+msgstr "mantenha-o pequeno, mas detalhado"
+
+#: C/bugs.xml:78(para)
+msgid "if possible, provide a patch"
+msgstr "se possível, forneça um patch"
+
+#: C/bugs.xml:81(para)
+msgid "If we can't solve the problem immediately then we might ask you to create a simple-as-possible example that actually builds. This helps us to isolate the problem, and proves that the problem is not caused by your own code."
+msgstr "Se nós não conseguirmos resolver o problema imediatamente, então podemos pedir que você crie um exemplo, o mais simples possível, de como que realmente compila. Isso nos ajuda a isolar o problema e provar que o problema não é causado por seu próprio código."
+
+#: C/bugs.xml:87(title)
+msgid "<anchor id=\"CreatingPatches\"/>How do I create a patch?"
+msgstr "<anchor id=\"CreatingPatches\"/>Como eu crio um patch?"
+
+#: C/bugs.xml:88(para)
+msgid "There are many ways to use Git, but this is the simplest way to create a patch if you are unfamiliar with Git:"
+msgstr "Há várias formas de usar o Git, mas esta é a forma mais simples de se criar um patch, se você não estiver familiarizado com Git:"
+
+#: C/bugs.xml:91(para)
+msgid "Take code from <ulink url=\"git.html\">git</ulink>"
+msgstr "Obtenha o código do <ulink url=\"git.html\">git</ulink>"
+
+#: C/bugs.xml:94(para)
+msgid "Modify that version"
+msgstr "Modifique a versão"
+
+#: C/bugs.xml:97(para)
+msgid "Check it compiles"
+msgstr "Verifique se compila"
+
+#: C/bugs.xml:100(para)
+msgid "Edit the ChangeLog"
+msgstr "Edite o ChangeLog"
+
+#: C/bugs.xml:103(para)
+msgid "Use git to create a patch <command> git diff -u &gt; my_fix.patch </command>"
+msgstr "Use o git para criar um patch <command> git diff -u &gt; my_fix.patch </command>"
+
+#: C/bugs.xml:107(para)
+msgid "Add the patch to bugzilla (see above)."
+msgstr "Adicione o patch ao bugzilla (veja acima)."
+
+#: C/bugs.xml:112(title)
+msgid "Should I send a bug report?"
+msgstr "Devo enviar um relatório de problema?"
+
+#: C/bugs.xml:113(para)
+msgid "Always send a bug report:"
+msgstr "Sempre enviar um relatório do problema:"
+
+#: C/bugs.xml:119(para)
+msgid "If you get a crash and you think it might be problem with gtkmm."
+msgstr "Se você tiver um travamento e você achar que pode ser problema com o gtkmm."
+
+#: C/bugs.xml:122(para)
+msgid "If you cannot compile gtkmm."
+msgstr "Se você não conseguir gtkmm."
+
+#: C/bugs.xml:125(para)
+msgid "If you have a good idea of how to make gtkmm better."
+msgstr "Se você tiver uma boa ideia de como melhorar o gtkmm."
+
+#: C/books.xml:8(title)
+msgid "Recommended Books"
+msgstr "Livros recomendados"
+
+#: C/books.xml:10(para)
+msgid "The <ulink url=\"http://www.amazon.com/gp/product/B0050I6FR4/ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050I6FR4\">Programming with gtkmm 3</ulink> and <ulink url=\"http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4\">Programming with gtkmm 2</ulink> books are available for Amazon's Kindle E-Reader, and also available online along with the rest of our <ulink url=\"documentation.html\">documentation</ulink>."
+msgstr "Os livros <ulink url=\"http://www.amazon.com/gp/product/B0050I6FR4/ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050I6FR4\">Programando com gtkmm 3</ulink> e <ulink url=\"http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4\">Programando com gtkmm 2</ulink> estão disponívels para o leitor de e-books Kindle, da Amazon, e também estão disponíveis online junto com o resto de nossa <ulink url=\"documentation.html\">documentação</ulink>."
+
+#: C/books.xml:11(para)
+msgid "The gtkmm developers also find these books helpful:"
+msgstr "Os desenvolvedores do gtkmm também consideram esses livros úteis:"
+
+#: C/books.xml:15(title)
+msgid "Core books"
+msgstr "Livros principais"
+
+# Livro em inglês e, portanto, mantive o nome da msgid - Rafael
+#: C/books.xml:19(ulink)
+msgid "The C++ Programming Language, Bjarne Stroustrup"
+msgstr "The C++ Programming Language, por Bjarne Stroustrup"
+
+# Livro em inglês e, portanto, mantive o nome da msgid - Rafael
+#: C/books.xml:22(ulink)
+msgid "The C++ Standard Library, Nicolai M. Josuttis"
+msgstr "The C++ Standard Library, por Nicolai M. Josuttis"
+
+# Livro em inglês e, portanto, mantive o nome da msgid - Rafael
+#: C/books.xml:25(ulink)
+msgid "Design Patterns, Erich Gamma et al"
+msgstr "Design Patterns, por Erich Gamma e outros"
+
+#: C/books.xml:31(title)
+msgid "For beginners"
+msgstr "Para iniciantes"
+
+#: C/books.xml:35(ulink)
+msgid "Accelerated C++ - Practical Programming by Example, Andrew Koenig &amp; Barbara E. Moo"
+msgstr "Accelerated C++ - Practical Programming by Example, por Andrew Koenig &amp; Barbara E. Moo"
+
+#: C/books.xml:45(ulink)
+msgid "About Face 3: The essentials of interaction design, Alan Cooper &amp; Robert M. Reimann"
+msgstr "About Face 3: The essentials of interaction design, por Alan Cooper &amp; Robert M. Reimann"
+
+#: C/books.xml:48(ulink)
+msgid "Advanced CORBA Programming with C++, Michi Henning &amp; Steve Vinoski"
+msgstr "Programação avançada em CORBA com C++, por Michi Henning &amp; Steve Vinoski"
+
+#: C/books.xml:51(ulink)
+msgid "GNU Autoconf, Automake, and Libtool, Gary Vaughan et al"
+msgstr "GNU Autoconf, Automake e Libtool, por Gary Vaughan et al"
+
+#: C/books.xml:54(ulink)
+msgid "Programming With Gnu Software, Michael Kosta Loukides et al"
+msgstr "Programando com softwares da Gnu, por Michael Kosta Loukides e outros"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomemm-website.xml:81(None)
+msgid "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/gnomemm-website.xml:88(None)
+msgid "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
+
+#: C/gnomemm-website.xml:10(subtitle)
+msgid "C++ Interfaces for GTK+ and GNOME"
+msgstr "Interfaces C++ para GTK+ e GNOME"
+
+#: C/gnomemm-website.xml:14(ulink)
+msgid "Home"
+msgstr "Início"
+
+#: C/gnomemm-website.xml:20(ulink)
+msgid "Download"
+msgstr "Baixar"
+
+#: C/gnomemm-website.xml:23(ulink)
+msgid "Documentation"
+msgstr "Documentação"
+
+#: C/gnomemm-website.xml:26(ulink)
+msgid "Development"
+msgstr "Desenvolvimento"
+
+#: C/gnomemm-website.xml:30(title)
+msgid "Other Resources"
+msgstr "Outros recursos"
+
+#: C/gnomemm-website.xml:36(ulink)
+msgid "FAQ"
+msgstr "FAQ"
+
+#: C/gnomemm-website.xml:39(ulink)
+msgid "Wiki"
+msgstr "Wiki"
+
+#: C/gnomemm-website.xml:42(ulink)
+msgid "Mailing Lists"
+msgstr "Listas de discussão"
+
+#: C/gnomemm-website.xml:51(ulink)
+msgid "Books"
+msgstr "Livros"
+
+#: C/gnomemm-website.xml:62(title)
+msgid "Language"
+msgstr "Idioma"
+
+#: C/gnomemm-website.xml:65(ulink)
+msgid "Deutsch"
+msgstr "Deutsch"
+
+#: C/gnomemm-website.xml:68(ulink)
+msgid "English"
+msgstr "English"
+
+#: C/gnomemm-website.xml:71(ulink)
+msgid "Español"
+msgstr "Español"
+
+#: C/gnomemm-website.xml:74(ulink)
+msgid "中文"
+msgstr "中文"
+
+#: C/gnomemm-website.xml:93(ulink)
+msgid "Contact Us"
+msgstr "Entre em contato"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/gnomemm-website.xml:0(None)
+msgid "translator-credits"
+msgstr "Rafael Ferreira <rafael.f.f1@gmail.com>, 2013"
