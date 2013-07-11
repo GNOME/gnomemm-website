@@ -7,19 +7,20 @@
 # Jorge González <jorgegonz@svn.gnome.org>, 2010., 2011.
 # 
 # Fidel Sanchez-Bueno <axl456@axl456.com.ve>, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011., 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011., 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2011-11-29 09:23+0000\n"
-"PO-Revision-Date: 2011-11-30 16:58+0100\n"
+"POT-Creation-Date: 2013-07-10 20:38+0000\n"
+"PO-Revision-Date: 2013-07-11 09:56+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: C/news.xml:8(title) C/gnomemm-website.xml:33(ulink)
 msgid "News"
@@ -543,10 +544,6 @@ msgid "Modules and branches"
 msgstr "Módulos y ramas"
 
 #: C/git.xml:24(para)
-#| msgid ""
-#| "We are synchronized with the GNOME release schedule, so we use <ulink url="
-#| "\"http://developer.gnome.org/dotplan/for_maintainers.html#Branches"
-#| "\">standard GNOME branch names</ulink>"
 msgid ""
 "We are synchronized with the GNOME release schedule, so we use <ulink url="
 "\"http://developer.gnome.org/dotplan/for_maintainers.html#Branches"
@@ -2520,13 +2517,13 @@ msgstr "Michael Kosta Loukides et al, «Programming With Gnu Software»"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnomemm-website.xml:81(None)
+#: C/gnomemm-website.xml:84(None)
 msgid "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '../images/gtk-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: C/gnomemm-website.xml:88(None)
+#: C/gnomemm-website.xml:91(None)
 msgid "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
 msgstr "@@image: '../images/GNOME-logo.png'; md5=THIS FILE DOESN'T EXIST"
 
@@ -2586,12 +2583,16 @@ msgstr "Inglés"
 msgid "Español"
 msgstr "Español"
 
-# Dado que es una lista de lenguages cada uno escrito nativamente (aleman esta escrito como "Deutsch" y no "German") edito esta linea para dejarla en "English"
 #: C/gnomemm-website.xml:74(ulink)
+msgid "Português (Brasil)"
+msgstr "Portugués (Brasil)"
+
+# Dado que es una lista de lenguages cada uno escrito nativamente (aleman esta escrito como "Deutsch" y no "German") edito esta linea para dejarla en "English"
+#: C/gnomemm-website.xml:77(ulink)
 msgid "中文"
 msgstr "中文"
 
-#: C/gnomemm-website.xml:93(ulink)
+#: C/gnomemm-website.xml:96(ulink)
 msgid "Contact Us"
 msgstr "Contáctenos"
 
