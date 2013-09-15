@@ -256,7 +256,7 @@ msgid ""
 "+</ulink> (signal/slots)."
 msgstr ""
 "此外，一定不要忘记看看我们的兄弟库，glibmm (UTF8 字符串、线程等等) 和 <ulink "
-"url=\"http://libsigc.sourceforge.net/\"> 信号(signal)/插槽(slots)。"
+"url=\"http://libsigc.sourceforge.net/\">libsigc++</ulink> 信号(signal)/插槽(slots)。"
 
 #: gnomemm-website.xml:194(title) gnomemm-website.xml:235(title)
 #: gnomemm-website.xml:275(title)
