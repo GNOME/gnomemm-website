@@ -1055,7 +1055,7 @@ msgid ""
 "<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electric flux "
 "line simulation"
 msgstr ""
-"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink,> Simulation des "
+"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> Simulation des "
 "elektrischen Stromflusses."
 
 #: C/extra.xml:174(para)
