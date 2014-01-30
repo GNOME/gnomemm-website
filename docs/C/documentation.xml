@@ -1,10 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
                "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-  <!ENTITY url_refdocs_base_glibmm_html "http://library.gnome.org/devel/glibmm/unstable/">
-  <!ENTITY url_refdocs_base_gtkmm_html "http://library.gnome.org/devel/gtkmm/unstable/">
-  <!ENTITY url_refdocs_base_book_html "http://library.gnome.org/devel/gtkmm-tutorial/unstable/">
-  <!ENTITY url_refdocs_base_pangomm_html "http://library.gnome.org/devel/pangomm/unstable/">
+  <!ENTITY url_refdocs_base_glibmm_html "http://library.gnome.org/devel/glibmm/stable/">
+  <!ENTITY url_refdocs_base_gtkmm_html "http://library.gnome.org/devel/gtkmm/stable/">
+  <!ENTITY url_refdocs_base_book_html "http://library.gnome.org/devel/gtkmm-tutorial/stable/">
+  <!ENTITY url_refdocs_base_pangomm_html "http://library.gnome.org/devel/pangomm/stable/">
   <!ENTITY url_examples_base "http://git.gnome.org/cgit/gtkmm-documentation/tree/examples/book/">
 ]>
 
