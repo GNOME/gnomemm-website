@@ -10,13 +10,16 @@ vpath_listall = $(sort $(wildcard $(1)) $(if $(srcdir:.=),$(vpath_srclist)))
 XMLLINT = xmllint
 XSLTPROC = xsltproc
 
-DOC_MODULE = gnomemm-website
-doc_module_with_ext = $(DOC_MODULE).xml
-DOC_ENTITIES =
-DOC_FIGURES =
+@YELP_HELP_RULES@
+
+HELP_ID = gnomemm-website
+help_index_file = index.docbook
+HELP_MEDIA =
 
 # The names of any files included by xinclude (preferred):
-DOC_INCLUDES = \
+HELP_FILES = \
+        index.docbook \
+        main.xml \
 	books.xml \
 	bugs.xml \
 	commercial_support.xml \
@@ -25,15 +28,15 @@ DOC_INCLUDES = \
 	download.xml \
 	extra.xml \
 	git.xml \
-	index.xml \
 	license.xml \
 	mailinglist.xml \
 	news.xml
 
-DOC_LINGUAS = de el es fr pt_BR sl zh_CN
 
-MAINTAINERCLEANFILES =  $(foreach lang,en $(DOC_LINGUAS),html/$(lang)/*.html) \
-			$(foreach lang,en $(DOC_LINGUAS),$(srcdir)/html/$(lang)/*.html)
+HELP_LINGUAS = de el es fr pt_BR sl zh_CN
+
+MAINTAINERCLEANFILES =  $(foreach lang,en $(HELP_LINGUAS),html/$(lang)/*.html) \
+			$(foreach lang,en $(HELP_LINGUAS),$(srcdir)/html/$(lang)/*.html)
 
 tutorialdir         = $(gnomemmwebsite_docdir)/tutorial
 tutorial_htmldir    = $(tutorialdir)/html
@@ -44,42 +47,40 @@ tutorial_html_files = $(call vpath_listall,html/en/*.html) html/style/style.css
 tutorial_html_inst  = $(foreach\
 	file,$(tutorial_html_files),$(or $(wildcard $(file)),$(srcdir)/$(file)))
 
-tutorial_xml_files  = $(addsuffix /gnomemm-website.xml,C $(DOC_LINGUAS))
-tutorial_po_files   = $(foreach lang, $(DOC_LINGUAS), $(lang)/$(lang).po)
-website_indexes	    = $(foreach lang,$(DOC_LINGUAS),html/$(lang)/index.html)
+tutorial_xml_files  = $(addsuffix /index.docbook,C $(HELP_LINGUAS))
+tutorial_po_files   = $(foreach lang, $(HELP_LINGUAS), $(lang)/$(lang).po)
+website_indexes	    = $(foreach lang,$(HELP_LINGUAS),html/$(lang)/index.html)
 
 dist_noinst_DATA =		\
-	C/gnomemm-website.xml	\
+	C/index.docbook	\
 	$(tutorial_po_files)	\
 	$(tutorial_xml_files)	\
 	$(tutorial_html_files)
 
-dist_tutorial_figures_DATA = $(addprefix C/,$(DOC_FIGURES))
+dist_tutorial_figures_DATA = $(addprefix C/,$(HELP_MEDIA))
 
 dist_tutorial_icons_DATA =
 
-include $(top_srcdir)/build/gnome-doc-utils.make
-
-$(DOC_LINGUAS): %: 
+$(HELP_LINGUAS): %: 
 	@$(MKDIR_P) $@
 
-all-local: $(DOC_LINGUAS) html/en/index.html $(website_indexes)
+all-local: $(HELP_LINGUAS) html/en/index.html $(website_indexes)
 
-$(website_indexes): html/%/index.html:$(addprefix %/,$(doc_module_with_ext) $(DOC_INCLUDES))
+$(website_indexes): html/%/index.html:$(addprefix %/,$(HELP_FILES))
   lang=$(subst html/,,$(subst /index.html,,$@))
 	$(AM_V_at)rm -rf html/$(lang)
 	$(AM_V_at)$(MKDIR_P) html/$(lang)
-	$(AM_V_GEN)$(XSLTPROC) -o html/$(lang)/ --xinclude param.xsl $(srcdir)/$(lang)/$(doc_module_with_ext)
+	$(AM_V_GEN)$(XSLTPROC) -o html/$(lang)/ --xinclude param.xsl $(srcdir)/$(lang)/$(help_index_file)
 	$(AM_V_at)rm -f html/$(lang)/root.html
 
 # Create a html generation of the C locale's version of the DocBook,
 # using our custom stylesheet and graphics:
-html/en/index.html: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
+html/en/index.html: $(addprefix $(srcdir)/C/,$(HELP_FILES))
 	$(AM_V_at)rm -fr html/en
 	$(AM_V_at)$(MKDIR_P) html/en
-	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $(srcdir)/C/$(doc_module_with_ext)
+	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $(srcdir)/C/$(help_index_file)
 	
-validate: $(addprefix $(srcdir)/C/,$(doc_module_with_ext) $(DOC_INCLUDES))
+validate: $(addprefix $(srcdir)/C/,$(HELP_FILES))
 	$(XMLLINT) --xinclude --postvalid --noout $<
 
 

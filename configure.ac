@@ -3,7 +3,7 @@ AC_INIT([gnomemm-website], [2.91.4],
         [http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm],
         [gnomemm-website], [http://www.gtkmm.org/])
 
-AC_CONFIG_SRCDIR([docs/C/gnomemm-website.xml])
+AC_CONFIG_SRCDIR([docs/C/index.docbook])
 AC_CONFIG_AUX_DIR([build])
 AC_CONFIG_MACRO_DIR([build])
 
@@ -14,8 +14,7 @@ AC_ARG_VAR([ACLOCAL_FLAGS], [aclocal flags, e.g. -I <macro dir>])
 
 AC_LANG([C++])
 
-GNOME_DOC_INIT([0.9.0],,
-  [AC_MSG_WARN([[gnome-doc-utils not found: tutorial will not be built.]])])
+YELP_HELP_INIT
 
 AC_CONFIG_FILES([Makefile
                  docs/Makefile])

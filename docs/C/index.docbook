@@ -1,0 +1,113 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+]>
+
+<!-- The header menu, sidebar menu, and footer. -->
+<book>
+  <bookinfo>
+    <title>gtkmm</title>
+    <subtitle>C++ Interfaces for GTK+ and GNOME</subtitle>
+    <abstract>
+      <para id="banner"><itemizedlist>
+          <listitem>
+            <para><ulink url="index.html">Home</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="license.html">License</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="download.html">Download</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="documentation.html">Documentation</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="developers.html">Development</ulink></para>
+          </listitem>
+        </itemizedlist></para>
+      <formalpara id="resource-menu">
+        <title>Other Resources</title>
+        <para><itemizedlist>
+            <listitem>
+              <para><ulink url="news.html">News</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://live.gnome.org/gtkmm/FAQ">FAQ</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="http://live.gnome.org/gtkmm">Wiki</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="mailinglist.html">Mailing Lists</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="git.html">Git</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="bugs.html">Bugs</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="books.html">Books</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="commercial_support.html">Commercial Support</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="extra.html">Additional Resources</ulink></para>
+            </listitem>
+          </itemizedlist></para>
+      </formalpara>
+      <formalpara id="language-menu">
+        <title>Language</title>
+        <para><itemizedlist>
+            <listitem>
+              <para><ulink url="../de/index.html">Deutsch</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="../el/index.html">Greek</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="../en/index.html">English</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="../es/index.html">Español</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="../zh_CN/index.html">中文</ulink></para>
+            </listitem>
+          </itemizedlist></para>
+      </formalpara>
+      <para id="sidebar-credits"><informalfigure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="../images/gtk-logo.png"/>
+            </imageobject>
+          </mediaobject>
+          <ulink url="http://www.gtk.org"/>
+        </informalfigure><informalfigure>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="../images/GNOME-logo.png"/>
+            </imageobject>
+          </mediaobject>
+          <ulink url="http://www.gnome.org"/>
+        </informalfigure></para>
+      <para id="footer"><ulink url="mailto:gtkmm-list@gnome.org">Contact Us</ulink></para>
+    </abstract>
+  </bookinfo>
+
+  <xi:include href="main.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="books.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="commercial_support.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="developers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="download.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="extra.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="git.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="license.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="mailinglist.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include href="news.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+
+</book>
