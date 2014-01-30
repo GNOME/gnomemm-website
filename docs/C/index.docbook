@@ -62,16 +62,22 @@
         <title>Language</title>
         <para><itemizedlist>
             <listitem>
-              <para><ulink url="../de/index.html">Deutsch</ulink></para>
+              <para><ulink url="../pt_BR/index.html">Brazilian Portuguese</ulink></para>
             </listitem>
             <listitem>
-              <para><ulink url="../el/index.html">Greek</ulink></para>
+              <para><ulink url="../de/index.html">Deutsch</ulink></para>
             </listitem>
             <listitem>
               <para><ulink url="../en/index.html">English</ulink></para>
             </listitem>
             <listitem>
               <para><ulink url="../es/index.html">Español</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="../fr/index.html">French</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="../el/index.html">Greek</ulink></para>
             </listitem>
             <listitem>
               <para><ulink url="../zh_CN/index.html">中文</ulink></para>

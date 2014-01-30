@@ -11,7 +11,7 @@ To add a new language:
 
 2. Translate the .po. 
 
-3. Modify gnomemm-website.xml
+3. Modify docs/C/index.docbook
 
 	Find "<formalpara id="language-menu">", and add your locale in.
 
