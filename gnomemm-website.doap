@@ -12,7 +12,7 @@
   <download-page rdf:resource="http://www.gtkmm.org/en/download.html" />
   <bug-database rdf:resource="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm" />
 
-  <category rdf:resource="http://api.gnome.org/doap-extensions#development" />
+  <category rdf:resource="http://api.gnome.org/doap-extensions#infrastructure" />
 
   <maintainer>
     <foaf:Person>
