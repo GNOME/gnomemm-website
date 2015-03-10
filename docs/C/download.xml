@@ -78,7 +78,6 @@ operating system unless you wish to test the latest versions. However, <ulink ur
               <para><ulink url="http://libsigc.sourceforge.net">libsigc++</ulink></para>
             </listitem>
           </itemizedlist></para>
-        <para>Here is a dependency graphs for <ulink url="jhbuild_dot_gtkmm.png">gtkmm</ulink>, generated automatically with jhbuild and graphviz.</para>
       </sect2>
       <sect2>
         <title>GTK+</title>
