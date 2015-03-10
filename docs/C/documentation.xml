@@ -1,11 +1,11 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
                "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-  <!ENTITY url_refdocs_base_glibmm_html "http://library.gnome.org/devel/glibmm/stable/">
-  <!ENTITY url_refdocs_base_gtkmm_html "http://library.gnome.org/devel/gtkmm/stable/">
-  <!ENTITY url_refdocs_base_book_html "http://library.gnome.org/devel/gtkmm-tutorial/stable/">
-  <!ENTITY url_refdocs_base_pangomm_html "http://library.gnome.org/devel/pangomm/stable/">
-  <!ENTITY url_examples_base "http://git.gnome.org/cgit/gtkmm-documentation/tree/examples/book/">
+  <!ENTITY url_refdocs_base_glibmm_html "https://developer.gnome.org/glibmm/stable/">
+  <!ENTITY url_refdocs_base_gtkmm_html "https://developer.gnome.org/gtkmm/stable/">
+  <!ENTITY url_refdocs_base_book_html "https://developer.gnome.org/gtkmm-tutorial/stable/">
+  <!ENTITY url_refdocs_base_pangomm_html "https://developer.gnome.org/pangomm/stable/">
+  <!ENTITY url_examples_base "https://git.gnome.org/browse/gtkmm-documentation/tree/examples/book/">
 ]>
 
   <article id="documentation">
@@ -143,7 +143,7 @@
       </sect2>
       <sect2>
         <title>Extra Modules</title>
-        <para>API reference documentation for other C++ modules, such as gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink url="http://library.gnome.org/devel/references#c++-bindings">library.gnome.org C++ Bindings</ulink> section.</para>
+        <para>API reference documentation for other C++ modules, such as gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink url="https://developer.gnome.org/references#c++-bindings">developer.gnome.org C++ Bindings</ulink> section.</para>
       </sect2>
       <sect2>
         <title>Other Information</title>
@@ -159,7 +159,7 @@
                   <para><ulink url="http://libsigc.sourceforge.net/doc.shtml">libsigc++ documentation</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="http://library.gnome.org/devel/gtk/stable/">GTK+ reference</ulink></para>
+                  <para><ulink url="https://developer.gnome.org/gtk3/stable/">GTK+ reference</ulink></para>
                 </listitem>
                 <listitem>
                   <para><ulink url="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index.html">Standard C++ Library (STL)</ulink></para>
@@ -169,10 +169,10 @@
             <td>
               <itemizedlist>
                 <listitem>
-                  <para><ulink url="http://git.gnome.org/cgit/gtkmm/tree/README.SUN?view=markup">Solaris, with Sun&apos;s Forte C++.</ulink></para>
+                  <para><ulink url="https://git.gnome.org/browse/gtkmm/tree/README.SUN?view=markup">Solaris, with Sun&apos;s Forte C++.</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="http://git.gnome.org/cgit/gtkmm/tree/README.win32?view=markup">Windows, with mingw and cygwin</ulink></para>
+                  <para><ulink url="https://git.gnome.org/browse/gtkmm/tree/README.win32?view=markup">Windows, with mingw and cygwin</ulink></para>
                 </listitem>
               </itemizedlist>
             </td>
