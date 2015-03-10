@@ -21,6 +21,10 @@ require more in-depth assistance or custom development. If so feel free to conta
           <td><ulink url="mailto:cactus@cactus.rulez.org">Gergő Érdi</ulink>(<ulink url="http://cactus.rulez.org">cactus.rulez.org</ulink>)</td>
           <td>Hungary</td>
         </tr>
+        <tr>
+          <td><ulink url="http://dianiuxinnova.com/">Dianiux Innova</ulink></td>
+          <td>Valencia, Spain</td>
+        </tr>
       </informaltable>
       <para>Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:<itemizedlist>
           <listitem>
