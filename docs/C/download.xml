@@ -47,26 +47,13 @@ operating system unless you wish to test the latest versions. However, <ulink ur
       </sect2>
       <sect2>
         <title><anchor id="Source"/>Source</title>
-        <sect3>
-          <title><anchor id="devel"/>Unstable gtkmm and GNOME bindings:</title>
-          <para>These replace the stable glibmm and gtkmm versions and are currently unstable:</para>
+          <para>Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions (such as 3.15.x) are unstable development versions.</para>
           <itemizedlist>
             <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.39/">glibmm 2.39</ulink> (unstable)</para>
+              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/glibmm/">glibmm</ulink></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.11/">gtkmm 3.11</ulink> (unstable)</para>
-            </listitem>
-          </itemizedlist>
-        </sect3>
-        <sect3>
-          <title><anchor id="stable"/>Stable gtkmm and GNOME bindings:</title>
-          <itemizedlist>
-            <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.38/">glibmm 2.38</ulink> (stable)</para>
-            </listitem>
-            <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.10/">gtkmm 3.10</ulink> (stable)</para>
+              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/">gtkmm</ulink></para>
             </listitem>
             <listitem>
               <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm">goocanvasmm</ulink></para>
@@ -80,7 +67,6 @@ operating system unless you wish to test the latest versions. However, <ulink ur
             </listitem>
 -->
           </itemizedlist>
-        </sect3>
       </sect2>
       <sect2>
         <title>Requirements</title>
