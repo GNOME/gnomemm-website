@@ -4,7 +4,7 @@
 ]>
 
 <!-- The header menu, sidebar menu, and footer. -->
-<book>
+<book xmlns:its="http://www.w3.org/2005/11/its">
   <bookinfo>
     <title>gtkmm</title>
     <subtitle>C++ Interfaces for GTK+ and GNOME</subtitle>
@@ -87,14 +87,14 @@
       <para id="sidebar-credits"><informalfigure>
           <mediaobject>
             <imageobject>
-              <imagedata fileref="../images/gtk-logo.png"/>
+              <imagedata its:translate="no" fileref="../images/gtk-logo.png"/>
             </imageobject>
           </mediaobject>
           <ulink url="http://www.gtk.org"/>
         </informalfigure><informalfigure>
           <mediaobject>
             <imageobject>
-              <imagedata fileref="../images/GNOME-logo.png"/>
+              <imagedata its:translate="no" fileref="../images/GNOME-logo.png"/>
             </imageobject>
           </mediaobject>
           <ulink url="http://www.gnome.org"/>
