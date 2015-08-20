@@ -8,7 +8,7 @@
       <title>Git</title>
       <para>We use <ulink url="http://git-scm.com/">Git</ulink> to maintain our source
     code, in the <ulink url="http://www.gnome.org">GNOME</ulink> Git repository.
-    Additional information about git.gnome.org is available at <ulink url="http://live.gnome.org/Git">live.gnome.org/Git</ulink>.</para>
+    Additional information about git.gnome.org is available at <ulink url="http://wiki.gnome.org/Git">wiki.gnome.org/Git</ulink>.</para>
       <para>glibmm and gtkmm are in the <ulink url="http://git.gnome.org/cgit/glibmm/tree/">glibmm</ulink> and <ulink url="http://git.gnome.org/cgit/gtkmm/tree/">gtkmm</ulink> modules.
     There is also a <ulink url="http://git.gnome.org/cgit/gtkmm-documentation/tree/">gtkmm-documentation</ulink> module which contains the gtkmm book and its examples. See below for instructions.</para>
       <para>You will need to run the autogen.sh script to generate the build files. We
@@ -21,7 +21,7 @@
       </highlights>
       <sect2>
         <title>Modules and branches</title>
-        <para>We are synchronized with the GNOME release schedule, so we use <ulink url="http://developer.gnome.org/dotplan/for_maintainers.html#Branches">standard GNOME branch names</ulink>.</para>
+        <para>We are synchronized with the GNOME release schedule, so we use <ulink url="https://wiki.gnome.org/MaintainersCorner#branches">standard GNOME branch names</ulink>.</para>
         <sect3>
           <title>gtkmm and glibmm</title>
           <para><informaltable>

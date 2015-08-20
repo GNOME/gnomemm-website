@@ -66,9 +66,6 @@ require more in-depth assistance or custom development. If so feel free to conta
             <para><ulink url="http://www.dme.net">DME</ulink> - mold engineering</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.petig-baender.de">Adolf Petig GmbH</ulink> - textile ribbon manufacturing</para>
-          </listitem>
-          <listitem>
             <para><ulink url="http://www.bifab.de">Bibliographisches Institut &amp; F.A. Brockhaus AG</ulink> - publishing</para>
           </listitem>
           <listitem>
@@ -102,10 +99,10 @@ require more in-depth assistance or custom development. If so feel free to conta
             <para><ulink url="http://www.downeysavings.com/">Downey Savings</ulink> - Banking</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.innoventis.de/htm/produkte_canmonitor.php">Innoventis</ulink> - Automotive systems</para>
+            <para><ulink url="http://www.innoventis.de/">Innoventis</ulink> - Automotive systems</para>
           </listitem>
         </itemizedlist></para>
       <para>If you would like to be listed here please send email to the <ulink url="mailinglist.html">mailing list</ulink> or a maintainer.</para>
-      <para>See also <ulink url="http://www.gtk.org/commerce.html">GTK+ success stories</ulink>.</para>
+      <para>See also <ulink url="http://www.gtk.org/commerce.php">GTK+ success stories</ulink>.</para>
     </sect1>
   </article>

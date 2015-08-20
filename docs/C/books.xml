@@ -7,7 +7,7 @@
     <sect1>
       <title>Recommended Books</title>
       
-      <para>The <ulink url="http://www.amazon.com/gp/product/B0050I6FR4/ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=217153&amp;creative=399701&amp;creativeASIN=B0050I6FR4">Programming with gtkmm 3</ulink> and <ulink url="http://www.amazon.com/gp/product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4">Programming with gtkmm 2</ulink> books are available for Amazon's Kindle E-Reader, and also available online along with the rest of our <ulink url="documentation.html">documentation</ulink>.</para>
+      <para>The <ulink url="https://developer.gnome.org/gtkmm-tutorial/stable">Programming with gtkmm 3</ulink> and <ulink url="https://developer.gnome.org/gtkmm-tutorial/2.24/">Programming with gtkmm 2</ulink> books are available online along with the rest of our <ulink url="documentation.html">documentation</ulink>.</para>
       <para>
    The gtkmm developers also find these books helpful:
   </para>

@@ -20,7 +20,7 @@ operating system unless you wish to test the latest versions. However, <ulink ur
             <para><ulink url="http://www.debian.org/">Debian</ulink> GNU/Linux: <command>apt-get install libgtkmm-3.0-dev</command>. These <ulink url="http://packages.qa.debian.org/g/gtkmm3.0.html">project pages</ulink> might give status.</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://fedora.redhat.com/">Fedora</ulink>/<ulink url="http://www.redhat.com">RedHat</ulink> Linux: Use <command>yum install gtkmm30-docs</command> to get the runtime, development, and documentation packages.</para>
+            <para><ulink url="http://fedoraproject.org/">Fedora</ulink>/<ulink url="http://www.redhat.com">RedHat</ulink> Linux: Use <command>yum install gtkmm30-docs</command> to get the runtime, development, and documentation packages.</para>
           </listitem>
           <listitem>
             <para><ulink url="http://www.gentoo.org">Gentoo Linux</ulink>: Get dev-cpp/gtkmm.</para>
@@ -32,7 +32,7 @@ operating system unless you wish to test the latest versions. However, <ulink ur
             <para><ulink url="http://www.ubuntu.com/">Ubuntu</ulink> Linux: <command>apt-get install libgtkmm-3.0-dev</command>.</para>
           </listitem>
           <listitem>
-            <para>Windows: Here is an <ulink url="http://live.gnome.org/gtkmm/MSWindows">installer</ulink>.</para>
+            <para>Windows: Here is an <ulink url="http://wiki.gnome.org/Projects/gtkmm/MSWindows">installer</ulink>.</para>
           </listitem>
 <!-- TODO: Is there a gtkmm3 version of this?
           <listitem>
