@@ -40,7 +40,7 @@ operating system unless you wish to test the latest versions. However, <ulink ur
           </listitem>
 -->
           <listitem>
-            <para>SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink url="http://thewrittenword.com">The Written Word</ulink> offer binary gtkmm packages, with packagement management.</para>
+            <para>SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink url="http://thewrittenword.com">The Written Word</ulink> offer binary gtkmm packages, with package management.</para>
           </listitem>
         </itemizedlist>
         <para>Please tell us about others.</para>
