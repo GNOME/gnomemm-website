@@ -32,7 +32,7 @@ operating system unless you wish to test the latest versions. However, <ulink ur
             <para><ulink url="http://www.ubuntu.com/">Ubuntu</ulink> Linux: <command>apt-get install libgtkmm-3.0-dev</command>.</para>
           </listitem>
           <listitem>
-            <para>Windows: Here is an <ulink url="http://wiki.gnome.org/Projects/gtkmm/MSWindows">installer</ulink>.</para>
+            <para>Windows: Here is an <ulink url="https://wiki.gnome.org/Projects/gtkmm/MSWindows">installer</ulink>.</para>
           </listitem>
 <!-- TODO: Is there a gtkmm3 version of this?
           <listitem>

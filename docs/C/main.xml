@@ -20,7 +20,7 @@
     Public License (<ulink url="license.shtml">LGPL</ulink>).
   </para>
       <para>
-   &gtkmm; follows the official <ulink url="http://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</ulink>. This guarantees
+   &gtkmm; follows the official <ulink url="https://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</ulink>. This guarantees
    API/ABI-stability and new releases on a predictable schedule,
    delivering C++ API for the underlying GTK+ and GNOME APIs as soon as possible.
   </para>
