@@ -33,7 +33,7 @@ HELP_FILES = \
 	news.xml
 
 
-HELP_LINGUAS = de el es fr pt_BR sl zh_CN
+HELP_LINGUAS = cs de el es fr pt_BR sl zh_CN
 
 MAINTAINERCLEANFILES =  $(foreach lang,en $(HELP_LINGUAS),html/$(lang)/*.html) \
 			$(foreach lang,en $(HELP_LINGUAS),$(srcdir)/html/$(lang)/*.html)
