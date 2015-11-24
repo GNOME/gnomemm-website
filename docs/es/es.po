@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2015-09-09 08:30+0000\n"
-"PO-Revision-Date: 2015-10-05 09:37+0200\n"
+"POT-Creation-Date: 2015-11-09 12:21+0000\n"
+"PO-Revision-Date: 2015-11-24 09:24+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
@@ -27,7 +27,7 @@ msgstr ""
 msgctxt "_"
 msgid "translator-credits"
 msgstr ""
-"Daniel Mustieles <daniel.mustieles@gmail.com>, 2010-2014\n"
+"Daniel Mustieles <daniel.mustieles@gmail.com>, 2010 - 2015\n"
 "Jorge González <jorgegonz@svn.gnome.org>, 2010, 2011\n"
 "Fidel Sanchez-Bueno <axl456@axl456.com.ve>, 2011"
 
@@ -79,15 +79,15 @@ msgstr "<ulink url=\"news.html\">Noticias</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:36
-#| msgid "<ulink url=\"http://live.gnome.org/gtkmm/FAQ\">FAQ</ulink>"
-msgid "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
-msgstr "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm/FAQ\">P+F</ulink>"
+#| msgid "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
+msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
+msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FP+F</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:39
-#| msgid "<ulink url=\"http://live.gnome.org/gtkmm\">Wiki</ulink>"
-msgid "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
-msgstr "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
+#| msgid "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
+msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
+msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:42
@@ -198,18 +198,24 @@ msgstr ""
 
 #. (itstool) path: highlights/para
 #: C/main.xml:22
+#| msgid ""
+#| "<application>gtkmm</application> follows the official <ulink url=\"http://"
+#| "www.gnome.org/start/unstable/\"> GNOME Platform Bindings release "
+#| "schedule</ulink>. This guarantees API/ABI-stability and new releases on a "
+#| "predictable schedule, delivering C++ API for the underlying GTK+ and "
+#| "GNOME APIs as soon as possible."
 msgid ""
-"<application>gtkmm</application> follows the official <ulink url=\"http://"
+"<application>gtkmm</application> follows the official <ulink url=\"https://"
 "www.gnome.org/start/unstable/\"> GNOME Platform Bindings release schedule</"
 "ulink>. This guarantees API/ABI-stability and new releases on a predictable "
 "schedule, delivering C++ API for the underlying GTK+ and GNOME APIs as soon "
 "as possible."
 msgstr ""
-"<application>gtkmm</application> sigue el <ulink url=\"http://www.gnome.org/"
+"<application>gtkmm</application> sigue el <ulink url=\"https://www.gnome.org/"
 "start/unstable/\">calendario de liberación oficial de bindings de la "
 "plataforma GNOME</ulink>. Esto garantiza la estabilidad de la API/ABI y "
 "nuevas versiones en un calendario predecible, entregando API C++ para las "
-"APIs GTK+ y GNOME lo más pronto posible."
+"API GTK+ y GNOME lo más pronto posible."
 
 #. (itstool) path: sect1/title
 #: C/main.xml:29
@@ -1024,9 +1030,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:102
-#| msgid ""
-#| "<ulink url=\"http://www.innoventis.de/htm/produkte_canmonitor.php"
-#| "\">Innoventis</ulink> - Automotive systems"
 msgid ""
 "<ulink url=\"http://www.innoventis.de/\">Innoventis</ulink> - Automotive "
 "systems"
@@ -1058,9 +1061,6 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: C/commercial_support.xml:106
-#| msgid ""
-#| "See also <ulink url=\"http://www.gtk.org/commerce.html\">GTK+ success "
-#| "stories</ulink>."
 msgid ""
 "See also <ulink url=\"http://www.gtk.org/commerce.php\">GTK+ success "
 "stories</ulink>."
@@ -1683,11 +1683,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/download.xml:23
-#| msgid ""
-#| "<ulink url=\"http://fedora.redhat.com/\">Fedora</ulink>/<ulink url="
-#| "\"http://www.redhat.com\">RedHat</ulink> Linux: Use <command>yum install "
-#| "gtkmm30-docs</command> to get the runtime, development, and documentation "
-#| "packages."
 msgid ""
 "<ulink url=\"http://fedoraproject.org/\">Fedora</ulink>/<ulink url=\"http://"
 "www.redhat.com\">RedHat</ulink> Linux: Use <command>yum install gtkmm30-"
@@ -1727,21 +1722,25 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/download.xml:35
 #| msgid ""
-#| "Windows: Here is an <ulink url=\"http://live.gnome.org/gtkmm/MSWindows"
-#| "\">installer</ulink>."
+#| "Windows: Here is an <ulink url=\"http://wiki.gnome.org/Projects/gtkmm/"
+#| "MSWindows\">installer</ulink>."
 msgid ""
-"Windows: Here is an <ulink url=\"http://wiki.gnome.org/Projects/gtkmm/"
+"Windows: Here is an <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/"
 "MSWindows\">installer</ulink>."
 msgstr ""
-"Windows: aquí hay un <ulink url=\"http://wiki.gnome.org/Projects/gtkmm/"
+"Windows: aquí hay un <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/"
 "MSWindows\">instalador</ulink>."
 
 #. (itstool) path: listitem/para
 #: C/download.xml:43
+#| msgid ""
+#| "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): "
+#| "<ulink url=\"http://thewrittenword.com\">The Written Word</ulink> offer "
+#| "binary gtkmm packages, with packagement management."
 msgid ""
 "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink "
 "url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary "
-"gtkmm packages, with packagement management."
+"gtkmm packages, with package management."
 msgstr ""
 "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc o los compiladores de la "
 "plataforma): <ulink url=\"http://thewrittenword.com\">The Written Word</"
@@ -1909,9 +1908,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:39
-#| msgid ""
-#| "<ulink url=\"http://www.xs4all.nl/~carlo17/cwchessboard/index.html"
-#| "\">cwchessboard</ulink> C++ chess board tool set for gtkmm"
 msgid ""
 "<ulink url=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</ulink> "
 "C++ chess board tool set for gtkmm"
@@ -2052,11 +2048,14 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:91
+#| msgid ""
+#| "<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> IP address "
+#| "calculator"
 msgid ""
-"<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> IP address "
+"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP address "
 "calculator"
 msgstr ""
-"<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink>: calculadora "
+"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink>: calculadora "
 "de direcciones IP"
 
 #. (itstool) path: listitem/para
@@ -2068,9 +2067,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:97
-#| msgid ""
-#| "<ulink url=\"http://www.cs.auc.dk/~olau/hardware-monitor/\">Hardware "
-#| "Monitor</ulink> GNOME panel applet"
 msgid ""
 "<ulink url=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
 "Monitor</ulink> GNOME panel applet"
@@ -2089,10 +2085,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:103
-#| msgid ""
-#| "<ulink url=\"http://kino.schirmacher.de/article/view/51/1/11\">timfx</"
-#| "ulink> digital video effects plug-in for <ulink url=\"http://www.kinodv."
-#| "org/\">Kino</ulink>"
 msgid ""
 "<ulink url=\"http://timfx.sourcearchive.com/\">timfx</ulink> digital video "
 "effects plug-in for Kino"
@@ -2103,13 +2095,13 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/extra.xml:106
 #| msgid ""
-#| "<ulink url=\"http://www.cs.auc.dk/~olau/monster-masher/\">Monster Masher</"
-#| "ulink> game"
+#| "<ulink url=\"http://git.gnome.org/browse/monster-masher/\">Monster "
+#| "Masher</ulink> game"
 msgid ""
-"<ulink url=\"http://git.gnome.org/browse/monster-masher/\">Monster Masher</"
+"<ulink url=\"https://git.gnome.org/browse/monster-masher/\">Monster Masher</"
 "ulink> game"
 msgstr ""
-"<ulink url=\"http://git.gnome.org/browse/monster-masher/\">Monster Masher</"
+"<ulink url=\"https://git.gnome.org/browse/monster-masher/\">Monster Masher</"
 "ulink>: juego"
 
 #. (itstool) path: listitem/para
@@ -2167,8 +2159,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:129
-#| msgid ""
-#| "<ulink url=\"http://pinot.berlios.de/\">Pinot</ulink> metasearch tool"
 msgid ""
 "<ulink url=\"https://code.google.com/p/pinot-search/\">Pinot</ulink> "
 "metasearch tool"
@@ -2247,9 +2237,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:156
-#| msgid ""
-#| "<ulink url=\"http://minuslab.net/code/nitrogen/\">Nitrogen</ulink> "
-#| "background browser and setter"
 msgid ""
 "<ulink url=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</ulink> "
 "background browser and setter"
@@ -2268,9 +2255,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:162
-#| msgid ""
-#| "<ulink url=\"http://bmpx.beep-media-player.org/site/BMPx_Homepage\">BMP</"
-#| "ulink> audio player"
 msgid "<ulink url=\"http://beep-media-player.org/\">BMP</ulink> audio player"
 msgstr ""
 "<ulink url=\"http://beep-media-player.org/\">BMP</ulink>: reproductor de "
@@ -2296,9 +2280,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:171
-#| msgid ""
-#| "<ulink url=\"http://icculus.org/~jcspray/referencer/\">Referencer</ulink> "
-#| "document organiser and bibliography manager"
 msgid ""
 "<ulink url=\"http://github.com/egroeper/referencer/\">Referencer</ulink> "
 "document organiser and bibliography manager"
@@ -2358,9 +2339,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:192
-#| msgid ""
-#| "<ulink url=\"http://www.mysql.com/downloads/administrator.html\">MySQL "
-#| "Administrator</ulink> database GUI"
 msgid ""
 "<ulink url=\"http://dev.mysql.com/downloads/workbench/\">MySQL Workbench</"
 "ulink> database GUI"
@@ -2379,12 +2357,15 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:198
+#| msgid ""
+#| "<ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink> system "
+#| "monitor"
 msgid ""
-"<ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink> system "
+"<ulink url=\"https://www.gnome.org/\">GNOME System Monitor</ulink> system "
 "monitor"
 msgstr ""
-"<ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink>: monitor "
-"del sistema"
+"<ulink url=\"https://www.gnome.org/\">Monitor del sistema de GNOME</ulink>: "
+"monitor del sistema"
 
 #. (itstool) path: sect3/title
 #: C/extra.xml:203
@@ -2453,9 +2434,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:227
-#| msgid ""
-#| "<ulink url=\"http://telgarsky.com/matusacode/cug.html\">CUG</ulink> 3D "
-#| "equation plotter"
 msgid ""
 "<ulink url=\"http://freecode.com/projects/cug\">CUG</ulink> 3D equation "
 "plotter"
@@ -2487,9 +2465,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:241
-#| msgid ""
-#| "<ulink url=\"http://gnuvoice.sourceforge.net/\">gnuvoice</ulink> GUI "
-#| "voicemail / speakerphone / caller ID application"
 msgid ""
 "<ulink url=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</ulink> "
 "GUI voicemail / speakerphone / caller ID application"
@@ -2518,9 +2493,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:250
-#| msgid ""
-#| "<ulink url=\"http://yotam.freehosting.net/software/ped/ped.html\">Ped</"
-#| "ulink> path editor utility"
 msgid ""
 "<ulink url=\"http://www.medini.org/software/ped/ped.html\">Ped</ulink> path "
 "editor utility"
@@ -2558,9 +2530,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:262
-#| msgid ""
-#| "<ulink url=\"http://terraform.sourceforge.net/\">terraform</ulink> "
-#| "terrain generator (very cool)"
 msgid ""
 "<ulink url=\"http://www.firedrake.org/terraform/\">terraform</ulink> terrain "
 "generator (very cool)"
@@ -2584,9 +2553,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:271
-#| msgid ""
-#| "<ulink url=\"http://guillaume.cottenceau.free.fr/html/grany.html"
-#| "\">Grany-3</ulink> cellular automaton simulator"
 msgid ""
 "<ulink url=\"http://zarb.org/~gc/html/grany.html\">Grany-3</ulink> cellular "
 "automaton simulator"
@@ -2629,13 +2595,17 @@ msgstr "<ulink url=\"http://www.gtk.org/\">Página principal de GTK+</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:291
-msgid "<ulink url=\"http://www.gnome.org/\">GNOME homepage</ulink>"
-msgstr "<ulink url=\"http://www.gnome.org/\">Página principal de GNOME</ulink>"
+#| msgid "<ulink url=\"http://www.gnome.org/\">GNOME homepage</ulink>"
+msgid "<ulink url=\"https://www.gnome.org/\">GNOME homepage</ulink>"
+msgstr ""
+"<ulink url=\"https://www.gnome.org/\">Página principal de GNOME</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:294
-msgid "<ulink url=\"http://developer.gnome.org/\">GNOME development</ulink>"
-msgstr "<ulink url=\"http://developer.gnome.org/\">Desarrollo de GNOME</ulink>"
+#| msgid "<ulink url=\"http://developer.gnome.org/\">GNOME development</ulink>"
+msgid "<ulink url=\"https://developer.gnome.org/\">GNOME development</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/\">Desarrollo de GNOME</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:297
@@ -2653,33 +2623,41 @@ msgstr "Git"
 #| "We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our "
 #| "source code, in the <ulink url=\"http://www.gnome.org\">GNOME</ulink> Git "
 #| "repository. Additional information about git.gnome.org is available at "
-#| "<ulink url=\"http://live.gnome.org/Git\">live.gnome.org/Git</ulink>."
+#| "<ulink url=\"http://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
 msgid ""
 "We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our source "
-"code, in the <ulink url=\"http://www.gnome.org\">GNOME</ulink> Git "
+"code, in the <ulink url=\"https://www.gnome.org\">GNOME</ulink> Git "
 "repository. Additional information about git.gnome.org is available at "
-"<ulink url=\"http://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
+"<ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
 msgstr ""
 "Usamos <ulink url=\"http://git-scm.com/\">Git</ulink> para mantener nuestro "
-"código fuente, en el repositorio Git de <ulink url=\"http://www.gnome.org"
+"código fuente, en el repositorio Git de <ulink url=\"https://www.gnome.org"
 "\">GNOME</ulink>. Consulte la información adicional sobre git.gnome.org en "
-"<ulink url=\"http://live.gnome.org/Git\">live.gnome.org/Git</ulink>."
+"<ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
 
 #. (itstool) path: sect1/para
 #: C/git.xml:12
+#| msgid ""
+#| "glibmm and gtkmm are in the <ulink url=\"http://git.gnome.org/cgit/glibmm/"
+#| "tree/\">glibmm</ulink> and <ulink url=\"http://git.gnome.org/cgit/gtkmm/"
+#| "tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"http://git."
+#| "gnome.org/cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
+#| "module which contains the gtkmm book and its examples. See below for "
+#| "instructions."
 msgid ""
-"glibmm and gtkmm are in the <ulink url=\"http://git.gnome.org/cgit/glibmm/"
-"tree/\">glibmm</ulink> and <ulink url=\"http://git.gnome.org/cgit/gtkmm/tree/"
-"\">gtkmm</ulink> modules. There is also a <ulink url=\"http://git.gnome.org/"
-"cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> module which "
-"contains the gtkmm book and its examples. See below for instructions."
+"glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/glibmm/"
+"tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/browse/gtkmm/"
+"tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://git."
+"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
+"module which contains the gtkmm book and its examples. See below for "
+"instructions."
 msgstr ""
-"glibmm anyd gtkmm están en los módulos <ulink url=\"http://git.gnome.org/"
-"cgit/glibmm/tree/\">glibmm</ulink> y <ulink url=\"http://git.gnome.org/cgit/"
-"gtkmm/tree/\">gtkmm</ulink>. También hay un módulo <ulink url=\"http://git."
-"gnome.org/cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> que "
-"contiene el libro de gtkmm y sus ejemplos. Consulte las instrucciones más "
-"abajo."
+"glibmm anyd gtkmm están en los módulos <ulink url=\"https://git.gnome.org/"
+"browse/glibmm/tree/\">glibmm</ulink> y <ulink url=\"https://git.gnome.org/"
+"browse/gtkmm/tree/\">gtkmm</ulink>. También hay un módulo <ulink url="
+"\"https://git.gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-"
+"documentation</ulink> que contiene el libro de gtkmm y sus ejemplos. "
+"Consulte las instrucciones más abajo."
 
 #. (itstool) path: sect1/para
 #: C/git.xml:14
@@ -2720,10 +2698,6 @@ msgstr "Módulos y ramas"
 
 #. (itstool) path: sect2/para
 #: C/git.xml:24
-#| msgid ""
-#| "We are synchronized with the GNOME release schedule, so we use <ulink url="
-#| "\"http://developer.gnome.org/dotplan/for_maintainers.html#Branches"
-#| "\">standard GNOME branch names</ulink>."
 msgid ""
 "We are synchronized with the GNOME release schedule, so we use <ulink url="
 "\"https://wiki.gnome.org/MaintainersCorner#branches\">standard GNOME branch "
@@ -2922,9 +2896,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/mailinglist.xml:16
-#| msgid ""
-#| "For general GTK+ discussion, please use the <ulink url=\"http://www.gtk."
-#| "org/mailinglists.html\">gtk-list</ulink>."
 msgid ""
 "For general GTK+ discussion, please use the <ulink url=\"http://www.gtk.org/"
 "mailing-lists.php\">gtk-list</ulink>."
