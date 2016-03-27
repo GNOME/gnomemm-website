@@ -1,0 +1,3082 @@
+# Hungarian translation for gnomemm-website.
+# Copyright (C) 2016. Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnomemm-website package.
+# Balázs Meskó <meskobalazs at gmail dot com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemm-website master\n"
+"POT-Creation-Date: 2016-03-26 11:33+0000\n"
+"PO-Revision-Date: 2016-03-26 23:34+0100\n"
+"Last-Translator: Balázs Meskó <meskobalazs at gmail dot com>\n"
+"Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Meskó Balázs <meskobalazs at gmail dot com>"
+
+#. (itstool) path: bookinfo/title
+#. (itstool) path: tr/td
+#: C/index.docbook:9 C/git.xml:35 C/git.xml:37 C/git.xml:41 C/git.xml:43
+msgid "gtkmm"
+msgstr "gtkmm"
+
+#. (itstool) path: bookinfo/subtitle
+#: C/index.docbook:10
+msgid "C++ Interfaces for GTK+ and GNOME"
+msgstr "C++ interfészek a GTK+-hoz és a GNOME-hoz"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:14
+msgid "<ulink url=\"index.html\">Home</ulink>"
+msgstr "<ulink url=\"index.html\">Kezdőlap</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:17
+msgid "<ulink url=\"license.html\">License</ulink>"
+msgstr "<ulink url=\"license.html\">Licenc</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:20
+msgid "<ulink url=\"download.html\">Download</ulink>"
+msgstr "<ulink url=\"download.html\">Letöltés</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:23
+msgid "<ulink url=\"documentation.html\">Documentation</ulink>"
+msgstr "<ulink url=\"documentation.html\">Dokumentáció</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:26
+msgid "<ulink url=\"developers.html\">Development</ulink>"
+msgstr "<ulink url=\"developers.html\">Fejlesztés</ulink>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:30
+msgid "Other Resources"
+msgstr "Más források"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:33
+msgid "<ulink url=\"news.html\">News</ulink>"
+msgstr "<ulink url=\"news.html\">Hírek</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:36
+msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
+msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">GYIK</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:39
+msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
+msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:42
+msgid "<ulink url=\"mailinglist.html\">Mailing Lists</ulink>"
+msgstr "<ulink url=\"mailinglist.html\">Levelezőlisták</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:45
+msgid "<ulink url=\"git.html\">Git</ulink>"
+msgstr "<ulink url=\"git.html\">Git</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:48
+msgid "<ulink url=\"bugs.html\">Bugs</ulink>"
+msgstr "<ulink url=\"bugs.html\">Hibák</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:51
+msgid "<ulink url=\"books.html\">Books</ulink>"
+msgstr "<ulink url=\"books.html\">Könyvek</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:54
+msgid "<ulink url=\"commercial_support.html\">Commercial Support</ulink>"
+msgstr "<ulink url=\"commercial_support.html\">Kereskedelmi támogatás</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:57
+msgid "<ulink url=\"extra.html\">Additional Resources</ulink>"
+msgstr "<ulink url=\"extra.html\">További források</ulink>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:62
+msgid "Language"
+msgstr "Nyelv"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:65
+msgid "<ulink url=\"../pt_BR/index.html\">Brazilian Portuguese</ulink>"
+msgstr "<ulink url=\"../pt_BR/index.html\">Brazil protugál</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:68
+msgid "<ulink url=\"../de/index.html\">Deutsch</ulink>"
+msgstr "<ulink url=\"../de/index.html\">Német</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:71
+msgid "<ulink url=\"../en/index.html\">English</ulink>"
+msgstr "<ulink url=\"../en/index.html\">Angol</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:74
+msgid "<ulink url=\"../es/index.html\">Español</ulink>"
+msgstr "<ulink url=\"../es/index.html\">Spanyol</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:77
+msgid "<ulink url=\"../fr/index.html\">French</ulink>"
+msgstr "<ulink url=\"../fr/index.html\">Francia</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:80
+msgid "<ulink url=\"../el/index.html\">Greek</ulink>"
+msgstr "<ulink url=\"../el/index.html\">Görög</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:83
+msgid "<ulink url=\"../zh_CN/index.html\">中文</ulink>"
+msgstr "<ulink url=\"../zh_CN/index.html\">Egyszerűsített kínai</ulink>"
+
+#. (itstool) path: abstract/para
+#: C/index.docbook:102
+msgid "<ulink url=\"mailto:gtkmm-list@gnome.org\">Contact Us</ulink>"
+msgstr ""
+"<ulink url=\"mailto:gtkmm-list@gnome.org\">Lépjen velünk kapcsolatba</ulink>"
+
+#. (itstool) path: highlights/para
+#: C/main.xml:9
+msgid ""
+"<application>gtkmm</application> is the official C++ interface for the "
+"popular GUI library <ulink url=\"http://www.gtk.org/\">GTK+</ulink>. "
+"Highlights include typesafe callbacks, and a comprehensive set of widgets "
+"that are easily extensible via inheritance. You can create user interfaces "
+"either in code or with the <ulink url=\"http://glade.gnome.org/\">Glade User "
+"Interface designer</ulink>, using Gtk::Builder. There's <ulink url="
+"\"documentation.shtml\">extensive documentation</ulink>, including API "
+"reference and a tutorial."
+msgstr ""
+"A <application>gtkmm</application> a hivatalos C++ interfész a népszerű "
+"<ulink url=\"http://www.gtk.org/\">GTK+</ulink> GUI könyvtárnak. A "
+"kiemelendő tulajdonságai a típusbiztos visszahívások, és a teljes ablakelem "
+"készlet, amelyek örökléssel könnyen bővíthetőek. A felhasználói felületek "
+"létrehozhatóak kódból és a <ulink url=\"http://glade.gnome.org/\">Glade "
+"felhasználó felület tervezővel</ulink>, a Gtk::Builder használatával. <ulink "
+"url=\"documentation.shtml\">Kiterjedt dokumentáció</ulink> érhető el, API "
+"referenciával és oktatóanyagokkal."
+
+#. (itstool) path: highlights/para
+#: C/main.xml:18
+msgid ""
+"<application>gtkmm</application> is free software distributed under the GNU "
+"Library General Public License (<ulink url=\"license.shtml\">LGPL</ulink>)."
+msgstr ""
+"A <application>gtkmm</application> szabad szoftver, amely a GNU Library "
+"General Public License (<ulink url=\"license.shtml\">LGPL</ulink>) alatt "
+"kerül terjesztésre."
+
+#. (itstool) path: highlights/para
+#: C/main.xml:22
+msgid ""
+"<application>gtkmm</application> follows the official <ulink url=\"https://"
+"www.gnome.org/start/unstable/\"> GNOME Platform Bindings release schedule</"
+"ulink>. This guarantees API/ABI-stability and new releases on a predictable "
+"schedule, delivering C++ API for the underlying GTK+ and GNOME APIs as soon "
+"as possible."
+msgstr ""
+"A <application>gtkmm</application> követi a hivatalos <ulink url=\"https://"
+"www.gnome.org/start/unstable/\"> GNOME platform kötések kiadási "
+"menetrendjét</ulink>. Ez garantálja az API/ABI-stabilitást és az új verziók "
+"kiszámítható ütemtervét, C++ API-t szállítva a mögöttes GTK+ és GNOME API-"
+"khoz, amilyen hamar csak lehetséges."
+
+#. (itstool) path: sect1/title
+#: C/main.xml:29
+msgid "Features"
+msgstr "Funkciók"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:33
+msgid "Use inheritance to derive custom widgets."
+msgstr "Öröklés használata az egyéni ablakelemek létrehozásához."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:36
+msgid "Type-safe signal handlers, in standard C++."
+msgstr "Típusbiztos szignálkezelők, szabványos C++-ban."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:39
+msgid "Polymorphism."
+msgstr "Polimorfizmus."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:42
+msgid ""
+"Use of Standard C++ Library, including strings, containers, and iterators."
+msgstr ""
+"A szabványos C++ könyvtár használata, köztük karakterláncok, konténerek és "
+"iterátorok."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:45
+msgid "Full internationalisation with UTF8."
+msgstr "Teljes nemzetköziesítés UTF8-al."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:51
+msgid "Object composition"
+msgstr "Objektum kompozíció"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:54
+msgid "Automatic deallocation of dynamically allocated widgets."
+msgstr "A dinamikus allokált ablakelemek automatikus deallokációja."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:48
+msgid "Complete C++ memory management <_:itemizedlist-1/>"
+msgstr "Teljes C++ memóriakezelés <_:itemizedlist-1/>"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:60
+msgid "Full use of C++ namespaces."
+msgstr "C++ névterek teljes használata."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:63
+msgid "No macros."
+msgstr "Nincsenek makrók."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:66
+msgid ""
+"Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others"
+msgstr ""
+"Keresztplatformos: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), egyebek"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:69
+msgid ""
+"Free software and free of cost for both Open Source and proprietary "
+"development."
+msgstr ""
+"Szabad szoftver, költségek nélkül használható nyílt és zárt forráskódú "
+"fejlesztéshez egyaránt."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:73
+msgid "Discussed, designed and implemented in public."
+msgstr "Nyilvánosan megvitatott, tervezett és megvalósított."
+
+#. (itstool) path: sect1/title
+#: C/main.xml:79
+msgid "Other gtkmm-related libraries"
+msgstr "Más gtkmm-hez kapcsolódó könyvtárak"
+
+#. (itstool) path: sect2/title
+#. (itstool) path: sect3/title
+#: C/main.xml:81 C/git.xml:61
+msgid "gnomemm"
+msgstr "gnomemm"
+
+#. (itstool) path: sect2/para
+#: C/main.xml:82
+msgid ""
+"gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
+"GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
+"parser, or database access. Even our signal/slots system is part of a "
+"separate (<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>) "
+"library. However, gtkmm is designed to work well with all other C++ "
+"libraries."
+msgstr ""
+"A gtkmm egy GUI eszközkészlet és semmi több, a célja hogy a legjobb C++ GUI "
+"eszközkészlet legyen. Ez a cél nem fedi le az általános C++ "
+"adatszerkezeteket, XML-feldolgozókat vagy az adatbázis-elérést. Még a saját "
+"szignál/foglalat rendszerünk is egy másik könyvtár (<ulink url=\"http://"
+"libsigc.sourceforge.net\">libsigc++</ulink>) része. Azonban a gtkmm úgy lett "
+"tervezve, hogy jól együttműködjön minden más C++ könyvtárral."
+
+#. (itstool) path: sect2/para
+#: C/main.xml:89
+msgid ""
+"The gnomemm libraries cover some of these other tasks, but they are optional."
+msgstr ""
+"A gnomemm könyvtárak lefednek néhány ilyen feladatot, de választhatóak."
+
+#. (itstool) path: sect2/title
+#: C/main.xml:95
+msgid "libsigc++"
+msgstr "libsigc++"
+
+#. (itstool) path: sect2/para
+#: C/main.xml:96
+msgid ""
+"Also, be sure to check out our companion libraries, glibmm (UTF8 strings, "
+"threading, etc) and <ulink url=\"http://libsigc.sourceforge.net/\">libsigc+"
+"+</ulink> (signal/slots)."
+msgstr ""
+"Tekintse meg a többi társkönytárunkat is, a glibmm-et (UTF8 karakterláncok, "
+"szálkezelés, stb.) és a <ulink url=\"http://libsigc.sourceforge.net/"
+"\">libsigc++</ulink>-t (szignál/foglalat)."
+
+#. (itstool) path: sect2/title
+#. (itstool) path: sect3/title
+#: C/main.xml:101 C/books.xml:41 C/bugs.xml:26
+msgid "Others"
+msgstr "Egyebek"
+
+#. (itstool) path: sect2/para
+#: C/main.xml:102
+msgid ""
+"Be sure to check out <ulink url=\"http://bakery.sourceforge.net/\">Bakery</"
+"ulink>, a framework for constructing gtkmm/gnomemm applications. It allows "
+"use of the Document/View architecture."
+msgstr ""
+"Nézze meg a <ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink>-t "
+"is, ami egy gtkmm/gnomemm alkalmazások létrehozásához készült keretrendszer. "
+"Segítségével használhatja a Dokumentum/Nézet architektúrát."
+
+#. (itstool) path: sect1/title
+#: C/books.xml:8
+msgid "Recommended Books"
+msgstr "Ajánlott könyvek"
+
+#. (itstool) path: sect1/para
+#: C/books.xml:10
+msgid ""
+"The <ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable"
+"\">Programming with gtkmm 3</ulink> and <ulink url=\"https://developer.gnome."
+"org/gtkmm-tutorial/2.24/\">Programming with gtkmm 2</ulink> books are "
+"available online along with the rest of our <ulink url=\"documentation.html"
+"\">documentation</ulink>."
+msgstr ""
+"A <ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable"
+"\">Programozás gtkmm 3-mal</ulink> és a <ulink url=\"https://developer.gnome."
+"org/gtkmm-tutorial/2.24/\">Programozás gtkmm 2-vel</ulink> könyvek "
+"elérhetőek online, a saját <ulink url=\"documentation.html\">dokumentációnk</"
+"ulink> többi részével együtt."
+
+#. (itstool) path: sect1/para
+#: C/books.xml:11
+msgid "The gtkmm developers also find these books helpful:"
+msgstr "A gtkmm fejlesztői ezeket a könyveket is hasznosnak találták:"
+
+#. (itstool) path: sect2/title
+#: C/books.xml:15
+msgid "Core books"
+msgstr "Alapvető könyvek"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:19
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">A C++ programozási nyelv, Bjarne Stroustrup</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:22
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">A C++ szabványos könyvtár, Nicolai M. Josuttis</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:25
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Tervezési minták, Erich Gamma et al</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/books.xml:31
+msgid "For beginners"
+msgstr "Kezdőknek"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:35
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Gyorsított C++ - ogramozás példákon keresztül, Andrew "
+"Koenig és Barbara E. Moo</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:45
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">Hátra arc 3: Az interakciótervezés alapjai, Alan Cooper "
+"és Robert M. Reimann</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:48
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Fejlett CORBA programozás C++-szal, Michi Henning és "
+"Steve Vinoski</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:51
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, és Libtool, Gary Vaughan et al</"
+"ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:54
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programozás Gnu szoftverekkel, Michael Kosta Loukides et "
+"al</ulink>"
+
+#. (itstool) path: sect1/title
+#: C/bugs.xml:8
+msgid "Bugs"
+msgstr "Hibák"
+
+#. (itstool) path: highlights/para
+#: C/bugs.xml:10
+msgid ""
+"See <ulink url=\"#NewBugs\">Where to report</ulink> to submit new bugs or "
+"patches."
+msgstr ""
+"Lásd a <ulink url=\"#NewBugs\">Hol kell bejelenteni</ulink> oldalt új hibák "
+"bejelentéséhez vagy foltok beküldéséhez."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:13
+msgid "Current bugs and patches"
+msgstr "Jelenlegi hibák és foltok."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:16
+msgid ""
+"Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=gtkmm"
+"\">gtkmm bugs</ulink>"
+msgstr ""
+"Fennálló <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=gtkmm"
+"\">gtkmm hibák</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:19
+msgid ""
+"Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=glibmm"
+"\">glibmm bugs</ulink>"
+msgstr ""
+"Fennálló <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=glibmm"
+"\">glibmm hibák</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:22
+msgid ""
+"Outstanding <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?"
+"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
+"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
+"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
+"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
+"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
+"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
+"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
+"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
+"\">*mm bugs</ulink>"
+msgstr ""
+"Fennálló <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?"
+"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
+"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
+"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
+"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
+"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
+"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
+"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
+"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
+"\">*mm hibák</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:29
+msgid ""
+"<ulink url=\"https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;"
+"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
+"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
+"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
+"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
+"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
+"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
+"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
+"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
+"\">gnome-love bugs</ulink> - a good way to get involved."
+msgstr ""
+"<ulink url=\"https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;"
+"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
+"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
+"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
+"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
+"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
+"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
+"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
+"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
+"\">gnome-love hibák</ulink> - egy jó módja a közreműködésnek."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:32
+msgid ""
+"<ulink url=\"http://bugzilla.gnome.org/buglist.cgi?"
+"short_desc_type=substring&amp;short_desc=&amp;product=glibmm&amp;"
+"product=gnomemm&amp;product=gtkmm&amp;long_desc_type=substring&amp;"
+"long_desc=&amp;status_whiteboard_type=substring&amp;status_whiteboard=&amp;"
+"keywords_type=anywords&amp;keywords=&amp;bug_status=RESOLVED&amp;"
+"bug_status=CLOSED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;"
+"email1=&amp;emailreporter2=1&amp;emailtype2=substring&amp;email2=&amp;"
+"bugidtype=include&amp;bug_id=&amp;changedin=30&amp;chfieldfrom=&amp;"
+"chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Last+Changed&amp;"
+"field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=\">Bugs fixed in the last "
+"30 days</ulink>"
+msgstr ""
+"<ulink url=\"http://bugzilla.gnome.org/buglist.cgi?"
+"short_desc_type=substring&amp;short_desc=&amp;product=glibmm&amp;"
+"product=gnomemm&amp;product=gtkmm&amp;long_desc_type=substring&amp;"
+"long_desc=&amp;status_whiteboard_type=substring&amp;status_whiteboard=&amp;"
+"keywords_type=anywords&amp;keywords=&amp;bug_status=RESOLVED&amp;"
+"bug_status=CLOSED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;"
+"email1=&amp;emailreporter2=1&amp;emailtype2=substring&amp;email2=&amp;"
+"bugidtype=include&amp;bug_id=&amp;changedin=30&amp;chfieldfrom=&amp;"
+"chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Last+Changed&amp;"
+"field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=\">Az elmúlt 30 napban "
+"javított hibák</ulink>"
+
+#. (itstool) path: sect3/para
+#: C/bugs.xml:35
+msgid ""
+"As soon as a gtkmm patch has been clearly approved by a maintainer, anybody "
+"with git write access may apply it."
+msgstr ""
+"Amint egy gtkmm foltot elfogadott egy karbantartó, bárki alkalmazhatja, "
+"akinek van git írási joga."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:39
+msgid "<anchor id=\"NewBugs\"/>Where to report?"
+msgstr "<anchor id=\"NewBugs\"/>Hol kell bejelenteni?"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:42
+msgid ""
+"Bugs are tracked in GNOME's <ulink url=\"http://bugzilla.gnome.org"
+"\">bugzilla</ulink> Submit gtkmm bugs <ulink url=\"http://bugzilla.gnome.org/"
+"enter_bug.cgi?product=gtkmm\">here</ulink>. Submit gnomemm bugs <ulink url="
+"\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm\">here</ulink>."
+msgstr ""
+"A hibák a GNOME <ulink url=\"http://bugzilla.gnome.org\">bugzilla</ulink>-"
+"ban követettek. <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=gtkmm\">Itt</ulink> jelentse be a gtkmm hibákat. A gnomemm hibákat "
+"pedig <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm"
+"\">itt</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:48
+msgid ""
+"Patches should be attached to existing bugzilla bugs rather than sent to the "
+"mailing list. When reporting a new bug you'll get a chance to attach a file "
+"to it immediately <emphasis role=\"bold\">after</emphasis> opening the bug. "
+"Please remember to patch the ChangeLog too."
+msgstr ""
+"A foltokat a létező bugzilla hibákhoz kell csatolni, ahelyett hogy elküldi a "
+"levelezőlistára. Amikor új hibát jelent be, akkor azonnal tud hozzá fájlt "
+"csatolni, a hiba megnyitása <emphasis role=\"bold\">után</emphasis>. Kérjük "
+"ne felejtse el a változásnaplót is frissíteni."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:55
+msgid "What information is needed for a bug report?"
+msgstr "Milyen információk szükségesek egy hibajelentéshez?"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:62
+msgid ""
+"version numbers of GTK+, gtkmm and other related software, including your "
+"platform/distro/compiler."
+msgstr ""
+"a GTK+, gtkmm és kapcsolódó szoftverek verziószámai, beleértve a platformot/"
+"disztibúciót/fordítórogramot."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:65
+msgid "description of the bug"
+msgstr "a hiba leírása"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:68
+msgid "information to reproduce the bug"
+msgstr "információk a hiba reprodukálásához"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:71
+msgid ""
+"stack dump, if relevant: <command> gdb ./proggy ; run ; *crash* ; where </"
+"command>"
+msgstr ""
+"veremlerakat, ha releváns: <command> gdb ./progi ; run ; *crash* ; where </"
+"command>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:75
+msgid "keep it small but detailed"
+msgstr "legyen kicsi, de részletes"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:78
+msgid "if possible, provide a patch"
+msgstr "ha lehetséges, adjon meg egy foltot"
+
+#. (itstool) path: sect2/para
+#: C/bugs.xml:81
+msgid ""
+"If we can't solve the problem immediately then we might ask you to create a "
+"simple-as-possible example that actually builds. This helps us to isolate "
+"the problem, and proves that the problem is not caused by your own code."
+msgstr ""
+"Ha nem tudjuk azonnal megoldani a problémát, akkor arra kérjük, hogy "
+"készítsen egy olyan egyszerű példát, amit csak tud és amely ténylegesen "
+"lefordul. Ez segít meghatározni a problémát, és bizonyítja, hogy nem az Ön "
+"kódja okozza a problémát."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:87
+msgid "<anchor id=\"CreatingPatches\"/>How do I create a patch?"
+msgstr "<anchor id=\"CreatingPatches\"/>Hogyan kell foltot készíteni?"
+
+#. (itstool) path: sect2/para
+#: C/bugs.xml:88
+msgid ""
+"There are many ways to use Git, but this is the simplest way to create a "
+"patch if you are unfamiliar with Git:"
+msgstr ""
+"Sok módja van a Git használatának, de ez a legegyszerűbb módja a folt "
+"készítésének, ha nem ismerős a Git:"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:91
+msgid "Take code from <ulink url=\"git.html\">git</ulink>"
+msgstr "Fogja a kódot a <ulink url=\"git.html\">git</ulink>-ben"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:94
+msgid "Modify that version"
+msgstr "Módosítsa azt a verziót"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:97
+msgid "Check it compiles"
+msgstr "Ellenőrizze, hogy lefordul"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:100
+msgid "Edit the ChangeLog"
+msgstr "Szerkessze a változásnaplót"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:103
+msgid ""
+"Use git to create a patch <command> git diff -u &gt; my_fix.patch </command>"
+msgstr ""
+"Használja a gitet a folt elkészítéséhez: <command> git diff -u &gt; javitas."
+"patch </command>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:107
+msgid "Add the patch to bugzilla (see above)."
+msgstr "Adja hozzá a foltot a bugzillához (lásd fent)."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:112
+msgid "Should I send a bug report?"
+msgstr "Küldjön-e hibabejelentést?"
+
+#. (itstool) path: sect2/para
+#: C/bugs.xml:113
+msgid "Always send a bug report:"
+msgstr "Mindig küldjön hibabejelentést:"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:119
+msgid "If you get a crash and you think it might be problem with gtkmm."
+msgstr ""
+"Ha összeomlást tapasztal és azt hiszi, hogy a gtkmm-mel lehet probléma."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:122
+msgid "If you cannot compile gtkmm."
+msgstr "Ha nem lehet lefordítani a gtkmm-et."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:125
+msgid "If you have a good idea of how to make gtkmm better."
+msgstr "Ha jó ötlete van hogyan lehetne még jobb a gtkmm."
+
+#. (itstool) path: sect1/title
+#: C/commercial_support.xml:8
+msgid "Commercial Support"
+msgstr "Kereskedelmi támogatás"
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:9
+msgid ""
+"The mailing lists, irc, and documentation are helpful, but your company "
+"might require more in-depth assistance or custom development. If so feel "
+"free to contact the following freelance developers and companies directly to "
+"discuss a commercial arrangement. If necessary we can also build larger "
+"development teams."
+msgstr ""
+"A levelezőlisták, az IRC és a dokumentáció hasznos, de a cégének lehet hogy "
+"mélyebb segítségre vagy egyedi fejlesztésre lenne szüksége. Ha így van, "
+"akkor lépjen közvetlen kapcsolatba a következő szabadúszó fejlesztőkkel és "
+"cégekkel, az üzleti megegyezéshez. Ha szükséges, nagyobb fejlesztői "
+"csapatokat is építhetünk."
+
+#. (itstool) path: tr/th
+#: C/commercial_support.xml:13
+msgid "Name, email"
+msgstr "Név, e-mail"
+
+#. (itstool) path: tr/th
+#: C/commercial_support.xml:14
+msgid "Location"
+msgstr "Hely"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:17
+msgid ""
+"<ulink url=\"http://www.m2osw.com\">Made to Order Software Corp.</ulink>: "
+"Quality software with easy to use interfaces from simple utilities to "
+"complex e-Business solutions."
+msgstr ""
+"<ulink url=\"http://www.m2osw.com\">Made to Order Software Corp.</ulink>: "
+"Minőségi szoftver könnyen használható felületekkel, egyszerű "
+"segédprogramoktól kezdve, összetett e-üzleti megoldásokig."
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:18
+msgid "USA, UK"
+msgstr "USA, UK"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:21
+msgid "<ulink url=\"http://dianiuxinnova.com/\">Dianiux Innova</ulink>"
+msgstr "<ulink url=\"http://dianiuxinnova.com/\">Dianiux Innova</ulink>"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:22
+msgid "Valencia, Spain"
+msgstr "Valencia, Spanyolország"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:27
+msgid "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Databases"
+msgstr "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Adatbázisok"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:30
+msgid ""
+"<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualization, "
+"network management"
+msgstr ""
+"<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualizáció, "
+"hálózatmenedzsment"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:33
+msgid "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3 Downloader"
+msgstr "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3 letöltő"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:36
+msgid ""
+"<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - "
+"Medical imaging"
+msgstr ""
+"<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - "
+"orvosi képalkotás"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:39
+msgid ""
+"<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - Consumer navigation "
+"devices"
+msgstr ""
+"<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - Fogyasztói navigációs "
+"eszközök"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:42
+msgid ""
+"<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - "
+"satellite/meteorological"
+msgstr ""
+"<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - műhold/"
+"meteorológiai"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:45
+msgid ""
+"<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - warehouse "
+"management systems"
+msgstr ""
+"<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - raktárkezelő "
+"rendszerek"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:48
+msgid ""
+"<ulink url=\"http://www.eads.com\">EADS</ulink> - aerospace/defense/satellite"
+msgstr ""
+"<ulink url=\"http://www.eads.com\">EADS</ulink> - légügyi/védelmi/műhold"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:51
+msgid ""
+"<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - "
+"military/defense"
+msgstr ""
+"<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - "
+"katonai/védelmi"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:54
+msgid ""
+"<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - "
+"animatronics"
+msgstr ""
+"<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - "
+"animatronikai"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:57
+msgid ""
+"<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - electrical "
+"engineering"
+msgstr ""
+"<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - villamosmérnöki"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:60
+msgid ""
+"<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - "
+"professional audio/music systems"
+msgstr ""
+"<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - "
+"professzionális hang/zenei rendszerek"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:63
+msgid ""
+"<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - "
+"electrical/mechanical engineering"
+msgstr ""
+"<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - "
+"villamos-, és gépészmérnöki"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:66
+msgid "<ulink url=\"http://www.dme.net\">DME</ulink> - mold engineering"
+msgstr "<ulink url=\"http://www.dme.net\">DME</ulink> - öntőmérnöki"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:69
+msgid ""
+"<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
+"Brockhaus AG</ulink> - publishing"
+msgstr ""
+"<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
+"Brockhaus AG</ulink> - kiadó"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:72
+msgid ""
+"<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS software/hardware"
+msgstr ""
+"<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS szoftverek/hardverek"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:75
+msgid ""
+"<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - security/encryption "
+"software"
+msgstr ""
+"<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - biztonsági/titkosítási "
+"szoftverek"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:78
+msgid ""
+"<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - process engineering"
+msgstr "<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - folyamattervezés"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:81
+msgid ""
+"<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - fiscal Systems, POS"
+msgstr ""
+"<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - adóügyi rendszerek, "
+"POS"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:84
+msgid ""
+"<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - "
+"prebuilt software packages"
+msgstr ""
+"<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - "
+"előre fordított szoftvercsomagok"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:87
+msgid ""
+"<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, "
+"medication administration"
+msgstr ""
+"<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, "
+"gyógyszeradagolás"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:90
+msgid ""
+"<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - "
+"Specialized internal applications"
+msgstr ""
+"<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - "
+"Specializált belső alkalmazások"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:93
+msgid ""
+"<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - "
+"Point Of Sale systems"
+msgstr ""
+"<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - "
+"Point Of Sale rendszerek"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:96
+msgid ""
+"<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> Medical imaging - "
+"<ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
+msgstr ""
+"<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> orvosi képalkotás - "
+"<ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:99
+msgid ""
+"<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - Banking"
+msgstr ""
+"<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - "
+"bankolás"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:102
+msgid ""
+"<ulink url=\"http://www.innoventis.de/\">Innoventis</ulink> - Automotive "
+"systems"
+msgstr ""
+"<ulink url=\"http://www.innoventis.de/\">Innoventis</ulink> - autóipari "
+"rendszerek"
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:25
+msgid ""
+"Many corporations use gtkmm to implement their products and internal "
+"projects. You can get a rough idea of this by looking at the email addresses "
+"on the mailing list. Here is a small list of some of those companies:<_:"
+"itemizedlist-1/>"
+msgstr ""
+"Sok vállalkozás használja a gtkmm-et a saját termékeik és belső projektjeik "
+"megvalósításához.  Hozzávetőleges képet kaphat erről, ha megnézi a e-mail "
+"címeket a levelezőlistán. Itt egy kis lista néhány ilyen cégről:<_:"
+"itemizedlist-1/>"
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:105
+msgid ""
+"If you would like to be listed here please send email to the <ulink url="
+"\"mailinglist.html\">mailing list</ulink> or a maintainer."
+msgstr ""
+"Ha szeretne megjelenni a listában, kérjük küldjön egy e-mail a  <ulink url="
+"\"mailinglist.html\">levelezőlistára</ulink> vagy egy karbantartónak."
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:106
+msgid ""
+"See also <ulink url=\"http://www.gtk.org/commerce.php\">GTK+ success "
+"stories</ulink>."
+msgstr ""
+"Lásd még a <ulink url=\"http://www.gtk.org/commerce.php\">GTK+ "
+"sikertörténeteket</ulink>."
+
+#. (itstool) path: sect1/title
+#: C/developers.xml:8
+msgid "gtkmm Development"
+msgstr "gtkmm fejlesztés"
+
+#. (itstool) path: sect1/para
+#: C/developers.xml:9
+msgid ""
+"gtkmm development is done in the <ulink url=\"http://gnome.org/\">GNOME</"
+"ulink> Git repository. To get started developing gtkmm, see the <ulink url="
+"\"git.html\">detailed Git instructions</ulink>. Discussion about gtkmm "
+"development happens on the <ulink url=\"mailinglist.html\">mailing list</"
+"ulink>."
+msgstr ""
+"A gtkmm fejlesztése a <ulink url=\"http://gnome.org/\">GNOME</ulink> Git "
+"tárolójában történik. Hogy belevágjon a gtkmm fejlesztésébe, lásd a <ulink "
+"url=\"git.html\">részletes Git útmutatót</ulink>. A gtkmm fejlesztésének "
+"megvitatása a <ulink url=\"mailinglist.html\">levelezőlistán</ulink> "
+"történik."
+
+#. (itstool) path: highlights/para
+#: C/developers.xml:13
+msgid ""
+"Please do not mail us directly - use the <ulink url=\"mailinglist.html"
+"\">mailing list</ulink> instead."
+msgstr ""
+"Kérjük ne írjon nekünk közvetleni - használja inkább a <ulink url="
+"\"mailinglist.html\">levelezőlistát</ulink>."
+
+#. (itstool) path: sect1/title
+#: C/developers.xml:17
+msgid "Developers and Contributors"
+msgstr "Fejlesztők és közreműködők"
+
+#. (itstool) path: sect2/title
+#: C/developers.xml:19
+msgid "Current maintainers"
+msgstr "Jelenlegi karbantartók"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:22
+msgid ""
+"<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
+"\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+msgstr ""
+"<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
+"\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:25
+msgid ""
+"<ulink url=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</ulink>"
+msgstr ""
+"<ulink url=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/developers.xml:30
+msgid "Other gtkmm developers"
+msgstr "Más gtkmm fejlesztők"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:33
+msgid ""
+"<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
+"url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+msgstr ""
+"<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
+"url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:36
+msgid "Karl Nelson"
+msgstr "Karl Nelson"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:39
+msgid ""
+"<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url="
+"\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+msgstr ""
+"<ulink url=\"mailto:cactus@cactus.rulez.org\">Érdi Gergő</ulink> (<ulink url="
+"\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:42
+msgid ""
+"<ulink url=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</ulink>"
+msgstr ""
+"<ulink url=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:45
+msgid "<ulink url=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</ulink>"
+msgstr "<ulink url=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:48
+msgid "<ulink url=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</ulink>"
+msgstr "<ulink url=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:51
+msgid "<ulink url=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</ulink>"
+msgstr "<ulink url=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:54
+msgid ""
+"<ulink url=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</ulink>"
+msgstr ""
+"<ulink url=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/developers.xml:59
+msgid "Previous maintainers"
+msgstr "Korábbi karbantartók"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:62
+msgid ""
+"<ulink url=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</ulink>"
+msgstr ""
+"<ulink url=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:65
+msgid "<ulink url=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</ulink>"
+msgstr "<ulink url=\"documentation.html\">"
+
+#. (itstool) path: sect2/para
+#: C/developers.xml:71
+msgid ""
+"There have been many patches, bug fixes and improvements from a lot of "
+"people. Thanks to them."
+msgstr ""
+"Sok folt, hibajavítás és fejlesztés érkezett, sok embertől. Köszönjük nekik."
+
+#. (itstool) path: sect1/title
+#: C/documentation.xml:13
+msgid "Documentation Overview"
+msgstr "Dokumentáció áttekintése"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:22
+msgid "Getting Started with gtkmm"
+msgstr "Első lépések a gtkmm-mel"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:23
+msgid ""
+"You might start by reading the <emphasis role=\"bold\">Programming with "
+"gtkmm</emphasis> online book."
+msgstr ""
+"Kezdheti a <emphasis role=\"bold\">Programozás a gtkmm-mel</emphasis> online "
+"könyv elolvasásával."
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:24
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/index.html"
+"\">Contents</ulink> of the whole online book."
+msgstr ""
+"A teljes online könyv <ulink url=\"https://developer.gnome.org/gtkmm-"
+"tutorial/stable/index.html\">Tartalomjegyzéke</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:27
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"installation.html\">Installation</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"installation.html\">Telepítés</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:30
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"basics.html\">Basics</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"basics.html\">Alapok</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:33
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"signals.html\">Signals</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"signals.html\">Szignálok</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:36
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"container-widgets.html\">Container Widgets</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"container-widgets.html\">Konténer ablakelemek</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:39
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"treeview.html\">TreeView</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"treeview.html\">Fanézet (TreeView)</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:42
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"memory.html\">Memory Management</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"memory.html\">Memóriakezelés</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:45
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"builder.html\">Glade and Gtk::Builder</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"builder.html\">Glade és a Gtk::Builder</ulink>"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:25
+msgid "Selected chapters:<_:itemizedlist-1/>"
+msgstr "Kiválasztott fejezetek:<_:itemizedlist-1/>"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:50
+msgid "API Reference"
+msgstr "API referencia"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:53
+msgid "gtkmm (Gtk::)"
+msgstr "gtkmm (Gtk::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:54
+msgid "glibmm (Glib::)"
+msgstr "glibmm (Glib::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:55
+msgid "giomm (Gio::)"
+msgstr "giomm (Gio::)"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:61
+msgid ""
+"<emphasis role=\"bold\"> <ulink url=\"https://developer.gnome.org/gtkmm/"
+"stable/hierarchy.html\">Hierarchy</ulink> </emphasis>"
+msgstr ""
+"<emphasis role=\"bold\"> <ulink url=\"https://developer.gnome.org/gtkmm/"
+"stable/hierarchy.html\">Hierarchia</ulink> </emphasis>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:66
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Widgets.html"
+"\">Widgets</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Widgets.html"
+"\">Ablakelemek</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:69
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Containers.html"
+"\">Containers</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Containers.html"
+"\">Konténerek</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:72
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TreeView.html"
+"\">TreeView</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TreeView.html"
+"\">Fanézet (TreeView)</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:75
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TextView.html"
+"\">TextView</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TextView.html"
+"\">Szövegnézet (TextView)</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:78
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs.html"
+"\">Dialogs</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs.html"
+"\">Párbeszédablakok</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:81
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1UIManager."
+"html\">Menus and Toolbars</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1UIManager."
+"html\">Menük és eszköztárak</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:84
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1Main.html"
+"\">Main loop</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1Main.html"
+"\">Főciklus</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:87
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__gtkmmEnums.html"
+"\">enums and flags</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__gtkmmEnums.html"
+"\">enumok és jelzők</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:90
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk_1_1Stock."
+"html\">Stock IDs</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk_1_1Stock."
+"html\">Gyári azonosítók</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:93
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
+"\">Gtk Namespace</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
+"\">Gtk névtér</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:100
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1ustring."
+"html\">ustring</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1ustring."
+"html\">ustring</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:103
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1Exception.html\">Exceptions</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1Exception.html\">Kivételek</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:106
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1RefPtr."
+"html\">RefPtr&lt;&gt;</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1RefPtr."
+"html\">RefPtr&lt;&gt;</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:109
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MainLoop.html"
+"\">Main Event loop</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MainLoop.html"
+"\">Fő eseményciklus</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:112
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Spawn.html"
+"\">Spawning Processes</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Spawn.html"
+"\">Processzek indítása</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:115
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html"
+"\">Threads</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html"
+"\">Szálak</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:118
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MiscUtils.html"
+"\">Miscellaneous Utility Functions</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MiscUtils.html"
+"\">Egyéb segédfüggvények</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:121
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__CharsetConv."
+"html\">Character set conversion</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__CharsetConv."
+"html\">Karakterkészlet átalakítások</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:124
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGlib.html"
+"\">Glib Namespace</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGlib.html"
+"\">Glib névtér</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:131
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGio_1_1File.html"
+"\">File</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGio_1_1File.html"
+"\">Fájl</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:134
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Streams.html"
+"\">Streams</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Streams.html"
+"\">Folyamok</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:137
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGio.html"
+"\">Gio Namespace</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGio.html"
+"\">Gio névtér</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:145
+msgid "Extra Modules"
+msgstr "További modulok"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:146
+msgid ""
+"API reference documentation for other C++ modules, such as gdkmm, pangomm, "
+"gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink "
+"url=\"https://developer.gnome.org/references#c++-bindings\">developer.gnome."
+"org C++ Bindings</ulink> section."
+msgstr ""
+"API referencia dokumentáció más C++ modulokhoz, mint a gdkmm, pangomm, "
+"gstreamermm, ligdamm, goocanvasm, stb., is elérhető a <ulink url=\"https://"
+"developer.gnome.org/references#c++-bindings\">developer.gnome.org C++ "
+"kötések</ulink> szakaszban."
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:149
+msgid "Other Information"
+msgstr "Más információk"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:152
+msgid "External Documentation"
+msgstr "Külsö dokumentáció"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:153
+msgid "Unusual Platforms"
+msgstr "Szokatlan platformok"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:159
+msgid ""
+"<ulink url=\"http://libsigc.sourceforge.net/doc.shtml\">libsigc++ "
+"documentation</ulink>"
+msgstr ""
+"<ulink url=\"http://libsigc.sourceforge.net/doc.shtml\">libsigc++ "
+"dokumentáció</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:162
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtk3/stable/\">GTK+ reference</"
+"ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtk3/stable/\">GTK+ referencia</"
+"ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:165
+msgid ""
+"<ulink url=\"http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index."
+"html\">Standard C++ Library (STL)</ulink>"
+msgstr ""
+"<ulink url=\"http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index."
+"html\">Szabványos C++ könyvtár (STL)</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:172
+msgid ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.SUN?view=markup"
+"\">Solaris, with Sun's Forte C++.</ulink>"
+msgstr ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.SUN?view=markup"
+"\">Solaris, a Sun Forte C++-szával.</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:175
+msgid ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.win32?view=markup"
+"\">Windows, with mingw and cygwin</ulink>"
+msgstr ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.win32?view=markup"
+"\">Windows, mingw-vel és cygwin-nel</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:183
+msgid "Examples"
+msgstr "Példák"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:184
+msgid ""
+"Sometimes you need to look at examples to figure out how something should "
+"work. Many examples are included in the gtkmm book, but you can also view "
+"them online: <ulink url=\"https://git.gnome.org/browse/gtkmm-documentation/"
+"tree/examples/book/\">gtkmm examples</ulink>"
+msgstr ""
+"Néha szükséges, hogy megnézzen néhány példát, hogy kitalálja valami hogyan "
+"működik. Sok példa található a gtkmm könyvben, de megtekintheti ezeket "
+"online is: <ulink url=\"https://git.gnome.org/browse/gtkmm-documentation/"
+"tree/examples/book/\">gtkmm példák</ulink>"
+
+#. (itstool) path: sect1/title
+#: C/download.xml:8
+msgid "Downloading"
+msgstr "Letöltés"
+
+#. (itstool) path: highlights/para
+#: C/download.xml:10
+msgid ""
+"You should use the <ulink url=\"#Binary\">binary packages</ulink> provided "
+"for your operating system unless you wish to test the latest versions. "
+"However, <ulink url=\"#Source\">source packages</ulink> are available as "
+"well."
+msgstr ""
+"Az operációs rendszeréhez készült <ulink url=\"#Binary\">bináris csomagokat</"
+"ulink> érdemes használnia, hacsak nem a legfrissebb verziókat szeretné "
+"tesztelni. Azonban, a <ulink url=\"#Source\">forrás csomagok</ulink> is "
+"elérhetőek."
+
+#. (itstool) path: highlights/para
+#: C/download.xml:12
+msgid ""
+"This page currently mentions gtkmm 2 binary packages. We will update this "
+"page soon as binary packages for gtkmm 3 become available."
+msgstr ""
+"Ez az oldal pillanatnyilag kettő gtkmm 2 bináris csomagot említ. Hamarosan "
+"frissíteni fogjuk az oldalt, amint a gtkmm 3 bináris csomagjai elérhetőek "
+"lesznek."
+
+#. (itstool) path: sect2/title
+#: C/download.xml:16
+msgid "<anchor id=\"Binary\"/>Binary"
+msgstr "<anchor id=\"Binary\"/>Bináris"
+
+#. (itstool) path: sect2/para
+#: C/download.xml:17
+msgid ""
+"You might find a variety of 3rd party RPMs and debs on the internet, but "
+"only the ones listed here are approved by the gtkmm team. Please encourage "
+"your Linux distribution to provide official gtkmm packages."
+msgstr ""
+"Különböző, harmadik féltől származó RPM-eket és deb-eket találhat az "
+"interneten, de csak az itt felsoroltak a gtkmm csapat által jóváhagyottak. "
+"Kérjük biztassa a Linux disztribúcióját, hogy hivatalos gtkmm csomagokat "
+"szállítsanak."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:20
+msgid ""
+"<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-"
+"get install libgtkmm-3.0-dev</command>. These <ulink url=\"http://packages."
+"qa.debian.org/g/gtkmm3.0.html\">project pages</ulink> might give status."
+msgstr ""
+"<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-"
+"get install libgtkmm-3.0-dev</command>. Ezek a <ulink url=\"http://packages."
+"qa.debian.org/g/gtkmm3.0.html\">projektoldalak</ulink> állapotjelentéssel "
+"szolgálhatnak."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:23
+msgid ""
+"<ulink url=\"http://fedoraproject.org/\">Fedora</ulink>/<ulink url=\"http://"
+"www.redhat.com\">RedHat</ulink> Linux: Use <command>yum install gtkmm30-"
+"docs</command> to get the runtime, development, and documentation packages."
+msgstr ""
+"<ulink url=\"http://fedoraproject.org/\">Fedora</ulink>/<ulink url=\"http://"
+"www.redhat.com\">RedHat</ulink> Linux: használja a <command>yum install "
+"gtkmm30-docs</command> parancsot a futtatókörnyezeti, fejlesztői, és a "
+"dokumentációs csomagok beszerzéséhez."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:26
+msgid ""
+"<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Get dev-cpp/gtkmm."
+msgstr ""
+"<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: szerezze be ezt: "
+"dev-cpp/gtkmm."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:29
+msgid ""
+"<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Use yast to "
+"install gtkmm3-devel."
+msgstr ""
+"<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: használja a "
+"yastot a gtkmm3-devel telepítéséhez."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:32
+msgid ""
+"<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
+"install libgtkmm-3.0-dev</command>."
+msgstr ""
+"<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
+"install libgtkmm-3.0-dev</command>."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:35
+msgid ""
+"Windows: Here is an <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/"
+"MSWindows\">installer</ulink>."
+msgstr ""
+"Windows: itt egy <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/MSWindows"
+"\">telepítő</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:43
+msgid ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink "
+"url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary "
+"gtkmm packages, with package management."
+msgstr ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc vagy a platform fordítóprogramja): "
+"A <ulink url=\"http://thewrittenword.com\">The Written Word</ulink> bináris "
+"gtkmm csomagokat kínál, csomagkezeléssel együtt."
+
+#. (itstool) path: sect2/para
+#: C/download.xml:46
+msgid "Please tell us about others."
+msgstr "Kérjük, írjon nekünk más rendszerekről."
+
+#. (itstool) path: sect2/title
+#: C/download.xml:49
+msgid "<anchor id=\"Source\"/>Source"
+msgstr "<anchor id=\"Source\"/>Forrás"
+
+#. (itstool) path: sect2/para
+#: C/download.xml:50
+msgid ""
+"Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions "
+"(such as 3.15.x) are unstable development versions."
+msgstr ""
+"A páros számozású verziók (mint a 3.16.x) stabilak. A páratlan számozású "
+"verziók (mint a 3.15.x) nem stabil, fejlesztői verziók."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:53
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/\">glibmm</ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/\">glibmm</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:56
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/\">gtkmm</ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/\">gtkmm</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:59
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm"
+"\">goocanvasmm</ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm"
+"\">goocanvasmm</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:62
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgdamm/\">libgdamm</"
+"ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgdamm/\">libgdamm</"
+"ulink>"
+
+#. (itstool) path: sect2/title
+#: C/download.xml:72
+msgid "Requirements"
+msgstr "Követelmények"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:75
+msgid "<ulink url=\"http://www.gtk.org\">GTK+</ulink>"
+msgstr "<ulink url=\"http://www.gtk.org\">GTK+</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:78
+msgid "<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>"
+msgstr "<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/download.xml:83
+msgid "GTK+"
+msgstr "GTK+"
+
+#. (itstool) path: sect2/para
+#: C/download.xml:84
+msgid ""
+"You can download GTK+ and GNOME source code from <ulink url=\"http://"
+"download.gnome.org\">download.gnome.org</ulink>."
+msgstr ""
+"A GTK+ és GNOME forráskódot letöltheti innen: <ulink url=\"http://download."
+"gnome.org\">download.gnome.org</ulink>."
+
+#. (itstool) path: sect1/title
+#: C/extra.xml:8
+msgid "Additional Resources"
+msgstr "További források"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:10
+msgid "Available widgets"
+msgstr "Elérhető ablakelemek"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:15
+msgid ""
+"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL "
+"rendering for gtkmm"
+msgstr ""
+"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL "
+"renderelés a gtkmm-hez"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:18
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+"\">gtkmozembedmm</ulink> Mozilla-based web browser widget"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+"\">gtkmozembedmm</ulink> Mozilla-alapú webböngésző ablakelem"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:21
+msgid ""
+"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> plot widget for "
+"scientific applications"
+msgstr ""
+"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> plotter "
+"ablakelem tudományos alkalmazásokhoz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:24
+msgid ""
+"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> "
+"wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
+msgstr ""
+"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> "
+"csomagolók a GtkSourceView-hoz (Gtk::TextView szintaktikai kiemeléssel)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:27
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
+"\">gstreamermm</ulink> wrappers for gstreamer (streaming media)"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
+"\">gstreamermm</ulink> csomagolók a gstreamerhez (médiafolyamok)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:30
+msgid ""
+"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> terminal widget"
+msgstr ""
+"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> terminál ablakelem"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:33
+msgid ""
+"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> "
+"wrappers for GtkExtra (plot, sheet, etc)"
+msgstr ""
+"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> "
+"csomagolók a GtkExtra-hoz (plotter, táblázat, stb.)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:36
+msgid ""
+"<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
+"ulink> canvas for data flow systems"
+msgstr ""
+"<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
+"ulink> vászon adatfolyam rendszerekhez"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:39
+msgid ""
+"<ulink url=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</ulink> "
+"C++ chess board tool set for gtkmm"
+msgstr ""
+"<ulink url=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</ulink> "
+"C++ sakktábla eszközkészlet a gtkmm-hez"
+
+#. (itstool) path: sect2/para
+#: C/extra.xml:11
+msgid ""
+"In addition to the wrappers distributed with gtkmm and gnomemm, additional "
+"widgets and libraries are available from other sources. <_:itemizedlist-1/>"
+msgstr ""
+"A gtkmm és gnomemm mellett szállított csomagolók mellett, más forrásokból, "
+"további ablakelemek és könyvtárak érhetőek el. <_:itemizedlist-1/>"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:44
+msgid "gtkmm tools"
+msgstr "gtkmm eszközök"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:47
+msgid ""
+"<ulink url=\"http://glade.gnome.org/\">Glade</ulink> User Interface Designer "
+"for GTK+, glade UI files can be used from a gtkmm program by using Gtk::"
+"Builder"
+msgstr ""
+"<ulink url=\"http://glade.gnome.org/\">Glade</ulink> felhasználó felület "
+"tervező a GTK+-hoz, a glade UI fájlok beolvashatóak a gtkmm programokban a "
+"Gtk::Builder használatával"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:50
+msgid ""
+"<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> glade module "
+"for automatically generating gtkmm code (note: glademm is different than "
+"libglademm or Gtk::Builder)"
+msgstr ""
+"<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> glade modul az "
+"automatikus gtkmm kódgeneráláshoz (megjegyzés: a glademm különbözik a "
+"libglademm-től és a Gtk::Builder-től)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:53
+msgid ""
+"<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> Document/View "
+"Model"
+msgstr ""
+"<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> Dokumentum/"
+"Nézet modell"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:58
+msgid "Applications using gtkmm"
+msgstr "Alkalmazások, melyek gtkmm-t használnak"
+
+#. (itstool) path: sect2/para
+#: C/extra.xml:59
+msgid ""
+"If all else fails, sometimes it is good to look at the source of some other "
+"projects using the same toolkit."
+msgstr ""
+"Ha minden más csődöt mond, néha jó megnézni más projektek forráskódját, "
+"amelyek ugyanazt az eszközkészletet használják."
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:62
+msgid "Using gtkmm:"
+msgstr "gtkmm-et használ:"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:65
+msgid ""
+"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> multi-file "
+"search/replace with visual feedback"
+msgstr ""
+"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> többfájlos "
+"keresés/csere, képi visszajelzéssel"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:68
+msgid ""
+"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> creation "
+"of hierarchical text documents"
+msgstr ""
+"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> "
+"hierarchikus szöveges dokumentumok létrehozása"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:71
+msgid ""
+"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
+"renames batches of files"
+msgstr ""
+"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
+"fájlok tömeges átnevezése"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:74
+msgid "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> audio player"
+msgstr ""
+"<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> audiolejátszó"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:79
+msgid "<ulink url=\"http://www.glom.org/\">Glom</ulink> database environment"
+msgstr "<ulink url=\"http://www.glom.org/\">Glom</ulink> adatbázis-környezet"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:82
+msgid ""
+"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> "
+"graphical resource editor for PalmOS applications"
+msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> "
+"grafikus erőforrásszerkesztő PalmOS alkalmazásokhoz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:85
+msgid ""
+"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> vector graphics "
+"drawing"
+msgstr ""
+"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> vector graphics "
+"drawing"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:88
+msgid ""
+"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> peer to peer "
+"sharing of freely licensed music"
+msgstr ""
+"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> szabad licencelésű "
+"zene peer to peer megosztása"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:91
+msgid ""
+"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP address "
+"calculator"
+msgstr ""
+"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP-cím "
+"számológép"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:94
+msgid ""
+"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modelling and animation"
+msgstr ""
+"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modellezés és animáció"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:97
+msgid ""
+"<ulink url=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
+"Monitor</ulink> GNOME panel applet"
+msgstr ""
+"<ulink url=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardverfigyelő</"
+"ulink> GNOME panel kisalkalmazás"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:100
+msgid ""
+"<ulink url=\"http://www.workrave.org/\">Workrave</ulink> assists in recovery "
+"and prevention of RSI"
+msgstr ""
+"<ulink url=\"http://www.workrave.org/\">Workrave</ulink> segít az ismétlődő "
+"húzódásból és rándulásból felépülésben, valamint a megelőzésében"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:103
+msgid ""
+"<ulink url=\"http://timfx.sourcearchive.com/\">timfx</ulink> digital video "
+"effects plug-in for Kino"
+msgstr ""
+"<ulink url=\"http://timfx.sourcearchive.com/\">timfx</ulink> digitális "
+"videóeffekt beépülő a Kinohoz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:106
+msgid ""
+"<ulink url=\"https://git.gnome.org/browse/monster-masher/\">Monster Masher</"
+"ulink> game"
+msgstr ""
+"<ulink url=\"https://git.gnome.org/browse/monster-masher/\">Monster Masher</"
+"ulink> játék"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:109
+msgid ""
+"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> disk "
+"partitioning tool"
+msgstr ""
+"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> "
+"lemezparticionáló eszköz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:114
+msgid ""
+"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> cdrdao "
+"frontend"
+msgstr ""
+"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> cdrdao "
+"előtétprogram"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:117
+msgid ""
+"<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
+"ulink> GNOME panel applet"
+msgstr ""
+"<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
+"ulink> GNOME panel kisalkalmazás"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:120
+msgid ""
+"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
+"XML Editor"
+msgstr ""
+"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
+"XML-szerkesztő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:123
+msgid ""
+"<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</"
+"ulink> manages duty rotas"
+msgstr ""
+"<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</"
+"ulink> beosztástervező"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:126
+msgid ""
+"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> collaborative text editor"
+msgstr ""
+"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> kollaboratív "
+"szövegszerkesztő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:129
+msgid ""
+"<ulink url=\"https://code.google.com/p/pinot-search/\">Pinot</ulink> "
+"metasearch tool"
+msgstr ""
+"<ulink url=\"https://code.google.com/p/pinot-search/\">Pinot</ulink> "
+"metakeresés eszköz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:132
+msgid ""
+"<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> color scheme "
+"generator"
+msgstr ""
+"<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> színséma "
+"generátor"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:135
+msgid ""
+"<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX editor"
+msgstr ""
+"<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX-"
+"szerkesztő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:138
+msgid ""
+"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> medical image "
+"viewer"
+msgstr ""
+"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> orvosi "
+"képmegjelenítő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:141
+msgid ""
+"<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> "
+"loudspeaker designer"
+msgstr ""
+"<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> "
+"hangosbeszélő-tervező"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:144
+msgid ""
+"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> card "
+"game"
+msgstr ""
+"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> "
+"kártyajáték"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:147
+msgid ""
+"<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> Internet telephone"
+msgstr ""
+"<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> internetes telefon"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:150
+msgid ""
+"<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> membership "
+"management"
+msgstr ""
+"<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> tagság-kezelő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:153
+msgid ""
+"<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> modular "
+"synthesizer and effects processor"
+msgstr ""
+"<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> "
+"moduláris szintetizátor és effektfeldolgozó"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:156
+msgid ""
+"<ulink url=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</ulink> "
+"background browser and setter"
+msgstr ""
+"<ulink url=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</ulink> háttérkép "
+"böngésző és beállító"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:159
+msgid ""
+"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI for the GNU "
+"debugger gdb"
+msgstr ""
+"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI a gdb GNU "
+"hivakövetőhöz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:162
+msgid "<ulink url=\"http://beep-media-player.org/\">BMP</ulink> audio player"
+msgstr "<ulink url=\"http://beep-media-player.org/\">BMP</ulink> audiolejátszó"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:165
+msgid ""
+"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> file "
+"synchronization over USB"
+msgstr ""
+"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> "
+"fájlszinkronizáció USB-n keresztül"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:168
+msgid ""
+"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electric flux "
+"line simulation"
+msgstr ""
+"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electromos "
+"fluxusvonal szimuláció"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:171
+msgid ""
+"<ulink url=\"http://github.com/egroeper/referencer/\">Referencer</ulink> "
+"document organiser and bibliography manager"
+msgstr ""
+"<ulink url=\"http://github.com/egroeper/referencer/\">Referencer</ulink> "
+"dokumentumszervező és and bibliográfia-kezelő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:174
+msgid ""
+"<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> index cards"
+msgstr ""
+"<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> jegyzékkártyák"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:177
+msgid ""
+"<ulink url=\"http://ardour.org/\">Ardour 2</ulink> multichannel hard disk "
+"recorder and digital audio workstation"
+msgstr ""
+"<ulink url=\"http://ardour.org/\">Ardour 2</ulink> többcsatornás merevlemez-"
+"rögzítő és digitális audio munkaállomás"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:180
+msgid ""
+"<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
+"ulink> desktop publishing"
+msgstr ""
+"<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
+"ulink> kiadványszerkesztő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:183
+msgid ""
+"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> foreign "
+"language learning tool"
+msgstr ""
+"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> idegen "
+"nyelvi oktatási eszköz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:186
+msgid ""
+"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> sound "
+"editor"
+msgstr ""
+"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> "
+"hangszerkesztő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:189
+msgid ""
+"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC client"
+msgstr ""
+"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC ügyfél"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:192
+msgid ""
+"<ulink url=\"http://dev.mysql.com/downloads/workbench/\">MySQL Workbench</"
+"ulink> database GUI"
+msgstr ""
+"<ulink url=\"http://dev.mysql.com/downloads/workbench/\">MySQL Workbench</"
+"ulink> adatbázis GUI"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:195
+msgid ""
+"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> source code package "
+"organizer"
+msgstr ""
+"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> forráskódcsomag "
+"szervező"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:198
+msgid ""
+"<ulink url=\"https://www.gnome.org/\">GNOME System Monitor</ulink> system "
+"monitor"
+msgstr "<ulink url=\"https://www.gnome.org/\">GNOME Rendszerfigyelő</ulink>"
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:203
+msgid "Using gtkmm 2.0/2.2:"
+msgstr "gtkmm 2.0-t/2.2-t használ:"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:206
+msgid ""
+"<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> file "
+"sharing client"
+msgstr ""
+"<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> "
+"fájlmegosztási ügyfél"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:209
+msgid ""
+"<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME Jabber "
+"IM client"
+msgstr ""
+"<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME Jabber "
+"IM ügyfél"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:212
+msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> file manager"
+msgstr "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> fájlkezelő."
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:215
+msgid ""
+"<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> "
+"GUI frontend for the efax fax program"
+msgstr ""
+"<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> "
+"GUI előtétprogram az efax faxprogramhoz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:218
+msgid ""
+"<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> organise and "
+"visualise information"
+msgstr ""
+"<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> információk "
+"szervezése és vizualizációja"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:221
+msgid ""
+"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> "
+"geneology database viewer"
+msgstr ""
+"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> "
+"családfa-adatbázis megjelenítő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:224
+msgid ""
+"<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> voice "
+"stress analysis tool"
+msgstr ""
+"<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> "
+"stresszanalizáló eszköz beszédhanghoz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:227
+msgid ""
+"<ulink url=\"http://freecode.com/projects/cug\">CUG</ulink> 3D equation "
+"plotter"
+msgstr ""
+"<ulink url=\"http://freecode.com/projects/cug\">CUG</ulink> 3D "
+"egyenletplotter"
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:232
+msgid "Using gtkmm 1.2:"
+msgstr "gtkmm 1.2-t használ:"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:235
+msgid ""
+"<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> generic SQL GUI"
+msgstr ""
+"<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> általános SQL "
+"GUI"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:238
+msgid ""
+"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> "
+"Gomoku game for GNOME"
+msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> "
+"Gomoku játék a GNOME-hoz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:241
+msgid ""
+"<ulink url=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</ulink> "
+"GUI voicemail / speakerphone / caller ID application"
+msgstr ""
+"<ulink url=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</ulink> "
+"GUI hangposta / kihangosító / hívóazonosító alkalmazás"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:244
+msgid ""
+"<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> MIME "
+"compliant GUI email client"
+msgstr ""
+"<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> MIME-"
+"kompatibilis grafikus levelezőprogram"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:247
+msgid ""
+"<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> graphical "
+"frontend to isdn4linux answering machine"
+msgstr ""
+"<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> grafikus "
+"előtétprogram az isdn4linux üzenetrögzítőhöz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:250
+msgid ""
+"<ulink url=\"http://www.medini.org/software/ped/ped.html\">Ped</ulink> path "
+"editor utility"
+msgstr ""
+"<ulink url=\"http://www.medini.org/software/ped/ped.html\">Ped</ulink> "
+"útvonalszerkesztő segédprogram"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:253
+msgid ""
+"<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> Usenet "
+"picture grabber"
+msgstr ""
+"<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> Usenet "
+"képletöltő"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:256
+msgid ""
+"<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
+"ulink> radio application for Video4Linux-compatible radio tuner cards"
+msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
+"ulink> rádióalkalmazás Video4Linux-kompatibilis rádiótuner kártyákhoz"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:259
+msgid ""
+"<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> software "
+"analogue MIDI sequencer"
+msgstr ""
+"<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> szoftveres "
+"analóg MIDI szekvenszer"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:262
+msgid ""
+"<ulink url=\"http://www.firedrake.org/terraform/\">terraform</ulink> terrain "
+"generator (very cool)"
+msgstr ""
+"<ulink url=\"http://www.firedrake.org/terraform/\">terraform</ulink> "
+"terepgenerátor (nagyon király)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:265
+msgid "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ client"
+msgstr "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ ügyfél"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:268
+msgid ""
+"<ulink url=\"http://cap.sourceforge.net/\">Chained Audio Plugins</ulink>"
+msgstr ""
+"<ulink url=\"http://cap.sourceforge.net/\">Chained Audio Plugins</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:271
+msgid ""
+"<ulink url=\"http://zarb.org/~gc/html/grany.html\">Grany-3</ulink> cellular "
+"automaton simulator"
+msgstr ""
+"<ulink url=\"http://zarb.org/~gc/html/grany.html\">Grany-3</ulink> "
+"sejtautomata szimulátor"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:274
+msgid ""
+"<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> music "
+"management system"
+msgstr ""
+"<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> zenekezelő "
+"rendszer"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:277
+msgid ""
+"<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> 3D "
+"cellular automata simulator"
+msgstr ""
+"<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> 3D "
+"sejtautomata szimulátor"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:283
+msgid "Links"
+msgstr "Hivatkozások"
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:285
+msgid "GTK+ resources"
+msgstr "GTK+ anyagok"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:288
+msgid "<ulink url=\"http://www.gtk.org/\">GTK+ homepage</ulink>"
+msgstr "<ulink url=\"http://www.gtk.org/\">GTK+ honlap</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:291
+msgid "<ulink url=\"https://www.gnome.org/\">GNOME homepage</ulink>"
+msgstr "<ulink url=\"https://www.gnome.org/\">GNOME honlap</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:294
+msgid "<ulink url=\"https://developer.gnome.org/\">GNOME development</ulink>"
+msgstr "<ulink url=\"https://developer.gnome.org/\">GNOME fejlesztés</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:297
+msgid "<ulink url=\"http://www.gimp.org/\">Gimp homepage</ulink>"
+msgstr "<ulink url=\"http://www.gimp.org/\">Gimp honlap</ulink>"
+
+#. (itstool) path: sect1/title
+#: C/git.xml:8
+msgid "Git"
+msgstr "Git"
+
+#. (itstool) path: sect1/para
+#: C/git.xml:9
+msgid ""
+"We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our source "
+"code, in the <ulink url=\"https://www.gnome.org\">GNOME</ulink> Git "
+"repository. Additional information about git.gnome.org is available at "
+"<ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
+msgstr ""
+"A <ulink url=\"http://git-scm.com/\">Git</ulink> verziókezelőt használjuk a "
+"forráskód karbantartására, a <ulink url=\"https://www.gnome.org\">GNOME</"
+"ulink> Git tárolójában. További információk a git.gnome.org oldalról "
+"elérhető itt: <ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</"
+"ulink>."
+
+#. (itstool) path: sect1/para
+#: C/git.xml:12
+msgid ""
+"glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/glibmm/"
+"tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/browse/gtkmm/"
+"tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://git."
+"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
+"module which contains the gtkmm book and its examples. See below for "
+"instructions."
+msgstr ""
+"A glibmm és a gtkmm a <ulink url=\"https://git.gnome.org/browse/glibmm/tree/"
+"\">glibmm</ulink> és <ulink url=\"https://git.gnome.org/browse/gtkmm/tree/"
+"\">gtkmm</ulink> modulokban található. Létezik egy <ulink url=\"https://git."
+"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
+"modul is, amely a gtkmm könyvet és a példáit tartalmazza. Lásd lent az "
+"utasításokat."
+
+#. (itstool) path: sect1/para
+#: C/git.xml:14
+msgid ""
+"You will need to run the autogen.sh script to generate the build files. We "
+"recommend jhbuild for setting up a separate development prefix."
+msgstr ""
+"Futtatnia kell az autogen.sh parancsfájlt az építési fájlok generálásához. "
+"Javasoljuk a jhbuildet egy külön fejlesztői prefix beállításához."
+
+#. (itstool) path: highlights/para
+#: C/git.xml:17
+msgid "<emphasis role=\"bold\">Anonymous Access</emphasis>"
+msgstr "<emphasis role=\"bold\">Névtelen hozzáférés</emphasis>"
+
+#. (itstool) path: highlights/para
+#: C/git.xml:18
+msgid ""
+"For those who do not have a GNOME login, anonymous checkouts are available."
+msgstr ""
+"Azok számára, akiknek nincs GNOME bejelentkezésük, elérhető a névtelen "
+"letöltés."
+
+#. (itstool) path: highlights/para
+#: C/git.xml:20
+msgid ""
+"For instance, to check out the latest version of gtkmm: <command>git clone "
+"git://git.gnome.org/gtkmm</command>"
+msgstr ""
+"Például, a legfrissebb gtkmm verzió letöltéséhez: <command>git clone git://"
+"git.gnome.org/gtkmm</command>"
+
+#. (itstool) path: sect2/title
+#: C/git.xml:23
+msgid "Modules and branches"
+msgstr "Modulok és ágak"
+
+#. (itstool) path: sect2/para
+#: C/git.xml:24
+msgid ""
+"We are synchronized with the GNOME release schedule, so we use <ulink url="
+"\"https://wiki.gnome.org/MaintainersCorner#branches\">standard GNOME branch "
+"names</ulink>."
+msgstr ""
+"A GNOME kiadási ütemtervével vagyunk szinkronban, így a <ulink url=\"https://"
+"wiki.gnome.org/MaintainersCorner#branches\">zsabványos GNOME ágneveket</"
+"ulink> használjuk."
+
+#. (itstool) path: sect3/title
+#: C/git.xml:26
+msgid "gtkmm and glibmm"
+msgstr "gtkmm és glibmm"
+
+#. (itstool) path: tr/th
+#: C/git.xml:29 C/git.xml:64 C/git.xml:95
+msgid "Component"
+msgstr "Összetevő"
+
+#. (itstool) path: tr/th
+#: C/git.xml:30 C/git.xml:96
+msgid "Version"
+msgstr "Verzió"
+
+#. (itstool) path: tr/th
+#: C/git.xml:31 C/git.xml:66 C/git.xml:97
+msgid "Git Module"
+msgstr "Git modul"
+
+#. (itstool) path: tr/th
+#: C/git.xml:32 C/git.xml:67 C/git.xml:98
+msgid "Branch name"
+msgstr "Ág neve"
+
+#. (itstool) path: tr/td
+#: C/git.xml:36
+msgid "2.17/18"
+msgstr "2.17/18"
+
+#. (itstool) path: tr/td
+#: C/git.xml:38 C/git.xml:50 C/git.xml:73 C/git.xml:79 C/git.xml:85
+#: C/git.xml:104 C/git.xml:110 C/git.xml:116 C/git.xml:122
+msgid "master"
+msgstr "master"
+
+#. (itstool) path: tr/td
+#: C/git.xml:42
+msgid "2.16"
+msgstr "2.16"
+
+#. (itstool) path: tr/td
+#: C/git.xml:44
+msgid "gtkmm-2-16"
+msgstr "gtkmm-2-16"
+
+#. (itstool) path: tr/td
+#: C/git.xml:47 C/git.xml:49 C/git.xml:53 C/git.xml:55
+msgid "glibmm"
+msgstr "glibmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:48
+msgid "2.21/22"
+msgstr "2.21/22"
+
+#. (itstool) path: tr/td
+#: C/git.xml:54
+msgid "2.20"
+msgstr "2.20"
+
+#. (itstool) path: tr/td
+#: C/git.xml:56
+msgid "glibmm-2-20"
+msgstr "glibmm-2-20"
+
+#. (itstool) path: tr/th
+#: C/git.xml:65
+msgid "API Version"
+msgstr "API verzió"
+
+#. (itstool) path: tr/td
+#: C/git.xml:70 C/git.xml:72
+msgid "libglademm"
+msgstr "libglademm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:76 C/git.xml:78
+msgid "gconfmm"
+msgstr "gconfmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:82 C/git.xml:84
+msgid "libgnomecanvasmm"
+msgstr "libgnomecanvasmm"
+
+#. (itstool) path: sect3/title
+#: C/git.xml:90
+msgid "*mm bindings for other GNOME-related APIs"
+msgstr "*mm kötések más GNOME-hoz kapcsolódó API-khoz"
+
+#. (itstool) path: sect3/para
+#: C/git.xml:91
+msgid ""
+"The following bindings are not necessarily on the same schedule as those "
+"listed above."
+msgstr ""
+"A következő kötések nem feltétlenül ugyanazt az ütemtervet követik mint a "
+"fentiek."
+
+#. (itstool) path: tr/td
+#: C/git.xml:101 C/git.xml:103
+msgid "libgdamm"
+msgstr "libgdamm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:107 C/git.xml:109
+msgid "libgnomedbmm"
+msgstr "libgnomedbmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:113 C/git.xml:115
+msgid "goocanvasmm"
+msgstr "goocanvasmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:119 C/git.xml:121
+msgid "libpanelappletmm"
+msgstr "libpanelappletmm"
+
+#. (itstool) path: sect1/title
+#: C/license.xml:8
+msgid "License"
+msgstr "Licenc"
+
+#. (itstool) path: sect1/para
+#: C/license.xml:9
+msgid ""
+"gtkmm is licensed under the <ulink url=\"http://www.gnu.org\">GNU</ulink> "
+"Library General Public License (<ulink url=\"http://www.gnu.org/licenses/"
+"lgpl.html#TOC1\">LGPL</ulink>) for all platforms. Our intent in licensing it "
+"in this way is to provide it for use through shared libraries in all "
+"projects both open and proprietary. Other GNU projects may of course "
+"integrate and link in a static manner. The full body of the license is "
+"provided for your inspection."
+msgstr ""
+"A gtkmm a <ulink url=\"http://www.gnu.org\">GNU</ulink> Library General "
+"Public License (<ulink url=\"http://www.gnu.org/licenses/lgpl."
+"html#TOC1\">LGPL</ulink>) alatt licencelt minden platformon. A célunk az "
+"effajta licenceléssel az, hogy elérhetővé tegyük minden programnak hogy "
+"osztott könyvtárként használja, legyen az nyílt vagy zárt forráskódú. Más "
+"GNU projektek persze integrálhatják és hivatkozhatják statikus módon is. A "
+"licenc teljes törzse elérhető az Ön számára."
+
+#. (itstool) path: sect1/para
+#: C/license.xml:15
+msgid ""
+"This is the only license which grants you use of the software, so if you do "
+"not agree to its terms, you may not use this software."
+msgstr ""
+"Ez az egyetlen licenc, amely szerint használhatja a szoftvert, tehát ha nem "
+"ért egyet a feltételekkel, akkor nem használhatja a szoftvert."
+
+#. (itstool) path: highlights/para
+#: C/license.xml:18
+msgid ""
+"Note that this license <emphasis role=\"bold\">does not require you to "
+"release the source code of your own applications or libraries</emphasis> and "
+"<emphasis role=\"bold\">does not require you to pay any fees.</emphasis>"
+msgstr ""
+"Megjegyzendő, hogy a licenc <emphasis role=\"bold\">nem követeli meg, hogy "
+"kiadja az alkalmazása vagy könyvtára forráskódját</emphasis> és <emphasis "
+"role=\"bold\">nem követel meg semmi féle díjfizetést.</emphasis>"
+
+#. (itstool) path: sect1/title
+#: C/mailinglist.xml:8
+msgid "Mailing List"
+msgstr "Levelezőlista"
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:10
+msgid "Where is the gtkmm mailing list?"
+msgstr "Hol található a gtkmm levelezőlista?"
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:13
+msgid ""
+"<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <ulink url=\"mailto:"
+"gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. To subscribe, go to the "
+"<ulink url=\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">subscribe "
+"page</ulink>."
+msgstr ""
+"<emphasis role=\"bold\">gtkmm levelezőlista</emphasis>: <ulink url=\"mailto:"
+"gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. A feliratkozáshoz, "
+"ugorjon a <ulink url=\"http://mail.gnome.org/mailman/listinfo/gtkmm-list"
+"\">feliratkozási oldalra</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:16
+msgid ""
+"For general GTK+ discussion, please use the <ulink url=\"http://www.gtk.org/"
+"mailing-lists.php\">gtk-list</ulink>."
+msgstr ""
+"Az általános GTK+ megbeszélésekhez, kérjük, használja a <ulink url=\"http://"
+"www.gtk.org/mailing-lists.php\">gtk-list</ulink> listát."
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:21
+msgid "What subject material is appropriate for the list?"
+msgstr "Milyen témák megfelelőek a listán?"
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:22
+msgid ""
+"The mailing lists are used for discussion of development, bug reports, "
+"suggestions, and improvements of the C++ wrappers themselves. There is also "
+"discussion of the use of the wrapper. Questions about the underlying GTK+ "
+"widget set are more likely to be answered quickly through the gtk-list."
+msgstr ""
+"A levelezőlisták a fejlesztés megvitatására, hibajelentésre, javaslatokra, "
+"és maguknak a C++ csomagolók fejlesztésére szolgálnak. Van egy vitafóruma a "
+"csomagoló használatának is. A mögöttes GTK+ ablakelemekre vonatkozó kérdések "
+"nagyobb valószínűséggel kerülnek gyors megválaszolásra a gtk-list listán."
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:29
+msgid "List Archives"
+msgstr "Levelezőlista archívum"
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:30
+msgid "The archive of messages can be found at:"
+msgstr "Az üzenetek archívuma megtalálható itt:"
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:33
+msgid ""
+"gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
+"\">archive</ulink>."
+msgstr ""
+"gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
+"\">archívum</ulink>."
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:36
+msgid ""
+"<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> archives messages even "
+"from before 2002, and has a more reliable search engine."
+msgstr ""
+"A <ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> archiválja az "
+"üzeneteket 2002 előttről is, és megbízhatóbb keresőmotorja van."
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:39
+msgid "IRC channel"
+msgstr "IRC csatorna"
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:40
+msgid ""
+"We also discuss development in the <emphasis role=\"bold\">#c++</emphasis> "
+"channel on irc.gnome.org, but questions are more likely to be answered "
+"properly on the mailing list. Plus, the mailing list is archived, so others "
+"can benefit from the answers."
+msgstr ""
+"A fejlesztést a <emphasis role=\"bold\">#c++</emphasis> csatornán is "
+"megvitatjuk itt: irc.gnome.org, de a kérdések a levelezőlistán nagyobb "
+"valószínűséggel kapnak megfelelő választ. Plusz, a levelezőlista "
+"archiválásra kerül, így másoknak is hasznosak lehetnek a válaszok."
+
+#. (itstool) path: sect1/title
+#: C/news.xml:8
+msgid "News"
+msgstr "Hírek"
+
+#. (itstool) path: listitem/para
+#: C/news.xml:11
+msgid ""
+"April 6, 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
+"list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> and <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
+"\">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm 3.0 "
+"wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 API."
+msgstr ""
+"2011. április 6.: a <ulink url=\"http://mail.gnome.org/archives/gnome-"
+"announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> és a <ulink url="
+"\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
+"\">glibmm 2.28.0</ulink> kiadásra kerül, a GNOME ütemtervének megfelelően. A "
+"gtkmm 3.0 a GTK+ 3.0 API-t csomagolja, és a gtkmm-2.4 API-val párhuzamosan "
+"települ."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:16
+msgid ""
+"February 10, 2011: gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2011-February/msg00020.html\">released</ulink>. gtkmm "
+"2.24.0 wraps new API in GTK+ 2.24 and is API/ABI-compatible with gtkmm &gt;= "
+"2.4. It is a version of the gtkmm-2.4 API with API additions. It deprecates "
+"some API, helping application developers to prepare for gtkmm 3.0."
+msgstr ""
+"2011. február 10.: a gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2011-February/msg00020.html\">kiadásra kerül</"
+"ulink>. A gtkmm 2.24.0 csomagolja az új GTK+ 2.24 API-t, és API/ABI-"
+"kompatibilis a gtkmm &gt;= 2.4 verziókkal. Ez a gtkmm-2.4 API egy változata, "
+"API bővítésekkel. Elavulttá tesz néhány API-t, segítve a fejlesztőket, hogy "
+"felkészüljenek a gtkmm 3.0-ra."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:21
+msgid ""
+"September 22, 2010: gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2010-September/msg00087.html\">released</ulink>, as per "
+"the GNOME schedule. gtkmm 2.22.0 wraps new API in GTK+ 2.22 and is API/ABI-"
+"compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with "
+"API additions."
+msgstr ""
+"2010. szeptember 22.: a gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2010-September/msg00087.html\">kiadásra kerül</"
+"ulink>, a GNOME ütemtervének megfelelően. A gtkmm 2.22.0 az új GTK+ 2.22 API-"
+"t csomagolja, és API/ABI-kompatibilis a gtkmm &gt;= 2.4 verziókkal. Ez a "
+"gtkmm-2.4 API egy változata, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:26
+msgid ""
+"March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
+"gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
+"ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 "
+"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the "
+"gtkmm-2.4 API with API additions."
+msgstr ""
+"2010. március 29.: a gtkmm 2.20.0 és a glibmm 2.24.0 <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070.html"
+"\">kiadásra kerül</ulink>, a GNOME ütemtervének megfelelően. A gtkmm 2.20.0 "
+"az új GTK+ 2.20 API-t csomagolja, és API/ABI-kompatibilis a gtkmm &gt;= 2.4 "
+"verziókkal. Ez a gtkmm-2.4 API egy változata, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:31
+msgid ""
+"September 22, 2008: gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2008-September/msg00099.html\">released</ulink>, as per "
+"the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-"
+"compatible with gtkmm 2.12, 2.10, 2.8, 2.6 and 2.4. It is a version of the "
+"gtkmm-2.4 API, with API additions."
+msgstr ""
+"2008. szeptember 22.: a gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2008-September/msg00099.html\">kiadásra kerül</"
+"ulink>, a GNOME ütemtervének megfelelően. A gtkmm 2.14.0 az új GTK+ 2.14 API-"
+"t csomagolja, és API/ABI-kompatibilis a gtkmm 2.12, 2.10, 2.8, 2.6 és 2.4 "
+"verziókkal. Ez a gtkmm-2.4 API egy változata, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:36
+msgid ""
+"September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <ulink url=\"http://mail."
+"gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"
+"\">released</ulink>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API "
+"in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 and 2.4. It "
+"is a version of the gtkmm-2.4 API, with API additions."
+msgstr ""
+"2007. szeptember 14.: a gtkmm 2.12.0 és a glibmm 2.14.0 <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"
+"\">kiadásra kerül</ulink>, a GNOME ütemtervének megfelelően. A gtkmm 2.12.0 "
+"az új GTK+ 2.12 API-t csomagolja, és API/ABI-kompatibilis a gtkmm 2.10, 2.8, "
+"2.6 és 2.4 verziókkal. Ez a gtkmm-2.4 API egy változata, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:41
+msgid ""
+"August 2006: gtkmm and glibmm 2.10.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gtkmm-list/2006-August/msg00254.html\">released</ulink>, as per the "
+"GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-"
+"compatible with gtkmm 2.8, with API additions."
+msgstr ""
+"2006 augusztus: a gtkmm és a glibmm 2.10.0 <ulink url=\"http://mail.gnome."
+"org/archives/gtkmm-list/2006-August/msg00254.html\">kiadásra kerül</ulink>, "
+"a GNOME ütemtervének megfelelően. A gtkmm 2.10.0 az új GTK+ 2.10 API-t "
+"csomagolja, és API/ABI-kompatibilis a gtkmm 2.8 verzióval, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:46
+msgid ""
+"September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. "
+"gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm "
+"2.6, with API additions."
+msgstr ""
+"2005 szeptember: a gtkmm és a glibmm 2.8.0 kiadásra kerül, a GNOME "
+"ütemtervének megfelelően. A gtkmm 2.8.0 az új GTK+ 2.8 API-t csomagolja, és "
+"API/ABI-kompatibilis a gtkmm 2.6 verzióval, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:51
+msgid ""
+"March 2005: gtkmm and glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2005-March/msg00026.html\">released</ulink>, as "
+"per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-"
+"compatible with gtkmm 2.4, with API additions."
+msgstr ""
+"2005 március: a gtkmm és a glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2005-March/msg00026.html\">kiadásra kerül</"
+"ulink>, a GNOME ütemtervének megfelelően. A gtkmm 2.6.0 az új GTK+ 2.6 API-t "
+"csomagolja, és API/ABI-kompatibilis a gtkmm 2.4 verzióval, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:56
+msgid ""
+"April 2004: gtkmm and glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/"
+"archives/gnome-announce-list/2004-April/msg00016.html\">released</ulink>, as "
+"per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs "
+"in parallel with gtkmm 2.2."
+msgstr ""
+"2004 április.: a gtkmm és a glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/"
+"archives/gnome-announce-list/2004-April/msg00016.html\">kiadásra kerül</"
+"ulink>, a GNOME ütemtervének megfelelően. A gtkmm 2.4.0 az új GTK+ 2.4 API-t "
+"csomagolja, és a gtkmm-2.2 API-val párhuzamosan települ."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:61
+msgid ""
+"January 2003: gtkmm 2.2.0 <ulink url=\"http://lists.gnome.org/archives/gtkmm-"
+"list/2003-January/msg00040.html\">released</ulink>, API/ABI-compatible with "
+"gtkmm 2.0, with API additions."
+msgstr ""
+"2003 január: a gtkmm 2.2.0 <ulink url=\"http://lists.gnome.org/archives/"
+"gtkmm-list/2003-January/msg00040.html\">kiadásra kerül</ulink>, API/ABI-"
+"kompatibilis gtkmm 2.0-val, API bővítésekkel."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:66
+msgid ""
+"December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 "
+"released - these APIs are binary-frozen."
+msgstr ""
+"2002 december: a libglademm 2.0.0, a gconfmm 2.0.0 és a libgnomecanvas 2.0.0 "
+"kiadásra kerül - ezek az API-k binárisan fagyasztottak."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:71
+msgid ""
+"October 2002: gtkmm 2.0.0 is <ulink url=\"http://lists.gnome.org/archives/"
+"gtkmm-list/2002-October/msg00334.html\">released</ulink> - the API is binary-"
+"frozen."
+msgstr ""
+"2002 október: a gtkmm 2.0.0 <ulink url=\"http://lists.gnome.org/archives/"
+"gtkmm-list/2002-October/msg00334.html\">kiadásra kerül</ulink> - az API "
+"binárisan fagyasztott."
