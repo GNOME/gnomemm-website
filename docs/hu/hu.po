@@ -1,26 +1,27 @@
 # Hungarian translation for gnomemm-website.
 # Copyright (C) 2016. Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnomemm-website package.
-# Balázs Meskó <meskobalazs at gmail dot com>, 2016.
 #
+# Balázs Meskó <meskobalazs at gmail dot com>, 2016.
+# Gabor Kelemen <kelemeng at ubuntu dot com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
 "POT-Creation-Date: 2016-03-26 11:33+0000\n"
-"PO-Revision-Date: 2016-03-26 23:34+0100\n"
-"Last-Translator: Balázs Meskó <meskobalazs at gmail dot com>\n"
+"PO-Revision-Date: 2016-03-27 12:13+0200\n"
+"Last-Translator: Gabor Kelemen <kelemeng at ubuntu dot com>\n"
 "Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Meskó Balázs <meskobalazs at gmail dot com>"
+msgstr "Meskó Balázs <meskobalazs at gmail dot com>, 2016"
 
 #. (itstool) path: bookinfo/title
 #. (itstool) path: tr/td
@@ -328,7 +329,7 @@ msgid ""
 "threading, etc) and <ulink url=\"http://libsigc.sourceforge.net/\">libsigc+"
 "+</ulink> (signal/slots)."
 msgstr ""
-"Tekintse meg a többi társkönytárunkat is, a glibmm-et (UTF8 karakterláncok, "
+"Tekintse meg a többi társkönyvtárunkat is, a glibmm-et (UTF8 karakterláncok, "
 "szálkezelés, stb.) és a <ulink url=\"http://libsigc.sourceforge.net/"
 "\">libsigc++</ulink>-t (szignál/foglalat)."
 
@@ -386,7 +387,7 @@ msgid ""
 "murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
-"murrayswebpages/\">A C++ programozási nyelv, Bjarne Stroustrup</ulink>"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/books.xml:22
@@ -395,7 +396,7 @@ msgid ""
 "murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
-"murrayswebpages/\">A C++ szabványos könyvtár, Nicolai M. Josuttis</ulink>"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/books.xml:25
@@ -404,7 +405,7 @@ msgid ""
 "murrayswebpages/\">Design Patterns, Erich Gamma et al</ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
-"murrayswebpages/\">Tervezési minták, Erich Gamma et al</ulink>"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</ulink>"
 
 #. (itstool) path: sect2/title
 #: C/books.xml:31
@@ -419,8 +420,8 @@ msgid ""
 "Andrew Koenig &amp; Barbara E. Moo</ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
-"murrayswebpages/\">Gyorsított C++ - ogramozás példákon keresztül, Andrew "
-"Koenig és Barbara E. Moo</ulink>"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/books.xml:45
@@ -430,8 +431,8 @@ msgid ""
 "Cooper &amp; Robert M. Reimann</ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
-"murrayswebpages/\">Hátra arc 3: Az interakciótervezés alapjai, Alan Cooper "
-"és Robert M. Reimann</ulink>"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/books.xml:48
@@ -441,7 +442,7 @@ msgid ""
 "Steve Vinoski</ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
-"murrayswebpages/\">Fejlett CORBA programozás C++-szal, Michi Henning és "
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
 "Steve Vinoski</ulink>"
 
 #. (itstool) path: listitem/para
@@ -452,7 +453,7 @@ msgid ""
 "ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
-"murrayswebpages/\">GNU Autoconf, Automake, és Libtool, Gary Vaughan et al</"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
 "ulink>"
 
 #. (itstool) path: listitem/para
@@ -463,7 +464,7 @@ msgid ""
 "al</ulink>"
 msgstr ""
 "<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
-"murrayswebpages/\">Programozás Gnu szoftverekkel, Michael Kosta Loukides et "
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
 "al</ulink>"
 
 #. (itstool) path: sect1/title
@@ -633,7 +634,7 @@ msgid ""
 "platform/distro/compiler."
 msgstr ""
 "a GTK+, gtkmm és kapcsolódó szoftverek verziószámai, beleértve a platformot/"
-"disztibúciót/fordítórogramot."
+"disztribúciót/fordítóprogramot."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:65
@@ -1997,7 +1998,7 @@ msgid ""
 "graphical resource editor for PalmOS applications"
 msgstr ""
 "<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> "
-"grafikus erőforrásszerkesztő PalmOS alkalmazásokhoz"
+"grafikus erőforrás-szerkesztő PalmOS alkalmazásokhoz"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:85
@@ -2215,7 +2216,7 @@ msgid ""
 "debugger gdb"
 msgstr ""
 "<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI a gdb GNU "
-"hivakövetőhöz"
+"hibakövetőhöz"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:162
@@ -2237,7 +2238,7 @@ msgid ""
 "<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electric flux "
 "line simulation"
 msgstr ""
-"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electromos "
+"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> elektromos "
 "fluxusvonal szimuláció"
 
 #. (itstool) path: listitem/para
@@ -3080,3 +3081,4 @@ msgstr ""
 "2002 október: a gtkmm 2.0.0 <ulink url=\"http://lists.gnome.org/archives/"
 "gtkmm-list/2002-October/msg00334.html\">kiadásra kerül</ulink> - az API "
 "binárisan fagyasztott."
+
