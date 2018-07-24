@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2015-11-09 12:21+0000\n"
+"POT-Creation-Date: 2015-11-24 08:34+0000\n"
 "PO-Revision-Date: 2015-11-24 09:24+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
@@ -79,13 +79,11 @@ msgstr "<ulink url=\"news.html\">Noticias</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:36
-#| msgid "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
 msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
 msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FP+F</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:39
-#| msgid "<ulink url=\"http://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
 msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
 msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
 
@@ -198,12 +196,6 @@ msgstr ""
 
 #. (itstool) path: highlights/para
 #: C/main.xml:22
-#| msgid ""
-#| "<application>gtkmm</application> follows the official <ulink url=\"http://"
-#| "www.gnome.org/start/unstable/\"> GNOME Platform Bindings release "
-#| "schedule</ulink>. This guarantees API/ABI-stability and new releases on a "
-#| "predictable schedule, delivering C++ API for the underlying GTK+ and "
-#| "GNOME APIs as soon as possible."
 msgid ""
 "<application>gtkmm</application> follows the official <ulink url=\"https://"
 "www.gnome.org/start/unstable/\"> GNOME Platform Bindings release schedule</"
@@ -1721,9 +1713,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/download.xml:35
-#| msgid ""
-#| "Windows: Here is an <ulink url=\"http://wiki.gnome.org/Projects/gtkmm/"
-#| "MSWindows\">installer</ulink>."
 msgid ""
 "Windows: Here is an <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/"
 "MSWindows\">installer</ulink>."
@@ -1733,10 +1722,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/download.xml:43
-#| msgid ""
-#| "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): "
-#| "<ulink url=\"http://thewrittenword.com\">The Written Word</ulink> offer "
-#| "binary gtkmm packages, with packagement management."
 msgid ""
 "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink "
 "url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary "
@@ -2048,9 +2033,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:91
-#| msgid ""
-#| "<ulink url=\"http://www.debain.org/software/gip/\">Gip</ulink> IP address "
-#| "calculator"
 msgid ""
 "<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP address "
 "calculator"
@@ -2094,9 +2076,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:106
-#| msgid ""
-#| "<ulink url=\"http://git.gnome.org/browse/monster-masher/\">Monster "
-#| "Masher</ulink> game"
 msgid ""
 "<ulink url=\"https://git.gnome.org/browse/monster-masher/\">Monster Masher</"
 "ulink> game"
@@ -2357,9 +2336,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:198
-#| msgid ""
-#| "<ulink url=\"http://www.gnome.org/\">GNOME System Monitor</ulink> system "
-#| "monitor"
 msgid ""
 "<ulink url=\"https://www.gnome.org/\">GNOME System Monitor</ulink> system "
 "monitor"
@@ -2595,14 +2571,12 @@ msgstr "<ulink url=\"http://www.gtk.org/\">Página principal de GTK+</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:291
-#| msgid "<ulink url=\"http://www.gnome.org/\">GNOME homepage</ulink>"
 msgid "<ulink url=\"https://www.gnome.org/\">GNOME homepage</ulink>"
 msgstr ""
 "<ulink url=\"https://www.gnome.org/\">Página principal de GNOME</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:294
-#| msgid "<ulink url=\"http://developer.gnome.org/\">GNOME development</ulink>"
 msgid "<ulink url=\"https://developer.gnome.org/\">GNOME development</ulink>"
 msgstr ""
 "<ulink url=\"https://developer.gnome.org/\">Desarrollo de GNOME</ulink>"
@@ -2619,11 +2593,6 @@ msgstr "Git"
 
 #. (itstool) path: sect1/para
 #: C/git.xml:9
-#| msgid ""
-#| "We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our "
-#| "source code, in the <ulink url=\"http://www.gnome.org\">GNOME</ulink> Git "
-#| "repository. Additional information about git.gnome.org is available at "
-#| "<ulink url=\"http://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
 msgid ""
 "We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our source "
 "code, in the <ulink url=\"https://www.gnome.org\">GNOME</ulink> Git "
@@ -2637,13 +2606,6 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: C/git.xml:12
-#| msgid ""
-#| "glibmm and gtkmm are in the <ulink url=\"http://git.gnome.org/cgit/glibmm/"
-#| "tree/\">glibmm</ulink> and <ulink url=\"http://git.gnome.org/cgit/gtkmm/"
-#| "tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"http://git."
-#| "gnome.org/cgit/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
-#| "module which contains the gtkmm book and its examples. See below for "
-#| "instructions."
 msgid ""
 "glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/glibmm/"
 "tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/browse/gtkmm/"
