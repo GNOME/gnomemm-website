@@ -13,25 +13,25 @@
         <title>Current bugs and patches</title>
         <itemizedlist>
           <listitem>
-            <para>Outstanding <ulink url="http://bugzilla.gnome.org/browse.cgi?product=gtkmm">gtkmm bugs</ulink></para>
+            <para>Outstanding <ulink url="https://gitlab.gnome.org/GNOME/gtkmm/issues/">gtkmm bugs</ulink></para>
           </listitem>
           <listitem>
-            <para>Outstanding <ulink url="http://bugzilla.gnome.org/browse.cgi?product=glibmm">glibmm bugs</ulink></para>
+            <para>Outstanding <ulink url="https://gitlab.gnome.org/GNOME/glibmm/issues/">glibmm bugs</ulink></para>
           </listitem>
-          <listitem>
+<!--          <listitem>
             <para>Outstanding <ulink url="https://bugzilla.gnome.org/buglist.cgi?query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;product=gtkmm;product=gtksourceviewmm;product=libgdamm;product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm">*mm bugs</ulink></para>
-          </listitem>
+          </listitem> -->
         </itemizedlist>
         <sect3>
           <title>Others</title>
-          <itemizedlist>
+<!--          <itemizedlist>
             <listitem>
               <para><ulink url="https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;product=gtkmm;product=gtksourceviewmm;product=libgdamm;product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm">gnome-love bugs</ulink> - a good way to get involved.</para>
             </listitem>
             <listitem>
               <para><ulink url="http://bugzilla.gnome.org/buglist.cgi?short_desc_type=substring&amp;short_desc=&amp;product=glibmm&amp;product=gnomemm&amp;product=gtkmm&amp;long_desc_type=substring&amp;long_desc=&amp;status_whiteboard_type=substring&amp;status_whiteboard=&amp;keywords_type=anywords&amp;keywords=&amp;bug_status=RESOLVED&amp;bug_status=CLOSED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;email1=&amp;emailreporter2=1&amp;emailtype2=substring&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;changedin=30&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Last+Changed&amp;field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=">Bugs fixed in the last 30 days</ulink></para>
             </listitem>
-          </itemizedlist>
+          </itemizedlist> -->
           <para>As soon as a gtkmm patch has been clearly approved by a maintainer, anybody with git write access may apply it.</para>
         </sect3>
       </sect2>
@@ -39,13 +39,13 @@
         <title><anchor id="NewBugs"/>Where to report?</title>
         <itemizedlist>
           <listitem>
-            <para>Bugs are tracked in GNOME&apos;s <ulink url="http://bugzilla.gnome.org">bugzilla</ulink>
- Submit gtkmm bugs <ulink url="http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm">here</ulink>.
- Submit gnomemm bugs <ulink url="http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm">here</ulink>.
+            <para>Bugs are tracked in GNOME&apos;s <ulink url="https://gitlab.gnome.org">issue tracker</ulink>.
+ Submit gtkmm bugs <ulink url="https://gitlab.gnome.org/GNOME/gtkmm/issues/new/">here</ulink>.
+<!-- Submit gnomemm bugs <ulink url="https://gitlab.gnome.org/Archive/gnomemm/issues">here</ulink>. -->
  </para>
           </listitem>
           <listitem>
-            <para>Patches should be attached to existing bugzilla bugs rather than sent to
+            <para>Patches should be attached to existing tickets rather than sent to
  the mailing list.  When reporting a new bug you&apos;ll get a chance to attach a
  file to it immediately <emphasis role="bold">after</emphasis> opening the bug. Please remember to patch the ChangeLog too.</para>
           </listitem>
@@ -104,7 +104,7 @@
  <command> git diff -u &gt; my_fix.patch </command></para>
           </listitem>
           <listitem>
-            <para>Add the patch to bugzilla (see above).</para>
+            <para>Add the patch in the issue tracker (see above).</para>
           </listitem>
         </itemizedlist>
       </sect2>
