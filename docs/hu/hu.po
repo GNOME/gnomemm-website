@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2018-11-03 19:46+0000\n"
-"PO-Revision-Date: 2019-02-02 16:28+0100\n"
+"POT-Creation-Date: 2019-02-02 15:30+0000\n"
+"PO-Revision-Date: 2019-02-07 16:46+0100\n"
 "Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
 "Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
 "Language: hu\n"
@@ -493,8 +493,8 @@ msgid ""
 "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
 "\">gtkmm bugs</ulink>"
 msgstr ""
-"Fennálló <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
-"\">gtkmm hibák</ulink>"
+"Fennálló <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/\">gtkmm "
+"hibák</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:19
@@ -502,8 +502,8 @@ msgid ""
 "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
 "\">glibmm bugs</ulink>"
 msgstr ""
-"Fennálló <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
-"\">glibmm hibák</ulink>"
+"Fennálló <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/\">glibmm "
+"hibák</ulink>"
 
 #. (itstool) path: sect3/para
 #: C/bugs.xml:35
@@ -526,8 +526,8 @@ msgid ""
 "tracker</ulink>. Submit gtkmm bugs <ulink url=\"https://gitlab.gnome.org/"
 "GNOME/gtkmm/issues/new/\">here</ulink>."
 msgstr ""
-"A hibák a GNOME <ulink url=\"https://gitlab.gnome.org\">hibakövetőjében<"
-"/ulink> vannak számon tartva. A gtkmm hibáit <ulink url=\"https://gitlab."
+"A hibák a GNOME <ulink url=\"https://gitlab.gnome.org\">hibakövetőjében</"
+"ulink> vannak számon tartva. A gtkmm hibáit <ulink url=\"https://gitlab."
 "gnome.org/GNOME/gtkmm/issues/new/\">itt küldheti be</ulink>."
 
 #. (itstool) path: listitem/para
@@ -1097,7 +1097,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/developers.xml:65
 msgid "<ulink url=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</ulink>"
-msgstr "<ulink url=\"documentation.html\">"
+msgstr "<ulink url=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</ulink>"
 
 #. (itstool) path: sect2/para
 #: C/developers.xml:71
@@ -3002,4 +3002,3 @@ msgstr ""
 "2002 október: a gtkmm 2.0.0 <ulink url=\"http://lists.gnome.org/archives/"
 "gtkmm-list/2002-October/msg00334.html\">kiadásra kerül</ulink> - az API "
 "binárisan fagyasztott."
-
