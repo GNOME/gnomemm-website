@@ -1,19 +1,19 @@
 # Czech translation for gnomemm-website.
 # Copyright (C) 2015 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
-# Marek Černocký <marek@manet.cz>, 2015.
+# Marek Černocký <marek@manet.cz>, 2015, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2015-11-16 23:09+0000\n"
-"PO-Revision-Date: 2015-11-19 13:53+0100\n"
+"POT-Creation-Date: 2019-03-10 19:24+0000\n"
+"PO-Revision-Date: 2019-09-11 21:55+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Gtranslator 2.91.7\n"
 
@@ -497,97 +497,20 @@ msgstr "Aktuální chyby a záplaty"
 #. (itstool) path: listitem/para
 #: C/bugs.xml:16
 msgid ""
-"Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=gtkmm"
+"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
 "\">gtkmm bugs</ulink>"
 msgstr ""
-"Nedořešené <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=gtkmm"
+"Nedořešené <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
 "\">chyby gtkmm</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:19
 msgid ""
-"Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=glibmm"
+"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
 "\">glibmm bugs</ulink>"
 msgstr ""
-"Nedořešené <ulink url=\"http://bugzilla.gnome.org/browse.cgi?product=glibmm"
+"Nedořešené <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
 "\">chyby glibmm</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/bugs.xml:22
-msgid ""
-"Outstanding <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?"
-"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
-"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
-"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
-"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
-"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
-"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
-"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
-"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
-"\">*mm bugs</ulink>"
-msgstr ""
-"Nedořešené <ulink url=\"https://bugzilla.gnome.org/buglist.cgi?"
-"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
-"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
-"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
-"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
-"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
-"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
-"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
-"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
-"\">chyby *mm</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/bugs.xml:29
-msgid ""
-"<ulink url=\"https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;"
-"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
-"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
-"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
-"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
-"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
-"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
-"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
-"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
-"\">gnome-love bugs</ulink> - a good way to get involved."
-msgstr ""
-"<ulink url=\"https://bugzilla.gnome.org/buglist.cgi?keywords=gnome-love;"
-"query_format=advanced;keywords_type=allwords;bug_status=UNCONFIRMED;"
-"bug_status=NEW;bug_status=ASSIGNED;bug_status=REOPENED;bug_status=NEEDINFO;"
-"product=clutter-box2dmm;product=clutter-gstreamermm;product=clutter-gtkmm;"
-"product=cluttermm;product=cluttermm_tutorial;product=geglmm;product=glibmm;"
-"product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
-"product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
-"product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
-"product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
-"\">chyby se štítkem gnome-love</ulink> – dobrý způsob, jak se zapojit."
-
-#. (itstool) path: listitem/para
-#: C/bugs.xml:32
-msgid ""
-"<ulink url=\"http://bugzilla.gnome.org/buglist.cgi?"
-"short_desc_type=substring&amp;short_desc=&amp;product=glibmm&amp;"
-"product=gnomemm&amp;product=gtkmm&amp;long_desc_type=substring&amp;"
-"long_desc=&amp;status_whiteboard_type=substring&amp;status_whiteboard=&amp;"
-"keywords_type=anywords&amp;keywords=&amp;bug_status=RESOLVED&amp;"
-"bug_status=CLOSED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;"
-"email1=&amp;emailreporter2=1&amp;emailtype2=substring&amp;email2=&amp;"
-"bugidtype=include&amp;bug_id=&amp;changedin=30&amp;chfieldfrom=&amp;"
-"chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Last+Changed&amp;"
-"field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=\">Bugs fixed in the last "
-"30 days</ulink>"
-msgstr ""
-"<ulink url=\"http://bugzilla.gnome.org/buglist.cgi?"
-"short_desc_type=substring&amp;short_desc=&amp;product=glibmm&amp;"
-"product=gnomemm&amp;product=gtkmm&amp;long_desc_type=substring&amp;"
-"long_desc=&amp;status_whiteboard_type=substring&amp;status_whiteboard=&amp;"
-"keywords_type=anywords&amp;keywords=&amp;bug_status=RESOLVED&amp;"
-"bug_status=CLOSED&amp;emailassigned_to1=1&amp;emailtype1=substring&amp;"
-"email1=&amp;emailreporter2=1&amp;emailtype2=substring&amp;email2=&amp;"
-"bugidtype=include&amp;bug_id=&amp;changedin=30&amp;chfieldfrom=&amp;"
-"chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Last+Changed&amp;"
-"field0-0-0=noop&amp;type0-0-0=noop&amp;value0-0-0=\">Opravy chyb za "
-"posledních 30 dní</ulink>"
 
 #. (itstool) path: sect3/para
 #: C/bugs.xml:35
@@ -606,29 +529,27 @@ msgstr "<anchor id=\"NewBugs\"/>Kdy chyby hlásit?"
 #. (itstool) path: listitem/para
 #: C/bugs.xml:42
 msgid ""
-"Bugs are tracked in GNOME's <ulink url=\"http://bugzilla.gnome.org"
-"\">bugzilla</ulink> Submit gtkmm bugs <ulink url=\"http://bugzilla.gnome.org/"
-"enter_bug.cgi?product=gtkmm\">here</ulink>. Submit gnomemm bugs <ulink url="
-"\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm\">here</ulink>."
+"Bugs are tracked in GNOME's <ulink url=\"https://gitlab.gnome.org\">issue "
+"tracker</ulink>. Submit gtkmm bugs <ulink url=\"https://gitlab.gnome.org/"
+"GNOME/gtkmm/issues/new/\">here</ulink>."
 msgstr ""
-"Chyby se sledují v systému <ulink url=\"http://bugzilla.gnome.org"
-"\">bugzilla</ulink> na serverech GNOME. Chyby týkající se gtkmm zasílejte "
-"konkrétně <ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm"
-"\">sem</ulink>, týkající se gnomemm pro změnu <ulink url=\"http://bugzilla."
-"gnome.org/enter_bug.cgi?product=gnomemm\">sem</ulink>."
+"Chyby se sledují v systému pro <ulink url=\"https://gitlab.gnome.org\">"
+"sledování problémů</ulink> v infrastruktuře GNOME. Chyby týkající se gtkmm "
+"zasílejte konkrétně <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
+"new/\">sem</ulink>."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:48
 msgid ""
-"Patches should be attached to existing bugzilla bugs rather than sent to the "
+"Patches should be attached to existing tickets rather than sent to the "
 "mailing list. When reporting a new bug you'll get a chance to attach a file "
 "to it immediately <emphasis role=\"bold\">after</emphasis> opening the bug. "
 "Please remember to patch the ChangeLog too."
 msgstr ""
 "Záplaty by se neměly posílat do poštovní konference, ale je lepší je "
-"připojit ke stávajícím chybám v bugzille. Když hlásíte novou chybu, máte "
-"možnost připojit soubor se záplatou bezprostředně <emphasis role=\"bold"
-"\">po</emphasis> otevření chyby. Nezapomeňte, že záplata by měla povést i "
+"připojit ke stávajícím tiketu. Když hlásíte novou chybu, máte možnost "
+"připojit soubor se záplatou bezprostředně <emphasis role=\"bold\">po"
+"</emphasis> otevření chyby. Nezapomeňte, že záplata by měla povést i "
 "příslušný záznam do souboru ChangeLog."
 
 #. (itstool) path: sect2/title
@@ -729,8 +650,8 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:107
-msgid "Add the patch to bugzilla (see above)."
-msgstr "Přidejte záplatu do systému bugzilla (viz víše)"
+msgid "Add the patch in the issue tracker (see above)."
+msgstr "Přidejte záplatu do systému pro sledování problémů (viz víše)"
 
 #. (itstool) path: sect2/title
 #: C/bugs.xml:112
