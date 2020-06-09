@@ -1,26 +1,27 @@
 # Brazilian Portuguese translation for gnomemm-website.
-# Copyright (C) 2018 gnomemm-website's COPYRIGHT HOLDER
+# Copyright (C) 2020 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2014, 2015, 2018.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2020.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2018-11-03 19:46+0000\n"
-"PO-Revision-Date: 2018-11-03 17:23-0200\n"
+"POT-Creation-Date: 2020-05-24 17:57+0000\n"
+"PO-Revision-Date: 2020-06-09 14:20-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Virtaal 1.0.0-beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"X-Generator: Gtranslator 3.36.0\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Rafael Fontenelle <rafaelff@gnome.org>, 2013, 2014, 2015, 2018"
+msgstr "Rafael Fontenelle <rafaelff@gnome.org>, 2013-2020"
 
 #. (itstool) path: bookinfo/title
 #. (itstool) path: tr/td
@@ -488,9 +489,6 @@ msgstr "Problemas atuais e patches"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:16
-#| msgid ""
-#| "Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?"
-#| "product=gtkmm\">gtkmm bugs</ulink>"
 msgid ""
 "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
 "\">gtkmm bugs</ulink>"
@@ -500,9 +498,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:19
-#| msgid ""
-#| "Outstanding <ulink url=\"http://bugzilla.gnome.org/browse.cgi?"
-#| "product=glibmm\">glibmm bugs</ulink>"
 msgid ""
 "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
 "\">glibmm bugs</ulink>"
@@ -526,29 +521,18 @@ msgstr "<anchor id=\"NewBugs\"/>Onde relatar?"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:42
-#| msgid ""
-#| "Bugs are tracked in GNOME's <ulink url=\"http://bugzilla.gnome.org"
-#| "\">bugzilla</ulink> Submit gtkmm bugs <ulink url=\"http://bugzilla.gnome."
-#| "org/enter_bug.cgi?product=gtkmm\">here</ulink>. Submit gnomemm bugs "
-#| "<ulink url=\"http://bugzilla.gnome.org/enter_bug.cgi?product=gnomemm"
-#| "\">here</ulink>."
 msgid ""
 "Bugs are tracked in GNOME's <ulink url=\"https://gitlab.gnome.org\">issue "
 "tracker</ulink>. Submit gtkmm bugs <ulink url=\"https://gitlab.gnome.org/"
 "GNOME/gtkmm/issues/new/\">here</ulink>."
 msgstr ""
-"Problemas são rastreados no <ulink url=\"https://gitlab.gnome.org\">"
-"rastreador de problemas</ulink> do GNOME. Envie relatórios de problemas do "
-"gtkmm <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/\""
-">aqui</ulink>."
+"Problemas são rastreados no <ulink url=\"https://gitlab.gnome.org"
+"\">rastreador de problemas</ulink> do GNOME. Envie relatórios de problemas "
+"do gtkmm <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/"
+"\">aqui</ulink>."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:48
-#| msgid ""
-#| "Patches should be attached to existing bugzilla bugs rather than sent to "
-#| "the mailing list. When reporting a new bug you'll get a chance to attach "
-#| "a file to it immediately <emphasis role=\"bold\">after</emphasis> opening "
-#| "the bug. Please remember to patch the ChangeLog too."
 msgid ""
 "Patches should be attached to existing tickets rather than sent to the "
 "mailing list. When reporting a new bug you'll get a chance to attach a file "
@@ -660,7 +644,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:107
-#| msgid "Add the patch to bugzilla (see above)."
 msgid "Add the patch in the issue tracker (see above)."
 msgstr "Adicione o patch no rastreador de problemas (veja acima)."
 
@@ -2534,19 +2517,25 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: C/git.xml:12
+#| msgid ""
+#| "glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/"
+#| "glibmm/tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/"
+#| "browse/gtkmm/tree/\">gtkmm</ulink> modules. There is also a <ulink url="
+#| "\"https://git.gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-"
+#| "documentation</ulink> module which contains the gtkmm book and its "
+#| "examples. See below for instructions."
 msgid ""
-"glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/glibmm/"
-"tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/browse/gtkmm/"
-"tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://git."
-"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
-"module which contains the gtkmm book and its examples. See below for "
-"instructions."
+"glibmm and gtkmm are in the <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</ulink> and <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"gtkmm/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://gitlab."
+"gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> module "
+"which contains the gtkmm book and its examples. See below for instructions."
 msgstr ""
-"glibmm e gtkmm estão nos módulos <ulink url=\"https://git.gnome.org/browse/"
-"glibmm/tree/\">glibmm</ulink> e <ulink url=\"https://git.gnome.org/browse/"
-"gtkmm/tree/\">gtkmm</ulink>. Há também um módulo <ulink url=\"https://git."
-"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> que "
-"contém o livro do gtkmm e seus exemplos. Veja abaixo para instruções."
+"glibmm e gtkmm estão nos módulos <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</ulink> e <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/"
+"\">gtkmm</ulink>. Há também um módulo <ulink url=\"https://gitlab.gnome.org/"
+"GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> que contém o livro "
+"do gtkmm e seus exemplos. Veja abaixo para instruções."
 
 #. (itstool) path: sect1/para
 #: C/git.xml:14
@@ -2573,12 +2562,15 @@ msgstr ""
 
 #. (itstool) path: highlights/para
 #: C/git.xml:20
+#| msgid ""
+#| "For instance, to check out the latest version of gtkmm: <command>git "
+#| "clone git://git.gnome.org/gtkmm</command>"
 msgid ""
 "For instance, to check out the latest version of gtkmm: <command>git clone "
-"git://git.gnome.org/gtkmm</command>"
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 msgstr ""
-"Por exemplo, para baixar a última versão do gtkmm: <command>git clone git://"
-"git.gnome.org/gtkmm</command>"
+"Por exemplo, para baixar a última versão do gtkmm: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 
 #. (itstool) path: sect2/title
 #: C/git.xml:23
