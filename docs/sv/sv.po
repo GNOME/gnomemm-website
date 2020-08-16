@@ -1,13 +1,13 @@
 # Swedish translation for gnomemm-website.
-# Copyright © 2015, 2018 gnomemm-website's COPYRIGHT HOLDER
+# Copyright © 2015-2020 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2018, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2018-11-03 19:46+0000\n"
-"PO-Revision-Date: 2018-11-22 18:20+0100\n"
+"POT-Creation-Date: 2020-06-09 17:23+0000\n"
+"PO-Revision-Date: 2020-08-16 19:00+0200\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -2498,17 +2498,16 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: C/git.xml:12
 msgid ""
-"glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/glibmm/"
-"tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/browse/gtkmm/"
-"tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://git."
-"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
-"module which contains the gtkmm book and its examples. See below for "
-"instructions."
+"glibmm and gtkmm are in the <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</ulink> and <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"gtkmm/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://gitlab."
+"gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> module "
+"which contains the gtkmm book and its examples. See below for instructions."
 msgstr ""
-"glibmm och gtkmm finns i modulerna <ulink url=\"https://git.gnome.org/browse/"
-"glibmm/tree/\">glibmm</ulink> och <ulink url=\"https://git.gnome.org/browse/"
-"gtkmm/tree/\">gtkmm</ulink>. Sedan finns också modulen <ulink url=\"https://"
-"git.gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
+"glibmm och gtkmm finns i modulerna <ulink url=\"https://gitlab.gnome.org/"
+"GNOME/glibmm/\">glibmm</ulink> och <ulink url=\"https://gitlab.gnome.org/"
+"GNOME/gtkmm/\">gtkmm</ulink>. Sedan finns också modulen <ulink url=\"https://"
+"gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> "
 "som innehåller gtkmm-boken och dess exempel. Se nedan för instruktioner."
 
 #. (itstool) path: sect1/para
@@ -2537,10 +2536,10 @@ msgstr ""
 #: C/git.xml:20
 msgid ""
 "For instance, to check out the latest version of gtkmm: <command>git clone "
-"git://git.gnome.org/gtkmm</command>"
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 msgstr ""
 "Till exempel, för att checka ut den senaste versionen av gtkmm: <command>git "
-"clone git://git.gnome.org/gtkmm</command>"
+"clone https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 
 #. (itstool) path: sect2/title
 #: C/git.xml:23
