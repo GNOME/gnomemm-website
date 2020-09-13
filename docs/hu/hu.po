@@ -1,28 +1,28 @@
 # Hungarian translation for gnomemm-website.
-# Copyright (C) 2016, 2019. Free Software Foundation, Inc.
+# Copyright (C) 2016, 2019, 2020. Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnomemm-website package.
 #
-# Balázs Meskó <meskobalazs at gmail dot com>, 2016.
+# Balázs Meskó <mesko.balazs at fsfs dot hu>, 2016.
 # Gabor Kelemen <kelemeng at ubuntu dot com>, 2016.
-# Balázs Úr <urbalazs at gmail dot com>, 2019.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2019, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2019-02-02 15:30+0000\n"
-"PO-Revision-Date: 2019-02-07 16:46+0100\n"
-"Last-Translator: Balázs Úr <urbalazs@gmail.com>\n"
+"POT-Creation-Date: 2020-06-09 17:23+0000\n"
+"PO-Revision-Date: 2020-09-13 09:48+0200\n"
+"Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list@gnome.org>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 1.2\n"
+"X-Generator: Lokalize 19.12.3\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
 msgid "translator-credits"
-msgstr "Meskó Balázs <meskobalazs at gmail dot com>, 2016"
+msgstr "Meskó Balázs <mesko.balazs at fsf dot hu>, 2016"
 
 #. (itstool) path: bookinfo/title
 #. (itstool) path: tr/td
@@ -2503,20 +2503,26 @@ msgstr ""
 
 #. (itstool) path: sect1/para
 #: C/git.xml:12
+#| msgid ""
+#| "glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/"
+#| "glibmm/tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/"
+#| "browse/gtkmm/tree/\">gtkmm</ulink> modules. There is also a <ulink url="
+#| "\"https://git.gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-"
+#| "documentation</ulink> module which contains the gtkmm book and its "
+#| "examples. See below for instructions."
 msgid ""
-"glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/glibmm/"
-"tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/browse/gtkmm/"
-"tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://git."
-"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
-"module which contains the gtkmm book and its examples. See below for "
-"instructions."
+"glibmm and gtkmm are in the <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</ulink> and <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"gtkmm/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://gitlab."
+"gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> module "
+"which contains the gtkmm book and its examples. See below for instructions."
 msgstr ""
-"A glibmm és a gtkmm a <ulink url=\"https://git.gnome.org/browse/glibmm/tree/"
-"\">glibmm</ulink> és <ulink url=\"https://git.gnome.org/browse/gtkmm/tree/"
-"\">gtkmm</ulink> modulokban található. Létezik egy <ulink url=\"https://git."
-"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
-"modul is, amely a gtkmm könyvet és a példáit tartalmazza. Lásd lent az "
-"utasításokat."
+"A glibmm és a gtkmm a <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/\""
+">glibmm</ulink> és <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/\""
+">gtkmm</ulink> modulokban található. Létezik egy <ulink"
+" url=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\""
+">gtkmm-documentation</ulink> modul is, amely a gtkmm könyvet és a példáit"
+" tartalmazza. Lásd lent az utasításokat."
 
 #. (itstool) path: sect1/para
 #: C/git.xml:14
@@ -2542,12 +2548,15 @@ msgstr ""
 
 #. (itstool) path: highlights/para
 #: C/git.xml:20
+#| msgid ""
+#| "For instance, to check out the latest version of gtkmm: <command>git "
+#| "clone git://git.gnome.org/gtkmm</command>"
 msgid ""
 "For instance, to check out the latest version of gtkmm: <command>git clone "
-"git://git.gnome.org/gtkmm</command>"
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 msgstr ""
-"Például, a legfrissebb gtkmm verzió letöltéséhez: <command>git clone git://"
-"git.gnome.org/gtkmm</command>"
+"Például, a legfrissebb gtkmm verzió letöltéséhez: <command>git clone"
+" https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 
 #. (itstool) path: sect2/title
 #: C/git.xml:23
