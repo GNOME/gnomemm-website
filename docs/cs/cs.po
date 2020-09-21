@@ -1,13 +1,13 @@
 # Czech translation for gnomemm-website.
 # Copyright (C) 2015 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
-# Marek Černocký <marek@manet.cz>, 2015, 2019.
+# Marek Černocký <marek@manet.cz>, 2015, 2019, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2019-03-10 19:24+0000\n"
-"PO-Revision-Date: 2019-09-11 21:55+0200\n"
+"POT-Creation-Date: 2020-06-09 17:23+0000\n"
+"PO-Revision-Date: 2020-09-21 09:21+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -500,8 +500,8 @@ msgid ""
 "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
 "\">gtkmm bugs</ulink>"
 msgstr ""
-"Nedořešené <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
-"\">chyby gtkmm</ulink>"
+"Nedořešené <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/\">chyby "
+"gtkmm</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:19
@@ -533,10 +533,10 @@ msgid ""
 "tracker</ulink>. Submit gtkmm bugs <ulink url=\"https://gitlab.gnome.org/"
 "GNOME/gtkmm/issues/new/\">here</ulink>."
 msgstr ""
-"Chyby se sledují v systému pro <ulink url=\"https://gitlab.gnome.org\">"
-"sledování problémů</ulink> v infrastruktuře GNOME. Chyby týkající se gtkmm "
-"zasílejte konkrétně <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
-"new/\">sem</ulink>."
+"Chyby se sledují v systému pro <ulink url=\"https://gitlab.gnome.org"
+"\">sledování problémů</ulink> v infrastruktuře GNOME. Chyby týkající se "
+"gtkmm zasílejte konkrétně <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/"
+"issues/new/\">sem</ulink>."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:48
@@ -548,9 +548,9 @@ msgid ""
 msgstr ""
 "Záplaty by se neměly posílat do poštovní konference, ale je lepší je "
 "připojit ke stávajícím tiketu. Když hlásíte novou chybu, máte možnost "
-"připojit soubor se záplatou bezprostředně <emphasis role=\"bold\">po"
-"</emphasis> otevření chyby. Nezapomeňte, že záplata by měla povést i "
-"příslušný záznam do souboru ChangeLog."
+"připojit soubor se záplatou bezprostředně <emphasis role=\"bold\">po</"
+"emphasis> otevření chyby. Nezapomeňte, že záplata by měla povést i příslušný "
+"záznam do souboru ChangeLog."
 
 #. (itstool) path: sect2/title
 #: C/bugs.xml:55
@@ -2520,18 +2520,17 @@ msgstr ""
 #. (itstool) path: sect1/para
 #: C/git.xml:12
 msgid ""
-"glibmm and gtkmm are in the <ulink url=\"https://git.gnome.org/browse/glibmm/"
-"tree/\">glibmm</ulink> and <ulink url=\"https://git.gnome.org/browse/gtkmm/"
-"tree/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://git."
-"gnome.org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink> "
-"module which contains the gtkmm book and its examples. See below for "
-"instructions."
+"glibmm and gtkmm are in the <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</ulink> and <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"gtkmm/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://gitlab."
+"gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> module "
+"which contains the gtkmm book and its examples. See below for instructions."
 msgstr ""
-"glibmm a gtkmm jsou v modulech <ulink url=\"https://git.gnome.org/browse/"
-"glibmm/tree/\">glibmm</ulink> a <ulink url=\"https://git.gnome.org/browse/"
-"gtkmm/tree/\">gtkmm</ulink>. Existuje i modul <ulink url=\"https://git.gnome."
-"org/browse/gtkmm-documentation/tree/\">gtkmm-documentation</ulink>, který "
-"obsahuje knihu gtkmm a příklady z ní. Viz instrukce níže."
+"glibmm a gtkmm jsou v modulech <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</ulink> a <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/"
+"\">gtkmm</ulink>. Existuje i modul <ulink url=\"https://gitlab.gnome.org/"
+"GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink>, který obsahuje "
+"knihu gtkmm a příklady z ní. Viz instrukce níže."
 
 #. (itstool) path: sect1/para
 #: C/git.xml:14
@@ -2559,10 +2558,10 @@ msgstr ""
 #: C/git.xml:20
 msgid ""
 "For instance, to check out the latest version of gtkmm: <command>git clone "
-"git://git.gnome.org/gtkmm</command>"
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 msgstr ""
 "Když si například chcete stáhnout poslední verzi gtkmm: <command>git clone "
-"git://git.gnome.org/gtkmm</command>"
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 
 #. (itstool) path: sect2/title
 #: C/git.xml:23
