@@ -1,0 +1,2952 @@
+# Korean translation for gnomemm-website.
+# Copyright (C) 2021 gnomemm-website's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnomemm-website package.
+# Seong-ho Cho <shcho@gnome.org>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemm-website master\n"
+"POT-Creation-Date: 2020-09-21 07:25+0000\n"
+"PO-Revision-Date: 2021-09-17 14:51+0900\n"
+"Language-Team: Korean <gnome-kr@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
+"X-Generator: Poedit 2.3.1\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "조성호 <shcho@gnome.org>, 2021"
+
+#. (itstool) path: bookinfo/title
+#. (itstool) path: tr/td
+#: C/index.docbook:9 C/git.xml:35 C/git.xml:37 C/git.xml:41 C/git.xml:43
+msgid "gtkmm"
+msgstr "gtkmm"
+
+#. (itstool) path: bookinfo/subtitle
+#: C/index.docbook:10
+msgid "C++ Interfaces for GTK+ and GNOME"
+msgstr "GTK+ 및 그놈용 C++ 인터페이스"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:14
+msgid "<ulink url=\"index.html\">Home</ulink>"
+msgstr "<ulink url=\"index.html\">처음</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:17
+msgid "<ulink url=\"license.html\">License</ulink>"
+msgstr "<ulink url=\"license.html\">라이선스</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:20
+msgid "<ulink url=\"download.html\">Download</ulink>"
+msgstr "<ulink url=\"download.html\">다운로드</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:23
+msgid "<ulink url=\"documentation.html\">Documentation</ulink>"
+msgstr "<ulink url=\"documentation.html\">문서</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:26
+msgid "<ulink url=\"developers.html\">Development</ulink>"
+msgstr "<ulink url=\"developers.html\">개발</ulink>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:30
+msgid "Other Resources"
+msgstr "기타 자료"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:33
+msgid "<ulink url=\"news.html\">News</ulink>"
+msgstr "<ulink url=\"news.html\">소식</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:36
+msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
+msgstr ""
+"<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">자주 묻는 질문</"
+"ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:39
+msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
+msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">위키</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:42
+msgid "<ulink url=\"mailinglist.html\">Mailing Lists</ulink>"
+msgstr "<ulink url=\"mailinglist.html\">메일링 리스트</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:45
+msgid "<ulink url=\"git.html\">Git</ulink>"
+msgstr "<ulink url=\"git.html\">Git</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:48
+msgid "<ulink url=\"bugs.html\">Bugs</ulink>"
+msgstr "<ulink url=\"bugs.html\">버그</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:51
+msgid "<ulink url=\"books.html\">Books</ulink>"
+msgstr "<ulink url=\"books.html\">서적</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:54
+msgid "<ulink url=\"commercial_support.html\">Commercial Support</ulink>"
+msgstr "<ulink url=\"commercial_support.html\">상업 지원</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:57
+msgid "<ulink url=\"extra.html\">Additional Resources</ulink>"
+msgstr "<ulink url=\"extra.html\">추가 자료</ulink>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:62
+msgid "Language"
+msgstr "언어"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:65
+msgid "<ulink url=\"../pt_BR/index.html\">Brazilian Portuguese</ulink>"
+msgstr "<ulink url=\"../pt_BR/index.html\">브라질 포르투갈어</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:68
+msgid "<ulink url=\"../de/index.html\">Deutsch</ulink>"
+msgstr "<ulink url=\"../de/index.html\">독일어</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:71
+msgid "<ulink url=\"../en/index.html\">English</ulink>"
+msgstr "<ulink url=\"../en/index.html\">영어</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:74
+msgid "<ulink url=\"../es/index.html\">Español</ulink>"
+msgstr "<ulink url=\"../es/index.html\">스페인어</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:77
+msgid "<ulink url=\"../fr/index.html\">French</ulink>"
+msgstr "<ulink url=\"../fr/index.html\">프랑스어</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:80
+msgid "<ulink url=\"../el/index.html\">Greek</ulink>"
+msgstr "<ulink url=\"../el/index.html\">그리스어</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:83
+msgid "<ulink url=\"../zh_CN/index.html\">中文</ulink>"
+msgstr "<ulink url=\"../zh_CN/index.html\">중국어</ulink>"
+
+#. (itstool) path: abstract/para
+#: C/index.docbook:102
+msgid "<ulink url=\"mailto:gtkmm-list@gnome.org\">Contact Us</ulink>"
+msgstr "<ulink url=\"mailto:gtkmm-list@gnome.org\">연락하기</ulink>"
+
+#. (itstool) path: highlights/para
+#: C/main.xml:9
+msgid ""
+"<application>gtkmm</application> is the official C++ interface for the "
+"popular GUI library <ulink url=\"http://www.gtk.org/\">GTK+</ulink>. "
+"Highlights include typesafe callbacks, and a comprehensive set of widgets "
+"that are easily extensible via inheritance. You can create user interfaces "
+"either in code or with the <ulink url=\"http://glade.gnome.org/\">Glade User "
+"Interface designer</ulink>, using Gtk::Builder. There's <ulink url="
+"\"documentation.shtml\">extensive documentation</ulink>, including API "
+"reference and a tutorial."
+msgstr ""
+"<application>gtkmm</application> 은 잘 알려진 GUI 라이브러리 <ulink url="
+"\"http://www.gtk.org/\">GTK+</ulink>의 공식 C++ 인터페이스입니다. 강조 부분에"
+"는 형 안전 콜백과 상속 방식으로 쉽게 확장할 수 있는 실제 위젯 세트가 있습니"
+"다. Gtk::Builder로 코드 또는 <ulink url=\"http://glade.gnome.org/\">글레이드 "
+"사용자 인터페이스 디자이너</ulink>에서 사용자 인터페이스를 만들 수 있습니다. "
+"API 참조 및 지침서 내용이 들어있는 <ulink url=\"documentation.shtml\">추가 문"
+"서</ulink>도 있습니다."
+
+#. (itstool) path: highlights/para
+#: C/main.xml:18
+msgid ""
+"<application>gtkmm</application> is free software distributed under the GNU "
+"Library General Public License (<ulink url=\"license.shtml\">LGPL</ulink>)."
+msgstr ""
+"<application>gtkmm</application>은 GNU 라이브러리 일반 공중 사용 허가서"
+"(<ulink url=\"license.shtml\">LGPL</ulink>)에 따라 배포하는 자유 소프트웨어입"
+"니다."
+
+#. (itstool) path: highlights/para
+#: C/main.xml:22
+msgid ""
+"<application>gtkmm</application> follows the official <ulink url=\"https://"
+"www.gnome.org/start/unstable/\"> GNOME Platform Bindings release schedule</"
+"ulink>. This guarantees API/ABI-stability and new releases on a predictable "
+"schedule, delivering C++ API for the underlying GTK+ and GNOME APIs as soon "
+"as possible."
+msgstr ""
+"<application>gtkmm</application>은 공식 <ulink url=\"https://www.gnome.org/"
+"start/unstable/\">그놈 플랫폼 바인딩 출시 일정</ulink>을 따릅니다. 이 계획을 "
+"통해 API/ABI 안정화와 예측 가능한 일정 기간 내에 GTK+와 그놈 API 기반 C++ API"
+"를 최대한 빨리 지원하는 새 릴리스를 보장합니다."
+
+#. (itstool) path: sect1/title
+#: C/main.xml:29
+msgid "Features"
+msgstr "특징"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:33
+msgid "Use inheritance to derive custom widgets."
+msgstr "개별 위젯을 끌어올 때 상속을 활용합니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:36
+msgid "Type-safe signal handlers, in standard C++."
+msgstr "표준 C++에서 형 안전 시그널 핸들러를 사용합니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:39
+msgid "Polymorphism."
+msgstr "다형성을 추구합니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:42
+msgid ""
+"Use of Standard C++ Library, including strings, containers, and iterators."
+msgstr "문자열, 컨테이너, 반복자 등의 표준 C++ 라이브러리를 활용합니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:45
+msgid "Full internationalisation with UTF8."
+msgstr "UTF8 인코딩으로 완벽한 국제화를 지원합니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:51
+msgid "Object composition"
+msgstr "객체 조합"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:54
+msgid "Automatic deallocation of dynamically allocated widgets."
+msgstr "동적으로 할당한 위젯을 자동으로 해제합니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:48
+msgid "Complete C++ memory management <_:itemizedlist-1/>"
+msgstr "완전한 C++ 메모리 관리 <_:itemizedlist-1/>"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:60
+msgid "Full use of C++ namespaces."
+msgstr "C++ 이름 영역을 완벽하게 활용합니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:63
+msgid "No macros."
+msgstr "매크로를 사용하지 않습니다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:66
+msgid ""
+"Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others"
+msgstr ""
+"교차 플랫폼: 리눅스 (gcc), FreeBSD (gcc), NetBSD (gcc), 솔라리스 (gcc, "
+"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), 등"
+
+# free of cost는 공짜라는 이야기가 아님. 원하면 비용을 지불할 수 있다는 의미.
+#. (itstool) path: listitem/para
+#: C/main.xml:69
+msgid ""
+"Free software and free of cost for both Open Source and proprietary "
+"development."
+msgstr ""
+"오픈 소스와 상업용 개발을 위한 자유 소프트웨어이며 비용 지불의 자유가 있습니"
+"다."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:73
+msgid "Discussed, designed and implemented in public."
+msgstr "공개적으로 토론하고, 설계하며, 구현합니다."
+
+#. (itstool) path: sect1/title
+#: C/main.xml:79
+msgid "Other gtkmm-related libraries"
+msgstr "다른 gtkmm 관련 라이브러리"
+
+#. (itstool) path: sect2/title
+#. (itstool) path: sect3/title
+#: C/main.xml:81 C/git.xml:61
+msgid "gnomemm"
+msgstr "gnomemm"
+
+#. (itstool) path: sect2/para
+#: C/main.xml:82
+msgid ""
+"gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
+"GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
+"parser, or database access. Even our signal/slots system is part of a "
+"separate (<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>) "
+"library. However, gtkmm is designed to work well with all other C++ "
+"libraries."
+msgstr ""
+"gtkmm은 GUI 툴킷 그 이상의 것이 아니며 최고의 C++ GUI 툴킷으로 최선을 다합니"
+"다. gtkmm 본질체에서는 일반 C++ 데이터 구조, XML 해석기, 데이터베이스 접근 부"
+"분은  다루지 않습니다. 심지어 시그널/슬롯 시스템은 별도 라이브러리(<ulink "
+"url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>)의 일부입니다. 그러"
+"나 gtkmm은 다른 C++ 라이브러리와 잘 동작하도록 설계했습니다."
+
+#. (itstool) path: sect2/para
+#: C/main.xml:89
+msgid ""
+"The gnomemm libraries cover some of these other tasks, but they are optional."
+msgstr ""
+"gnomemm 라이브러리는 이 기타 부분의 일부를 담당하지만, 취향에 따라 사용할 수 "
+"있습니다."
+
+#. (itstool) path: sect2/title
+#: C/main.xml:95
+msgid "libsigc++"
+msgstr "libsigc++"
+
+#. (itstool) path: sect2/para
+#: C/main.xml:96
+msgid ""
+"Also, be sure to check out our companion libraries, glibmm (UTF8 strings, "
+"threading, etc) and <ulink url=\"http://libsigc.sourceforge.net/\">libsigc+"
+"+</ulink> (signal/slots)."
+msgstr ""
+"또한, 함께 제공하는 라이브러리 glibmm(UTF8 문자열, 스레드 처리, 등)과 <ulink "
+"url=\"http://libsigc.sourceforge.net/\">libsigc++</ulink>(시그널/슬롯)도 확"
+"인해보십시오."
+
+#. (itstool) path: sect2/title
+#. (itstool) path: sect3/title
+#: C/main.xml:101 C/books.xml:41 C/bugs.xml:26
+msgid "Others"
+msgstr "기타"
+
+#. (itstool) path: sect2/para
+#: C/main.xml:102
+msgid ""
+"Be sure to check out <ulink url=\"http://bakery.sourceforge.net/\">Bakery</"
+"ulink>, a framework for constructing gtkmm/gnomemm applications. It allows "
+"use of the Document/View architecture."
+msgstr ""
+"gtkmm/gnomemm 프로그램을 구성하는 프레임워크 <ulink url=\"http://bakery."
+"sourceforge.net/\">Bakery</ulink>를 확인해보십시오. 문서/뷰 구조를 활용할 수 "
+"있습니다."
+
+#. (itstool) path: sect1/title
+#: C/books.xml:8
+msgid "Recommended Books"
+msgstr "추천 서적"
+
+#. (itstool) path: sect1/para
+#: C/books.xml:10
+msgid ""
+"The <ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable"
+"\">Programming with gtkmm 3</ulink> and <ulink url=\"https://developer.gnome."
+"org/gtkmm-tutorial/2.24/\">Programming with gtkmm 2</ulink> books are "
+"available online along with the rest of our <ulink url=\"documentation.html"
+"\">documentation</ulink>."
+msgstr ""
+"<ulink url=\"documentation.html\">문서</ulink> 외 추가 내용을 곁들인 <ulink "
+"url=\"https://developer.gnome.org/gtkmm-tutorial/stable\">Programming with "
+"gtkmm 3</ulink>와(과) <ulink url=\"https://developer.gnome.org/gtkmm-"
+"tutorial/2.24/\">Programming with gtkmm 2</ulink> 서적이 온라인에 있습니다."
+
+#. (itstool) path: sect1/para
+#: C/books.xml:11
+msgid "The gtkmm developers also find these books helpful:"
+msgstr "gtkmm 개발자는 다음 서적을 참고하면 더 도움을 받을 수 있습니다:"
+
+#. (itstool) path: sect2/title
+#: C/books.xml:15
+msgid "Core books"
+msgstr "핵심 서적"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:19
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:22
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:25
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/books.xml:31
+msgid "For beginners"
+msgstr "초심자용"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:35
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:45
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:48
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:51
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"ulink>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:54
+msgid ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</ulink>"
+msgstr ""
+"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</ulink>"
+
+#. (itstool) path: sect1/title
+#: C/bugs.xml:8
+msgid "Bugs"
+msgstr "버그"
+
+#. (itstool) path: highlights/para
+#: C/bugs.xml:10
+msgid ""
+"See <ulink url=\"#NewBugs\">Where to report</ulink> to submit new bugs or "
+"patches."
+msgstr ""
+"새 버그 또는 패치를 제출하려면 <ulink url=\"#NewBugs\">보고 위치</ulink>를 확"
+"인하십시오."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:13
+msgid "Current bugs and patches"
+msgstr "현재 버그와 패치"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:16
+msgid ""
+"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
+"\">gtkmm bugs</ulink>"
+msgstr ""
+"아직 해결하지 못한 <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
+"\">gtkmm 버그</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:19
+msgid ""
+"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
+"\">glibmm bugs</ulink>"
+msgstr ""
+"아직 해결하지 못한 <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
+"\">glibmm 버그</ulink>"
+
+#. (itstool) path: sect3/para
+#: C/bugs.xml:35
+msgid ""
+"As soon as a gtkmm patch has been clearly approved by a maintainer, anybody "
+"with git write access may apply it."
+msgstr ""
+"gtkmm 패치를 관리자가 명백하게 승인하는대로, 누구에게든 git 기록 권한을 줄 "
+"수 있습니다."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:39
+msgid "<anchor id=\"NewBugs\"/>Where to report?"
+msgstr "<anchor id=\"NewBugs\"/>어디에 보고할까요?"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:42
+msgid ""
+"Bugs are tracked in GNOME's <ulink url=\"https://gitlab.gnome.org\">issue "
+"tracker</ulink>. Submit gtkmm bugs <ulink url=\"https://gitlab.gnome.org/"
+"GNOME/gtkmm/issues/new/\">here</ulink>."
+msgstr ""
+"버그는 그놈 <ulink url=\"https://gitlab.gnome.org\">문제 추적기</ulink>에서 "
+"관리합니다. gtkmm 버그는 <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/"
+"issues/new/\">여기</ulink>에 제출하십시오."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:48
+msgid ""
+"Patches should be attached to existing tickets rather than sent to the "
+"mailing list. When reporting a new bug you'll get a chance to attach a file "
+"to it immediately <emphasis role=\"bold\">after</emphasis> opening the bug. "
+"Please remember to patch the ChangeLog too."
+msgstr ""
+"패치는 메일링 리스트로 보내기보다는 기존 티켓에 붙여야 합니다. 새 버그를 보고"
+"할 때 버그 보고서를 연 <emphasis role=\"bold\">다음</emphasis> 파일을 붙여넣"
+"을 기회가 주어집니다. ChangeLog도 패치 내용에 넣어주십시오."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:55
+msgid "What information is needed for a bug report?"
+msgstr "버그 보고서에 어떤 내용이 들어가야 하나요?"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:62
+msgid ""
+"version numbers of GTK+, gtkmm and other related software, including your "
+"platform/distro/compiler."
+msgstr ""
+"플랫폼/배포판/컴파일러 정보가 들어간 GTK+, gtkmm, 기타 관련 프로그램 버전 번"
+"호."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:65
+msgid "description of the bug"
+msgstr "버그 설명"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:68
+msgid "information to reproduce the bug"
+msgstr "버그 재현 정보"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:71
+msgid ""
+"stack dump, if relevant: <command> gdb ./proggy ; run ; *crash* ; where </"
+"command>"
+msgstr ""
+"스택 덤프가 있을 경우: <command> gdb ./proggy ; run ; *crash* ; where </"
+"command>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:75
+msgid "keep it small but detailed"
+msgstr "간소하게, 자세하게"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:78
+msgid "if possible, provide a patch"
+msgstr "가능하다면 패치도 제공합니다"
+
+#. (itstool) path: sect2/para
+#: C/bugs.xml:81
+msgid ""
+"If we can't solve the problem immediately then we might ask you to create a "
+"simple-as-possible example that actually builds. This helps us to isolate "
+"the problem, and proves that the problem is not caused by your own code."
+msgstr ""
+"우리가 문제를 바로 해결하지 못한다면 실제로 빌드하는 간단한 예제를 요청할 수 "
+"있습니다. 이 방식을 통해 문제 가짓수를 제한하여 코드에서 문제가 나타나지 않"
+"게 할 수 있습니다."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:87
+msgid "<anchor id=\"CreatingPatches\"/>How do I create a patch?"
+msgstr "<anchor id=\"CreatingPatches\"/>패치를 어떻게 만들까요?"
+
+#. (itstool) path: sect2/para
+#: C/bugs.xml:88
+msgid ""
+"There are many ways to use Git, but this is the simplest way to create a "
+"patch if you are unfamiliar with Git:"
+msgstr ""
+"깃으로 패치를 만드는 여러가지 방법이 있지만 깃에 익숙하지 않은 경우를 위해 패"
+"치를 만드는 간단한 방법을 알려드립니다:"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:91
+msgid "Take code from <ulink url=\"git.html\">git</ulink>"
+msgstr "<ulink url=\"git.html\">git</ulink>에서 코드를 가져옵니다"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:94
+msgid "Modify that version"
+msgstr "버전을 수정합니다"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:97
+msgid "Check it compiles"
+msgstr "컴파일을 확인합니다"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:100
+msgid "Edit the ChangeLog"
+msgstr "ChangeLog를 수정합니다"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:103
+msgid ""
+"Use git to create a patch <command> git diff -u &gt; my_fix.patch </command>"
+msgstr ""
+"git으로 패치를 만듭니다 <command> git diff -u &gt; my_fix.patch </command>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:107
+msgid "Add the patch in the issue tracker (see above)."
+msgstr "문제 추적 시스템에 패치를 추가합니다(윗 부분 참조)."
+
+#. (itstool) path: sect2/title
+#: C/bugs.xml:112
+msgid "Should I send a bug report?"
+msgstr "버그 보고서를 보내야 할까요?"
+
+#. (itstool) path: sect2/para
+#: C/bugs.xml:113
+msgid "Always send a bug report:"
+msgstr "다음의 경우 언제든지 버그 보고서를 보내세요:"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:119
+msgid "If you get a crash and you think it might be problem with gtkmm."
+msgstr "gtkmm 관련 치명적인 오류를 만났을 경우."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:122
+msgid "If you cannot compile gtkmm."
+msgstr "gtkmm을 컴파일할 수 없을 경우."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:125
+msgid "If you have a good idea of how to make gtkmm better."
+msgstr "gtkmm을 개선하는 방법을 알고 있는 경우."
+
+#. (itstool) path: sect1/title
+#: C/commercial_support.xml:8
+msgid "Commercial Support"
+msgstr "상업 지원"
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:9
+msgid ""
+"The mailing lists, irc, and documentation are helpful, but your company "
+"might require more in-depth assistance or custom development. If so feel "
+"free to contact the following freelance developers and companies directly to "
+"discuss a commercial arrangement. If necessary we can also build larger "
+"development teams."
+msgstr ""
+"메일링 리스트, IRC, 문서로 충분하겠지만, 업체인 경우는 좀 더 자세한 지원 또"
+"는 개별 개발이 필요할 수도 있습니다. 이럴 경우 언제든지 다음 프리랜서 개발자"
+"와 업체에게 업무 관련 문의를 할 수 있습니다. 필요하다면 규모가 더 큰 개발 팀"
+"을 꾸려줄 수 있습니다."
+
+#. (itstool) path: tr/th
+#: C/commercial_support.xml:13
+msgid "Name, email"
+msgstr "이름, 전자베일 주소"
+
+#. (itstool) path: tr/th
+#: C/commercial_support.xml:14
+msgid "Location"
+msgstr "위치"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:17
+msgid ""
+"<ulink url=\"http://www.m2osw.com\">Made to Order Software Corp.</ulink>: "
+"Quality software with easy to use interfaces from simple utilities to "
+"complex e-Business solutions."
+msgstr ""
+"<ulink url=\"http://www.m2osw.com\">Made to Order Software Corp.</ulink>: 간"
+"단한 유틸리티에서 복잡한 전자 비즈니스 솔루션까지 활용하기 쉬운 인터페이스를 "
+"갖춘 고품질 프로그램 제작."
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:18
+msgid "USA, UK"
+msgstr "영미권"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:21
+msgid "<ulink url=\"http://dianiuxinnova.com/\">Dianiux Innova</ulink>"
+msgstr "<ulink url=\"http://dianiuxinnova.com/\">Dianiux Innova</ulink>"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:22
+msgid "Valencia, Spain"
+msgstr "발렌시아, 스페인"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:27
+msgid "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Databases"
+msgstr "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - 데이터베이스"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:30
+msgid ""
+"<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualization, "
+"network management"
+msgstr ""
+"<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - 가상화, 네트워크 관리"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:33
+msgid "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3 Downloader"
+msgstr "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3 다운로더"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:36
+msgid ""
+"<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - "
+"Medical imaging"
+msgstr ""
+"<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - "
+"의학 영상"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:39
+msgid ""
+"<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - Consumer navigation "
+"devices"
+msgstr ""
+"<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - 일반 고객용 네비게이"
+"션 단말기"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:42
+msgid ""
+"<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - "
+"satellite/meteorological"
+msgstr ""
+"<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - 위성/기상"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:45
+msgid ""
+"<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - warehouse "
+"management systems"
+msgstr ""
+"<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - 물류 관리 시스템"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:48
+msgid ""
+"<ulink url=\"http://www.eads.com\">EADS</ulink> - aerospace/defense/satellite"
+msgstr "<ulink url=\"http://www.eads.com\">EADS</ulink> - 항공/국방/위성"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:51
+msgid ""
+"<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - "
+"military/defense"
+msgstr ""
+"<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - 군"
+"사/국방"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:54
+msgid ""
+"<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - "
+"animatronics"
+msgstr ""
+"<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - "
+"애니마트로닉스"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:57
+msgid ""
+"<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - electrical "
+"engineering"
+msgstr "<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - 전자 공학"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:60
+msgid ""
+"<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - "
+"professional audio/music systems"
+msgstr ""
+"<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - 전"
+"문 오디오/음향 시스템"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:63
+msgid ""
+"<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - "
+"electrical/mechanical engineering"
+msgstr ""
+"<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - 전"
+"자/기계 공학"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:66
+msgid "<ulink url=\"http://www.dme.net\">DME</ulink> - mold engineering"
+msgstr "<ulink url=\"http://www.dme.net\">DME</ulink> - 미생물 공학"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:69
+msgid ""
+"<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
+"Brockhaus AG</ulink> - publishing"
+msgstr ""
+"<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
+"Brockhaus AG</ulink> - 출판"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:72
+msgid ""
+"<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS software/hardware"
+msgstr ""
+"<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS 소프트웨어/하드웨어"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:75
+msgid ""
+"<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - security/encryption "
+"software"
+msgstr ""
+"<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - 보안/암호화 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:78
+msgid ""
+"<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - process engineering"
+msgstr "<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - 프로세스 공학"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:81
+msgid ""
+"<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - fiscal Systems, POS"
+msgstr ""
+"<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - fiscal Systems, POS"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:84
+msgid ""
+"<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - "
+"prebuilt software packages"
+msgstr ""
+"<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - 미"
+"리 빌드한 프로그램 패키지"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:87
+msgid ""
+"<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, "
+"medication administration"
+msgstr ""
+"<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, 의"
+"약품 관리"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:90
+msgid ""
+"<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - "
+"Specialized internal applications"
+msgstr ""
+"<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - 특성"
+"화 내부 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:93
+msgid ""
+"<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - "
+"Point Of Sale systems"
+msgstr ""
+"<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - 판"
+"매 단말 시스템"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:96
+msgid ""
+"<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> Medical imaging - "
+"<ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
+msgstr ""
+"<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> Medical imaging - "
+"<ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:99
+msgid ""
+"<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - Banking"
+msgstr ""
+"<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - 금융"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:102
+msgid ""
+"<ulink url=\"http://www.innoventis.de/\">Innoventis</ulink> - Automotive "
+"systems"
+msgstr ""
+"<ulink url=\"http://www.innoventis.de/\">Innoventis</ulink> - 자동화 시스템"
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:25
+msgid ""
+"Many corporations use gtkmm to implement their products and internal "
+"projects. You can get a rough idea of this by looking at the email addresses "
+"on the mailing list. Here is a small list of some of those companies:<_:"
+"itemizedlist-1/>"
+msgstr ""
+"수많은 업체가 제품과 내부 프로젝트 구현에 gtkmm을 사용합니다. 메일링 리스트에"
+"서 이 전자메일 주소를 찾아 대략적인 아이디어를 얻을 수 있습니다. 수많은 업체"
+"중 일부를 간략하게 추려보았습니다:<_:itemizedlist-1/>"
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:105
+msgid ""
+"If you would like to be listed here please send email to the <ulink url="
+"\"mailinglist.html\">mailing list</ulink> or a maintainer."
+msgstr ""
+"이 목록에 추가하고 싶은 내용이 있다면 <ulink url=\"mailinglist.html\">메일링 "
+"리스트</ulink> 또는 관리자에게 전자메일을 보내십시오."
+
+#. (itstool) path: sect1/para
+#: C/commercial_support.xml:106
+msgid ""
+"See also <ulink url=\"http://www.gtk.org/commerce.php\">GTK+ success "
+"stories</ulink>."
+msgstr ""
+"<ulink url=\"http://www.gtk.org/commerce.php\">GTK+ 성공담</ulink>을 읽어보십"
+"시오."
+
+#. (itstool) path: sect1/title
+#: C/developers.xml:8
+msgid "gtkmm Development"
+msgstr "gtkmm 개발"
+
+#. (itstool) path: sect1/para
+#: C/developers.xml:9
+msgid ""
+"gtkmm development is done in the <ulink url=\"http://gnome.org/\">GNOME</"
+"ulink> Git repository. To get started developing gtkmm, see the <ulink url="
+"\"git.html\">detailed Git instructions</ulink>. Discussion about gtkmm "
+"development happens on the <ulink url=\"mailinglist.html\">mailing list</"
+"ulink>."
+msgstr ""
+"gtkmm 개발은 <ulink url=\"http://gnome.org/\">그놈</ulink> 깃 저장소에서 진행"
+"합니다. gtkmm 개발을 시작하려면 <ulink url=\"git.html\">자세한 깃 사용법</"
+"ulink>을 확인하십시오. gtkmm 개발 논의는 <ulink url=\"mailinglist.html\">메일"
+"링 리스트</ulink>에서 진행합니다."
+
+#. (itstool) path: highlights/para
+#: C/developers.xml:13
+msgid ""
+"Please do not mail us directly - use the <ulink url=\"mailinglist.html"
+"\">mailing list</ulink> instead."
+msgstr ""
+"메일을 직접 보내지 마십시오. 대신 <ulink url=\"mailinglist.html\">메일링 리스"
+"트</ulink>로 보내세요."
+
+#. (itstool) path: sect1/title
+#: C/developers.xml:17
+msgid "Developers and Contributors"
+msgstr "개발자 및 기여자"
+
+#. (itstool) path: sect2/title
+#: C/developers.xml:19
+msgid "Current maintainers"
+msgstr "현재 관리자"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:22
+msgid ""
+"<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
+"\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+msgstr ""
+"<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
+"\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:25
+msgid ""
+"<ulink url=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</ulink>"
+msgstr ""
+"<ulink url=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/developers.xml:30
+msgid "Other gtkmm developers"
+msgstr "기타 gtkmm 개발자"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:33
+msgid ""
+"<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
+"url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+msgstr ""
+"<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
+"url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:36
+msgid "Karl Nelson"
+msgstr "Karl Nelson"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:39
+msgid ""
+"<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url="
+"\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+msgstr ""
+"<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url="
+"\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:42
+msgid ""
+"<ulink url=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</ulink>"
+msgstr ""
+"<ulink url=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:45
+msgid "<ulink url=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</ulink>"
+msgstr "<ulink url=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:48
+msgid "<ulink url=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</ulink>"
+msgstr "<ulink url=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:51
+msgid "<ulink url=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</ulink>"
+msgstr "<ulink url=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:54
+msgid ""
+"<ulink url=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</ulink>"
+msgstr ""
+"<ulink url=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/developers.xml:59
+msgid "Previous maintainers"
+msgstr "이전 관리자"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:62
+msgid ""
+"<ulink url=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</ulink>"
+msgstr ""
+"<ulink url=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:65
+msgid "<ulink url=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</ulink>"
+msgstr "<ulink url=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</ulink>"
+
+#. (itstool) path: sect2/para
+#: C/developers.xml:71
+msgid ""
+"There have been many patches, bug fixes and improvements from a lot of "
+"people. Thanks to them."
+msgstr ""
+"수많은 사람이 패치, 버그 수정, 개선점을 제공해줍니다. 이들에게 감사합니다."
+
+#. (itstool) path: sect1/title
+#: C/documentation.xml:13
+msgid "Documentation Overview"
+msgstr "문서 개요"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:22
+msgid "Getting Started with gtkmm"
+msgstr "gtkmm 시작하기"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:23
+msgid ""
+"You might start by reading the <emphasis role=\"bold\">Programming with "
+"gtkmm</emphasis> online book."
+msgstr ""
+"<emphasis role=\"bold\">Programming with gtkmm</emphasis> 온라인 서적으로 시"
+"작하는게 좋겠습니다."
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:24
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/index.html"
+"\">Contents</ulink> of the whole online book."
+msgstr ""
+"온라인 서적의 전체 <ulink url=\"https://developer.gnome.org/gtkmm-tutorial/"
+"stable/index.html\">내용</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:27
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"installation.html\">Installation</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"installation.html\">설치</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:30
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"basics.html\">Basics</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"basics.html\">기본</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:33
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"signals.html\">Signals</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"signals.html\">시그널</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:36
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"container-widgets.html\">Container Widgets</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"container-widgets.html\">컨테이너 위젯</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:39
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"treeview.html\">TreeView</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"treeview.html\">TreeView</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:42
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"memory.html\">Memory Management</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"memory.html\">메모리 관리</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:45
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"builder.html\">Glade and Gtk::Builder</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"builder.html\">글레이드와 Gtk::Builder</ulink>"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:25
+msgid "Selected chapters:<_:itemizedlist-1/>"
+msgstr "선택한 장:<_:itemizedlist-1/>"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:50
+msgid "API Reference"
+msgstr "API 참고 문서"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:53
+msgid "gtkmm (Gtk::)"
+msgstr "gtkmm (Gtk::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:54
+msgid "glibmm (Glib::)"
+msgstr "glibmm (Glib::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:55
+msgid "giomm (Gio::)"
+msgstr "giomm (Gio::)"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:61
+msgid ""
+"<emphasis role=\"bold\"> <ulink url=\"https://developer.gnome.org/gtkmm/"
+"stable/hierarchy.html\">Hierarchy</ulink> </emphasis>"
+msgstr ""
+"<emphasis role=\"bold\"> <ulink url=\"https://developer.gnome.org/gtkmm/"
+"stable/hierarchy.html\">계층도</ulink> </emphasis>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:66
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Widgets.html"
+"\">Widgets</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Widgets.html\">"
+"위젯</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:69
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Containers.html"
+"\">Containers</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Containers.html"
+"\">컨테이너</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:72
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TreeView.html"
+"\">TreeView</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TreeView.html"
+"\">TreeView</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:75
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TextView.html"
+"\">TextView</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TextView.html"
+"\">TextView</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:78
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs.html"
+"\">Dialogs</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs.html\">"
+"대화 상자</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:81
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1UIManager."
+"html\">Menus and Toolbars</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1UIManager."
+"html\">메뉴, 도구 모음</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:84
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1Main.html"
+"\">Main loop</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1Main.html"
+"\">메인 루프</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:87
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__gtkmmEnums.html"
+"\">enums and flags</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__gtkmmEnums.html"
+"\">열거형 및 플래그</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:90
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk_1_1Stock."
+"html\">Stock IDs</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk_1_1Stock."
+"html\">스톡 ID</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:93
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
+"\">Gtk Namespace</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
+"\">Gtk 이름 영역</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:100
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1ustring."
+"html\">ustring</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1ustring."
+"html\">ustring</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:103
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1Exception.html\">Exceptions</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1Exception.html\">예외</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:106
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1RefPtr."
+"html\">RefPtr&lt;&gt;</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1RefPtr."
+"html\">RefPtr&lt;&gt;</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:109
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MainLoop.html"
+"\">Main Event loop</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MainLoop.html"
+"\">메인 이벤트 루프</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:112
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Spawn.html"
+"\">Spawning Processes</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Spawn.html\">프"
+"로세스 개시</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:115
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html"
+"\">Threads</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html\">"
+"스레드</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:118
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MiscUtils.html"
+"\">Miscellaneous Utility Functions</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MiscUtils.html"
+"\">기타 유틸리티 함수</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:121
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__CharsetConv."
+"html\">Character set conversion</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__CharsetConv."
+"html\">문자 세트 변환</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:124
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGlib.html"
+"\">Glib Namespace</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGlib.html"
+"\">Glib 이름 영역</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:131
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGio_1_1File.html"
+"\">File</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGio_1_1File.html"
+"\">File</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:134
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Streams.html"
+"\">Streams</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Streams.html"
+"\">Streams</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:137
+msgid ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGio.html"
+"\">Gio Namespace</ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGio.html"
+"\">Gio 이름 영역</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:145
+msgid "Extra Modules"
+msgstr "추가 모듈"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:146
+msgid ""
+"API reference documentation for other C++ modules, such as gdkmm, pangomm, "
+"gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink "
+"url=\"https://developer.gnome.org/references#c++-bindings\">developer.gnome."
+"org C++ Bindings</ulink> section."
+msgstr ""
+"gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm 등 기타 C++ 모듈의 API 참"
+"고 문서도 <ulink url=\"https://developer.gnome.org/references#c++-bindings"
+"\">developer.gnome.org C++ 바인딩</ulink> 장에 있습니다."
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:149
+msgid "Other Information"
+msgstr "기타 정보"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:152
+msgid "External Documentation"
+msgstr "외부 문서"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:153
+msgid "Unusual Platforms"
+msgstr "흔치 않은 플랫폼"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:159
+msgid ""
+"<ulink url=\"http://libsigc.sourceforge.net/doc.shtml\">libsigc++ "
+"documentation</ulink>"
+msgstr ""
+"<ulink url=\"http://libsigc.sourceforge.net/doc.shtml\">libsigc++ 문서</"
+"ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:162
+msgid ""
+"<ulink url=\"https://developer.gnome.org/gtk3/stable/\">GTK+ reference</"
+"ulink>"
+msgstr ""
+"<ulink url=\"https://developer.gnome.org/gtk3/stable/\">GTK+ 참고</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:165
+msgid ""
+"<ulink url=\"http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index."
+"html\">Standard C++ Library (STL)</ulink>"
+msgstr ""
+"<ulink url=\"http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index."
+"html\">표준 C++ 라이브러리 (STL)</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:172
+msgid ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.SUN?view=markup"
+"\">Solaris, with Sun's Forte C++.</ulink>"
+msgstr ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.SUN?view=markup"
+"\">Solaris, with Sun's Forte C++.</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:175
+msgid ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.win32?view=markup"
+"\">Windows, with mingw and cygwin</ulink>"
+msgstr ""
+"<ulink url=\"https://git.gnome.org/browse/gtkmm/tree/README.win32?view=markup"
+"\">Windows, with mingw and cygwin</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/documentation.xml:183
+msgid "Examples"
+msgstr "예제"
+
+#. (itstool) path: sect2/para
+#: C/documentation.xml:184
+msgid ""
+"Sometimes you need to look at examples to figure out how something should "
+"work. Many examples are included in the gtkmm book, but you can also view "
+"them online: <ulink url=\"https://git.gnome.org/browse/gtkmm-documentation/"
+"tree/examples/book/\">gtkmm examples</ulink>"
+msgstr ""
+"어떻게 동작하는지 알아보려 할 때 예제를 보고 싶을 때가 있습니다. 많은 예제가 "
+"gtkmm 서적에 있지만, 온라인의 <ulink url=\"https://git.gnome.org/browse/"
+"gtkmm-documentation/tree/examples/book/\">gtkmm 예제</ulink>에서도 볼 수 있습"
+"니다"
+
+#. (itstool) path: sect1/title
+#: C/download.xml:8
+msgid "Downloading"
+msgstr "다운로드"
+
+#. (itstool) path: highlights/para
+#: C/download.xml:10
+msgid ""
+"You should use the <ulink url=\"#Binary\">binary packages</ulink> provided "
+"for your operating system unless you wish to test the latest versions. "
+"However, <ulink url=\"#Source\">source packages</ulink> are available as "
+"well."
+msgstr ""
+"최신 버전을 테스트하고 싶은게 아니라면 운영체제에서 제공하는 <ulink url="
+"\"#Binary\">바이너리 패키지</ulink>를 활용하십시오. <ulink url=\"#Source\">소"
+"스 코드 패키지</ulink>도 있습니다."
+
+#. (itstool) path: highlights/para
+#: C/download.xml:12
+msgid ""
+"This page currently mentions gtkmm 2 binary packages. We will update this "
+"page soon as binary packages for gtkmm 3 become available."
+msgstr ""
+"이 페이지에서는 현재 gtkmm 2 바이너리 패키지를 언급합니다. 곧 활용 가능한 "
+"gtkmm 3 바이너리 패키지를 이 페이지에서 언급하도록 업데이트하겠습니다."
+
+#. (itstool) path: sect2/title
+#: C/download.xml:16
+msgid "<anchor id=\"Binary\"/>Binary"
+msgstr "<anchor id=\"Binary\"/>바이너리"
+
+#. (itstool) path: sect2/para
+#: C/download.xml:17
+msgid ""
+"You might find a variety of 3rd party RPMs and debs on the internet, but "
+"only the ones listed here are approved by the gtkmm team. Please encourage "
+"your Linux distribution to provide official gtkmm packages."
+msgstr ""
+"다양한 제 3자 공급 RPM, deb 패키지가 인터넷에 널려있음을 알 수 있지만, gtkmm "
+"팀에서 확인한 목록만 여기에 추려놓았습니다. 리눅스 배포판 관리자에게 공식 "
+"gtkmm 패키지를 제공하도록 권장하십시오."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:20
+msgid ""
+"<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-"
+"get install libgtkmm-3.0-dev</command>. These <ulink url=\"http://packages."
+"qa.debian.org/g/gtkmm3.0.html\">project pages</ulink> might give status."
+msgstr ""
+"<ulink url=\"http://www.debian.org/\">데비안</ulink> GNU/Linux: <command>apt-"
+"get install libgtkmm-3.0-dev</command>. <ulink url=\"http://packages.qa."
+"debian.org/g/gtkmm3.0.html\">프로젝트 페이지</ulink> 에서 상태를 보여줍니다."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:23
+msgid ""
+"<ulink url=\"http://fedoraproject.org/\">Fedora</ulink>/<ulink url=\"http://"
+"www.redhat.com\">RedHat</ulink> Linux: Use <command>yum install gtkmm30-"
+"docs</command> to get the runtime, development, and documentation packages."
+msgstr ""
+"<ulink url=\"http://fedoraproject.org/\">페도라</ulink>/<ulink url=\"http://"
+"www.redhat.com\">레드햇</ulink> 리눅스: <command>yum install gtkmm30-docs</"
+"command> 명령으로 런타임, 개발, 문서 패키지를 받습니다."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:26
+msgid ""
+"<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Get dev-cpp/gtkmm."
+msgstr ""
+"<ulink url=\"http://www.gentoo.org\">젠투 리눅스</ulink>: Get dev-cpp/gtkmm."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:29
+msgid ""
+"<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Use yast to "
+"install gtkmm3-devel."
+msgstr ""
+"<ulink url=\"http://www.novell.com/linux/\">SuSE 리눅스</ulink>: gtkmm3-"
+"devel을 설치하려면 yast 명령을 사용하십시오."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:32
+msgid ""
+"<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
+"install libgtkmm-3.0-dev</command>."
+msgstr ""
+"<ulink url=\"http://www.ubuntu.com/\">우분투</ulink> 리눅스: <command>apt-"
+"get install libgtkmm-3.0-dev</command>."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:35
+msgid ""
+"Windows: Here is an <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/"
+"MSWindows\">installer</ulink>."
+msgstr ""
+"윈도우: <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/MSWindows\">설치 "
+"프로그램이 있습니다</ulink>."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:43
+msgid ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink "
+"url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary "
+"gtkmm packages, with package management."
+msgstr ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc 또는 플랫폼 컴파일러): <ulink url="
+"\"http://thewrittenword.com\">The Written Word</ulink>에서 패키지 관리자를 통"
+"한 바이너리 gtkmm 패키지를 제공합니다."
+
+#. (itstool) path: sect2/para
+#: C/download.xml:46
+msgid "Please tell us about others."
+msgstr "빠진 내용이 있다면 알려주십시오."
+
+#. (itstool) path: sect2/title
+#: C/download.xml:49
+msgid "<anchor id=\"Source\"/>Source"
+msgstr "<anchor id=\"Source\"/>소스 코드"
+
+#. (itstool) path: sect2/para
+#: C/download.xml:50
+msgid ""
+"Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions "
+"(such as 3.15.x) are unstable development versions."
+msgstr ""
+"짝수 버전(3.16.x 등..)이 안정 버전입니다. 홀수 버전(3.15.x) 버전은 불안정 개"
+"발 버전입니다."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:53
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/\">glibmm</ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/\">glibmm</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:56
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/\">gtkmm</ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/\">gtkmm</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:59
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm"
+"\">goocanvasmm</ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm"
+"\">goocanvasmm</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:62
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgdamm/\">libgdamm</"
+"ulink>"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgdamm/\">libgdamm</"
+"ulink>"
+
+#. (itstool) path: sect2/title
+#: C/download.xml:72
+msgid "Requirements"
+msgstr "요구사항"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:75
+msgid "<ulink url=\"http://www.gtk.org\">GTK+</ulink>"
+msgstr "<ulink url=\"http://www.gtk.org\">GTK+</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:78
+msgid "<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>"
+msgstr "<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>"
+
+#. (itstool) path: sect2/title
+#: C/download.xml:83
+msgid "GTK+"
+msgstr "GTK+"
+
+#. (itstool) path: sect2/para
+#: C/download.xml:84
+msgid ""
+"You can download GTK+ and GNOME source code from <ulink url=\"http://"
+"download.gnome.org\">download.gnome.org</ulink>."
+msgstr ""
+"GTK+와 그놈 소스코드를 <ulink url=\"http://download.gnome.org\">download."
+"gnome.org</ulink>에서 다운로드할 수 있습니다."
+
+#. (itstool) path: sect1/title
+#: C/extra.xml:8
+msgid "Additional Resources"
+msgstr "추가 자료"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:10
+msgid "Available widgets"
+msgstr "가용 위젯"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:15
+msgid ""
+"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL "
+"rendering for gtkmm"
+msgstr ""
+"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> gtkmm용 "
+"OpenGL 렌더링"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:18
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+"\">gtkmozembedmm</ulink> Mozilla-based web browser widget"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+"\">gtkmozembedmm</ulink> 모질라 기반 웹 브라우저 위젯"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:21
+msgid ""
+"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> plot widget for "
+"scientific applications"
+msgstr ""
+"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> 과학 계산 프로그"
+"램용 플롯 위젯"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:24
+msgid ""
+"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> "
+"wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
+msgstr ""
+"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> "
+"GtkSourceView (문법 강조 기능이 있는 Gtk::TextView) 래퍼"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:27
+msgid ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
+"\">gstreamermm</ulink> wrappers for gstreamer (streaming media)"
+msgstr ""
+"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
+"\">gstreamermm</ulink> gstreamer (미디어 스트리밍) 래퍼"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:30
+msgid ""
+"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> terminal widget"
+msgstr "<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> 터미널 위젯"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:33
+msgid ""
+"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> "
+"wrappers for GtkExtra (plot, sheet, etc)"
+msgstr ""
+"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> "
+"GtkExtra (플로팅, 시트, 등) 래퍼"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:36
+msgid ""
+"<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
+"ulink> canvas for data flow systems"
+msgstr ""
+"<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
+"ulink> 데이터 흐름 체계 표현용 캔바스"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:39
+msgid ""
+"<ulink url=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</ulink> "
+"C++ chess board tool set for gtkmm"
+msgstr ""
+"<ulink url=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</ulink> "
+"gtkmm용 C++ 체스 게임판 도구 모음"
+
+#. (itstool) path: sect2/para
+#: C/extra.xml:11
+msgid ""
+"In addition to the wrappers distributed with gtkmm and gnomemm, additional "
+"widgets and libraries are available from other sources. <_:itemizedlist-1/>"
+msgstr ""
+"gtkmm과 gnomemm을 함께 배포하는 래퍼에는, 다른 소스에서 온 추가 위젯과 라이브"
+"러리가 있습니다. <_:itemizedlist-1/>"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:44
+msgid "gtkmm tools"
+msgstr "gtkmm 도구"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:47
+msgid ""
+"<ulink url=\"http://glade.gnome.org/\">Glade</ulink> User Interface Designer "
+"for GTK+, glade UI files can be used from a gtkmm program by using Gtk::"
+"Builder"
+msgstr ""
+"<ulink url=\"http://glade.gnome.org/\">글레이드</ulink> GTK+용 사용자 인터페"
+"이스 디자이너. 글레이드 UI 파일은 Gtk::Builder로 gtkmm에서 사용할 수 있습니다"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:50
+msgid ""
+"<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> glade module "
+"for automatically generating gtkmm code (note: glademm is different than "
+"libglademm or Gtk::Builder)"
+msgstr ""
+"<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> gtkmm 코드 자"
+"동 생성용 글레이드 모듈 (참고: glademm은 libglademm이나 Gtk::Builder와는 다릅"
+"니다)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:53
+msgid ""
+"<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> Document/View "
+"Model"
+msgstr ""
+"<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> 문서/보기 모델"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:58
+msgid "Applications using gtkmm"
+msgstr "gtkmm을 활용한 프로그램"
+
+#. (itstool) path: sect2/para
+#: C/extra.xml:59
+msgid ""
+"If all else fails, sometimes it is good to look at the source of some other "
+"projects using the same toolkit."
+msgstr ""
+"어떤 방식으로든 활용에 문제가 있다면, 때로는 동일한 툴킷을 활용한 다른 프로젝"
+"트 소스코드를 살펴보는 것도 좋습니다."
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:62
+msgid "Using gtkmm:"
+msgstr "gtkmm 활용:"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:65
+msgid ""
+"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> multi-file "
+"search/replace with visual feedback"
+msgstr ""
+"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> 시각 수단을 "
+"활용한 다중 파일 검색/바꾸기 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:68
+msgid ""
+"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> creation "
+"of hierarchical text documents"
+msgstr ""
+"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> 계층 텍스"
+"트 문서 생성 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:71
+msgid ""
+"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
+"renames batches of files"
+msgstr ""
+"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> 일"
+"괄 파일 이름 바꾸기 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:74
+msgid "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> audio player"
+msgstr ""
+"<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> 오디오 재생기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:79
+msgid "<ulink url=\"http://www.glom.org/\">Glom</ulink> database environment"
+msgstr "<ulink url=\"http://www.glom.org/\">Glom</ulink> 데이터 베이스 환경"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:82
+msgid ""
+"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> "
+"graphical resource editor for PalmOS applications"
+msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> "
+"PalmOS 프로그램용 그래픽 자원 편집기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:85
+msgid ""
+"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> vector graphics "
+"drawing"
+msgstr ""
+"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> 벡터 그래픽 편집기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:88
+msgid ""
+"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> peer to peer "
+"sharing of freely licensed music"
+msgstr ""
+"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> 자유 라이선스 음악"
+"용 P2P 공유 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:91
+msgid ""
+"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP address "
+"calculator"
+msgstr ""
+"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP 주소 계산기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:94
+msgid ""
+"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modelling and animation"
+msgstr "<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D 모델링, 애니메이터"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:97
+msgid ""
+"<ulink url=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
+"Monitor</ulink> GNOME panel applet"
+msgstr ""
+"<ulink url=\"http://www.fnxweb.com/hardware-monitor-applet\">하드웨어 감시자"
+"</ulink> 그놈 창 애플릿"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:100
+msgid ""
+"<ulink url=\"http://www.workrave.org/\">Workrave</ulink> assists in recovery "
+"and prevention of RSI"
+msgstr ""
+"<ulink url=\"http://www.workrave.org/\">Workrave</ulink> 복구 보조 및 RSI 예"
+"방"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:103
+msgid ""
+"<ulink url=\"http://timfx.sourcearchive.com/\">timfx</ulink> digital video "
+"effects plug-in for Kino"
+msgstr ""
+"<ulink url=\"http://timfx.sourcearchive.com/\">timfx</ulink> Kino 용 디지털 "
+"영상 효과 플러그인"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:106
+msgid ""
+"<ulink url=\"https://git.gnome.org/browse/monster-masher/\">Monster Masher</"
+"ulink> game"
+msgstr ""
+"<ulink url=\"https://git.gnome.org/browse/monster-masher/\">Monster Masher</"
+"ulink> 게임"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:109
+msgid ""
+"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> disk "
+"partitioning tool"
+msgstr ""
+"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> 디스크 영역 분"
+"할 도구"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:114
+msgid ""
+"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> cdrdao "
+"frontend"
+msgstr ""
+"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> cdrdao 프론트"
+"엔드"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:117
+msgid ""
+"<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
+"ulink> GNOME panel applet"
+msgstr ""
+"<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
+"ulink> 그놈 창 애플릿"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:120
+msgid ""
+"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
+"XML Editor"
+msgstr ""
+"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
+"XML 편집기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:123
+msgid ""
+"<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</"
+"ulink> manages duty rotas"
+msgstr ""
+"<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</"
+"ulink> 반복 작업 관리자"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:126
+msgid ""
+"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> collaborative text editor"
+msgstr "<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> 협업 텍스트 편집기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:129
+msgid ""
+"<ulink url=\"https://code.google.com/p/pinot-search/\">Pinot</ulink> "
+"metasearch tool"
+msgstr ""
+"<ulink url=\"https://code.google.com/p/pinot-search/\">Pinot</ulink> 메타 검"
+"색 도구"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:132
+msgid ""
+"<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> color scheme "
+"generator"
+msgstr ""
+"<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> 색상 표 생성 프"
+"로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:135
+msgid ""
+"<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX editor"
+msgstr ""
+"<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX 편집기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:138
+msgid ""
+"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> medical image "
+"viewer"
+msgstr ""
+"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> 의학 영상 뷰어"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:141
+msgid ""
+"<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> "
+"loudspeaker designer"
+msgstr ""
+"<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> 확성기 디"
+"자이너"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:144
+msgid ""
+"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> card "
+"game"
+msgstr ""
+"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> 카드 게"
+"임"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:147
+msgid ""
+"<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> Internet telephone"
+msgstr "<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> 인터넷 전화기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:150
+msgid ""
+"<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> membership "
+"management"
+msgstr ""
+"<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> 회원 관리 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:153
+msgid ""
+"<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> modular "
+"synthesizer and effects processor"
+msgstr ""
+"<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> 모듈러 신"
+"디사이저, 효과음 처리장치"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:156
+msgid ""
+"<ulink url=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</ulink> "
+"background browser and setter"
+msgstr ""
+"<ulink url=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</ulink> 백그라운"
+"드 탐색기 및 설정자"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:159
+msgid ""
+"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI for the GNU "
+"debugger gdb"
+msgstr ""
+"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GNU 디버거 gdb용 "
+"GUI"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:162
+msgid "<ulink url=\"http://beep-media-player.org/\">BMP</ulink> audio player"
+msgstr "<ulink url=\"http://beep-media-player.org/\">BMP</ulink> 오디오 재생기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:165
+msgid ""
+"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> file "
+"synchronization over USB"
+msgstr ""
+"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> USB 파일 동기"
+"화 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:168
+msgid ""
+"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electric flux "
+"line simulation"
+msgstr ""
+"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> 전선 납땜 모의 시"
+"연"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:171
+msgid ""
+"<ulink url=\"http://github.com/egroeper/referencer/\">Referencer</ulink> "
+"document organiser and bibliography manager"
+msgstr ""
+"<ulink url=\"http://github.com/egroeper/referencer/\">Referencer</ulink> 문"
+"서 취합, 서지 관리자"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:174
+msgid ""
+"<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> index cards"
+msgstr ""
+"<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> 색인 카드"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:177
+msgid ""
+"<ulink url=\"http://ardour.org/\">Ardour 2</ulink> multichannel hard disk "
+"recorder and digital audio workstation"
+msgstr ""
+"<ulink url=\"http://ardour.org/\">Ardour 2</ulink> 멀티채널 하드 디스크 녹음"
+"기, 디지털 오디오 워크스테이션"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:180
+msgid ""
+"<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
+"ulink> desktop publishing"
+msgstr ""
+"<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
+"ulink> 데스크톱 출판 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:183
+msgid ""
+"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> foreign "
+"language learning tool"
+msgstr ""
+"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> 외국어 학"
+"습 도구"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:186
+msgid ""
+"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> sound "
+"editor"
+msgstr ""
+"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> 사운드 편"
+"집기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:189
+msgid ""
+"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC client"
+msgstr ""
+"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC 클라이언트"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:192
+msgid ""
+"<ulink url=\"http://dev.mysql.com/downloads/workbench/\">MySQL Workbench</"
+"ulink> database GUI"
+msgstr ""
+"<ulink url=\"http://dev.mysql.com/downloads/workbench/\">MySQL Workbench</"
+"ulink> 데이터베이스 GUI"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:195
+msgid ""
+"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> source code package "
+"organizer"
+msgstr ""
+"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> 소스코드 패키지 구성"
+"자"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:198
+msgid ""
+"<ulink url=\"https://www.gnome.org/\">GNOME System Monitor</ulink> system "
+"monitor"
+msgstr ""
+"<ulink url=\"https://www.gnome.org/\">GNOME 시스템 감시</ulink> 시스템 감시 "
+"프로그램"
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:203
+msgid "Using gtkmm 2.0/2.2:"
+msgstr "gtkmm 2.0/2.2 활용:"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:206
+msgid ""
+"<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> file "
+"sharing client"
+msgstr ""
+"<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> 파일 공유 "
+"클라이언트"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:209
+msgid ""
+"<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME Jabber "
+"IM client"
+msgstr ""
+"<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME 재버 메"
+"신저 클라이언트"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:212
+msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> file manager"
+msgstr "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> 파일 관리자"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:215
+msgid ""
+"<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> "
+"GUI frontend for the efax fax program"
+msgstr ""
+"<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> 전"
+"자 팩시밀리 프로그램 efax GUI 프론트엔드"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:218
+msgid ""
+"<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> organise and "
+"visualise information"
+msgstr ""
+"<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> 정보 취합 및 시각"
+"화"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:221
+msgid ""
+"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> "
+"geneology database viewer"
+msgstr ""
+"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> 계"
+"보(족보) 데이터베이스 뷰어"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:224
+msgid ""
+"<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> voice "
+"stress analysis tool"
+msgstr ""
+"<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> 음성 스트레"
+"스 분석 도구"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:227
+msgid ""
+"<ulink url=\"http://freecode.com/projects/cug\">CUG</ulink> 3D equation "
+"plotter"
+msgstr ""
+"<ulink url=\"http://freecode.com/projects/cug\">CUG</ulink> 3D 수식 플로터"
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:232
+msgid "Using gtkmm 1.2:"
+msgstr "gtkmm 1.2 활용:"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:235
+msgid ""
+"<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> generic SQL GUI"
+msgstr ""
+"<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> 일반 SQL GUI"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:238
+msgid ""
+"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> "
+"Gomoku game for GNOME"
+msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> "
+"GNOME용 오목 게임"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:241
+msgid ""
+"<ulink url=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</ulink> "
+"GUI voicemail / speakerphone / caller ID application"
+msgstr ""
+"<ulink url=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</ulink> "
+"GUI 음성메일 / 스피커폰 / 발신자 ID 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:244
+msgid ""
+"<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> MIME "
+"compliant GUI email client"
+msgstr ""
+"<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> MIME 준수 GUI "
+"전자메일 클라이언트"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:247
+msgid ""
+"<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> graphical "
+"frontend to isdn4linux answering machine"
+msgstr ""
+"<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> isdn4linux 응답기 "
+"그래픽 프론트엔드"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:250
+msgid ""
+"<ulink url=\"http://www.medini.org/software/ped/ped.html\">Ped</ulink> path "
+"editor utility"
+msgstr ""
+"<ulink url=\"http://www.medini.org/software/ped/ped.html\">Ped</ulink> 경로 "
+"편집기 유틸리티"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:253
+msgid ""
+"<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> Usenet "
+"picture grabber"
+msgstr ""
+"<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> Usenet 사"
+"진 수집기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:256
+msgid ""
+"<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
+"ulink> radio application for Video4Linux-compatible radio tuner cards"
+msgstr ""
+"<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
+"ulink> Video4Linux 호환 라디오 튜너 카드용 라디오 프로그램"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:259
+msgid ""
+"<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> software "
+"analogue MIDI sequencer"
+msgstr ""
+"<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> 소프트웨어 "
+"아날로그 미디 시퀀서"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:262
+msgid ""
+"<ulink url=\"http://www.firedrake.org/terraform/\">terraform</ulink> terrain "
+"generator (very cool)"
+msgstr ""
+"<ulink url=\"http://www.firedrake.org/terraform/\">terraform</ulink> 지형 생"
+"성기 (짱 좋아요!)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:265
+msgid "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ client"
+msgstr ""
+"<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ 클라이언트"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:268
+msgid ""
+"<ulink url=\"http://cap.sourceforge.net/\">Chained Audio Plugins</ulink>"
+msgstr ""
+"<ulink url=\"http://cap.sourceforge.net/\">Chained Audio Plugins</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:271
+msgid ""
+"<ulink url=\"http://zarb.org/~gc/html/grany.html\">Grany-3</ulink> cellular "
+"automaton simulator"
+msgstr ""
+"<ulink url=\"http://zarb.org/~gc/html/grany.html\">Grany-3</ulink> 셀룰러 자"
+"동화 모의 시험기"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:274
+msgid ""
+"<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> music "
+"management system"
+msgstr ""
+"<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> 음악 관리 시스템"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:277
+msgid ""
+"<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> 3D "
+"cellular automata simulator"
+msgstr ""
+"<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> 3D 셀룰"
+"러 자동 장치 모의 시험기"
+
+#. (itstool) path: sect2/title
+#: C/extra.xml:283
+msgid "Links"
+msgstr "링크"
+
+#. (itstool) path: sect3/title
+#: C/extra.xml:285
+msgid "GTK+ resources"
+msgstr "GTK+ 자료"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:288
+msgid "<ulink url=\"http://www.gtk.org/\">GTK+ homepage</ulink>"
+msgstr "<ulink url=\"http://www.gtk.org/\">GTK+ 홈페이지</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:291
+msgid "<ulink url=\"https://www.gnome.org/\">GNOME homepage</ulink>"
+msgstr "<ulink url=\"https://www.gnome.org/\">GNOME 홈페이지</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:294
+msgid "<ulink url=\"https://developer.gnome.org/\">GNOME development</ulink>"
+msgstr "<ulink url=\"https://developer.gnome.org/\">GNOME 개발</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:297
+msgid "<ulink url=\"http://www.gimp.org/\">Gimp homepage</ulink>"
+msgstr "<ulink url=\"http://www.gimp.org/\">Gimp 홈페이지</ulink>"
+
+#. (itstool) path: sect1/title
+#: C/git.xml:8
+msgid "Git"
+msgstr "Git"
+
+#. (itstool) path: sect1/para
+#: C/git.xml:9
+msgid ""
+"We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our source "
+"code, in the <ulink url=\"https://www.gnome.org\">GNOME</ulink> Git "
+"repository. Additional information about git.gnome.org is available at "
+"<ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
+msgstr ""
+"<ulink url=\"https://www.gnome.org\">그놈</ulink> 깃 저장소에서는 소스 코드 "
+"관리에 <ulink url=\"http://git-scm.com/\">깃</ulink>을 활용합니다. git.gnome."
+"org 추가 정보는 <ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/"
+"Git</ulink>에 있습니다."
+
+#. (itstool) path: sect1/para
+#: C/git.xml:12
+msgid ""
+"glibmm and gtkmm are in the <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</ulink> and <ulink url=\"https://gitlab.gnome.org/GNOME/"
+"gtkmm/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://gitlab."
+"gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> module "
+"which contains the gtkmm book and its examples. See below for instructions."
+msgstr ""
+"glibmm과 gtkmm은 <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/"
+"\">glibmm</ulink>모듈과 <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/"
+"\">gtkmm</ulink>모듈에 있습니다. gtkmm 서적과 예제를 담은 <ulink url="
+"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
+"ulink> 모듈도 있습니다. 활용법은 아래를 살펴보십시오."
+
+#. (itstool) path: sect1/para
+#: C/git.xml:14
+msgid ""
+"You will need to run the autogen.sh script to generate the build files. We "
+"recommend jhbuild for setting up a separate development prefix."
+msgstr ""
+"빌드 파일을 만들려면 autogen.sh 스크립트를 실행해야 합니다. 별도 개발 접두어"
+"를 설정할 때라면 jhbuild를 추천합니다."
+
+#. (itstool) path: highlights/para
+#: C/git.xml:17
+msgid "<emphasis role=\"bold\">Anonymous Access</emphasis>"
+msgstr "<emphasis role=\"bold\">익명 접근</emphasis>"
+
+#. (itstool) path: highlights/para
+#: C/git.xml:18
+msgid ""
+"For those who do not have a GNOME login, anonymous checkouts are available."
+msgstr "그놈 로그인 계정이 없다면, 익명 가져오기 기능을 활용할 수 있습니다."
+
+#. (itstool) path: highlights/para
+#: C/git.xml:20
+msgid ""
+"For instance, to check out the latest version of gtkmm: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
+msgstr ""
+"gtkmm 최신 버전을 가져오려면 다음 명령을 사용하십시오: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
+
+#. (itstool) path: sect2/title
+#: C/git.xml:23
+msgid "Modules and branches"
+msgstr "모듈 및 브랜치"
+
+#. (itstool) path: sect2/para
+#: C/git.xml:24
+msgid ""
+"We are synchronized with the GNOME release schedule, so we use <ulink url="
+"\"https://wiki.gnome.org/MaintainersCorner#branches\">standard GNOME branch "
+"names</ulink>."
+msgstr ""
+"그놈 출시 일정에 맞추기 때문에 <ulink url=\"https://wiki.gnome.org/"
+"MaintainersCorner#branches\">표준 그놈 브랜치 명칭</ulink>을 활용합니다."
+
+#. (itstool) path: sect3/title
+#: C/git.xml:26
+msgid "gtkmm and glibmm"
+msgstr "gtkmm, glibmm"
+
+#. (itstool) path: tr/th
+#: C/git.xml:29 C/git.xml:64 C/git.xml:95
+msgid "Component"
+msgstr "구성 요소"
+
+#. (itstool) path: tr/th
+#: C/git.xml:30 C/git.xml:96
+msgid "Version"
+msgstr "버전"
+
+#. (itstool) path: tr/th
+#: C/git.xml:31 C/git.xml:66 C/git.xml:97
+msgid "Git Module"
+msgstr "Git 모듈"
+
+#. (itstool) path: tr/th
+#: C/git.xml:32 C/git.xml:67 C/git.xml:98
+msgid "Branch name"
+msgstr "브랜치 명칭"
+
+#. (itstool) path: tr/td
+#: C/git.xml:36
+msgid "2.17/18"
+msgstr "2.17/18"
+
+#. (itstool) path: tr/td
+#: C/git.xml:38 C/git.xml:50 C/git.xml:73 C/git.xml:79 C/git.xml:85
+#: C/git.xml:104 C/git.xml:110 C/git.xml:116 C/git.xml:122
+msgid "master"
+msgstr "master"
+
+#. (itstool) path: tr/td
+#: C/git.xml:42
+msgid "2.16"
+msgstr "2.16"
+
+#. (itstool) path: tr/td
+#: C/git.xml:44
+msgid "gtkmm-2-16"
+msgstr "gtkmm-2-16"
+
+#. (itstool) path: tr/td
+#: C/git.xml:47 C/git.xml:49 C/git.xml:53 C/git.xml:55
+msgid "glibmm"
+msgstr "glibmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:48
+msgid "2.21/22"
+msgstr "2.21/22"
+
+#. (itstool) path: tr/td
+#: C/git.xml:54
+msgid "2.20"
+msgstr "2.20"
+
+#. (itstool) path: tr/td
+#: C/git.xml:56
+msgid "glibmm-2-20"
+msgstr "glibmm-2-20"
+
+#. (itstool) path: tr/th
+#: C/git.xml:65
+msgid "API Version"
+msgstr "API 버전"
+
+#. (itstool) path: tr/td
+#: C/git.xml:70 C/git.xml:72
+msgid "libglademm"
+msgstr "libglademm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:76 C/git.xml:78
+msgid "gconfmm"
+msgstr "gconfmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:82 C/git.xml:84
+msgid "libgnomecanvasmm"
+msgstr "libgnomecanvasmm"
+
+#. (itstool) path: sect3/title
+#: C/git.xml:90
+msgid "*mm bindings for other GNOME-related APIs"
+msgstr "기타 GNOME 관련 API용 *mm 바인딩"
+
+#. (itstool) path: sect3/para
+#: C/git.xml:91
+msgid ""
+"The following bindings are not necessarily on the same schedule as those "
+"listed above."
+msgstr "다음 바인딩은 위 바인딩과 일정을 맞추지 않습니다."
+
+#. (itstool) path: tr/td
+#: C/git.xml:101 C/git.xml:103
+msgid "libgdamm"
+msgstr "libgdamm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:107 C/git.xml:109
+msgid "libgnomedbmm"
+msgstr "libgnomedbmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:113 C/git.xml:115
+msgid "goocanvasmm"
+msgstr "goocanvasmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:119 C/git.xml:121
+msgid "libpanelappletmm"
+msgstr "libpanelappletmm"
+
+#. (itstool) path: sect1/title
+#: C/license.xml:8
+msgid "License"
+msgstr "라이선스"
+
+#. (itstool) path: sect1/para
+#: C/license.xml:9
+msgid ""
+"gtkmm is licensed under the <ulink url=\"http://www.gnu.org\">GNU</ulink> "
+"Library General Public License (<ulink url=\"http://www.gnu.org/licenses/"
+"lgpl.html#TOC1\">LGPL</ulink>) for all platforms. Our intent in licensing it "
+"in this way is to provide it for use through shared libraries in all "
+"projects both open and proprietary. Other GNU projects may of course "
+"integrate and link in a static manner. The full body of the license is "
+"provided for your inspection."
+msgstr ""
+"gtkmm은 모든 플랫폼에 대해 <ulink url=\"http://www.gnu.org\">GNU</ulink> 라이"
+"브러리 일반 공중 사용 허가서 (<ulink url=\"http://www.gnu.org/licenses/lgpl."
+"html#TOC1\">LGPL</ulink>)를 적용합니다. 모든 프로젝트에 있어 오픈소스 또는 상"
+"업용도로 공유 라이브러리를 활용할 수 있게 하는데 목적이 있습니다. 다른 GNU 프"
+"로젝트는 정적 방식으로 통합하고 링크해야 합니다. 내용 확인을 위해 라이선스 전"
+"문을 제공합니다."
+
+#. (itstool) path: sect1/para
+#: C/license.xml:15
+msgid ""
+"This is the only license which grants you use of the software, so if you do "
+"not agree to its terms, you may not use this software."
+msgstr ""
+"이 라이선스가 소프트웨어 활용을 허가하는 유일한 허가서입니다. 이 조항에 동의"
+"하지 않을 경우, 이 소프트웨어를 사용하면 안됩니다."
+
+#. (itstool) path: highlights/para
+#: C/license.xml:18
+msgid ""
+"Note that this license <emphasis role=\"bold\">does not require you to "
+"release the source code of your own applications or libraries</emphasis> and "
+"<emphasis role=\"bold\">does not require you to pay any fees.</emphasis>"
+msgstr ""
+"참고로 이 라이선스는 <emphasis role=\"bold\">프로그램과 라이브러리의 소스 코"
+"드를 공개할 필요가 없으며</emphasis> <emphasis role=\"bold\">어떤 금전적 댓가"
+"도 요구하지 않습니다</emphasis>."
+
+#. (itstool) path: sect1/title
+#: C/mailinglist.xml:8
+msgid "Mailing List"
+msgstr "메일링 리스트"
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:10
+msgid "Where is the gtkmm mailing list?"
+msgstr "gtkmm 메일링 리스트는 어디에 있나요?"
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:13
+msgid ""
+"<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <ulink url=\"mailto:"
+"gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. To subscribe, go to the "
+"<ulink url=\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">subscribe "
+"page</ulink>."
+msgstr ""
+"<emphasis role=\"bold\">gtkmm 메일링 리스트</emphasis>: <ulink url=\"mailto:"
+"gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. 가입하려면 <ulink url="
+"\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">가입 페이지</ulink>를 "
+"방문하십시오."
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:16
+msgid ""
+"For general GTK+ discussion, please use the <ulink url=\"http://www.gtk.org/"
+"mailing-lists.php\">gtk-list</ulink>."
+msgstr ""
+"일반 GTK+ 논의는 <ulink url=\"http://www.gtk.org/mailing-lists.php\">gtk-"
+"list</ulink>에서 진행하십시오."
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:21
+msgid "What subject material is appropriate for the list?"
+msgstr "리스트에서 다루기 적당한 주제는 무엇이 있나요?"
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:22
+msgid ""
+"The mailing lists are used for discussion of development, bug reports, "
+"suggestions, and improvements of the C++ wrappers themselves. There is also "
+"discussion of the use of the wrapper. Questions about the underlying GTK+ "
+"widget set are more likely to be answered quickly through the gtk-list."
+msgstr ""
+"메일링 리스트에서는 개발, 버그 보고, 제안, C++ 래퍼 자체 개선 등을 다루고 있"
+"습니다. 래퍼를 활용하는 방안에 대해서도 이야기합니다. GTK+ 위젯 관련 질문은 "
+"gtk-list에서 질문하는게 답변을 더 빨리 받을 수 있습니다."
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:29
+msgid "List Archives"
+msgstr "리스트 보관"
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:30
+msgid "The archive of messages can be found at:"
+msgstr "보관 메시지는 다음 위치에서 찾아볼 수 있습니다:"
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:33
+msgid ""
+"gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
+"\">archive</ulink>."
+msgstr ""
+"gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/\">저장소</"
+"ulink>."
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:36
+msgid ""
+"<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> archives messages even "
+"from before 2002, and has a more reliable search engine."
+msgstr ""
+"<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink>에 2002년도 이전 메시지"
+"도 보관하고 있으며, 더욱 견고한 검색 엔진이 있습니다."
+
+#. (itstool) path: sect2/title
+#: C/mailinglist.xml:39
+msgid "IRC channel"
+msgstr "IRC 채널"
+
+#. (itstool) path: sect2/para
+#: C/mailinglist.xml:40
+msgid ""
+"We also discuss development in the <emphasis role=\"bold\">#c++</emphasis> "
+"channel on irc.gnome.org, but questions are more likely to be answered "
+"properly on the mailing list. Plus, the mailing list is archived, so others "
+"can benefit from the answers."
+msgstr ""
+"irc.gnome.org의 <emphasis role=\"bold\">#c++</emphasis> 채널에서 개발을 논의"
+"하지만, 메일링 리스트에서 질문에 대해 보다 더 적절하게 응답할 수 있습니다. 게"
+"다가 메일링 리스트 메시지는 모두 보관하기에 다른 사람이 해당 질문 답변을 참조"
+"할 수 있는 잇점이 있습니다."
+
+#. (itstool) path: sect1/title
+#: C/news.xml:8
+msgid "News"
+msgstr "소식"
+
+#. (itstool) path: listitem/para
+#: C/news.xml:11
+msgid ""
+"April 6, 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
+"list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> and <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
+"\">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm 3.0 "
+"wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 API."
+msgstr ""
+"2011년 4월 6일: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
+"list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink>과 <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
+"\">glibmm 2.28.0</ulink>을 그놈 출시 일정에 따라 출시했습니다. gtkmm 3.0은 "
+"GTK+ 3.0의 API를 래핑했으며, gtkmm-2.4와 동시에 설치합니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:16
+msgid ""
+"February 10, 2011: gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2011-February/msg00020.html\">released</ulink>. gtkmm "
+"2.24.0 wraps new API in GTK+ 2.24 and is API/ABI-compatible with gtkmm &gt;= "
+"2.4. It is a version of the gtkmm-2.4 API with API additions. It deprecates "
+"some API, helping application developers to prepare for gtkmm 3.0."
+msgstr ""
+"2011년 2월 10일: gtkmm 2.24.0을 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2011-February/msg00020.html\">출시했습니다</ulink>. "
+"gtkmm 2.24.0은 GTK+ 2.24의 새 API를 래핑했으며, gtkmm &gt;= 2.4와 API/ABI 호"
+"환성을 갖추었습니다. gtkmm-2.4 API에 API를 추가한 버전입니다. 일부 API를 낡"
+"은 항목으로 처리하여, 여러 개발자가 gtkmm 3.0에 대비할 수 있게 했습니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:21
+msgid ""
+"September 22, 2010: gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2010-September/msg00087.html\">released</ulink>, as per "
+"the GNOME schedule. gtkmm 2.22.0 wraps new API in GTK+ 2.22 and is API/ABI-"
+"compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with "
+"API additions."
+msgstr ""
+"2010년 9월 22일: gtkmm 2.22.0을 그놈 출시 일정에 따라 <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2010-September/msg00087.html\">출"
+"시했습니다</ulink>. gtkmm 2.22.0은 GTK+ 2.22의 새 API를 래핑했으며, gtkmm "
+"&gt;= 2.4와 API/ABI 호환성을 갖추었습니다. gtkmm-2.4 API에 API를 추가한 버전"
+"입니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:26
+msgid ""
+"March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
+"gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
+"ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 "
+"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the "
+"gtkmm-2.4 API with API additions."
+msgstr ""
+"2010년 3월 29일: gtkmm 2.20.0, glibmm 2.24.0을 그놈 출시 일정에 따라 <ulink "
+"url=\"http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070."
+"html\">출시했습니다</ulink>. gtkmm 2.20.0은 GTK+ 2.20.0의 새 API를 래핑하였으"
+"며, gtkmm &gt;= 2.4와 API/ABI 호환성을 갖추었습니다. gtkmm-2.4 API에 API를 추"
+"가한 버전입니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:31
+msgid ""
+"September 22, 2008: gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/archives/"
+"gnome-announce-list/2008-September/msg00099.html\">released</ulink>, as per "
+"the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-"
+"compatible with gtkmm 2.12, 2.10, 2.8, 2.6 and 2.4. It is a version of the "
+"gtkmm-2.4 API, with API additions."
+msgstr ""
+"2008년 9월 22일: gtkmm 2.14.0을 그놈 출시 일정에 따라 <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2008-September/msg00099.html\">출"
+"시했습니다</ulink>. gtkmm 2.14.0은 GTK+ 2.14의 새 API를 래핑하였으며, gtkmm "
+"2.12, 2.10, 2.8, 2.6, 2.4와 API 호환성을 갖추었습니다. gtkmm-2.4 API에 API"
+"를 추가한 버전입니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:36
+msgid ""
+"September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <ulink url=\"http://mail."
+"gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"
+"\">released</ulink>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API "
+"in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 and 2.4. It "
+"is a version of the gtkmm-2.4 API, with API additions."
+msgstr ""
+"2007년 9월 14일: gtkmm 2.12.0, glibmm 2.14.0을 그놈 출시 일정에 따라 <ulink "
+"url=\"http://mail.gnome.org/archives/gnome-announce-list/2007-September/"
+"msg00040.html\">출시했습니다</ulink>. gtkmm 2.12.0은 GTK+ 2.12의 새 API를 래"
+"핑하였고, gtkmm 2.10, 2.8, 2.6, 2.4와 API/ABI 호환성을 갖추었습니다. "
+"gtkmm-2.4 API에 API를 추가한 버전입니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:41
+msgid ""
+"August 2006: gtkmm and glibmm 2.10.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gtkmm-list/2006-August/msg00254.html\">released</ulink>, as per the "
+"GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-"
+"compatible with gtkmm 2.8, with API additions."
+msgstr ""
+"2006년 8월: gtkmm, glibmm 2.10.0을 그놈 출시 일정에 따라 <ulink url=\"http://"
+"mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html\">출시했습니다</"
+"ulink>. gtkmm 2.10.0은 GTK+ 2.10의 새 API를 래핑하였고, gtkmm 2.8과 API/ABI "
+"호환성을 갖추었으며 API를 추가했습니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:46
+msgid ""
+"September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. "
+"gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm "
+"2.6, with API additions."
+msgstr ""
+"2005년 9월: gtkmm, glibmm 2.8.0을 그놈 출시 일정에 따라 출시했습니다. gtkmm "
+"2.8.0은 GTK+ 2.8의 새 API를 래핑하였고, gtkmm 2.6과 API/ABI 호환성을 갖추었으"
+"며 API를 추가했습니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:51
+msgid ""
+"March 2005: gtkmm and glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/"
+"archives/gnome-announce-list/2005-March/msg00026.html\">released</ulink>, as "
+"per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-"
+"compatible with gtkmm 2.4, with API additions."
+msgstr ""
+"2005년 3월: gtkmm, glibmm 2.6.0을 그놈 출시 일정에 따라 <ulink url=\"http://"
+"mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html\">출시했"
+"습니다</ulink>. gtkmm 2.6.0은 GTK+ 2.6의 새 API를 래핑하였고, gtkmm 2.4와 is "
+"API/ABI 호환성을 갖추었으며 API를 추가했습니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:56
+msgid ""
+"April 2004: gtkmm and glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/"
+"archives/gnome-announce-list/2004-April/msg00016.html\">released</ulink>, as "
+"per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs "
+"in parallel with gtkmm 2.2."
+msgstr ""
+"2004년 4월: gtkmm, glibmm 2.4.0을 그놈 출시 일정에 따라 <ulink url=\"http://"
+"lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html\">출시"
+"했습니다</ulink>. gtkmm 2.4.0은 GTK+ 2.4의 새 API를 래핑하였으며 gtkmm 2.2"
+"과 동시에 설치할 수 있습니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:61
+msgid ""
+"January 2003: gtkmm 2.2.0 <ulink url=\"http://lists.gnome.org/archives/gtkmm-"
+"list/2003-January/msg00040.html\">released</ulink>, API/ABI-compatible with "
+"gtkmm 2.0, with API additions."
+msgstr ""
+"2003년 1월: gtkmm 2.2.0을 <ulink url=\"http://lists.gnome.org/archives/gtkmm-"
+"list/2003-January/msg00040.html\">출시했습니다</ulink>, gtkmm 2.0과 API/ABI "
+"호환성을 갖추었으며, API를 추가했습니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:66
+msgid ""
+"December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 "
+"released - these APIs are binary-frozen."
+msgstr ""
+"2002년 12월: libglademm 2.0.0, gconfmm 2.0.0, libgnomecanvasmm 2.0.0을 출시했"
+"습니다 - API 바이너리를 고정했습니다."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:71
+msgid ""
+"October 2002: gtkmm 2.0.0 is <ulink url=\"http://lists.gnome.org/archives/"
+"gtkmm-list/2002-October/msg00334.html\">released</ulink> - the API is binary-"
+"frozen."
+msgstr ""
+"2002년 10월: gtkmm 2.0.0을 <ulink url=\"http://lists.gnome.org/archives/"
+"gtkmm-list/2002-October/msg00334.html\">출시했습니다</ulink> - API 바이너리"
+"를 고정했습니다."
