@@ -5,7 +5,7 @@
   <!ENTITY url_refdocs_base_gtkmm_html "https://developer.gnome.org/gtkmm/stable/">
   <!ENTITY url_refdocs_base_book_html "https://developer.gnome.org/gtkmm-tutorial/stable/">
   <!ENTITY url_refdocs_base_pangomm_html "https://developer.gnome.org/pangomm/stable/">
-  <!ENTITY url_examples_base "https://git.gnome.org/browse/gtkmm-documentation/tree/examples/book/">
+  <!ENTITY url_examples_base "https://gitlab.gnome.org/GNOME/gtkmm-documentation/tree/master/examples/book/">
 ]>
 
   <article id="documentation">
@@ -169,10 +169,10 @@
             <td>
               <itemizedlist>
                 <listitem>
-                  <para><ulink url="https://git.gnome.org/browse/gtkmm/tree/README.SUN?view=markup">Solaris, with Sun&apos;s Forte C++.</ulink></para>
+                  <para><ulink url="https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README.SUN">Solaris, with Sun&apos;s Forte C++.</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="https://git.gnome.org/browse/gtkmm/tree/README.win32?view=markup">Windows, with mingw and cygwin</ulink></para>
+                  <para><ulink url="https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README.win32">Windows, with mingw and cygwin</ulink></para>
                 </listitem>
               </itemizedlist>
             </td>

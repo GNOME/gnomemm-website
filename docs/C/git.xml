@@ -8,7 +8,7 @@
       <title>Git</title>
       <para>We use <ulink url="http://git-scm.com/">Git</ulink> to maintain our source
     code, in the <ulink url="https://www.gnome.org">GNOME</ulink> Git repository.
-    Additional information about git.gnome.org is available at <ulink url="https://wiki.gnome.org/Git">wiki.gnome.org/Git</ulink>.</para>
+    Additional information about gitlab.gnome.org is available at <ulink url="https://wiki.gnome.org/Git">wiki.gnome.org/Git</ulink>.</para>
       <para>glibmm and gtkmm are in the <ulink url="https://gitlab.gnome.org/GNOME/glibmm/">glibmm</ulink> and <ulink url="https://gitlab.gnome.org/GNOME/gtkmm/">gtkmm</ulink> modules.
     There is also a <ulink url="https://gitlab.gnome.org/GNOME/gtkmm-documentation/">gtkmm-documentation</ulink> module which contains the gtkmm book and its examples. See below for instructions.</para>
       <para>You will need to run the autogen.sh script to generate the build files. We
