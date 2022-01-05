@@ -156,7 +156,7 @@
             <td>
               <itemizedlist>
                 <listitem>
-                  <para><ulink url="http://libsigc.sourceforge.net/doc.shtml">libsigc++ documentation</ulink></para>
+                  <para><ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++ website</ulink></para>
                 </listitem>
                 <listitem>
                   <para><ulink url="https://developer.gnome.org/gtk3/stable/">GTK+ reference</ulink></para>

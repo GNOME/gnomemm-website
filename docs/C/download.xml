@@ -75,7 +75,7 @@ operating system unless you wish to test the latest versions. However, <ulink ur
               <para><ulink url="http://www.gtk.org">GTK+</ulink></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://libsigc.sourceforge.net">libsigc++</ulink></para>
+              <para><ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</ulink></para>
             </listitem>
           </itemizedlist></para>
       </sect2>

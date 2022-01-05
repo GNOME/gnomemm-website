@@ -83,7 +83,7 @@
    gtkmm is a GUI toolkit and nothing more, and it strives to be the
    best C++ GUI toolkit. That mandate does not cover generic C++ data
    structures, an XML parser, or database access. Even our signal/slots
-   system is part of a separate (<ulink url="http://libsigc.sourceforge.net">libsigc++</ulink>) library.
+   system is part of a separate (<ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</ulink>) library.
    However, gtkmm is designed to work well with all other C++ libraries.
    </para>
         <para>
@@ -94,7 +94,7 @@
       <sect2>
         <title>libsigc++</title>
         <para>
-    Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <ulink url="http://libsigc.sourceforge.net/">libsigc++</ulink> (signal/slots).
+    Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</ulink> (signal/slots).
    </para>
       </sect2>
       <sect2>
