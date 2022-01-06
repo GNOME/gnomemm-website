@@ -12,12 +12,12 @@
    typesafe callbacks, and a comprehensive set of widgets that are
    easily extensible via inheritance. You can create user interfaces
    either in code or with the <ulink url="http://glade.gnome.org/">Glade User Interface designer</ulink>, using Gtk::Builder. There&apos;s
-   <ulink url="documentation.shtml">extensive documentation</ulink>,
+   <ulink url="documentation.html">extensive documentation</ulink>,
    including API reference and a tutorial.
   </para>
       <para>
    &gtkmm; is free software distributed under the GNU Library General
-    Public License (<ulink url="license.shtml">LGPL</ulink>).
+    Public License (<ulink url="license.html">LGPL</ulink>).
   </para>
       <para>
    &gtkmm; follows the official <ulink url="https://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</ulink>. This guarantees
