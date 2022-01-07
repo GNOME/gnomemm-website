@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2022-01-05 15:09+0000\n"
-"PO-Revision-Date: 2022-01-05 18:09+0100\n"
+"POT-Creation-Date: 2022-01-06 14:05+0000\n"
+"PO-Revision-Date: 2022-01-06 16:32+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -122,36 +122,61 @@ msgstr "<ulink url=\"../pt_BR/index.html\">Brasiliansk portugisiska</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:68
+msgid "<ulink url=\"../cs/index.html\">Czech</ulink>"
+msgstr "<ulink url=\"../cs/index.html\">Tjeckiska</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:71
 msgid "<ulink url=\"../de/index.html\">Deutsch</ulink>"
 msgstr "<ulink url=\"../de/index.html\">Deutsch</ulink>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:71
+#: C/index.docbook:74
 msgid "<ulink url=\"../en/index.html\">English</ulink>"
 msgstr "<ulink url=\"../en/index.html\">Engelska</ulink>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:74
+#: C/index.docbook:77
 msgid "<ulink url=\"../es/index.html\">Español</ulink>"
 msgstr "<ulink url=\"../es/index.html\">Español</ulink>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:77
+#: C/index.docbook:80
 msgid "<ulink url=\"../fr/index.html\">French</ulink>"
 msgstr "<ulink url=\"../fr/index.html\">Franska</ulink>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:80
+#: C/index.docbook:83
 msgid "<ulink url=\"../el/index.html\">Greek</ulink>"
 msgstr "<ulink url=\"../el/index.html\">Grekiska</ulink>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:83
+#: C/index.docbook:86
+msgid "<ulink url=\"../hu/index.html\">Hungarian</ulink>"
+msgstr "<ulink url=\"../hu/index.html\">Ungerska</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:89
+msgid "<ulink url=\"../ko/index.html\">Korean</ulink>"
+msgstr "<ulink url=\"../ko/index.html\">Koreanska</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:92
+msgid "<ulink url=\"../sl/index.html\">Slovenian</ulink>"
+msgstr "<ulink url=\"../sl/index.html\">Slovenska</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:95
+msgid "<ulink url=\"../sv/index.html\">Swedish</ulink>"
+msgstr "<ulink url=\"../sv/index.html\">Svenska</ulink>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:98
 msgid "<ulink url=\"../zh_CN/index.html\">中文</ulink>"
 msgstr "<ulink url=\"../zh_CN/index.html\">中文</ulink>"
 
 #. (itstool) path: abstract/para
-#: C/index.docbook:102
+#: C/index.docbook:117
 msgid "<ulink url=\"mailto:gtkmm-list@gnome.org\">Contact Us</ulink>"
 msgstr "<ulink url=\"mailto:gtkmm-list@gnome.org\">Kontakta oss</ulink>"
 
@@ -164,7 +189,7 @@ msgid ""
 "that are easily extensible via inheritance. You can create user interfaces "
 "either in code or with the <ulink url=\"http://glade.gnome.org/\">Glade User "
 "Interface designer</ulink>, using Gtk::Builder. There's <ulink url="
-"\"documentation.shtml\">extensive documentation</ulink>, including API "
+"\"documentation.html\">extensive documentation</ulink>, including API "
 "reference and a tutorial."
 msgstr ""
 "<application>gtkmm</application> är det officiella C++-gränssnittet för det "
@@ -173,17 +198,17 @@ msgstr ""
 "uppsättning komponenter som enkelt kan utökas med hjälp av arv. Du kan skapa "
 "användargränssnitt antingen i kod eller med <ulink url=\"http://glade.gnome."
 "org/\">Glade gränssnittsbyggare</ulink>, med Gtk::Builder. Det finns <ulink "
-"url=\"documentation.shtml\">utförlig dokumentation</ulink> vilken inkluderar "
+"url=\"documentation.html\">utförlig dokumentation</ulink> vilken inkluderar "
 "API-referens och en handbok."
 
 #. (itstool) path: highlights/para
 #: C/main.xml:18
 msgid ""
 "<application>gtkmm</application> is free software distributed under the GNU "
-"Library General Public License (<ulink url=\"license.shtml\">LGPL</ulink>)."
+"Library General Public License (<ulink url=\"license.html\">LGPL</ulink>)."
 msgstr ""
 "<application>gtkmm</application> är fri programvara som distribueras under "
-"GNU Library General Public License (<ulink url=\"license.shtml\">LGPL</"
+"GNU Library General Public License (<ulink url=\"license.html\">LGPL</"
 "ulink>)."
 
 #. (itstool) path: highlights/para
@@ -513,9 +538,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:23
-#| msgid ""
-#| "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
-#| "\">gtkmm bugs</ulink>"
 msgid ""
 "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/pangomm/issues/"
 "\">pangomm bugs</ulink>"
@@ -525,9 +547,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:26
-#| msgid ""
-#| "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
-#| "\">gtkmm bugs</ulink>"
 msgid ""
 "Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/"
 "issues/\">gtkmm-documentation bugs</ulink>"
@@ -1754,7 +1773,6 @@ msgstr "<ulink url=\"http://www.gtk.org\">GTK+</ulink>"
 
 #. (itstool) path: listitem/para
 #: C/download.xml:78
-#| msgid "<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</ulink>"
 msgid ""
 "<ulink url=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</"
 "ulink>"
