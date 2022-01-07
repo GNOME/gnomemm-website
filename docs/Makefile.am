@@ -70,7 +70,7 @@ $(website_indexes): html/%/index.html:$(addprefix %/,$(HELP_FILES))
   lang=$(subst html/,,$(subst /index.html,,$@))
 	$(AM_V_at)rm -rf html/$(lang)
 	$(AM_V_at)$(MKDIR_P) html/$(lang)
-	$(AM_V_GEN)$(XSLTPROC) -o html/$(lang)/ --xinclude param.xsl $(srcdir)/$(lang)/$(help_index_file)
+	$(AM_V_GEN)$(XSLTPROC) -o html/$(lang)/ --xinclude $(srcdir)/param.xsl $(builddir)/$(lang)/$(help_index_file)
 	$(AM_V_at)rm -f html/$(lang)/root.html
 
 # Create a html generation of the C locale's version of the DocBook,
@@ -78,7 +78,7 @@ $(website_indexes): html/%/index.html:$(addprefix %/,$(HELP_FILES))
 html/en/index.html: $(addprefix $(srcdir)/C/,$(HELP_FILES))
 	$(AM_V_at)rm -fr html/en
 	$(AM_V_at)$(MKDIR_P) html/en
-	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude param.xsl $(srcdir)/C/$(help_index_file)
+	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude $(srcdir)/param.xsl $(srcdir)/C/$(help_index_file)
 	
 validate: $(addprefix $(srcdir)/C/,$(HELP_FILES))
 	$(XMLLINT) --xinclude --postvalid --noout $<
