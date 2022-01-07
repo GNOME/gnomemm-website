@@ -1,0 +1,44 @@
+# 2022-01-06: ubuntu:latest = 20.04, ubuntu:rolling = 21.10, ubuntu:devel = 22.04
+# See https://hub.docker.com/_/ubuntu
+image: ubuntu:rolling
+
+stages:
+  - build
+  - deploy
+
+website_build:
+  stage: build
+  variables:
+    DEPENDENCIES:
+      autoconf
+      yelp-tools
+      make
+      gettext
+      itstool
+      libxml2-utils
+      xsltproc
+      docbook-xml
+      docbook-xsl
+  #    docbook5-xml
+  #    docbook-xsl-ns
+  script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - apt update && apt -y upgrade && apt -y install $DEPENDENCIES
+    - mkdir _build && cd _build
+    - ../autogen.sh --prefix=/usr
+    - make
+  artifacts:
+    paths:
+      - _build/docs/html
+
+# Publish the gtkmm website at gnome.pages.gitlab.gnome.org/gnomemm-website
+pages:
+  stage: deploy
+  script:
+    - mkdir public
+    - mv docs/html/.htaccess docs/html/* _build/docs/html/* public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
