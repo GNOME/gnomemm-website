@@ -9,6 +9,9 @@ stages:
 website_build:
   stage: build
   variables:
+    # If docbook-xsl is installed, the xsltproc command reads
+    # stylesheets from local files instead of http://docbook.sourceforge.net.
+    # Faster and safer. Reading from docbook.sourceforge.net sometimes fails.
     DEPENDENCIES:
       autoconf
       yelp-tools
@@ -19,8 +22,6 @@ website_build:
       xsltproc
       docbook-xml
       docbook-xsl
-  #    docbook5-xml
-  #    docbook-xsl-ns
   script:
     - export DEBIAN_FRONTEND=noninteractive
     - apt update && apt -y upgrade && apt -y install $DEPENDENCIES
