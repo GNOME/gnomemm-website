@@ -15,6 +15,7 @@ website_build:
     DEPENDENCIES:
       meson
       ninja-build
+      python3-setuptools
       yelp-tools
       gettext
       itstool
