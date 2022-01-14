@@ -1,0 +1,5 @@
+option('validation', type: 'boolean', value: false,
+  description: 'Validate the untranslated XML file')
+option('build-translations', type: 'boolean', value: true,
+  description: 'Build translated website')
+
