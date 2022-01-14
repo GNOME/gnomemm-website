@@ -13,9 +13,10 @@ website_build:
     # stylesheets from local files instead of http://docbook.sourceforge.net.
     # Faster and safer. Reading from docbook.sourceforge.net sometimes fails.
     DEPENDENCIES:
-      autoconf
+      meson
+      ninja-build
+      python3-setuptools
       yelp-tools
-      make
       gettext
       itstool
       libxml2-utils
@@ -26,8 +27,8 @@ website_build:
     - export DEBIAN_FRONTEND=noninteractive
     - apt update && apt -y upgrade && apt -y install $DEPENDENCIES
     - mkdir _build && cd _build
-    - ../autogen.sh --prefix=/usr
-    - make
+    - meson --prefix=/usr
+    - meson compile
   artifacts:
     paths:
       - _build/docs/html
@@ -37,7 +38,7 @@ pages:
   stage: deploy
   script:
     - mkdir public
-    - mv docs/html/.htaccess docs/html/* _build/docs/html/* public
+    - mv _build/docs/html/.htaccess _build/docs/html/* public
   artifacts:
     paths:
       - public
