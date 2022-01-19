@@ -46,7 +46,8 @@
  </para>
           </listitem>
           <listitem>
-            <para>Patches should be attached to existing tickets rather than sent to
+            <para>Patches should be attached to existing issues or MRs
+ (merge requests) rather than sent to
  the mailing list.  When reporting a new bug you&apos;ll get a chance to attach a
  file to it immediately <emphasis role="bold">after</emphasis> opening the issue.</para>
           </listitem>
@@ -54,13 +55,9 @@
       </sect2>
       <sect2>
         <title>What information is needed for a bug report?</title>
-        <para>
-
-
- </para>
         <itemizedlist>
           <listitem>
-            <para>version numbers of GTK+, gtkmm and other related software, including your platform/distro/compiler.</para>
+            <para>version numbers of GTK, gtkmm and other related software, including your platform/distro/compiler.</para>
           </listitem>
           <listitem>
             <para>description of the bug</para>
@@ -98,9 +95,6 @@
             <para>Check it compiles</para>
           </listitem>
           <listitem>
-            <para>Edit the ChangeLog</para>
-          </listitem>
-          <listitem>
             <para>Use git to create a patch
  <command> git diff -u &gt; my_fix.patch </command></para>
           </listitem>
@@ -113,7 +107,6 @@
         <title>Should I send a bug report?</title>
         <para>
  Always send a bug report:
-
  </para>
         <itemizedlist>
           <listitem>
@@ -126,6 +119,9 @@
             <para>If you have a good idea of how to make gtkmm better.</para>
           </listitem>
         </itemizedlist>
+        <para>If you know how to fix the bug, you can
+          <ulink url="https://gitlab.gnome.org/help/user/project/merge_requests/creating_merge_requests.md">
+         create a merge request</ulink> instead of (or in addition to) an issue. </para>
       </sect2>
     </sect1>
   </article>

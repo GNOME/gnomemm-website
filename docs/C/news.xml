@@ -6,70 +6,30 @@
 <article id="news">
     <sect1>
       <title>News</title>
+      <para>This list will not be updated each time a new release is made.
+        The listed versions are the latest ones at the time of writing, but
+        there may be newer releases when you read this text. See
+        <ulink url="https://download.gnome.org/sources/">download.gnome.org/sources/</ulink>
+        and <ulink url="https://www.cairographics.org/releases/">www.cairographics.org/releases/</ulink>.</para>
       <para><itemizedlist>
           <listitem>
             <para>
-  April 6, 2011: <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00043.html">gtkmm 3.0.0</ulink> and <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm 3.0 wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 API.
-  </para>
-          </listitem>
-           <listitem>
-            <para>
-  February 10, 2011: gtkmm 2.24.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2011-February/msg00020.html">released</ulink>. gtkmm 2.24.0 wraps new API in GTK+ 2.24 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions. It deprecates some API, helping application developers to prepare for gtkmm 3.0.
-  </para>
-          </listitem>
-           <listitem>
-            <para>
-  September 22, 2010: gtkmm 2.22.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2010-September/msg00087.html">released</ulink>, as per the GNOME schedule. gtkmm 2.22.0 wraps new API in GTK+ 2.22 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions.
+  September 9, 2021: <ulink url="https://download.gnome.org/sources/gtkmm/4.4/">gtkmm 4.4.0</ulink>
   </para>
           </listitem>
           <listitem>
             <para>
-  March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070.html">released</ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with API additions.
+  May 21, 2021: <ulink url="https://download.gnome.org/sources/gtkmm/3.24/">gtkmm 3.24.5</ulink>
   </para>
           </listitem>
           <listitem>
             <para>
-  September 22, 2008: gtkmm 2.14.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2008-September/msg00099.html">released</ulink>, as per the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-compatible with gtkmm 2.12, 2.10, 2.8, 2.6 and 2.4. It is a version of the gtkmm-2.4 API, with API additions.
+  October 6, 2021: <ulink url="https://download.gnome.org/sources/glibmm/2.70/">glibmm 2.70.0</ulink>
   </para>
           </listitem>
           <listitem>
             <para>
-  September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html">released</ulink>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 and 2.4. It is a version of the gtkmm-2.4 API, with API additions.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  August 2006: gtkmm and glibmm 2.10.0 <ulink url="http://mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html">released</ulink>, as per the GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-compatible with gtkmm 2.8, with API additions.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm 2.6, with API additions.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  March 2005: gtkmm and glibmm 2.6.0 <ulink url="http://mail.gnome.org/archives/gnome-announce-list/2005-March/msg00026.html">released</ulink>, as per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-compatible with gtkmm 2.4, with API additions.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  April 2004: gtkmm and glibmm 2.4.0 <ulink url="http://lists.gnome.org/archives/gnome-announce-list/2004-April/msg00016.html">released</ulink>, as per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs in parallel with gtkmm 2.2.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  January 2003: gtkmm 2.2.0 <ulink url="http://lists.gnome.org/archives/gtkmm-list/2003-January/msg00040.html">released</ulink>, API/ABI-compatible with gtkmm 2.0, with API additions.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 released - these APIs are binary-frozen.
-  </para>
-          </listitem>
-          <listitem>
-            <para>
-  October 2002: gtkmm 2.0.0 is <ulink url="http://lists.gnome.org/archives/gtkmm-list/2002-October/msg00334.html">released</ulink> - the API is binary-frozen.
+  October 6, 2021: <ulink url="https://download.gnome.org/sources/glibmm/2.66/">glibmm 2.66.2</ulink>
   </para>
           </listitem>
         </itemizedlist></para>

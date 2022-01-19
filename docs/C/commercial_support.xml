@@ -103,6 +103,6 @@ require more in-depth assistance or custom development. If so feel free to conta
           </listitem>
         </itemizedlist></para>
       <para>If you would like to be listed here please send email to the <ulink url="mailinglist.html">mailing list</ulink> or a maintainer.</para>
-      <para>See also <ulink url="http://www.gtk.org/commerce.php">GTK+ success stories</ulink>.</para>
+      <para>See also <emphasis>Apps built with GTK</emphasis> at <ulink url="https://www.gtk.org">the GTK website</ulink>.</para>
     </sect1>
   </article>

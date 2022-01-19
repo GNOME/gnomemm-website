@@ -10,30 +10,32 @@
         <title>Where is the gtkmm mailing list?</title>
         <para><itemizedlist>
             <listitem>
-              <para><emphasis role="bold">gtkmm mailing list</emphasis>: <ulink url="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</ulink>. To subscribe, go to the <ulink url="http://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</ulink>.</para>
+              <para><emphasis role="bold">gtkmm mailing list</emphasis>: <ulink url="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</ulink>. To subscribe, go to the <ulink url="https://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</ulink>.</para>
             </listitem>
             <listitem>
-              <para>For general GTK+ discussion, please use the <ulink url="http://www.gtk.org/mailing-lists.php">gtk-list</ulink>.</para>
+              <para>For general GTK discussion, please use the GNOME <ulink url="https://discourse.gnome.org">Discourse</ulink>
+               instance, under the <ulink url="https://discourse.gnome.org/c/platform/core">Platform/Core</ulink> category.</para>
             </listitem>
           </itemizedlist></para>
       </sect2>
       <sect2>
         <title>What subject material is appropriate for the list?</title>
-        <para>    The mailing lists are used for discussion of development, bug reports,
+        <para>The mailing lists are used for discussion of development,
     suggestions, and improvements of the C++ wrappers themselves. There is
-    also  discussion of the use of the wrapper. Questions about the
-    underlying GTK+ widget set are more likely to be answered quickly
-    through the gtk-list.</para>
+    also discussion of the use of the wrapper. Questions about the
+    underlying GTK widget set are more likely to be answered quickly
+    through the Discourse platform. Bugs are better reported and discussed in
+    GitLab issues and merge requests.</para>
       </sect2>
       <sect2>
         <title>List Archives</title>
         <para>The archive of messages can be found at:</para>
         <para><itemizedlist>
             <listitem>
-              <para>gtkmm-list <ulink url="http://mail.gnome.org/archives/gtkmm-list/">archive</ulink>.</para>
+              <para>gtkmm-list <ulink url="https://mail.gnome.org/archives/gtkmm-list/">archive</ulink>.</para>
             </listitem>
           </itemizedlist></para>
-        <para><ulink url="http://marc.info/?l=gtkmm">MARC</ulink> archives messages even from before 2002, and has a more reliable search engine.</para>
+        <para><ulink url="https://marc.info/?l=gtkmm">MARC</ulink> archives messages even from before 2002, and has a more reliable search engine.</para>
       </sect2>
       <sect2>
         <title>IRC channel</title>

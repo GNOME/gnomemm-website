@@ -7,7 +7,10 @@
     <sect1>
       <title>Recommended Books</title>
       
-      <para>The <ulink url="https://developer.gnome.org/gtkmm-tutorial/stable">Programming with gtkmm 3</ulink> and <ulink url="https://developer.gnome.org/gtkmm-tutorial/2.24/">Programming with gtkmm 2</ulink> books are available online along with the rest of our <ulink url="documentation.html">documentation</ulink>.</para>
+      <para>The <ulink url="https://developer.gnome.org/gtkmm-tutorial/stable">Programming with gtkmm 4</ulink>
+        and <ulink url="https://developer.gnome.org/gtkmm-tutorial/3.24/">Programming with gtkmm 3</ulink>
+        tutorials are available online along with the rest of our <ulink url="documentation.html">documentation</ulink>.</para>
+      <para><ulink url="https://mesonbuild.com/">The Meson build system</ulink> is also described online.</para>
       <para>
    The gtkmm developers also find these books helpful:
   </para>

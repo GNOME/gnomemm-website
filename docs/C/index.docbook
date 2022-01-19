@@ -7,7 +7,7 @@
 <book xmlns:its="http://www.w3.org/2005/11/its">
   <bookinfo>
     <title>gtkmm</title>
-    <subtitle>C++ Interfaces for GTK+ and GNOME</subtitle>
+    <subtitle>C++ Interfaces for GTK and GNOME</subtitle>
     <abstract>
       <para id="banner"><itemizedlist>
           <listitem>
@@ -105,14 +105,14 @@
               <imagedata its:translate="no" fileref="../images/gtk-logo.png"/>
             </imageobject>
           </mediaobject>
-          <ulink url="http://www.gtk.org"/>
+          <ulink url="https://www.gtk.org"/>
         </informalfigure><informalfigure>
           <mediaobject>
             <imageobject>
               <imagedata its:translate="no" fileref="../images/GNOME-logo.png"/>
             </imageobject>
           </mediaobject>
-          <ulink url="http://www.gnome.org"/>
+          <ulink url="https://www.gnome.org"/>
         </informalfigure></para>
       <para id="footer"><ulink url="mailto:gtkmm-list@gnome.org">Contact Us</ulink></para>
     </abstract>
