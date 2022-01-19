@@ -6,7 +6,7 @@
   <article id="developers">
     <sect1>
       <title>gtkmm Development</title>
-      <para>gtkmm development is done in the <ulink url="http://gnome.org/">GNOME</ulink> Git
+      <para>gtkmm development is done in the <ulink url="https://gnome.org/">GNOME</ulink> Git
 repository.  To get started developing gtkmm, see the <ulink url="git.html">detailed Git instructions</ulink>.  Discussion about gtkmm
 development happens on the <ulink url="mailinglist.html">mailing list</ulink>.</para>
       <highlights>
@@ -23,6 +23,9 @@ development happens on the <ulink url="mailinglist.html">mailing list</ulink>.</
           </listitem>
           <listitem>
             <para><ulink url="mailto:daniel.kitta@googlemail.com">Daniel Elstner</ulink></para>
+          </listitem>
+          <listitem>
+            <para><ulink url="mailto:kjellahlstedt@gmail.com">Kjell Ahlstedt</ulink></para>
           </listitem>
         </itemizedlist>
       </sect2>

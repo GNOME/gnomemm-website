@@ -8,10 +8,10 @@
     <highlights>
       <para>
    &gtkmm; is the official C++ interface for the popular GUI library
-   <ulink url="http://www.gtk.org/">GTK+</ulink>. Highlights include
+   <ulink url="https://www.gtk.org/">GTK</ulink>. Highlights include
    typesafe callbacks, and a comprehensive set of widgets that are
    easily extensible via inheritance. You can create user interfaces
-   either in code or with the <ulink url="http://glade.gnome.org/">Glade User Interface designer</ulink>, using Gtk::Builder. There&apos;s
+   either in code or with the <ulink url="https://glade.gnome.org/">Glade User Interface designer</ulink>, using Gtk::Builder. There&apos;s
    <ulink url="documentation.html">extensive documentation</ulink>,
    including API reference and a tutorial.
   </para>
@@ -22,7 +22,7 @@
       <para>
    &gtkmm; follows the official <ulink url="https://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</ulink>. This guarantees
    API/ABI-stability and new releases on a predictable schedule,
-   delivering C++ API for the underlying GTK+ and GNOME APIs as soon as possible.
+   delivering C++ API for the underlying GTK and GNOME APIs as soon as possible.
   </para>
     </highlights>
     <sect1>
@@ -63,7 +63,8 @@
             <para>No macros.</para>
           </listitem>
           <listitem>
-            <para>Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others</para>
+            <para>Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, Forte),
+              Win32 (gcc, MSVC 2013 or later (gtkmm3), MSVC 2017 or later (gtkmm4)), MacOS X (gcc), others</para>
           </listitem>
           <listitem>
             <para>Free software and free of cost for both Open Source and

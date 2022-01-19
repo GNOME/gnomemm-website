@@ -12,16 +12,22 @@
     <sect1>
       <title>Documentation Overview</title>
 
-      <!-- This is no longer likely to be a common problem, though we should add some explanation of gtkmm-2.4 versus gtkmm-3.0 when we go stable.
       <highlights>
-        <para>This documentation is for the gtkmm-2.4 and gnomemm-2.6 APIs. There is an older gtkmm API called gtkmm-2.0 which can be installed in parallel. The gtkmm-2.4 name refers to the API/ABI series and not the release version. For instance, gtkmm 2.10 is a version of the gtkmm-2.4 API.</para>
+        <para>This documentation is for the gtkmm-4.0 API, where nothing else is said.
+          There is an older gtkmm API, called gtkmm-3.0, which can be installed in parallel.
+          The gtkmm-3.0/gtkmm-4.0 names refer to the API/ABI series and not the release version.
+          For instance, gtkmm 3.24.0 is a version of the gtkmm-3.0 API.</para>
+        <para>There are even older API versions, such as gtkmm-2.4. Those versions
+          are no longer supported.</para>
       </highlights>
-      -->
+      <para>Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a
+        <ulink url="https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html">gtkmm-list post.</ulink></para>
 
       <sect2>
         <title>Getting Started with gtkmm</title>
         <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book.</para>
-        <para><ulink url="&url_refdocs_base_book_html;index.html">Contents</ulink> of the whole online book.</para>
+        <para><ulink url="https://developer.gnome.org/gtkmm-tutorial/3.24/index.html">Contents</ulink> of the whole online book, gtkmm-3.0.</para>
+        <para><ulink url="&url_refdocs_base_book_html;index.html">Contents</ulink> of the whole online book, gtkmm-4.0.</para>
         <para>Selected chapters:<itemizedlist>
             <listitem>
               <para><ulink url="&url_refdocs_base_book_html;chapter-installation.html">Installation</ulink></para>
@@ -37,6 +43,9 @@
             </listitem>
             <listitem>
               <para><ulink url="&url_refdocs_base_book_html;chapter-treeview.html">TreeView</ulink></para>
+            </listitem>
+            <listitem>
+              <para><ulink url="&url_refdocs_base_book_html;chapter-menus-and-toolbars.html">Menus and Toolbars</ulink></para>
             </listitem>
             <listitem>
               <para><ulink url="&url_refdocs_base_book_html;chapter-memory.html">Memory Management</ulink></para>
@@ -78,16 +87,10 @@
                   <para><ulink url="&url_refdocs_base_gtkmm_html;group__Dialogs.html">Dialogs</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="&url_refdocs_base_gtkmm_html;classGtk_1_1UIManager.html">Menus and Toolbars</ulink></para>
-                </listitem>
-                <listitem>
-                  <para><ulink url="&url_refdocs_base_gtkmm_html;classGtk_1_1Main.html">Main loop</ulink></para>
+                  <para><ulink url="&url_refdocs_base_gtkmm_html;classGtk_1_1Application.html">Application</ulink></para>
                 </listitem>
                 <listitem>
                   <para><ulink url="&url_refdocs_base_gtkmm_html;group__gtkmmEnums.html">enums and flags</ulink></para>
-                </listitem>
-                <listitem>
-                  <para><ulink url="&url_refdocs_base_gtkmm_html;namespaceGtk_1_1Stock.html">Stock IDs</ulink></para>
                 </listitem>
                 <listitem>
                   <para><ulink url="&url_refdocs_base_gtkmm_html;namespaceGtk.html">Gtk Namespace</ulink></para>
@@ -100,19 +103,18 @@
                   <para><ulink url="&url_refdocs_base_glibmm_html;classGlib_1_1ustring.html">ustring</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="&url_refdocs_base_glibmm_html;classGlib_1_1Exception.html">Exceptions</ulink></para>
+                  <para><ulink url="&url_refdocs_base_glibmm_html;classGlib_1_1Error.html">Exceptions</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="&url_refdocs_base_glibmm_html;classGlib_1_1RefPtr.html">RefPtr&lt;&gt;</ulink></para>
+                  <!-- RefPtr does not have a URL that's suitable for an external reference.
+                    Something like &url_refdocs_base_glibmm_html;namespaceGlib.html#afa2fecfa732e9ec1107ace03a2911d63 -->
+                  <para>RefPtr&lt;&gt;</para>
                 </listitem>
                 <listitem>
                   <para><ulink url="&url_refdocs_base_glibmm_html;group__MainLoop.html">Main Event loop</ulink></para>
                 </listitem>
                 <listitem>
                   <para><ulink url="&url_refdocs_base_glibmm_html;group__Spawn.html">Spawning Processes</ulink></para>
-                </listitem>
-                <listitem>
-                  <para><ulink url="&url_refdocs_base_glibmm_html;group__Threads.html">Threads</ulink></para>
                 </listitem>
                 <listitem>
                   <para><ulink url="&url_refdocs_base_glibmm_html;group__MiscUtils.html">Miscellaneous Utility Functions</ulink></para>
@@ -143,7 +145,9 @@
       </sect2>
       <sect2>
         <title>Extra Modules</title>
-        <para>API reference documentation for other C++ modules, such as gdkmm, pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink url="https://developer.gnome.org/references#c++-bindings">developer.gnome.org C++ Bindings</ulink> section.</para>
+        <para>API reference documentation for other C++ modules, such as gdkmm, pangomm,
+          gstreamermm, libgdamm, goocanvasmm, etc, is also available from the
+          <ulink url="https://developer-old.gnome.org/references#c++-bindings">developer-old.gnome.org C++ Bindings</ulink> section.</para>
       </sect2>
       <sect2>
         <title>Other Information</title>
@@ -159,10 +163,13 @@
                   <para><ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++ website</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="https://developer.gnome.org/gtk3/stable/">GTK+ reference</ulink></para>
+                  <para><ulink url="https://docs.gtk.org/gtk3/">GTK3 reference</ulink></para>
                 </listitem>
                 <listitem>
-                  <para><ulink url="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index.html">Standard C++ Library (STL)</ulink></para>
+                  <para><ulink url="https://docs.gtk.org/gtk4/">GTK4 reference</ulink></para>
+                </listitem>
+                <listitem>
+                  <para><ulink url="https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index.html">Standard C++ Library (STL)</ulink></para>
                 </listitem>
               </itemizedlist>
             </td>

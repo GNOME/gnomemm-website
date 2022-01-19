@@ -9,7 +9,8 @@
       <highlights>
         <para>You should use the <ulink url="#Binary">binary packages</ulink> provided for your
 operating system unless you wish to test the latest versions. However, <ulink url="#Source">source packages</ulink> are available as well.</para>
-        <para>This page currently mentions gtkmm 2 binary packages. We will update this page soon as binary packages for gtkmm 3 become available.</para>
+        <para>This page currently mentions gtkmm 3 binary packages. We will update this page
+          some time as binary packages for gtkmm 4 become available.</para>
       </highlights>
 
       <sect2>
@@ -17,26 +18,26 @@ operating system unless you wish to test the latest versions. However, <ulink ur
         <para>You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your Linux distribution to provide official gtkmm packages.</para>
         <itemizedlist>
           <listitem>
-            <para><ulink url="http://www.debian.org/">Debian</ulink> GNU/Linux: <command>apt-get install libgtkmm-3.0-dev</command>. These <ulink url="http://packages.qa.debian.org/g/gtkmm3.0.html">project pages</ulink> might give status.</para>
+            <para><ulink url="https://www.debian.org/">Debian</ulink> GNU/Linux: <command>apt-get install libgtkmm-3.0-dev</command>These <ulink url="https://packages.qa.debian.org/g/gtkmm3.0.html">project pages</ulink> might give status.</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://fedoraproject.org/">Fedora</ulink>/<ulink url="http://www.redhat.com">RedHat</ulink> Linux: Use <command>yum install gtkmm30-docs</command> to get the runtime, development, and documentation packages.</para>
+            <para><ulink url="https://fedoraproject.org/">Fedora</ulink>/<ulink url="https://www.redhat.com">RedHat</ulink> Linux: Use <command>yum install gtkmm30-docs</command> to get the runtime, development, and documentation packages.</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.gentoo.org">Gentoo Linux</ulink>: Get dev-cpp/gtkmm.</para>
+            <para><ulink url="https://www.gentoo.org">Gentoo Linux</ulink>: Get dev-cpp/gtkmm.</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.novell.com/linux/">SuSE Linux</ulink>: Use yast to install gtkmm3-devel.</para>
+            <para><ulink url="https://www.novell.com/linux/">SuSE Linux</ulink>: Use yast to install gtkmm3-devel.</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.ubuntu.com/">Ubuntu</ulink> Linux: <command>apt-get install libgtkmm-3.0-dev</command>.</para>
+            <para><ulink url="https://www.ubuntu.com/">Ubuntu</ulink> Linux: <command>apt-get install libgtkmm-3.0-dev</command></para>
           </listitem>
           <listitem>
             <para>Windows: Here is an <ulink url="https://wiki.gnome.org/Projects/gtkmm/MSWindows">installer</ulink>.</para>
           </listitem>
-<!-- TODO: Is there a gtkmm3 version of this?
+<!-- TODO: Is there a gtkmm3 or gtkmm4 version of this?
           <listitem>
-            <para>MacOS X: There is a <ulink url="http://fink.sourceforge.net/pdb/package.php/gtkmm2.4-dev">Fink package</ulink>.</para>
+            <para>MacOS X: There is a <ulink url="https://pdb.finkproject.org/pdb/package.php/gtkmm2.4-gtk-dev">Fink package</ulink>.</para>
           </listitem>
 -->
           <listitem>
@@ -50,29 +51,24 @@ operating system unless you wish to test the latest versions. However, <ulink ur
           <para>Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions (such as 3.15.x) are unstable development versions.</para>
           <itemizedlist>
             <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/glibmm/">glibmm</ulink></para>
+              <para><ulink url="https://download.gnome.org/sources/glibmm/">glibmm</ulink></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/gtkmm/">gtkmm</ulink></para>
+              <para><ulink url="https://download.gnome.org/sources/gtkmm/">gtkmm</ulink></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm">goocanvasmm</ulink></para>
+              <para><ulink url="https://download.gnome.org/sources/goocanvasmm">goocanvasmm</ulink></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/libgdamm/">libgdamm</ulink></para>
+              <para><ulink url="https://download.gnome.org/sources/libgdamm/">libgdamm</ulink></para>
             </listitem>
-<!-- TODO: Is this up to date?
-            <listitem>
-              <para><ulink url="http://ftp.gnome.org/pub/GNOME/sources/gtkmm_hello/2.4/">gtkmm-hello 2.4</ulink></para>
-            </listitem>
--->
           </itemizedlist>
       </sect2>
       <sect2>
         <title>Requirements</title>
         <para><itemizedlist>
             <listitem>
-              <para><ulink url="http://www.gtk.org">GTK+</ulink></para>
+              <para><ulink url="https://www.gtk.org">GTK</ulink></para>
             </listitem>
             <listitem>
               <para><ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</ulink></para>
@@ -80,8 +76,8 @@ operating system unless you wish to test the latest versions. However, <ulink ur
           </itemizedlist></para>
       </sect2>
       <sect2>
-        <title>GTK+</title>
-        <para>You can download GTK+ and GNOME source code from <ulink url="http://download.gnome.org">download.gnome.org</ulink>.</para>
+        <title>GTK</title>
+        <para>You can download GTK and GNOME source code from <ulink url="https://download.gnome.org/sources/">download.gnome.org/sources/</ulink>.</para>
       </sect2>
     </sect1>
   </article>

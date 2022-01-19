@@ -44,7 +44,7 @@ widgets and libraries are available from other sources.
         <title>gtkmm tools</title>
         <para><itemizedlist>
             <listitem>
-              <para><ulink url="http://glade.gnome.org/">Glade</ulink> User Interface Designer for GTK+, glade UI files can be used from a gtkmm program by using Gtk::Builder</para>
+              <para><ulink url="https://glade.gnome.org/">Glade</ulink> User Interface Designer for GTK, glade UI files can be used from a gtkmm program by using Gtk::Builder</para>
             </listitem>
             <listitem>
               <para><ulink url="http://home.wtal.de/petig/Gtk/">glademm</ulink> glade module for automatically generating gtkmm code (note: glademm is different than libglademm or Gtk::Builder)</para>
@@ -279,10 +279,10 @@ some other projects using the same toolkit.</para>
       <sect2>
         <title>Links</title>
         <sect3>
-          <title>GTK+ resources</title>
+          <title>GTK resources</title>
           <itemizedlist>
             <listitem>
-              <para><ulink url="http://www.gtk.org/">GTK+ homepage</ulink></para>
+              <para><ulink url="https://www.gtk.org/">GTK homepage</ulink></para>
             </listitem>
             <listitem>
               <para><ulink url="https://www.gnome.org/">GNOME homepage</ulink></para>
@@ -291,7 +291,7 @@ some other projects using the same toolkit.</para>
               <para><ulink url="https://developer.gnome.org/">GNOME development</ulink></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://www.gimp.org/">Gimp homepage</ulink></para>
+              <para><ulink url="https://www.gimp.org/">Gimp homepage</ulink></para>
             </listitem>
           </itemizedlist>
         </sect3>

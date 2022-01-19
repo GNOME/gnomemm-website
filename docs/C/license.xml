@@ -6,8 +6,8 @@
 <article id="license">
     <sect1>
       <title>License</title>
-      <para>gtkmm is licensed under the <ulink url="http://www.gnu.org">GNU</ulink> Library General Public License
-(<ulink url="http://www.gnu.org/licenses/lgpl.html#TOC1">LGPL</ulink>) for all platforms.  Our intent in licensing it in this way is to
+      <para>gtkmm is licensed under the <ulink url="https://www.gnu.org">GNU</ulink> Lesser General Public License
+(<ulink url="https://www.gnu.org/licenses/lgpl.html#TOC1">LGPL</ulink>) for all platforms.  Our intent in licensing it in this way is to
 provide it for use through shared libraries in all projects both
 open and proprietary.  Other GNU projects may of course integrate
 and link in a static manner.  The full body of the license is

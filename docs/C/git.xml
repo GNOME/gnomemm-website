@@ -6,13 +6,16 @@
   <article id="git">
     <sect1>
       <title>Git</title>
-      <para>We use <ulink url="http://git-scm.com/">Git</ulink> to maintain our source
+      <para>We use <ulink url="https://git-scm.com/">Git</ulink> to maintain our source
     code, in the <ulink url="https://www.gnome.org">GNOME</ulink> Git repository.
     Additional information about gitlab.gnome.org is available at <ulink url="https://wiki.gnome.org/Git">wiki.gnome.org/Git</ulink>.</para>
       <para>glibmm and gtkmm are in the <ulink url="https://gitlab.gnome.org/GNOME/glibmm/">glibmm</ulink> and <ulink url="https://gitlab.gnome.org/GNOME/gtkmm/">gtkmm</ulink> modules.
     There is also a <ulink url="https://gitlab.gnome.org/GNOME/gtkmm-documentation/">gtkmm-documentation</ulink> module which contains the gtkmm book and its examples. See below for instructions.</para>
-      <para>You will need to run the autogen.sh script to generate the build files. We
-    recommend jhbuild for setting up a separate development prefix.</para>
+      <para>If you build with Autotools (autoconf, automake,etc.), you will need to run
+        the autogen.sh script to generate the build files. We recommend
+         <ulink url="https://wiki.gnome.org/Projects/Jhbuild">jhbuild</ulink>
+         or <ulink url="https://gitlab.gnome.org/GNOME/gnome-build-meta">gnome-build-meta</ulink>
+         for setting up a separate development prefix.</para>
       <highlights>
         <para><emphasis role="bold">Anonymous Access</emphasis></para>
         <para>For those who do not have a GNOME login, anonymous checkouts are
@@ -32,28 +35,40 @@
                 <th>Branch name</th>
               </tr>
               <tr>
-                <td>gtkmm</td>
-                <td>2.17/18</td>
+                <td>gtkmm-4.0</td>
+                <td>4.4</td>
                 <td>gtkmm</td>
                 <td>master</td>
               </tr>
               <tr>
+                <td>gtkmm-4.0</td>
+                <td>4.2</td>
                 <td>gtkmm</td>
-                <td>2.16</td>
-                <td>gtkmm</td>
-                <td>gtkmm-2-16</td>
+                <td>gtkmm-4-2</td>
               </tr>
               <tr>
-                <td>glibmm</td>
-                <td>2.21/22</td>
+                <td>gtkmm-3.0</td>
+                <td>3.24</td>
+                <td>gtkmm</td>
+                <td>gtkmm-3-24</td>
+              </tr>
+              <tr>
+                <td>glibmm-2.68</td>
+                <td>2.70</td>
                 <td>glibmm</td>
                 <td>master</td>
               </tr>
               <tr>
+                <td>glibmm-2.68</td>
+                <td>2.68</td>
                 <td>glibmm</td>
-                <td>2.20</td>
+                <td>glibmm-2-68</td>
+              </tr>
+              <tr>
+                <td>glibmm-2.4</td>
+                <td>2.66</td>
                 <td>glibmm</td>
-                <td>glibmm-2-20</td>
+                <td>glibmm-2-66</td>
               </tr>
             </informaltable></para>
         </sect3>
