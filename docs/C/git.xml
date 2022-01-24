@@ -1,143 +1,146 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
->
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5.0" xml:id="git">
+    <title/>
 
-  <article id="git">
-    <sect1>
-      <title>Git</title>
-      <para>We use <ulink url="https://git-scm.com/">Git</ulink> to maintain our source
-    code, in the <ulink url="https://www.gnome.org">GNOME</ulink> Git repository.
-    Additional information about gitlab.gnome.org is available at <ulink url="https://wiki.gnome.org/Git">wiki.gnome.org/Git</ulink>.</para>
-      <para>glibmm and gtkmm are in the <ulink url="https://gitlab.gnome.org/GNOME/glibmm/">glibmm</ulink> and <ulink url="https://gitlab.gnome.org/GNOME/gtkmm/">gtkmm</ulink> modules.
-    There is also a <ulink url="https://gitlab.gnome.org/GNOME/gtkmm-documentation/">gtkmm-documentation</ulink> module which contains the gtkmm book and its examples. See below for instructions.</para>
+    <section>
+    <title>Git</title>
+      <para>We use <link xlink:href="https://git-scm.com/">Git</link> to maintain our source
+    code, in the <link xlink:href="https://www.gnome.org">GNOME</link> Git repository.
+    Additional information about gitlab.gnome.org is available at <link xlink:href="https://wiki.gnome.org/Git">wiki.gnome.org/Git</link>.</para>
+      <para>glibmm and gtkmm are in the <link xlink:href="https://gitlab.gnome.org/GNOME/glibmm/">glibmm</link> and <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm/">gtkmm</link> modules.
+    There is also a <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm-documentation/">gtkmm-documentation</link> module which contains the gtkmm book and its examples. See below for instructions.</para>
       <para>If you build with Autotools (autoconf, automake,etc.), you will need to run
         the autogen.sh script to generate the build files. We recommend
-         <ulink url="https://wiki.gnome.org/Projects/Jhbuild">jhbuild</ulink>
-         or <ulink url="https://gitlab.gnome.org/GNOME/gnome-build-meta">gnome-build-meta</ulink>
+         <link xlink:href="https://wiki.gnome.org/Projects/Jhbuild">jhbuild</link>
+         or <link xlink:href="https://gitlab.gnome.org/GNOME/gnome-build-meta">gnome-build-meta</link>
          for setting up a separate development prefix.</para>
-      <highlights>
+      <note>
         <para><emphasis role="bold">Anonymous Access</emphasis></para>
         <para>For those who do not have a GNOME login, anonymous checkouts are
         available.</para>
         <para>For instance, to check out the latest version of gtkmm: <command>git clone https://gitlab.gnome.org/GNOME/gtkmm.git</command></para>
-      </highlights>
-      <sect2>
-        <title>Modules and branches</title>
-        <para>We are synchronized with the GNOME release schedule, so we use <ulink url="https://wiki.gnome.org/MaintainersCorner#branches">standard GNOME branch names</ulink>.</para>
-        <sect3>
-          <title>gtkmm and glibmm</title>
+      </note>
+
+      <section>
+      <title>Modules and branches</title>
+        <para>We are synchronized with the GNOME release schedule, so we use <link xlink:href="https://wiki.gnome.org/MaintainersCorner#branches">standard GNOME branch names</link>.</para>
+
+        <section>
+        <title>gtkmm and glibmm</title>
           <para><informaltable>
               <tr>
-                <th>Component</th>
-                <th>Version</th>
-                <th>Git Module</th>
-                <th>Branch name</th>
+                <th rowspan="1" colspan="1">Component</th>
+                <th rowspan="1" colspan="1">Version</th>
+                <th rowspan="1" colspan="1">Git Module</th>
+                <th rowspan="1" colspan="1">Branch name</th>
               </tr>
               <tr>
-                <td>gtkmm-4.0</td>
-                <td>4.4</td>
-                <td>gtkmm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">gtkmm-4.0</td>
+                <td rowspan="1" colspan="1">4.4</td>
+                <td rowspan="1" colspan="1">gtkmm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
               <tr>
-                <td>gtkmm-4.0</td>
-                <td>4.2</td>
-                <td>gtkmm</td>
-                <td>gtkmm-4-2</td>
+                <td rowspan="1" colspan="1">gtkmm-4.0</td>
+                <td rowspan="1" colspan="1">4.2</td>
+                <td rowspan="1" colspan="1">gtkmm</td>
+                <td rowspan="1" colspan="1">gtkmm-4-2</td>
               </tr>
               <tr>
-                <td>gtkmm-3.0</td>
-                <td>3.24</td>
-                <td>gtkmm</td>
-                <td>gtkmm-3-24</td>
+                <td rowspan="1" colspan="1">gtkmm-3.0</td>
+                <td rowspan="1" colspan="1">3.24</td>
+                <td rowspan="1" colspan="1">gtkmm</td>
+                <td rowspan="1" colspan="1">gtkmm-3-24</td>
               </tr>
               <tr>
-                <td>glibmm-2.68</td>
-                <td>2.70</td>
-                <td>glibmm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">glibmm-2.68</td>
+                <td rowspan="1" colspan="1">2.70</td>
+                <td rowspan="1" colspan="1">glibmm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
               <tr>
-                <td>glibmm-2.68</td>
-                <td>2.68</td>
-                <td>glibmm</td>
-                <td>glibmm-2-68</td>
+                <td rowspan="1" colspan="1">glibmm-2.68</td>
+                <td rowspan="1" colspan="1">2.68</td>
+                <td rowspan="1" colspan="1">glibmm</td>
+                <td rowspan="1" colspan="1">glibmm-2-68</td>
               </tr>
               <tr>
-                <td>glibmm-2.4</td>
-                <td>2.66</td>
-                <td>glibmm</td>
-                <td>glibmm-2-66</td>
+                <td rowspan="1" colspan="1">glibmm-2.4</td>
+                <td rowspan="1" colspan="1">2.66</td>
+                <td rowspan="1" colspan="1">glibmm</td>
+                <td rowspan="1" colspan="1">glibmm-2-66</td>
               </tr>
             </informaltable></para>
-        </sect3>
-        <sect3>
-          <title>gnomemm</title>
+        </section>
+
+        <section><title>gnomemm</title>
           <para><informaltable>
               <tr>
-                <th>Component</th>
-                <th>API Version</th>
-                <th>Git Module</th>
-                <th>Branch name</th>
+                <th rowspan="1" colspan="1">Component</th>
+                <th rowspan="1" colspan="1">API Version</th>
+                <th rowspan="1" colspan="1">Git Module</th>
+                <th rowspan="1" colspan="1">Branch name</th>
               </tr>
               <tr>
-                <td>libglademm</td>
-                <td/>
-                <td>libglademm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">libglademm</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">libglademm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
               <tr>
-                <td>gconfmm</td>
-                <td/>
-                <td>gconfmm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">gconfmm</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">gconfmm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
               <tr>
-                <td>libgnomecanvasmm</td>
-                <td/>
-                <td>libgnomecanvasmm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">libgnomecanvasmm</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">libgnomecanvasmm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
             </informaltable></para>
-        </sect3>
-        <sect3>
-          <title>*mm bindings for other GNOME-related APIs</title>
+        </section>
+
+        <section>
+        <title>*mm bindings for other GNOME-related APIs</title>
           <para>The following bindings are not necessarily on the same schedule as those
     listed above.</para>
           <para><informaltable>
               <tr>
-                <th>Component</th>
-                <th>Version</th>
-                <th>Git Module</th>
-                <th>Branch name</th>
+                <th rowspan="1" colspan="1">Component</th>
+                <th rowspan="1" colspan="1">Version</th>
+                <th rowspan="1" colspan="1">Git Module</th>
+                <th rowspan="1" colspan="1">Branch name</th>
               </tr>
               <tr>
-                <td>libgdamm</td>
-                <td/>
-                <td>libgdamm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">libgdamm</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">libgdamm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
               <tr>
-                <td>libgnomedbmm</td>
-                <td/>
-                <td>libgnomedbmm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">libgnomedbmm</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">libgnomedbmm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
               <tr>
-                <td>goocanvasmm</td>
-                <td/>
-                <td>goocanvasmm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">goocanvasmm</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">goocanvasmm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
               <tr>
-                <td>libpanelappletmm</td>
-                <td/>
-                <td>libpanelappletmm</td>
-                <td>master</td>
+                <td rowspan="1" colspan="1">libpanelappletmm</td>
+                <td rowspan="1" colspan="1"/>
+                <td rowspan="1" colspan="1">libpanelappletmm</td>
+                <td rowspan="1" colspan="1">master</td>
               </tr>
             </informaltable></para>
-        </sect3>
-      </sect2>
-    </sect1>
+        </section>
+      </section>
+    </section>
   </article>

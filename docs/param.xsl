@@ -1,9 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-xmlns="http://www.w3.org/1999/xhtml"
-version="1.0">
-<xsl:import href="http://docbook.sourceforge.net/release/xsl/current/xhtml/chunk.xsl" />
+<xsl:stylesheet
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:d="http://docbook.org/ns/docbook"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/1999/xhtml"
+  exclude-result-prefixes="d xlink"
+  version="1.0">
 
+<!-- See "Customizing DocBook 5 XSL" at http://www.sagehill.net/docbookxsl/CustomDb5Xsl.html -->
+<xsl:import href="http://docbook.sourceforge.net/release/xsl-ns/current/xhtml/chunk.xsl" />
+
+<!-- For a list of available parameters, see http://docbook.sourceforge.net/release/xsl/current/doc/html/ -->
 <xsl:param name="html.stylesheet" select="'../style/style.css'" />
 <xsl:param name="chunker.output.encoding" select="'utf-8'" />
 <xsl:param name="chunker.output.indent" select="'yes'" />
@@ -44,8 +51,8 @@ book nop
 
       <div id="content-wrapper">
         <div id="sidebar">
-          <xsl:apply-templates select="//bookinfo/*/formalpara" />
-          <xsl:apply-templates select="//bookinfo/*/para[@id='sidebar-credits']" />
+          <xsl:apply-templates select="//d:book/d:info/*/d:formalpara" />
+          <xsl:apply-templates select="//d:book/d:info/*/d:para[@xml:id='sidebar-credits']" />
         </div>
         <div id="content">
           <xsl:copy-of select="$content"/>
@@ -76,9 +83,9 @@ book nop
 	</xsl:if>
 	<meta name="generator" content="DocBook {$DistroTitle} V{$VERSION}"/>
 	<title>
-		<xsl:value-of select="sect1/title"/>
-		- <xsl:value-of select="//bookinfo/title"/>
-		- <xsl:value-of select="//bookinfo/subtitle"/>
+		<xsl:value-of select="d:section/d:title"/>
+		- <xsl:value-of select="//d:book/d:info/d:title"/>
+		- <xsl:value-of select="//d:book/d:info/d:subtitle"/>
 	</title>
 
 	<xsl:call-template name="user.head.content"/>
@@ -86,13 +93,13 @@ book nop
 </xsl:template>
 
 <xsl:template name="user.header.navigation">
-	<xsl:apply-templates select="//bookinfo" />
+	<xsl:apply-templates select="//d:book/d:info" />
 </xsl:template>
 
 <!-- <xsl:template name="user.header.content"></xsl:template> -->
 
 <xsl:template name="footer.navigation">
-	<xsl:apply-templates select="//bookinfo/*/para[@id='footer']" />
+	<xsl:apply-templates select="//d:book/d:info/*/d:para[@xml:id='footer']" />
 </xsl:template>
 
 <xsl:template name="article.titlepage"></xsl:template>
@@ -100,56 +107,56 @@ book nop
 <xsl:template name="article.titlepage.separator">
 </xsl:template>
 
-<xsl:template match="bookinfo">
+<xsl:template match="d:book/d:info">
 	<div id="header">
 		<div class="content">
-			<h1><xsl:value-of select="title" /></h1>
-			<p><xsl:value-of select="subtitle" /></p>
+			<h1><xsl:value-of select="d:title" /></h1>
+			<p><xsl:value-of select="d:subtitle" /></p>
 		</div>
 		<div class="banner">
-			<xsl:apply-templates select="//para[@id='banner']/itemizedlist" />
+			<xsl:apply-templates select="//d:para[@xml:id='banner']/d:itemizedlist" />
 		</div>
 	</div>
 </xsl:template>
 
-<xsl:template match="listitem/para">
+<xsl:template match="d:listitem/d:para">
   <xsl:apply-templates />
 </xsl:template>
 
-<xsl:template match="bookinfo/*/formalpara">
-	<div id="{@id}">
-		<h2><xsl:value-of select="title" /></h2>
-		<xsl:apply-templates select="para" />
+<xsl:template match="d:book/d:info/*/d:formalpara">
+	<div id="{@xml:id}">
+		<h2><xsl:value-of select="d:title" /></h2>
+		<xsl:apply-templates select="d:para" />
   </div>
 </xsl:template>
 
-<xsl:template match="bookinfo/*/para[@id='sidebar-credits']">
-	<div id="{@id}">
+<xsl:template match="d:book/d:info/*/d:para[@xml:id='sidebar-credits']">
+	<div id="{@xml:id}">
     <xsl:apply-templates />
   </div>
 </xsl:template>
 
-<xsl:template match="bookinfo/*/para[@id='footer']">
+<xsl:template match="d:book/d:info/*/d:para[@xml:id='footer']">
 	<div id="footer">
 		<xsl:apply-templates />
 	</div>
 </xsl:template>
 
-<xsl:template match="highlights">
+<xsl:template match="d:note">
 	<div class="highlight">
 		<xsl:apply-templates />
 	</div>
 </xsl:template>
 
-<xsl:template match="application">
+<xsl:template match="d:application">
 	<strong><xsl:value-of select="." /></strong>
 </xsl:template>
 
-<xsl:template match="command">
+<xsl:template match="d:command">
   <pre class="command"><xsl:value-of select="." /></pre>
 </xsl:template>
 
-<xsl:template match="informalfigure">
-  <a href="{ulink/@url}"><xsl:apply-templates select="mediaobject/imageobject" /></a>
+<xsl:template match="d:informalfigure">
+  <a href="{@xlink:href}"><xsl:apply-templates select="d:mediaobject/d:imageobject" /></a>
 </xsl:template>
 </xsl:stylesheet>

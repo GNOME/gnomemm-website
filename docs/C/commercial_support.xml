@@ -1,108 +1,108 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
->
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5.0" xml:id="commercial_support">
+    <title/>
 
-  <article id="commercial_support">
-    <sect1>
-      <title>Commercial Support</title>
+    <section>
+    <title>Commercial Support</title>
       <para>The mailing lists, irc, and documentation are helpful, but your company might
 require more in-depth assistance or custom development. If so feel free to contact the following freelance developers and companies directly to discuss a commercial arrangement. If necessary we can also build larger development teams.</para>
       <informaltable>
         <tr>
-          <th>Name, email</th>
-          <th>Location</th>
+          <th rowspan="1" colspan="1">Name, email</th>
+          <th rowspan="1" colspan="1">Location</th>
         </tr>
         <tr>
-          <td><ulink url="http://www.m2osw.com">Made to Order Software Corp.</ulink>: Quality software with easy to use interfaces from simple utilities to complex e-Business solutions.</td>
-          <td>USA, UK</td>
+          <td rowspan="1" colspan="1"><link xlink:href="http://www.m2osw.com">Made to Order Software Corp.</link>: Quality software with easy to use interfaces from simple utilities to complex e-Business solutions.</td>
+          <td rowspan="1" colspan="1">USA, UK</td>
         </tr>
         <tr>
-          <td><ulink url="http://dianiuxinnova.com/">Dianiux Innova</ulink></td>
-          <td>Valencia, Spain</td>
+          <td rowspan="1" colspan="1"><link xlink:href="http://dianiuxinnova.com/">Dianiux Innova</link></td>
+          <td rowspan="1" colspan="1">Valencia, Spain</td>
         </tr>
       </informaltable>
       <para>Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:<itemizedlist>
           <listitem>
-            <para><ulink url="http://www.mysql.com">MySQL</ulink> - Databases</para>
+            <para><link xlink:href="http://www.mysql.com">MySQL</link> - Databases</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.vmware.com/">VMWare</ulink> - Virtualization, network management</para>
+            <para><link xlink:href="http://www.vmware.com/">VMWare</link> - Virtualization, network management</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.amazon.com/">Amazon</ulink> - MP3 Downloader</para>
+            <para><link xlink:href="http://www.amazon.com/">Amazon</link> - MP3 Downloader</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.supersonicimagine.fr/">Supersonic Imagine</ulink> - Medical imaging</para>
+            <para><link xlink:href="http://www.supersonicimagine.fr/">Supersonic Imagine</link> - Medical imaging</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.garmin.com/">Garmin</ulink> - Consumer navigation devices</para>
+            <para><link xlink:href="http://www.garmin.com/">Garmin</link> - Consumer navigation devices</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.spacetec.no/">Kongsberg Spacetec</ulink> - satellite/meteorological</para>
+            <para><link xlink:href="http://www.spacetec.no/">Kongsberg Spacetec</link> - satellite/meteorological</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.solvo.ru/">Solvo Ltd.</ulink> - warehouse management systems</para>
+            <para><link xlink:href="http://www.solvo.ru/">Solvo Ltd.</link> - warehouse management systems</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.eads.com">EADS</ulink> - aerospace/defense/satellite</para>
+            <para><link xlink:href="http://www.eads.com">EADS</link> - aerospace/defense/satellite</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.northropgrumman.com">Northrup Grumman</ulink> - military/defense</para>
+            <para><link xlink:href="http://www.northropgrumman.com">Northrup Grumman</link> - military/defense</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.henson.com">Jim Henson&apos;s Muppet Workshop</ulink> - animatronics</para>
+            <para><link xlink:href="http://www.henson.com">Jim Henson's Muppet Workshop</link> - animatronics</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.isotrol.com">Isotrol</ulink> - electrical engineering</para>
+            <para><link xlink:href="http://www.isotrol.com">Isotrol</link> - electrical engineering</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://linuxaudiosystems.com/">Linux Audio Systems</ulink> - professional audio/music systems</para>
+            <para><link xlink:href="http://linuxaudiosystems.com/">Linux Audio Systems</link> - professional audio/music systems</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.designadvantage.com">Design Advantage</ulink> - electrical/mechanical engineering</para>
+            <para><link xlink:href="http://www.designadvantage.com">Design Advantage</link> - electrical/mechanical engineering</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.dme.net">DME</ulink> - mold engineering</para>
+            <para><link xlink:href="http://www.dme.net">DME</link> - mold engineering</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.bifab.de">Bibliographisches Institut &amp; F.A. Brockhaus AG</ulink> - publishing</para>
+            <para><link xlink:href="http://www.bifab.de">Bibliographisches Institut &amp; F.A. Brockhaus AG</link> - publishing</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.hasar.com">Hasar</ulink> - POS software/hardware</para>
+            <para><link xlink:href="http://www.hasar.com">Hasar</link> - POS software/hardware</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.icodsi.biz">iCodsi</ulink> - security/encryption software</para>
+            <para><link xlink:href="http://www.icodsi.biz">iCodsi</link> - security/encryption software</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.aplik.com/">Aplik</ulink> - process engineering</para>
+            <para><link xlink:href="http://www.aplik.com/">Aplik</link> - process engineering</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.fis-cal.com/">Fiscal</ulink> - fiscal Systems, POS</para>
+            <para><link xlink:href="http://www.fis-cal.com/">Fiscal</link> - fiscal Systems, POS</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.thewrittenword.com/">The Written Word</ulink> - prebuilt software packages</para>
+            <para><link xlink:href="http://www.thewrittenword.com/">The Written Word</link> - prebuilt software packages</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.exact-med.com/">Allcare</ulink> - ExactMed eMAR, medication administration</para>
+            <para><link xlink:href="http://www.exact-med.com/">Allcare</link> - ExactMed eMAR, medication administration</para>
           </listitem>
           <listitem>
-            <para><ulink url="https://www.sendoutcards.com/">SendOutCards.com</ulink> - Specialized internal applications</para>
+            <para><link xlink:href="https://www.sendoutcards.com/">SendOutCards.com</link> - Specialized internal applications</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.epictechnology.co.uk/">EPIC Technology</ulink> - Point Of Sale systems</para>
+            <para><link xlink:href="http://www.epictechnology.co.uk/">EPIC Technology</link> - Point Of Sale systems</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.i-medlab.com/">iMed</ulink> Medical imaging - <ulink url="http://www.i-medlab.com/Products/page1.html">CAD Colon</ulink>.</para>
+            <para><link xlink:href="http://www.i-medlab.com/">iMed</link> Medical imaging - <link xlink:href="http://www.i-medlab.com/Products/page1.html">CAD Colon</link>.</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.downeysavings.com/">Downey Savings</ulink> - Banking</para>
+            <para><link xlink:href="http://www.downeysavings.com/">Downey Savings</link> - Banking</para>
           </listitem>
           <listitem>
-            <para><ulink url="http://www.innoventis.de/">Innoventis</ulink> - Automotive systems</para>
+            <para><link xlink:href="http://www.innoventis.de/">Innoventis</link> - Automotive systems</para>
           </listitem>
         </itemizedlist></para>
-      <para>If you would like to be listed here please send email to the <ulink url="mailinglist.html">mailing list</ulink> or a maintainer.</para>
-      <para>See also <emphasis>Apps built with GTK</emphasis> at <ulink url="https://www.gtk.org">the GTK website</ulink>.</para>
-    </sect1>
+      <para>If you would like to be listed here please send email to the <link xlink:href="mailinglist.html">mailing list</link> or a maintainer.</para>
+      <para>See also <emphasis>Apps built with GTK</emphasis> at <link xlink:href="https://www.gtk.org">the GTK website</link>.</para>
+    </section>
   </article>

@@ -62,7 +62,7 @@ endif
 validate = get_option('validation') and can_parse_and_validate
 explain_val = ''
 if get_option('validation') and not validate
-  explain_val = ' (requires xmllint)'
+  explain_val = ' (requires xmllint with Relax NG and DocBook V5.0 support)'
 endif
 
 build_translations = build_translations_by_default and can_build_translations
@@ -76,11 +76,12 @@ summary = [
   '------',
   meson.project_name() + ' ' + meson.project_version(),
   '',
-  '    XML validation: @0@@1@'.format(validate, explain_val),
-  'Build translations: @0@@1@'.format(build_translations, explain_trans),
+  '      XML validation: @0@@1@'.format(validate, explain_val),
+  'Allow network access: @0@'.format(get_option('allow-network-access')),
+  '  Build translations: @0@@1@'.format(build_translations, explain_trans),
   'Directories:',
-  '            prefix: @0@'.format(install_prefix),
-  '           datadir: @0@'.format(install_prefix / install_datadir),
+  '              prefix: @0@'.format(install_prefix),
+  '             datadir: @0@'.format(install_prefix / install_datadir),
   '------'
 ]
 

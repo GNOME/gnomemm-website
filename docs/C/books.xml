@@ -1,63 +1,66 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
->
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5.0" xml:id="books">
+    <title/>
 
-  <article id="books">
-    <sect1>
-      <title>Recommended Books</title>
-      
-      <para>The <ulink url="https://developer.gnome.org/gtkmm-tutorial/stable">Programming with gtkmm 4</ulink>
-        and <ulink url="https://developer.gnome.org/gtkmm-tutorial/3.24/">Programming with gtkmm 3</ulink>
-        tutorials are available online along with the rest of our <ulink url="documentation.html">documentation</ulink>.</para>
-      <para><ulink url="https://mesonbuild.com/">The Meson build system</ulink> is also described online.</para>
+    <section>
+    <title>Recommended Books</title>
+
+      <para>The <link xlink:href="https://developer.gnome.org/gtkmm-tutorial/stable">Programming with gtkmm 4</link>
+        and <link xlink:href="https://developer.gnome.org/gtkmm-tutorial/3.24/">Programming with gtkmm 3</link>
+        tutorials are available online along with the rest of our <link xlink:href="documentation.html">documentation</link>.</para>
+      <para><link xlink:href="https://mesonbuild.com/">The Meson build system</link> is also described online.</para>
       <para>
    The gtkmm developers also find these books helpful:
   </para>
-      <sect2>
-        <title>Core books</title>
+
+      <section>
+      <title>Core books</title>
         <para>
     <itemizedlist>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201889544/murrayswebpages/">The C++ Programming Language, Bjarne Stroustrup</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=0201889544/murrayswebpages/">The C++ Programming Language, Bjarne Stroustrup</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201379260/murrayswebpages/">The C++ Standard Library, Nicolai M. Josuttis</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=0201379260/murrayswebpages/">The C++ Standard Library, Nicolai M. Josuttis</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201633612/murrayswebpages/">Design Patterns, Erich Gamma et al</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=0201633612/murrayswebpages/">Design Patterns, Erich Gamma et al</link></para>
             </listitem>
           </itemizedlist>
    </para>
-      </sect2>
-      <sect2>
-        <title>For beginners</title>
+      </section>
+
+      <section>
+      <title>For beginners</title>
         <para>
     <itemizedlist>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=020170353X/murrayswebpages/">Accelerated C++ - Practical Programming by Example, Andrew Koenig &amp; Barbara E. Moo</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=020170353X/murrayswebpages/">Accelerated C++ - Practical Programming by Example, Andrew Koenig &amp; Barbara E. Moo</link></para>
             </listitem>
           </itemizedlist>
    </para>
-      </sect2>
-      <sect2>
-        <title>Others</title>
+      </section>
+
+      <section>
+      <title>Others</title>
         <para>
     <itemizedlist>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0764526413/murrayswebpages/">About Face 3: The essentials of interaction design, Alan Cooper &amp; Robert M. Reimann</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=0764526413/murrayswebpages/">About Face 3: The essentials of interaction design, Alan Cooper &amp; Robert M. Reimann</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=0201379279/murrayswebpages/">Advanced CORBA Programming with C++, Michi Henning &amp; Steve Vinoski</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=0201379279/murrayswebpages/">Advanced CORBA Programming with C++, Michi Henning &amp; Steve Vinoski</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=1578701902/murrayswebpages/">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=1578701902/murrayswebpages/">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="http://www.amazon.com/exec/obidos/ISBN=1565921127/murrayswebpages/">Programming With Gnu Software, Michael Kosta Loukides et al</ulink></para>
+              <para><link xlink:href="http://www.amazon.com/exec/obidos/ISBN=1565921127/murrayswebpages/">Programming With Gnu Software, Michael Kosta Loukides et al</link></para>
             </listitem>
           </itemizedlist>
    </para>
-      </sect2>
-    </sect1>
+      </section>
+    </section>
   </article>
