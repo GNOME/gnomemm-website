@@ -9,6 +9,30 @@ xsltproc = find_program('xsltproc', required: true)
 xmllint = find_program('xmllint', required: false)
 can_parse_and_validate = xmllint.found()
 validate = get_option('validation') ? 'true' : 'false'
+allow_network_access = get_option('allow-network-access') ? 'true' : 'false'
+
+relax_ng_schema_file = meson.current_source_dir() / 'param.rng'
+stylesheet_file = meson.current_source_dir() / 'param.xsl'
+
+# Check if xmllint can be used.
+if xmllint.found()
+  can_parse_and_validate = run_command(
+    python3, website_custom_cmd, 'xmllint',
+    validate,
+    allow_network_access,
+    relax_ng_schema_file,
+    meson.current_source_dir() / 'can_use_xmllint.xml',
+    meson.current_build_dir() / 'can_use_xmllint.stamp',
+  ).returncode() == 0
+  if not can_parse_and_validate
+    # The DocBook V5.0 package is called docbook5-xml in Ubuntu,
+    # docbook5-schemas in Fedora. It may have other names in other distros.
+    warning('Can\'t validate XML file.\n' +
+      'xmllint does not support Relax NG schemas and DocBook V5.0.\n' +
+      'DocBook V5.0 support may require docbook5-xml, docbook5-schemas or a similar package.'
+    )
+  endif
+endif
 
 can_build_translations = find_program('msgfmt', required: false).found() and \
                          find_program('itstool', required: false).found()
@@ -51,19 +75,19 @@ endif
 if can_parse_and_validate
   # Parse and possibly validate the C locale's version of the DocBook.
   custom_target('C-xmllint',
-    input: xml_C_files,
+    input: [relax_ng_schema_file] + xml_C_files,
     output: 'C_xmllint.stamp',
     command: [
       python3, website_custom_cmd, 'xmllint',
       validate,
+      allow_network_access,
       '@INPUT0@',
+      '@INPUT1@',
       '@OUTPUT@'
     ],
     build_by_default: true,
   )
 endif
-
-stylesheet_file = meson.current_source_dir() / 'param.xsl'
 
 publishing_targets = []
 
@@ -73,6 +97,7 @@ publishing_targets += custom_target('en_html_index.html',
   output: 'en_html.stamp',
   command: [
     python3, website_custom_cmd, 'html',
+    allow_network_access,
     '@INPUT0@',
     '@INPUT1@',
     meson.current_build_dir() / 'html' / 'en',
@@ -91,7 +116,7 @@ install_data(xml_C_files, install_dir: install_datadir / 'help' / 'C' / meson.pr
 
 foreach language : languages
   # Create translated XML files.
-  tanslated_xml_target = custom_target(language + '_xml_index.docbook',
+  translated_xml_target = custom_target(language + '_xml_index.docbook',
     input: [language / language + '.po'] + xml_C_files,
     output: language + '_xml.stamp',
     command: [
@@ -108,10 +133,11 @@ foreach language : languages
 
   # Create an html version of the translated version of the DocBook.
   publishing_targets += custom_target(language + '_html_index.html',
-    input: [stylesheet_file, tanslated_xml_target],
+    input: [stylesheet_file, translated_xml_target],
     output: language + '_html.stamp',
     command: [
       python3, website_custom_cmd, 'html',
+      allow_network_access,
       '@INPUT0@',
       meson.current_build_dir() / language / xml_files[0],
       meson.current_build_dir() / 'html' / language,

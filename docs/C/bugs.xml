@@ -1,60 +1,63 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
->
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5.0" xml:id="bugs">
+    <title/>
 
-  <article id="bugs">
-    <sect1>
-      <title>Bugs</title>
-      <highlights>
-        <para>See <ulink url="#NewBugs">Where to report</ulink> to submit new bugs or patches.</para>
-      </highlights>
-      <sect2>
-        <title>Current bugs and patches</title>
+    <section>
+    <title>Bugs</title>
+      <note>
+        <para>See <link xlink:href="#NewBugs">Where to report</link> to submit new bugs or patches.</para>
+      </note>
+
+      <section>
+      <title>Current bugs and patches</title>
         <para>A good way to get involved.</para>
         <itemizedlist>
           <listitem>
-            <para>Outstanding <ulink url="https://gitlab.gnome.org/GNOME/gtkmm/issues/">gtkmm bugs</ulink></para>
+            <para>Outstanding <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm/issues/">gtkmm bugs</link></para>
           </listitem>
           <listitem>
-            <para>Outstanding <ulink url="https://gitlab.gnome.org/GNOME/glibmm/issues/">glibmm bugs</ulink></para>
+            <para>Outstanding <link xlink:href="https://gitlab.gnome.org/GNOME/glibmm/issues/">glibmm bugs</link></para>
           </listitem>
           <listitem>
-            <para>Outstanding <ulink url="https://gitlab.gnome.org/GNOME/pangomm/issues/">pangomm bugs</ulink></para>
+            <para>Outstanding <link xlink:href="https://gitlab.gnome.org/GNOME/pangomm/issues/">pangomm bugs</link></para>
           </listitem>
           <listitem>
-            <para>Outstanding <ulink url="https://gitlab.gnome.org/GNOME/gtkmm-documentation/issues/">gtkmm-documentation bugs</ulink></para>
+            <para>Outstanding <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm-documentation/issues/">gtkmm-documentation bugs</link></para>
           </listitem>
           <listitem>
-            <para>Outstanding <ulink url="https://gitlab.gnome.org/GNOME/mm-common/issues/">mm-common bugs</ulink></para>
+            <para>Outstanding <link xlink:href="https://gitlab.gnome.org/GNOME/mm-common/issues/">mm-common bugs</link></para>
           </listitem>
           <listitem>
-            <para>Outstanding <ulink url="https://gitlab.freedesktop.org/cairo/cairomm/issues">cairomm bugs</ulink></para>
+            <para>Outstanding <link xlink:href="https://gitlab.freedesktop.org/cairo/cairomm/issues">cairomm bugs</link></para>
           </listitem>
           <listitem>
-            <para>Outstanding <ulink url="https://github.com/libsigcplusplus/libsigcplusplus/issues">libsigc++ bugs</ulink></para>
+            <para>Outstanding <link xlink:href="https://github.com/libsigcplusplus/libsigcplusplus/issues">libsigc++ bugs</link></para>
           </listitem>
         </itemizedlist>
         <para>As soon as a gtkmm patch has been clearly approved by a maintainer, anybody with git write access may apply it.</para>
-      </sect2>
-      <sect2>
-        <title><anchor id="NewBugs"/>Where to report?</title>
+      </section>
+
+      <section>
+      <title><anchor xml:id="NewBugs"/>Where to report?</title>
         <itemizedlist>
           <listitem>
-            <para>Bugs are tracked in GNOME&apos;s <ulink url="https://gitlab.gnome.org">issue tracker</ulink>.
- Submit gtkmm bugs <ulink url="https://gitlab.gnome.org/GNOME/gtkmm/issues/new/">here</ulink>.
+            <para>Bugs are tracked in GNOME's <link xlink:href="https://gitlab.gnome.org">issue tracker</link>.
+ Submit gtkmm bugs <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm/issues/new/">here</link>.
  </para>
           </listitem>
           <listitem>
             <para>Patches should be attached to existing issues or MRs
  (merge requests) rather than sent to
- the mailing list.  When reporting a new bug you&apos;ll get a chance to attach a
+ the mailing list.  When reporting a new bug you'll get a chance to attach a
  file to it immediately <emphasis role="bold">after</emphasis> opening the issue.</para>
           </listitem>
         </itemizedlist>
-      </sect2>
-      <sect2>
-        <title>What information is needed for a bug report?</title>
+      </section>
+
+      <section>
+      <title>What information is needed for a bug report?</title>
         <itemizedlist>
           <listitem>
             <para>version numbers of GTK, gtkmm and other related software, including your platform/distro/compiler.</para>
@@ -76,17 +79,18 @@
             <para>if possible, provide a patch</para>
           </listitem>
         </itemizedlist>
-        <para>If we can&apos;t solve the problem immediately then we might ask you to
+        <para>If we can't solve the problem immediately then we might ask you to
  create a simple-as-possible example that actually builds. This helps
  us to isolate the problem, and proves that the problem is not caused
  by your own code.</para>
-      </sect2>
-      <sect2>
-        <title><anchor id="CreatingPatches"/>How do I create a patch?</title>
+      </section>
+
+      <section>
+      <title><anchor xml:id="CreatingPatches"/>How do I create a patch?</title>
         <para>There are many ways to use Git, but this is the simplest way to create a patch if you are unfamiliar with Git:</para>
         <itemizedlist>
           <listitem>
-            <para>Take code from <ulink url="git.html">git</ulink></para>
+            <para>Take code from <link xlink:href="git.html">git</link></para>
           </listitem>
           <listitem>
             <para>Modify that version</para>
@@ -102,9 +106,10 @@
             <para>Add the patch in the issue tracker (see above).</para>
           </listitem>
         </itemizedlist>
-      </sect2>
-      <sect2>
-        <title>Should I send a bug report?</title>
+      </section>
+
+      <section>
+      <title>Should I send a bug report?</title>
         <para>
  Always send a bug report:
  </para>
@@ -120,8 +125,8 @@
           </listitem>
         </itemizedlist>
         <para>If you know how to fix the bug, you can
-          <ulink url="https://gitlab.gnome.org/help/user/project/merge_requests/creating_merge_requests.md">
-         create a merge request</ulink> instead of (or in addition to) an issue. </para>
-      </sect2>
-    </sect1>
+          <link xlink:href="https://gitlab.gnome.org/help/user/project/merge_requests/creating_merge_requests.md">
+         create a merge request</link> instead of (or in addition to) an issue. </para>
+      </section>
+    </section>
   </article>

@@ -1,37 +1,38 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
->
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5.0" xml:id="news">
 
-<article id="news">
-    <sect1>
-      <title>News</title>
+    <title/>
+
+    <section>
+    <title>News</title>
       <para>This list will not be updated each time a new release is made.
         The listed versions are the latest ones at the time of writing, but
         there may be newer releases when you read this text. See
-        <ulink url="https://download.gnome.org/sources/">download.gnome.org/sources/</ulink>
-        and <ulink url="https://www.cairographics.org/releases/">www.cairographics.org/releases/</ulink>.</para>
+        <link xlink:href="https://download.gnome.org/sources/">download.gnome.org/sources/</link>
+        and <link xlink:href="https://www.cairographics.org/releases/">www.cairographics.org/releases/</link>.</para>
       <para><itemizedlist>
           <listitem>
             <para>
-  September 9, 2021: <ulink url="https://download.gnome.org/sources/gtkmm/4.4/">gtkmm 4.4.0</ulink>
+  September 9, 2021: <link xlink:href="https://download.gnome.org/sources/gtkmm/4.4/">gtkmm 4.4.0</link>
   </para>
           </listitem>
           <listitem>
             <para>
-  May 21, 2021: <ulink url="https://download.gnome.org/sources/gtkmm/3.24/">gtkmm 3.24.5</ulink>
+  May 21, 2021: <link xlink:href="https://download.gnome.org/sources/gtkmm/3.24/">gtkmm 3.24.5</link>
   </para>
           </listitem>
           <listitem>
             <para>
-  October 6, 2021: <ulink url="https://download.gnome.org/sources/glibmm/2.70/">glibmm 2.70.0</ulink>
+  October 6, 2021: <link xlink:href="https://download.gnome.org/sources/glibmm/2.70/">glibmm 2.70.0</link>
   </para>
           </listitem>
           <listitem>
             <para>
-  October 6, 2021: <ulink url="https://download.gnome.org/sources/glibmm/2.66/">glibmm 2.66.2</ulink>
+  October 6, 2021: <link xlink:href="https://download.gnome.org/sources/glibmm/2.66/">glibmm 2.66.2</link>
   </para>
           </listitem>
         </itemizedlist></para>
-    </sect1>
+    </section>
   </article>

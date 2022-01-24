@@ -1,32 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-  <!ENTITY gtkmm "<application>gtkmm</application>">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book [
+  <!ENTITY gtkmm "<application xmlns='http://docbook.org/ns/docbook'>gtkmm</application>">
 ]>
 
-  <article id="index">
-    <highlights>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5.0" xml:id="index">
+    <title/>
+      <note>
       <para>
    &gtkmm; is the official C++ interface for the popular GUI library
-   <ulink url="https://www.gtk.org/">GTK</ulink>. Highlights include
+   <link xlink:href="https://www.gtk.org/">GTK</link>. Highlights include
    typesafe callbacks, and a comprehensive set of widgets that are
    easily extensible via inheritance. You can create user interfaces
-   either in code or with the <ulink url="https://glade.gnome.org/">Glade User Interface designer</ulink>, using Gtk::Builder. There&apos;s
-   <ulink url="documentation.html">extensive documentation</ulink>,
+   either in code or with the <link xlink:href="https://glade.gnome.org/">Glade User Interface designer</link>, using Gtk::Builder. There's
+   <link xlink:href="documentation.html">extensive documentation</link>,
    including API reference and a tutorial.
   </para>
       <para>
    &gtkmm; is free software distributed under the GNU Library General
-    Public License (<ulink url="license.html">LGPL</ulink>).
+    Public License (<link xlink:href="license.html">LGPL</link>).
   </para>
       <para>
-   &gtkmm; follows the official <ulink url="https://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</ulink>. This guarantees
+   &gtkmm; follows the official <link xlink:href="https://www.gnome.org/start/unstable/"> GNOME Platform Bindings release schedule</link>. This guarantees
    API/ABI-stability and new releases on a predictable schedule,
    delivering C++ API for the underlying GTK and GNOME APIs as soon as possible.
   </para>
-    </highlights>
-    <sect1>
-      <title>Features</title>
+    </note>
+
+    <section>
+    <title>Features</title>
       <para>
   <itemizedlist>
           <listitem>
@@ -75,36 +78,38 @@
           </listitem>
         </itemizedlist>
   </para>
-    </sect1>
-    <sect1>
-      <title>Other gtkmm-related libraries</title>
-      <sect2>
-        <title>gnomemm</title>
+    </section>
+
+    <section>
+    <title>Other gtkmm-related libraries</title>
+      <section>
+      <title>gnomemm</title>
         <para>
    gtkmm is a GUI toolkit and nothing more, and it strives to be the
    best C++ GUI toolkit. That mandate does not cover generic C++ data
    structures, an XML parser, or database access. Even our signal/slots
-   system is part of a separate (<ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</ulink>) library.
+   system is part of a separate (<link xlink:href="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</link>) library.
    However, gtkmm is designed to work well with all other C++ libraries.
    </para>
         <para>
    The gnomemm libraries cover some of these other tasks, but they are
    optional.
    </para>
-      </sect2>
-      <sect2>
-        <title>libsigc++</title>
+      </section>
+
+      <section>
+      <title>libsigc++</title>
         <para>
-    Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <ulink url="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</ulink> (signal/slots).
+    Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <link xlink:href="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</link> (signal/slots).
    </para>
-      </sect2>
-      <sect2>
-        <title>Others</title>
+      </section>
+
+      <section>
+      <title>Others</title>
         <para>
-    Be sure to check out <ulink url="http://bakery.sourceforge.net/">Bakery</ulink>,
+    Be sure to check out <link xlink:href="http://bakery.sourceforge.net/">Bakery</link>,
     a framework for constructing gtkmm/gnomemm applications.  It allows use of the Document/View architecture.
    </para>
-      </sect2>
-    </sect1>
+      </section>
+    </section>
   </article>
-

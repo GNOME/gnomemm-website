@@ -61,12 +61,22 @@ def get_languages():
 
 # Called from custom_target()
 def xmllint():
-  #  argv[2]       argv[3]          argv[4]
-  # <validate> <input_xml_file> <stamp_file_path>
+  #   argv[2]         argv[3]                argv[4]            argv[5]            argv[6]
+  # <validate> <allow_network_access> <relax_ng_schema_file> <input_xml_file> <stamp_file_path>
 
   validate = sys.argv[2]
-  input_xml_file = sys.argv[3]
-  stamp_file_path = sys.argv[4]
+  allow_network_access = sys.argv[3]
+  relax_ng_schema_file = sys.argv[4]
+  input_xml_file = sys.argv[5]
+  stamp_file_path = sys.argv[6]
+
+  # schematron_schema = 'http://docbook.org/xml/5.0/sch/docbook.sch'
+
+  # Validation against the Schematron schema does not work on Ubuntu 21.04:
+  # file:///usr/share/xml/docbook/schema/schematron/5.0/docbook.sch:6: element rule:
+  #   Schemas parser error : Failed to compile context expression db:firstterm[@linkend]
+  # .....
+  # Schematron schema http://docbook.org/xml/5.0/sch/docbook.sch failed to compile
 
   cmd = [
     'xmllint',
@@ -75,7 +85,12 @@ def xmllint():
     '--xinclude',
   ]
   if validate == 'true':
-    cmd += ['--postvalid']
+    cmd += [
+      '--relaxng', relax_ng_schema_file,
+      #'--schematron', schematron_schema,
+    ]
+  if allow_network_access != 'true':
+    cmd += ['--nonet']
   cmd += [input_xml_file]
   result = subprocess.run(cmd)
   if result.returncode:
@@ -125,13 +140,14 @@ def translate_xml():
 
 # Called from custom_target()
 def html():
-  #      argv[2]          argv[3]          argv[4]            argv[5]
-  # <stylesheet_file> <input_xml_file> <output_html_dir> <stamp_file_path>
+  #        argv[2]              argv[3]          argv[4]            argv[5]          argv[6]
+  # <allow_network_access> <stylesheet_file> <input_xml_file> <output_html_dir> <stamp_file_path>
 
-  stylesheet_file = sys.argv[2]
-  input_xml_file = sys.argv[3]
-  output_html_dir = sys.argv[4]
-  stamp_file_path = sys.argv[5]
+  allow_network_access = sys.argv[2]
+  stylesheet_file = sys.argv[3]
+  input_xml_file = sys.argv[4]
+  output_html_dir = sys.argv[5]
+  stamp_file_path = sys.argv[6]
 
   # Remove old files and create the destination directory.
   shutil.rmtree(output_html_dir, ignore_errors=True)
@@ -141,6 +157,10 @@ def html():
     'xsltproc',
     '-o', output_html_dir + '/',
     '--xinclude',
+  ]
+  if allow_network_access != 'true':
+    cmd += ['--nonet']
+  cmd += [
     stylesheet_file,
     input_xml_file,
   ]

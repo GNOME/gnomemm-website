@@ -1,134 +1,135 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
-]>
+<?xml version="1.0" encoding="utf-8"?>
+<book xmlns="http://docbook.org/ns/docbook"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      version="5.0">
 
-<!-- The header menu, sidebar menu, and footer. -->
-<book xmlns:its="http://www.w3.org/2005/11/its">
-  <bookinfo>
+  <info>
     <title>gtkmm</title>
     <subtitle>C++ Interfaces for GTK and GNOME</subtitle>
     <abstract>
-      <para id="banner"><itemizedlist>
+      <para xml:id="banner"><itemizedlist>
           <listitem>
-            <para><ulink url="index.html">Home</ulink></para>
+            <para><link xlink:href="index.html">Home</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="license.html">License</ulink></para>
+            <para><link xlink:href="license.html">License</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="download.html">Download</ulink></para>
+            <para><link xlink:href="download.html">Download</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="documentation.html">Documentation</ulink></para>
+            <para><link xlink:href="documentation.html">Documentation</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="developers.html">Development</ulink></para>
+            <para><link xlink:href="developers.html">Development</link></para>
           </listitem>
         </itemizedlist></para>
-      <formalpara id="resource-menu">
+      <formalpara xml:id="resource-menu">
         <title>Other Resources</title>
         <para><itemizedlist>
             <listitem>
-              <para><ulink url="news.html">News</ulink></para>
+              <para><link xlink:href="news.html">News</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="https://wiki.gnome.org/Projects/gtkmm/FAQ">FAQ</ulink></para>
+              <para><link xlink:href="https://wiki.gnome.org/Projects/gtkmm/FAQ">FAQ</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="https://wiki.gnome.org/Projects/gtkmm">Wiki</ulink></para>
+              <para><link xlink:href="https://wiki.gnome.org/Projects/gtkmm">Wiki</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="mailinglist.html">Mailing Lists</ulink></para>
+              <para><link xlink:href="mailinglist.html">Mailing Lists</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="git.html">Git</ulink></para>
+              <para><link xlink:href="git.html">Git</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="bugs.html">Bugs</ulink></para>
+              <para><link xlink:href="bugs.html">Bugs</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="books.html">Books</ulink></para>
+              <para><link xlink:href="books.html">Books</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="commercial_support.html">Commercial Support</ulink></para>
+              <para><link xlink:href="commercial_support.html">Commercial Support</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="extra.html">Additional Resources</ulink></para>
+              <para><link xlink:href="extra.html">Additional Resources</link></para>
             </listitem>
           </itemizedlist></para>
       </formalpara>
-      <formalpara id="language-menu">
+      <formalpara xml:id="language-menu">
         <title>Language</title>
         <para><itemizedlist>
             <listitem>
-              <para><ulink url="../pt_BR/index.html">Brazilian Portuguese</ulink></para>
+              <para><link xlink:href="../pt_BR/index.html">Brazilian Portuguese</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../cs/index.html">Czech</ulink></para>
+              <para><link xlink:href="../cs/index.html">Czech</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../de/index.html">Deutsch</ulink></para>
+              <para><link xlink:href="../de/index.html">Deutsch</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../en/index.html">English</ulink></para>
+              <para><link xlink:href="../en/index.html">English</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../es/index.html">Español</ulink></para>
+              <para><link xlink:href="../es/index.html">Español</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../fr/index.html">French</ulink></para>
+              <para><link xlink:href="../fr/index.html">French</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../el/index.html">Greek</ulink></para>
+              <para><link xlink:href="../el/index.html">Greek</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../hu/index.html">Hungarian</ulink></para>
+              <para><link xlink:href="../hu/index.html">Hungarian</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../ko/index.html">Korean</ulink></para>
+              <para><link xlink:href="../ko/index.html">Korean</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../sl/index.html">Slovenian</ulink></para>
+              <para><link xlink:href="../sl/index.html">Slovenian</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../sv/index.html">Swedish</ulink></para>
+              <para><link xlink:href="../sv/index.html">Swedish</link></para>
             </listitem>
             <listitem>
-              <para><ulink url="../zh_CN/index.html">中文</ulink></para>
+              <para><link xlink:href="../zh_CN/index.html">中文</link></para>
             </listitem>
           </itemizedlist></para>
       </formalpara>
-      <para id="sidebar-credits"><informalfigure>
+      <para xml:id="sidebar-credits">
+        <informalfigure xlink:href="https://www.gtk.org">
           <mediaobject>
             <imageobject>
+              <!-- Concerning its:translate="no", see https://bugzilla.gnome.org/show_bug.cgi?id=748470 -->
               <imagedata its:translate="no" fileref="../images/gtk-logo.png"/>
             </imageobject>
           </mediaobject>
-          <ulink url="https://www.gtk.org"/>
-        </informalfigure><informalfigure>
+        </informalfigure>
+        <informalfigure xlink:href="https://www.gnome.org">
           <mediaobject>
             <imageobject>
               <imagedata its:translate="no" fileref="../images/GNOME-logo.png"/>
             </imageobject>
           </mediaobject>
-          <ulink url="https://www.gnome.org"/>
-        </informalfigure></para>
-      <para id="footer"><ulink url="mailto:gtkmm-list@gnome.org">Contact Us</ulink></para>
+        </informalfigure>
+      </para>
+      <para xml:id="footer"><link xlink:href="mailto:gtkmm-list@gnome.org">Contact Us</link></para>
     </abstract>
-  </bookinfo>
+  </info>
 
-  <xi:include href="main.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="books.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="bugs.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="commercial_support.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="developers.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="documentation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="download.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="extra.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="git.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="license.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="mailinglist.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-  <xi:include href="news.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="main.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="books.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="bugs.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="commercial_support.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="developers.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="documentation.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="download.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="extra.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="git.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="license.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="mailinglist.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="news.xml"/>
 
 </book>

@@ -55,7 +55,9 @@ dist_noinst_DATA =		\
 	C/index.docbook	\
 	$(tutorial_po_files)	\
 	$(tutorial_xml_files)	\
-	$(tutorial_html_files)
+	$(tutorial_html_files) \
+	param.rng \
+	param.xsl
 
 dist_tutorial_figures_DATA = $(addprefix C/,$(HELP_MEDIA))
 
@@ -81,7 +83,7 @@ html/en/index.html: $(addprefix $(srcdir)/C/,$(HELP_FILES))
 	$(AM_V_GEN)$(XSLTPROC) -o html/en/ --xinclude $(srcdir)/param.xsl $(srcdir)/C/$(help_index_file)
 	
 validate: $(addprefix $(srcdir)/C/,$(HELP_FILES))
-	$(XMLLINT) --xinclude --postvalid --noout $<
+	$(XMLLINT) --xinclude --noout --relaxng $(srcdir)/param.rng $<
 
 
 .PHONY: install-tutorial uninstall-tutorial

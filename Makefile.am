@@ -9,7 +9,8 @@ dist_noinst_SCRIPTS = autogen.sh
 EXTRA_DIST = \
   meson.build \
   meson_options.txt \
-  docs/meson.build \
   docs/LINGUAS \
+  docs/meson.build \
+  docs/can_use_xmllint.xml \
   tools/extra-dist-cmd.py \
   tools/website-custom-cmd.py

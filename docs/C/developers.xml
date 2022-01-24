@@ -1,79 +1,83 @@
-﻿<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
-               "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd"
->
+<?xml version="1.0" encoding="utf-8"?>
+<article xmlns="http://docbook.org/ns/docbook"
+         xmlns:xlink="http://www.w3.org/1999/xlink"
+         version="5.0" xml:id="developers">
+    <title/>
 
-  <article id="developers">
-    <sect1>
-      <title>gtkmm Development</title>
-      <para>gtkmm development is done in the <ulink url="https://gnome.org/">GNOME</ulink> Git
-repository.  To get started developing gtkmm, see the <ulink url="git.html">detailed Git instructions</ulink>.  Discussion about gtkmm
-development happens on the <ulink url="mailinglist.html">mailing list</ulink>.</para>
-      <highlights>
-        <para>Please do not mail us directly - use the <ulink url="mailinglist.html">mailing list</ulink> instead.</para>
-      </highlights>
-    </sect1>
-    <sect1>
-      <title>Developers and Contributors</title>
-      <sect2>
-        <title>Current maintainers</title>
+    <section>
+    <title>gtkmm Development</title>
+      <para>gtkmm development is done in the <link xlink:href="https://gnome.org/">GNOME</link> Git
+repository.  To get started developing gtkmm, see the <link xlink:href="git.html">detailed Git instructions</link>.  Discussion about gtkmm
+development happens on the <link xlink:href="mailinglist.html">mailing list</link>.</para>
+      <note>
+        <para>Please do not mail us directly - use the <link xlink:href="mailinglist.html">mailing list</link> instead.</para>
+      </note>
+    </section>
+
+    <section>
+    <title>Developers and Contributors</title>
+      <section>
+      <title>Current maintainers</title>
         <itemizedlist>
           <listitem>
-            <para><ulink url="mailto:murrayc@murrayc.com">Murray Cumming</ulink> (<ulink url="http://www.murrayc.com">www.murrayc.com</ulink>)</para>
+            <para><link xlink:href="mailto:murrayc@murrayc.com">Murray Cumming</link> (<link xlink:href="http://www.murrayc.com">www.murrayc.com</link>)</para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:daniel.kitta@googlemail.com">Daniel Elstner</ulink></para>
+            <para><link xlink:href="mailto:daniel.kitta@googlemail.com">Daniel Elstner</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:kjellahlstedt@gmail.com">Kjell Ahlstedt</ulink></para>
+            <para><link xlink:href="mailto:kjellahlstedt@gmail.com">Kjell Ahlstedt</link></para>
           </listitem>
         </itemizedlist>
-      </sect2>
-      <sect2>
-        <title>Other gtkmm developers</title>
+      </section>
+
+      <section>
+      <title>Other gtkmm developers</title>
         <itemizedlist>
           <listitem>
-            <para><ulink url="mailto:bryan@reigndropsfall.net">Bryan Forbes</ulink>  (<ulink url="http://www.reigndropsfall.net/">www.reigndropsfall.net</ulink>)</para>
+            <para><link xlink:href="mailto:bryan@reigndropsfall.net">Bryan Forbes</link>  (<link xlink:href="http://www.reigndropsfall.net/">www.reigndropsfall.net</link>)</para>
           </listitem>
           <listitem>
             <para>Karl Nelson</para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:cactus@cactus.rulez.org">Gergő Érdi</ulink> (<ulink url="http://cactus.rulez.org">cactus.rulez.org</ulink>)</para>
+            <para><link xlink:href="mailto:cactus@cactus.rulez.org">Gergő Érdi</link> (<link xlink:href="http://cactus.rulez.org">cactus.rulez.org</link>)</para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:andreas.holzmann@epost.de">Andreas Holzmann</ulink></para>
+            <para><link xlink:href="mailto:andreas.holzmann@epost.de">Andreas Holzmann</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:mhl.schulze@t-online.de">Martin Schulze</ulink></para>
+            <para><link xlink:href="mailto:mhl.schulze@t-online.de">Martin Schulze</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:madmaxer@poczta.fm">Jarek Dukat</ulink></para>
+            <para><link xlink:href="mailto:madmaxer@poczta.fm">Jarek Dukat</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:morten@wtf.dk">Morten Brix Pedersen</ulink></para>
+            <para><link xlink:href="mailto:morten@wtf.dk">Morten Brix Pedersen</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:jonathon.jongsma@gmail.com">Jonathon Jongsma</ulink></para>
+            <para><link xlink:href="mailto:jonathon.jongsma@gmail.com">Jonathon Jongsma</link></para>
           </listitem>
         </itemizedlist>
-      </sect2>
-      <sect2>
-        <title>Previous maintainers</title>
+      </section>
+
+      <section>
+      <title>Previous maintainers</title>
         <itemizedlist>
           <listitem>
-            <para><ulink url="mailto:glaurent@telegraph-road.org">Guillaume Laurent</ulink></para>
+            <para><link xlink:href="mailto:glaurent@telegraph-road.org">Guillaume Laurent</link></para>
           </listitem>
           <listitem>
-            <para><ulink url="mailto:terop@assari.cc.tut.fi">Tero Pulkkinen</ulink></para>
+            <para><link xlink:href="mailto:terop@assari.cc.tut.fi">Tero Pulkkinen</link></para>
           </listitem>
         </itemizedlist>
-      </sect2>
-      <sect2>
-        <title/>
+      </section>
+
+      <section>
+      <title/>
         <para>There have been many patches, bug fixes and improvements from a lot
 of people. Thanks to them.
 </para>
-      </sect2>
-    </sect1>
+      </section>
+    </section>
   </article>
