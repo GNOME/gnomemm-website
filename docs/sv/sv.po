@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2022-01-06 14:05+0000\n"
-"PO-Revision-Date: 2022-01-06 16:32+0100\n"
+"POT-Creation-Date: 2022-01-26 09:19+0000\n"
+"PO-Revision-Date: 2022-01-27 00:28+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -22,232 +22,237 @@ msgctxt "_"
 msgid "translator-credits"
 msgstr "Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015"
 
-#. (itstool) path: bookinfo/title
+#. (itstool) path: info/title
 #. (itstool) path: tr/td
-#: C/index.docbook:9 C/git.xml:35 C/git.xml:37 C/git.xml:41 C/git.xml:43
+#: C/index.docbook:8 C/git.xml:42 C/git.xml:48 C/git.xml:54
 msgid "gtkmm"
 msgstr "gtkmm"
 
-#. (itstool) path: bookinfo/subtitle
-#: C/index.docbook:10
-msgid "C++ Interfaces for GTK+ and GNOME"
-msgstr "C++-gränssnitt för GTK+ och GNOME"
+#. (itstool) path: info/subtitle
+#: C/index.docbook:9
+msgid "C++ Interfaces for GTK and GNOME"
+msgstr "C++-gränssnitt för GTK och GNOME"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:14
-msgid "<ulink url=\"index.html\">Home</ulink>"
-msgstr "<ulink url=\"index.html\">Hem</ulink>"
+#: C/index.docbook:13
+msgid "<link xlink:href=\"index.html\">Home</link>"
+msgstr "<link xlink:href=\"index.html\">Hem</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:17
-msgid "<ulink url=\"license.html\">License</ulink>"
-msgstr "<ulink url=\"license.html\">Licens</ulink>"
+#: C/index.docbook:16
+msgid "<link xlink:href=\"license.html\">License</link>"
+msgstr "<link xlink:href=\"license.html\">Licens</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:20
-msgid "<ulink url=\"download.html\">Download</ulink>"
-msgstr "<ulink url=\"download.html\">Hämta</ulink>"
+#: C/index.docbook:19
+msgid "<link xlink:href=\"download.html\">Download</link>"
+msgstr "<link xlink:href=\"download.html\">Hämta</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:23
-msgid "<ulink url=\"documentation.html\">Documentation</ulink>"
-msgstr "<ulink url=\"documentation.html\">Dokumentation</ulink>"
+#: C/index.docbook:22
+msgid "<link xlink:href=\"documentation.html\">Documentation</link>"
+msgstr "<link xlink:href=\"documentation.html\">Dokumentation</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:26
-msgid "<ulink url=\"developers.html\">Development</ulink>"
-msgstr "<ulink url=\"developers.html\">Utveckling</ulink>"
+#: C/index.docbook:25
+msgid "<link xlink:href=\"developers.html\">Development</link>"
+msgstr "<link xlink:href=\"developers.html\">Utveckling</link>"
 
 #. (itstool) path: formalpara/title
-#: C/index.docbook:30
+#: C/index.docbook:29
 msgid "Other Resources"
 msgstr "Andra resurser"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:33
-msgid "<ulink url=\"news.html\">News</ulink>"
-msgstr "<ulink url=\"news.html\">Nyheter</ulink>"
+#: C/index.docbook:32
+msgid "<link xlink:href=\"news.html\">News</link>"
+msgstr "<link xlink:href=\"news.html\">Nyheter</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:36
-msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</ulink>"
+#: C/index.docbook:35
+msgid ""
+"<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</link>"
 msgstr ""
-"<ulink url=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">Vanliga frågor</"
-"ulink>"
+"<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">Vanliga "
+"frågor</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:39
-msgid "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
-msgstr "<ulink url=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</ulink>"
+#: C/index.docbook:38
+msgid "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
+msgstr "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:42
-msgid "<ulink url=\"mailinglist.html\">Mailing Lists</ulink>"
-msgstr "<ulink url=\"mailinglist.html\">Sändlistor</ulink>"
+#: C/index.docbook:41
+msgid "<link xlink:href=\"mailinglist.html\">Mailing Lists</link>"
+msgstr "<link xlink:href=\"mailinglist.html\">Sändlistor</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:45
-msgid "<ulink url=\"git.html\">Git</ulink>"
-msgstr "<ulink url=\"git.html\">Git</ulink>"
+#: C/index.docbook:44
+msgid "<link xlink:href=\"git.html\">Git</link>"
+msgstr "<link xlink:href=\"git.html\">Git</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:48
-msgid "<ulink url=\"bugs.html\">Bugs</ulink>"
-msgstr "<ulink url=\"bugs.html\">Fel</ulink>"
+#: C/index.docbook:47
+msgid "<link xlink:href=\"bugs.html\">Bugs</link>"
+msgstr "<link xlink:href=\"bugs.html\">Fel</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:51
-msgid "<ulink url=\"books.html\">Books</ulink>"
-msgstr "<ulink url=\"books.html\">Böcker</ulink>"
+#: C/index.docbook:50
+msgid "<link xlink:href=\"books.html\">Books</link>"
+msgstr "<link xlink:href=\"books.html\">Böcker</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:54
-msgid "<ulink url=\"commercial_support.html\">Commercial Support</ulink>"
-msgstr "<ulink url=\"commercial_support.html\">Kommersiellt stöd</ulink>"
+#: C/index.docbook:53
+msgid "<link xlink:href=\"commercial_support.html\">Commercial Support</link>"
+msgstr "<link xlink:href=\"commercial_support.html\">Kommersiellt stöd</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:57
-msgid "<ulink url=\"extra.html\">Additional Resources</ulink>"
-msgstr "<ulink url=\"extra.html\">Ytterligare resurser</ulink>"
+#: C/index.docbook:56
+msgid "<link xlink:href=\"extra.html\">Additional Resources</link>"
+msgstr "<link xlink:href=\"extra.html\">Ytterligare resurser</link>"
 
 #. (itstool) path: formalpara/title
-#: C/index.docbook:62
+#: C/index.docbook:61
 msgid "Language"
 msgstr "Språk"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:65
-msgid "<ulink url=\"../pt_BR/index.html\">Brazilian Portuguese</ulink>"
-msgstr "<ulink url=\"../pt_BR/index.html\">Brasiliansk portugisiska</ulink>"
+#: C/index.docbook:64
+msgid "<link xlink:href=\"../pt_BR/index.html\">Brazilian Portuguese</link>"
+msgstr ""
+"<link xlink:href=\"../pt_BR/index.html\">Brasiliansk portugisiska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:68
-msgid "<ulink url=\"../cs/index.html\">Czech</ulink>"
-msgstr "<ulink url=\"../cs/index.html\">Tjeckiska</ulink>"
+#: C/index.docbook:67
+msgid "<link xlink:href=\"../cs/index.html\">Czech</link>"
+msgstr "<link xlink:href=\"../cs/index.html\">Tjeckiska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:71
-msgid "<ulink url=\"../de/index.html\">Deutsch</ulink>"
-msgstr "<ulink url=\"../de/index.html\">Deutsch</ulink>"
+#: C/index.docbook:70
+msgid "<link xlink:href=\"../de/index.html\">Deutsch</link>"
+msgstr "<link xlink:href=\"../de/index.html\">Deutsch</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:74
-msgid "<ulink url=\"../en/index.html\">English</ulink>"
-msgstr "<ulink url=\"../en/index.html\">Engelska</ulink>"
+#: C/index.docbook:73
+msgid "<link xlink:href=\"../en/index.html\">English</link>"
+msgstr "<link xlink:href=\"../en/index.html\">Engelska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:77
-msgid "<ulink url=\"../es/index.html\">Español</ulink>"
-msgstr "<ulink url=\"../es/index.html\">Español</ulink>"
+#: C/index.docbook:76
+msgid "<link xlink:href=\"../es/index.html\">Español</link>"
+msgstr "<link xlink:href=\"../es/index.html\">Español</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:80
-msgid "<ulink url=\"../fr/index.html\">French</ulink>"
-msgstr "<ulink url=\"../fr/index.html\">Franska</ulink>"
+#: C/index.docbook:79
+msgid "<link xlink:href=\"../fr/index.html\">French</link>"
+msgstr "<link xlink:href=\"../fr/index.html\">Franska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:83
-msgid "<ulink url=\"../el/index.html\">Greek</ulink>"
-msgstr "<ulink url=\"../el/index.html\">Grekiska</ulink>"
+#: C/index.docbook:82
+msgid "<link xlink:href=\"../el/index.html\">Greek</link>"
+msgstr "<link xlink:href=\"../el/index.html\">Grekiska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:86
-msgid "<ulink url=\"../hu/index.html\">Hungarian</ulink>"
-msgstr "<ulink url=\"../hu/index.html\">Ungerska</ulink>"
+#: C/index.docbook:85
+msgid "<link xlink:href=\"../hu/index.html\">Hungarian</link>"
+msgstr "<link xlink:href=\"../hu/index.html\">Ungerska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:89
-msgid "<ulink url=\"../ko/index.html\">Korean</ulink>"
-msgstr "<ulink url=\"../ko/index.html\">Koreanska</ulink>"
+#: C/index.docbook:88
+msgid "<link xlink:href=\"../ko/index.html\">Korean</link>"
+msgstr "<link xlink:href=\"../ko/index.html\">Koreanska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:92
-msgid "<ulink url=\"../sl/index.html\">Slovenian</ulink>"
-msgstr "<ulink url=\"../sl/index.html\">Slovenska</ulink>"
+#: C/index.docbook:91
+msgid "<link xlink:href=\"../sl/index.html\">Slovenian</link>"
+msgstr "<link xlink:href=\"../sl/index.html\">Slovenska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:95
-msgid "<ulink url=\"../sv/index.html\">Swedish</ulink>"
-msgstr "<ulink url=\"../sv/index.html\">Svenska</ulink>"
+#: C/index.docbook:94
+msgid "<link xlink:href=\"../sv/index.html\">Swedish</link>"
+msgstr "<link xlink:href=\"../sv/index.html\">Svenska</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:98
-msgid "<ulink url=\"../zh_CN/index.html\">中文</ulink>"
-msgstr "<ulink url=\"../zh_CN/index.html\">中文</ulink>"
+#: C/index.docbook:97
+msgid "<link xlink:href=\"../zh_CN/index.html\">中文</link>"
+msgstr "<link xlink:href=\"../zh_CN/index.html\">中文</link>"
 
 #. (itstool) path: abstract/para
-#: C/index.docbook:117
-msgid "<ulink url=\"mailto:gtkmm-list@gnome.org\">Contact Us</ulink>"
-msgstr "<ulink url=\"mailto:gtkmm-list@gnome.org\">Kontakta oss</ulink>"
+#. (itstool) id: index.docbook#footer
+#. (itstool) id: index.docbook#footer
+#: C/index.docbook:118
+msgid "<link xlink:href=\"mailto:gtkmm-list@gnome.org\">Contact Us</link>"
+msgstr "<link xlink:href=\"mailto:gtkmm-list@gnome.org\">Kontakta oss</link>"
 
-#. (itstool) path: highlights/para
-#: C/main.xml:9
+#. (itstool) path: note/para
+#: C/main.xml:11
 msgid ""
 "<application>gtkmm</application> is the official C++ interface for the "
-"popular GUI library <ulink url=\"http://www.gtk.org/\">GTK+</ulink>. "
+"popular GUI library <link xlink:href=\"https://www.gtk.org/\">GTK</link>. "
 "Highlights include typesafe callbacks, and a comprehensive set of widgets "
 "that are easily extensible via inheritance. You can create user interfaces "
-"either in code or with the <ulink url=\"http://glade.gnome.org/\">Glade User "
-"Interface designer</ulink>, using Gtk::Builder. There's <ulink url="
-"\"documentation.html\">extensive documentation</ulink>, including API "
-"reference and a tutorial."
+"either in code or with the <link xlink:href=\"https://glade.gnome.org/"
+"\">Glade User Interface designer</link>, using Gtk::Builder. There's <link "
+"xlink:href=\"documentation.html\">extensive documentation</link>, including "
+"API reference and a tutorial."
 msgstr ""
 "<application>gtkmm</application> är det officiella C++-gränssnittet för det "
-"populära grafiska gränssnittsbiblioteket <ulink url=\"http://www.gtk.org/"
-"\">GTK+</ulink>. Höjdpunkter inkluderar typsäkra återanrop och en omfattande "
-"uppsättning komponenter som enkelt kan utökas med hjälp av arv. Du kan skapa "
-"användargränssnitt antingen i kod eller med <ulink url=\"http://glade.gnome."
-"org/\">Glade gränssnittsbyggare</ulink>, med Gtk::Builder. Det finns <ulink "
-"url=\"documentation.html\">utförlig dokumentation</ulink> vilken inkluderar "
-"API-referens och en handbok."
+"populära grafiska gränssnittsbiblioteket <link xlink:href=\"https://www.gtk."
+"org/\">GTK</link>. Höjdpunkter inkluderar typsäkra återanrop och en "
+"omfattande uppsättning komponenter som enkelt kan utökas med hjälp av arv. "
+"Du kan skapa användargränssnitt antingen i kod eller med <link xlink:href="
+"\"https://glade.gnome.org/\">Glade gränssnittsbyggare</link>, med Gtk::"
+"Builder. Det finns <link xlink:href=\"documentation.html\">utförlig "
+"dokumentation</link> vilken inkluderar API-referens och en handbok."
 
-#. (itstool) path: highlights/para
-#: C/main.xml:18
+#. (itstool) path: note/para
+#: C/main.xml:20
 msgid ""
 "<application>gtkmm</application> is free software distributed under the GNU "
-"Library General Public License (<ulink url=\"license.html\">LGPL</ulink>)."
+"Lesser General Public License (<link xlink:href=\"license.html\">LGPL</"
+"link>)."
 msgstr ""
 "<application>gtkmm</application> är fri programvara som distribueras under "
-"GNU Library General Public License (<ulink url=\"license.html\">LGPL</"
-"ulink>)."
+"GNU Lesser General Public License (<link xlink:href=\"license.html\">LGPL</"
+"link>)."
 
-#. (itstool) path: highlights/para
-#: C/main.xml:22
+#. (itstool) path: note/para
+#: C/main.xml:24
 msgid ""
-"<application>gtkmm</application> follows the official <ulink url=\"https://"
-"www.gnome.org/start/unstable/\"> GNOME Platform Bindings release schedule</"
-"ulink>. This guarantees API/ABI-stability and new releases on a predictable "
-"schedule, delivering C++ API for the underlying GTK+ and GNOME APIs as soon "
-"as possible."
+"<application>gtkmm</application> follows the official <link xlink:href="
+"\"https://www.gnome.org/start/unstable/\"> GNOME Platform Bindings release "
+"schedule</link>. This guarantees API/ABI-stability and new releases on a "
+"predictable schedule, delivering C++ API for the underlying GTK and GNOME "
+"APIs as soon as possible."
 msgstr ""
-"<application>gtkmm</application> följer det officiella <ulink url=\"https://"
-"www.gnome.org/start/unstable/\"> schemat för GNOME-plattformsbindningar</"
-"ulink>. Detta garanterar API/ABI-stabilitet och nya utgåvor enligt ett "
-"förutsägbart schema, vilket levererar C++-API för de underliggande GTK+- och "
-"GNOME-API:erna så fort som möjligt."
+"<application>gtkmm</application> följer det officiella <link xlink:href="
+"\"https://www.gnome.org/start/unstable/\"> schemat för GNOME-"
+"plattformsbindningar</link>. Detta garanterar API/ABI-stabilitet och nya "
+"utgåvor enligt ett förutsägbart schema, vilket levererar C++-API för de "
+"underliggande GTK- och GNOME-API:erna så fort som möjligt."
 
-#. (itstool) path: sect1/title
-#: C/main.xml:29
+#. (itstool) path: section/title
+#: C/main.xml:32
 msgid "Features"
 msgstr "Funktioner"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:33
+#: C/main.xml:36
 msgid "Use inheritance to derive custom widgets."
 msgstr "Använder arv för att härleda anpassade komponenter."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:36
+#: C/main.xml:39
 msgid "Type-safe signal handlers, in standard C++."
 msgstr "Typsäkra signalhanterare, i standard C++."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:39
+#: C/main.xml:42
 msgid "Polymorphism."
 msgstr "Polymorfism."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:42
+#: C/main.xml:45
 msgid ""
 "Use of Standard C++ Library, including strings, containers, and iterators."
 msgstr ""
@@ -255,46 +260,48 @@ msgstr ""
 "iteratorer."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:45
+#: C/main.xml:48
 msgid "Full internationalisation with UTF8."
 msgstr "Full internationalisering med UTF8."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:51
+#: C/main.xml:54
 msgid "Object composition"
 msgstr "Objektkomposition"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:54
+#: C/main.xml:57
 msgid "Automatic deallocation of dynamically allocated widgets."
 msgstr "Automatisk avallokering av dynamiskt allokerade komponenter."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:48
+#: C/main.xml:51
 msgid "Complete C++ memory management <_:itemizedlist-1/>"
 msgstr "Komplett minneshantering för C++ <_:itemizedlist-1/>"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:60
+#: C/main.xml:63
 msgid "Full use of C++ namespaces."
 msgstr "Fullständig användning av C++-namnrymder."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:63
+#: C/main.xml:66
 msgid "No macros."
 msgstr "Inga makron."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:66
+#: C/main.xml:69
 msgid ""
 "Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
-"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), others"
+"Forte), Win32 (gcc, MSVC 2013 or later (gtkmm3), MSVC 2017 or later "
+"(gtkmm4)), MacOS X (gcc), others"
 msgstr ""
 "Multiplattform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
-"Forte), Win32 (gcc, MSVC++ .Net 2003, 2005, 2008), MacOS X (gcc), andra"
+"Forte), Win32 (gcc, MSVC 2013 eller senare (gtkmm3), MSVC 2017 eller senare "
+"(gtkmm4)), MacOS X (gcc), andra"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:69
+#: C/main.xml:73
 msgid ""
 "Free software and free of cost for both Open Source and proprietary "
 "development."
@@ -303,286 +310,294 @@ msgstr ""
 "utveckling."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:73
+#: C/main.xml:77
 msgid "Discussed, designed and implemented in public."
 msgstr "Diskuterad, designad and implementerad öppet."
 
-#. (itstool) path: sect1/title
-#: C/main.xml:79
+#. (itstool) path: section/title
+#: C/main.xml:84
 msgid "Other gtkmm-related libraries"
 msgstr "Andra bibliotek relaterade till gtkmm"
 
-#. (itstool) path: sect2/title
-#. (itstool) path: sect3/title
-#: C/main.xml:81 C/git.xml:61
+#. (itstool) path: section/title
+#: C/main.xml:86 C/git.xml:78
 msgid "gnomemm"
 msgstr "gnomemm"
 
 # https://en.wikipedia.org/wiki/Signals_and_slots
-#. (itstool) path: sect2/para
-#: C/main.xml:82
+#. (itstool) path: section/para
+#: C/main.xml:87
 msgid ""
 "gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
 "GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
 "parser, or database access. Even our signal/slots system is part of a "
-"separate (<ulink url=\"https://libsigcplusplus.github.io/libsigcplusplus/"
-"\">libsigc++</ulink>) library. However, gtkmm is designed to work well with "
-"all other C++ libraries."
+"separate (<link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link>) library. However, gtkmm is designed to "
+"work well with all other C++ libraries."
 msgstr ""
 "gtkmm är en verktygslåda för grafiska användargränssnitt och inget annat, "
 "och strävar efter att vara den bästa sådana C++-verktygslådan. Detta mandat "
 "täcker inte generiska C++-datastrukturer, en XML-tolk eller databasåtkomst. "
-"Till och med vårt signal/slot-system är del av ett separat bibliotek (<ulink "
-"url=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</"
-"ulink>). gtkmm är dock designat för att fungera bra med alla andra C++-"
+"Till och med vårt signal/slot-system är del av ett separat bibliotek (<link "
+"xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</"
+"link>). gtkmm är dock designat för att fungera bra med alla andra C++-"
 "bibliotek."
 
-#. (itstool) path: sect2/para
-#: C/main.xml:89
+#. (itstool) path: section/para
+#: C/main.xml:94
 msgid ""
 "The gnomemm libraries cover some of these other tasks, but they are optional."
 msgstr ""
-"gnomemm-biblioteken täcker några av dessa andra uppgifter, med de är valfria."
+"gnomemm-biblioteken täcker några av dessa andra uppgifter, men de är valfria."
 
-#. (itstool) path: sect2/title
-#: C/main.xml:95
+#. (itstool) path: section/title
+#: C/main.xml:101
 msgid "libsigc++"
 msgstr "libsigc++"
 
-#. (itstool) path: sect2/para
-#: C/main.xml:96
+#. (itstool) path: section/para
+#: C/main.xml:102
 msgid ""
 "Also, be sure to check out our companion libraries, glibmm (UTF8 strings, "
-"threading, etc) and <ulink url=\"https://libsigcplusplus.github.io/"
-"libsigcplusplus/\">libsigc++</ulink> (signal/slots)."
+"threading, etc) and <link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link> (signal/slots)."
 msgstr ""
 "Titta även närmare på våra kompisbibliotek, glibmm (UTF8-strängar, trådning "
-"o.s.v.) och <ulink url=\"https://libsigcplusplus.github.io/libsigcplusplus/"
-"\">libsigc++</ulink> (signal/slot)."
+"o.s.v.) och <link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link> (signal/slot)."
 
-#. (itstool) path: sect2/title
-#: C/main.xml:101 C/books.xml:41
+#. (itstool) path: section/title
+#: C/main.xml:108 C/books.xml:47
 msgid "Others"
 msgstr "Andra"
 
 # Finns något vedertaget namn för Document/View?
-#. (itstool) path: sect2/para
-#: C/main.xml:102
+#. (itstool) path: section/para
+#: C/main.xml:109
 msgid ""
-"Be sure to check out <ulink url=\"http://bakery.sourceforge.net/\">Bakery</"
-"ulink>, a framework for constructing gtkmm/gnomemm applications. It allows "
-"use of the Document/View architecture."
+"Be sure to check out <link xlink:href=\"http://bakery.sourceforge.net/"
+"\">Bakery</link>, a framework for constructing gtkmm/gnomemm applications. "
+"It allows use of the Document/View architecture."
 msgstr ""
-"Missa inte att ta en titt på <ulink url=\"http://bakery.sourceforge.net/"
-"\">Bakery</ulink>, ett ramverk för att konstruera gtkmm/gnomemm-program. Det "
-"tillåter användning av arkitekturen Document/View."
+"Missa inte att ta en titt på <link xlink:href=\"http://bakery.sourceforge."
+"net/\">Bakery</link>, ett ramverk för att konstruera gtkmm/gnomemm-program. "
+"Det tillåter användning av arkitekturen Document/View."
 
-#. (itstool) path: sect1/title
+#. (itstool) path: section/title
 #: C/books.xml:8
 msgid "Recommended Books"
 msgstr "Rekommenderade böcker"
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/books.xml:10
 msgid ""
-"The <ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable"
-"\">Programming with gtkmm 3</ulink> and <ulink url=\"https://developer.gnome."
-"org/gtkmm-tutorial/2.24/\">Programming with gtkmm 2</ulink> books are "
-"available online along with the rest of our <ulink url=\"documentation.html"
-"\">documentation</ulink>."
+"The <link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable"
+"\">Programming with gtkmm 4</link> and <link xlink:href=\"https://developer."
+"gnome.org/gtkmm-tutorial/3.24/\">Programming with gtkmm 3</link> tutorials "
+"are available online along with the rest of our <link xlink:href="
+"\"documentation.html\">documentation</link>."
 msgstr ""
-"Böckerna <ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable"
-"\">Programming with gtkmm 3</ulink> och <ulink url=\"https://developer.gnome."
-"org/gtkmm-tutorial/2.24/\">Programming with gtkmm 2</ulink> finns "
-"tillgängliga på nätet tillsammans med vår övriga <ulink url=\"documentation."
-"html\">dokumentation</ulink>."
+"Handböckerna <link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/"
+"stable\">Programming with gtkmm 4</link> och <link xlink:href=\"https://"
+"developer.gnome.org/gtkmm-tutorial/3.24/\">Programming with gtkmm 3</link> "
+"finns tillgängliga på nätet tillsammans med vår övriga <link xlink:href="
+"\"documentation.html\">dokumentation</link>."
 
-#. (itstool) path: sect1/para
-#: C/books.xml:11
+#. (itstool) path: section/para
+#: C/books.xml:13
+msgid ""
+"<link xlink:href=\"https://mesonbuild.com/\">The Meson build system</link> "
+"is also described online."
+msgstr ""
+"<link xlink:href=\"https://mesonbuild.com/\">Byggsystemet Meson</link> "
+"beskrivs också på nätet."
+
+#. (itstool) path: section/para
+#: C/books.xml:14
 msgid "The gtkmm developers also find these books helpful:"
 msgstr "The gtkmm-utvecklarna tycker även att dessa böcker är till hjälp:"
 
-#. (itstool) path: sect2/title
-#: C/books.xml:15
+#. (itstool) path: section/title
+#: C/books.xml:19
 msgid "Core books"
 msgstr "Centrala böcker"
 
 #. (itstool) path: listitem/para
-#: C/books.xml:19
+#: C/books.xml:23
 msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
-"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
 msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
-"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
 
 #. (itstool) path: listitem/para
-#: C/books.xml:22
+#: C/books.xml:26
 msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
-"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
 msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
-"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
 
 #. (itstool) path: listitem/para
-#: C/books.xml:25
+#: C/books.xml:29
 msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
-"murrayswebpages/\">Design Patterns, Erich Gamma et al</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
 msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
-"murrayswebpages/\">Design Patterns, Erich Gamma et al</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
 
-#. (itstool) path: sect2/title
-#: C/books.xml:31
+#. (itstool) path: section/title
+#: C/books.xml:36
 msgid "For beginners"
 msgstr "För nybörjare"
 
 #. (itstool) path: listitem/para
-#: C/books.xml:35
+#: C/books.xml:40
 msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
 "murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
-"Andrew Koenig &amp; Barbara E. Moo</ulink>"
+"Andrew Koenig &amp; Barbara E. Moo</link>"
 msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
 "murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
-"Andrew Koenig &amp; Barbara E. Moo</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:45
-msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
-"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
-"Cooper &amp; Robert M. Reimann</ulink>"
-msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
-"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
-"Cooper &amp; Robert M. Reimann</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:48
-msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
-"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
-"Steve Vinoski</ulink>"
-msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
-"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
-"Steve Vinoski</ulink>"
+"Andrew Koenig &amp; Barbara E. Moo</link>"
 
 #. (itstool) path: listitem/para
 #: C/books.xml:51
 msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
-"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
-"ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</link>"
 msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
-"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
-"ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</link>"
 
 #. (itstool) path: listitem/para
 #: C/books.xml:54
 msgid ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
-"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
-"al</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</link>"
 msgstr ""
-"<ulink url=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
-"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
-"al</ulink>"
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</link>"
 
-#. (itstool) path: sect1/title
+#. (itstool) path: listitem/para
+#: C/books.xml:57
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:60
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</link>"
+
+#. (itstool) path: section/title
 #: C/bugs.xml:8
 msgid "Bugs"
 msgstr "Fel"
 
-#. (itstool) path: highlights/para
+#. (itstool) path: note/para
 #: C/bugs.xml:10
 msgid ""
-"See <ulink url=\"#NewBugs\">Where to report</ulink> to submit new bugs or "
-"patches."
+"See <link xlink:href=\"#NewBugs\">Where to report</link> to submit new bugs "
+"or patches."
 msgstr ""
-"Se <ulink url=\"#NewBugs\">Var ska jag rapportera</ulink> för att skicka in "
-"nya fel och programfixar."
+"Se <link xlink:href=\"#NewBugs\">Var ska jag rapportera</link> för att "
+"skicka in nya fel och programfixar."
 
-#. (itstool) path: sect2/title
-#: C/bugs.xml:13
+#. (itstool) path: section/title
+#: C/bugs.xml:14
 msgid "Current bugs and patches"
 msgstr "Aktuella fel och programfixar"
 
-#. (itstool) path: sect2/para
-#: C/bugs.xml:14
+#. (itstool) path: section/para
+#: C/bugs.xml:15
 msgid "A good way to get involved."
 msgstr "Ett bra sätt att engagera dig."
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:17
+#: C/bugs.xml:18
 msgid ""
-"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
-"\">gtkmm bugs</ulink>"
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
+"\">gtkmm bugs</link>"
 msgstr ""
-"Återstående <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/\">fel "
-"i gtkmm</ulink>"
+"Återstående <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
+"\">fel i gtkmm</link>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:20
+#: C/bugs.xml:21
 msgid ""
-"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
-"\">glibmm bugs</ulink>"
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
+"\">glibmm bugs</link>"
 msgstr ""
-"Återstående <ulink url=\"https://gitlab.gnome.org/GNOME/glibmm/issues/\">fel "
-"i glibmm</ulink>"
+"Återstående <link xlink:href=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
+"\">fel i glibmm</link>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:23
+#: C/bugs.xml:24
 msgid ""
-"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/pangomm/issues/"
-"\">pangomm bugs</ulink>"
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/pangomm/issues/"
+"\">pangomm bugs</link>"
 msgstr ""
-"Återstående <ulink url=\"https://gitlab.gnome.org/GNOME/pangomm/issues/"
-"\">fel i pangomm</ulink>"
+"Återstående <link xlink:href=\"https://gitlab.gnome.org/GNOME/pangomm/issues/"
+"\">fel i pangomm</link>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:26
+#: C/bugs.xml:27
 msgid ""
-"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/"
-"issues/\">gtkmm-documentation bugs</ulink>"
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/issues/\">gtkmm-documentation bugs</link>"
 msgstr ""
-"Återstående <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/"
-"issues/\">fel i gtkmm-documentation</ulink>"
+"Återstående <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/issues/\">fel i gtkmm-documentation</link>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:29
+#: C/bugs.xml:30
 msgid ""
-"Outstanding <ulink url=\"https://gitlab.gnome.org/GNOME/mm-common/issues/"
-"\">mm-common bugs</ulink>"
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/mm-common/"
+"issues/\">mm-common bugs</link>"
 msgstr ""
-"Återstående <ulink url=\"https://gitlab.gnome.org/GNOME/mm-common/issues/"
-"\">fel i mm-common</ulink>"
+"Återstående <link xlink:href=\"https://gitlab.gnome.org/GNOME/mm-common/"
+"issues/\">fel i mm-common</link>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:32
+#: C/bugs.xml:33
 msgid ""
-"Outstanding <ulink url=\"https://gitlab.freedesktop.org/cairo/cairomm/issues"
-"\">cairomm bugs</ulink>"
+"Outstanding <link xlink:href=\"https://gitlab.freedesktop.org/cairo/cairomm/"
+"issues\">cairomm bugs</link>"
 msgstr ""
-"Återstående <ulink url=\"https://gitlab.freedesktop.org/cairo/cairomm/issues"
-"\">fel i cairomm</ulink>"
+"Återstående <link xlink:href=\"https://gitlab.freedesktop.org/cairo/cairomm/"
+"issues\">fel i cairomm</link>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:35
+#: C/bugs.xml:36
 msgid ""
-"Outstanding <ulink url=\"https://github.com/libsigcplusplus/libsigcplusplus/"
-"issues\">libsigc++ bugs</ulink>"
+"Outstanding <link xlink:href=\"https://github.com/libsigcplusplus/"
+"libsigcplusplus/issues\">libsigc++ bugs</link>"
 msgstr ""
-"Återstående <ulink url=\"https://github.com/libsigcplusplus/libsigcplusplus/"
-"issues\">fel i libsigc++</ulink>"
+"Återstående <link xlink:href=\"https://github.com/libsigcplusplus/"
+"libsigcplusplus/issues\">fel i libsigc++</link>"
 
-#. (itstool) path: sect2/para
-#: C/bugs.xml:38
+#. (itstool) path: section/para
+#: C/bugs.xml:39
 msgid ""
 "As soon as a gtkmm patch has been clearly approved by a maintainer, anybody "
 "with git write access may apply it."
@@ -590,47 +605,48 @@ msgstr ""
 "Så snart en gtkmm-programfix har tydligt godkänts av en av de ansvariga kan "
 "vem som helst med skrivåtkomst för git verkställa den."
 
-#. (itstool) path: sect2/title
-#: C/bugs.xml:41
-msgid "<anchor id=\"NewBugs\"/>Where to report?"
-msgstr "<anchor id=\"NewBugs\"/>Var ska jag rapportera?"
+#. (itstool) path: section/title
+#: C/bugs.xml:43
+msgid "<anchor xml:id=\"NewBugs\"/>Where to report?"
+msgstr "<anchor xml:id=\"NewBugs\"/>Var ska jag rapportera?"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:44
+#: C/bugs.xml:46
 msgid ""
-"Bugs are tracked in GNOME's <ulink url=\"https://gitlab.gnome.org\">issue "
-"tracker</ulink>. Submit gtkmm bugs <ulink url=\"https://gitlab.gnome.org/"
-"GNOME/gtkmm/issues/new/\">here</ulink>."
+"Bugs are tracked in GNOME's <link xlink:href=\"https://gitlab.gnome.org"
+"\">issue tracker</link>. Submit gtkmm bugs <link xlink:href=\"https://gitlab."
+"gnome.org/GNOME/gtkmm/issues/new/\">here</link>."
 msgstr ""
-"Fel följs upp i GNOME:s <ulink url=\"https://gitlab.gnome.org"
-"\">felrapporteringssystem</ulink>. Skicka in fel i gtkmm <ulink url="
-"\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/\">här</ulink>."
+"Fel följs upp i GNOME:s <link xlink:href=\"https://gitlab.gnome.org"
+"\">felrapporteringssystem</link>. Skicka in fel i gtkmm <link xlink:href="
+"\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/\">här</link>."
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:49
+#: C/bugs.xml:51
 msgid ""
-"Patches should be attached to existing tickets rather than sent to the "
-"mailing list. When reporting a new bug you'll get a chance to attach a file "
-"to it immediately <emphasis role=\"bold\">after</emphasis> opening the issue."
+"Patches should be attached to existing issues or MRs (merge requests) rather "
+"than sent to the mailing list. When reporting a new bug you'll get a chance "
+"to attach a file to it immediately <emphasis role=\"bold\">after</emphasis> "
+"opening the issue."
 msgstr ""
-"Programfixar bör bifogas till befintliga felrapporter snarare än skickas "
-"till sändlistan. När du rapporterar ett nytt fel har du möjlighet att bifoga "
-"en fil till det omedelbart <emphasis role=\"bold\">efter</emphasis> att "
-"felet skapats."
+"Programfixar bör bifogas till befintliga ärenden eller MR (merge requests, "
+"merge-förfrågningar) snarare än skickas till sändlistan. När du rapporterar "
+"ett nytt fel har du möjlighet att bifoga en fil till det omedelbart "
+"<emphasis role=\"bold\">efter</emphasis> att ärendet skapats."
 
-#. (itstool) path: sect2/title
-#: C/bugs.xml:56
+#. (itstool) path: section/title
+#: C/bugs.xml:60
 msgid "What information is needed for a bug report?"
 msgstr "Vilken information krävs för en felrapport?"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:63
 msgid ""
-"version numbers of GTK+, gtkmm and other related software, including your "
+"version numbers of GTK, gtkmm and other related software, including your "
 "platform/distro/compiler."
 msgstr ""
-"versionsnummer för GTK+, gtkmm och annan relaterad programvara, inklusive "
-"din plattform/distribution/kompilator."
+"versionsnummer för GTK, gtkmm och annan relaterad programvara, inklusive din "
+"plattform/distribution/kompilator."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:66
@@ -661,7 +677,7 @@ msgstr "håll det kort men detaljerat"
 msgid "if possible, provide a patch"
 msgstr "skicka med en programfix om möjligt"
 
-#. (itstool) path: sect2/para
+#. (itstool) path: section/para
 #: C/bugs.xml:82
 msgid ""
 "If we can't solve the problem immediately then we might ask you to create a "
@@ -672,13 +688,13 @@ msgstr ""
 "enkelt exempel som möjligt som faktiskt går bygga. Detta hjälper oss att "
 "isolera problemet och bevisar att problemet inte orsakats av din egen kod."
 
-#. (itstool) path: sect2/title
-#: C/bugs.xml:88
-msgid "<anchor id=\"CreatingPatches\"/>How do I create a patch?"
-msgstr "<anchor id=\"CreatingPatches\"/>Hur skapar jag en programfix?"
-
-#. (itstool) path: sect2/para
+#. (itstool) path: section/title
 #: C/bugs.xml:89
+msgid "<anchor xml:id=\"CreatingPatches\"/>How do I create a patch?"
+msgstr "<anchor xml:id=\"CreatingPatches\"/>Hur skapar jag en programfix?"
+
+#. (itstool) path: section/para
+#: C/bugs.xml:90
 msgid ""
 "There are many ways to use Git, but this is the simplest way to create a "
 "patch if you are unfamiliar with Git:"
@@ -687,27 +703,22 @@ msgstr ""
 "skapa en programfix om du inte är bekant med Git:"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:92
-msgid "Take code from <ulink url=\"git.html\">git</ulink>"
-msgstr "Ta kod från <ulink url=\"git.html\">git</ulink>"
+#: C/bugs.xml:93
+msgid "Take code from <link xlink:href=\"git.html\">git</link>"
+msgstr "Ta kod från <link xlink:href=\"git.html\">git</link>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:95
+#: C/bugs.xml:96
 msgid "Modify that version"
 msgstr "Ändra den versionen"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:98
+#: C/bugs.xml:99
 msgid "Check it compiles"
 msgstr "Kontrollera att det kompilerar"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:101
-msgid "Edit the ChangeLog"
-msgstr "Ändra ChangeLog"
-
-#. (itstool) path: listitem/para
-#: C/bugs.xml:104
+#: C/bugs.xml:102
 msgid ""
 "Use git to create a patch <command> git diff -u &gt; my_fix.patch </command>"
 msgstr ""
@@ -715,42 +726,53 @@ msgstr ""
 "patch </command>"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:108
+#: C/bugs.xml:106
 msgid "Add the patch in the issue tracker (see above)."
 msgstr "Lägg till programfixen i felrapporteringssystemet (se ovan)."
 
-#. (itstool) path: sect2/title
-#: C/bugs.xml:113
+#. (itstool) path: section/title
+#: C/bugs.xml:112
 msgid "Should I send a bug report?"
 msgstr "Ska jag skicka en felrapport?"
 
-#. (itstool) path: sect2/para
-#: C/bugs.xml:114
+#. (itstool) path: section/para
+#: C/bugs.xml:113
 msgid "Always send a bug report:"
 msgstr "Skicka alltid en felrapport:"
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:120
+#: C/bugs.xml:118
 msgid "If you get a crash and you think it might be problem with gtkmm."
 msgstr ""
 "Om du råkar ut för en krasch och du tror det kan vara ett problem med gtkmm."
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:123
+#: C/bugs.xml:121
 msgid "If you cannot compile gtkmm."
 msgstr "Om du inte kan kompilera gtkmm."
 
 #. (itstool) path: listitem/para
-#: C/bugs.xml:126
+#: C/bugs.xml:124
 msgid "If you have a good idea of how to make gtkmm better."
 msgstr "Om du har en bra idé om hur gtkmm kan bli bättre."
 
-#. (itstool) path: sect1/title
+#. (itstool) path: section/para
+#: C/bugs.xml:127
+msgid ""
+"If you know how to fix the bug, you can <link xlink:href=\"https://gitlab."
+"gnome.org/help/user/project/merge_requests/creating_merge_requests.md\"> "
+"create a merge request</link> instead of (or in addition to) an issue."
+msgstr ""
+"Om du vet hur felet ska fixas kan du <link xlink:href=\"https://gitlab.gnome."
+"org/help/user/project/merge_requests/creating_merge_requests.md\"> skapa en "
+"merge-förfrågan</link> i stället för (eller som komplement till) ett ärende."
+
+#. (itstool) path: section/title
 #: C/commercial_support.xml:8
 msgid "Commercial Support"
 msgstr "Kommersiellt stöd"
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/commercial_support.xml:9
 msgid ""
 "The mailing lists, irc, and documentation are helpful, but your company "
@@ -778,13 +800,13 @@ msgstr "Plats"
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:17
 msgid ""
-"<ulink url=\"http://www.m2osw.com\">Made to Order Software Corp.</ulink>: "
-"Quality software with easy to use interfaces from simple utilities to "
+"<link xlink:href=\"http://www.m2osw.com\">Made to Order Software Corp.</"
+"link>: Quality software with easy to use interfaces from simple utilities to "
 "complex e-Business solutions."
 msgstr ""
-"<ulink url=\"http://www.m2osw.com\">Made to Order Software Corp.</ulink>: "
-"Kvalitetsprogramvara med lättanvända gränssnitt från enkla verktyg till "
-"komplexa e-Business-lösningar."
+"<link xlink:href=\"http://www.m2osw.com\">Made to Order Software Corp.</"
+"link>: Kvalitetsprogramvara med lättanvända gränssnitt från enkla verktyg "
+"till komplexa e-Business-lösningar."
 
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:18
@@ -793,8 +815,8 @@ msgstr "USA, Storbritannien"
 
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:21
-msgid "<ulink url=\"http://dianiuxinnova.com/\">Dianiux Innova</ulink>"
-msgstr "<ulink url=\"http://dianiuxinnova.com/\">Dianiux Innova</ulink>"
+msgid "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
+msgstr "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
 
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:22
@@ -803,217 +825,228 @@ msgstr "Valencia, Spanien"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:27
-msgid "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Databases"
-msgstr "<ulink url=\"http://www.mysql.com\">MySQL</ulink> - Databaser"
+msgid "<link xlink:href=\"http://www.mysql.com\">MySQL</link> - Databases"
+msgstr "<link xlink:href=\"http://www.mysql.com\">MySQL</link> - Databaser"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:30
 msgid ""
-"<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualization, "
+"<link xlink:href=\"http://www.vmware.com/\">VMWare</link> - Virtualization, "
 "network management"
 msgstr ""
-"<ulink url=\"http://www.vmware.com/\">VMWare</ulink> - Virtualisering, "
+"<link xlink:href=\"http://www.vmware.com/\">VMWare</link> - Virtualisering, "
 "nätverkshantering"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:33
-msgid "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3 Downloader"
-msgstr "<ulink url=\"http://www.amazon.com/\">Amazon</ulink> - MP3-hämtare"
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/\">Amazon</link> - MP3 Downloader"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/\">Amazon</link> - MP3-hämtare"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:36
 msgid ""
-"<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - "
-"Medical imaging"
+"<link xlink:href=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</"
+"link> - Medical imaging"
 msgstr ""
-"<ulink url=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</ulink> - "
-"Medicinsk bildvetenskap"
+"<link xlink:href=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</"
+"link> - Medicinsk bildvetenskap"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:39
 msgid ""
-"<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - Consumer navigation "
-"devices"
+"<link xlink:href=\"http://www.garmin.com/\">Garmin</link> - Consumer "
+"navigation devices"
 msgstr ""
-"<ulink url=\"http://www.garmin.com/\">Garmin</ulink> - Navigationsenheter "
-"för konsumenter"
+"<link xlink:href=\"http://www.garmin.com/\">Garmin</link> - "
+"Navigationsenheter för konsumenter"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:42
 msgid ""
-"<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - "
+"<link xlink:href=\"http://www.spacetec.no/\">Kongsberg Spacetec</link> - "
 "satellite/meteorological"
 msgstr ""
-"<ulink url=\"http://www.spacetec.no/\">Kongsberg Spacetec</ulink> - satellit/"
-"meteorologi"
+"<link xlink:href=\"http://www.spacetec.no/\">Kongsberg Spacetec</link> - "
+"satellit/meteorologi"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:45
 msgid ""
-"<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - warehouse "
+"<link xlink:href=\"http://www.solvo.ru/\">Solvo Ltd.</link> - warehouse "
 "management systems"
 msgstr ""
-"<ulink url=\"http://www.solvo.ru/\">Solvo Ltd.</ulink> - "
+"<link xlink:href=\"http://www.solvo.ru/\">Solvo Ltd.</link> - "
 "lagerhanteringssystem"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:48
 msgid ""
-"<ulink url=\"http://www.eads.com\">EADS</ulink> - aerospace/defense/satellite"
+"<link xlink:href=\"http://www.eads.com\">EADS</link> - aerospace/defense/"
+"satellite"
 msgstr ""
-"<ulink url=\"http://www.eads.com\">EADS</ulink> - flyg och rymd/försvar/"
+"<link xlink:href=\"http://www.eads.com\">EADS</link> - flyg och rymd/försvar/"
 "satellit"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:51
 msgid ""
-"<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - "
-"military/defense"
+"<link xlink:href=\"http://www.northropgrumman.com\">Northrup Grumman</link> "
+"- military/defense"
 msgstr ""
-"<ulink url=\"http://www.northropgrumman.com\">Northrup Grumman</ulink> - "
-"militär/försvar"
+"<link xlink:href=\"http://www.northropgrumman.com\">Northrup Grumman</link> "
+"- militär/försvar"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:54
 msgid ""
-"<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - "
-"animatronics"
+"<link xlink:href=\"http://www.henson.com\">Jim Henson's Muppet Workshop</"
+"link> - animatronics"
 msgstr ""
-"<ulink url=\"http://www.henson.com\">Jim Henson's Muppet Workshop</ulink> - "
-"animatronics"
+"<link xlink:href=\"http://www.henson.com\">Jim Henson's Muppet Workshop</"
+"link> - animatronics"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:57
 msgid ""
-"<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - electrical "
+"<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> - electrical "
 "engineering"
-msgstr "<ulink url=\"http://www.isotrol.com\">Isotrol</ulink> - elektroteknik"
+msgstr ""
+"<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> - elektroteknik"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:60
 msgid ""
-"<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - "
-"professional audio/music systems"
+"<link xlink:href=\"http://linuxaudiosystems.com/\">Linux Audio Systems</"
+"link> - professional audio/music systems"
 msgstr ""
-"<ulink url=\"http://linuxaudiosystems.com/\">Linux Audio Systems</ulink> - "
-"professionella ljud/musiksystem"
+"<link xlink:href=\"http://linuxaudiosystems.com/\">Linux Audio Systems</"
+"link> - professionella ljud/musiksystem"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:63
 msgid ""
-"<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - "
-"electrical/mechanical engineering"
+"<link xlink:href=\"http://www.designadvantage.com\">Design Advantage</link> "
+"- electrical/mechanical engineering"
 msgstr ""
-"<ulink url=\"http://www.designadvantage.com\">Design Advantage</ulink> - "
-"elektroteknik/maskinteknik"
+"<link xlink:href=\"http://www.designadvantage.com\">Design Advantage</link> "
+"- elektroteknik/maskinteknik"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:66
-msgid "<ulink url=\"http://www.dme.net\">DME</ulink> - mold engineering"
-msgstr "<ulink url=\"http://www.dme.net\">DME</ulink> - formteknik"
+msgid "<link xlink:href=\"http://www.dme.net\">DME</link> - mold engineering"
+msgstr "<link xlink:href=\"http://www.dme.net\">DME</link> - formteknik"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:69
 msgid ""
-"<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
-"Brockhaus AG</ulink> - publishing"
+"<link xlink:href=\"http://www.bifab.de\">Bibliographisches Institut &amp; F."
+"A. Brockhaus AG</link> - publishing"
 msgstr ""
-"<ulink url=\"http://www.bifab.de\">Bibliographisches Institut &amp; F.A. "
-"Brockhaus AG</ulink> - bokförlag"
+"<link xlink:href=\"http://www.bifab.de\">Bibliographisches Institut &amp; F."
+"A. Brockhaus AG</link> - bokförlag"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:72
 msgid ""
-"<ulink url=\"http://www.hasar.com\">Hasar</ulink> - POS software/hardware"
+"<link xlink:href=\"http://www.hasar.com\">Hasar</link> - POS software/"
+"hardware"
 msgstr ""
-"<ulink url=\"http://www.hasar.com\">Hasar</ulink> - programvara/hårdvara för "
-"POS"
+"<link xlink:href=\"http://www.hasar.com\">Hasar</link> - programvara/"
+"hårdvara för POS"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:75
 msgid ""
-"<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - security/encryption "
-"software"
+"<link xlink:href=\"http://www.icodsi.biz\">iCodsi</link> - security/"
+"encryption software"
 msgstr ""
-"<ulink url=\"http://www.icodsi.biz\">iCodsi</ulink> - säkerhets-/"
+"<link xlink:href=\"http://www.icodsi.biz\">iCodsi</link> - säkerhets-/"
 "krypteringsprogramvara"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:78
 msgid ""
-"<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - process engineering"
-msgstr "<ulink url=\"http://www.aplik.com/\">Aplik</ulink> - processteknik"
+"<link xlink:href=\"http://www.aplik.com/\">Aplik</link> - process engineering"
+msgstr ""
+"<link xlink:href=\"http://www.aplik.com/\">Aplik</link> - processteknik"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:81
 msgid ""
-"<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - fiscal Systems, POS"
+"<link xlink:href=\"http://www.fis-cal.com/\">Fiscal</link> - fiscal Systems, "
+"POS"
 msgstr ""
-"<ulink url=\"http://www.fis-cal.com/\">Fiscal</ulink> - skattesystem, POS"
+"<link xlink:href=\"http://www.fis-cal.com/\">Fiscal</link> - skattesystem, "
+"POS"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:84
 msgid ""
-"<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - "
-"prebuilt software packages"
+"<link xlink:href=\"http://www.thewrittenword.com/\">The Written Word</link> "
+"- prebuilt software packages"
 msgstr ""
-"<ulink url=\"http://www.thewrittenword.com/\">The Written Word</ulink> - "
-"förbyggda programvarupaket"
+"<link xlink:href=\"http://www.thewrittenword.com/\">The Written Word</link> "
+"- förbyggda programvarupaket"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:87
 msgid ""
-"<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, "
-"medication administration"
+"<link xlink:href=\"http://www.exact-med.com/\">Allcare</link> - ExactMed "
+"eMAR, medication administration"
 msgstr ""
-"<ulink url=\"http://www.exact-med.com/\">Allcare</ulink> - ExactMed eMAR, "
-"medicinadministration"
+"<link xlink:href=\"http://www.exact-med.com/\">Allcare</link> - ExactMed "
+"eMAR, medicinadministration"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:90
 msgid ""
-"<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - "
+"<link xlink:href=\"https://www.sendoutcards.com/\">SendOutCards.com</link> - "
 "Specialized internal applications"
 msgstr ""
-"<ulink url=\"https://www.sendoutcards.com/\">SendOutCards.com</ulink> - "
+"<link xlink:href=\"https://www.sendoutcards.com/\">SendOutCards.com</link> - "
 "Specialiserade interna program"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:93
 msgid ""
-"<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - "
-"Point Of Sale systems"
+"<link xlink:href=\"http://www.epictechnology.co.uk/\">EPIC Technology</link> "
+"- Point Of Sale systems"
 msgstr ""
-"<ulink url=\"http://www.epictechnology.co.uk/\">EPIC Technology</ulink> - "
-"Point Of Sale-system"
+"<link xlink:href=\"http://www.epictechnology.co.uk/\">EPIC Technology</link> "
+"- Point Of Sale-system"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:96
 msgid ""
-"<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> Medical imaging - "
-"<ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</ulink>."
+"<link xlink:href=\"http://www.i-medlab.com/\">iMed</link> Medical imaging - "
+"<link xlink:href=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</"
+"link>."
 msgstr ""
-"<ulink url=\"http://www.i-medlab.com/\">iMed</ulink> Medicinsk bildvetenskap "
-"- <ulink url=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</"
-"ulink>."
+"<link xlink:href=\"http://www.i-medlab.com/\">iMed</link> Medicinsk "
+"bildvetenskap - <link xlink:href=\"http://www.i-medlab.com/Products/page1."
+"html\">CAD Colon</link>."
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:99
 msgid ""
-"<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - Banking"
+"<link xlink:href=\"http://www.downeysavings.com/\">Downey Savings</link> - "
+"Banking"
 msgstr ""
-"<ulink url=\"http://www.downeysavings.com/\">Downey Savings</ulink> - "
+"<link xlink:href=\"http://www.downeysavings.com/\">Downey Savings</link> - "
 "Banknäring"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:102
 msgid ""
-"<ulink url=\"http://www.innoventis.de/\">Innoventis</ulink> - Automotive "
-"systems"
+"<link xlink:href=\"http://www.innoventis.de/\">Innoventis</link> - "
+"Automotive systems"
 msgstr ""
-"<ulink url=\"http://www.innoventis.de/\">Innoventis</ulink> fordonssystem"
+"<link xlink:href=\"http://www.innoventis.de/\">Innoventis</link> - "
+"Fordonssystem"
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/commercial_support.xml:25
 msgid ""
 "Many corporations use gtkmm to implement their products and internal "
@@ -1026,153 +1059,172 @@ msgstr ""
 "på e-postlistan. Här är en liten lista över några av dessa företag:<_:"
 "itemizedlist-1/>"
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/commercial_support.xml:105
 msgid ""
-"If you would like to be listed here please send email to the <ulink url="
-"\"mailinglist.html\">mailing list</ulink> or a maintainer."
+"If you would like to be listed here please send email to the <link xlink:"
+"href=\"mailinglist.html\">mailing list</link> or a maintainer."
 msgstr ""
-"Om du vill listas här kan du sända ett e-postmeddelande till <ulink url="
-"\"mailinglist.html\">sändlistan</ulink> eller en av de ansvariga."
+"Om du vill listas här kan du sända ett e-postmeddelande till <link xlink:"
+"href=\"mailinglist.html\">sändlistan</link> eller en av de ansvariga."
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/commercial_support.xml:106
 msgid ""
-"See also <ulink url=\"http://www.gtk.org/commerce.php\">GTK+ success "
-"stories</ulink>."
+"See also <emphasis>Apps built with GTK</emphasis> at <link xlink:href="
+"\"https://www.gtk.org\">the GTK website</link>."
 msgstr ""
-"Se också <ulink url=\"http://www.gtk.org/commerce.php\">GTK+-succéer</ulink>."
+"Se även <emphasis>program byggda med GTK</emphasis> på <link xlink:href="
+"\"https://www.gtk.org\">webbplatsen för GTK</link>."
 
-#. (itstool) path: sect1/title
+#. (itstool) path: section/title
 #: C/developers.xml:8
 msgid "gtkmm Development"
 msgstr "gtkmm-utveckling"
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/developers.xml:9
 msgid ""
-"gtkmm development is done in the <ulink url=\"http://gnome.org/\">GNOME</"
-"ulink> Git repository. To get started developing gtkmm, see the <ulink url="
-"\"git.html\">detailed Git instructions</ulink>. Discussion about gtkmm "
-"development happens on the <ulink url=\"mailinglist.html\">mailing list</"
-"ulink>."
+"gtkmm development is done in the <link xlink:href=\"https://gnome.org/"
+"\">GNOME</link> Git repository. To get started developing gtkmm, see the "
+"<link xlink:href=\"git.html\">detailed Git instructions</link>. Discussion "
+"about gtkmm development happens on the <link xlink:href=\"mailinglist.html"
+"\">mailing list</link>."
 msgstr ""
-"gtkmm-utveckling sker i <ulink url=\"http://gnome.org/\">GNOME</ulink>:s Git-"
-"arkiv. Se de <ulink url=\"git.html\">detaljerade Git-instruktionerna</ulink> "
-"för att komma igång med att utveckla gtkmm. Diskussioner om gtkmm-utveckling "
-"sker på <ulink url=\"mailinglist.html\">sändlistan</ulink>."
+"gtkmm-utveckling sker i <link xlink:href=\"https://gnome.org/\">GNOME</link>:"
+"s Git-arkiv. Se de <link xlink:href=\"git.html\">detaljerade Git-"
+"instruktionerna</link> för att komma igång med att utveckla gtkmm. "
+"Diskussioner om gtkmm-utveckling sker på <link xlink:href=\"mailinglist.html"
+"\">sändlistan</link>."
 
-#. (itstool) path: highlights/para
+#. (itstool) path: note/para
 #: C/developers.xml:13
 msgid ""
-"Please do not mail us directly - use the <ulink url=\"mailinglist.html"
-"\">mailing list</ulink> instead."
+"Please do not mail us directly - use the <link xlink:href=\"mailinglist.html"
+"\">mailing list</link> instead."
 msgstr ""
-"Var vänlig skicka inte e-post direkt till oss, utan använd <ulink url="
-"\"mailinglist.html\">sändlistan</ulink> i stället."
+"Var vänlig skicka inte e-post direkt till oss, utan använd <link xlink:href="
+"\"mailinglist.html\">sändlistan</link> i stället."
 
-#. (itstool) path: sect1/title
-#: C/developers.xml:17
+#. (itstool) path: section/title
+#: C/developers.xml:18
 msgid "Developers and Contributors"
 msgstr "Utvecklare och bidragsgivare"
 
-#. (itstool) path: sect2/title
-#: C/developers.xml:19
+#. (itstool) path: section/title
+#: C/developers.xml:20
 msgid "Current maintainers"
 msgstr "Nuvarande ansvariga"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:22
+#: C/developers.xml:23
 msgid ""
-"<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
-"\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
+"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
 msgstr ""
-"<ulink url=\"mailto:murrayc@murrayc.com\">Murray Cumming</ulink> (<ulink url="
-"\"http://www.murrayc.com\">www.murrayc.com</ulink>)"
+"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
+"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:25
+#: C/developers.xml:26
 msgid ""
-"<ulink url=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</ulink>"
+"<link xlink:href=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</link>"
 msgstr ""
-"<ulink url=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</ulink>"
+"<link xlink:href=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</link>"
 
-#. (itstool) path: sect2/title
-#: C/developers.xml:30
+#. (itstool) path: listitem/para
+#: C/developers.xml:29
+msgid ""
+"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
+msgstr ""
+"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
+
+#. (itstool) path: section/title
+#: C/developers.xml:35
 msgid "Other gtkmm developers"
 msgstr "Andra gtkmm-utvecklare"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:33
+#: C/developers.xml:38
 msgid ""
-"<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
-"url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
+"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
+"link>)"
 msgstr ""
-"<ulink url=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</ulink> (<ulink "
-"url=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</ulink>)"
+"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
+"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
+"link>)"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:36
+#: C/developers.xml:41
 msgid "Karl Nelson"
 msgstr "Karl Nelson"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:39
+#: C/developers.xml:44
 msgid ""
-"<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url="
-"\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+"<link xlink:href=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</link> (<link "
+"xlink:href=\"http://cactus.rulez.org\">cactus.rulez.org</link>)"
 msgstr ""
-"<ulink url=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</ulink> (<ulink url="
-"\"http://cactus.rulez.org\">cactus.rulez.org</ulink>)"
+"<link xlink:href=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</link> (<link "
+"xlink:href=\"http://cactus.rulez.org\">cactus.rulez.org</link>)"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:42
+#: C/developers.xml:47
 msgid ""
-"<ulink url=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</ulink>"
+"<link xlink:href=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</link>"
 msgstr ""
-"<ulink url=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</ulink>"
+"<link xlink:href=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</link>"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:45
-msgid "<ulink url=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</ulink>"
-msgstr "<ulink url=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:48
-msgid "<ulink url=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</ulink>"
-msgstr "<ulink url=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:51
-msgid "<ulink url=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</ulink>"
-msgstr "<ulink url=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:54
+#: C/developers.xml:50
 msgid ""
-"<ulink url=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</ulink>"
+"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
 msgstr ""
-"<ulink url=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</ulink>"
+"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
 
-#. (itstool) path: sect2/title
+#. (itstool) path: listitem/para
+#: C/developers.xml:53
+msgid "<link xlink:href=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</link>"
+msgstr "<link xlink:href=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:56
+msgid "<link xlink:href=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</link>"
+msgstr "<link xlink:href=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</link>"
+
+#. (itstool) path: listitem/para
 #: C/developers.xml:59
+msgid ""
+"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
+"link>"
+msgstr ""
+"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
+"link>"
+
+#. (itstool) path: section/title
+#: C/developers.xml:65
 msgid "Previous maintainers"
 msgstr "Tidigare ansvariga"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:62
+#: C/developers.xml:68
 msgid ""
-"<ulink url=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</ulink>"
+"<link xlink:href=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</"
+"link>"
 msgstr ""
-"<ulink url=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</ulink>"
+"<link xlink:href=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</"
+"link>"
 
 #. (itstool) path: listitem/para
-#: C/developers.xml:65
-msgid "<ulink url=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</ulink>"
-msgstr "<ulink url=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</ulink>"
-
-#. (itstool) path: sect2/para
 #: C/developers.xml:71
+msgid ""
+"<link xlink:href=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</link>"
+msgstr ""
+"<link xlink:href=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</link>"
+
+#. (itstool) path: section/para
+#: C/developers.xml:78
 msgid ""
 "There have been many patches, bug fixes and improvements from a lot of "
 "people. Thanks to them."
@@ -1180,18 +1232,52 @@ msgstr ""
 "Det har förekommit många programfixar, felfixar och förbättringar från många "
 "personer. Vi tackar dem."
 
-#. (itstool) path: sect1/title
-#: C/documentation.xml:13
+#. (itstool) path: section/title
+#: C/documentation.xml:15
 msgid "Documentation Overview"
 msgstr "Översikt av dokumentation"
 
-#. (itstool) path: sect2/title
-#: C/documentation.xml:22
+#. (itstool) path: note/para
+#: C/documentation.xml:17
+msgid ""
+"This documentation is for the gtkmm-4.0 API, where nothing else is said. "
+"There is an older gtkmm API, called gtkmm-3.0, which can be installed in "
+"parallel. The gtkmm-3.0/gtkmm-4.0 names refer to the API/ABI series and not "
+"the release version. For instance, gtkmm 3.24.0 is a version of the "
+"gtkmm-3.0 API."
+msgstr ""
+"Denna dokumentation är för API:t gtkmm-4.0 om inget annat sägs. Det finns "
+"ett äldre gtkmm-API som kallas gtkmm-3.0 och kan installeras parallellt. "
+"Namnen gtkmm-3.0/gtkmm-4.0 hänvisar till API/ABI-serierna och inte "
+"utgåveversion. Exempelvis är gtkmm 3.24.0 en version av gtkmm-3.0-API:t."
+
+#. (itstool) path: note/para
+#: C/documentation.xml:21
+msgid ""
+"There are even older API versions, such as gtkmm-2.4. Those versions are no "
+"longer supported."
+msgstr ""
+"Det finns ännu äldre API-versioner, så som gtkmm-2.4. Dessa versioner stöds "
+"inte längre."
+
+#. (itstool) path: section/para
+#: C/documentation.xml:24
+msgid ""
+"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link xlink:href="
+"\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
+"\">gtkmm-list post.</link>"
+msgstr ""
+"Beroenden för gtkmm-3.0 and gtkmm-4.0 finns listade i ett <link xlink:href="
+"\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
+"\">meddelande på gtkmm-list.</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:28
 msgid "Getting Started with gtkmm"
 msgstr "Kom igång med gtkmm"
 
-#. (itstool) path: sect2/para
-#: C/documentation.xml:23
+#. (itstool) path: section/para
+#: C/documentation.xml:29
 msgid ""
 "You might start by reading the <emphasis role=\"bold\">Programming with "
 "gtkmm</emphasis> online book."
@@ -1199,439 +1285,428 @@ msgstr ""
 "Du kan starta genom att läsa nätboken <emphasis role=\"bold\">Programming "
 "with gtkmm</emphasis>."
 
-#. (itstool) path: sect2/para
-#: C/documentation.xml:24
-msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/index.html"
-"\">Contents</ulink> of the whole online book."
-msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/index.html"
-"\">Innehåll</ulink> för hela nätboken."
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:27
-msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"installation.html\">Installation</ulink>"
-msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"installation.html\">Installation</ulink>"
-
-#. (itstool) path: listitem/para
+#. (itstool) path: section/para
 #: C/documentation.xml:30
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"basics.html\">Basics</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/3.24/index.html"
+"\">Contents</link> of the whole online book, gtkmm-3.0."
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"basics.html\">Grunder</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/3.24/index.html"
+"\">Innehåll</link> för hela nätboken, gtkmm-3.0."
+
+#. (itstool) path: section/para
+#: C/documentation.xml:31
+msgid ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/index."
+"html\">Contents</link> of the whole online book, gtkmm-4.0."
+msgstr ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/index."
+"html\">Innehåll</link> för hela nätboken, gtkmm-4.0."
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:33
+#: C/documentation.xml:34
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"signals.html\">Signals</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"installation.html\">Installation</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"signals.html\">Signaler</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"installation.html\">Installation</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:36
+#: C/documentation.xml:37
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"container-widgets.html\">Container Widgets</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"basics.html\">Basics</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"container-widgets.html\">Behållarkomponenter</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"basics.html\">Grunder</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:39
+#: C/documentation.xml:40
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"treeview.html\">TreeView</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"signals.html\">Signals</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"treeview.html\">TreeView</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"signals.html\">Signaler</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:42
+#: C/documentation.xml:43
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"memory.html\">Memory Management</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"container-widgets.html\">Container Widgets</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"memory.html\">Minneshantering</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"container-widgets.html\">Behållarkomponenter</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:45
+#: C/documentation.xml:46
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"builder.html\">Glade and Gtk::Builder</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"treeview.html\">TreeView</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
-"builder.html\">Glade och Gtk::Builder</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"treeview.html\">TreeView</link>"
 
-#. (itstool) path: sect2/para
-#: C/documentation.xml:25
+#. (itstool) path: listitem/para
+#: C/documentation.xml:49
+msgid ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"menus-and-toolbars.html\">Menus and Toolbars</link>"
+msgstr ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"menus-and-toolbars.html\">Menyer och verktygsfält</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:52
+msgid ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"memory.html\">Memory Management</link>"
+msgstr ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"memory.html\">Minneshantering</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:55
+msgid ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"builder.html\">Glade and Gtk::Builder</link>"
+msgstr ""
+"<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/chapter-"
+"builder.html\">Glade och Gtk::Builder</link>"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:32
 msgid "Selected chapters:<_:itemizedlist-1/>"
 msgstr "Utvalda kapitel:<_:itemizedlist-1/>"
 
-#. (itstool) path: sect2/title
-#: C/documentation.xml:50
+#. (itstool) path: section/title
+#: C/documentation.xml:61
 msgid "API Reference"
 msgstr "API-referens"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:53
+#: C/documentation.xml:64
 msgid "gtkmm (Gtk::)"
 msgstr "gtkmm (Gtk::)"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:54
+#: C/documentation.xml:65
 msgid "glibmm (Glib::)"
 msgstr "glibmm (Glib::)"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:55
+#: C/documentation.xml:66
 msgid "giomm (Gio::)"
 msgstr "giomm (Gio::)"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:61
-msgid ""
-"<emphasis role=\"bold\"> <ulink url=\"https://developer.gnome.org/gtkmm/"
-"stable/hierarchy.html\">Hierarchy</ulink> </emphasis>"
-msgstr ""
-"<emphasis role=\"bold\"> <ulink url=\"https://developer.gnome.org/gtkmm/"
-"stable/hierarchy.html\">Hierarki</ulink> </emphasis>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:66
-msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Widgets.html"
-"\">Widgets</ulink>"
-msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Widgets.html"
-"\">Komponenter</ulink>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:69
-msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Containers.html"
-"\">Containers</ulink>"
-msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Containers.html"
-"\">Behållare</ulink>"
-
-#. (itstool) path: listitem/para
 #: C/documentation.xml:72
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TreeView.html"
-"\">TreeView</ulink>"
+"<emphasis role=\"bold\"> <link xlink:href=\"https://developer.gnome.org/"
+"gtkmm/stable/hierarchy.html\">Hierarchy</link> </emphasis>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TreeView.html"
-"\">TreeView</ulink>"
+"<emphasis role=\"bold\"> <link xlink:href=\"https://developer.gnome.org/"
+"gtkmm/stable/hierarchy.html\">Hierarki</link> </emphasis>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:75
+#: C/documentation.xml:77
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TextView.html"
-"\">TextView</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__Widgets."
+"html\">Widgets</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__TextView.html"
-"\">TextView</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__Widgets."
+"html\">Komponenter</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:78
+#: C/documentation.xml:80
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs.html"
-"\">Dialogs</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
+"group__Containers.html\">Containers</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs.html"
-"\">Dialoger</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
+"group__Containers.html\">Behållare</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:81
+#: C/documentation.xml:83
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1UIManager."
-"html\">Menus and Toolbars</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__TreeView."
+"html\">TreeView</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1UIManager."
-"html\">Menyer och verktygsfält</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__TreeView."
+"html\">TreeView</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:84
+#: C/documentation.xml:86
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1Main.html"
-"\">Main loop</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__TextView."
+"html\">TextView</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/classGtk_1_1Main.html"
-"\">Main-loop</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__TextView."
+"html\">TextView</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:87
+#: C/documentation.xml:89
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__gtkmmEnums.html"
-"\">enums and flags</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs."
+"html\">Dialogs</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/group__gtkmmEnums.html"
-"\">enumeratorer och flaggor</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/group__Dialogs."
+"html\">Dialoger</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:90
+#: C/documentation.xml:92
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk_1_1Stock."
-"html\">Stock IDs</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
+"classGtk_1_1Application.html\">Application</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk_1_1Stock."
-"html\">Standard-ID:n</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
+"classGtk_1_1Application.html\">Application</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:93
+#: C/documentation.xml:95
 msgid ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
-"\">Gtk Namespace</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
+"group__gtkmmEnums.html\">enums and flags</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
-"\">Gtk-namnrymd</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
+"group__gtkmmEnums.html\">enumeratorer och flaggor</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:100
+#: C/documentation.xml:98
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1ustring."
-"html\">ustring</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
+"\">Gtk Namespace</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1ustring."
-"html\">ustring</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk.html"
+"\">Gtk-namnrymd</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:103
+#: C/documentation.xml:105
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/"
-"classGlib_1_1Exception.html\">Exceptions</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1ustring.html\">ustring</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/"
-"classGlib_1_1Exception.html\">Undantag</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1ustring.html\">ustring</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:106
+#: C/documentation.xml:108
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1RefPtr."
-"html\">RefPtr&lt;&gt;</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1Error.html\">Exceptions</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGlib_1_1RefPtr."
-"html\">RefPtr&lt;&gt;</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"classGlib_1_1Error.html\">Undantag</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:109
-msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MainLoop.html"
-"\">Main Event loop</ulink>"
-msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MainLoop.html"
-"\">Main-loop för händelser</ulink>"
+#: C/documentation.xml:113
+msgid "RefPtr&lt;&gt;"
+msgstr "RefPtr&lt;&gt;"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:112
+#: C/documentation.xml:116
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Spawn.html"
-"\">Spawning Processes</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/group__MainLoop."
+"html\">Main Event loop</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Spawn.html"
-"\">Skapa processer</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/group__MainLoop."
+"html\">Main-loop för händelser</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:115
+#: C/documentation.xml:119
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html"
-"\">Threads</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/group__Spawn."
+"html\">Spawning Processes</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html"
-"\">Trådar</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/group__Spawn."
+"html\">Skapa processer</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:118
+#: C/documentation.xml:122
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MiscUtils.html"
-"\">Miscellaneous Utility Functions</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"group__MiscUtils.html\">Miscellaneous Utility Functions</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__MiscUtils.html"
-"\">Diverse nyttofunktioner</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"group__MiscUtils.html\">Diverse nyttofunktioner</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:121
+#: C/documentation.xml:125
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__CharsetConv."
-"html\">Character set conversion</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"group__CharsetConv.html\">Character set conversion</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__CharsetConv."
-"html\">Konvertering av teckenuppsättning</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"group__CharsetConv.html\">Konvertering av teckenuppsättning</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:124
+#: C/documentation.xml:128
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGlib.html"
-"\">Glib Namespace</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/namespaceGlib."
+"html\">Glib Namespace</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGlib.html"
-"\">Glib-namnrymd</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/namespaceGlib."
+"html\">Glib-namnrymd</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:131
+#: C/documentation.xml:135
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGio_1_1File.html"
-"\">File</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"classGio_1_1File.html\">File</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/classGio_1_1File.html"
-"\">Fil</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
+"classGio_1_1File.html\">File</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:134
+#: C/documentation.xml:138
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Streams.html"
-"\">Streams</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/group__Streams."
+"html\">Streams</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Streams.html"
-"\">Strömmar</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/group__Streams."
+"html\">Strömmar</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:137
+#: C/documentation.xml:141
 msgid ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGio.html"
-"\">Gio Namespace</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/namespaceGio."
+"html\">Gio Namespace</link>"
 msgstr ""
-"<ulink url=\"https://developer.gnome.org/glibmm/stable/namespaceGio.html"
-"\">Gio-namnrymd</ulink>"
+"<link xlink:href=\"https://developer.gnome.org/glibmm/stable/namespaceGio."
+"html\">Gio-namnrymd</link>"
 
-#. (itstool) path: sect2/title
-#: C/documentation.xml:145
+#. (itstool) path: section/title
+#: C/documentation.xml:150
 msgid "Extra Modules"
 msgstr "Extra moduler"
 
-#. (itstool) path: sect2/para
-#: C/documentation.xml:146
+#. (itstool) path: section/para
+#: C/documentation.xml:151
 msgid ""
 "API reference documentation for other C++ modules, such as gdkmm, pangomm, "
-"gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <ulink "
-"url=\"https://developer.gnome.org/references#c++-bindings\">developer.gnome."
-"org C++ Bindings</ulink> section."
+"gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <link "
+"xlink:href=\"https://developer-old.gnome.org/references#c++-bindings"
+"\">developer-old.gnome.org C++ Bindings</link> section."
 msgstr ""
 "API-referensdokumentation för andra C++-moduler som gdkmm, pangomm, "
-"gstreamermm, libgdamm, goocanvasmm, o.s.v. är också tillgängliga från "
-"stycket för <ulink url=\"https://developer.gnome.org/references#c++-bindings"
-"\">C++-bindningar på developer.gnome.org</ulink>."
+"gstreamermm, libgdamm, goocanvasmm o.s.v. är också tillgängliga från "
+"avsnittet för <link xlink:href=\"https://developer-old.gnome.org/references#c"
+"++-bindings\">C++-bindningar på developer-old.gnome.org</link>."
 
-#. (itstool) path: sect2/title
-#: C/documentation.xml:149
+#. (itstool) path: section/title
+#: C/documentation.xml:157
 msgid "Other Information"
 msgstr "Annan information"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:152
+#: C/documentation.xml:160
 msgid "External Documentation"
 msgstr "Extern dokumentation"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:153
+#: C/documentation.xml:161
 msgid "Unusual Platforms"
 msgstr "Ovanliga plattformar"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:159
+#: C/documentation.xml:167
 msgid ""
-"<ulink url=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++ "
-"website</ulink>"
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++ website</link>"
 msgstr ""
-"<ulink url=\"https://libsigcplusplus.github.io/libsigcplusplus/"
-"\">Webbplatsen för libsigc++</ulink>"
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">Webbplatsen för libsigc++</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:162
-msgid ""
-"<ulink url=\"https://developer.gnome.org/gtk3/stable/\">GTK+ reference</"
-"ulink>"
-msgstr ""
-"<ulink url=\"https://developer.gnome.org/gtk3/stable/\">GTK+-referens</ulink>"
+#: C/documentation.xml:170
+msgid "<link xlink:href=\"https://docs.gtk.org/gtk3/\">GTK3 reference</link>"
+msgstr "<link xlink:href=\"https://docs.gtk.org/gtk3/\">GTK3-referens</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:165
-msgid ""
-"<ulink url=\"http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index."
-"html\">Standard C++ Library (STL)</ulink>"
-msgstr ""
-"<ulink url=\"http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/index."
-"html\">Standard C++ Library (STL)</ulink>"
+#: C/documentation.xml:173
+msgid "<link xlink:href=\"https://docs.gtk.org/gtk4/\">GTK4 reference</link>"
+msgstr "<link xlink:href=\"https://docs.gtk.org/gtk4/\">GTK4-referens</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:172
+#: C/documentation.xml:176
 msgid ""
-"<ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README.SUN"
-"\">Solaris, with Sun's Forte C++.</ulink>"
+"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
+"index.html\">Standard C++ Library (STL)</link>"
 msgstr ""
-"<ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README.SUN"
-"\">Solaris, med Suns Forte C++.</ulink>"
+"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
+"index.html\">Standard C++ Library (STL)</link>"
 
 #. (itstool) path: listitem/para
-#: C/documentation.xml:175
-msgid ""
-"<ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
-"win32\">Windows, with mingw and cygwin</ulink>"
-msgstr ""
-"<ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
-"win32\">Windows, med mingw och cygwin</ulink>"
-
-#. (itstool) path: sect2/title
 #: C/documentation.xml:183
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"SUN\">Solaris, with Sun's Forte C++.</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"SUN\">Solaris, med Suns Forte C++.</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:186
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"win32\">Windows, with mingw and cygwin</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"win32\">Windows, med mingw och cygwin</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:195
 msgid "Examples"
 msgstr "Exempel"
 
-#. (itstool) path: sect2/para
-#: C/documentation.xml:184
+#. (itstool) path: section/para
+#: C/documentation.xml:196
 msgid ""
 "Sometimes you need to look at examples to figure out how something should "
 "work. Many examples are included in the gtkmm book, but you can also view "
-"them online: <ulink url=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/"
-"tree/master/examples/book/\">gtkmm examples</ulink>"
+"them online: <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/tree/master/examples/book/\">gtkmm examples</link>"
 msgstr ""
 "Ibland behöver du se på exempel för att komma på hur något fungerar. Det "
-"finns många exempel i gtkmm-boken, men du kan också se dem på nätet: <ulink "
-"url=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/tree/master/"
-"examples/book/\">gtkmm-exempel</ulink>"
+"finns många exempel i gtkmm-boken, men du kan också se dem på nätet: <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/tree/master/"
+"examples/book/\">gtkmm-exempel</link>"
 
-#. (itstool) path: sect1/title
+#. (itstool) path: section/title
 #: C/download.xml:8
 msgid "Downloading"
 msgstr "Hämtning"
 
-#. (itstool) path: highlights/para
+#. (itstool) path: note/para
 #: C/download.xml:10
 msgid ""
-"You should use the <ulink url=\"#Binary\">binary packages</ulink> provided "
-"for your operating system unless you wish to test the latest versions. "
-"However, <ulink url=\"#Source\">source packages</ulink> are available as "
-"well."
+"You should use the <link xlink:href=\"#Binary\">binary packages</link> "
+"provided for your operating system unless you wish to test the latest "
+"versions. However, <link xlink:href=\"#Source\">source packages</link> are "
+"available as well."
 msgstr ""
-"Du bör använda <ulink url=\"#Binary\">binärpaketen</ulink> som "
+"Du bör använda <link xlink:href=\"#Binary\">binärpaketen</link> som "
 "tillhandahålls för ditt operativsystem om du inte vill testa de senaste "
-"versionerna. <ulink url=\"#Source\">Källkodspaket</ulink> finns dock också "
-"tillgängliga."
+"versionerna. <link xlink:href=\"#Source\">Källkodspaket</link> finns dock "
+"också tillgängliga."
 
-#. (itstool) path: highlights/para
+#. (itstool) path: note/para
 #: C/download.xml:12
 msgid ""
-"This page currently mentions gtkmm 2 binary packages. We will update this "
-"page soon as binary packages for gtkmm 3 become available."
+"This page currently mentions gtkmm 3 binary packages. We will update this "
+"page some time as binary packages for gtkmm 4 become available."
 msgstr ""
-"Denna sida nämner för närvarande gtkmm 2-binärpaket. Vi kommer att uppdatera "
-"denna sida så snart som binärpaket för gtkmm 3 görs tillgängliga."
+"Denna sida nämner för närvarande gtkmm 3-binärpaket. Vi kommer att uppdatera "
+"denna sida så snart som binärpaket för gtkmm 4 görs tillgängliga."
 
-#. (itstool) path: sect2/title
-#: C/download.xml:16
-msgid "<anchor id=\"Binary\"/>Binary"
-msgstr "<anchor id=\"Binary\"/>Binär"
-
-#. (itstool) path: sect2/para
+#. (itstool) path: section/title
 #: C/download.xml:17
+msgid "<anchor xml:id=\"Binary\"/>Binary"
+msgstr "<anchor xml:id=\"Binary\"/>Binär"
+
+#. (itstool) path: section/para
+#: C/download.xml:18
 msgid ""
 "You might find a variety of 3rd party RPMs and debs on the internet, but "
 "only the ones listed here are approved by the gtkmm team. Please encourage "
@@ -1641,87 +1716,92 @@ msgstr ""
 "endast de som listats här har godkänts av gtkmm-gruppen. Uppmana gärna din "
 "Linuxdistribution att tillhandahålla officiella gtkmm-paket."
 
+# TODO: Missing period, space between sentences.
 #. (itstool) path: listitem/para
-#: C/download.xml:20
+#: C/download.xml:21
 msgid ""
-"<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-"
-"get install libgtkmm-3.0-dev</command>. These <ulink url=\"http://packages."
-"qa.debian.org/g/gtkmm3.0.html\">project pages</ulink> might give status."
+"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
+"<command>apt-get install libgtkmm-3.0-dev</command>These <link xlink:href="
+"\"https://packages.qa.debian.org/g/gtkmm3.0.html\">project pages</link> "
+"might give status."
 msgstr ""
-"<ulink url=\"http://www.debian.org/\">Debian</ulink> GNU/Linux: <command>apt-"
-"get install libgtkmm-3.0-dev</command>. Dessa <ulink url=\"http://packages."
-"qa.debian.org/g/gtkmm3.0.html\">projektsidor</ulink> kanske ger status."
+"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
+"<command>apt-get install libgtkmm-3.0-dev</command>. Dessa <link xlink:href="
+"\"https://packages.qa.debian.org/g/gtkmm3.0.html\">projektsidor</link> "
+"kanske ger status."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:23
+#: C/download.xml:24
 msgid ""
-"<ulink url=\"http://fedoraproject.org/\">Fedora</ulink>/<ulink url=\"http://"
-"www.redhat.com\">RedHat</ulink> Linux: Use <command>yum install gtkmm30-"
-"docs</command> to get the runtime, development, and documentation packages."
+"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link xlink:"
+"href=\"https://www.redhat.com\">RedHat</link> Linux: Use <command>yum "
+"install gtkmm30-docs</command> to get the runtime, development, and "
+"documentation packages."
 msgstr ""
-"<ulink url=\"http://fedoraproject.org/\">Fedora</ulink>/<ulink url=\"http://"
-"www.redhat.com\">RedHat</ulink> Linux: Använd <command>yum install gtkmm30-"
-"docs</command> för att få tag på exekverings-, utvecklings- och "
-"dokumentationspaket."
+"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link xlink:"
+"href=\"https://www.redhat.com\">RedHat</link> Linux: Använd <command>yum "
+"install gtkmm30-docs</command> för att få tag på exekverings-, utvecklings- "
+"och dokumentationspaket."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:26
+#: C/download.xml:27
 msgid ""
-"<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Get dev-cpp/gtkmm."
-msgstr ""
-"<ulink url=\"http://www.gentoo.org\">Gentoo Linux</ulink>: Hämta dev-cpp/"
+"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: Get dev-cpp/"
 "gtkmm."
-
-#. (itstool) path: listitem/para
-#: C/download.xml:29
-msgid ""
-"<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Use yast to "
-"install gtkmm3-devel."
 msgstr ""
-"<ulink url=\"http://www.novell.com/linux/\">SuSE Linux</ulink>: Använd yast "
-"för att installera gtkmm3-devel."
+"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: Hämta dev-"
+"cpp/gtkmm."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:32
+#: C/download.xml:30
 msgid ""
-"<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
-"install libgtkmm-3.0-dev</command>."
+"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: Use "
+"yast to install gtkmm3-devel."
 msgstr ""
-"<ulink url=\"http://www.ubuntu.com/\">Ubuntu</ulink> Linux: <command>apt-get "
-"install libgtkmm-3.0-dev</command>."
+"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: Använd "
+"yast för att installera gtkmm3-devel."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:35
+#: C/download.xml:33
 msgid ""
-"Windows: Here is an <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/"
-"MSWindows\">installer</ulink>."
+"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
+"<command>apt-get install libgtkmm-3.0-dev</command>"
 msgstr ""
-"Windows: Här finns en <ulink url=\"https://wiki.gnome.org/Projects/gtkmm/"
-"MSWindows\">installerare</ulink>."
+"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
+"<command>apt-get install libgtkmm-3.0-dev</command>"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:43
+#: C/download.xml:36
 msgid ""
-"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <ulink "
-"url=\"http://thewrittenword.com\">The Written Word</ulink> offer binary "
-"gtkmm packages, with package management."
+"Windows: Here is an <link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/"
+"MSWindows\">installer</link>."
+msgstr ""
+"Windows: Här finns en <link xlink:href=\"https://wiki.gnome.org/Projects/"
+"gtkmm/MSWindows\">installerare</link>."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:44
+msgid ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <link "
+"xlink:href=\"http://thewrittenword.com\">The Written Word</link> offer "
+"binary gtkmm packages, with package management."
 msgstr ""
 "SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc eller plattformskompilatorerna): "
-"<ulink url=\"http://thewrittenword.com\">The Written Word</ulink> erbjuder "
-"binära gtkmm-paket med pakethantering."
+"<link xlink:href=\"http://thewrittenword.com\">The Written Word</link> "
+"erbjuder binära gtkmm-paket med pakethantering."
 
-#. (itstool) path: sect2/para
-#: C/download.xml:46
+#. (itstool) path: section/para
+#: C/download.xml:47
 msgid "Please tell us about others."
 msgstr "Berätta för oss om andra."
 
-#. (itstool) path: sect2/title
-#: C/download.xml:49
-msgid "<anchor id=\"Source\"/>Source"
-msgstr "<anchor id=\"Source\"/>Källkod"
+#. (itstool) path: section/title
+#: C/download.xml:51
+msgid "<anchor xml:id=\"Source\"/>Source"
+msgstr "<anchor xml:id=\"Source\"/>Källkod"
 
-#. (itstool) path: sect2/para
-#: C/download.xml:50
+#. (itstool) path: section/para
+#: C/download.xml:52
 msgid ""
 "Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions "
 "(such as 3.15.x) are unstable development versions."
@@ -1730,76 +1810,76 @@ msgstr ""
 "nummer (som 3.15.x) är instabila utvecklingsversioner."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:53
+#: C/download.xml:55
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/\">glibmm</ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/glibmm/\">glibmm</ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:56
+#: C/download.xml:58
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/\">gtkmm</ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/\">gtkmm</ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:59
+#: C/download.xml:61
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm"
-"\">goocanvasmm</ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
+"\">goocanvasmm</link>"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/goocanvasmm"
-"\">goocanvasmm</ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
+"\">goocanvasmm</link>"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:62
+#: C/download.xml:64
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgdamm/\">libgdamm</"
-"ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/libgdamm/\">libgdamm</"
+"link>"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/libgdamm/\">libgdamm</"
-"ulink>"
+"<link xlink:href=\"https://download.gnome.org/sources/libgdamm/\">libgdamm</"
+"link>"
 
-#. (itstool) path: sect2/title
-#: C/download.xml:72
+#. (itstool) path: section/title
+#: C/download.xml:70
 msgid "Requirements"
 msgstr "Krav"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:75
-msgid "<ulink url=\"http://www.gtk.org\">GTK+</ulink>"
-msgstr "<ulink url=\"http://www.gtk.org\">GTK+</ulink>"
+#: C/download.xml:73
+msgid "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
+msgstr "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:78
+#: C/download.xml:76
 msgid ""
-"<ulink url=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</"
-"ulink>"
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++</link>"
 msgstr ""
-"<ulink url=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</"
-"ulink>"
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++</link>"
 
-#. (itstool) path: sect2/title
+#. (itstool) path: section/title
+#: C/download.xml:82
+msgid "GTK"
+msgstr "GTK"
+
+#. (itstool) path: section/para
 #: C/download.xml:83
-msgid "GTK+"
-msgstr "GTK+"
-
-#. (itstool) path: sect2/para
-#: C/download.xml:84
 msgid ""
-"You can download GTK+ and GNOME source code from <ulink url=\"http://"
-"download.gnome.org\">download.gnome.org</ulink>."
+"You can download GTK and GNOME source code from <link xlink:href=\"https://"
+"download.gnome.org/sources/\">download.gnome.org/sources/</link>."
 msgstr ""
-"Du kan hämta källkoden för GTK+ och GNOME från <ulink url=\"http://download."
-"gnome.org\">download.gnome.org</ulink>."
+"Du kan hämta källkoden för GTK och GNOME från <link xlink:href=\"https://"
+"download.gnome.org/sources/\">download.gnome.org/sources/</link>."
 
-#. (itstool) path: sect1/title
+#. (itstool) path: section/title
 #: C/extra.xml:8
 msgid "Additional Resources"
 msgstr "Ytterligare resurser"
 
-#. (itstool) path: sect2/title
+#. (itstool) path: section/title
 #: C/extra.xml:10
 msgid "Available widgets"
 msgstr "Tillgängliga komponenter"
@@ -1807,83 +1887,86 @@ msgstr "Tillgängliga komponenter"
 #. (itstool) path: listitem/para
 #: C/extra.xml:15
 msgid ""
-"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL "
-"rendering for gtkmm"
+"<link xlink:href=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</link> "
+"OpenGL rendering for gtkmm"
 msgstr ""
-"<ulink url=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</ulink> OpenGL-"
-"rendering för gtkmm"
+"<link xlink:href=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</link> "
+"OpenGL-rendering för gtkmm"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:18
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
-"\">gtkmozembedmm</ulink> Mozilla-based web browser widget"
+"<link xlink:href=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+"\">gtkmozembedmm</link> Mozilla-based web browser widget"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
-"\">gtkmozembedmm</ulink> Mozilla-baserad webbläsarkomponent"
+"<link xlink:href=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+"\">gtkmozembedmm</link> Mozilla-baserad webbläsarkomponent"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:21
 msgid ""
-"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> plot widget for "
-"scientific applications"
+"<link xlink:href=\"http://plotmm.sourceforge.net/\">Plotmm</link> plot "
+"widget for scientific applications"
 msgstr ""
-"<ulink url=\"http://plotmm.sourceforge.net/\">Plotmm</ulink> "
+"<link xlink:href=\"http://plotmm.sourceforge.net/\">Plotmm</link> "
 "diagramkomponent för vetenskapliga program"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:24
 msgid ""
-"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> "
-"wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
+"<link xlink:href=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</"
+"link> wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
 msgstr ""
-"<ulink url=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</ulink> "
-"omslag för GtkSourceView (Gtk::TextView med syntaxmarkering)"
+"<link xlink:href=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</"
+"link> omslag för GtkSourceView (Gtk::TextView med syntaxmarkering)"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:27
 msgid ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
-"\">gstreamermm</ulink> wrappers for gstreamer (streaming media)"
+"<link xlink:href=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
+"\">gstreamermm</link> wrappers for gstreamer (streaming media)"
 msgstr ""
-"<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
-"\">gstreamermm</ulink> omslag för gstreamer (strömmande media)"
+"<link xlink:href=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
+"\">gstreamermm</link> omslag för gstreamer (strömmande media)"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:30
 msgid ""
-"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> terminal widget"
+"<link xlink:href=\"http://vtemm.sourceforge.jp/\">VTEmm</link> terminal "
+"widget"
 msgstr ""
-"<ulink url=\"http://vtemm.sourceforge.jp/\">VTEmm</ulink> terminalkomponent"
+"<link xlink:href=\"http://vtemm.sourceforge.jp/\">VTEmm</link> "
+"terminalkomponent"
 
+# TODO: Dead link
 #. (itstool) path: listitem/para
 #: C/extra.xml:33
 msgid ""
-"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> "
+"<link xlink:href=\"http://gtkextramm.sourceforge.net/\">gtkextramm</link> "
 "wrappers for GtkExtra (plot, sheet, etc)"
 msgstr ""
-"<ulink url=\"http://gtkextramm.sourceforge.net/\">gtkextramm</ulink> omslag "
-"för GtkExtra (plot, sheet o.s.v.)"
+"<link xlink:href=\"http://gtkextramm.sourceforge.net/\">gtkextramm</link> "
+"omslag för GtkExtra (plot, sheet o.s.v.)"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:36
 msgid ""
-"<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
-"ulink> canvas for data flow systems"
+"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas.html"
+"\">FlowCanvas</link> canvas for data flow systems"
 msgstr ""
-"<ulink url=\"http://www.nongnu.org/om-synth/flowcanvas.html\">FlowCanvas</"
-"ulink> rityta för dataflödessystem"
+"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas.html"
+"\">FlowCanvas</link> rityta för dataflödessystem"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:39
 msgid ""
-"<ulink url=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</ulink> "
-"C++ chess board tool set for gtkmm"
+"<link xlink:href=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</"
+"link> C++ chess board tool set for gtkmm"
 msgstr ""
-"<ulink url=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</ulink> "
-"C++-verktygsuppsättning för schackbräde för gtkmm"
+"<link xlink:href=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</"
+"link> C++-verktygsuppsättning för schackbräde för gtkmm"
 
-#. (itstool) path: sect2/para
+#. (itstool) path: section/para
 #: C/extra.xml:11
 msgid ""
 "In addition to the wrappers distributed with gtkmm and gnomemm, additional "
@@ -1892,49 +1975,49 @@ msgstr ""
 "Förutom omslagen som distribueras med gtkmm och gnomemm så finns ytterligare "
 "komponenter och bibliotek tillgängliga från andra källor. <_:itemizedlist-1/>"
 
-#. (itstool) path: sect2/title
-#: C/extra.xml:44
+#. (itstool) path: section/title
+#: C/extra.xml:45
 msgid "gtkmm tools"
 msgstr "gtkmm-verktyg"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:47
+#: C/extra.xml:48
 msgid ""
-"<ulink url=\"http://glade.gnome.org/\">Glade</ulink> User Interface Designer "
-"for GTK+, glade UI files can be used from a gtkmm program by using Gtk::"
-"Builder"
+"<link xlink:href=\"https://glade.gnome.org/\">Glade</link> User Interface "
+"Designer for GTK, glade UI files can be used from a gtkmm program by using "
+"Gtk::Builder"
 msgstr ""
-"<ulink url=\"http://glade.gnome.org/\">Glade</ulink> "
-"Användargränssnittsdesigner för GTK+, glades UI-filer kan användas från ett "
+"<link xlink:href=\"https://glade.gnome.org/\">Glade</link> "
+"Användargränssnittsdesigner för GTK, glades UI-filer kan användas från ett "
 "gtkmm-program genom att använda Gtk::Builder"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:50
+#: C/extra.xml:51
 msgid ""
-"<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> glade module "
-"for automatically generating gtkmm code (note: glademm is different than "
-"libglademm or Gtk::Builder)"
+"<link xlink:href=\"http://home.wtal.de/petig/Gtk/\">glademm</link> glade "
+"module for automatically generating gtkmm code (note: glademm is different "
+"than libglademm or Gtk::Builder)"
 msgstr ""
-"<ulink url=\"http://home.wtal.de/petig/Gtk/\">glademm</ulink> glade-modul "
-"för att automatiskt generera gtkmm-kod (observera: glademm är annorlunda än "
-"libglademm eller Gtk::Builder)"
+"<link xlink:href=\"http://home.wtal.de/petig/Gtk/\">glademm</link> glade-"
+"modul för att automatiskt generera gtkmm-kod (observera: glademm är "
+"annorlunda än libglademm eller Gtk::Builder)"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:53
+#: C/extra.xml:54
 msgid ""
-"<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> Document/View "
-"Model"
+"<link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</link> Document/"
+"View Model"
 msgstr ""
-"<ulink url=\"http://bakery.sourceforge.net/\">Bakery</ulink> Document/View-"
-"modell"
+"<link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</link> Document/"
+"View-modell"
 
-#. (itstool) path: sect2/title
-#: C/extra.xml:58
+#. (itstool) path: section/title
+#: C/extra.xml:60
 msgid "Applications using gtkmm"
 msgstr "Program som använder gtkmm"
 
-#. (itstool) path: sect2/para
-#: C/extra.xml:59
+#. (itstool) path: section/para
+#: C/extra.xml:61
 msgid ""
 "If all else fails, sometimes it is good to look at the source of some other "
 "projects using the same toolkit."
@@ -1942,668 +2025,700 @@ msgstr ""
 "Om inget annat lyckas så kan det vara bra att titta på källkoden för andra "
 "projekt som använder samma verktygslåda."
 
-#. (itstool) path: sect3/title
-#: C/extra.xml:62
+#. (itstool) path: section/title
+#: C/extra.xml:65
 msgid "Using gtkmm:"
 msgstr "Använder gtkmm:"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:65
-msgid ""
-"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> multi-file "
-"search/replace with visual feedback"
-msgstr ""
-"<ulink url=\"http://regexxer.sourceforge.net/\">Regexxer</ulink> sök/ersätt "
-"för flera filer med visuell återkoppling"
-
-#. (itstool) path: listitem/para
 #: C/extra.xml:68
 msgid ""
-"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> creation "
-"of hierarchical text documents"
+"<link xlink:href=\"http://regexxer.sourceforge.net/\">Regexxer</link> multi-"
+"file search/replace with visual feedback"
 msgstr ""
-"<ulink url=\"http://subsubsub.sourceforge.net\">SubSubSub</ulink> skapande "
-"av hierarkiska textdokument"
+"<link xlink:href=\"http://regexxer.sourceforge.net/\">Regexxer</link> sök/"
+"ersätt för flera filer med visuell återkoppling"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:71
 msgid ""
-"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
-"renames batches of files"
+"<link xlink:href=\"http://subsubsub.sourceforge.net\">SubSubSub</link> "
+"creation of hierarchical text documents"
 msgstr ""
-"<ulink url=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</ulink> "
-"byter namn på satser av filer"
+"<link xlink:href=\"http://subsubsub.sourceforge.net\">SubSubSub</link> "
+"skapande av hierarkiska textdokument"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:74
-msgid "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> audio player"
-msgstr "<ulink url=\"http://towel.sourceforge.net\">Towel</ulink> ljudspelare"
+msgid ""
+"<link xlink:href=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</"
+"link> renames batches of files"
+msgstr ""
+"<link xlink:href=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</"
+"link> byter namn på satser av filer"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:79
-msgid "<ulink url=\"http://www.glom.org/\">Glom</ulink> database environment"
-msgstr "<ulink url=\"http://www.glom.org/\">Glom</ulink> databasmiljö"
+#: C/extra.xml:77
+msgid ""
+"<link xlink:href=\"http://towel.sourceforge.net\">Towel</link> audio player"
+msgstr ""
+"<link xlink:href=\"http://towel.sourceforge.net\">Towel</link> ljudspelare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:82
 msgid ""
-"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> "
-"graphical resource editor for PalmOS applications"
-msgstr ""
-"<ulink url=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</ulink> "
-"grafisk resursredigerare för PalmOS-program"
+"<link xlink:href=\"http://www.glom.org/\">Glom</link> database environment"
+msgstr "<link xlink:href=\"http://www.glom.org/\">Glom</link> databasmiljö"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:85
 msgid ""
-"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> vector graphics "
-"drawing"
+"<link xlink:href=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</"
+"link> graphical resource editor for PalmOS applications"
 msgstr ""
-"<ulink url=\"http://www.inkscape.org/\">Inkscape</ulink> ritande av "
-"vektorgrafik"
+"<link xlink:href=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</"
+"link> grafisk resursredigerare för PalmOS-program"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:88
 msgid ""
-"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> peer to peer "
-"sharing of freely licensed music"
+"<link xlink:href=\"http://www.inkscape.org/\">Inkscape</link> vector "
+"graphics drawing"
 msgstr ""
-"<ulink url=\"http://gnomoradio.org/\">Gnomoradio</ulink> P2P-delning av "
-"fritt licensierad musik"
+"<link xlink:href=\"http://www.inkscape.org/\">Inkscape</link> ritande av "
+"vektorgrafik"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:91
 msgid ""
-"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP address "
-"calculator"
+"<link xlink:href=\"http://gnomoradio.org/\">Gnomoradio</link> peer to peer "
+"sharing of freely licensed music"
 msgstr ""
-"<ulink url=\"https://packages.debian.org/sid/gip\">Gip</ulink> IP-"
-"adressberäknare"
+"<link xlink:href=\"http://gnomoradio.org/\">Gnomoradio</link> P2P-delning av "
+"fritt licensierad musik"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:94
 msgid ""
-"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D modelling and animation"
+"<link xlink:href=\"https://packages.debian.org/sid/gip\">Gip</link> IP "
+"address calculator"
 msgstr ""
-"<ulink url=\"http://www.k-3d.org/\">K-3D</ulink> 3D-modellering och animering"
+"<link xlink:href=\"https://packages.debian.org/sid/gip\">Gip</link> IP-"
+"adressberäknare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:97
 msgid ""
-"<ulink url=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
-"Monitor</ulink> GNOME panel applet"
+"<link xlink:href=\"http://www.k-3d.org/\">K-3D</link> 3D modelling and "
+"animation"
 msgstr ""
-"<ulink url=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
-"Monitor</ulink> GNOME-panelprogram"
+"<link xlink:href=\"http://www.k-3d.org/\">K-3D</link> 3D-modellering och "
+"animering"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:100
 msgid ""
-"<ulink url=\"http://www.workrave.org/\">Workrave</ulink> assists in recovery "
-"and prevention of RSI"
+"<link xlink:href=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
+"Monitor</link> GNOME panel applet"
 msgstr ""
-"<ulink url=\"http://www.workrave.org/\">Workrave</ulink> stöd vid "
-"återhämtning från och förhindrande av förslitningsskador"
+"<link xlink:href=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
+"Monitor</link> GNOME-panelprogram"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:103
 msgid ""
-"<ulink url=\"http://timfx.sourcearchive.com/\">timfx</ulink> digital video "
-"effects plug-in for Kino"
+"<link xlink:href=\"http://www.workrave.org/\">Workrave</link> assists in "
+"recovery and prevention of RSI"
 msgstr ""
-"<ulink url=\"http://timfx.sourcearchive.com/\">timfx</ulink> insticksmodul "
-"för digitala videoeffekter för Kino"
+"<link xlink:href=\"http://www.workrave.org/\">Workrave</link> stöd vid "
+"återhämtning från och förhindrande av förslitningsskador"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:106
 msgid ""
-"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> disk "
-"partitioning tool"
+"<link xlink:href=\"http://timfx.sourcearchive.com/\">timfx</link> digital "
+"video effects plug-in for Kino"
 msgstr ""
-"<ulink url=\"http://gparted.sourceforge.net/\">GParted</ulink> "
-"diskpartitioneringsverktyg"
+"<link xlink:href=\"http://timfx.sourcearchive.com/\">timfx</link> "
+"insticksmodul för digitala videoeffekter för Kino"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:111
+#: C/extra.xml:109
 msgid ""
-"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> cdrdao "
-"frontend"
+"<link xlink:href=\"http://gparted.sourceforge.net/\">GParted</link> disk "
+"partitioning tool"
 msgstr ""
-"<ulink url=\"http://cdrdao.sourceforge.net/\">gcdmaster</ulink> cdrdao-"
-"framände"
+"<link xlink:href=\"http://gparted.sourceforge.net/\">GParted</link> "
+"diskpartitioneringsverktyg"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:114
 msgid ""
-"<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
-"ulink> GNOME panel applet"
+"<link xlink:href=\"http://cdrdao.sourceforge.net/\">gcdmaster</link> cdrdao "
+"frontend"
 msgstr ""
-"<ulink url=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper Tray</"
-"ulink> GNOME-panelprogram"
+"<link xlink:href=\"http://cdrdao.sourceforge.net/\">gcdmaster</link> cdrdao-"
+"framände"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:117
 msgid ""
-"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
-"XML Editor"
+"<link xlink:href=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper "
+"Tray</link> GNOME panel applet"
 msgstr ""
-"<ulink url=\"http://www.freespiders.org/projects/gmlview/\">MLView</ulink> "
-"XML-redigerare"
+"<link xlink:href=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper "
+"Tray</link> GNOME-panelprogram"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:120
 msgid ""
-"<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</"
-"ulink> manages duty rotas"
+"<link xlink:href=\"http://www.freespiders.org/projects/gmlview/\">MLView</"
+"link> XML Editor"
 msgstr ""
-"<ulink url=\"http://sourceforge.net/projects/duty-roaster\">Duty Roaster</"
-"ulink> hanterar ansvarsscheman"
+"<link xlink:href=\"http://www.freespiders.org/projects/gmlview/\">MLView</"
+"link> XML-redigerare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:123
 msgid ""
-"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> collaborative text editor"
+"<link xlink:href=\"http://sourceforge.net/projects/duty-roaster\">Duty "
+"Roaster</link> manages duty rotas"
 msgstr ""
-"<ulink url=\"http://gobby.0x539.de\">Gobby</ulink> textredigerare för "
-"samarbete"
+"<link xlink:href=\"http://sourceforge.net/projects/duty-roaster\">Duty "
+"Roaster</link> hanterar ansvarsscheman"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:126
 msgid ""
-"<ulink url=\"https://code.google.com/p/pinot-search/\">Pinot</ulink> "
-"metasearch tool"
+"<link xlink:href=\"http://gobby.0x539.de\">Gobby</link> collaborative text "
+"editor"
 msgstr ""
-"<ulink url=\"https://code.google.com/p/pinot-search/\">Pinot</ulink> "
-"metasökverktyg"
+"<link xlink:href=\"http://gobby.0x539.de\">Gobby</link> textredigerare för "
+"samarbete"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:129
 msgid ""
-"<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> color scheme "
-"generator"
+"<link xlink:href=\"https://code.google.com/p/pinot-search/\">Pinot</link> "
+"metasearch tool"
 msgstr ""
-"<ulink url=\"http://home.gna.org/colorscheme/\">Agave</ulink> "
-"färgschemaskapare"
+"<link xlink:href=\"https://code.google.com/p/pinot-search/\">Pinot</link> "
+"metasökverktyg"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:132
 msgid ""
-"<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX editor"
+"<link xlink:href=\"http://home.gna.org/colorscheme/\">Agave</link> color "
+"scheme generator"
 msgstr ""
-"<ulink url=\"http://amyedit.sourceforge.net/\">AmyEdit</ulink> LaTeX-"
-"redigerare"
+"<link xlink:href=\"http://home.gna.org/colorscheme/\">Agave</link> "
+"färgschemaskapare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:135
 msgid ""
-"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> medical image "
-"viewer"
+"<link xlink:href=\"http://amyedit.sourceforge.net/\">AmyEdit</link> LaTeX "
+"editor"
 msgstr ""
-"<ulink url=\"http://aeskulap.nongnu.org/\">Aeskulap</ulink> medicinsk "
-"bildvisare"
+"<link xlink:href=\"http://amyedit.sourceforge.net/\">AmyEdit</link> LaTeX-"
+"redigerare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:138
 msgid ""
-"<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> "
-"loudspeaker designer"
+"<link xlink:href=\"http://aeskulap.nongnu.org/\">Aeskulap</link> medical "
+"image viewer"
 msgstr ""
-"<ulink url=\"http://gspeakers.sourceforge.net/\">gspeakers</ulink> "
-"högtalardesigner"
+"<link xlink:href=\"http://aeskulap.nongnu.org/\">Aeskulap</link> medicinsk "
+"bildvisare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:141
 msgid ""
-"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> card "
-"game"
+"<link xlink:href=\"http://gspeakers.sourceforge.net/\">gspeakers</link> "
+"loudspeaker designer"
 msgstr ""
-"<ulink url=\"http://free-doko.sourceforge.net/en/\">FreeDoko</ulink> kortspel"
+"<link xlink:href=\"http://gspeakers.sourceforge.net/\">gspeakers</link> "
+"högtalardesigner"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:144
 msgid ""
-"<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> Internet telephone"
-msgstr "<ulink url=\"http://www.minisip.org/\">miniSIP</ulink> Internettelefon"
+"<link xlink:href=\"http://free-doko.sourceforge.net/en/\">FreeDoko</link> "
+"card game"
+msgstr ""
+"<link xlink:href=\"http://free-doko.sourceforge.net/en/\">FreeDoko</link> "
+"kortspel"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:147
 msgid ""
-"<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> membership "
-"management"
+"<link xlink:href=\"http://www.minisip.org/\">miniSIP</link> Internet "
+"telephone"
 msgstr ""
-"<ulink url=\"http://goupil.tuxfamily.org/\">Goupil</ulink> "
-"medlemskapshantering"
+"<link xlink:href=\"http://www.minisip.org/\">miniSIP</link> Internettelefon"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:150
 msgid ""
-"<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> modular "
-"synthesizer and effects processor"
+"<link xlink:href=\"http://goupil.tuxfamily.org/\">Goupil</link> membership "
+"management"
 msgstr ""
-"<ulink url=\"http://www.nongnu.org/om-synth/index.html\">Om</ulink> "
-"modularsynthesizer och effektprocessor"
+"<link xlink:href=\"http://goupil.tuxfamily.org/\">Goupil</link> "
+"medlemskapshantering"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:153
 msgid ""
-"<ulink url=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</ulink> "
-"background browser and setter"
+"<link xlink:href=\"http://www.nongnu.org/om-synth/index.html\">Om</link> "
+"modular synthesizer and effects processor"
 msgstr ""
-"<ulink url=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</ulink> bläddrare "
-"och inställare av bakgrunder"
+"<link xlink:href=\"http://www.nongnu.org/om-synth/index.html\">Om</link> "
+"modularsynthesizer och effektprocessor"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:156
 msgid ""
-"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI for the GNU "
-"debugger gdb"
+"<link xlink:href=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</link> "
+"background browser and setter"
 msgstr ""
-"<ulink url=\"http://home.gna.org/nemiver/\">Nemiver</ulink> GUI för GNU-"
-"felsökaren gdb"
+"<link xlink:href=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</link> "
+"bläddrare och inställare av bakgrunder"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:159
-msgid "<ulink url=\"http://beep-media-player.org/\">BMP</ulink> audio player"
-msgstr "<ulink url=\"http://beep-media-player.org/\">BMP</ulink> ljudspelare"
+msgid ""
+"<link xlink:href=\"http://home.gna.org/nemiver/\">Nemiver</link> GUI for the "
+"GNU debugger gdb"
+msgstr ""
+"<link xlink:href=\"http://home.gna.org/nemiver/\">Nemiver</link> GUI för GNU-"
+"felsökaren gdb"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:162
 msgid ""
-"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> file "
-"synchronization over USB"
+"<link xlink:href=\"http://beep-media-player.org/\">BMP</link> audio player"
 msgstr ""
-"<ulink url=\"http://usbsink.sourceforge.net/\">USBSink</ulink> "
-"filsynkronisering över USB"
+"<link xlink:href=\"http://beep-media-player.org/\">BMP</link> ljudspelare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:165
 msgid ""
-"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> electric flux "
-"line simulation"
+"<link xlink:href=\"http://usbsink.sourceforge.net/\">USBSink</link> file "
+"synchronization over USB"
 msgstr ""
-"<ulink url=\"http://home.gna.org/elfelli/\">Elfelli</ulink> elektrisk "
-"flödeslinjessimulation"
+"<link xlink:href=\"http://usbsink.sourceforge.net/\">USBSink</link> "
+"filsynkronisering över USB"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:168
 msgid ""
-"<ulink url=\"http://github.com/egroeper/referencer/\">Referencer</ulink> "
-"document organiser and bibliography manager"
+"<link xlink:href=\"http://home.gna.org/elfelli/\">Elfelli</link> electric "
+"flux line simulation"
 msgstr ""
-"<ulink url=\"http://github.com/egroeper/referencer/\">Referencer</ulink> "
-"dokumentorganiserare och bibliografihanterare"
+"<link xlink:href=\"http://home.gna.org/elfelli/\">Elfelli</link> elektrisk "
+"flödeslinjessimulation"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:171
 msgid ""
-"<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> index cards"
+"<link xlink:href=\"http://github.com/egroeper/referencer/\">Referencer</"
+"link> document organiser and bibliography manager"
 msgstr ""
-"<ulink url=\"http://granule.sourceforge.net/\">Granule</ulink> indexkort"
+"<link xlink:href=\"http://github.com/egroeper/referencer/\">Referencer</"
+"link> dokumentorganiserare och bibliografihanterare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:174
 msgid ""
-"<ulink url=\"http://ardour.org/\">Ardour 2</ulink> multichannel hard disk "
-"recorder and digital audio workstation"
+"<link xlink:href=\"http://granule.sourceforge.net/\">Granule</link> index "
+"cards"
 msgstr ""
-"<ulink url=\"http://ardour.org/\">Ardour 2</ulink> flerkanalig "
-"hårddiskinspelare och arbetsstation för digitalt ljud"
+"<link xlink:href=\"http://granule.sourceforge.net/\">Granule</link> indexkort"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:177
 msgid ""
-"<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
-"ulink> desktop publishing"
+"<link xlink:href=\"http://ardour.org/\">Ardour 2</link> multichannel hard "
+"disk recorder and digital audio workstation"
 msgstr ""
-"<ulink url=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
-"ulink> desktop publishing"
+"<link xlink:href=\"http://ardour.org/\">Ardour 2</link> flerkanalig "
+"hårddiskinspelare och arbetsstation för digitalt ljud"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:180
 msgid ""
-"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> foreign "
-"language learning tool"
+"<link xlink:href=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
+"link> desktop publishing"
 msgstr ""
-"<ulink url=\"http://gwavmerger.sourceforge.net\">gwavmerger</ulink> verktyg "
-"för att lära sig främmande språk"
+"<link xlink:href=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
+"link> desktop publishing"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:183
 msgid ""
-"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> sound "
-"editor"
+"<link xlink:href=\"http://gwavmerger.sourceforge.net\">gwavmerger</link> "
+"foreign language learning tool"
 msgstr ""
-"<ulink url=\"http://wavemixer.sourceforge.net/\">WaveMixer</ulink> "
-"ljudredigerare"
+"<link xlink:href=\"http://gwavmerger.sourceforge.net\">gwavmerger</link> "
+"verktyg för att lära sig främmande språk"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:186
 msgid ""
-"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC client"
+"<link xlink:href=\"http://wavemixer.sourceforge.net/\">WaveMixer</link> "
+"sound editor"
 msgstr ""
-"<ulink url=\"http://lostirc.sourceforge.net/\">LostIRC</ulink> IRC-klient"
+"<link xlink:href=\"http://wavemixer.sourceforge.net/\">WaveMixer</link> "
+"ljudredigerare"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:189
 msgid ""
-"<ulink url=\"http://dev.mysql.com/downloads/workbench/\">MySQL Workbench</"
-"ulink> database GUI"
+"<link xlink:href=\"http://lostirc.sourceforge.net/\">LostIRC</link> IRC "
+"client"
 msgstr ""
-"<ulink url=\"http://dev.mysql.com/downloads/workbench/\">MySQL "
-"Administrator</ulink> databas-GUI"
+"<link xlink:href=\"http://lostirc.sourceforge.net/\">LostIRC</link> IRC-"
+"klient"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:192
 msgid ""
-"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> source code package "
-"organizer"
+"<link xlink:href=\"http://dev.mysql.com/downloads/workbench/\">MySQL "
+"Workbench</link> database GUI"
 msgstr ""
-"<ulink url=\"http://paco.sourceforge.net/\">Paco</ulink> paketorganisatör "
-"för källkod"
+"<link xlink:href=\"http://dev.mysql.com/downloads/workbench/\">MySQL "
+"Workbench</link> databas-GUI"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:195
 msgid ""
-"<ulink url=\"https://www.gnome.org/\">GNOME System Monitor</ulink> system "
-"monitor"
+"<link xlink:href=\"http://paco.sourceforge.net/\">Paco</link> source code "
+"package organizer"
 msgstr ""
-"<ulink url=\"https://www.gnome.org/\">GNOME Systemövervakare</ulink> "
+"<link xlink:href=\"http://paco.sourceforge.net/\">Paco</link> "
+"paketorganisatör för källkod"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:198
+msgid ""
+"<link xlink:href=\"https://www.gnome.org/\">GNOME System Monitor</link> "
+"system monitor"
+msgstr ""
+"<link xlink:href=\"https://www.gnome.org/\">GNOME Systemövervakare</link> "
 "systemövervakare"
 
-#. (itstool) path: sect3/title
-#: C/extra.xml:200
+#. (itstool) path: section/title
+#: C/extra.xml:204
 msgid "Using gtkmm 2.0/2.2:"
 msgstr "Använder gtkmm 2.0/2.2:"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:203
+#: C/extra.xml:207
 msgid ""
-"<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> file "
+"<link xlink:href=\"http://heavymole.sourceforge.net/\">HeavyMole</link> file "
 "sharing client"
 msgstr ""
-"<ulink url=\"http://heavymole.sourceforge.net/\">HeavyMole</ulink> "
+"<link xlink:href=\"http://heavymole.sourceforge.net/\">HeavyMole</link> "
 "fildelningsklient"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:206
+#: C/extra.xml:210
 msgid ""
-"<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME Jabber "
-"IM client"
+"<link xlink:href=\"http://gabber.sourceforge.net/\">Gabber 2</link> GNOME "
+"Jabber IM client"
 msgstr ""
-"<ulink url=\"http://gabber.sourceforge.net/\">Gabber 2</ulink> GNOME Jabber-"
-"snabbmeddelandeklient"
+"<link xlink:href=\"http://gabber.sourceforge.net/\">Gabber 2</link> GNOME "
+"Jabber-snabbmeddelandeklient"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:209
-msgid "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> file manager"
-msgstr "<ulink url=\"http://gex.sourceforge.net/\">Gex</ulink> filhanterare"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:212
+#: C/extra.xml:213
 msgid ""
-"<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> "
-"GUI frontend for the efax fax program"
+"<link xlink:href=\"http://gex.sourceforge.net/\">Gex</link> file manager"
 msgstr ""
-"<ulink url=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</ulink> "
-"GUI-framände för faxprogrammet efax"
+"<link xlink:href=\"http://gex.sourceforge.net/\">Gex</link> filhanterare"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:215
+#: C/extra.xml:216
 msgid ""
-"<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> organise and "
-"visualise information"
+"<link xlink:href=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</"
+"link> GUI frontend for the efax fax program"
 msgstr ""
-"<ulink url=\"http://visage.sourceforge.net\">Visage</ulink> organisera och "
-"visualisera information"
+"<link xlink:href=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</"
+"link> GUI-framände för faxprogrammet efax"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:218
+#: C/extra.xml:219
 msgid ""
-"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> "
-"geneology database viewer"
+"<link xlink:href=\"http://visage.sourceforge.net\">Visage</link> organise "
+"and visualise information"
 msgstr ""
-"<ulink url=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</ulink> "
-"släktforskningsdatabasvisare"
+"<link xlink:href=\"http://visage.sourceforge.net\">Visage</link> organisera "
+"och visualisera information"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:221
+#: C/extra.xml:222
 msgid ""
-"<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> voice "
+"<link xlink:href=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</"
+"link> geneology database viewer"
+msgstr ""
+"<link xlink:href=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</"
+"link> släktforskningsdatabasvisare"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:225
+msgid ""
+"<link xlink:href=\"http://liarliar.sourceforge.net/\">Liar Liar</link> voice "
 "stress analysis tool"
 msgstr ""
-"<ulink url=\"http://liarliar.sourceforge.net/\">Liar Liar</ulink> verktyg "
-"för analys av stressad röst"
+"<link xlink:href=\"http://liarliar.sourceforge.net/\">Liar Liar</link> "
+"verktyg för analys av stressad röst"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:224
+#: C/extra.xml:228
 msgid ""
-"<ulink url=\"http://freecode.com/projects/cug\">CUG</ulink> 3D equation "
+"<link xlink:href=\"http://freecode.com/projects/cug\">CUG</link> 3D equation "
 "plotter"
 msgstr ""
-"<ulink url=\"http://freecode.com/projects/cug\">CUG</ulink> 3D-"
+"<link xlink:href=\"http://freecode.com/projects/cug\">CUG</link> 3D-"
 "ekvationsritare"
 
-#. (itstool) path: sect3/title
-#: C/extra.xml:229
+#. (itstool) path: section/title
+#: C/extra.xml:234
 msgid "Using gtkmm 1.2:"
 msgstr "Använder gtkmm 1.2:"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:232
+#: C/extra.xml:237
 msgid ""
-"<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> generic SQL GUI"
+"<link xlink:href=\"http://gensql.sourceforge.net/\">genSQL</link> generic "
+"SQL GUI"
 msgstr ""
-"<ulink url=\"http://gensql.sourceforge.net/\">genSQL</ulink> generiskt SQL-"
-"GUI"
+"<link xlink:href=\"http://gensql.sourceforge.net/\">genSQL</link> generiskt "
+"SQL-GUI"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:235
+#: C/extra.xml:240
 msgid ""
-"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> "
-"Gomoku game for GNOME"
+"<link xlink:href=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</"
+"link> Gomoku game for GNOME"
 msgstr ""
-"<ulink url=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</ulink> "
-"Gomoku-spel för GNOME"
+"<link xlink:href=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</"
+"link> Gomoku-spel för GNOME"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:238
+#: C/extra.xml:243
 msgid ""
-"<ulink url=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</ulink> "
-"GUI voicemail / speakerphone / caller ID application"
+"<link xlink:href=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</"
+"link> GUI voicemail / speakerphone / caller ID application"
 msgstr ""
-"<ulink url=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</ulink> "
-"grafisk röstbrevlåda / högtalartelefon / nummerpresentatör"
+"<link xlink:href=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</"
+"link> grafisk röstbrevlåda / högtalartelefon / nummerpresentatör"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:241
+#: C/extra.xml:246
 msgid ""
-"<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> MIME "
+"<link xlink:href=\"http://gtkmail.sourceforge.net/\">gtkmail</link> MIME "
 "compliant GUI email client"
 msgstr ""
-"<ulink url=\"http://gtkmail.sourceforge.net/\">gtkmail</ulink> grafisk e-"
-"postklient som följer MIME-standarden"
+"<link xlink:href=\"http://gtkmail.sourceforge.net/\">gtkmail</link> grafisk "
+"e-postklient som följer MIME-standarden"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:244
+#: C/extra.xml:249
 msgid ""
-"<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> graphical "
+"<link xlink:href=\"http://gvbox.sourceforge.net/\">Gvbox</link> graphical "
 "frontend to isdn4linux answering machine"
 msgstr ""
-"<ulink url=\"http://gvbox.sourceforge.net/\">Gvbox</ulink> grafisk framände "
-"till svararen isdn4linux"
+"<link xlink:href=\"http://gvbox.sourceforge.net/\">Gvbox</link> grafisk "
+"framände till svararen isdn4linux"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:247
+#: C/extra.xml:252
 msgid ""
-"<ulink url=\"http://www.medini.org/software/ped/ped.html\">Ped</ulink> path "
-"editor utility"
+"<link xlink:href=\"http://www.medini.org/software/ped/ped.html\">Ped</link> "
+"path editor utility"
 msgstr ""
-"<ulink url=\"http://www.medini.org/software/ped/ped.html\">Ped</ulink> "
+"<link xlink:href=\"http://www.medini.org/software/ped/ped.html\">Ped</link> "
 "sökvägsredigerarverktyg"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:250
+#: C/extra.xml:255
 msgid ""
-"<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> Usenet "
-"picture grabber"
+"<link xlink:href=\"http://picmonger.sourceforge.net/\">PicMonger</link> "
+"Usenet picture grabber"
 msgstr ""
-"<ulink url=\"http://picmonger.sourceforge.net/\">PicMonger</ulink> "
+"<link xlink:href=\"http://picmonger.sourceforge.net/\">PicMonger</link> "
 "bildhämtare för Usenet"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:253
+#: C/extra.xml:258
 msgid ""
-"<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
-"ulink> radio application for Video4Linux-compatible radio tuner cards"
+"<link xlink:href=\"http://cactus.rulez.org/projects/radioactive/"
+"\">RadioActive</link> radio application for Video4Linux-compatible radio "
+"tuner cards"
 msgstr ""
-"<ulink url=\"http://cactus.rulez.org/projects/radioactive/\">RadioActive</"
-"ulink> radioprogram för Video4Linux-kompatibla radiotuner-kort"
+"<link xlink:href=\"http://cactus.rulez.org/projects/radioactive/"
+"\">RadioActive</link> radioprogram för Video4Linux-kompatibla radiotuner-kort"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:256
+#: C/extra.xml:261
 msgid ""
-"<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> software "
-"analogue MIDI sequencer"
+"<link xlink:href=\"http://softwerk.sourceforge.net/\">softwerk</link> "
+"software analogue MIDI sequencer"
 msgstr ""
-"<ulink url=\"http://softwerk.sourceforge.net/\">softwerk</ulink> analog "
+"<link xlink:href=\"http://softwerk.sourceforge.net/\">softwerk</link> analog "
 "programvaru-MIDI-sekvenserare"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:259
+#: C/extra.xml:264
 msgid ""
-"<ulink url=\"http://www.firedrake.org/terraform/\">terraform</ulink> terrain "
-"generator (very cool)"
+"<link xlink:href=\"http://www.firedrake.org/terraform/\">terraform</link> "
+"terrain generator (very cool)"
 msgstr ""
-"<ulink url=\"http://www.firedrake.org/terraform/\">terraform</ulink> "
+"<link xlink:href=\"http://www.firedrake.org/terraform/\">terraform</link> "
 "terränggenerator (väldigt cool)"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:262
-msgid "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ client"
-msgstr "<ulink url=\"http://ickle.sourceforge.net/\">ickle</ulink> ICQ-klient"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:265
+#: C/extra.xml:267
 msgid ""
-"<ulink url=\"http://cap.sourceforge.net/\">Chained Audio Plugins</ulink>"
+"<link xlink:href=\"http://ickle.sourceforge.net/\">ickle</link> ICQ client"
 msgstr ""
-"<ulink url=\"http://cap.sourceforge.net/\">Chained Audio Plugins</ulink>"
+"<link xlink:href=\"http://ickle.sourceforge.net/\">ickle</link> ICQ-klient"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:268
+#: C/extra.xml:270
 msgid ""
-"<ulink url=\"http://zarb.org/~gc/html/grany.html\">Grany-3</ulink> cellular "
-"automaton simulator"
+"<link xlink:href=\"http://cap.sourceforge.net/\">Chained Audio Plugins</link>"
 msgstr ""
-"<ulink url=\"http://zarb.org/~gc/html/grany.html\">Grany-3</ulink> cellulär "
-"automatsimulator"
+"<link xlink:href=\"http://cap.sourceforge.net/\">Chained Audio Plugins</link>"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:271
+#: C/extra.xml:273
 msgid ""
-"<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> music "
+"<link xlink:href=\"http://zarb.org/~gc/html/grany.html\">Grany-3</link> "
+"cellular automaton simulator"
+msgstr ""
+"<link xlink:href=\"http://zarb.org/~gc/html/grany.html\">Grany-3</link> "
+"cellulär automatsimulator"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:276
+msgid ""
+"<link xlink:href=\"http://paloma.sourceforge.net/\">Paloma</link> music "
 "management system"
 msgstr ""
-"<ulink url=\"http://paloma.sourceforge.net/\">Paloma</ulink> "
+"<link xlink:href=\"http://paloma.sourceforge.net/\">Paloma</link> "
 "musikhanteringssystem"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:274
+#: C/extra.xml:279
 msgid ""
-"<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> 3D "
+"<link xlink:href=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</link> 3D "
 "cellular automata simulator"
 msgstr ""
-"<ulink url=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</ulink> "
+"<link xlink:href=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</link> "
 "cellulär 3D-automatsimulator"
 
-#. (itstool) path: sect2/title
-#: C/extra.xml:280
+#. (itstool) path: section/title
+#: C/extra.xml:286
 msgid "Links"
 msgstr "Länkar"
 
-#. (itstool) path: sect3/title
-#: C/extra.xml:282
-msgid "GTK+ resources"
-msgstr "GTK+-resurser"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:285
-msgid "<ulink url=\"http://www.gtk.org/\">GTK+ homepage</ulink>"
-msgstr "<ulink url=\"http://www.gtk.org/\">GTK+:s webbplats</ulink>"
-
-#. (itstool) path: listitem/para
+#. (itstool) path: section/title
 #: C/extra.xml:288
-msgid "<ulink url=\"https://www.gnome.org/\">GNOME homepage</ulink>"
-msgstr "<ulink url=\"https://www.gnome.org/\">GNOME:s webbplats</ulink>"
+msgid "GTK resources"
+msgstr "GTK-resurser"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:291
-msgid "<ulink url=\"https://developer.gnome.org/\">GNOME development</ulink>"
-msgstr "<ulink url=\"https://developer.gnome.org/\">GNOME-utveckling</ulink>"
+msgid "<link xlink:href=\"https://www.gtk.org/\">GTK homepage</link>"
+msgstr "<link xlink:href=\"https://www.gtk.org/\">GTK:s webbplats</link>"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:294
-msgid "<ulink url=\"http://www.gimp.org/\">Gimp homepage</ulink>"
-msgstr "<ulink url=\"http://www.gimp.org/\">Gimps webbplats</ulink>"
+msgid "<link xlink:href=\"https://www.gnome.org/\">GNOME homepage</link>"
+msgstr "<link xlink:href=\"https://www.gnome.org/\">GNOME:s webbplats</link>"
 
-#. (itstool) path: sect1/title
+#. (itstool) path: listitem/para
+#: C/extra.xml:297
+msgid ""
+"<link xlink:href=\"https://developer.gnome.org/\">GNOME development</link>"
+msgstr ""
+"<link xlink:href=\"https://developer.gnome.org/\">GNOME-utveckling</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:300
+msgid "<link xlink:href=\"https://www.gimp.org/\">Gimp homepage</link>"
+msgstr "<link xlink:href=\"https://www.gimp.org/\">Gimps webbplats</link>"
+
+#. (itstool) path: section/title
 #: C/git.xml:8
 msgid "Git"
 msgstr "Git"
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/git.xml:9
 msgid ""
-"We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our source "
-"code, in the <ulink url=\"https://www.gnome.org\">GNOME</ulink> Git "
-"repository. Additional information about gitlab.gnome.org is available at "
-"<ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
+"We use <link xlink:href=\"https://git-scm.com/\">Git</link> to maintain our "
+"source code, in the <link xlink:href=\"https://www.gnome.org\">GNOME</link> "
+"Git repository. Additional information about gitlab.gnome.org is available "
+"at <link xlink:href=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</link>."
 msgstr ""
-"Vi använder <ulink url=\"http://git-scm.com/\">Git</ulink> för att "
-"underhålla vår källkod, i git-arkivet för <ulink url=\"https://www.gnome.org"
-"\">GNOME</ulink>. Ytterligare information om gitlab.gnome.org finns "
-"tillgänglig på <ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</"
-"ulink>."
+"Vi använder <link xlink:href=\"https://git-scm.com/\">Git</link> för att "
+"underhålla vår källkod, i Git-arkivet för <link xlink:href=\"https://www."
+"gnome.org\">GNOME</link>. Ytterligare information om gitlab.gnome.org finns "
+"tillgänglig på <link xlink:href=\"https://wiki.gnome.org/Git\">wiki.gnome."
+"org/Git</link>."
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/git.xml:12
 msgid ""
-"glibmm and gtkmm are in the <ulink url=\"https://gitlab.gnome.org/GNOME/"
-"glibmm/\">glibmm</ulink> and <ulink url=\"https://gitlab.gnome.org/GNOME/"
-"gtkmm/\">gtkmm</ulink> modules. There is also a <ulink url=\"https://gitlab."
-"gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> module "
-"which contains the gtkmm book and its examples. See below for instructions."
+"glibmm and gtkmm are in the <link xlink:href=\"https://gitlab.gnome.org/"
+"GNOME/glibmm/\">glibmm</link> and <link xlink:href=\"https://gitlab.gnome."
+"org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link xlink:href="
+"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
+"link> module which contains the gtkmm book and its examples. See below for "
+"instructions."
 msgstr ""
-"glibmm och gtkmm finns i modulerna <ulink url=\"https://gitlab.gnome.org/"
-"GNOME/glibmm/\">glibmm</ulink> och <ulink url=\"https://gitlab.gnome.org/"
-"GNOME/gtkmm/\">gtkmm</ulink>. Sedan finns också modulen <ulink url=\"https://"
-"gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</ulink> "
-"som innehåller gtkmm-boken och dess exempel. Se nedan för instruktioner."
+"glibmm och gtkmm finns i modulerna <link xlink:href=\"https://gitlab.gnome."
+"org/GNOME/glibmm/\">glibmm</link> och <link xlink:href=\"https://gitlab."
+"gnome.org/GNOME/gtkmm/\">gtkmm</link>. Sedan finns också modulen <link xlink:"
+"href=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-"
+"documentation</link> som innehåller gtkmm-boken och dess exempel. Se nedan "
+"för instruktioner."
 
-#. (itstool) path: sect1/para
+# TODO: autoconf, automake, etc.
+#. (itstool) path: section/para
 #: C/git.xml:14
 msgid ""
-"You will need to run the autogen.sh script to generate the build files. We "
-"recommend jhbuild for setting up a separate development prefix."
+"If you build with Autotools (autoconf, automake,etc.), you will need to run "
+"the autogen.sh script to generate the build files. We recommend <link xlink:"
+"href=\"https://wiki.gnome.org/Projects/Jhbuild\">jhbuild</link> or <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-"
+"meta</link> for setting up a separate development prefix."
 msgstr ""
-"Du kommer behöva köra skriptet autogen.sh för att skapa byggfilerna. Vi "
-"rekommenderar jhbuild för att ställa in ett separat utvecklingsprefix."
+"Om du bygger med Autotools (autoconf, automake o.s.v.) så kommer du behöva "
+"köra skriptet autogen.sh för att generera byggfilerna. Vi rekommenderar "
+"<link xlink:href=\"https://wiki.gnome.org/Projects/Jhbuild\">jhbuild</link> "
+"eller <link xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta"
+"\">gnome-build-meta</link> för att konfigurera ett separat utvecklingsprefix."
 
-#. (itstool) path: highlights/para
-#: C/git.xml:17
+#. (itstool) path: note/para
+#: C/git.xml:20
 msgid "<emphasis role=\"bold\">Anonymous Access</emphasis>"
 msgstr "<emphasis role=\"bold\">Anonym åtkomst</emphasis>"
 
-#. (itstool) path: highlights/para
-#: C/git.xml:18
+#. (itstool) path: note/para
+#: C/git.xml:21
 msgid ""
 "For those who do not have a GNOME login, anonymous checkouts are available."
 msgstr ""
 "För de som inte har en GNOME-inloggning så finns anonym utcheckning "
 "tillgänglig."
 
-#. (itstool) path: highlights/para
-#: C/git.xml:20
+#. (itstool) path: note/para
+#: C/git.xml:23
 msgid ""
 "For instance, to check out the latest version of gtkmm: <command>git clone "
 "https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
@@ -2611,115 +2726,155 @@ msgstr ""
 "Till exempel, för att checka ut den senaste versionen av gtkmm: <command>git "
 "clone https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 
-#. (itstool) path: sect2/title
-#: C/git.xml:23
+#. (itstool) path: section/title
+#: C/git.xml:27
 msgid "Modules and branches"
 msgstr "Moduler och grenar"
 
-#. (itstool) path: sect2/para
-#: C/git.xml:24
+#. (itstool) path: section/para
+#: C/git.xml:28
 msgid ""
-"We are synchronized with the GNOME release schedule, so we use <ulink url="
-"\"https://wiki.gnome.org/MaintainersCorner#branches\">standard GNOME branch "
-"names</ulink>."
+"We are synchronized with the GNOME release schedule, so we use <link xlink:"
+"href=\"https://wiki.gnome.org/MaintainersCorner#branches\">standard GNOME "
+"branch names</link>."
 msgstr ""
-"Vi är synkroniserade med GNOME:s utgåveschema, så vi använder <ulink url="
-"\"https://wiki.gnome.org/MaintainersCorner#branches\">GNOME:s standardnamn "
-"för grenar</ulink>."
+"Vi är synkroniserade med GNOME:s utgåveschema, så vi använder <link xlink:"
+"href=\"https://wiki.gnome.org/MaintainersCorner#branches\">GNOME:s "
+"standardnamn för grenar</link>."
 
-#. (itstool) path: sect3/title
-#: C/git.xml:26
+#. (itstool) path: section/title
+#: C/git.xml:31
 msgid "gtkmm and glibmm"
 msgstr "gtkmm och glibmm"
 
 #. (itstool) path: tr/th
-#: C/git.xml:29 C/git.xml:64 C/git.xml:95
+#: C/git.xml:34 C/git.xml:81 C/git.xml:113
 msgid "Component"
 msgstr "Komponent"
 
 #. (itstool) path: tr/th
-#: C/git.xml:30 C/git.xml:96
+#: C/git.xml:35 C/git.xml:114
 msgid "Version"
 msgstr "Version"
 
 #. (itstool) path: tr/th
-#: C/git.xml:31 C/git.xml:66 C/git.xml:97
+#: C/git.xml:36 C/git.xml:83 C/git.xml:115
 msgid "Git Module"
 msgstr "Git-modul"
 
 #. (itstool) path: tr/th
-#: C/git.xml:32 C/git.xml:67 C/git.xml:98
+#: C/git.xml:37 C/git.xml:84 C/git.xml:116
 msgid "Branch name"
 msgstr "Grennamn"
 
 #. (itstool) path: tr/td
-#: C/git.xml:36
-msgid "2.17/18"
-msgstr "2.17/18"
+#: C/git.xml:40 C/git.xml:46
+msgid "gtkmm-4.0"
+msgstr "gtkmm-4.0"
 
 #. (itstool) path: tr/td
-#: C/git.xml:38 C/git.xml:50 C/git.xml:73 C/git.xml:79 C/git.xml:85
-#: C/git.xml:104 C/git.xml:110 C/git.xml:116 C/git.xml:122
+#: C/git.xml:41
+msgid "4.4"
+msgstr "4.4"
+
+#. (itstool) path: tr/td
+#: C/git.xml:43 C/git.xml:61 C/git.xml:90 C/git.xml:96 C/git.xml:102
+#: C/git.xml:122 C/git.xml:128 C/git.xml:134 C/git.xml:140
 msgid "master"
 msgstr "master"
 
 #. (itstool) path: tr/td
-#: C/git.xml:42
-msgid "2.16"
-msgstr "2.16"
+#: C/git.xml:47
+msgid "4.2"
+msgstr "4.2"
 
 #. (itstool) path: tr/td
-#: C/git.xml:44
-msgid "gtkmm-2-16"
-msgstr "gtkmm-2-16"
+#: C/git.xml:49
+msgid "gtkmm-4-2"
+msgstr "gtkmm-4-2"
 
 #. (itstool) path: tr/td
-#: C/git.xml:47 C/git.xml:49 C/git.xml:53 C/git.xml:55
+#: C/git.xml:52
+msgid "gtkmm-3.0"
+msgstr "gtkmm-3.0"
+
+#. (itstool) path: tr/td
+#: C/git.xml:53
+msgid "3.24"
+msgstr "3.24"
+
+#. (itstool) path: tr/td
+#: C/git.xml:55
+msgid "gtkmm-3-24"
+msgstr "gtkmm-3-24"
+
+#. (itstool) path: tr/td
+#: C/git.xml:58 C/git.xml:64
+msgid "glibmm-2.68"
+msgstr "glibmm-2.68"
+
+#. (itstool) path: tr/td
+#: C/git.xml:59
+msgid "2.70"
+msgstr "2.70"
+
+#. (itstool) path: tr/td
+#: C/git.xml:60 C/git.xml:66 C/git.xml:72
 msgid "glibmm"
 msgstr "glibmm"
 
 #. (itstool) path: tr/td
-#: C/git.xml:48
-msgid "2.21/22"
-msgstr "2.21/22"
+#: C/git.xml:65
+msgid "2.68"
+msgstr "2.68"
 
 #. (itstool) path: tr/td
-#: C/git.xml:54
-msgid "2.20"
-msgstr "2.20"
+#: C/git.xml:67
+msgid "glibmm-2-68"
+msgstr "glibmm-2-68"
 
 #. (itstool) path: tr/td
-#: C/git.xml:56
-msgid "glibmm-2-20"
-msgstr "glibmm-2-20"
+#: C/git.xml:70
+msgid "glibmm-2.4"
+msgstr "glibmm-2.4"
+
+#. (itstool) path: tr/td
+#: C/git.xml:71
+msgid "2.66"
+msgstr "2.66"
+
+#. (itstool) path: tr/td
+#: C/git.xml:73
+msgid "glibmm-2-66"
+msgstr "glibmm-2-66"
 
 #. (itstool) path: tr/th
-#: C/git.xml:65
+#: C/git.xml:82
 msgid "API Version"
 msgstr "API-version"
 
 #. (itstool) path: tr/td
-#: C/git.xml:70 C/git.xml:72
+#: C/git.xml:87 C/git.xml:89
 msgid "libglademm"
 msgstr "libglademm"
 
 #. (itstool) path: tr/td
-#: C/git.xml:76 C/git.xml:78
+#: C/git.xml:93 C/git.xml:95
 msgid "gconfmm"
 msgstr "gconfmm"
 
 #. (itstool) path: tr/td
-#: C/git.xml:82 C/git.xml:84
+#: C/git.xml:99 C/git.xml:101
 msgid "libgnomecanvasmm"
 msgstr "libgnomecanvasmm"
 
-#. (itstool) path: sect3/title
-#: C/git.xml:90
+#. (itstool) path: section/title
+#: C/git.xml:108
 msgid "*mm bindings for other GNOME-related APIs"
 msgstr "*mm-bindningar för andra GNOME-relaterade API:er"
 
-#. (itstool) path: sect3/para
-#: C/git.xml:91
+#. (itstool) path: section/para
+#: C/git.xml:109
 msgid ""
 "The following bindings are not necessarily on the same schedule as those "
 "listed above."
@@ -2728,50 +2883,50 @@ msgstr ""
 "ovan."
 
 #. (itstool) path: tr/td
-#: C/git.xml:101 C/git.xml:103
+#: C/git.xml:119 C/git.xml:121
 msgid "libgdamm"
 msgstr "libgdamm"
 
 #. (itstool) path: tr/td
-#: C/git.xml:107 C/git.xml:109
+#: C/git.xml:125 C/git.xml:127
 msgid "libgnomedbmm"
 msgstr "libgnomedbmm"
 
 #. (itstool) path: tr/td
-#: C/git.xml:113 C/git.xml:115
+#: C/git.xml:131 C/git.xml:133
 msgid "goocanvasmm"
 msgstr "goocanvasmm"
 
 #. (itstool) path: tr/td
-#: C/git.xml:119 C/git.xml:121
+#: C/git.xml:137 C/git.xml:139
 msgid "libpanelappletmm"
 msgstr "libpanelappletmm"
 
-#. (itstool) path: sect1/title
+#. (itstool) path: section/title
 #: C/license.xml:8
 msgid "License"
 msgstr "Licens"
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/license.xml:9
 msgid ""
-"gtkmm is licensed under the <ulink url=\"http://www.gnu.org\">GNU</ulink> "
-"Library General Public License (<ulink url=\"http://www.gnu.org/licenses/"
-"lgpl.html#TOC1\">LGPL</ulink>) for all platforms. Our intent in licensing it "
-"in this way is to provide it for use through shared libraries in all "
-"projects both open and proprietary. Other GNU projects may of course "
+"gtkmm is licensed under the <link xlink:href=\"https://www.gnu.org\">GNU</"
+"link> Lesser General Public License (<link xlink:href=\"https://www.gnu.org/"
+"licenses/lgpl.html#TOC1\">LGPL</link>) for all platforms. Our intent in "
+"licensing it in this way is to provide it for use through shared libraries "
+"in all projects both open and proprietary. Other GNU projects may of course "
 "integrate and link in a static manner. The full body of the license is "
 "provided for your inspection."
 msgstr ""
-"gtkmm är licenserat under <ulink url=\"http://www.gnu.org\">GNU</ulink> "
-"Library General Public License (<ulink url=\"http://www.gnu.org/licenses/"
-"lgpl.html#TOC1\">LGPL</ulink>) för alla plattformar. Vårt syfte med att "
-"licensera det på detta sätt är för att tillhanda det för användning genom "
-"delade bibliotek i alla projekt, både öppna och proprietära. Andra GNU-"
-"projekt kan givetvis integrera och länka på statiskt vis. Den fulla "
-"licenstexten tillhandahålls så att du kan granska den närmare."
+"gtkmm är licensierat under <link xlink:href=\"https://www.gnu.org\">GNU</"
+"link> Lesser General Public License (<link xlink:href=\"https://www.gnu.org/"
+"licenses/lgpl.html#TOC1\">LGPL</link>) för alla plattformar. Vårt syfte med "
+"att licensiera det på detta sätt är för att tillhandahålla det för "
+"användning genom delade bibliotek i alla projekt, både öppna och "
+"proprietära. Andra GNU-projekt kan givetvis integrera och länka på statiskt "
+"vis. Den fulla licenstexten tillhandahålls så att du kan granska den närmare."
 
-#. (itstool) path: sect1/para
+#. (itstool) path: section/para
 #: C/license.xml:15
 msgid ""
 "This is the only license which grants you use of the software, so if you do "
@@ -2780,7 +2935,7 @@ msgstr ""
 "Detta är den enda licens som låter dig använda programvaran, så om du inte "
 "godkänner dess villkor får du inte använda denna programvara."
 
-#. (itstool) path: highlights/para
+#. (itstool) path: note/para
 #: C/license.xml:18
 msgid ""
 "Note that this license <emphasis role=\"bold\">does not require you to "
@@ -2791,12 +2946,12 @@ msgstr ""
 "källkoden för dina egna program eller bibliotek</emphasis> och <emphasis "
 "role=\"bold\">kräver inte att du ska betala några avgifter.</emphasis>"
 
-#. (itstool) path: sect1/title
+#. (itstool) path: section/title
 #: C/mailinglist.xml:8
 msgid "Mailing List"
 msgstr "Sändlista"
 
-#. (itstool) path: sect2/title
+#. (itstool) path: section/title
 #: C/mailinglist.xml:10
 msgid "Where is the gtkmm mailing list?"
 msgstr "Var finns sändlistan för gtkmm?"
@@ -2804,78 +2959,83 @@ msgstr "Var finns sändlistan för gtkmm?"
 #. (itstool) path: listitem/para
 #: C/mailinglist.xml:13
 msgid ""
-"<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <ulink url=\"mailto:"
-"gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. To subscribe, go to the "
-"<ulink url=\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">subscribe "
-"page</ulink>."
+"<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <link xlink:href="
+"\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. To subscribe, "
+"go to the <link xlink:href=\"https://mail.gnome.org/mailman/listinfo/gtkmm-"
+"list\">subscribe page</link>."
 msgstr ""
-"<emphasis role=\"bold\">Sändlista för gtkmm</emphasis>: <ulink url=\"mailto:"
-"gtkmm-list@gnome.org\">gtkmm-list@gnome.org</ulink>. Gå till <ulink url="
-"\"http://mail.gnome.org/mailman/listinfo/gtkmm-list\">prenumerationssidan</"
-"ulink> för att prenumerera."
+"<emphasis role=\"bold\">Sändlista för gtkmm</emphasis>: <link xlink:href="
+"\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. Gå till <link "
+"xlink:href=\"https://mail.gnome.org/mailman/listinfo/gtkmm-list"
+"\">prenumerationssidan</link> för att prenumerera."
 
 #. (itstool) path: listitem/para
 #: C/mailinglist.xml:16
 msgid ""
-"For general GTK+ discussion, please use the <ulink url=\"http://www.gtk.org/"
-"mailing-lists.php\">gtk-list</ulink>."
+"For general GTK discussion, please use the GNOME <link xlink:href=\"https://"
+"discourse.gnome.org\">Discourse</link> instance, under the <link xlink:href="
+"\"https://discourse.gnome.org/c/platform/core\">Platform/Core</link> "
+"category."
 msgstr ""
-"För allmän diskussion om GTK+, använd <ulink url=\"http://www.gtk.org/"
-"mailing-lists.php\">gtk-list</ulink>."
+"Använd GNOME:s instans av <link xlink:href=\"https://discourse.gnome.org"
+"\">Discourse</link> för allmän GTK-diskussion, under kategorin <link xlink:"
+"href=\"https://discourse.gnome.org/c/platform/core\">Platform/Core</link>."
 
-#. (itstool) path: sect2/title
-#: C/mailinglist.xml:21
+#. (itstool) path: section/title
+#: C/mailinglist.xml:23
 msgid "What subject material is appropriate for the list?"
 msgstr "Vilka ämnen är lämpliga på listan?"
 
-#. (itstool) path: sect2/para
-#: C/mailinglist.xml:22
+#. (itstool) path: section/para
+#: C/mailinglist.xml:24
 msgid ""
-"The mailing lists are used for discussion of development, bug reports, "
-"suggestions, and improvements of the C++ wrappers themselves. There is also "
-"discussion of the use of the wrapper. Questions about the underlying GTK+ "
-"widget set are more likely to be answered quickly through the gtk-list."
+"The mailing lists are used for discussion of development, suggestions, and "
+"improvements of the C++ wrappers themselves. There is also discussion of the "
+"use of the wrapper. Questions about the underlying GTK widget set are more "
+"likely to be answered quickly through the Discourse platform. Bugs are "
+"better reported and discussed in GitLab issues and merge requests."
 msgstr ""
-"Sändlistorna används för diskussion om utveckling, felrapporter, förslag och "
-"förbättringar av C++-omslagen själva. Där pågår också diskussion om "
-"omslagets användning. Frågor om den underliggande uppsättningen GTK+-"
-"komponenter har större sannolikhet att få ett snabbt svar på listan gtk-list."
+"Sändlistorna används för diskussion om utveckling, förslag och förbättringar "
+"av C++-omslagen själva. Där pågår också diskussion om omslagets användning. "
+"Frågor om den underliggande uppsättningen GTK-komponenter har större "
+"sannolikhet att få ett snabbt svar på Discourse-plattformen. Fel kan hellre "
+"rapporteras och diskuteras i GitLab-ärenden och merge-förfrågningar."
 
-#. (itstool) path: sect2/title
-#: C/mailinglist.xml:29
+#. (itstool) path: section/title
+#: C/mailinglist.xml:33
 msgid "List Archives"
 msgstr "Listarkiv"
 
-#. (itstool) path: sect2/para
-#: C/mailinglist.xml:30
+#. (itstool) path: section/para
+#: C/mailinglist.xml:34
 msgid "The archive of messages can be found at:"
 msgstr "Meddelandearkivet kan hittas på:"
 
 #. (itstool) path: listitem/para
-#: C/mailinglist.xml:33
+#: C/mailinglist.xml:37
 msgid ""
-"gtkmm-list <ulink url=\"http://mail.gnome.org/archives/gtkmm-list/"
-"\">archive</ulink>."
+"gtkmm-list <link xlink:href=\"https://mail.gnome.org/archives/gtkmm-list/"
+"\">archive</link>."
 msgstr ""
-"<ulink url=\"http://mail.gnome.org/archives/gtkmm-list/\">Arkiv</ulink> för "
-"gtkmm-list."
+"<link xlink:href=\"https://mail.gnome.org/archives/gtkmm-list/\">Arkiv</"
+"link> för gtkmm-list."
 
-#. (itstool) path: sect2/para
-#: C/mailinglist.xml:36
+#. (itstool) path: section/para
+#: C/mailinglist.xml:40
 msgid ""
-"<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> archives messages even "
-"from before 2002, and has a more reliable search engine."
+"<link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> archives "
+"messages even from before 2002, and has a more reliable search engine."
 msgstr ""
-"<ulink url=\"http://marc.info/?l=gtkmm\">MARC</ulink> arkiverar även "
-"meddelanden från innan 2002, och har en mer pålitlig sökmotor."
+"<link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> arkiverar även "
+"meddelanden från innan 2002 och har en mer pålitlig sökmotor."
 
-#. (itstool) path: sect2/title
-#: C/mailinglist.xml:39
+#. (itstool) path: section/title
+#: C/mailinglist.xml:44
 msgid "IRC channel"
 msgstr "IRC-kanal"
 
-#. (itstool) path: sect2/para
-#: C/mailinglist.xml:40
+#. (itstool) path: section/para
+#: C/mailinglist.xml:45
 msgid ""
 "We also discuss development in the <emphasis role=\"bold\">#c++</emphasis> "
 "channel on irc.gnome.org, but questions are more likely to be answered "
@@ -2887,179 +3047,60 @@ msgstr ""
 "svar på sändlistan. Sändlistan arkiveras också, så andra kan dra nytta av "
 "svaren."
 
-#. (itstool) path: sect1/title
-#: C/news.xml:8
+#. (itstool) path: section/title
+#: C/news.xml:9
 msgid "News"
 msgstr "Nyheter"
 
-#. (itstool) path: listitem/para
-#: C/news.xml:11
+#. (itstool) path: section/para
+#: C/news.xml:10
 msgid ""
-"April 6, 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
-"list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> and <ulink url=\"http://"
-"mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
-"\">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm 3.0 "
-"wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 API."
+"This list will not be updated each time a new release is made. The listed "
+"versions are the latest ones at the time of writing, but there may be newer "
+"releases when you read this text. See <link xlink:href=\"https://download."
+"gnome.org/sources/\">download.gnome.org/sources/</link> and <link xlink:href="
+"\"https://www.cairographics.org/releases/\">www.cairographics.org/releases/</"
+"link>."
 msgstr ""
-"6 april 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
-"list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> och <ulink url=\"http://"
-"mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042.html"
-"\">glibmm 2.28.0</ulink> släppta i enlighet med GNOME-schemat. gtkmm 3.0 "
-"täcker API:t för GTK+ 3.0 och installeras parallellt med API:t för gtkmm-2.4."
+"Denna lista kommer inte uppdateras varje gång en ny utgåva görs. De listade "
+"versionerna är de senaste i skrivande stund, men det kan finnas nyare "
+"utgåvor när du läser denna text. Se <link xlink:href=\"https://download."
+"gnome.org/sources/\">download.gnome.org/sources/</link> och <link xlink:href="
+"\"https://www.cairographics.org/releases/\">www.cairographics.org/releases/</"
+"link>."
 
 #. (itstool) path: listitem/para
-#: C/news.xml:16
+#: C/news.xml:17
 msgid ""
-"February 10, 2011: gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/archives/"
-"gnome-announce-list/2011-February/msg00020.html\">released</ulink>. gtkmm "
-"2.24.0 wraps new API in GTK+ 2.24 and is API/ABI-compatible with gtkmm &gt;= "
-"2.4. It is a version of the gtkmm-2.4 API with API additions. It deprecates "
-"some API, helping application developers to prepare for gtkmm 3.0."
+"September 9, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"gtkmm/4.4/\">gtkmm 4.4.0</link>"
 msgstr ""
-"10 februari 2011: gtkmm 2.24.0 <ulink url=\"http://mail.gnome.org/archives/"
-"gnome-announce-list/2011-February/msg00020.html\">släppt</ulink>. gtkmm "
-"2.24.0 täcker nytt API i GTK+ 2.24 och är API/ABI-kompatibelt med gtkmm &gt;"
-"= 2.4. Det är en version av API:t för gtkmm-2.4 med API-tillägg. Det "
-"föråldrar vissa API:er, och hjälper därmed programutvecklare att förbereda "
-"för gtkmm 3.0."
+"9 september 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"gtkmm/4.4/\">gtkmm 4.4.0</link>"
 
 #. (itstool) path: listitem/para
-#: C/news.xml:21
+#: C/news.xml:22
 msgid ""
-"September 22, 2010: gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/archives/"
-"gnome-announce-list/2010-September/msg00087.html\">released</ulink>, as per "
-"the GNOME schedule. gtkmm 2.22.0 wraps new API in GTK+ 2.22 and is API/ABI-"
-"compatible with gtkmm &gt;= 2.4. It is a version of the gtkmm-2.4 API with "
-"API additions."
+"May 21, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"gtkmm/3.24/\">gtkmm 3.24.5</link>"
 msgstr ""
-"22 september 2010: gtkmm 2.22.0 <ulink url=\"http://mail.gnome.org/archives/"
-"gnome-announce-list/2010-September/msg00087.html\">släppt</ulink>, i "
-"enlighet med GNOME-schemat. gtkmm 2.22.0 täcker nytt API i GTK+ 2.22 och är "
-"API/ABI-kompatibelt med gtkmm &gt;= 2.4. Det är en version av API:t för "
-"gtkmm-2.4 med API-tillägg."
+"21 maj 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"gtkmm/3.24/\">gtkmm 3.24.5</link>"
 
 #. (itstool) path: listitem/para
-#: C/news.xml:26
+#: C/news.xml:27
 msgid ""
-"March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
-"gnome.org/archives/gnome-announce-list/2010-March/msg00070.html\">released</"
-"ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API in GTK+ 2.20 "
-"and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a version of the "
-"gtkmm-2.4 API with API additions."
+"October 6, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"glibmm/2.70/\">glibmm 2.70.0</link>"
 msgstr ""
-"29 mars 2010: gtkmm 2.20.0 och glibmm 2.24.0 <ulink url=\"http://mail.gnome."
-"org/archives/gnome-announce-list/2010-March/msg00070.html\">släppta</ulink>, "
-"i enlighet med GNOME-schemat. gtkmm 2.20.0 täcker nytt API i GTK+ 2.20 och "
-"är API/ABI-kompatibelt med gtkmm &gt;= 2.4. Det är en version av API:t för "
-"gtkmm-2.4 med API-tillägg."
+"6 oktober 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"glibmm/2.70/\">glibmm 2.70.0</link>"
 
 #. (itstool) path: listitem/para
-#: C/news.xml:31
+#: C/news.xml:32
 msgid ""
-"September 22, 2008: gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/archives/"
-"gnome-announce-list/2008-September/msg00099.html\">released</ulink>, as per "
-"the GNOME schedule. gtkmm 2.14.0 wraps new API in GTK+ 2.14 and is API/ABI-"
-"compatible with gtkmm 2.12, 2.10, 2.8, 2.6 and 2.4. It is a version of the "
-"gtkmm-2.4 API, with API additions."
+"October 6, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"glibmm/2.66/\">glibmm 2.66.2</link>"
 msgstr ""
-"22 september 2008: gtkmm 2.14.0 <ulink url=\"http://mail.gnome.org/archives/"
-"gnome-announce-list/2008-September/msg00099.html\">släppt</ulink>, i "
-"enlighet med GNOME-schemat. gtkmm 2.14.0 täcker nytt API i GTK+ 2.14 och är "
-"API/ABI-kompatibelt med gtkmm 2.12, 2.10, 2.8, 2.6 och 2.4. Det är en "
-"version av API:t för gtkmm-2.4, med API-tillägg."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:36
-msgid ""
-"September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <ulink url=\"http://mail."
-"gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"
-"\">released</ulink>, as per the GNOME schedule. gtkmm 2.12.0 wraps new API "
-"in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 and 2.4. It "
-"is a version of the gtkmm-2.4 API, with API additions."
-msgstr ""
-"14 september 2007: gtkmm 2.12.0 och glibmm 2.14.0 <ulink url=\"http://mail."
-"gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"
-"\">släppta</ulink>, i enlighet med GNOME-schemat. gtkmm 2.12.0 täcker nytt "
-"API i GTK+ 2.12 och är API/ABI-kompatibelt med gtkmm 2.10, 2.8, 2.6 and 2.4. "
-"Det är en version av API:t för gtkmm-2.4, med API-tillägg."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:41
-msgid ""
-"August 2006: gtkmm and glibmm 2.10.0 <ulink url=\"http://mail.gnome.org/"
-"archives/gtkmm-list/2006-August/msg00254.html\">released</ulink>, as per the "
-"GNOME schedule. gtkmm 2.10.0 wraps new API in GTK+ 2.10 and is API/ABI-"
-"compatible with gtkmm 2.8, with API additions."
-msgstr ""
-"Augusti 2006: gtkmm och glibmm 2.10.0 <ulink url=\"http://mail.gnome.org/"
-"archives/gtkmm-list/2006-August/msg00254.html\">släppta</ulink>, i enlighet "
-"med GNOME-schemat. gtkmm 2.10.0 täcker nytt API i GTK+ 2.10 och är API/ABI-"
-"kompatibelt med gtkmm 2.8, med API-tillägg."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:46
-msgid ""
-"September 2005: gtkmm and glibmm 2.8.0 released, as per the GNOME schedule. "
-"gtkmm 2.8.0 wraps new API in GTK+ 2.8 and is API/ABI-compatible with gtkmm "
-"2.6, with API additions."
-msgstr ""
-"September 2005: gtkmm och glibmm 2.8.0 släppta, i enlighet med GNOME-"
-"schemat. gtkmm 2.8.0 täcker nytt API i GTK+ 2.8 och är API/ABI-kompatibelt "
-"med gtkmm 2.6, med API-tillägg."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:51
-msgid ""
-"March 2005: gtkmm and glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/"
-"archives/gnome-announce-list/2005-March/msg00026.html\">released</ulink>, as "
-"per the GNOME schedule. gtkmm 2.6.0 wraps new API in GTK+ 2.6 and is API/ABI-"
-"compatible with gtkmm 2.4, with API additions."
-msgstr ""
-"Mars 2005: gtkmm och glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/"
-"archives/gnome-announce-list/2005-March/msg00026.html\">släppta</ulink>, i "
-"enlighet med GNOME-schemat. gtkmm 2.6.0 täcker nytt API i GTK+ 2.6 och är "
-"API/ABI-kompatibelt med gtkmm 2.4, med API-tillägg."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:56
-msgid ""
-"April 2004: gtkmm and glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/"
-"archives/gnome-announce-list/2004-April/msg00016.html\">released</ulink>, as "
-"per the GNOME schedule. gtkmm 2.4.0 wraps new API in GTK+ 2.4 and installs "
-"in parallel with gtkmm 2.2."
-msgstr ""
-"April 2004: gtkmm och glibmm 2.4.0 <ulink url=\"http://lists.gnome.org/"
-"archives/gnome-announce-list/2004-April/msg00016.html\">släppta</ulink>, i "
-"enlighet med GNOME-schemat. gtkmm 2.4.0 täcker nytt API i GTK+ 2.4 och "
-"installeras parallellt med gtkmm 2.2."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:61
-msgid ""
-"January 2003: gtkmm 2.2.0 <ulink url=\"http://lists.gnome.org/archives/gtkmm-"
-"list/2003-January/msg00040.html\">released</ulink>, API/ABI-compatible with "
-"gtkmm 2.0, with API additions."
-msgstr ""
-"Januari 2003: gtkmm 2.2.0 <ulink url=\"http://lists.gnome.org/archives/gtkmm-"
-"list/2003-January/msg00040.html\">släppts</ulink>, API/ABI-kompatibelt med "
-"gtkmm 2.0, med API-tillägg."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:66
-msgid ""
-"December 2002: libglademm 2.0.0, gconfmm 2.0.0 and libgnomecanvasmm 2.0.0 "
-"released - these APIs are binary-frozen."
-msgstr ""
-"December 2002: libglademm 2.0.0, gconfmm 2.0.0 och libgnomecanvasmm 2.0.0 "
-"släppta - dessa API:er är binärfrusna."
-
-#. (itstool) path: listitem/para
-#: C/news.xml:71
-msgid ""
-"October 2002: gtkmm 2.0.0 is <ulink url=\"http://lists.gnome.org/archives/"
-"gtkmm-list/2002-October/msg00334.html\">released</ulink> - the API is binary-"
-"frozen."
-msgstr ""
-"Oktober 2002: gtkmm 2.0.0 är <ulink url=\"http://lists.gnome.org/archives/"
-"gtkmm-list/2002-October/msg00334.html\">släppt</ulink> - API:t är "
-"binärfruset."
+"6 oktober 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+"glibmm/2.66/\">glibmm 2.66.2</link>"
