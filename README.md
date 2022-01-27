@@ -35,7 +35,7 @@ The website can be built with Meson or Autotools.
   At the time of writing (2022-01-27) the `publish` target is disabled.
   You only get instructions how to enable it.
 
-# Building with Autotools
+## Building with Autotools
 
 - Configure, build in the source directory:
   ```sh
