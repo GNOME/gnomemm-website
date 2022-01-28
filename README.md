@@ -26,7 +26,8 @@ The website can be built with Meson or Autotools.
   ```
 
 - Watch the result:
-  - Open \<build-dir>/docs/html/index.html in a web browser.
+
+  Open \<build-dir>/docs/html/index.html in a web browser.
 
 - Publish the website at www.gtkmm.org (requires a login at www.gtkmm.org):
   ```sh
@@ -49,7 +50,8 @@ The website can be built with Meson or Autotools.
   ```
 
 - Watch the result:
-  - Open docs/html/index.html in a web browser.
+
+  Open docs/html/index.html in a web browser.
 
 - Publish the website at www.gtkmm.org (requires a login at www.gtkmm.org):
   ```sh
@@ -70,12 +72,13 @@ The website can be built with Meson or Autotools.
 - Translate the .po file.
 
 - Modify docs/C/index.docbook:
-  - Find `<formalpara xml:id="language-menu">`, and add your locale.
-    ```html
-    <listitem>
-      <para><link xlink:href="../xx_XX/index.html">Xxxx</link></para>
-    </listitem>
-    ```
+
+  Find `<formalpara xml:id="language-menu">`, and add your locale.
+  ```xml
+  <listitem>
+    <para><link xlink:href="../xx_XX/index.html">Xxxx</link></para>
+  </listitem>
+  ```
 
 - Add your language to docs/LINGUAS (used when building with Meson).
 
