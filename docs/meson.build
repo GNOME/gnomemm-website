@@ -11,8 +11,8 @@ can_parse_and_validate = xmllint.found()
 validate = get_option('validation') ? 'true' : 'false'
 allow_network_access = get_option('allow-network-access') ? 'true' : 'false'
 
-relax_ng_schema_file = meson.current_source_dir() / 'param.rng'
-stylesheet_file = meson.current_source_dir() / 'param.xsl'
+relax_ng_schema_file = meson.current_source_dir() / 'schema.rng'
+stylesheet_file = meson.current_source_dir() / 'style.xsl'
 
 # Check if xmllint can be used.
 if xmllint.found()

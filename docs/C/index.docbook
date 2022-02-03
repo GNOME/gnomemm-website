@@ -61,40 +61,41 @@
         <title>Language</title>
         <para><itemizedlist>
             <listitem>
-              <para><link xlink:href="../pt_BR/index.html">Brazilian Portuguese</link></para>
+              <!-- Concerning its:translate="no", see https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/3 -->
+              <para><link its:translate="no" xlink:href="../cs/index.html">Čeština</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../cs/index.html">Czech</link></para>
+              <para><link its:translate="no" xlink:href="../de/index.html">Deutsch</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../de/index.html">Deutsch</link></para>
+              <para><link its:translate="no" xlink:href="../el/index.html">Ελληνικά</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../en/index.html">English</link></para>
+              <para><link its:translate="no" xlink:href="../en/index.html">English</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../es/index.html">Español</link></para>
+              <para><link its:translate="no" xlink:href="../es/index.html">Español</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../fr/index.html">French</link></para>
+              <para><link its:translate="no" xlink:href="../fr/index.html">Français</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../el/index.html">Greek</link></para>
+              <para><link its:translate="no" xlink:href="../hu/index.html">Magyar</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../hu/index.html">Hungarian</link></para>
+              <para><link its:translate="no" xlink:href="../ko/index.html">한국어</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../ko/index.html">Korean</link></para>
+              <para><link its:translate="no" xlink:href="../pt_BR/index.html">Português (Brasil)</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../sl/index.html">Slovenian</link></para>
+              <para><link its:translate="no" xlink:href="../sl/index.html">Slovenščina</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../sv/index.html">Swedish</link></para>
+              <para><link its:translate="no" xlink:href="../sv/index.html">Svenska</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="../zh_CN/index.html">中文</link></para>
+              <para><link its:translate="no" xlink:href="../zh_CN/index.html">中文</link></para>
             </listitem>
           </itemizedlist></para>
       </formalpara>
