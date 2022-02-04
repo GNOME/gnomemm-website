@@ -58,6 +58,8 @@ def get_languages():
           print(line, end=' ')
   except (FileNotFoundError, PermissionError):
     print('Could not find file LINGUAS in', input_dir, file=sys.stderr)
+    return 1
+  return 0
 
 # Called from custom_target()
 def xmllint():

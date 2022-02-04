@@ -34,6 +34,7 @@ copy_obj = run_command(
   '.htaccess',
   'images',
   'style',
+  check: false,
 )
 if copy_obj.stdout() != ''
   warning(copy_obj.stdout())

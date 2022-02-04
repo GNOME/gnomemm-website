@@ -23,6 +23,7 @@ if xmllint.found()
     relax_ng_schema_file,
     meson.current_source_dir() / 'can_use_xmllint.xml',
     meson.current_build_dir() / 'can_use_xmllint.stamp',
+    check: false,
   ).returncode() == 0
   if not can_parse_and_validate
     # The DocBook V5.0 package is called docbook5-xml in Ubuntu,
@@ -63,6 +64,7 @@ if can_build_translations and build_translations_by_default
   language_obj = run_command(
     python3, website_custom_cmd, 'get_languages',
     meson.current_source_dir(),
+    check: false,
   )
   if language_obj.stderr() != ''
     warning(language_obj.stderr())
