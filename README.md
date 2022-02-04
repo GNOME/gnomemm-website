@@ -9,6 +9,10 @@ these packages, but it will be __much__ slower (minutes instead of seconds).[^1]
 
 The website can be built with Meson or Autotools.
 
+When a commit is pushed to the master branch in the git repository, the website
+is built and published at https://gnome.pages.gitlab.gnome.org/gnomemm-website.
+Copying to https://www.gtkmm.org is not automatic.
+
 ## Building with Meson
 
 - Create a build directory and configure it:
@@ -76,7 +80,7 @@ The website can be built with Meson or Autotools.
   Find `<formalpara xml:id="language-menu">`, and add your locale.
   ```xml
   <listitem>
-    <para><link xlink:href="../xx_XX/index.html">Xxxx</link></para>
+    <para><link its:translate="no" xlink:href="../xx_XX/index.html">Xxxx</link></para>
   </listitem>
   ```
 
