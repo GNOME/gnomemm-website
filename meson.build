@@ -2,7 +2,8 @@
 
 project('gnomemm-website',
   version: '2.91.4',
-  meson_version: '>= 0.50.0', # required for python3.path()
+  meson_version: '>= 0.55.0', # required for meson.add_dist_script(python3, ...)
+                              # and meson.add_install_script(python3, ...)
 )
 
 python3 = import('python').find_installation()
@@ -52,7 +53,7 @@ if can_add_dist_script
   ]
   # Modify the contents of the distribution directory.
   meson.add_dist_script(
-    python3.path(), extra_dist_cmd,
+    python3, extra_dist_cmd,
     project_source_root,
     project_build_root,
     dont_distribute,
