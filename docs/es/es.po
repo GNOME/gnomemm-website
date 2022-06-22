@@ -12,8 +12,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2022-02-10 12:35+0000\n"
-"PO-Revision-Date: 2022-03-03 11:40+0100\n"
+"POT-Creation-Date: 2022-03-03 10:41+0000\n"
+"PO-Revision-Date: 2022-06-22 10:27+0200\n"
 "Last-Translator: Daniel Mustieles García <daniel.mustieles@gmail.com>\n"
 "Language-Team: Spanish - Spain <gnome-es-list@gnome.org>\n"
 "Language: es_ES\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Generator: Gtranslator 41.0\n"
+"X-Generator: Gtranslator 42.0\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
 msgctxt "_"
@@ -259,13 +259,6 @@ msgstr "gnomemm"
 
 #. (itstool) path: section/para
 #: C/main.xml:90
-#| msgid ""
-#| "gtkmm is a GUI toolkit and nothing more, and it strives to be the best C+"
-#| "+ GUI toolkit. That mandate does not cover generic C++ data structures, "
-#| "an XML parser, or database access. Even our signal/slots system is part "
-#| "of a separate (<ulink url=\"http://libsigc.sourceforge.net\">libsigc++</"
-#| "ulink>) library. However, gtkmm is designed to work well with all other C+"
-#| "+ libraries."
 msgid ""
 "gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
 "GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
@@ -1188,6 +1181,11 @@ msgid ""
 "the release version. For instance, gtkmm 3.24.0 is a version of the "
 "gtkmm-3.0 API."
 msgstr ""
+"Esta documentación es para la API de gtkmm-4.0, donde no se dice nada más. "
+"Hay una API de gtkmm más antigua, llamada gtkmm-3.0, que se puede instalar "
+"en paralelo. Los nombres gtkmm-3.0/gtkmm-4.0 se refieren a la serie API/ABI "
+"y no a la versión de lanzamiento. Por ejemplo, gtkmm 3.24.0 es una versión "
+"de la API gtkmm-3.0."
 
 #. (itstool) path: note/para
 #: C/documentation.xml:21
@@ -1553,6 +1551,8 @@ msgid ""
 "<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
 "\">libsigc++ website</link>"
 msgstr ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">página web de libsigc++</link>"
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:170
@@ -2612,11 +2612,6 @@ msgstr "Git"
 
 #. (itstool) path: section/para
 #: C/git.xml:9
-#| msgid ""
-#| "We use <ulink url=\"http://git-scm.com/\">Git</ulink> to maintain our "
-#| "source code, in the <ulink url=\"https://www.gnome.org\">GNOME</ulink> "
-#| "Git repository. Additional information about git.gnome.org is available "
-#| "at <ulink url=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</ulink>."
 msgid ""
 "We use <link xlink:href=\"https://git-scm.com/\">Git</link> to maintain our "
 "source code, in the <link xlink:href=\"https://www.gnome.org\">GNOME</link> "
@@ -2655,6 +2650,11 @@ msgid ""
 "xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-"
 "meta</link> for setting up a separate development prefix."
 msgstr ""
+"Si construye con Autotools (autoconf, automake,etc.), necesitará ejecutar el "
+"script autogen.sh para generar los archivos de construcción. Se recomienda "
+"<link xlink:href=\"https://wiki.gnome.org/Projects/Jhbuild\">jhbuild</link> "
+"o <link xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-"
+"build-meta</link> para configurar un prefijo de desarrollo aparte."
 
 #. (itstool) path: note/para
 #: C/git.xml:20
@@ -2941,12 +2941,6 @@ msgstr "¿Qué tema es apropiado para la lista? "
 
 #. (itstool) path: section/para
 #: C/mailinglist.xml:24
-#| msgid ""
-#| "The mailing lists are used for discussion of development, bug reports, "
-#| "suggestions, and improvements of the C++ wrappers themselves. There is "
-#| "also discussion of the use of the wrapper. Questions about the underlying "
-#| "GTK+ widget set are more likely to be answered quickly through the gtk-"
-#| "list."
 msgid ""
 "The mailing lists are used for discussion of development, suggestions, and "
 "improvements of the C++ wrappers themselves. There is also discussion of the "
@@ -3021,6 +3015,12 @@ msgid ""
 "\"https://www.cairographics.org/releases/\">www.cairographics.org/releases/</"
 "link>."
 msgstr ""
+"Esta lista no se actualizará cada vez que se realice un nuevo lanzamiento. "
+"Las versiones enumeradas son las más recientes en el momento de escribir "
+"este artículo, pero puede haber versiones más recientes cuando lea este "
+"texto. Consulte <link xlink:href=\"https://download.gnome.org/sources/"
+"\">download.gnome.org/sources/</link> y <link xlink:href=\"https://www."
+"cairographics.org/releases/\">www.cairographics.org/releases/</link>."
 
 #. (itstool) path: listitem/para
 #: C/news.xml:17
