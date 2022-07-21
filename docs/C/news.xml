@@ -8,29 +8,29 @@
     <section>
     <title>News</title>
       <para>This list will not be updated each time a new release is made.
-        The listed versions are the latest ones at the time of writing, but
-        there may be newer releases when you read this text. See
+        The listed versions are the latest stable versions at the time of writing,
+        but there may be newer releases when you read this text. See
         <link xlink:href="https://download.gnome.org/sources/">download.gnome.org/sources/</link>
         and <link xlink:href="https://www.cairographics.org/releases/">www.cairographics.org/releases/</link>.</para>
       <para><itemizedlist>
           <listitem>
             <para>
-  September 9, 2021: <link xlink:href="https://download.gnome.org/sources/gtkmm/4.4/">gtkmm 4.4.0</link>
+  March 21, 2022: <link xlink:href="https://download.gnome.org/sources/gtkmm/4.6/">gtkmm 4.6.1</link>
   </para>
           </listitem>
           <listitem>
             <para>
-  May 21, 2021: <link xlink:href="https://download.gnome.org/sources/gtkmm/3.24/">gtkmm 3.24.5</link>
+  May 2, 2022: <link xlink:href="https://download.gnome.org/sources/gtkmm/3.24/">gtkmm 3.24.6</link>
   </para>
           </listitem>
           <listitem>
             <para>
-  October 6, 2021: <link xlink:href="https://download.gnome.org/sources/glibmm/2.70/">glibmm 2.70.0</link>
+  May 5, 2022: <link xlink:href="https://download.gnome.org/sources/glibmm/2.72/">glibmm 2.72.1</link>
   </para>
           </listitem>
           <listitem>
             <para>
-  October 6, 2021: <link xlink:href="https://download.gnome.org/sources/glibmm/2.66/">glibmm 2.66.2</link>
+  May 4, 2022: <link xlink:href="https://download.gnome.org/sources/glibmm/2.66/">glibmm 2.66.4</link>
   </para>
           </listitem>
         </itemizedlist></para>

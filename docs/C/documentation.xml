@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE book [
-  <!ENTITY url_refdocs_base_glibmm_html "https://developer.gnome.org/glibmm/stable/">
-  <!ENTITY url_refdocs_base_gtkmm_html "https://developer.gnome.org/gtkmm/stable/">
-  <!ENTITY url_refdocs_base_book_html "https://developer.gnome.org/gtkmm-tutorial/stable/">
+  <!ENTITY url_refdocs_base_glibmm_html "https://gnome.pages.gitlab.gnome.org/glibmm/">
+  <!ENTITY url_refdocs_base_gtkmm_html "https://gnome.pages.gitlab.gnome.org/gtkmm/">
+  <!ENTITY url_refdocs_base_book_html "https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/">
   <!ENTITY url_examples_base "https://gitlab.gnome.org/GNOME/gtkmm-documentation/tree/master/examples/book/">
 ]>
 
@@ -27,7 +27,7 @@
       <section>
       <title>Getting Started with gtkmm</title>
         <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book.</para>
-        <para><link xlink:href="https://developer.gnome.org/gtkmm-tutorial/3.24/index.html">Contents</link> of the whole online book, gtkmm-3.0.</para>
+        <para><link xlink:href="https://developer-old.gnome.org/gtkmm-tutorial/3.24/index.html">Contents</link> of the whole online book, gtkmm-3.0.</para>
         <para><link xlink:href="&url_refdocs_base_book_html;index.html">Contents</link> of the whole online book, gtkmm-4.0.</para>
         <para>Selected chapters:<itemizedlist>
             <listitem>
@@ -148,9 +148,10 @@
 
       <section>
       <title>Extra Modules</title>
-        <para>API reference documentation for other C++ modules, such as gdkmm, pangomm,
+        <para>API reference documentation for other C++ modules, such as pangomm,
           gstreamermm, libgdamm, goocanvasmm, etc, is also available from the
-          <link xlink:href="https://developer-old.gnome.org/references#c++-bindings">developer-old.gnome.org C++ Bindings</link> section.</para>
+          <link xlink:href="https://developer-old.gnome.org/references#c++-bindings">developer-old.gnome.org C++ Bindings</link>
+          section. However, this website is not updated any more.</para>
       </section>
 
       <section>

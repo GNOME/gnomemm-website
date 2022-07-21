@@ -11,9 +11,10 @@
     Additional information about gitlab.gnome.org is available at <link xlink:href="https://wiki.gnome.org/Git">wiki.gnome.org/Git</link>.</para>
       <para>glibmm and gtkmm are in the <link xlink:href="https://gitlab.gnome.org/GNOME/glibmm/">glibmm</link> and <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm/">gtkmm</link> modules.
     There is also a <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm-documentation/">gtkmm-documentation</link> module which contains the gtkmm book and its examples. See below for instructions.</para>
-      <para>If you build with Autotools (autoconf, automake,etc.), you will need to run
+      <para>Meson is the recommended build system. If you build with Autotools
+        (autoconf, automake,etc.), you will need to run
         the autogen.sh script to generate the build files. We recommend
-         <link xlink:href="https://wiki.gnome.org/Projects/Jhbuild">jhbuild</link>
+         <link xlink:href="https://gitlab.gnome.org/GNOME/jhbuild">jhbuild</link>
          or <link xlink:href="https://gitlab.gnome.org/GNOME/gnome-build-meta">gnome-build-meta</link>
          for setting up a separate development prefix.</para>
       <note>
@@ -38,7 +39,7 @@
               </tr>
               <tr>
                 <td rowspan="1" colspan="1">gtkmm-4.0</td>
-                <td rowspan="1" colspan="1">4.4</td>
+                <td rowspan="1" colspan="1">latest</td>
                 <td rowspan="1" colspan="1">gtkmm</td>
                 <td rowspan="1" colspan="1">master</td>
               </tr>
@@ -56,7 +57,7 @@
               </tr>
               <tr>
                 <td rowspan="1" colspan="1">glibmm-2.68</td>
-                <td rowspan="1" colspan="1">2.70</td>
+                <td rowspan="1" colspan="1">latest</td>
                 <td rowspan="1" colspan="1">glibmm</td>
                 <td rowspan="1" colspan="1">master</td>
               </tr>
