@@ -10,8 +10,8 @@ these packages, but it will be __much__ slower (minutes instead of seconds).[^1]
 The website can be built with Meson or Autotools.
 
 When a commit is pushed to the master branch in the git repository, the website
-is built and published at https://gnome.pages.gitlab.gnome.org/gnomemm-website.
-Copying to https://www.gtkmm.org is not automatic.
+is built and published at https://gnome.pages.gitlab.gnome.org/gnomemm-website
+and https://www.gtkmm.org.
 
 ## Building with Meson
 
@@ -33,12 +33,12 @@ Copying to https://www.gtkmm.org is not automatic.
 
   Open \<build-dir>/docs/html/index.html in a web browser.
 
-- Publish the website at www.gtkmm.org (requires a login at www.gtkmm.org):
-  ```sh
-  ninja publish
-  ```
-  At the time of writing (2022-01-27) the `publish` target is disabled.
-  You only get instructions how to enable it.
+- Publish the website at www.gtkmm.org:
+
+  Done automatically when new git commits are pushed to the master branch.
+
+  There is a `publish` target (requiring a login at www.gtkmm.org),
+  but it is disabled and there is no reason to use it.
 
 ## Building with Autotools
 
@@ -57,11 +57,12 @@ Copying to https://www.gtkmm.org is not automatic.
 
   Open docs/html/index.html in a web browser.
 
-- Publish the website at www.gtkmm.org (requires a login at www.gtkmm.org):
-  ```sh
-  cd docs
-  make post-html
-  ```
+- Publish the website at www.gtkmm.org:
+
+  Done automatically when new git commits are pushed to the master branch.
+
+  There is a `post-html` target (requiring a login at www.gtkmm.org),
+  but there is no reason to use it.
 
 ## Adding a new language
 
