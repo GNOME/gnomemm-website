@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2022-07-21 13:37+0000\n"
-"PO-Revision-Date: 2022-08-26 14:19-0300\n"
+"POT-Creation-Date: 2022-09-19 16:27+0000\n"
+"PO-Revision-Date: 2022-09-23 11:32-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1)\n"
-"X-Generator: Gtranslator 40.0\n"
+"X-Generator: Gtranslator 42.0\n"
 "X-Project-Style: gnome\n"
 
 #. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
@@ -140,11 +140,10 @@ msgstr ""
 "biblioteca de interface gráfica xlink:<link xlink:href=\"https://www.gtk.org/"
 "\">GTK</link>. Destaques incluem chamadas seguras e um conjunto "
 "compreensível de widgets que são facilmente extensíveis via herança. Você "
-"pode criar interfaces de usuário em seu código ou com o <link xlink:"
-"href=\"https://glade.gnome.org/\">construtor de interfaces de usuário Glade</"
-"link>, usando o Gtk::Builder. Há uma <link xlink:href=\"documentation."
-"html\">documentação extensa</link>, incluindo referência da API e um "
-"tutorial."
+"pode criar interfaces de usuário em seu código ou com o <link xlink:href="
+"\"https://glade.gnome.org/\">construtor de interfaces de usuário Glade</"
+"link>, usando o Gtk::Builder. Há uma <link xlink:href=\"documentation.html"
+"\">documentação extensa</link>, incluindo referência da API e um tutorial."
 
 #. (itstool) path: note/para
 #: C/main.xml:20
@@ -154,8 +153,8 @@ msgid ""
 "link>)."
 msgstr ""
 "<application>gtkmm</application> é um software livre distribuído sob a "
-"Licença Pública Geral de Biblioteca GNU (<link xlink:href=\"license."
-"html\">LGPL</link>)."
+"Licença Pública Geral de Biblioteca GNU (<link xlink:href=\"license.html"
+"\">LGPL</link>)."
 
 #. (itstool) path: section/title
 #: C/main.xml:35
@@ -314,24 +313,18 @@ msgstr "Livros recomendados"
 
 #. (itstool) path: section/para
 #: C/books.xml:10
-#| msgid ""
-#| "The <link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/"
-#| "stable\">Programming with gtkmm 4</link> and <link xlink:href=\"https://"
-#| "developer.gnome.org/gtkmm-tutorial/3.24/\">Programming with gtkmm 3</"
-#| "link> tutorials are available online along with the rest of our <link "
-#| "xlink:href=\"documentation.html\">documentation</link>."
 msgid ""
 "The <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
-"documentation\">Programming with gtkmm 4</link> and <link xlink:"
-"href=\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming "
-"with gtkmm 3</link> tutorials are available online along with the rest of "
-"our <link xlink:href=\"documentation.html\">documentation</link>."
+"documentation\">Programming with gtkmm 4</link> and <link xlink:href="
+"\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming with "
+"gtkmm 3</link> tutorials are available online along with the rest of our "
+"<link xlink:href=\"documentation.html\">documentation</link>."
 msgstr ""
 "Os livros <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
 "documentation\">Programming with gtkmm 4</link> e <link xlink:href=\"https://"
 "developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming with gtkmm 3</"
-"link> estão disponíveis online junto com o resto de nossa <link xlink:"
-"href=\"documentation.html\">documentação</link>."
+"link> estão disponíveis online junto com o resto de nossa <link xlink:href="
+"\"documentation.html\">documentação</link>."
 
 #. (itstool) path: section/para
 #: C/books.xml:13
@@ -543,13 +536,13 @@ msgstr "<anchor xml:id=\"NewBugs\"/>Onde relatar?"
 #. (itstool) path: listitem/para
 #: C/bugs.xml:46
 msgid ""
-"Bugs are tracked in GNOME's <link xlink:href=\"https://gitlab.gnome."
-"org\">issue tracker</link>. Submit gtkmm bugs <link xlink:href=\"https://"
-"gitlab.gnome.org/GNOME/gtkmm/issues/new/\">here</link>."
+"Bugs are tracked in GNOME's <link xlink:href=\"https://gitlab.gnome.org"
+"\">issue tracker</link>. Submit gtkmm bugs <link xlink:href=\"https://gitlab."
+"gnome.org/GNOME/gtkmm/issues/new/\">here</link>."
 msgstr ""
-"Problemas são rastreados no <link xlink:href=\"https://gitlab.gnome."
-"org\">rastreador de problemas</link> do GNOME. Envie relatórios de problemas "
-"do gtkmm <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/"
+"Problemas são rastreados no <link xlink:href=\"https://gitlab.gnome.org"
+"\">rastreador de problemas</link> do GNOME. Envie relatórios de problemas do "
+"gtkmm <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/"
 "\">aqui</link>."
 
 #. (itstool) path: listitem/para
@@ -562,8 +555,8 @@ msgid ""
 msgstr ""
 "Patches devem ser anexados a relatórios de problemas existentes e MRs (merge "
 "requests)em vez da lista de discussão. Ao relatar um novo erro, você vai "
-"obter uma chance de anexar um arquivo imediatamente <emphasis "
-"role=\"bold\">após</emphasis> fazer o relatório."
+"obter uma chance de anexar um arquivo imediatamente <emphasis role=\"bold"
+"\">após</emphasis> fazer o relatório."
 
 #. (itstool) path: section/title
 #: C/bugs.xml:60
@@ -696,8 +689,8 @@ msgid ""
 "create a merge request</link> instead of (or in addition to) an issue."
 msgstr ""
 "Se você sabe como corrigir um erro, você pode <link xlink:href=\"https://"
-"gitlab.gnome.org/help/user/project/merge_requests/creating_merge_requests."
-"md\"> criar uma merge request</link> em vez de (ou um adição a) um problema."
+"gitlab.gnome.org/help/user/project/merge_requests/creating_merge_requests.md"
+"\"> criar uma merge request</link> em vez de (ou um adição a) um problema."
 
 #. (itstool) path: section/title
 #: C/commercial_support.xml:8
@@ -1009,11 +1002,11 @@ msgstr ""
 #. (itstool) path: section/para
 #: C/commercial_support.xml:106
 msgid ""
-"See also <emphasis>Apps built with GTK</emphasis> at <link xlink:"
-"href=\"https://www.gtk.org\">the GTK website</link>."
+"See also <emphasis>Apps built with GTK</emphasis> at <link xlink:href="
+"\"https://www.gtk.org\">the GTK website</link>."
 msgstr ""
-"Veja também <emphasis>Apps built with GTK</emphasis> no <link xlink:"
-"href=\"https://www.gtk.org\">site do GTK</link>."
+"Veja também <emphasis>Apps built with GTK</emphasis> no <link xlink:href="
+"\"https://www.gtk.org\">site do GTK</link>."
 
 #. (itstool) path: section/title
 #: C/developers.xml:8
@@ -1026,23 +1019,23 @@ msgid ""
 "gtkmm development is done in the <link xlink:href=\"https://gnome.org/"
 "\">GNOME</link> Git repository. To get started developing gtkmm, see the "
 "<link xlink:href=\"git.html\">detailed Git instructions</link>. Discussion "
-"about gtkmm development happens on the <link xlink:href=\"mailinglist."
-"html\">mailing list</link>."
+"about gtkmm development happens on the <link xlink:href=\"mailinglist.html"
+"\">mailing list</link>."
 msgstr ""
-"O desenvolvimento do gtkmm é feito no repositório Git do <link xlink:"
-"href=\"https://gnome.org/\">GNOME</link>. Para começar a desenvolver com "
-"gtkmm, veja as <link xlink:href=\"git.html\">instruções detalhadas de Git</"
-"link>. Discussão sobre desenvolvimento do gtkmm acontece na <link xlink:"
-"href=\"mailinglist.html\">lista de discussão</link>."
+"O desenvolvimento do gtkmm é feito no repositório Git do <link xlink:href="
+"\"https://gnome.org/\">GNOME</link>. Para começar a desenvolver com gtkmm, "
+"veja as <link xlink:href=\"git.html\">instruções detalhadas de Git</link>. "
+"Discussão sobre desenvolvimento do gtkmm acontece na <link xlink:href="
+"\"mailinglist.html\">lista de discussão</link>."
 
 #. (itstool) path: note/para
 #: C/developers.xml:13
 msgid ""
-"Please do not mail us directly - use the <link xlink:href=\"mailinglist."
-"html\">mailing list</link> instead."
+"Please do not mail us directly - use the <link xlink:href=\"mailinglist.html"
+"\">mailing list</link> instead."
 msgstr ""
-"Por favor, não nos envie e-mail diretamente - use a <link xlink:"
-"href=\"mailinglist.html\">lista de e-mail</link>."
+"Por favor, não nos envie e-mail diretamente - use a <link xlink:href="
+"\"mailinglist.html\">lista de e-mail</link>."
 
 #. (itstool) path: section/title
 #: C/developers.xml:18
@@ -1202,13 +1195,13 @@ msgstr ""
 #. (itstool) path: section/para
 #: C/documentation.xml:24
 msgid ""
-"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link xlink:"
-"href=\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013."
-"html\">gtkmm-list post.</link>"
+"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link xlink:href="
+"\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
+"\">gtkmm-list post.</link>"
 msgstr ""
 "As dependências do gtkmm-3.0 e do gtkmm-4.0 são listadas em uma <link xlink:"
-"href=\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013."
-"html\">publicação na gtkmm-list.</link>"
+"href=\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
+"\">publicação na gtkmm-list.</link>"
 
 #. (itstool) path: section/title
 #: C/documentation.xml:28
@@ -1226,9 +1219,6 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/documentation.xml:30
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/3.24/index."
-#| "html\">Contents</link> of the whole online book, gtkmm-3.0."
 msgid ""
 "<link xlink:href=\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/index."
 "html\">Contents</link> of the whole online book, gtkmm-3.0."
@@ -1238,9 +1228,6 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/documentation.xml:31
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "index.html\">Contents</link> of the whole online book, gtkmm-4.0."
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "index.html\">Contents</link> of the whole online book, gtkmm-4.0."
@@ -1250,9 +1237,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:34
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-installation.html\">Installation</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-installation.html\">Installation</link>"
@@ -1262,9 +1246,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:37
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-basics.html\">Basics</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-basics.html\">Basics</link>"
@@ -1274,9 +1255,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:40
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-signals.html\">Signals</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-signals.html\">Signals</link>"
@@ -1286,9 +1264,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:43
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-container-widgets.html\">Container Widgets</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-container-widgets.html\">Container Widgets</link>"
@@ -1298,9 +1273,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:46
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-treeview.html\">TreeView</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-treeview.html\">TreeView</link>"
@@ -1310,9 +1282,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:49
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-menus-and-toolbars.html\">Menus and Toolbars</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-menus-and-toolbars.html\">Menus and Toolbars</link>"
@@ -1322,9 +1291,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:52
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-memory.html\">Memory Management</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-memory.html\">Memory Management</link>"
@@ -1334,9 +1300,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:55
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm-tutorial/stable/"
-#| "chapter-builder.html\">Glade and Gtk::Builder</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-builder.html\">Glade and Gtk::Builder</link>"
@@ -1371,9 +1334,6 @@ msgstr "giomm (Gio::)"
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:72
-#| msgid ""
-#| "<emphasis role=\"bold\"> <link xlink:href=\"https://developer.gnome.org/"
-#| "gtkmm/stable/hierarchy.html\">Hierarchy</link> </emphasis>"
 msgid ""
 "<emphasis role=\"bold\"> <link xlink:href=\"https://gnome.pages.gitlab.gnome."
 "org/gtkmm/hierarchy.html\">Hierarchy</link> </emphasis>"
@@ -1383,9 +1343,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:77
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
-#| "group__Widgets.html\">Widgets</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Widgets."
 "html\">Widgets</link>"
@@ -1395,9 +1352,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:80
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
-#| "group__Containers.html\">Containers</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
 "group__Containers.html\">Containers</link>"
@@ -1407,9 +1361,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:83
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
-#| "group__TreeView.html\">TreeView</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
 "group__TreeView.html\">TreeView</link>"
@@ -1419,9 +1370,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:86
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
-#| "group__TextView.html\">TextView</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
 "group__TextView.html\">TextView</link>"
@@ -1431,9 +1379,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:89
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
-#| "group__Dialogs.html\">Dialogs</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Dialogs."
 "html\">Dialogs</link>"
@@ -1443,9 +1388,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:92
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
-#| "classGtk_1_1Application.html\">Application</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
 "classGtk_1_1Application.html\">Application</link>"
@@ -1455,9 +1397,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:95
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/"
-#| "group__gtkmmEnums.html\">enums and flags</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
 "group__gtkmmEnums.html\">enums and flags</link>"
@@ -1467,9 +1406,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:98
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/gtkmm/stable/namespaceGtk."
-#| "html\">Gtk Namespace</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/namespaceGtk."
 "html\">Gtk Namespace</link>"
@@ -1479,9 +1415,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:105
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "classGlib_1_1ustring.html\">ustring</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
 "classGlib_1_1ustring.html\">ustring</link>"
@@ -1491,9 +1424,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:108
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "classGlib_1_1Error.html\">Exceptions</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
 "classGlib_1_1Error.html\">Exceptions</link>"
@@ -1508,9 +1438,6 @@ msgstr "RefPtr&lt;&gt;"
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:116
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "group__MainLoop.html\">Main Event loop</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
 "group__MainLoop.html\">Main Event loop</link>"
@@ -1520,9 +1447,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:119
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/group__Spawn."
-#| "html\">Spawning Processes</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/group__Spawn."
 "html\">Spawning Processes</link>"
@@ -1532,9 +1456,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:122
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "group__MiscUtils.html\">Miscellaneous Utility Functions</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
 "group__MiscUtils.html\">Miscellaneous Utility Functions</link>"
@@ -1544,9 +1465,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:125
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "group__CharsetConv.html\">Character set conversion</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
 "group__CharsetConv.html\">Character set conversion</link>"
@@ -1556,9 +1474,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:128
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "namespaceGlib.html\">Glib Namespace</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGlib."
 "html\">Glib Namespace</link>"
@@ -1568,9 +1483,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:135
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "classGio_1_1File.html\">File</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
 "classGio_1_1File.html\">File</link>"
@@ -1580,9 +1492,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:138
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/"
-#| "group__Streams.html\">Streams</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
 "group__Streams.html\">Streams</link>"
@@ -1592,9 +1501,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:141
-#| msgid ""
-#| "<link xlink:href=\"https://developer.gnome.org/glibmm/stable/namespaceGio."
-#| "html\">Gio Namespace</link>"
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGio."
 "html\">Gio Namespace</link>"
@@ -1609,17 +1515,12 @@ msgstr "Módulos extras"
 
 #. (itstool) path: section/para
 #: C/documentation.xml:151
-#| msgid ""
-#| "API reference documentation for other C++ modules, such as gdkmm, "
-#| "pangomm, gstreamermm, libgdamm, goocanvasmm, etc, is also available from "
-#| "the <link xlink:href=\"https://developer-old.gnome.org/references#c++-"
-#| "bindings\">developer-old.gnome.org C++ Bindings</link> section."
 msgid ""
 "API reference documentation for other C++ modules, such as pangomm, "
 "gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <link "
-"xlink:href=\"https://developer-old.gnome.org/references#c++-"
-"bindings\">developer-old.gnome.org C++ Bindings</link> section. However, "
-"this website is not updated any more."
+"xlink:href=\"https://developer-old.gnome.org/references#c++-bindings"
+"\">developer-old.gnome.org C++ Bindings</link> section. However, this "
+"website is not updated any more."
 msgstr ""
 "Documentação da referência da API para outros módulos de C++, como gdkmm, "
 "pangomm, gstreamermm, libgdamm, goocanvasmm, etc, também está disponível na "
@@ -1757,14 +1658,14 @@ msgstr ""
 #: C/download.xml:21
 msgid ""
 "<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
-"<command>apt-get install libgtkmm-3.0-dev</command>These <link xlink:"
-"href=\"https://packages.qa.debian.org/g/gtkmm3.0.html\">project pages</link> "
+"<command>apt-get install libgtkmm-3.0-dev</command>These <link xlink:href="
+"\"https://packages.qa.debian.org/g/gtkmm3.0.html\">project pages</link> "
 "might give status."
 msgstr ""
 "<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
-"<command>apt-get install libgtkmm-3.0-dev</command>Estas <link xlink:"
-"href=\"https://packages.qa.debian.org/g/gtkmm3.0.html\">páginas de projeto</"
-"link> podem fornecer o estado."
+"<command>apt-get install libgtkmm-3.0-dev</command>Estas <link xlink:href="
+"\"https://packages.qa.debian.org/g/gtkmm3.0.html\">páginas de projeto</link> "
+"podem fornecer o estado."
 
 #. (itstool) path: listitem/para
 #: C/download.xml:24
@@ -1862,11 +1763,11 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/download.xml:61
 msgid ""
-"<link xlink:href=\"https://download.gnome.org/sources/"
-"goocanvasmm\">goocanvasmm</link>"
+"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
+"\">goocanvasmm</link>"
 msgstr ""
-"<link xlink:href=\"https://download.gnome.org/sources/"
-"goocanvasmm\">goocanvasmm</link>"
+"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
+"\">goocanvasmm</link>"
 
 #. (itstool) path: listitem/para
 #: C/download.xml:64
@@ -1907,9 +1808,8 @@ msgid ""
 "You can download GTK and GNOME source code from <link xlink:href=\"https://"
 "download.gnome.org/sources/\">download.gnome.org/sources/</link>."
 msgstr ""
-"Você pode baixar o código fonte do GTK e do GNOME no <link xlink:"
-"href=\"http://download.gnome.org/sources/\">download.gnome.org/sources/</"
-"link>."
+"Você pode baixar o código fonte do GTK e do GNOME no <link xlink:href="
+"\"http://download.gnome.org/sources/\">download.gnome.org/sources/</link>."
 
 #. (itstool) path: section/title
 #: C/extra.xml:8
@@ -1987,11 +1887,11 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/extra.xml:36
 msgid ""
-"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas."
-"html\">FlowCanvas</link> canvas for data flow systems"
+"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas.html"
+"\">FlowCanvas</link> canvas for data flow systems"
 msgstr ""
-"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas."
-"html\">FlowCanvas</link> tela para sistemas de fluxo de dados"
+"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas.html"
+"\">FlowCanvas</link> tela para sistemas de fluxo de dados"
 
 #. (itstool) path: listitem/para
 #: C/extra.xml:39
@@ -2712,18 +2612,18 @@ msgstr ""
 "Nós usamos o <link xlink:href=\"https://git-scm.com/\">Git</link> para "
 "manter nosso código-fonte, no repositório Git do <link xlink:href=\"https://"
 "www.gnome.org\">GNOME</link>. Informações adicionais sobre o gitlab.gnome."
-"org estão disponíveis em <link xlink:href=\"https://wiki.gnome.org/"
-"Git\">wiki.gnome.org/Git</link>."
+"org estão disponíveis em <link xlink:href=\"https://wiki.gnome.org/Git"
+"\">wiki.gnome.org/Git</link>."
 
 #. (itstool) path: section/para
 #: C/git.xml:12
 msgid ""
 "glibmm and gtkmm are in the <link xlink:href=\"https://gitlab.gnome.org/"
 "GNOME/glibmm/\">glibmm</link> and <link xlink:href=\"https://gitlab.gnome."
-"org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link xlink:"
-"href=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-"
-"documentation</link> module which contains the gtkmm book and its examples. "
-"See below for instructions."
+"org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link xlink:href="
+"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
+"link> module which contains the gtkmm book and its examples. See below for "
+"instructions."
 msgstr ""
 "glibmm e gtkmm estão nos módulos <link xlink:href=\"https://gitlab.gnome.org/"
 "GNOME/glibmm/\">glibmm</link> e <link xlink:href=\"https://gitlab.gnome.org/"
@@ -2733,13 +2633,6 @@ msgstr ""
 
 #. (itstool) path: section/para
 #: C/git.xml:14
-#| msgid ""
-#| "If you build with Autotools (autoconf, automake,etc.), you will need to "
-#| "run the autogen.sh script to generate the build files. We recommend <link "
-#| "xlink:href=\"https://wiki.gnome.org/Projects/Jhbuild\">jhbuild</link> or "
-#| "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-"
-#| "meta\">gnome-build-meta</link> for setting up a separate development "
-#| "prefix."
 msgid ""
 "Meson is the recommended build system. If you build with Autotools "
 "(autoconf, automake,etc.), you will need to run the autogen.sh script to "
@@ -2751,9 +2644,9 @@ msgstr ""
 "Meson é o sistema de compilação recomendado. Se você compilar com Autotools "
 "(autoconf, automake, etc.), precisará executar o script autogen.sh para "
 "gerar os arquivos de compilação. Recomendamos <link xlink:href=\"https://"
-"gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> ou <link xlink:"
-"href=\"https://gitlab.gnome.org/GNOME/gnome -build-meta\">gnome-build-meta</"
-"link> para configurar um prefixo de desenvolvimento separado."
+"gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> ou <link xlink:href="
+"\"https://gitlab.gnome.org/GNOME/gnome -build-meta\">gnome-build-meta</link> "
+"para configurar um prefixo de desenvolvimento separado."
 
 #. (itstool) path: note/para
 #: C/git.xml:21
@@ -2964,9 +2857,9 @@ msgid ""
 "integrate and link in a static manner. The full body of the license is "
 "provided for your inspection."
 msgstr ""
-"gtkmm está licenciado sob a Licença Pública Geral Menor <link xlink:"
-"href=\"https://www.gnu.org\">GNU</link> (<link xlink:href=\"https://www.gnu."
-"org/licenses/lgpl.html#TOC1\">LGPL</link>) para todas as plataformas. Nossa "
+"gtkmm está licenciado sob a Licença Pública Geral Menor <link xlink:href="
+"\"https://www.gnu.org\">GNU</link> (<link xlink:href=\"https://www.gnu.org/"
+"licenses/lgpl.html#TOC1\">LGPL</link>) para todas as plataformas. Nossa "
 "intenção em licenciar desta forma é fornecê-lo para uso por meio de "
 "bibliotecas compartilhadas em todos os projetos, tanto abertos quanto "
 "proprietários. Outros projetos da GNU podem, é claro, integrar e vincular de "
@@ -3007,10 +2900,10 @@ msgstr "Onde está a lista de discussão do gtkmm?"
 #. (itstool) path: listitem/para
 #: C/mailinglist.xml:13
 msgid ""
-"<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <link xlink:"
-"href=\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. To "
-"subscribe, go to the <link xlink:href=\"https://mail.gnome.org/mailman/"
-"listinfo/gtkmm-list\">subscribe page</link>."
+"<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <link xlink:href="
+"\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. To subscribe, "
+"go to the <link xlink:href=\"https://mail.gnome.org/mailman/listinfo/gtkmm-"
+"list\">subscribe page</link>."
 msgstr ""
 "<emphasis role=\"bold\">Lista de discussão do gtkmm</emphasis>: <link xlink:"
 "href=\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. Para se "
@@ -3021,14 +2914,14 @@ msgstr ""
 #: C/mailinglist.xml:16
 msgid ""
 "For general GTK discussion, please use the GNOME <link xlink:href=\"https://"
-"discourse.gnome.org\">Discourse</link> instance, under the <link xlink:"
-"href=\"https://discourse.gnome.org/c/platform/core\">Platform/Core</link> "
+"discourse.gnome.org\">Discourse</link> instance, under the <link xlink:href="
+"\"https://discourse.gnome.org/c/platform/core\">Platform/Core</link> "
 "category."
 msgstr ""
-"Para discussão geral sobre o GTK, use a instância do <link xlink:"
-"href=\"https://discourse.gnome.org\">Discourse</link> do GNOME, sob a "
-"categoria <link xlink:href=\"https://discourse.gnome.org/c/platform/"
-"core\">Platform/Core</link>."
+"Para discussão geral sobre o GTK, use a instância do <link xlink:href="
+"\"https://discourse.gnome.org\">Discourse</link> do GNOME, sob a categoria "
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/core\">Platform/"
+"Core</link>."
 
 #. (itstool) path: section/title
 #: C/mailinglist.xml:23
@@ -3103,19 +2996,12 @@ msgstr "Notícias"
 
 #. (itstool) path: section/para
 #: C/news.xml:10
-#| msgid ""
-#| "This list will not be updated each time a new release is made. The listed "
-#| "versions are the latest ones at the time of writing, but there may be "
-#| "newer releases when you read this text. See <link xlink:href=\"https://"
-#| "download.gnome.org/sources/\">download.gnome.org/sources/</link> and "
-#| "<link xlink:href=\"https://www.cairographics.org/releases/\">www."
-#| "cairographics.org/releases/</link>."
 msgid ""
 "This list will not be updated each time a new release is made. The listed "
 "versions are the latest stable versions at the time of writing, but there "
-"may be newer releases when you read this text. See <link xlink:"
-"href=\"https://download.gnome.org/sources/\">download.gnome.org/sources/</"
-"link> and <link xlink:href=\"https://www.cairographics.org/releases/\">www."
+"may be newer releases when you read this text. See <link xlink:href="
+"\"https://download.gnome.org/sources/\">download.gnome.org/sources/</link> "
+"and <link xlink:href=\"https://www.cairographics.org/releases/\">www."
 "cairographics.org/releases/</link>."
 msgstr ""
 "Esta lista não será atualizada sempre que uma nova versão for feita. As "
@@ -3127,51 +3013,69 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/news.xml:17
-#| msgid ""
-#| "May 21, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "gtkmm/3.24/\">gtkmm 3.24.5</link>"
 msgid ""
-"March 21, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"gtkmm/4.6/\">gtkmm 4.6.1</link>"
+"September 12, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+"gtkmm/4.8/\">gtkmm 4.8.0</link>"
 msgstr ""
-"21 de março de 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"gtkmm/4.6/\">gtkmm 4.6.1</link>"
+"12 de setembro de 2022: <link xlink:href=\"https://download.gnome.org/"
+"sources/gtkmm/4.8/\">gtkmm 4.8.0</link>"
 
 #. (itstool) path: listitem/para
 #: C/news.xml:22
-#| msgid ""
-#| "May 21, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "gtkmm/3.24/\">gtkmm 3.24.5</link>"
 msgid ""
-"May 2, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"gtkmm/3.24/\">gtkmm 3.24.6</link>"
+"September 12, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+"gtkmm/3.24/\">gtkmm 3.24.7</link>"
 msgstr ""
-"2 de maio de 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"gtkmm/3.24/\">gtkmm 3.24.6</link>"
+"12 de setembro de 2022: <link xlink:href=\"https://download.gnome.org/"
+"sources/gtkmm/3.24/\">gtkmm 3.24.7</link>"
 
 #. (itstool) path: listitem/para
 #: C/news.xml:27
-#| msgid ""
-#| "October 6, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "glibmm/2.70/\">glibmm 2.70.0</link>"
 msgid ""
-"May 5, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"glibmm/2.72/\">glibmm 2.72.1</link>"
+"September 19, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+"glibmm/2.74/\">glibmm 2.74.0</link>"
 msgstr ""
-"5 de maio de 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"glibmm/2.72/\">glibmm 2.72.1</link>"
+"19 de setembro de 2022: <link xlink:href=\"https://download.gnome.org/"
+"sources/glibmm/2.74/\">glibmm 2.74.0</link>"
 
 #. (itstool) path: listitem/para
 #: C/news.xml:32
-#| msgid ""
-#| "October 6, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "glibmm/2.66/\">glibmm 2.66.2</link>"
 msgid ""
-"May 4, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"glibmm/2.66/\">glibmm 2.66.4</link>"
+"September 19, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+"glibmm/2.66/\">glibmm 2.66.5</link>"
 msgstr ""
-"4 de maio de 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-"glibmm/2.66/\">glibmm 2.66.4</link>"
+"19 de setembro de 2022: <link xlink:href=\"https://download.gnome.org/"
+"sources/glibmm/2.66/\">glibmm 2.66.5</link>"
+
+#~| msgid ""
+#~| "May 21, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+#~| "gtkmm/3.24/\">gtkmm 3.24.5</link>"
+#~ msgid ""
+#~ "March 21, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+#~ "gtkmm/4.6/\">gtkmm 4.6.1</link>"
+#~ msgstr ""
+#~ "21 de março de 2022: <link xlink:href=\"https://download.gnome.org/"
+#~ "sources/gtkmm/4.6/\">gtkmm 4.6.1</link>"
+
+#~| msgid ""
+#~| "May 21, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+#~| "gtkmm/3.24/\">gtkmm 3.24.5</link>"
+#~ msgid ""
+#~ "May 2, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+#~ "gtkmm/3.24/\">gtkmm 3.24.6</link>"
+#~ msgstr ""
+#~ "2 de maio de 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+#~ "gtkmm/3.24/\">gtkmm 3.24.6</link>"
+
+#~| msgid ""
+#~| "October 6, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
+#~| "glibmm/2.70/\">glibmm 2.70.0</link>"
+#~ msgid ""
+#~ "May 5, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+#~ "glibmm/2.72/\">glibmm 2.72.1</link>"
+#~ msgstr ""
+#~ "5 de maio de 2022: <link xlink:href=\"https://download.gnome.org/sources/"
+#~ "glibmm/2.72/\">glibmm 2.72.1</link>"
 
 #~ msgid "4.4"
 #~ msgstr "4.4"
@@ -3179,19 +3083,9 @@ msgstr ""
 #~ msgid "2.70"
 #~ msgstr "2.70"
 
-#~| msgid ""
-#~| "<ulink url=\"http://ftp.gnome.org/pub/GNOME/sources/gtkmm/\">gtkmm</"
-#~| "ulink>"
 #~ msgid ""
-#~ "September 9, 2021: <link xlink:href=\"https://download.gnome.org/sources/"
-#~ "gtkmm/4.4/\">gtkmm 4.4.0</link>"
-#~ msgstr ""
-#~ "9 de setembro de 2021: <link xlink:href=\"https://download.gnome.org/"
-#~ "sources/gtkmm/4.4/\">gtkmm 4.4.0</link>"
-
-#~ msgid ""
-#~ "<application>gtkmm</application> follows the official <link xlink:"
-#~ "href=\"https://www.gnome.org/start/unstable/\"> GNOME Platform Bindings "
+#~ "<application>gtkmm</application> follows the official <link xlink:href="
+#~ "\"https://www.gnome.org/start/unstable/\"> GNOME Platform Bindings "
 #~ "release schedule</link>. This guarantees API/ABI-stability and new "
 #~ "releases on a predictable schedule, delivering C++ API for the underlying "
 #~ "GTK and GNOME APIs as soon as possible."
@@ -3283,11 +3177,11 @@ msgstr ""
 #~ "classGlib_1_1RefPtr.html\">RefPtr&lt;&gt;</ulink>"
 
 #~ msgid ""
-#~ "<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads."
-#~ "html\">Threads</ulink>"
+#~ "<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html"
+#~ "\">Threads</ulink>"
 #~ msgstr ""
-#~ "<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads."
-#~ "html\">Threads</ulink>"
+#~ "<ulink url=\"https://developer.gnome.org/glibmm/stable/group__Threads.html"
+#~ "\">Threads</ulink>"
 
 #~ msgid ""
 #~ "You will need to run the autogen.sh script to generate the build files. "
@@ -3318,11 +3212,11 @@ msgstr ""
 
 #~ msgid ""
 #~ "April 6, 2011: <ulink url=\"http://mail.gnome.org/archives/gnome-announce-"
-#~ "list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> and <ulink "
-#~ "url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/"
-#~ "msg00042.html\">glibmm 2.28.0</ulink> released, as per the GNOME "
-#~ "schedule. gtkmm 3.0 wraps the API in GTK+ 3.0 and installs in parallel "
-#~ "with the gtkmm-2.4 API."
+#~ "list/2011-April/msg00043.html\">gtkmm 3.0.0</ulink> and <ulink url="
+#~ "\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042."
+#~ "html\">glibmm 2.28.0</ulink> released, as per the GNOME schedule. gtkmm "
+#~ "3.0 wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 "
+#~ "API."
 #~ msgstr ""
 #~ "6 de abril de 2011: Lançamento de <ulink url=\"http://mail.gnome.org/"
 #~ "archives/gnome-announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</"
@@ -3361,10 +3255,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <ulink url=\"http://mail."
-#~ "gnome.org/archives/gnome-announce-list/2010-March/msg00070."
-#~ "html\">released</ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps "
-#~ "new API in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It "
-#~ "is a version of the gtkmm-2.4 API with API additions."
+#~ "gnome.org/archives/gnome-announce-list/2010-March/msg00070.html"
+#~ "\">released</ulink>, as per the GNOME schedule. gtkmm 2.20.0 wraps new "
+#~ "API in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a "
+#~ "version of the gtkmm-2.4 API with API additions."
 #~ msgstr ""
 #~ "29 de março de 2010: <ulink url=\"http://mail.gnome.org/archives/gnome-"
 #~ "announce-list/2010-March/msg00070.html\">Lançamento</ulink> do gtkmm "
@@ -3387,10 +3281,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <ulink url=\"http://"
-#~ "mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040."
-#~ "html\">released</ulink>, as per the GNOME schedule. gtkmm 2.12.0 wraps "
-#~ "new API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 "
-#~ "and 2.4. It is a version of the gtkmm-2.4 API, with API additions."
+#~ "mail.gnome.org/archives/gnome-announce-list/2007-September/msg00040.html"
+#~ "\">released</ulink>, as per the GNOME schedule. gtkmm 2.12.0 wraps new "
+#~ "API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, 2.8, 2.6 and "
+#~ "2.4. It is a version of the gtkmm-2.4 API, with API additions."
 #~ msgstr ""
 #~ "14 de setembro de 2007: <ulink url=\"http://mail.gnome.org/archives/gnome-"
 #~ "announce-list/2007-September/msg00040.html\">Lançamento</ulink> do gtkmm "
@@ -3416,8 +3310,8 @@ msgstr ""
 #~ "with gtkmm 2.6, with API additions."
 #~ msgstr ""
 #~ "Setembro de 2005: Lançamento do gtkmm e glibmm 2.8.0, seguindo o "
-#~ "planejamento do GNOME. gtkmm 2.8.0 atua como interface da nova API no "
-#~ "GTK+ 2.8 e é compatível por API/ABI com gtkmm 2.6, com adições."
+#~ "planejamento do GNOME. gtkmm 2.8.0 atua como interface da nova API no GTK"
+#~ "+ 2.8 e é compatível por API/ABI com gtkmm 2.6, com adições."
 
 #~ msgid ""
 #~ "March 2005: gtkmm and glibmm 2.6.0 <ulink url=\"http://mail.gnome.org/"
@@ -3526,8 +3420,8 @@ msgstr ""
 #~ "product=goocanvasmm;product=gstreamermm;product=gstreamermm-plugins-good;"
 #~ "product=gtkmm;product=gtksourceviewmm;product=libgdamm;"
 #~ "product=libgnomecanvasmm;product=librsvgmm;product=libsigc%2B%2B;"
-#~ "product=libvtemm;product=libxml%2B%2B;product=mm-common;"
-#~ "product=pangomm\">gnome-love</ulink> - uma boa forma de contribuir."
+#~ "product=libvtemm;product=libxml%2B%2B;product=mm-common;product=pangomm"
+#~ "\">gnome-love</ulink> - uma boa forma de contribuir."
 
 #~ msgid ""
 #~ "<ulink url=\"http://bugzilla.gnome.org/buglist.cgi?"
@@ -3571,8 +3465,8 @@ msgstr ""
 #~ "B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;"
 #~ "camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4\">Programming "
 #~ "with gtkmm 2</ulink> books are available for Amazon's Kindle E-Reader, "
-#~ "and also available online along with the rest of our <ulink "
-#~ "url=\"documentation.html\">documentation</ulink>."
+#~ "and also available online along with the rest of our <ulink url="
+#~ "\"documentation.html\">documentation</ulink>."
 #~ msgstr ""
 #~ "Os livros <ulink url=\"http://www.amazon.com/gp/product/B0050I6FR4/"
 #~ "ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;"
@@ -3652,11 +3546,11 @@ msgstr ""
 #~ "3.10</ulink> (estável)"
 
 #~ msgid ""
-#~ "Here is a dependency graphs for <ulink url=\"jhbuild_dot_gtkmm."
-#~ "png\">gtkmm</ulink>, generated automatically with jhbuild and graphviz."
+#~ "Here is a dependency graphs for <ulink url=\"jhbuild_dot_gtkmm.png"
+#~ "\">gtkmm</ulink>, generated automatically with jhbuild and graphviz."
 #~ msgstr ""
-#~ "Aqui está um gráfico de dependências do <ulink url=\"jhbuild_dot_gtkmm."
-#~ "png\">gtkmm</ulink>, gerado automaticamente com jhbuild e graphviz."
+#~ "Aqui está um gráfico de dependências do <ulink url=\"jhbuild_dot_gtkmm.png"
+#~ "\">gtkmm</ulink>, gerado automaticamente com jhbuild e graphviz."
 
 #~ msgid ""
 #~ "<ulink url=\"http://pupuedit.sourceforge.net/\">Pihlaja</ulink> non-"
