@@ -39,8 +39,11 @@ can_build_translations = find_program('msgfmt', required: false).found() and \
                          find_program('itstool', required: false).found()
 build_translations_by_default = get_option('build-translations')
 
+# index.withimg is index.docbook with images.
+# index.withimg shall not be found by the translation module damned-lies.
+# https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
 xml_files = [
-  'index.docbook', # Must be the first element in the list
+  'index.withimg', # Must be the first element in the list
   'books.xml',
   'bugs.xml',
   'commercial_support.xml',

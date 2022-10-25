@@ -108,12 +108,11 @@ https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
             </listitem>
           </itemizedlist></para>
       </formalpara>
-      <!--
       <para xml:id="sidebar-credits">
         <informalfigure xlink:href="https://www.gtk.org">
           <mediaobject>
             <imageobject>
-              < Concerning its:translate="no", see https://bugzilla.gnome.org/show_bug.cgi?id=748470 >
+              <!-- Concerning its:translate="no", see https://bugzilla.gnome.org/show_bug.cgi?id=748470 -->
               <imagedata its:translate="no" fileref="../images/gtk-logo.png"/>
             </imageobject>
           </mediaobject>
@@ -126,7 +125,6 @@ https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
           </mediaobject>
         </informalfigure>
       </para>
-      -->
       <para xml:id="footer"><link xlink:href="mailto:gtkmm-list@gnome.org">Contact Us</link></para>
     </abstract>
   </info>

@@ -76,7 +76,7 @@ and https://www.gtkmm.org.
 
 - Translate the .po file.
 
-- Modify docs/C/index.docbook:
+- Modify docs/C/index.docbook and docs/C/index.withimg:
 
   Find `<formalpara xml:id="language-menu">`, and add your locale.
   ```xml

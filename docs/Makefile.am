@@ -13,25 +13,16 @@ XSLTPROC = xsltproc
 @YELP_HELP_RULES@
 
 HELP_ID = gnomemm-website
-help_index_file = index.docbook
+help_index_file = index.withimg
 HELP_MEDIA =
 
-# The names of any files included by xinclude (preferred):
-HELP_FILES = \
-        index.docbook \
-        main.xml \
-	books.xml \
-	bugs.xml \
-	commercial_support.xml \
-	developers.xml \
-	documentation.xml \
-	download.xml \
-	extra.xml \
-	git.xml \
-	license.xml \
-	mailinglist.xml \
-	news.xml
-
+# HELP_FILES is defined in an included file instead of in Makefile.am itself.
+# Then DocFormat.source_files() in Infrastructure/damned-lies/stats/utils.py
+# won't find it. That's a good thing. damned-lies shall find index.docbook
+# instead of index.withimg.
+# https://gitlab.gnome.org/Infrastructure/damned-lies/-/issues/58
+# https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
+include $(srcdir)/help-files.am
 
 HELP_LINGUAS = cs de el es fr hu ko pt_BR sl sv zh_CN
 
@@ -47,12 +38,12 @@ tutorial_html_files = $(call vpath_listall,html/en/*.html) html/style/style.css
 tutorial_html_inst  = $(foreach\
 	file,$(tutorial_html_files),$(or $(wildcard $(file)),$(srcdir)/$(file)))
 
-tutorial_xml_files  = $(addsuffix /index.docbook,C $(HELP_LINGUAS))
+tutorial_xml_files  = $(addsuffix /index.withimg,C $(HELP_LINGUAS))
 tutorial_po_files   = $(foreach lang, $(HELP_LINGUAS), $(lang)/$(lang).po)
 website_indexes	    = $(foreach lang,$(HELP_LINGUAS),html/$(lang)/index.html)
 
 dist_noinst_DATA =		\
-	C/index.docbook	\
+	C/index.withimg	\
 	$(tutorial_po_files)	\
 	$(tutorial_xml_files)	\
 	$(tutorial_html_files) \
