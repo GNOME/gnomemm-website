@@ -108,9 +108,7 @@
                   <para><link xlink:href="&url_refdocs_base_glibmm_html;classGlib_1_1Error.html">Exceptions</link></para>
                 </listitem>
                 <listitem>
-                  <!-- RefPtr does not have a URL that's suitable for an external reference.
-                    Something like &url_refdocs_base_glibmm_html;namespaceGlib.html#afa2fecfa732e9ec1107ace03a2911d63 -->
-                  <para>RefPtr&lt;&gt;</para>
+                  <para><link xlink:href="&url_refdocs_base_glibmm_html;group__RefPtr.html">RefPtr&lt;&gt;</link></para>
                 </listitem>
                 <listitem>
                   <para><link xlink:href="&url_refdocs_base_glibmm_html;group__MainLoop.html">Main Event loop</link></para>

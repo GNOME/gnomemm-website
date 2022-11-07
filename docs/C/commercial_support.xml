@@ -6,8 +6,9 @@
 
     <section>
     <title>Commercial Support</title>
-      <para>The mailing lists, irc, and documentation are helpful, but your company might
-require more in-depth assistance or custom development. If so feel free to contact the following freelance developers and companies directly to discuss a commercial arrangement. If necessary we can also build larger development teams.</para>
+      <para>The Discourse forum, irc, and documentation are helpful, but your company might
+require more in-depth assistance or custom development. If so feel free to contact the
+following freelance developers and companies directly to discuss a commercial arrangement.</para>
       <informaltable>
         <tr>
           <th rowspan="1" colspan="1">Name, email</th>
@@ -22,7 +23,8 @@ require more in-depth assistance or custom development. If so feel free to conta
           <td rowspan="1" colspan="1">Valencia, Spain</td>
         </tr>
       </informaltable>
-      <para>Many corporations use gtkmm to implement their products and internal projects. You can get a rough idea of this by looking at the email addresses on the mailing list. Here is a small list of some of those companies:<itemizedlist>
+      <para>Many corporations use gtkmm to implement their products and internal projects.
+      Here is a list of some of those companies:<itemizedlist>
           <listitem>
             <para><link xlink:href="http://www.mysql.com">MySQL</link> - Databases</para>
           </listitem>
@@ -102,7 +104,11 @@ require more in-depth assistance or custom development. If so feel free to conta
             <para><link xlink:href="http://www.innoventis.de/">Innoventis</link> - Automotive systems</para>
           </listitem>
         </itemizedlist></para>
-      <para>If you would like to be listed here please send email to the <link xlink:href="mailinglist.html">mailing list</link> or a maintainer.</para>
+      <para>If you would like to be listed here please open a
+      <link xlink:href="https://gitlab.gnome.org/GNOME/gnomemm-website/issues/">
+      GNOME/gnomemm-website issue</link> or
+      <link xlink:href="https://gitlab.gnome.org/GNOME/gnomemm-website/merge_requests/">
+      merge request</link>.</para>
       <para>See also <emphasis>Apps built with GTK</emphasis> at <link xlink:href="https://www.gtk.org">the GTK website</link>.</para>
     </section>
   </article>

@@ -49,9 +49,9 @@
           </listitem>
           <listitem>
             <para>Patches should be attached to existing issues or MRs
- (merge requests) rather than sent to
- the mailing list.  When reporting a new bug you'll get a chance to attach a
- file to it immediately <emphasis role="bold">after</emphasis> opening the issue.</para>
+ (merge requests) rather than sent to GNOME's Discourse forum.
+ When reporting a new bug you'll get a chance to attach a file to it
+ immediately <emphasis role="bold">after</emphasis> opening the issue.</para>
           </listitem>
         </itemizedlist>
       </section>

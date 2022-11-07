@@ -5,47 +5,48 @@
     <title/>
 
     <section>
-    <title>Mailing List</title>
+    <title>Discussion</title>
       <section>
-      <title>Where is the gtkmm mailing list?</title>
+      <title>Where can gtkmm be discussed?</title>
         <para><itemizedlist>
-            <listitem>
-              <para><emphasis role="bold">gtkmm mailing list</emphasis>: <link xlink:href="mailto:gtkmm-list@gnome.org">gtkmm-list@gnome.org</link>. To subscribe, go to the <link xlink:href="https://mail.gnome.org/mailman/listinfo/gtkmm-list">subscribe page</link>.</para>
-            </listitem>
-            <listitem>
-              <para>For general GTK discussion, please use the GNOME <link xlink:href="https://discourse.gnome.org">Discourse</link>
-               instance, under the <link xlink:href="https://discourse.gnome.org/c/platform/core">Platform/Core</link> category.</para>
-            </listitem>
-          </itemizedlist></para>
+          <listitem>
+            <para>C++ modules such as <emphasis role="bold">gtkmm</emphasis> and
+              <emphasis role="bold">glibmm</emphasis>: Use GNOME's
+              <link xlink:href="https://discourse.gnome.org">Discourse forum</link>,
+              under the <link xlink:href="https://discourse.gnome.org/c/platform/language-bindings">
+              Platform/Language bindings</link> category with a <literal>cplusplus</literal> tag.</para>
+          </listitem>
+          <listitem>
+            <para>For general GTK discussion, please use the
+              <link xlink:href="https://discourse.gnome.org/c/platform/core">
+              Platform/Core</link> category.</para>
+          </listitem>
+        </itemizedlist></para>
       </section>
 
       <section>
-      <title>What subject material is appropriate for the list?</title>
-        <para>The mailing lists are used for discussion of development,
-    suggestions, and improvements of the C++ wrappers themselves. There is
-    also discussion of the use of the wrapper. Questions about the
-    underlying GTK widget set are more likely to be answered quickly
-    through the Discourse platform. Bugs are better reported and discussed in
-    GitLab issues and merge requests.</para>
+      <title>What subject material is appropriate to discuss?</title>
+        <para>The Discourse forum is used for discussion of development,
+          suggestions, and improvements of the C++ wrappers themselves. There is
+          also discussion of the use of the wrapper. Bugs are better reported
+          and discussed in GitLab issues and merge requests.</para>
       </section>
 
       <section>
-      <title>List Archives</title>
-        <para>The archive of messages can be found at:</para>
-        <para><itemizedlist>
-            <listitem>
-              <para>gtkmm-list <link xlink:href="https://mail.gnome.org/archives/gtkmm-list/">archive</link>.</para>
-            </listitem>
-          </itemizedlist></para>
-        <para><link xlink:href="https://marc.info/?l=gtkmm">MARC</link> archives messages even from before 2002, and has a more reliable search engine.</para>
+      <title>Mailing List Archives</title>
+        <para>There is an old mailing list, which is now closed for new posts.
+          It is archived at the <link xlink:href="https://mail.gnome.org/archives/gtkmm-list/">
+          gtkmm-list archive</link>.</para>
+        <para><link xlink:href="https://marc.info/?l=gtkmm">MARC</link> archives
+          messages even from before 2002, and has a more reliable search engine.</para>
       </section>
 
       <section>
       <title>IRC channel</title>
-        <para>We also discuss development in the <emphasis role="bold">#c++</emphasis> channel on
-    irc.gnome.org, but questions are more likely to be answered properly on
-    the mailing list. Plus, the mailing list is archived, so others can
-    benefit from the answers.</para>
+        <para>Development can also be discussed in the <emphasis role="bold">#c++</emphasis>
+          channel on <link xlink:href="irc://irc.gnome.org/#c++"/>, but questions are more
+          likely to be answered properly on Discourse. Plus, Discourse is archived, so others
+          can benefit from the answers.</para>
       </section>
     </section>
  </article>

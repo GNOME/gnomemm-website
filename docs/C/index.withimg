@@ -47,7 +47,7 @@ https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
               <para><link xlink:href="https://wiki.gnome.org/Projects/gtkmm">Wiki</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="mailinglist.html">Mailing Lists</link></para>
+              <para><link xlink:href="mailinglist.html">Discussion</link></para>
             </listitem>
             <listitem>
               <para><link xlink:href="git.html">Git</link></para>
@@ -125,7 +125,8 @@ https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
           </mediaobject>
         </informalfigure>
       </para>
-      <para xml:id="footer"><link xlink:href="mailto:gtkmm-list@gnome.org">Contact Us</link></para>
+      <para xml:id="footer"><link xlink:href="https://discourse.gnome.org/c/platform/language-bindings">
+        Contact Us</link></para>
     </abstract>
   </info>
 
