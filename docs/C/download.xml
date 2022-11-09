@@ -9,8 +9,8 @@
       <note>
         <para>You should use the <link xlink:href="#Binary">binary packages</link> provided for your
 operating system unless you wish to test the latest versions. However, <link xlink:href="#Source">source packages</link> are available as well.</para>
-        <para>This page currently mentions gtkmm 3 binary packages. We will update this page
-          some time as binary packages for gtkmm 4 become available.</para>
+        <para>This page mentions gtkmm 4 binary packages. To find corresponding
+        gtkmm 3 packages, in most cases just change <quote>4</quote> to <quote>3</quote>.</para>
       </note>
 
       <section>
@@ -18,19 +18,19 @@ operating system unless you wish to test the latest versions. However, <link xli
         <para>You might find a variety of 3rd party RPMs and debs on the internet, but only the ones listed here are approved by the gtkmm team. Please encourage your Linux distribution to provide official gtkmm packages.</para>
         <itemizedlist>
           <listitem>
-            <para><link xlink:href="https://www.debian.org/">Debian</link> GNU/Linux: <command>apt-get install libgtkmm-3.0-dev</command>These <link xlink:href="https://packages.qa.debian.org/g/gtkmm3.0.html">project pages</link> might give status.</para>
+            <para><link xlink:href="https://www.debian.org/">Debian</link> GNU/Linux: <command>apt-get install libgtkmm-4.0-dev</command>These <link xlink:href="https://packages.qa.debian.org/g/gtkmm4.0.html">project pages</link> might give status.</para>
           </listitem>
           <listitem>
-            <para><link xlink:href="https://fedoraproject.org/">Fedora</link>/<link xlink:href="https://www.redhat.com">RedHat</link> Linux: Use <command>yum install gtkmm30-docs</command> to get the runtime, development, and documentation packages.</para>
+            <para><link xlink:href="https://fedoraproject.org/">Fedora</link>/<link xlink:href="https://www.redhat.com">RedHat</link> Linux: Use <command>yum install gtkmm4.0-devel</command> to get the runtime and development packages.</para>
           </listitem>
           <listitem>
             <para><link xlink:href="https://www.gentoo.org">Gentoo Linux</link>: Get dev-cpp/gtkmm.</para>
           </listitem>
           <listitem>
-            <para><link xlink:href="https://www.novell.com/linux/">SuSE Linux</link>: Use yast to install gtkmm3-devel.</para>
+            <para><link xlink:href="https://www.novell.com/linux/">SuSE Linux</link>: Use yast to install gtkmm4-devel.</para>
           </listitem>
           <listitem>
-            <para><link xlink:href="https://www.ubuntu.com/">Ubuntu</link> Linux: <command>apt-get install libgtkmm-3.0-dev</command></para>
+            <para><link xlink:href="https://www.ubuntu.com/">Ubuntu</link> Linux: <command>apt-get install libgtkmm-4.0-dev</command></para>
           </listitem>
           <listitem>
             <para>Windows: Here is an <link xlink:href="https://wiki.gnome.org/Projects/gtkmm/MSWindows">installer</link>.</para>
@@ -49,7 +49,7 @@ operating system unless you wish to test the latest versions. However, <link xli
 
       <section>
       <title><anchor xml:id="Source"/>Source</title>
-          <para>Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions (such as 3.15.x) are unstable development versions.</para>
+          <para>Even-numbered versions (such as 4.8.x) are stable. Odd-numbered versions (such as 4.7.x) are unstable development versions.</para>
           <itemizedlist>
             <listitem>
               <para><link xlink:href="https://download.gnome.org/sources/glibmm/">glibmm</link></para>
