@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
 "POT-Creation-Date: 2023-01-25 20:03+0000\n"
-"PO-Revision-Date: 2023-02-07 11:52+0000\n"
+"PO-Revision-Date: 2023-02-07 12:18+0000\n"
 "Last-Translator: Fabio T. <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -129,11 +129,16 @@ msgid ""
 " chance to attach a file to it immediately <emphasis "
 "role=\"bold\">after</emphasis> opening the issue."
 msgstr ""
+"Tu varessis di zontâ i blecs ai problemis esistents o aes MRs (merge "
+"requests - richiestis di union) invezit che mandâju sul forum Discourse di "
+"GNOME. Tal moment che tu segnalis un gnûf erôr tu varâs la oportunitât di "
+"zontâ un file juste <emphasis role=\"bold\">dopo</emphasis> vê viert il "
+"probleme."
 
 #. (itstool) path: section/title
 #: C/bugs.xml:60
 msgid "What information is needed for a bug report?"
-msgstr ""
+msgstr "Cualis informazions coventino par segnalâ un erôr?"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:63
@@ -141,16 +146,18 @@ msgid ""
 "version numbers of GTK, gtkmm and other related software, including your "
 "platform/distro/compiler."
 msgstr ""
+"numars di version di GTK, gtkmm e altri software corelât, includûts "
+"plateforme/distribuzion/compiladôr."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:66
 msgid "description of the bug"
-msgstr ""
+msgstr "descrizion dal erôr"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:69
 msgid "information to reproduce the bug"
-msgstr ""
+msgstr "informazions su cemût riprodusi l'erôr"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:72
@@ -158,16 +165,18 @@ msgid ""
 "stack dump, if relevant: <command> gdb ./proggy ; run ; *crash* ; where "
 "</command>"
 msgstr ""
+"il stack butât jù, se rilevant: <command> gdb ./proggy ; run ; *crash* ; "
+"where </command>"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:76
 msgid "keep it small but detailed"
-msgstr ""
+msgstr "tegnilu piçul ma detaiât"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:79
 msgid "if possible, provide a patch"
-msgstr ""
+msgstr "se pussibil, furnìs un blec (patch)"
 
 #. (itstool) path: section/para
 #: C/bugs.xml:82
@@ -176,11 +185,15 @@ msgid ""
 "simple-as-possible example that actually builds. This helps us to isolate "
 "the problem, and proves that the problem is not caused by your own code."
 msgstr ""
+"Se o podìn risolvi il probleme daurman, alore o podaressin domandâti di creâ"
+" un esempli il plui sempliç pussibil che si compili. Chest nus judarà a "
+"isolâ il probleme e par provâ che il probleme nol è causât di un to codiç "
+"personâl."
 
 #. (itstool) path: section/title
 #: C/bugs.xml:89
 msgid "<anchor xml:id=\"CreatingPatches\"/>How do I create a patch?"
-msgstr ""
+msgstr "<anchor xml:id=\"CreatingPatches\"/>Cemût creio un blec?"
 
 #. (itstool) path: section/para
 #: C/bugs.xml:90
@@ -188,57 +201,62 @@ msgid ""
 "There are many ways to use Git, but this is the simplest way to create a "
 "patch if you are unfamiliar with Git:"
 msgstr ""
+"A son tantis manieris par doprâ Git, ma chest al è il mût plui sempliç par "
+"creâ un blec, se no tu sês pratic di Git:"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:93
 msgid "Take code from <link xlink:href=\"git.html\">git</link>"
-msgstr ""
+msgstr "Cjape il codiç di <link xlink:href=\"git.html\">git</link>"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:96
 msgid "Modify that version"
-msgstr ""
+msgstr "Modifiche chê version"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:99
 msgid "Check it compiles"
-msgstr ""
+msgstr "Controle che si compili"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:102
 msgid ""
 "Use git to create a patch <command> git diff -u &gt; my_fix.patch </command>"
 msgstr ""
+"Dopre git par creâ un blec cun <command> git diff -u &gt; my_fix.patch "
+"</command>"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:106
 msgid "Add the patch in the issue tracker (see above)."
-msgstr ""
+msgstr "Zonte il blec tal sisteme di segnalazion erôrs (viôt parsore)."
 
 #. (itstool) path: section/title
 #: C/bugs.xml:112
 msgid "Should I send a bug report?"
-msgstr ""
+msgstr "Scugnio inviâ une segnalazion di erôr?"
 
 #. (itstool) path: section/para
 #: C/bugs.xml:113
 msgid "Always send a bug report:"
-msgstr ""
+msgstr "Invie simpri un segnalazion di erôr:"
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:118
 msgid "If you get a crash and you think it might be problem with gtkmm."
 msgstr ""
+"Se ti capite un colàs e tu pensis che al podarès sei un probleme cun gtkmm."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:121
 msgid "If you cannot compile gtkmm."
-msgstr ""
+msgstr "Se no tu rivis a compilâ gtkmm."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:124
 msgid "If you have a good idea of how to make gtkmm better."
-msgstr ""
+msgstr "Se tu âs une buine idee di cemût miorâ gtkmm."
 
 #. (itstool) path: section/para
 #: C/bugs.xml:127
@@ -247,11 +265,15 @@ msgid ""
 "xlink:href=\"https://gitlab.gnome.org/help/user/project/merge_requests/creating_merge_requests.md\">"
 " create a merge request</link> instead of (or in addition to) an issue."
 msgstr ""
+"Se tu sâs cemût comedâ un erôr, tu puedis <link "
+"xlink:href=\"https://gitlab.gnome.org/help/user/project/merge_requests/creating_merge_requests.md\">"
+" creâ une richieste di union</link> invezit che segnalâ (o zontâ la soluzion"
+" a ) un probleme."
 
 #. (itstool) path: section/title
 #: C/license.xml:8
 msgid "License"
-msgstr ""
+msgstr "Licence"
 
 #. (itstool) path: section/para
 #: C/license.xml:9
@@ -284,7 +306,7 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/commercial_support.xml:8
 msgid "Commercial Support"
-msgstr ""
+msgstr "Supuart comerciâl"
 
 #. (itstool) path: section/para
 #: C/commercial_support.xml:9
@@ -294,16 +316,20 @@ msgid ""
 "free to contact the following freelance developers and companies directly to"
 " discuss a commercial arrangement."
 msgstr ""
+"Il forum Discourse, irc e la documentazion a son utii, ma la tô aziende e "
+"podarès domandâ assistence plui precise o disvilup personalizât. Se chest al"
+" è il câs, sintiti libar di contatâ in mût diret chescj svilupadôrs di "
+"libare profession e chestis compagniis, par discuti di un acuardi comerciâl."
 
 #. (itstool) path: tr/th
 #: C/commercial_support.xml:14
 msgid "Name, email"
-msgstr ""
+msgstr "Non, e-mail"
 
 #. (itstool) path: tr/th
 #: C/commercial_support.xml:15
 msgid "Location"
-msgstr ""
+msgstr "Posizion"
 
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:18
