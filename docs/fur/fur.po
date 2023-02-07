@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
 "POT-Creation-Date: 2023-01-25 20:03+0000\n"
-"PO-Revision-Date: 2023-02-07 12:18+0000\n"
+"PO-Revision-Date: 2023-02-07 14:46+0000\n"
 "Last-Translator: Fabio T. <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -287,6 +287,15 @@ msgid ""
 "Other GNU projects may of course integrate and link in a static manner. The "
 "full body of the license is provided for your inspection."
 msgstr ""
+"gtkmm al è dât fûr, par dutis lis plateformis, sot de licence <link "
+"xlink:href=\"https://www.gnu.org\">GNU</link> Lesser General Public License "
+"(<link "
+"xlink:href=\"https://www.gnu.org/licenses/lgpl.html#TOC1\">LGPL</link>) . Il"
+" nestri motîf par dâlu fûr cun cheste licence al è chel di dâlu fûr pal ûs "
+"midiant librariis condividudis in ducj i progjets, sedi che a sedin vierts "
+"sedi che a sedin proprietaris. Ancje altris progjets GNU a puedin integrâ e "
+"colegâsi in maniere statiche. Il cuarp complet de licence al ven dât fûr pe "
+"tô ispezion."
 
 #. (itstool) path: section/para
 #: C/license.xml:15
@@ -294,6 +303,8 @@ msgid ""
 "This is the only license which grants you use of the software, so if you do "
 "not agree to its terms, you may not use this software."
 msgstr ""
+"Cheste e je la uniche licence che ti garantìs la utilizazion dal software, "
+"duncje se no tu acetis i siei tiermins, no tu puedis doprâ chest software."
 
 #. (itstool) path: note/para
 #: C/license.xml:18
@@ -302,6 +313,9 @@ msgid ""
 "release the source code of your own applications or libraries</emphasis> and"
 " <emphasis role=\"bold\">does not require you to pay any fees.</emphasis>"
 msgstr ""
+"Note che cheste licence <emphasis role=\"bold\">no ti oblee a publicâ il "
+"codiç sorzint des tôs aplicazions o des tôs librariis</emphasis> e <emphasis"
+" role=\"bold\">no ti oblee a paiâ nissune comission.</emphasis>"
 
 #. (itstool) path: section/title
 #: C/commercial_support.xml:8
@@ -338,26 +352,29 @@ msgid ""
 "Corp.</link>: Quality software with easy to use interfaces from simple "
 "utilities to complex e-Business solutions."
 msgstr ""
+"<link xlink:href=\"http://www.m2osw.com\">Fat par Order Software "
+"Corp.</link>: Software di cualitât cun interfacis semplicis di doprâ, che a "
+"variin di semplicis utilitâts a soluzions complessis pal e-Business."
 
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:19
 msgid "USA, UK"
-msgstr ""
+msgstr "Stâts Unîts, Ream Unît"
 
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:22
 msgid "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
-msgstr ""
+msgstr "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
 
 #. (itstool) path: tr/td
 #: C/commercial_support.xml:23
 msgid "Valencia, Spain"
-msgstr ""
+msgstr "Valencia, Spagne"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:29
 msgid "<link xlink:href=\"http://www.mysql.com\">MySQL</link> - Databases"
-msgstr ""
+msgstr "<link xlink:href=\"http://www.mysql.com\">MySQL</link> - Basis di dâts"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:32
@@ -365,11 +382,15 @@ msgid ""
 "<link xlink:href=\"http://www.vmware.com/\">VMWare</link> - Virtualization, "
 "network management"
 msgstr ""
+"<link xlink:href=\"http://www.vmware.com/\">VMWare</link> - Virtualizazion, "
+"gjestion di rêts"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:35
 msgid "<link xlink:href=\"http://www.amazon.com/\">Amazon</link> - MP3 Downloader"
 msgstr ""
+"<link xlink:href=\"http://www.amazon.com/\">Amazon</link> - Discjamadôr di "
+"MP3"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:38
@@ -377,6 +398,8 @@ msgid ""
 "<link xlink:href=\"http://www.supersonicimagine.fr/\">Supersonic "
 "Imagine</link> - Medical imaging"
 msgstr ""
+"<link xlink:href=\"http://www.supersonicimagine.fr/\">Supersonic "
+"Imagine</link> - Rapresentazions grafichis medichis"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:41
@@ -384,6 +407,8 @@ msgid ""
 "<link xlink:href=\"http://www.garmin.com/\">Garmin</link> - Consumer "
 "navigation devices"
 msgstr ""
+"<link xlink:href=\"http://www.garmin.com/\">Garmin</link> - Dispositîfs di "
+"navigazion par utents"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:44
@@ -391,6 +416,8 @@ msgid ""
 "<link xlink:href=\"http://www.spacetec.no/\">Kongsberg Spacetec</link> - "
 "satellite/meteorological"
 msgstr ""
+"<link xlink:href=\"http://www.spacetec.no/\">Kongsberg Spacetec</link> - "
+"satelit/meteorologjic"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:47
@@ -398,6 +425,8 @@ msgid ""
 "<link xlink:href=\"http://www.solvo.ru/\">Solvo Ltd.</link> - warehouse "
 "management systems"
 msgstr ""
+"<link xlink:href=\"http://www.solvo.ru/\">Solvo Ltd.</link> - sistemis di "
+"gjestion dai magazins"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:50
@@ -405,6 +434,8 @@ msgid ""
 "<link xlink:href=\"http://www.eads.com\">EADS</link> - "
 "aerospace/defense/satellite"
 msgstr ""
+"<link xlink:href=\"http://www.eads.com\">EADS</link> - "
+"aerospaziâl/difese/satelit"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:53
@@ -412,6 +443,8 @@ msgid ""
 "<link xlink:href=\"http://www.northropgrumman.com\">Northrup Grumman</link> "
 "- military/defense"
 msgstr ""
+"<link xlink:href=\"http://www.northropgrumman.com\">Northrup Grumman</link> "
+"- militâr/difese"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:56
@@ -419,6 +452,8 @@ msgid ""
 "<link xlink:href=\"http://www.henson.com\">Jim Henson's Muppet "
 "Workshop</link> - animatronics"
 msgstr ""
+"<link xlink:href=\"http://www.henson.com\">Jim Henson's Muppet "
+"Workshop</link> - animatroniche"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:59
@@ -426,6 +461,8 @@ msgid ""
 "<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> - electrical "
 "engineering"
 msgstr ""
+"<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> - inzegnerie "
+"eletriche"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:62
@@ -433,6 +470,8 @@ msgid ""
 "<link xlink:href=\"http://linuxaudiosystems.com/\">Linux Audio "
 "Systems</link> - professional audio/music systems"
 msgstr ""
+"<link xlink:href=\"http://linuxaudiosystems.com/\">Linux Audio "
+"Systems</link> - sistemis professionâi audio/musiche"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:65
@@ -440,6 +479,8 @@ msgid ""
 "<link xlink:href=\"http://www.designadvantage.com\">Design Advantage</link> "
 "- electrical/mechanical engineering"
 msgstr ""
+"<link xlink:href=\"http://www.designadvantage.com\">Design Advantage</link> "
+"- inzegnerie eletriche/mecaniche"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:68
