@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
 "POT-Creation-Date: 2023-01-25 20:03+0000\n"
-"PO-Revision-Date: 2023-02-07 14:46+0000\n"
+"PO-Revision-Date: 2023-02-08 13:56+0000\n"
 "Last-Translator: Fabio T. <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <f.t.public@gmail.com>\n"
 "Language: fur\n"
@@ -485,7 +485,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:68
 msgid "<link xlink:href=\"http://www.dme.net\">DME</link> - mold engineering"
-msgstr ""
+msgstr "<link xlink:href=\"http://www.dme.net\">DME</link> - inzegnerie dal stamp"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:71
@@ -493,6 +493,8 @@ msgid ""
 "<link xlink:href=\"http://www.bifab.de\">Bibliographisches Institut &amp; "
 "F.A. Brockhaus AG</link> - publishing"
 msgstr ""
+"<link xlink:href=\"http://www.bifab.de\">Bibliographisches Institut &amp; "
+"F.A. Brockhaus AG</link> - editorie"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:74
@@ -500,6 +502,8 @@ msgid ""
 "<link xlink:href=\"http://www.hasar.com\">Hasar</link> - POS "
 "software/hardware"
 msgstr ""
+"<link xlink:href=\"http://www.hasar.com\">Hasar</link> - software/hardware "
+"par POS"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:77
@@ -507,6 +511,8 @@ msgid ""
 "<link xlink:href=\"http://www.icodsi.biz\">iCodsi</link> - "
 "security/encryption software"
 msgstr ""
+"<link xlink:href=\"http://www.icodsi.biz\">iCodsi</link> - software di "
+"sigurece/cifradure"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:80
@@ -514,6 +520,8 @@ msgid ""
 "<link xlink:href=\"http://www.aplik.com/\">Aplik</link> - process "
 "engineering"
 msgstr ""
+"<link xlink:href=\"http://www.aplik.com/\">Aplik</link> - inzegnerie di "
+"elaborazion"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:83
@@ -521,6 +529,8 @@ msgid ""
 "<link xlink:href=\"http://www.fis-cal.com/\">Fiscal</link> - fiscal Systems,"
 " POS"
 msgstr ""
+"<link xlink:href=\"http://www.fis-cal.com/\">Fiscal</link> - sistemis "
+"fiscâi, POS"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:86
@@ -528,6 +538,8 @@ msgid ""
 "<link xlink:href=\"http://www.thewrittenword.com/\">The Written Word</link> "
 "- prebuilt software packages"
 msgstr ""
+"<link xlink:href=\"http://www.thewrittenword.com/\">The Written Word</link> "
+"- pachets di software precompilât"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:89
@@ -535,6 +547,8 @@ msgid ""
 "<link xlink:href=\"http://www.exact-med.com/\">Allcare</link> - ExactMed "
 "eMAR, medication administration"
 msgstr ""
+"<link xlink:href=\"http://www.exact-med.com/\">Allcare</link> - ExactMed "
+"eMAR, aministrazion mediche"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:92
@@ -542,6 +556,8 @@ msgid ""
 "<link xlink:href=\"https://www.sendoutcards.com/\">SendOutCards.com</link> -"
 " Specialized internal applications"
 msgstr ""
+"<link xlink:href=\"https://www.sendoutcards.com/\">SendOutCards.com</link> -"
+" Aplicazions internis specializadis"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:95
@@ -549,6 +565,8 @@ msgid ""
 "<link xlink:href=\"http://www.epictechnology.co.uk/\">EPIC Technology</link>"
 " - Point Of Sale systems"
 msgstr ""
+"<link xlink:href=\"http://www.epictechnology.co.uk/\">EPIC Technology</link>"
+" - Sistemis POS (pont di vendite)"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:98
@@ -557,6 +575,9 @@ msgid ""
 "<link xlink:href=\"http://www.i-medlab.com/Products/page1.html\">CAD "
 "Colon</link>."
 msgstr ""
+"<link xlink:href=\"http://www.i-medlab.com/\">iMed</link> rapresentazions "
+"grafichis medichis - <link "
+"xlink:href=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</link>."
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:101
@@ -564,6 +585,8 @@ msgid ""
 "<link xlink:href=\"http://www.downeysavings.com/\">Downey Savings</link> - "
 "Banking"
 msgstr ""
+"<link xlink:href=\"http://www.downeysavings.com/\">Downey Savings</link> - "
+"Bancari"
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:104
@@ -571,6 +594,8 @@ msgid ""
 "<link xlink:href=\"http://www.innoventis.de/\">Innoventis</link> - "
 "Automotive systems"
 msgstr ""
+"<link xlink:href=\"http://www.innoventis.de/\">Innoventis</link> - sistemis "
+"setôr automobilistic"
 
 #. (itstool) path: section/para
 #: C/commercial_support.xml:26
@@ -578,6 +603,9 @@ msgid ""
 "Many corporations use gtkmm to implement their products and internal "
 "projects. Here is a list of some of those companies:<_:itemizedlist-1/>"
 msgstr ""
+"Tantis societâts a doprin gtkmm par implementâ i lôr prodots e i progjets "
+"internis. Chi e je une liste di cualchidune di chês "
+"compagniis:<_:itemizedlist-1/>"
 
 #. (itstool) path: section/para
 #: C/commercial_support.xml:107
@@ -588,6 +616,11 @@ msgid ""
 "xlink:href=\"https://gitlab.gnome.org/GNOME/gnomemm-"
 "website/merge_requests/\"> merge request</link>."
 msgstr ""
+"Se tu desideris vignî fûr in cheste liste par plasê vierç un <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gnomemm-website/issues/\"> "
+"probleme cun GNOME/gnomemm-website</link> o une <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gnomemm-"
+"website/merge_requests/\"> richieste di union</link>."
 
 #. (itstool) path: section/para
 #: C/commercial_support.xml:112
@@ -595,11 +628,13 @@ msgid ""
 "See also <emphasis>Apps built with GTK</emphasis> at <link "
 "xlink:href=\"https://www.gtk.org\">the GTK website</link>."
 msgstr ""
+"Viôt ancje <emphasis>Aplicazions costruidis cun GTK</emphasis> sul <link "
+"xlink:href=\"https://www.gtk.org\">sît web di GTK</link>."
 
 #. (itstool) path: section/title
 #: C/git.xml:8
 msgid "Git"
-msgstr ""
+msgstr "Git"
 
 #. (itstool) path: section/para
 #: C/git.xml:9
@@ -610,6 +645,11 @@ msgid ""
 "at <link "
 "xlink:href=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</link>."
 msgstr ""
+"We use <link xlink:href=\"https://git-scm.com/\">Git</link> to maintain our "
+"source code, in the <link xlink:href=\"https://www.gnome.org\">GNOME</link> "
+"Git repository. Additional information about gitlab.gnome.org is available "
+"at <link "
+"xlink:href=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</link>."
 
 #. (itstool) path: section/para
 #: C/git.xml:12
@@ -621,6 +661,12 @@ msgid ""
 "/gtkmm-documentation/\">gtkmm-documentation</link> module which contains the"
 " gtkmm book and its examples. See below for instructions."
 msgstr ""
+"glibmm e gtkmm a son tai modui <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/glibmm/\">glibmm</link> e <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/\">gtkmm</link>. Al è "
+"ancje un modul <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/\">gtkmm-documentation</link> che al conten il libri di gtkmm "
+"e i siei esemplis. Bute un voli chi sot pes istruzions."
 
 #. (itstool) path: section/para
 #: C/git.xml:14
@@ -632,17 +678,25 @@ msgid ""
 "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-"
 "build-meta</link> for setting up a separate development prefix."
 msgstr ""
+"Meson al è il sisteme di compialzion conseât. Se tu compilis cun Autotools "
+"(autoconf, automake,e v.i.), tu varâs bisugne di eseguî il script autogen.sh"
+" par gjenerâ i files di compilazion. O conseìn <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> opûr "
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-"
+"build-meta</link> par meti impins un prefìs di disvilup separât."
 
 #. (itstool) path: note/para
 #: C/git.xml:21
 msgid "<emphasis role=\"bold\">Anonymous Access</emphasis>"
-msgstr ""
+msgstr "<emphasis role=\"bold\">Acès anonim</emphasis>"
 
 #. (itstool) path: note/para
 #: C/git.xml:22
 msgid ""
 "For those who do not have a GNOME login, anonymous checkouts are available."
 msgstr ""
+"Chei che no àn credenziâls di acès a GNOME, a àn la pussibilitât di esaminâ "
+"e provâ il codiç in maniere anonime."
 
 #. (itstool) path: note/para
 #: C/git.xml:24
@@ -650,11 +704,13 @@ msgid ""
 "For instance, to check out the latest version of gtkmm: <command>git clone "
 "https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 msgstr ""
+"Par esempli, par esaminâ la ultime version di gtkmm: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 
 #. (itstool) path: section/title
 #: C/git.xml:28
 msgid "Modules and branches"
-msgstr ""
+msgstr "Modui e rams"
 
 #. (itstool) path: section/para
 #: C/git.xml:29
@@ -663,36 +719,40 @@ msgid ""
 "xlink:href=\"https://wiki.gnome.org/MaintainersCorner#branches\">standard "
 "GNOME branch names</link>."
 msgstr ""
+"O sin sincronizâts cu la tabele di marcje des pubilcazions di GNOME, duncje "
+"o doprìn <link "
+"xlink:href=\"https://wiki.gnome.org/MaintainersCorner#branches\">i nons "
+"standard dai rams di GNOME</link>."
 
 #. (itstool) path: section/title
 #: C/git.xml:32
 msgid "gtkmm and glibmm"
-msgstr ""
+msgstr "gtkmm e glibmm"
 
 #. (itstool) path: tr/th
 #: C/git.xml:35 C/git.xml:82 C/git.xml:114
 msgid "Component"
-msgstr ""
+msgstr "Component"
 
 #. (itstool) path: tr/th
 #: C/git.xml:36 C/git.xml:115
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #. (itstool) path: tr/th
 #: C/git.xml:37 C/git.xml:84 C/git.xml:116
 msgid "Git Module"
-msgstr ""
+msgstr "Modul Git"
 
 #. (itstool) path: tr/th
 #: C/git.xml:38 C/git.xml:85 C/git.xml:117
 msgid "Branch name"
-msgstr ""
+msgstr "Non dal ram"
 
 #. (itstool) path: tr/td
 #: C/git.xml:41 C/git.xml:47
 msgid "gtkmm-4.0"
-msgstr ""
+msgstr "gtkmm-4.0"
 
 #. (itstool) path: tr/td
 #: C/git.xml:42 C/git.xml:60
@@ -703,7 +763,7 @@ msgstr ""
 #. (itstool) path: info/title
 #: C/git.xml:43 C/git.xml:49 C/git.xml:55 C/index.docbook:17
 msgid "gtkmm"
-msgstr ""
+msgstr "gtkmm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:44 C/git.xml:62 C/git.xml:91 C/git.xml:97 C/git.xml:103
@@ -714,92 +774,92 @@ msgstr ""
 #. (itstool) path: tr/td
 #: C/git.xml:48
 msgid "4.2"
-msgstr ""
+msgstr "4.2"
 
 #. (itstool) path: tr/td
 #: C/git.xml:50
 msgid "gtkmm-4-2"
-msgstr ""
+msgstr "gtkmm-4-2"
 
 #. (itstool) path: tr/td
 #: C/git.xml:53
 msgid "gtkmm-3.0"
-msgstr ""
+msgstr "gtkmm-3.0"
 
 #. (itstool) path: tr/td
 #: C/git.xml:54
 msgid "3.24"
-msgstr ""
+msgstr "3.24"
 
 #. (itstool) path: tr/td
 #: C/git.xml:56
 msgid "gtkmm-3-24"
-msgstr ""
+msgstr "gtkmm-3-24"
 
 #. (itstool) path: tr/td
 #: C/git.xml:59 C/git.xml:65
 msgid "glibmm-2.68"
-msgstr ""
+msgstr "glibmm-2.68"
 
 #. (itstool) path: tr/td
 #: C/git.xml:61 C/git.xml:67 C/git.xml:73
 msgid "glibmm"
-msgstr ""
+msgstr "glibmm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:66
 msgid "2.68"
-msgstr ""
+msgstr "2.68"
 
 #. (itstool) path: tr/td
 #: C/git.xml:68
 msgid "glibmm-2-68"
-msgstr ""
+msgstr "glibmm-2-68"
 
 #. (itstool) path: tr/td
 #: C/git.xml:71
 msgid "glibmm-2.4"
-msgstr ""
+msgstr "glibmm-2.4"
 
 #. (itstool) path: tr/td
 #: C/git.xml:72
 msgid "2.66"
-msgstr ""
+msgstr "2.66"
 
 #. (itstool) path: tr/td
 #: C/git.xml:74
 msgid "glibmm-2-66"
-msgstr ""
+msgstr "glibmm-2-66"
 
 #. (itstool) path: section/title
 #: C/git.xml:79 C/main.xml:89
 msgid "gnomemm"
-msgstr ""
+msgstr "gnomemm"
 
 #. (itstool) path: tr/th
 #: C/git.xml:83
 msgid "API Version"
-msgstr ""
+msgstr "Version API"
 
 #. (itstool) path: tr/td
 #: C/git.xml:88 C/git.xml:90
 msgid "libglademm"
-msgstr ""
+msgstr "libglademm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:94 C/git.xml:96
 msgid "gconfmm"
-msgstr ""
+msgstr "gconfmm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:100 C/git.xml:102
 msgid "libgnomecanvasmm"
-msgstr ""
+msgstr "libgnomecanvasmm"
 
 #. (itstool) path: section/title
 #: C/git.xml:109
 msgid "*mm bindings for other GNOME-related APIs"
-msgstr ""
+msgstr "Vincui/leams (bindings) *mm par altris APIs relativis a GNOME"
 
 #. (itstool) path: section/para
 #: C/git.xml:110
@@ -807,26 +867,28 @@ msgid ""
 "The following bindings are not necessarily on the same schedule as those "
 "listed above."
 msgstr ""
+"Chescj vincui/leams (bindings) no son par fuarce su la stesse tabele di "
+"marcje di chei listâts parsore."
 
 #. (itstool) path: tr/td
 #: C/git.xml:120 C/git.xml:122
 msgid "libgdamm"
-msgstr ""
+msgstr "libgdamm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:126 C/git.xml:128
 msgid "libgnomedbmm"
-msgstr ""
+msgstr "libgnomedbmm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:132 C/git.xml:134
 msgid "goocanvasmm"
-msgstr ""
+msgstr "goocanvasmm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:138 C/git.xml:140
 msgid "libpanelappletmm"
-msgstr ""
+msgstr "libpanelappletmm"
 
 #. (itstool) path: note/para
 #: C/main.xml:11
@@ -853,58 +915,60 @@ msgstr ""
 #. (itstool) path: section/title
 #: C/main.xml:35
 msgid "Features"
-msgstr ""
+msgstr "Funzionalitâts"
 
 #. (itstool) path: listitem/para
 #: C/main.xml:39
 msgid "Use inheritance to derive custom widgets."
-msgstr ""
+msgstr "Utilizazion di ereditâts par derivâ widgets personalizâts."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:42
 msgid "Type-safe signal handlers, in standard C++."
-msgstr ""
+msgstr "Gjestôrs di segnâl a prove di gjenar, tal C++ standard."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:45
 msgid "Polymorphism."
-msgstr ""
+msgstr "Polimorfisim."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:48
 msgid ""
 "Use of Standard C++ Library, including strings, containers, and iterators."
 msgstr ""
+"Utilizazion de librarie standard di C++, includudis stringhis, contignidôrs "
+"e iteradôrs."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:51
 msgid "Full internationalisation with UTF8."
-msgstr ""
+msgstr "Internazionalizazion complete cun UTF8."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:57
 msgid "Object composition"
-msgstr ""
+msgstr "Composizion di ogjets"
 
 #. (itstool) path: listitem/para
 #: C/main.xml:60
 msgid "Automatic deallocation of dynamically allocated widgets."
-msgstr ""
+msgstr "Disassegnazion automatiche dai widget assegnâts in maniere dinamiche."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:54
 msgid "Complete C++ memory management <_:itemizedlist-1/>"
-msgstr ""
+msgstr "Gjestion complete de memorie di C++ <_:itemizedlist-1/>"
 
 #. (itstool) path: listitem/para
 #: C/main.xml:66
 msgid "Full use of C++ namespaces."
-msgstr ""
+msgstr "Utilizazion complete dai spazis dai nons di C++."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:69
 msgid "No macros."
-msgstr ""
+msgstr "Nissune macro."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:72
@@ -913,6 +977,9 @@ msgid ""
 "Forte), Win32 (gcc, MSVC 2013 or later (gtkmm3), MSVC 2017 or later "
 "(gtkmm4)), MacOS X (gcc), others"
 msgstr ""
+"Inter-plateforme: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC 2013 o sucessîfs (gtkmm3), MSVC 2017 o sucessîfs "
+"(gtkmm4)), MacOS X (gcc), altris"
 
 #. (itstool) path: listitem/para
 #: C/main.xml:76
@@ -920,16 +987,18 @@ msgid ""
 "Free software and free of cost for both Open Source and proprietary "
 "development."
 msgstr ""
+"Software libar e gratuit sedi pal disvilup come Sorzint Viert che par chel "
+"proprietari."
 
 #. (itstool) path: listitem/para
 #: C/main.xml:80
 msgid "Discussed, designed and implemented in public."
-msgstr ""
+msgstr "Discutût, progjetât e implementât in public."
 
 #. (itstool) path: section/title
 #: C/main.xml:87
 msgid "Other gtkmm-related libraries"
-msgstr ""
+msgstr "Altris librariis coreladis a gtkmm"
 
 #. (itstool) path: section/para
 #: C/main.xml:90
@@ -942,6 +1011,14 @@ msgid ""
 " library. However, gtkmm is designed to work well with all other C++ "
 "libraries."
 msgstr ""
+"gtkmm al è un insiemi di struments pes interfacis grafichis e nie altri, si "
+"sfuarce di jessi il miôr insiemi di struments pes interfacis grafichis in "
+"C++. Chel mandât nol cuvierç lis struturis gjenerichis dai dâts C++, un "
+"analizadôr XML, o l'acès aes basis di dâts. Ancje il nestri sisteme di "
+"signal/slots al è part di une librarie separade (<link "
+"xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>)."
+" Dut câs, gtkmm al è progjetât par lavorâ ben cun dutis chês altris "
+"librariis C++."
 
 #. (itstool) path: section/para
 #: C/main.xml:97
@@ -949,11 +1026,13 @@ msgid ""
 "The gnomemm libraries cover some of these other tasks, but they are "
 "optional."
 msgstr ""
+"Lis librariis gnomemm a cuvierzin cualchidune di chestis altris ativitâts, "
+"ma a son opzionâls."
 
 #. (itstool) path: section/title
 #: C/main.xml:104
 msgid "libsigc++"
-msgstr ""
+msgstr "libsigc++"
 
 #. (itstool) path: section/para
 #: C/main.xml:105
@@ -963,11 +1042,15 @@ msgid ""
 "xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>"
 " (signal/slots)."
 msgstr ""
+"Controle ancje di esaminâ lis nestris librariis sûrs, glibmm (stringhis "
+"UTF8, threading, e v.i.) e <link "
+"xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>"
+" (segnâl/slots)."
 
 #. (itstool) path: section/title
 #: C/main.xml:111 C/books.xml:47
 msgid "Others"
-msgstr ""
+msgstr "Altris"
 
 #. (itstool) path: section/para
 #: C/main.xml:112
@@ -977,16 +1060,20 @@ msgid ""
 " constructing gtkmm/gnomemm applications. It allows use of the Document/View"
 " architecture."
 msgstr ""
+"Controle di esaminâ <link "
+"xlink:href=\"http://bakery.sourceforge.net/\">Bakery</link>, un ambient di "
+"lavôr par costruî aplicazions gtkmm/gnomemm. Al permet di doprâ la "
+"architeture Document/Viodude."
 
 #. (itstool) path: section/title
 #: C/mailinglist.xml:8
 msgid "Discussion"
-msgstr ""
+msgstr "Discussion"
 
 #. (itstool) path: section/title
 #: C/mailinglist.xml:10
 msgid "Where can gtkmm be discussed?"
-msgstr ""
+msgstr "Dulà si puedial discuti di gtkmm?"
 
 #. (itstool) path: listitem/para
 #: C/mailinglist.xml:13
