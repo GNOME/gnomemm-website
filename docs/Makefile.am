@@ -24,7 +24,7 @@ HELP_MEDIA =
 # https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
 include $(srcdir)/help-files.am
 
-HELP_LINGUAS = cs de el es fr hu ko pt_BR sl sv zh_CN
+HELP_LINGUAS = cs de el es fr fur hu ko pt_BR sl sv zh_CN
 
 MAINTAINERCLEANFILES =  $(foreach lang,en $(HELP_LINGUAS),html/$(lang)/*.html) \
 			$(foreach lang,en $(HELP_LINGUAS),$(srcdir)/html/$(lang)/*.html)
