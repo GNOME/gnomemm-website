@@ -18,7 +18,7 @@ and https://www.gtkmm.org.
 - Create a build directory and configure it:
   ```sh
   cd gnomemm-website
-  meson [options] <build-dir>
+  meson setup [options] <build-dir>
   ```
   Do not call the build-dir gnomemm-website/build. There is already such a
   directory, used when building with Autotools.

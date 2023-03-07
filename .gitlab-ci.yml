@@ -1,4 +1,4 @@
-# 2022-01-06: ubuntu:latest = 20.04, ubuntu:rolling = 21.10, ubuntu:devel = 22.04
+# 2023-02-13: ubuntu:latest = 22.04, ubuntu:rolling = 22.10, ubuntu:devel = 23.04
 # See https://hub.docker.com/_/ubuntu
 image: ubuntu:rolling
 
@@ -33,7 +33,7 @@ website_validate:
   stage: validate
   script:
     - mkdir _build && cd _build
-    - meson --prefix=/usr -Dvalidation=true -Dbuild-translations=false -Dallow-network-access=false
+    - meson setup --prefix=/usr -Dvalidation=true -Dbuild-translations=false -Dallow-network-access=false
     - meson compile
   allow_failure: true
 
@@ -42,7 +42,7 @@ website_build:
   stage: build
   script:
     - mkdir _build && cd _build
-    - meson --prefix=/usr
+    - meson setup --prefix=/usr
     - meson compile
   artifacts:
     paths:
