@@ -1,15 +1,15 @@
 # Hungarian translation for gnomemm-website.
-# Copyright (C) 2016, 2019, 2020, 2022. Free Software Foundation, Inc.
+# Copyright (C) 2016, 2019, 2020, 2022, 2023 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnomemm-website package.
 #
 # Balázs Meskó <mesko.balazs at fsfs dot hu>, 2016.
 # Gabor Kelemen <kelemeng at ubuntu dot com>, 2016.
-# Balázs Úr <ur.balazs at fsf dot hu>, 2019, 2020, 2022.
+# Balázs Úr <ur.balazs at fsf dot hu>, 2019, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2022-09-19 16:27+0000\n"
-"PO-Revision-Date: 2022-09-23 01:42+0200\n"
+"POT-Creation-Date: 2022-11-09 17:31+0000\n"
+"PO-Revision-Date: 2023-03-08 22:48+0100\n"
 "Last-Translator: Balázs Úr <ur.balazs at fsf dot hu>\n"
 "Language-Team: Hungarian <gnome-hu-list at gnome dot org>\n"
 "Language: hu\n"
@@ -17,426 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.12.3\n"
-
-#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
-msgctxt "_"
-msgid "translator-credits"
-msgstr ""
-"Meskó Balázs <mesko.balazs at fsf dot hu>, 2016.\n"
-"Úr Balázs <ur.balazs at fsf dot hu>, 2022."
-
-#. (itstool) path: info/title
-#. (itstool) path: tr/td
-#: C/index.docbook:8 C/git.xml:43 C/git.xml:49 C/git.xml:55
-msgid "gtkmm"
-msgstr "gtkmm"
-
-#. (itstool) path: info/subtitle
-#: C/index.docbook:9
-msgid "C++ Interfaces for GTK and GNOME"
-msgstr "C++ interfészek a GTK-hoz és a GNOME-hoz"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:13
-msgid "<link xlink:href=\"index.html\">Home</link>"
-msgstr "<link xlink:href=\"index.html\">Kezdőlap</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:16
-msgid "<link xlink:href=\"license.html\">License</link>"
-msgstr "<link xlink:href=\"license.html\">Licenc</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:19
-msgid "<link xlink:href=\"download.html\">Download</link>"
-msgstr "<link xlink:href=\"download.html\">Letöltés</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:22
-msgid "<link xlink:href=\"documentation.html\">Documentation</link>"
-msgstr "<link xlink:href=\"documentation.html\">Dokumentáció</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:25
-msgid "<link xlink:href=\"developers.html\">Development</link>"
-msgstr "<link xlink:href=\"developers.html\">Fejlesztés</link>"
-
-#. (itstool) path: formalpara/title
-#: C/index.docbook:29
-msgid "Other Resources"
-msgstr "Egyéb erőforrások"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:32
-msgid "<link xlink:href=\"news.html\">News</link>"
-msgstr "<link xlink:href=\"news.html\">Hírek</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:35
-msgid ""
-"<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</link>"
-msgstr ""
-"<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">GYIK</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:38
-msgid "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
-msgstr "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:41
-msgid "<link xlink:href=\"mailinglist.html\">Mailing Lists</link>"
-msgstr "<link xlink:href=\"mailinglist.html\">Levelezőlisták</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:44
-msgid "<link xlink:href=\"git.html\">Git</link>"
-msgstr "<link xlink:href=\"git.html\">Git</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:47
-msgid "<link xlink:href=\"bugs.html\">Bugs</link>"
-msgstr "<link xlink:href=\"bugs.html\">Hibák</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:50
-msgid "<link xlink:href=\"books.html\">Books</link>"
-msgstr "<link xlink:href=\"books.html\">Könyvek</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:53
-msgid "<link xlink:href=\"commercial_support.html\">Commercial Support</link>"
-msgstr ""
-"<link xlink:href=\"commercial_support.html\">Kereskedelmi támogatás</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:56
-msgid "<link xlink:href=\"extra.html\">Additional Resources</link>"
-msgstr "<link xlink:href=\"extra.html\">További erőforrások</link>"
-
-#. (itstool) path: formalpara/title
-#: C/index.docbook:61
-msgid "Language"
-msgstr "Nyelv"
-
-#. (itstool) path: abstract/para
-#. (itstool) id: index.docbook#footer
-#. (itstool) id: index.docbook#footer
-#: C/index.docbook:119
-msgid "<link xlink:href=\"mailto:gtkmm-list@gnome.org\">Contact Us</link>"
-msgstr ""
-"<link xlink:href=\"mailto:gtkmm-list@gnome.org\">Kapcsolatfelvétel</link>"
-
-#. (itstool) path: note/para
-#: C/main.xml:11
-msgid ""
-"<application>gtkmm</application> is the official C++ interface for the "
-"popular GUI library <link xlink:href=\"https://www.gtk.org/\">GTK</link>. "
-"Highlights include typesafe callbacks, and a comprehensive set of widgets "
-"that are easily extensible via inheritance. You can create user interfaces "
-"either in code or with the <link xlink:href=\"https://glade.gnome.org/"
-"\">Glade User Interface designer</link>, using Gtk::Builder. There's <link "
-"xlink:href=\"documentation.html\">extensive documentation</link>, including "
-"API reference and a tutorial."
-msgstr ""
-"A <application>gtkmm</application> a hivatalos C++ interfész a népszerű "
-"<link xlink:href=\"https://www.gtk.org/\">GTK</link> GUI programkönyvtárhoz. "
-"A kiemelendő tulajdonságai a típusbiztos visszahívások és egy teljes "
-"felületi elem készlet, amelyek örökléssel könnyen bővíthetőek. A "
-"felhasználói felületek létrehozhatóak kódból és a <link xlink:href=\"https://"
-"glade.gnome.org/\">Glade felhasználóifelület-tervezővel</link>, a Gtk::"
-"Builder használatával. <link xlink:href=\"documentation.html\">Kiterjedt "
-"dokumentáció</link> érhető el, API-hivatkozással és oktatóanyagokkal."
-
-#. (itstool) path: note/para
-#: C/main.xml:20
-msgid ""
-"<application>gtkmm</application> is free software distributed under the GNU "
-"Lesser General Public License (<link xlink:href=\"license.html\">LGPL</"
-"link>)."
-msgstr ""
-"A <application>gtkmm</application> szabad szoftver, amely a GNU Lesser "
-"General Public License (<link xlink:href=\"license.html\">LGPL</link>) "
-"szerint kerül terjesztésre."
-
-#. (itstool) path: section/title
-#: C/main.xml:35
-msgid "Features"
-msgstr "Funkciók"
-
-#. (itstool) path: listitem/para
-#: C/main.xml:39
-msgid "Use inheritance to derive custom widgets."
-msgstr "Öröklés használata az egyéni felületi elemek származtatásához."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:42
-msgid "Type-safe signal handlers, in standard C++."
-msgstr "Típusbiztos szignálkezelők szabványos C++-ban."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:45
-msgid "Polymorphism."
-msgstr "Polimorfizmus."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:48
-msgid ""
-"Use of Standard C++ Library, including strings, containers, and iterators."
-msgstr ""
-"A szabványos C++ programkönyvtár használata, beleértve a karakterláncokat, a "
-"konténereket és az iterátorokat."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:51
-msgid "Full internationalisation with UTF8."
-msgstr "Teljes nemzetköziesítés UTF-8 használatával."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:57
-msgid "Object composition"
-msgstr "Objektum kompozíció"
-
-#. (itstool) path: listitem/para
-#: C/main.xml:60
-msgid "Automatic deallocation of dynamically allocated widgets."
-msgstr "A dinamikusan allokált felületi elemek automatikus deallokációja."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:54
-msgid "Complete C++ memory management <_:itemizedlist-1/>"
-msgstr "Teljes C++ memóriakezelés <_:itemizedlist-1/>"
-
-#. (itstool) path: listitem/para
-#: C/main.xml:66
-msgid "Full use of C++ namespaces."
-msgstr "C++ névterek teljes használata."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:69
-msgid "No macros."
-msgstr "Nincsenek makrók."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:72
-msgid ""
-"Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
-"Forte), Win32 (gcc, MSVC 2013 or later (gtkmm3), MSVC 2017 or later "
-"(gtkmm4)), MacOS X (gcc), others"
-msgstr ""
-"Keresztplatformos: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
-"Forte), Win32 (gcc, MSVC 2013 vagy későbbi (gtkmm3), MSVC 2017 vagy későbbi "
-"(gtkmm4)), MacOS X (gcc), egyebek"
-
-#. (itstool) path: listitem/para
-#: C/main.xml:76
-msgid ""
-"Free software and free of cost for both Open Source and proprietary "
-"development."
-msgstr ""
-"Szabad szoftver, költségek nélkül használható nyílt és zárt forráskódú "
-"fejlesztéshez egyaránt."
-
-#. (itstool) path: listitem/para
-#: C/main.xml:80
-msgid "Discussed, designed and implemented in public."
-msgstr "Nyilvánosan megvitatott, tervezett és megvalósított."
-
-#. (itstool) path: section/title
-#: C/main.xml:87
-msgid "Other gtkmm-related libraries"
-msgstr "Egyéb gtkmm-hez kapcsolódó programkönyvtárak"
-
-#. (itstool) path: section/title
-#: C/main.xml:89 C/git.xml:79
-msgid "gnomemm"
-msgstr "gnomemm"
-
-#. (itstool) path: section/para
-#: C/main.xml:90
-msgid ""
-"gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
-"GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
-"parser, or database access. Even our signal/slots system is part of a "
-"separate (<link xlink:href=\"https://libsigcplusplus.github.io/"
-"libsigcplusplus/\">libsigc++</link>) library. However, gtkmm is designed to "
-"work well with all other C++ libraries."
-msgstr ""
-"A gtkmm egy GUI eszközkészlet és semmi több. A célja, hogy a legjobb C++ GUI "
-"eszközkészlet legyen. Ez a cél nem fedi le az általános C++ "
-"adatszerkezeteket, XML-feldolgozókat vagy az adatbázis-elérést. Még a saját "
-"szignál/foglalat rendszerünk is egy másik könyvtár (<link xlink:href="
-"\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>) "
-"része. Azonban a gtkmm úgy lett tervezve, hogy jól együttműködjön minden más "
-"C++ programkönyvtárral."
-
-#. (itstool) path: section/para
-#: C/main.xml:97
-msgid ""
-"The gnomemm libraries cover some of these other tasks, but they are optional."
-msgstr ""
-"A gnomemm programkönyvtárak lefednek néhány ilyen egyéb feladatot is, de "
-"használatuk nem kötelező."
-
-#. (itstool) path: section/title
-#: C/main.xml:104
-msgid "libsigc++"
-msgstr "libsigc++"
-
-#. (itstool) path: section/para
-#: C/main.xml:105
-msgid ""
-"Also, be sure to check out our companion libraries, glibmm (UTF8 strings, "
-"threading, etc) and <link xlink:href=\"https://libsigcplusplus.github.io/"
-"libsigcplusplus/\">libsigc++</link> (signal/slots)."
-msgstr ""
-"Tekintse meg a többi társprogramkönyvtárunkat is, a glibmm-et (UTF-8 "
-"karakterláncok, szálkezelés stb.) és a <link xlink:href=\"https://"
-"libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>-t (szignál/"
-"foglalat)."
-
-#. (itstool) path: section/title
-#: C/main.xml:111 C/books.xml:47
-msgid "Others"
-msgstr "Egyebek"
-
-#. (itstool) path: section/para
-#: C/main.xml:112
-msgid ""
-"Be sure to check out <link xlink:href=\"http://bakery.sourceforge.net/"
-"\">Bakery</link>, a framework for constructing gtkmm/gnomemm applications. "
-"It allows use of the Document/View architecture."
-msgstr ""
-"Nézze meg a <link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</"
-"link>-t is, ami egy gtkmm/gnomemm alkalmazások létrehozásához készült "
-"keretrendszer. Segítségével használhatja a Dokumentum/Nézet architektúrát."
-
-#. (itstool) path: section/title
-#: C/books.xml:8
-msgid "Recommended Books"
-msgstr "Ajánlott könyvek"
-
-#. (itstool) path: section/para
-#: C/books.xml:10
-msgid ""
-"The <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
-"documentation\">Programming with gtkmm 4</link> and <link xlink:href="
-"\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming with "
-"gtkmm 3</link> tutorials are available online along with the rest of our "
-"<link xlink:href=\"documentation.html\">documentation</link>."
-msgstr ""
-"A <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation"
-"\">Programozás gtkmm 4-gyel</link> és a <link xlink:href=\"https://developer-"
-"old.gnome.org/gtkmm-tutorial/3.24/\">Programozás gtkmm 3-mal</link> "
-"oktatóanyagok elérhetőek az interneten a saját <link xlink:href="
-"\"documentation.html\">dokumentációnk</link> többi részével együtt."
-
-#. (itstool) path: section/para
-#: C/books.xml:13
-msgid ""
-"<link xlink:href=\"https://mesonbuild.com/\">The Meson build system</link> "
-"is also described online."
-msgstr ""
-"<link xlink:href=\"https://mesonbuild.com/\">A Meson összeállító-rendszer</"
-"link> szintén le van írva az interneten."
-
-#. (itstool) path: section/para
-#: C/books.xml:14
-msgid "The gtkmm developers also find these books helpful:"
-msgstr "A gtkmm fejlesztői ezeket a könyveket is hasznosnak találták:"
-
-#. (itstool) path: section/title
-#: C/books.xml:19
-msgid "Core books"
-msgstr "Alapvető könyvek"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:23
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
-"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
-"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:26
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
-"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
-"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:29
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
-"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
-"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
-
-#. (itstool) path: section/title
-#: C/books.xml:36
-msgid "For beginners"
-msgstr "Kezdőknek"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:40
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
-"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
-"Andrew Koenig &amp; Barbara E. Moo</link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
-"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
-"Andrew Koenig &amp; Barbara E. Moo</link>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:51
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
-"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
-"Cooper &amp; Robert M. Reimann</link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
-"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
-"Cooper &amp; Robert M. Reimann</link>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:54
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
-"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
-"Steve Vinoski</link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
-"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
-"Steve Vinoski</link>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:57
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
-"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
-"link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
-"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
-"link>"
-
-#. (itstool) path: listitem/para
-#: C/books.xml:60
-msgid ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
-"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
-"al</link>"
-msgstr ""
-"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
-"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
-"al</link>"
+"X-Generator: Lokalize 22.08.2\n"
 
 #. (itstool) path: section/title
 #: C/bugs.xml:8
@@ -553,16 +134,21 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:51
+#| msgid ""
+#| "Patches should be attached to existing issues or MRs (merge requests) "
+#| "rather than sent to the mailing list. When reporting a new bug you'll get "
+#| "a chance to attach a file to it immediately <emphasis role=\"bold"
+#| "\">after</emphasis> opening the issue."
 msgid ""
 "Patches should be attached to existing issues or MRs (merge requests) rather "
-"than sent to the mailing list. When reporting a new bug you'll get a chance "
-"to attach a file to it immediately <emphasis role=\"bold\">after</emphasis> "
-"opening the issue."
+"than sent to GNOME's Discourse forum. When reporting a new bug you'll get a "
+"chance to attach a file to it immediately <emphasis role=\"bold\">after</"
+"emphasis> opening the issue."
 msgstr ""
-"A javítófoltokat a meglévő problémákhoz vagy MR-ekhez (beolvasztási "
-"kérelmekhez) kell csatolni, nem pedig a levelezőlistára küldeni. Ha új hibát "
-"jelent, akkor a hibajelentés nyitása <emphasis role=\"bold\">után</emphasis> "
-"azonnal lehetősége lesz egy fájlt csatolni hozzá."
+"A javítófoltokat a meglévő problémákhoz vagy MR-ekhez (beolvasztási"
+" kérelmekhez) kell csatolni, nem pedig a GNOME Discourse fórumára küldeni. Ha"
+" új hibát jelent, akkor a hibajelentés nyitása <emphasis role=\"bold\">után<"
+"/emphasis> azonnal lehetősége lesz egy fájlt csatolni hozzá."
 
 #. (itstool) path: section/title
 #: C/bugs.xml:60
@@ -702,37 +288,85 @@ msgstr ""
 "hibajelentés helyett (vagy amellett)."
 
 #. (itstool) path: section/title
+#: C/license.xml:8
+msgid "License"
+msgstr "Licenc"
+
+#. (itstool) path: section/para
+#: C/license.xml:9
+msgid ""
+"gtkmm is licensed under the <link xlink:href=\"https://www.gnu.org\">GNU</"
+"link> Lesser General Public License (<link xlink:href=\"https://www.gnu.org/"
+"licenses/lgpl.html#TOC1\">LGPL</link>) for all platforms. Our intent in "
+"licensing it in this way is to provide it for use through shared libraries "
+"in all projects both open and proprietary. Other GNU projects may of course "
+"integrate and link in a static manner. The full body of the license is "
+"provided for your inspection."
+msgstr ""
+"A gtkmm a <link xlink:href=\"https://www.gnu.org\">GNU</link> Lesser General "
+"Public License (<link xlink:href=\"https://www.gnu.org/licenses/lgpl."
+"html#TOC1\">LGPL</link>) szerint licencelt minden platformon. A célunk az "
+"effajta licenceléssel az, hogy elérhetővé tegyük minden programnak, hogy "
+"osztott könyvtárként használja, legyen az nyílt vagy zárt forráskódú. Más "
+"GNU projektek persze integrálhatják és hivatkozhatják statikus módon is. A "
+"licenc teljes törzse elérhető az Ön számára."
+
+#. (itstool) path: section/para
+#: C/license.xml:15
+msgid ""
+"This is the only license which grants you use of the software, so if you do "
+"not agree to its terms, you may not use this software."
+msgstr ""
+"Ez az egyetlen licenc, amely biztosítja a szoftver használatát, tehát ha nem "
+"ért egyet a feltételekkel, akkor nem használhatja a szoftvert."
+
+#. (itstool) path: note/para
+#: C/license.xml:18
+msgid ""
+"Note that this license <emphasis role=\"bold\">does not require you to "
+"release the source code of your own applications or libraries</emphasis> and "
+"<emphasis role=\"bold\">does not require you to pay any fees.</emphasis>"
+msgstr ""
+"Megjegyzendő, hogy a licenc <emphasis role=\"bold\">nem követeli meg, hogy "
+"kiadja az alkalmazásai vagy programkönyvtárai forráskódját</emphasis> és "
+"<emphasis role=\"bold\">nem követel meg semmiféle díjfizetést</emphasis>."
+
+#. (itstool) path: section/title
 #: C/commercial_support.xml:8
 msgid "Commercial Support"
 msgstr "Kereskedelmi támogatás"
 
 #. (itstool) path: section/para
 #: C/commercial_support.xml:9
+#| msgid ""
+#| "The mailing lists, irc, and documentation are helpful, but your company "
+#| "might require more in-depth assistance or custom development. If so feel "
+#| "free to contact the following freelance developers and companies directly "
+#| "to discuss a commercial arrangement. If necessary we can also build "
+#| "larger development teams."
 msgid ""
-"The mailing lists, irc, and documentation are helpful, but your company "
+"The Discourse forum, irc, and documentation are helpful, but your company "
 "might require more in-depth assistance or custom development. If so feel "
 "free to contact the following freelance developers and companies directly to "
-"discuss a commercial arrangement. If necessary we can also build larger "
-"development teams."
+"discuss a commercial arrangement."
 msgstr ""
-"A levelezőlisták, az IRC és a dokumentáció hasznos, de a cégének mélyebb "
+"A Discourse fórum, az IRC és a dokumentáció hasznos, de a cégének mélyebb "
 "segítségre vagy egyedi fejlesztésre lehet szüksége. Ha így van, akkor lépjen "
 "közvetlen kapcsolatba a következő szabadúszó fejlesztőkkel és cégekkel az "
-"üzleti megegyezéshez. Ha szükséges, nagyobb fejlesztői csapatokat is "
-"építhetünk."
+"üzleti megegyezéshez."
 
 #. (itstool) path: tr/th
-#: C/commercial_support.xml:13
+#: C/commercial_support.xml:14
 msgid "Name, email"
 msgstr "Név, e-mail"
 
 #. (itstool) path: tr/th
-#: C/commercial_support.xml:14
+#: C/commercial_support.xml:15
 msgid "Location"
 msgstr "Hely"
 
 #. (itstool) path: tr/td
-#: C/commercial_support.xml:17
+#: C/commercial_support.xml:18
 msgid ""
 "<link xlink:href=\"http://www.m2osw.com\">Made to Order Software Corp.</"
 "link>: Quality software with easy to use interfaces from simple utilities to "
@@ -743,27 +377,27 @@ msgstr ""
 "segédprogramoktól kezdve összetett e-üzleti megoldásokig."
 
 #. (itstool) path: tr/td
-#: C/commercial_support.xml:18
+#: C/commercial_support.xml:19
 msgid "USA, UK"
 msgstr "USA, UK"
 
 #. (itstool) path: tr/td
-#: C/commercial_support.xml:21
+#: C/commercial_support.xml:22
 msgid "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
 msgstr "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
 
 #. (itstool) path: tr/td
-#: C/commercial_support.xml:22
+#: C/commercial_support.xml:23
 msgid "Valencia, Spain"
 msgstr "Valencia, Spanyolország"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:27
+#: C/commercial_support.xml:29
 msgid "<link xlink:href=\"http://www.mysql.com\">MySQL</link> - Databases"
 msgstr "<link xlink:href=\"http://www.mysql.com\">MySQL</link> – adatbázisok"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:30
+#: C/commercial_support.xml:32
 msgid ""
 "<link xlink:href=\"http://www.vmware.com/\">VMWare</link> - Virtualization, "
 "network management"
@@ -772,14 +406,14 @@ msgstr ""
 "hálózatmenedzsment"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:33
+#: C/commercial_support.xml:35
 msgid ""
 "<link xlink:href=\"http://www.amazon.com/\">Amazon</link> - MP3 Downloader"
 msgstr ""
 "<link xlink:href=\"http://www.amazon.com/\">Amazon</link> – MP3 letöltő"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:36
+#: C/commercial_support.xml:38
 msgid ""
 "<link xlink:href=\"http://www.supersonicimagine.fr/\">Supersonic Imagine</"
 "link> - Medical imaging"
@@ -788,7 +422,7 @@ msgstr ""
 "link> – orvosi képalkotás"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:39
+#: C/commercial_support.xml:41
 msgid ""
 "<link xlink:href=\"http://www.garmin.com/\">Garmin</link> - Consumer "
 "navigation devices"
@@ -797,7 +431,7 @@ msgstr ""
 "navigációs eszközök"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:42
+#: C/commercial_support.xml:44
 msgid ""
 "<link xlink:href=\"http://www.spacetec.no/\">Kongsberg Spacetec</link> - "
 "satellite/meteorological"
@@ -806,7 +440,7 @@ msgstr ""
 "műhold/meteorológiai"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:45
+#: C/commercial_support.xml:47
 msgid ""
 "<link xlink:href=\"http://www.solvo.ru/\">Solvo Ltd.</link> - warehouse "
 "management systems"
@@ -815,7 +449,7 @@ msgstr ""
 "rendszerek"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:48
+#: C/commercial_support.xml:50
 msgid ""
 "<link xlink:href=\"http://www.eads.com\">EADS</link> - aerospace/defense/"
 "satellite"
@@ -823,7 +457,7 @@ msgstr ""
 "<link xlink:href=\"http://www.eads.com\">EADS</link> – légügyi/védelmi/műhold"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:51
+#: C/commercial_support.xml:53
 msgid ""
 "<link xlink:href=\"http://www.northropgrumman.com\">Northrup Grumman</link> "
 "- military/defense"
@@ -832,7 +466,7 @@ msgstr ""
 "– katonai/védelmi"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:54
+#: C/commercial_support.xml:56
 msgid ""
 "<link xlink:href=\"http://www.henson.com\">Jim Henson's Muppet Workshop</"
 "link> - animatronics"
@@ -841,7 +475,7 @@ msgstr ""
 "link> – animatronikai"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:57
+#: C/commercial_support.xml:59
 msgid ""
 "<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> - electrical "
 "engineering"
@@ -849,7 +483,7 @@ msgstr ""
 "<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> – villamosmérnöki"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:60
+#: C/commercial_support.xml:62
 msgid ""
 "<link xlink:href=\"http://linuxaudiosystems.com/\">Linux Audio Systems</"
 "link> - professional audio/music systems"
@@ -858,7 +492,7 @@ msgstr ""
 "link> – professzionális hang/zenei rendszerek"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:63
+#: C/commercial_support.xml:65
 msgid ""
 "<link xlink:href=\"http://www.designadvantage.com\">Design Advantage</link> "
 "- electrical/mechanical engineering"
@@ -867,12 +501,12 @@ msgstr ""
 "– villamos- és gépészmérnöki"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:66
+#: C/commercial_support.xml:68
 msgid "<link xlink:href=\"http://www.dme.net\">DME</link> - mold engineering"
 msgstr "<link xlink:href=\"http://www.dme.net\">DME</link> – öntőmérnöki"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:69
+#: C/commercial_support.xml:71
 msgid ""
 "<link xlink:href=\"http://www.bifab.de\">Bibliographisches Institut &amp; F."
 "A. Brockhaus AG</link> - publishing"
@@ -881,7 +515,7 @@ msgstr ""
 "A. Brockhaus AG</link> – kiadó"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:72
+#: C/commercial_support.xml:74
 msgid ""
 "<link xlink:href=\"http://www.hasar.com\">Hasar</link> - POS software/"
 "hardware"
@@ -890,7 +524,7 @@ msgstr ""
 "hardverek"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:75
+#: C/commercial_support.xml:77
 msgid ""
 "<link xlink:href=\"http://www.icodsi.biz\">iCodsi</link> - security/"
 "encryption software"
@@ -899,14 +533,14 @@ msgstr ""
 "titkosítási szoftverek"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:78
+#: C/commercial_support.xml:80
 msgid ""
 "<link xlink:href=\"http://www.aplik.com/\">Aplik</link> - process engineering"
 msgstr ""
 "<link xlink:href=\"http://www.aplik.com/\">Aplik</link> – folyamattervezés"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:81
+#: C/commercial_support.xml:83
 msgid ""
 "<link xlink:href=\"http://www.fis-cal.com/\">Fiscal</link> - fiscal Systems, "
 "POS"
@@ -915,7 +549,7 @@ msgstr ""
 "rendszerek, POS"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:84
+#: C/commercial_support.xml:86
 msgid ""
 "<link xlink:href=\"http://www.thewrittenword.com/\">The Written Word</link> "
 "- prebuilt software packages"
@@ -924,7 +558,7 @@ msgstr ""
 "– előre összeállított szoftvercsomagok"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:87
+#: C/commercial_support.xml:89
 msgid ""
 "<link xlink:href=\"http://www.exact-med.com/\">Allcare</link> - ExactMed "
 "eMAR, medication administration"
@@ -933,7 +567,7 @@ msgstr ""
 "eMAR, gyógyszeradagolás"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:90
+#: C/commercial_support.xml:92
 msgid ""
 "<link xlink:href=\"https://www.sendoutcards.com/\">SendOutCards.com</link> - "
 "Specialized internal applications"
@@ -942,7 +576,7 @@ msgstr ""
 "specializált belső alkalmazások"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:93
+#: C/commercial_support.xml:95
 msgid ""
 "<link xlink:href=\"http://www.epictechnology.co.uk/\">EPIC Technology</link> "
 "- Point Of Sale systems"
@@ -951,7 +585,7 @@ msgstr ""
 "– Point Of Sale rendszerek"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:96
+#: C/commercial_support.xml:98
 msgid ""
 "<link xlink:href=\"http://www.i-medlab.com/\">iMed</link> Medical imaging - "
 "<link xlink:href=\"http://www.i-medlab.com/Products/page1.html\">CAD Colon</"
@@ -962,7 +596,7 @@ msgstr ""
 "Colon</link>."
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:99
+#: C/commercial_support.xml:101
 msgid ""
 "<link xlink:href=\"http://www.downeysavings.com/\">Downey Savings</link> - "
 "Banking"
@@ -971,7 +605,7 @@ msgstr ""
 "bankolás"
 
 #. (itstool) path: listitem/para
-#: C/commercial_support.xml:102
+#: C/commercial_support.xml:104
 msgid ""
 "<link xlink:href=\"http://www.innoventis.de/\">Innoventis</link> - "
 "Automotive systems"
@@ -980,29 +614,39 @@ msgstr ""
 "rendszerek"
 
 #. (itstool) path: section/para
-#: C/commercial_support.xml:25
+#: C/commercial_support.xml:26
+#| msgid ""
+#| "Many corporations use gtkmm to implement their products and internal "
+#| "projects. You can get a rough idea of this by looking at the email "
+#| "addresses on the mailing list. Here is a small list of some of those "
+#| "companies:<_:itemizedlist-1/>"
 msgid ""
 "Many corporations use gtkmm to implement their products and internal "
-"projects. You can get a rough idea of this by looking at the email addresses "
-"on the mailing list. Here is a small list of some of those companies:<_:"
-"itemizedlist-1/>"
+"projects. Here is a list of some of those companies:<_:itemizedlist-1/>"
 msgstr ""
 "Sok vállalkozás használja a gtkmm-et a saját termékeik és belső projektjeik "
-"megvalósításához. Hozzávetőleges képet kaphat erről, ha megnézi az e-mail-"
-"címeket a levelezőlistán. Itt egy kis lista néhány ilyen cégről:<_:"
-"itemizedlist-1/>"
+"megvalósításához. Itt egy lista néhány ilyen cégről:<_:itemizedlist-1/>"
 
 #. (itstool) path: section/para
-#: C/commercial_support.xml:105
+#: C/commercial_support.xml:107
+#| msgid ""
+#| "Bugs are tracked in GNOME's <link xlink:href=\"https://gitlab.gnome.org"
+#| "\">issue tracker</link>. Submit gtkmm bugs <link xlink:href=\"https://"
+#| "gitlab.gnome.org/GNOME/gtkmm/issues/new/\">here</link>."
 msgid ""
-"If you would like to be listed here please send email to the <link xlink:"
-"href=\"mailinglist.html\">mailing list</link> or a maintainer."
+"If you would like to be listed here please open a <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gnomemm-website/issues/\"> GNOME/gnomemm-website "
+"issue</link> or <link xlink:href=\"https://gitlab.gnome.org/GNOME/gnomemm-"
+"website/merge_requests/\"> merge request</link>."
 msgstr ""
-"Ha szeretne megjelenni a listában, akkor küldjön egy e-mailt a <link xlink:"
-"href=\"mailinglist.html\">levelezőlistára</link> vagy egy karbantartónak."
+"Ha szeretné, hogy itt szerepeljen, akkor nyisson egy <link"
+" xlink:href=\"https://gitlab.gnome.org/GNOME/gnomemm-website/issues/\""
+">GNOME/gnomemm-website hibajegyet</link> vagy <link"
+" xlink:href=\"https://gitlab.gnome.org/GNOME/gnomemm-website/merge_requests/\""
+">beolvasztási kérelmet</link>."
 
 #. (itstool) path: section/para
-#: C/commercial_support.xml:106
+#: C/commercial_support.xml:112
 msgid ""
 "See also <emphasis>Apps built with GTK</emphasis> at <link xlink:href="
 "\"https://www.gtk.org\">the GTK website</link>."
@@ -1011,804 +655,566 @@ msgstr ""
 "listáját <link xlink:href=\"https://www.gtk.org\">a GTK weboldalán</link>."
 
 #. (itstool) path: section/title
-#: C/developers.xml:8
-msgid "gtkmm Development"
-msgstr "A gtkmm fejlesztése"
+#: C/git.xml:8
+msgid "Git"
+msgstr "Git"
 
 #. (itstool) path: section/para
-#: C/developers.xml:9
+#: C/git.xml:9
 msgid ""
-"gtkmm development is done in the <link xlink:href=\"https://gnome.org/"
-"\">GNOME</link> Git repository. To get started developing gtkmm, see the "
-"<link xlink:href=\"git.html\">detailed Git instructions</link>. Discussion "
-"about gtkmm development happens on the <link xlink:href=\"mailinglist.html"
-"\">mailing list</link>."
+"We use <link xlink:href=\"https://git-scm.com/\">Git</link> to maintain our "
+"source code, in the <link xlink:href=\"https://www.gnome.org\">GNOME</link> "
+"Git repository. Additional information about gitlab.gnome.org is available "
+"at <link xlink:href=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</link>."
 msgstr ""
-"A gtkmm fejlesztése a <link xlink:href=\"https://gnome.org/\">GNOME</link> "
-"Git tárolójában történik. Hogy belevágjon a gtkmm fejlesztésébe, nézze meg a "
-"<link xlink:href=\"git.html\">részletes Git útmutatót</link>. A gtkmm "
-"fejlesztésének megvitatása a <link xlink:href=\"mailinglist.html"
-"\">levelezőlistán</link> történik."
+"A <link xlink:href=\"https://git-scm.com/\">Git</link> verziókezelőt "
+"használjuk a forráskód karbantartására a <link xlink:href=\"https://www."
+"gnome.org\">GNOME</link> Git tárolójában. A gitlab.gnome.org oldallal "
+"kapcsolatos további információk a <link xlink:href=\"https://wiki.gnome.org/"
+"Git\">wiki.gnome.org/Git</link> oldalon érhetők el."
+
+#. (itstool) path: section/para
+#: C/git.xml:12
+msgid ""
+"glibmm and gtkmm are in the <link xlink:href=\"https://gitlab.gnome.org/"
+"GNOME/glibmm/\">glibmm</link> and <link xlink:href=\"https://gitlab.gnome."
+"org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link xlink:href="
+"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
+"link> module which contains the gtkmm book and its examples. See below for "
+"instructions."
+msgstr ""
+"A glibmm és a gtkmm a <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
+"glibmm/\">glibmm</link> és <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
+"gtkmm/\">gtkmm</link> modulokban található. Létezik egy <link xlink:href="
+"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
+"link> modul is, amely a gtkmm könyvet és a példáit tartalmazza. Nézze meg "
+"lent az utasításokat."
+
+#. (itstool) path: section/para
+#: C/git.xml:14
+msgid ""
+"Meson is the recommended build system. If you build with Autotools "
+"(autoconf, automake,etc.), you will need to run the autogen.sh script to "
+"generate the build files. We recommend <link xlink:href=\"https://gitlab."
+"gnome.org/GNOME/jhbuild\">jhbuild</link> or <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-meta</link> for "
+"setting up a separate development prefix."
+msgstr ""
+"A Meson az ajánlott összeállítási rendszer. Ha Autotools (autoconf, automake "
+"stb.) segítségével állít össze, akkor az autogen.sh parancsfájlt kell "
+"futtatnia az összeállítási fájlok előállításához. A <link xlink:href="
+"\"https://gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> vagy a <link xlink:"
+"href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-meta</"
+"link> programokat ajánljuk egy különálló fejlesztői előtag beállításához."
 
 #. (itstool) path: note/para
-#: C/developers.xml:13
-msgid ""
-"Please do not mail us directly - use the <link xlink:href=\"mailinglist.html"
-"\">mailing list</link> instead."
-msgstr ""
-"Ne írjon nekünk közvetlenül – használja inkább a <link xlink:href="
-"\"mailinglist.html\">levelezőlistát</link>."
-
-#. (itstool) path: section/title
-#: C/developers.xml:18
-msgid "Developers and Contributors"
-msgstr "Fejlesztők és közreműködők"
-
-#. (itstool) path: section/title
-#: C/developers.xml:20
-msgid "Current maintainers"
-msgstr "Jelenlegi karbantartók"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:23
-msgid ""
-"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
-"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
-msgstr ""
-"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
-"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:26
-msgid ""
-"<link xlink:href=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</link>"
-msgstr ""
-"<link xlink:href=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</link>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:29
-msgid ""
-"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
-msgstr ""
-"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
-
-#. (itstool) path: section/title
-#: C/developers.xml:35
-msgid "Other gtkmm developers"
-msgstr "Egyéb gtkmm fejlesztők"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:38
-msgid ""
-"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
-"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
-"link>)"
-msgstr ""
-"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
-"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
-"link>)"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:41
-msgid "Karl Nelson"
-msgstr "Karl Nelson"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:44
-msgid ""
-"<link xlink:href=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</link> (<link "
-"xlink:href=\"http://cactus.rulez.org\">cactus.rulez.org</link>)"
-msgstr ""
-"<link xlink:href=\"mailto:cactus@cactus.rulez.org\">Érdi Gergő</link> (<link "
-"xlink:href=\"http://cactus.rulez.org\">cactus.rulez.org</link>)"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:47
-msgid ""
-"<link xlink:href=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</link>"
-msgstr ""
-"<link xlink:href=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</link>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:50
-msgid ""
-"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
-msgstr ""
-"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:53
-msgid "<link xlink:href=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</link>"
-msgstr "<link xlink:href=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</link>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:56
-msgid "<link xlink:href=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</link>"
-msgstr "<link xlink:href=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</link>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:59
-msgid ""
-"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
-"link>"
-msgstr ""
-"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
-"link>"
-
-#. (itstool) path: section/title
-#: C/developers.xml:65
-msgid "Previous maintainers"
-msgstr "Korábbi karbantartók"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:68
-msgid ""
-"<link xlink:href=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</"
-"link>"
-msgstr ""
-"<link xlink:href=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</"
-"link>"
-
-#. (itstool) path: listitem/para
-#: C/developers.xml:71
-msgid ""
-"<link xlink:href=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</link>"
-msgstr ""
-"<link xlink:href=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</link>"
-
-#. (itstool) path: section/para
-#: C/developers.xml:78
-msgid ""
-"There have been many patches, bug fixes and improvements from a lot of "
-"people. Thanks to them."
-msgstr ""
-"Rengeteg javítófolt, hibajavítás és továbbfejlesztés történt sok embertől. "
-"Köszönet nekik."
-
-#. (itstool) path: section/title
-#: C/documentation.xml:15
-msgid "Documentation Overview"
-msgstr "Dokumentáció áttekintése"
+#: C/git.xml:21
+msgid "<emphasis role=\"bold\">Anonymous Access</emphasis>"
+msgstr "<emphasis role=\"bold\">Névtelen hozzáférés</emphasis>"
 
 #. (itstool) path: note/para
-#: C/documentation.xml:17
+#: C/git.xml:22
 msgid ""
-"This documentation is for the gtkmm-4.0 API, where nothing else is said. "
-"There is an older gtkmm API, called gtkmm-3.0, which can be installed in "
-"parallel. The gtkmm-3.0/gtkmm-4.0 names refer to the API/ABI series and not "
-"the release version. For instance, gtkmm 3.24.0 is a version of the "
-"gtkmm-3.0 API."
+"For those who do not have a GNOME login, anonymous checkouts are available."
 msgstr ""
-"Ez a dokumentáció a gtkmm-4.0 API-ra vonatkozik, ahol semmi másról nincs "
-"szó. Létezik egy régebbi gtkmm API, a gtkmm-3.0, amely párhuzamosan "
-"telepíthető. A gtkmm-3.0/gtkmm-4.0 nevek az API/ABI sorozatra utalnak, nem "
-"pedig a kiadás verziójára. Például a gtkmm 3.24.0 a gtkmm-3.0 API verziója."
+"Azok számára, akiknek nincs GNOME bejelentkezésük, elérhető a névtelen "
+"letöltés."
 
 #. (itstool) path: note/para
-#: C/documentation.xml:21
+#: C/git.xml:24
 msgid ""
-"There are even older API versions, such as gtkmm-2.4. Those versions are no "
-"longer supported."
+"For instance, to check out the latest version of gtkmm: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 msgstr ""
-"Vannak még régebbi API-verziók is, mint például a gtkmm-2.4. Ezek a verziók "
-"már nem támogatottak."
-
-#. (itstool) path: section/para
-#: C/documentation.xml:24
-msgid ""
-"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link xlink:href="
-"\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
-"\">gtkmm-list post.</link>"
-msgstr ""
-"A gtkmm-3.0 és gtkmm-4.0 függőségei egy <link xlink:href=\"https://mail."
-"gnome.org/archives/gtkmm-list/2020-December/msg00013.html\">gtkmm-list "
-"bejegyzésben</link> vannak felsorolva."
+"Például gtkmm legfrissebb verziójának letöltéséhez: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
 
 #. (itstool) path: section/title
-#: C/documentation.xml:28
-msgid "Getting Started with gtkmm"
-msgstr "Első lépések a gtkmm-mel"
+#: C/git.xml:28
+msgid "Modules and branches"
+msgstr "Modulok és ágak"
 
 #. (itstool) path: section/para
-#: C/documentation.xml:29
+#: C/git.xml:29
 msgid ""
-"You might start by reading the <emphasis role=\"bold\">Programming with "
-"gtkmm</emphasis> online book."
+"We are synchronized with the GNOME release schedule, so we use <link xlink:"
+"href=\"https://wiki.gnome.org/MaintainersCorner#branches\">standard GNOME "
+"branch names</link>."
 msgstr ""
-"Kezdheti a <emphasis role=\"bold\">Programozás a gtkmm-mel</emphasis> online "
-"könyv elolvasásával."
-
-#. (itstool) path: section/para
-#: C/documentation.xml:30
-msgid ""
-"<link xlink:href=\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/index."
-"html\">Contents</link> of the whole online book, gtkmm-3.0."
-msgstr ""
-"A teljes online könyv <link xlink:href=\"https://developer-old.gnome.org/"
-"gtkmm-tutorial/3.24/index.html\">Tartalomjegyzéke</link>, gtkmm-3.0."
-
-#. (itstool) path: section/para
-#: C/documentation.xml:31
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"index.html\">Contents</link> of the whole online book, gtkmm-4.0."
-msgstr ""
-"A teljes online könyv <link xlink:href=\"https://gnome.pages.gitlab.gnome."
-"org/gtkmm-documentation/index.html\">Tartalomjegyzéke</link>, gtkmm-4.0."
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:34
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-installation.html\">Installation</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-installation.html\">Telepítés</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:37
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-basics.html\">Basics</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-basics.html\">Alapok</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:40
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-signals.html\">Signals</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-signals.html\">Szignálok</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:43
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-container-widgets.html\">Container Widgets</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-container-widgets.html\">Konténer felületi elemek</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:46
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-treeview.html\">TreeView</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-treeview.html\">Fanézet (TreeView)</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:49
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-menus-and-toolbars.html\">Menus and Toolbars</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-menus-and-toolbars.html\">Menük és eszköztárak</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:52
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-memory.html\">Memory Management</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-memory.html\">Memóriakezelés</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:55
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-builder.html\">Glade and Gtk::Builder</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-builder.html\">Glade és a Gtk::Builder</link>"
-
-#. (itstool) path: section/para
-#: C/documentation.xml:32
-msgid "Selected chapters:<_:itemizedlist-1/>"
-msgstr "Kiválasztott fejezetek:<_:itemizedlist-1/>"
+"A GNOME kiadási ütemtervével vagyunk szinkronban, így a <link xlink:href="
+"\"https://wiki.gnome.org/MaintainersCorner#branches\">szabványos GNOME "
+"ágneveket</link> használjuk."
 
 #. (itstool) path: section/title
-#: C/documentation.xml:61
-msgid "API Reference"
-msgstr "API-hivatkozás"
+#: C/git.xml:32
+msgid "gtkmm and glibmm"
+msgstr "gtkmm és glibmm"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:64
-msgid "gtkmm (Gtk::)"
-msgstr "gtkmm (Gtk::)"
+#: C/git.xml:35 C/git.xml:82 C/git.xml:114
+msgid "Component"
+msgstr "Összetevő"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:65
-msgid "glibmm (Glib::)"
-msgstr "glibmm (Glib::)"
+#: C/git.xml:36 C/git.xml:115
+msgid "Version"
+msgstr "Verzió"
 
 #. (itstool) path: tr/th
-#: C/documentation.xml:66
-msgid "giomm (Gio::)"
-msgstr "giomm (Gio::)"
+#: C/git.xml:37 C/git.xml:84 C/git.xml:116
+msgid "Git Module"
+msgstr "Git modul"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:72
-msgid ""
-"<emphasis role=\"bold\"> <link xlink:href=\"https://gnome.pages.gitlab.gnome."
-"org/gtkmm/hierarchy.html\">Hierarchy</link> </emphasis>"
-msgstr ""
-"<emphasis role=\"bold\"> <link xlink:href=\"https://gnome.pages.gitlab.gnome."
-"org/gtkmm/hierarchy.html\">Hierarchia</link> </emphasis>"
+#. (itstool) path: tr/th
+#: C/git.xml:38 C/git.xml:85 C/git.xml:117
+msgid "Branch name"
+msgstr "Ág neve"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:77
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Widgets."
-"html\">Widgets</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Widgets."
-"html\">Felületi elemek</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:41 C/git.xml:47
+msgid "gtkmm-4.0"
+msgstr "gtkmm-4.0"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:80
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__Containers.html\">Containers</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__Containers.html\">Konténerek</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:42 C/git.xml:60
+msgid "latest"
+msgstr "latest"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:83
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__TreeView.html\">TreeView</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__TreeView.html\">Fanézet (TreeView)</link>"
+#. (itstool) path: tr/td
+#. (itstool) path: info/title
+#: C/git.xml:43 C/git.xml:49 C/git.xml:55 C/index.docbook:17
+msgid "gtkmm"
+msgstr "gtkmm"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:86
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__TextView.html\">TextView</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__TextView.html\">Szövegnézet (TextView)</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:44 C/git.xml:62 C/git.xml:91 C/git.xml:97 C/git.xml:103
+#: C/git.xml:123 C/git.xml:129 C/git.xml:135 C/git.xml:141
+msgid "master"
+msgstr "master"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:89
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Dialogs."
-"html\">Dialogs</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Dialogs."
-"html\">Párbeszédablakok</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:48
+msgid "4.2"
+msgstr "4.2"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:92
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"classGtk_1_1Application.html\">Application</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"classGtk_1_1Application.html\">Alkalmazás</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:50
+msgid "gtkmm-4-2"
+msgstr "gtkmm-4-2"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:95
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__gtkmmEnums.html\">enums and flags</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
-"group__gtkmmEnums.html\">enumok és jelzők</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:53
+msgid "gtkmm-3.0"
+msgstr "gtkmm-3.0"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:98
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/namespaceGtk."
-"html\">Gtk Namespace</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/namespaceGtk."
-"html\">Gtk névtér</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:54
+msgid "3.24"
+msgstr "3.24"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:105
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"classGlib_1_1ustring.html\">ustring</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"classGlib_1_1ustring.html\">ustring</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:56
+msgid "gtkmm-3-24"
+msgstr "gtkmm-3-24"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:108
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"classGlib_1_1Error.html\">Exceptions</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"classGlib_1_1Error.html\">Kivételek</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:59 C/git.xml:65
+msgid "glibmm-2.68"
+msgstr "glibmm-2.68"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:113
-msgid "RefPtr&lt;&gt;"
-msgstr "RefPtr&lt;&gt;"
+#. (itstool) path: tr/td
+#: C/git.xml:61 C/git.xml:67 C/git.xml:73
+msgid "glibmm"
+msgstr "glibmm"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:116
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__MainLoop.html\">Main Event loop</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__MainLoop.html\">Fő eseményciklus</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:66
+msgid "2.68"
+msgstr "2.68"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:119
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/group__Spawn."
-"html\">Spawning Processes</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/group__Spawn."
-"html\">Processzek indítása</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:68
+msgid "glibmm-2-68"
+msgstr "glibmm-2-68"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:122
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__MiscUtils.html\">Miscellaneous Utility Functions</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__MiscUtils.html\">Egyéb segédfüggvények</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:71
+msgid "glibmm-2.4"
+msgstr "glibmm-2.4"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:125
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__CharsetConv.html\">Character set conversion</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__CharsetConv.html\">Karakterkészlet átalakítások</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:72
+msgid "2.66"
+msgstr "2.66"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:128
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGlib."
-"html\">Glib Namespace</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGlib."
-"html\">Glib névtér</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:135
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"classGio_1_1File.html\">File</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"classGio_1_1File.html\">Fájl</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:138
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__Streams.html\">Streams</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
-"group__Streams.html\">Folyamok</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:141
-msgid ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGio."
-"html\">Gio Namespace</link>"
-msgstr ""
-"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGio."
-"html\">Gio névtér</link>"
+#. (itstool) path: tr/td
+#: C/git.xml:74
+msgid "glibmm-2-66"
+msgstr "glibmm-2-66"
 
 #. (itstool) path: section/title
-#: C/documentation.xml:150
-msgid "Extra Modules"
-msgstr "További modulok"
+#: C/git.xml:79 C/main.xml:89
+msgid "gnomemm"
+msgstr "gnomemm"
+
+#. (itstool) path: tr/th
+#: C/git.xml:83
+msgid "API Version"
+msgstr "API verzió"
+
+#. (itstool) path: tr/td
+#: C/git.xml:88 C/git.xml:90
+msgid "libglademm"
+msgstr "libglademm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:94 C/git.xml:96
+msgid "gconfmm"
+msgstr "gconfmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:100 C/git.xml:102
+msgid "libgnomecanvasmm"
+msgstr "libgnomecanvasmm"
+
+#. (itstool) path: section/title
+#: C/git.xml:109
+msgid "*mm bindings for other GNOME-related APIs"
+msgstr "*mm kötések más GNOME-hoz kapcsolódó API-khoz"
 
 #. (itstool) path: section/para
-#: C/documentation.xml:151
+#: C/git.xml:110
 msgid ""
-"API reference documentation for other C++ modules, such as pangomm, "
-"gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <link "
-"xlink:href=\"https://developer-old.gnome.org/references#c++-bindings"
-"\">developer-old.gnome.org C++ Bindings</link> section. However, this "
-"website is not updated any more."
+"The following bindings are not necessarily on the same schedule as those "
+"listed above."
 msgstr ""
-"Az API-hivatkozás dokumentáció más C++ modulokhoz, mint a pangomm, "
-"gstreamermm, libgdamm, goocanvasmm stb. szintén elérhető a <link xlink:href="
-"\"https://developer-old.gnome.org/references#c++-bindings\">developer-old."
-"gnome.org C++ kötések</link> szakaszban. Azonban ezt a weboldalt többé már "
-"nem frissítik."
+"A következő kötések nem feltétlenül ugyanazt az ütemtervet követik mint a "
+"fentiek."
 
-#. (itstool) path: section/title
-#: C/documentation.xml:158
-msgid "Other Information"
-msgstr "Egyéb információk"
+#. (itstool) path: tr/td
+#: C/git.xml:120 C/git.xml:122
+msgid "libgdamm"
+msgstr "libgdamm"
 
-#. (itstool) path: tr/th
-#: C/documentation.xml:161
-msgid "External Documentation"
-msgstr "Külső dokumentáció"
+#. (itstool) path: tr/td
+#: C/git.xml:126 C/git.xml:128
+msgid "libgnomedbmm"
+msgstr "libgnomedbmm"
 
-#. (itstool) path: tr/th
-#: C/documentation.xml:162
-msgid "Unusual Platforms"
-msgstr "Szokatlan platformok"
+#. (itstool) path: tr/td
+#: C/git.xml:132 C/git.xml:134
+msgid "goocanvasmm"
+msgstr "goocanvasmm"
 
-#. (itstool) path: listitem/para
-#: C/documentation.xml:168
-msgid ""
-"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
-"\">libsigc++ website</link>"
-msgstr ""
-"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
-"\">libsigc++ weboldal</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:171
-msgid "<link xlink:href=\"https://docs.gtk.org/gtk3/\">GTK3 reference</link>"
-msgstr "<link xlink:href=\"https://docs.gtk.org/gtk3/\">GTK3 hivatkozás</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:174
-msgid "<link xlink:href=\"https://docs.gtk.org/gtk4/\">GTK4 reference</link>"
-msgstr "<link xlink:href=\"https://docs.gtk.org/gtk4/\">GTK4 hivatkozás</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:177
-msgid ""
-"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
-"index.html\">Standard C++ Library (STL)</link>"
-msgstr ""
-"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
-"index.html\">Szabványos C++ programkönyvtár (STL)</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:184
-msgid ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
-"SUN\">Solaris, with Sun's Forte C++.</link>"
-msgstr ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
-"SUN\">Solaris, a Sun Forte C++-ával.</link>"
-
-#. (itstool) path: listitem/para
-#: C/documentation.xml:187
-msgid ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
-"win32\">Windows, with mingw and cygwin</link>"
-msgstr ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
-"win32\">Windows, mingw és cygwin használatával</link>"
-
-#. (itstool) path: section/title
-#: C/documentation.xml:196
-msgid "Examples"
-msgstr "Példák"
-
-#. (itstool) path: section/para
-#: C/documentation.xml:197
-msgid ""
-"Sometimes you need to look at examples to figure out how something should "
-"work. Many examples are included in the gtkmm book, but you can also view "
-"them online: <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
-"documentation/tree/master/examples/book/\">gtkmm examples</link>"
-msgstr ""
-"Néha példákat kell néznie ahhoz, hogy rájöjjön, hogyan kellene valaminek "
-"működnie. Sok példa szerepel a gtkmm könyvben, de az interneten is "
-"megnézheti azokat: <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
-"documentation/tree/master/examples/book/\">gtkmm példák</link>"
-
-#. (itstool) path: section/title
-#: C/download.xml:8
-msgid "Downloading"
-msgstr "Letöltés"
+#. (itstool) path: tr/td
+#: C/git.xml:138 C/git.xml:140
+msgid "libpanelappletmm"
+msgstr "libpanelappletmm"
 
 #. (itstool) path: note/para
-#: C/download.xml:10
+#: C/main.xml:11
 msgid ""
-"You should use the <link xlink:href=\"#Binary\">binary packages</link> "
-"provided for your operating system unless you wish to test the latest "
-"versions. However, <link xlink:href=\"#Source\">source packages</link> are "
-"available as well."
+"<application>gtkmm</application> is the official C++ interface for the "
+"popular GUI library <link xlink:href=\"https://www.gtk.org/\">GTK</link>. "
+"Highlights include typesafe callbacks, and a comprehensive set of widgets "
+"that are easily extensible via inheritance. You can create user interfaces "
+"either in code or with the <link xlink:href=\"https://glade.gnome.org/"
+"\">Glade User Interface designer</link>, using Gtk::Builder. There's <link "
+"xlink:href=\"documentation.html\">extensive documentation</link>, including "
+"API reference and a tutorial."
 msgstr ""
-"Az operációs rendszeréhez készült <link xlink:href=\"#Binary\">bináris "
-"csomagokat</link> érdemes használnia, hacsak nem a legfrissebb verziókat "
-"szeretné tesztelni. Azonban a <link xlink:href=\"#Source\">forráscsomagok</"
-"link> is elérhetőek."
+"A <application>gtkmm</application> a hivatalos C++ interfész a népszerű "
+"<link xlink:href=\"https://www.gtk.org/\">GTK</link> GUI programkönyvtárhoz. "
+"A kiemelendő tulajdonságai a típusbiztos visszahívások és egy teljes "
+"felületi elem készlet, amelyek örökléssel könnyen bővíthetőek. A "
+"felhasználói felületek létrehozhatóak kódból és a <link xlink:href=\"https://"
+"glade.gnome.org/\">Glade felhasználóifelület-tervezővel</link>, a Gtk::"
+"Builder használatával. <link xlink:href=\"documentation.html\">Kiterjedt "
+"dokumentáció</link> érhető el, API-hivatkozással és oktatóanyagokkal."
 
 #. (itstool) path: note/para
-#: C/download.xml:12
+#: C/main.xml:20
 msgid ""
-"This page currently mentions gtkmm 3 binary packages. We will update this "
-"page some time as binary packages for gtkmm 4 become available."
+"<application>gtkmm</application> is free software distributed under the GNU "
+"Lesser General Public License (<link xlink:href=\"license.html\">LGPL</"
+"link>)."
 msgstr ""
-"Ez az oldal jelenleg a gtkmm 3 bináris csomagokat említi. Egyszer majd "
-"frissítjük ezt az oldalt, amint a gtkmm 4 bináris csomagjai elérhetővé "
-"válnak."
+"A <application>gtkmm</application> szabad szoftver, amely a GNU Lesser "
+"General Public License (<link xlink:href=\"license.html\">LGPL</link>) "
+"szerint kerül terjesztésre."
 
 #. (itstool) path: section/title
-#: C/download.xml:17
-msgid "<anchor xml:id=\"Binary\"/>Binary"
-msgstr "<anchor xml:id=\"Binary\"/>Bináris"
-
-#. (itstool) path: section/para
-#: C/download.xml:18
-msgid ""
-"You might find a variety of 3rd party RPMs and debs on the internet, but "
-"only the ones listed here are approved by the gtkmm team. Please encourage "
-"your Linux distribution to provide official gtkmm packages."
-msgstr ""
-"Különböző, harmadik féltől származó RPM-eket és deb-eket találhat az "
-"interneten, de csak az itt felsoroltak a gtkmm csapat által jóváhagyottak. "
-"Biztassa a Linux disztribúcióját, hogy hivatalos gtkmm csomagokat "
-"biztosítsanak."
+#: C/main.xml:35
+msgid "Features"
+msgstr "Funkciók"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:21
-msgid ""
-"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
-"<command>apt-get install libgtkmm-3.0-dev</command>These <link xlink:href="
-"\"https://packages.qa.debian.org/g/gtkmm3.0.html\">project pages</link> "
-"might give status."
-msgstr ""
-"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
-"<command>apt-get install libgtkmm-3.0-dev</command> Ezek a <link xlink:href="
-"\"https://packages.qa.debian.org/g/gtkmm3.0.html\">projektoldalak</link> "
-"állapotjelentéssel szolgálhatnak."
+#: C/main.xml:39
+msgid "Use inheritance to derive custom widgets."
+msgstr "Öröklés használata az egyéni felületi elemek származtatásához."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:24
-msgid ""
-"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link xlink:"
-"href=\"https://www.redhat.com\">RedHat</link> Linux: Use <command>yum "
-"install gtkmm30-docs</command> to get the runtime, development, and "
-"documentation packages."
-msgstr ""
-"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link xlink:"
-"href=\"https://www.redhat.com\">RedHat</link> Linux: használja a "
-"<command>yum install gtkmm30-docs</command> parancsot a futtatókörnyezeti, a "
-"fejlesztői és a dokumentációs csomagok beszerzéséhez."
+#: C/main.xml:42
+msgid "Type-safe signal handlers, in standard C++."
+msgstr "Típusbiztos szignálkezelők szabványos C++-ban."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:27
-msgid ""
-"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: Get dev-cpp/"
-"gtkmm."
-msgstr ""
-"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: szerezze be "
-"a dev-cpp/gtkmm csomagot."
+#: C/main.xml:45
+msgid "Polymorphism."
+msgstr "Polimorfizmus."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:30
+#: C/main.xml:48
 msgid ""
-"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: Use "
-"yast to install gtkmm3-devel."
+"Use of Standard C++ Library, including strings, containers, and iterators."
 msgstr ""
-"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: "
-"használja a yast programot a gtkmm3-devel telepítéséhez."
+"A szabványos C++ programkönyvtár használata, beleértve a karakterláncokat, a "
+"konténereket és az iterátorokat."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:33
-msgid ""
-"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
-"<command>apt-get install libgtkmm-3.0-dev</command>"
-msgstr ""
-"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
-"<command>apt-get install libgtkmm-3.0-dev</command>"
+#: C/main.xml:51
+msgid "Full internationalisation with UTF8."
+msgstr "Teljes nemzetköziesítés UTF-8 használatával."
 
 #. (itstool) path: listitem/para
-#: C/download.xml:36
-msgid ""
-"Windows: Here is an <link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/"
-"MSWindows\">installer</link>."
-msgstr ""
-"Windows: itt egy <link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/"
-"MSWindows\">telepítő</link>."
+#: C/main.xml:57
+msgid "Object composition"
+msgstr "Objektum kompozíció"
 
 #. (itstool) path: listitem/para
-#: C/download.xml:44
-msgid ""
-"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <link "
-"xlink:href=\"http://thewrittenword.com\">The Written Word</link> offer "
-"binary gtkmm packages, with package management."
-msgstr ""
-"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc vagy a platform "
-"fordítóprogramjai): A <link xlink:href=\"http://thewrittenword.com\">The "
-"Written Word</link> bináris gtkmm csomagokat kínál, csomagkezeléssel együtt."
+#: C/main.xml:60
+msgid "Automatic deallocation of dynamically allocated widgets."
+msgstr "A dinamikusan allokált felületi elemek automatikus deallokációja."
 
-#. (itstool) path: section/para
-#: C/download.xml:47
-msgid "Please tell us about others."
-msgstr "Írjon nekünk más rendszerekről."
+#. (itstool) path: listitem/para
+#: C/main.xml:54
+msgid "Complete C++ memory management <_:itemizedlist-1/>"
+msgstr "Teljes C++ memóriakezelés <_:itemizedlist-1/>"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:66
+msgid "Full use of C++ namespaces."
+msgstr "C++ névterek teljes használata."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:69
+msgid "No macros."
+msgstr "Nincsenek makrók."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:72
+msgid ""
+"Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC 2013 or later (gtkmm3), MSVC 2017 or later "
+"(gtkmm4)), MacOS X (gcc), others"
+msgstr ""
+"Keresztplatformos: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC 2013 vagy későbbi (gtkmm3), MSVC 2017 vagy későbbi "
+"(gtkmm4)), MacOS X (gcc), egyebek"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:76
+msgid ""
+"Free software and free of cost for both Open Source and proprietary "
+"development."
+msgstr ""
+"Szabad szoftver, költségek nélkül használható nyílt és zárt forráskódú "
+"fejlesztéshez egyaránt."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:80
+msgid "Discussed, designed and implemented in public."
+msgstr "Nyilvánosan megvitatott, tervezett és megvalósított."
 
 #. (itstool) path: section/title
-#: C/download.xml:51
-msgid "<anchor xml:id=\"Source\"/>Source"
-msgstr "<anchor xml:id=\"Source\"/>Forrás"
+#: C/main.xml:87
+msgid "Other gtkmm-related libraries"
+msgstr "Egyéb gtkmm-hez kapcsolódó programkönyvtárak"
 
 #. (itstool) path: section/para
-#: C/download.xml:52
+#: C/main.xml:90
 msgid ""
-"Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions "
-"(such as 3.15.x) are unstable development versions."
+"gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
+"GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
+"parser, or database access. Even our signal/slots system is part of a "
+"separate (<link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link>) library. However, gtkmm is designed to "
+"work well with all other C++ libraries."
 msgstr ""
-"A páros számozású verziók (mint a 3.16.x) stabilak. A páratlan számozású "
-"verziók (mint a 3.15.x) nem stabil, fejlesztői verziók."
-
-#. (itstool) path: listitem/para
-#: C/download.xml:55
-msgid ""
-"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
-msgstr ""
-"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
-
-#. (itstool) path: listitem/para
-#: C/download.xml:58
-msgid ""
-"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
-msgstr ""
-"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
-
-#. (itstool) path: listitem/para
-#: C/download.xml:61
-msgid ""
-"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
-"\">goocanvasmm</link>"
-msgstr ""
-"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
-"\">goocanvasmm</link>"
-
-#. (itstool) path: listitem/para
-#: C/download.xml:64
-msgid ""
-"<link xlink:href=\"https://download.gnome.org/sources/libgdamm/\">libgdamm</"
-"link>"
-msgstr ""
-"<link xlink:href=\"https://download.gnome.org/sources/libgdamm/\">libgdamm</"
-"link>"
-
-#. (itstool) path: section/title
-#: C/download.xml:70
-msgid "Requirements"
-msgstr "Követelmények"
-
-#. (itstool) path: listitem/para
-#: C/download.xml:73
-msgid "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
-msgstr "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
-
-#. (itstool) path: listitem/para
-#: C/download.xml:76
-msgid ""
-"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
-"\">libsigc++</link>"
-msgstr ""
-"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
-"\">libsigc++</link>"
-
-#. (itstool) path: section/title
-#: C/download.xml:82
-msgid "GTK"
-msgstr "GTK"
+"A gtkmm egy GUI eszközkészlet és semmi több. A célja, hogy a legjobb C++ GUI "
+"eszközkészlet legyen. Ez a cél nem fedi le az általános C++ "
+"adatszerkezeteket, XML-feldolgozókat vagy az adatbázis-elérést. Még a saját "
+"szignál/foglalat rendszerünk is egy másik könyvtár (<link xlink:href="
+"\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>) "
+"része. Azonban a gtkmm úgy lett tervezve, hogy jól együttműködjön minden más "
+"C++ programkönyvtárral."
 
 #. (itstool) path: section/para
-#: C/download.xml:83
+#: C/main.xml:97
 msgid ""
-"You can download GTK and GNOME source code from <link xlink:href=\"https://"
-"download.gnome.org/sources/\">download.gnome.org/sources/</link>."
+"The gnomemm libraries cover some of these other tasks, but they are optional."
 msgstr ""
-"A GTK és GNOME forráskódot a <link xlink:href=\"https://download.gnome.org/"
-"sources/\">download.gnome.org/sources/</link> oldalról töltheti le."
+"A gnomemm programkönyvtárak lefednek néhány ilyen egyéb feladatot is, de "
+"használatuk nem kötelező."
+
+#. (itstool) path: section/title
+#: C/main.xml:104
+msgid "libsigc++"
+msgstr "libsigc++"
+
+#. (itstool) path: section/para
+#: C/main.xml:105
+msgid ""
+"Also, be sure to check out our companion libraries, glibmm (UTF8 strings, "
+"threading, etc) and <link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link> (signal/slots)."
+msgstr ""
+"Tekintse meg a többi társprogramkönyvtárunkat is, a glibmm-et (UTF-8 "
+"karakterláncok, szálkezelés stb.) és a <link xlink:href=\"https://"
+"libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>-t (szignál/"
+"foglalat)."
+
+#. (itstool) path: section/title
+#: C/main.xml:111 C/books.xml:47
+msgid "Others"
+msgstr "Egyebek"
+
+#. (itstool) path: section/para
+#: C/main.xml:112
+msgid ""
+"Be sure to check out <link xlink:href=\"http://bakery.sourceforge.net/"
+"\">Bakery</link>, a framework for constructing gtkmm/gnomemm applications. "
+"It allows use of the Document/View architecture."
+msgstr ""
+"Nézze meg a <link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</"
+"link>-t is, ami egy gtkmm/gnomemm alkalmazások létrehozásához készült "
+"keretrendszer. Segítségével használhatja a Dokumentum/Nézet architektúrát."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:8
+msgid "Discussion"
+msgstr "Beszélgetés"
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:10
+msgid "Where can gtkmm be discussed?"
+msgstr "Hol lehet a gtkmm-t megvitatni?"
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:13
+#| msgid ""
+#| "For general GTK discussion, please use the GNOME <link xlink:href="
+#| "\"https://discourse.gnome.org\">Discourse</link> instance, under the "
+#| "<link xlink:href=\"https://discourse.gnome.org/c/platform/core\">Platform/"
+#| "Core</link> category."
+msgid ""
+"C++ modules such as <emphasis role=\"bold\">gtkmm</emphasis> and <emphasis "
+"role=\"bold\">glibmm</emphasis>: Use GNOME's <link xlink:href=\"https://"
+"discourse.gnome.org\">Discourse forum</link>, under the <link xlink:href="
+"\"https://discourse.gnome.org/c/platform/language-bindings\"> Platform/"
+"Language bindings</link> category with a <literal>cplusplus</literal> tag."
+msgstr ""
+"C++ modulok, mint például <emphasis role=\"bold\">gtkmm</emphasis> és <"
+"emphasis role=\"bold\">glibmm</emphasis>: használja a GNOME <link"
+" xlink:href=\"https://discourse.gnome.org\">Discourse fórumát</link> a <link"
+" xlink:href="
+"\"https://discourse.gnome.org/c/platform/language-bindings\""
+">Platform/Language bindings</link> kategória alatt a <literal>cplusplus<"
+"/literal> címkével."
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:20
+#| msgid ""
+#| "For general GTK discussion, please use the GNOME <link xlink:href="
+#| "\"https://discourse.gnome.org\">Discourse</link> instance, under the "
+#| "<link xlink:href=\"https://discourse.gnome.org/c/platform/core\">Platform/"
+#| "Core</link> category."
+msgid ""
+"For general GTK discussion, please use the <link xlink:href=\"https://"
+"discourse.gnome.org/c/platform/core\"> Platform/Core</link> category."
+msgstr ""
+"Az általános GTK beszélgetésekhez használja a <link"
+" xlink:href=\"https://discourse.gnome.org/c/platform/core\">Platform/Core<"
+"/link> kategóriát."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:28
+#| msgid "What subject material is appropriate for the list?"
+msgid "What subject material is appropriate to discuss?"
+msgstr "Milyen témájú anyagokat érdemes megvitatni?"
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:29
+#| msgid ""
+#| "The mailing lists are used for discussion of development, suggestions, "
+#| "and improvements of the C++ wrappers themselves. There is also discussion "
+#| "of the use of the wrapper. Questions about the underlying GTK widget set "
+#| "are more likely to be answered quickly through the Discourse platform. "
+#| "Bugs are better reported and discussed in GitLab issues and merge "
+#| "requests."
+msgid ""
+"The Discourse forum is used for discussion of development, suggestions, and "
+"improvements of the C++ wrappers themselves. There is also discussion of the "
+"use of the wrapper. Bugs are better reported and discussed in GitLab issues "
+"and merge requests."
+msgstr ""
+"A Discourse fórum a fejlesztés megvitatására, javaslatokra és maguknak a C++"
+" csomagolók továbbfejlesztésére szolgál. A csomagoló használatának"
+" megbeszélésére is van fórum. A hibákat jobb a GitLab hibajelentésekben és"
+" beolvasztási kérésekben jelenteni és megvitatni."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:36
+#| msgid "List Archives"
+msgid "Mailing List Archives"
+msgstr "Levelezőlista archívumok"
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:37
+#| msgid ""
+#| "gtkmm-list <link xlink:href=\"https://mail.gnome.org/archives/gtkmm-list/"
+#| "\">archive</link>."
+msgid ""
+"There is an old mailing list, which is now closed for new posts. It is "
+"archived at the <link xlink:href=\"https://mail.gnome.org/archives/gtkmm-"
+"list/\"> gtkmm-list archive</link>."
+msgstr ""
+"Létezik egy régi levelezőlista, amely már nem fogad új hozzászólásokat. A"
+" levelezőlista a <link xlink:href=\"https://mail.gnome.org/archives/gtkmm-list"
+"/\">gtkmm-list archívumban</link> van archiválva."
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:40
+msgid ""
+"<link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> archives "
+"messages even from before 2002, and has a more reliable search engine."
+msgstr ""
+"A <link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> archiválja az "
+"üzeneteket 2002 előttről is, és megbízhatóbb keresőmotorja van."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:45
+msgid "IRC channel"
+msgstr "IRC csatorna"
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:46
+#| msgid ""
+#| "We also discuss development in the <emphasis role=\"bold\">#c++</"
+#| "emphasis> channel on irc.gnome.org, but questions are more likely to be "
+#| "answered properly on the mailing list. Plus, the mailing list is "
+#| "archived, so others can benefit from the answers."
+msgid ""
+"Development can also be discussed in the <emphasis role=\"bold\">#c++</"
+"emphasis> channel on <link xlink:href=\"irc://irc.gnome.org/#c++\"/>, but "
+"questions are more likely to be answered properly on Discourse. Plus, "
+"Discourse is archived, so others can benefit from the answers."
+msgstr ""
+"A fejlesztést az <link xlink:href=\"irc://irc.gnome.org/#c++\"/> kiszolgálón"
+" lévő <emphasis role=\"bold\">#c++</emphasis> csatornán is meg lehet vitatni,"
+" de a kérdések a Discourse fórumon nagyobb valószínűséggel kerülnek"
+" megválaszolásra. Ráadásul a Discourse archiválva van, így mások is hasznát"
+" vehetik a válaszoknak."
 
 #. (itstool) path: section/title
 #: C/extra.xml:8
@@ -2596,399 +2002,6 @@ msgid "<link xlink:href=\"https://www.gimp.org/\">Gimp homepage</link>"
 msgstr "<link xlink:href=\"https://www.gimp.org/\">Gimp honlap</link>"
 
 #. (itstool) path: section/title
-#: C/git.xml:8
-msgid "Git"
-msgstr "Git"
-
-#. (itstool) path: section/para
-#: C/git.xml:9
-msgid ""
-"We use <link xlink:href=\"https://git-scm.com/\">Git</link> to maintain our "
-"source code, in the <link xlink:href=\"https://www.gnome.org\">GNOME</link> "
-"Git repository. Additional information about gitlab.gnome.org is available "
-"at <link xlink:href=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</link>."
-msgstr ""
-"A <link xlink:href=\"https://git-scm.com/\">Git</link> verziókezelőt "
-"használjuk a forráskód karbantartására a <link xlink:href=\"https://www."
-"gnome.org\">GNOME</link> Git tárolójában. A gitlab.gnome.org oldallal "
-"kapcsolatos további információk a <link xlink:href=\"https://wiki.gnome.org/"
-"Git\">wiki.gnome.org/Git</link> oldalon érhetők el."
-
-#. (itstool) path: section/para
-#: C/git.xml:12
-msgid ""
-"glibmm and gtkmm are in the <link xlink:href=\"https://gitlab.gnome.org/"
-"GNOME/glibmm/\">glibmm</link> and <link xlink:href=\"https://gitlab.gnome."
-"org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link xlink:href="
-"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
-"link> module which contains the gtkmm book and its examples. See below for "
-"instructions."
-msgstr ""
-"A glibmm és a gtkmm a <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
-"glibmm/\">glibmm</link> és <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
-"gtkmm/\">gtkmm</link> modulokban található. Létezik egy <link xlink:href="
-"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
-"link> modul is, amely a gtkmm könyvet és a példáit tartalmazza. Nézze meg "
-"lent az utasításokat."
-
-#. (itstool) path: section/para
-#: C/git.xml:14
-msgid ""
-"Meson is the recommended build system. If you build with Autotools "
-"(autoconf, automake,etc.), you will need to run the autogen.sh script to "
-"generate the build files. We recommend <link xlink:href=\"https://gitlab."
-"gnome.org/GNOME/jhbuild\">jhbuild</link> or <link xlink:href=\"https://"
-"gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-meta</link> for "
-"setting up a separate development prefix."
-msgstr ""
-"A Meson az ajánlott összeállítási rendszer. Ha Autotools (autoconf, automake "
-"stb.) segítségével állít össze, akkor az autogen.sh parancsfájlt kell "
-"futtatnia az összeállítási fájlok előállításához. A <link xlink:href="
-"\"https://gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> vagy a <link xlink:"
-"href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-meta</"
-"link> programokat ajánljuk egy különálló fejlesztői előtag beállításához."
-
-#. (itstool) path: note/para
-#: C/git.xml:21
-msgid "<emphasis role=\"bold\">Anonymous Access</emphasis>"
-msgstr "<emphasis role=\"bold\">Névtelen hozzáférés</emphasis>"
-
-#. (itstool) path: note/para
-#: C/git.xml:22
-msgid ""
-"For those who do not have a GNOME login, anonymous checkouts are available."
-msgstr ""
-"Azok számára, akiknek nincs GNOME bejelentkezésük, elérhető a névtelen "
-"letöltés."
-
-#. (itstool) path: note/para
-#: C/git.xml:24
-msgid ""
-"For instance, to check out the latest version of gtkmm: <command>git clone "
-"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
-msgstr ""
-"Például gtkmm legfrissebb verziójának letöltéséhez: <command>git clone "
-"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
-
-#. (itstool) path: section/title
-#: C/git.xml:28
-msgid "Modules and branches"
-msgstr "Modulok és ágak"
-
-#. (itstool) path: section/para
-#: C/git.xml:29
-msgid ""
-"We are synchronized with the GNOME release schedule, so we use <link xlink:"
-"href=\"https://wiki.gnome.org/MaintainersCorner#branches\">standard GNOME "
-"branch names</link>."
-msgstr ""
-"A GNOME kiadási ütemtervével vagyunk szinkronban, így a <link xlink:href="
-"\"https://wiki.gnome.org/MaintainersCorner#branches\">szabványos GNOME "
-"ágneveket</link> használjuk."
-
-#. (itstool) path: section/title
-#: C/git.xml:32
-msgid "gtkmm and glibmm"
-msgstr "gtkmm és glibmm"
-
-#. (itstool) path: tr/th
-#: C/git.xml:35 C/git.xml:82 C/git.xml:114
-msgid "Component"
-msgstr "Összetevő"
-
-#. (itstool) path: tr/th
-#: C/git.xml:36 C/git.xml:115
-msgid "Version"
-msgstr "Verzió"
-
-#. (itstool) path: tr/th
-#: C/git.xml:37 C/git.xml:84 C/git.xml:116
-msgid "Git Module"
-msgstr "Git modul"
-
-#. (itstool) path: tr/th
-#: C/git.xml:38 C/git.xml:85 C/git.xml:117
-msgid "Branch name"
-msgstr "Ág neve"
-
-#. (itstool) path: tr/td
-#: C/git.xml:41 C/git.xml:47
-msgid "gtkmm-4.0"
-msgstr "gtkmm-4.0"
-
-#. (itstool) path: tr/td
-#: C/git.xml:42 C/git.xml:60
-msgid "latest"
-msgstr "latest"
-
-#. (itstool) path: tr/td
-#: C/git.xml:44 C/git.xml:62 C/git.xml:91 C/git.xml:97 C/git.xml:103
-#: C/git.xml:123 C/git.xml:129 C/git.xml:135 C/git.xml:141
-msgid "master"
-msgstr "master"
-
-#. (itstool) path: tr/td
-#: C/git.xml:48
-msgid "4.2"
-msgstr "4.2"
-
-#. (itstool) path: tr/td
-#: C/git.xml:50
-msgid "gtkmm-4-2"
-msgstr "gtkmm-4-2"
-
-#. (itstool) path: tr/td
-#: C/git.xml:53
-msgid "gtkmm-3.0"
-msgstr "gtkmm-3.0"
-
-#. (itstool) path: tr/td
-#: C/git.xml:54
-msgid "3.24"
-msgstr "3.24"
-
-#. (itstool) path: tr/td
-#: C/git.xml:56
-msgid "gtkmm-3-24"
-msgstr "gtkmm-3-24"
-
-#. (itstool) path: tr/td
-#: C/git.xml:59 C/git.xml:65
-msgid "glibmm-2.68"
-msgstr "glibmm-2.68"
-
-#. (itstool) path: tr/td
-#: C/git.xml:61 C/git.xml:67 C/git.xml:73
-msgid "glibmm"
-msgstr "glibmm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:66
-msgid "2.68"
-msgstr "2.68"
-
-#. (itstool) path: tr/td
-#: C/git.xml:68
-msgid "glibmm-2-68"
-msgstr "glibmm-2-68"
-
-#. (itstool) path: tr/td
-#: C/git.xml:71
-msgid "glibmm-2.4"
-msgstr "glibmm-2.4"
-
-#. (itstool) path: tr/td
-#: C/git.xml:72
-msgid "2.66"
-msgstr "2.66"
-
-#. (itstool) path: tr/td
-#: C/git.xml:74
-msgid "glibmm-2-66"
-msgstr "glibmm-2-66"
-
-#. (itstool) path: tr/th
-#: C/git.xml:83
-msgid "API Version"
-msgstr "API verzió"
-
-#. (itstool) path: tr/td
-#: C/git.xml:88 C/git.xml:90
-msgid "libglademm"
-msgstr "libglademm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:94 C/git.xml:96
-msgid "gconfmm"
-msgstr "gconfmm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:100 C/git.xml:102
-msgid "libgnomecanvasmm"
-msgstr "libgnomecanvasmm"
-
-#. (itstool) path: section/title
-#: C/git.xml:109
-msgid "*mm bindings for other GNOME-related APIs"
-msgstr "*mm kötések más GNOME-hoz kapcsolódó API-khoz"
-
-#. (itstool) path: section/para
-#: C/git.xml:110
-msgid ""
-"The following bindings are not necessarily on the same schedule as those "
-"listed above."
-msgstr ""
-"A következő kötések nem feltétlenül ugyanazt az ütemtervet követik mint a "
-"fentiek."
-
-#. (itstool) path: tr/td
-#: C/git.xml:120 C/git.xml:122
-msgid "libgdamm"
-msgstr "libgdamm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:126 C/git.xml:128
-msgid "libgnomedbmm"
-msgstr "libgnomedbmm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:132 C/git.xml:134
-msgid "goocanvasmm"
-msgstr "goocanvasmm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:138 C/git.xml:140
-msgid "libpanelappletmm"
-msgstr "libpanelappletmm"
-
-#. (itstool) path: section/title
-#: C/license.xml:8
-msgid "License"
-msgstr "Licenc"
-
-#. (itstool) path: section/para
-#: C/license.xml:9
-msgid ""
-"gtkmm is licensed under the <link xlink:href=\"https://www.gnu.org\">GNU</"
-"link> Lesser General Public License (<link xlink:href=\"https://www.gnu.org/"
-"licenses/lgpl.html#TOC1\">LGPL</link>) for all platforms. Our intent in "
-"licensing it in this way is to provide it for use through shared libraries "
-"in all projects both open and proprietary. Other GNU projects may of course "
-"integrate and link in a static manner. The full body of the license is "
-"provided for your inspection."
-msgstr ""
-"A gtkmm a <link xlink:href=\"https://www.gnu.org\">GNU</link> Lesser General "
-"Public License (<link xlink:href=\"https://www.gnu.org/licenses/lgpl."
-"html#TOC1\">LGPL</link>) szerint licencelt minden platformon. A célunk az "
-"effajta licenceléssel az, hogy elérhetővé tegyük minden programnak, hogy "
-"osztott könyvtárként használja, legyen az nyílt vagy zárt forráskódú. Más "
-"GNU projektek persze integrálhatják és hivatkozhatják statikus módon is. A "
-"licenc teljes törzse elérhető az Ön számára."
-
-#. (itstool) path: section/para
-#: C/license.xml:15
-msgid ""
-"This is the only license which grants you use of the software, so if you do "
-"not agree to its terms, you may not use this software."
-msgstr ""
-"Ez az egyetlen licenc, amely biztosítja a szoftver használatát, tehát ha nem "
-"ért egyet a feltételekkel, akkor nem használhatja a szoftvert."
-
-#. (itstool) path: note/para
-#: C/license.xml:18
-msgid ""
-"Note that this license <emphasis role=\"bold\">does not require you to "
-"release the source code of your own applications or libraries</emphasis> and "
-"<emphasis role=\"bold\">does not require you to pay any fees.</emphasis>"
-msgstr ""
-"Megjegyzendő, hogy a licenc <emphasis role=\"bold\">nem követeli meg, hogy "
-"kiadja az alkalmazásai vagy programkönyvtárai forráskódját</emphasis> és "
-"<emphasis role=\"bold\">nem követel meg semmiféle díjfizetést</emphasis>."
-
-#. (itstool) path: section/title
-#: C/mailinglist.xml:8
-msgid "Mailing List"
-msgstr "Levelezőlista"
-
-#. (itstool) path: section/title
-#: C/mailinglist.xml:10
-msgid "Where is the gtkmm mailing list?"
-msgstr "Hol található a gtkmm levelezőlista?"
-
-#. (itstool) path: listitem/para
-#: C/mailinglist.xml:13
-msgid ""
-"<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <link xlink:href="
-"\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. To subscribe, "
-"go to the <link xlink:href=\"https://mail.gnome.org/mailman/listinfo/gtkmm-"
-"list\">subscribe page</link>."
-msgstr ""
-"A <emphasis role=\"bold\">gtkmm levelezőlista</emphasis>: <link xlink:href="
-"\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. A "
-"feliratkozáshoz menjen a <link xlink:href=\"https://mail.gnome.org/mailman/"
-"listinfo/gtkmm-list\">feliratkozási oldalra</link>."
-
-#. (itstool) path: listitem/para
-#: C/mailinglist.xml:16
-msgid ""
-"For general GTK discussion, please use the GNOME <link xlink:href=\"https://"
-"discourse.gnome.org\">Discourse</link> instance, under the <link xlink:href="
-"\"https://discourse.gnome.org/c/platform/core\">Platform/Core</link> "
-"category."
-msgstr ""
-"Az általános GTK megbeszélésekhez használja a GNOME <link xlink:href="
-"\"https://discourse.gnome.org\">Discourse</link> példányát a <link xlink:"
-"href=\"https://discourse.gnome.org/c/platform/core\">Platform/Core</link> "
-"alatt."
-
-#. (itstool) path: section/title
-#: C/mailinglist.xml:23
-msgid "What subject material is appropriate for the list?"
-msgstr "Milyen témájú anyagok illenek a listára?"
-
-#. (itstool) path: section/para
-#: C/mailinglist.xml:24
-msgid ""
-"The mailing lists are used for discussion of development, suggestions, and "
-"improvements of the C++ wrappers themselves. There is also discussion of the "
-"use of the wrapper. Questions about the underlying GTK widget set are more "
-"likely to be answered quickly through the Discourse platform. Bugs are "
-"better reported and discussed in GitLab issues and merge requests."
-msgstr ""
-"A levelezőlisták a fejlesztés megvitatására, javaslatokra és maguknak a C++ "
-"csomagolók továbbfejlesztésére szolgálnak. A csomagoló használatának "
-"megbeszélésére is van fórum. A mögöttes GTK felületi elemekre vonatkozó "
-"kérdések nagyobb valószínűséggel kerülnek gyors megválaszolásra a Discourse "
-"platformon. A hibákat jobb a GitLab hibajelentésekben és beolvasztási "
-"kérésekben jelenteni és megvitatni."
-
-#. (itstool) path: section/title
-#: C/mailinglist.xml:33
-msgid "List Archives"
-msgstr "Levelezőlista archívumok"
-
-#. (itstool) path: section/para
-#: C/mailinglist.xml:34
-msgid "The archive of messages can be found at:"
-msgstr "Az üzenetek archívuma itt található meg:"
-
-#. (itstool) path: listitem/para
-#: C/mailinglist.xml:37
-msgid ""
-"gtkmm-list <link xlink:href=\"https://mail.gnome.org/archives/gtkmm-list/"
-"\">archive</link>."
-msgstr ""
-"gtkmm-list <link xlink:href=\"https://mail.gnome.org/archives/gtkmm-list/"
-"\">archívum</link>."
-
-#. (itstool) path: section/para
-#: C/mailinglist.xml:40
-msgid ""
-"<link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> archives "
-"messages even from before 2002, and has a more reliable search engine."
-msgstr ""
-"A <link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> archiválja az "
-"üzeneteket 2002 előttről is, és megbízhatóbb keresőmotorja van."
-
-#. (itstool) path: section/title
-#: C/mailinglist.xml:44
-msgid "IRC channel"
-msgstr "IRC csatorna"
-
-#. (itstool) path: section/para
-#: C/mailinglist.xml:45
-msgid ""
-"We also discuss development in the <emphasis role=\"bold\">#c++</emphasis> "
-"channel on irc.gnome.org, but questions are more likely to be answered "
-"properly on the mailing list. Plus, the mailing list is archived, so others "
-"can benefit from the answers."
-msgstr ""
-"A fejlesztést a <emphasis role=\"bold\">#c++</emphasis> csatornán is "
-"megvitatjuk az irc.gnome.org szobában, de a kérdések a levelezőlistán "
-"nagyobb valószínűséggel kapnak megfelelő választ. Ezenkívül a levelezőlista "
-"archiválásra kerül, így másoknak is hasznosak lehetnek a válaszok."
-
-#. (itstool) path: section/title
 #: C/news.xml:9
 msgid "News"
 msgstr "Hírek"
@@ -3012,9 +2025,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/news.xml:17
-#| msgid ""
-#| "March 21, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "gtkmm/4.6/\">gtkmm 4.6.1</link>"
 msgid ""
 "September 12, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
 "gtkmm/4.8/\">gtkmm 4.8.0</link>"
@@ -3024,9 +2034,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/news.xml:22
-#| msgid ""
-#| "May 2, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "gtkmm/3.24/\">gtkmm 3.24.6</link>"
 msgid ""
 "September 12, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
 "gtkmm/3.24/\">gtkmm 3.24.7</link>"
@@ -3036,9 +2043,6 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/news.xml:27
-#| msgid ""
-#| "May 5, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "glibmm/2.72/\">glibmm 2.72.1</link>"
 msgid ""
 "September 19, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
 "glibmm/2.74/\">glibmm 2.74.0</link>"
@@ -3048,12 +2052,1080 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/news.xml:32
-#| msgid ""
-#| "May 4, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
-#| "glibmm/2.66/\">glibmm 2.66.4</link>"
 msgid ""
 "September 19, 2022: <link xlink:href=\"https://download.gnome.org/sources/"
 "glibmm/2.66/\">glibmm 2.66.5</link>"
 msgstr ""
 "2022. szeptember 19.: <link xlink:href=\"https://download.gnome.org/sources/"
 "glibmm/2.66/\">glibmm 2.66.5</link>"
+
+#. (itstool) path: section/title
+#: C/developers.xml:8
+msgid "gtkmm Development"
+msgstr "A gtkmm fejlesztése"
+
+#. (itstool) path: section/para
+#: C/developers.xml:9
+#| msgid ""
+#| "gtkmm development is done in the <link xlink:href=\"https://gnome.org/"
+#| "\">GNOME</link> Git repository. To get started developing gtkmm, see the "
+#| "<link xlink:href=\"git.html\">detailed Git instructions</link>. "
+#| "Discussion about gtkmm development happens on the <link xlink:href="
+#| "\"mailinglist.html\">mailing list</link>."
+msgid ""
+"gtkmm development is done in the <link xlink:href=\"https://gnome.org/"
+"\">GNOME</link> Git repository. To get started developing gtkmm, see the "
+"<link xlink:href=\"git.html\">detailed Git instructions</link>. Discussion "
+"about gtkmm development happens on the <link xlink:href=\"https://discourse."
+"gnome.org/c/platform/language-bindings\">Discourse forum</link>."
+msgstr ""
+"A gtkmm fejlesztése a <link xlink:href=\"https://gnome.org/\">GNOME</link>"
+" Git tárolójában történik. Hogy belevágjon a gtkmm fejlesztésébe, nézze meg a"
+" <link xlink:href=\"git.html\">részletes Git útmutatót</link>. A gtkmm"
+" fejlesztésének megvitatása a <link xlink:href=\"https://discourse.gnome.org/c"
+"/platform/language-bindings\">Discourse fórumon</link> történik."
+
+#. (itstool) path: note/para
+#: C/developers.xml:14
+#| msgid ""
+#| "Please do not mail us directly - use the <link xlink:href=\"mailinglist."
+#| "html\">mailing list</link> instead."
+msgid ""
+"Please do not mail us directly - use the <link xlink:href=\"https://"
+"discourse.gnome.org/c/platform/language-bindings\"> Discourse forum</link> "
+"instead."
+msgstr ""
+"Ne írjon nekünk közvetlenül – használja inkább a <link"
+" xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings\""
+">Discourse fórumot</link>."
+
+#. (itstool) path: section/title
+#: C/developers.xml:21
+msgid "Developers and Contributors"
+msgstr "Fejlesztők és közreműködők"
+
+#. (itstool) path: section/title
+#: C/developers.xml:23
+msgid "Current maintainers"
+msgstr "Jelenlegi karbantartók"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:26
+msgid ""
+"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
+"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
+msgstr ""
+"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
+"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:29
+msgid ""
+"<link xlink:href=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</link>"
+msgstr ""
+"<link xlink:href=\"mailto:daniel.kitta@googlemail.com\">Daniel Elstner</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:32
+msgid ""
+"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
+msgstr ""
+"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
+
+#. (itstool) path: section/title
+#: C/developers.xml:38
+msgid "Other gtkmm developers"
+msgstr "Egyéb gtkmm fejlesztők"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:41
+msgid ""
+"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
+"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
+"link>)"
+msgstr ""
+"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
+"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
+"link>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:44
+msgid "Karl Nelson"
+msgstr "Karl Nelson"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:47
+msgid ""
+"<link xlink:href=\"mailto:cactus@cactus.rulez.org\">Gergő Érdi</link> (<link "
+"xlink:href=\"http://cactus.rulez.org\">cactus.rulez.org</link>)"
+msgstr ""
+"<link xlink:href=\"mailto:cactus@cactus.rulez.org\">Érdi Gergő</link> (<link "
+"xlink:href=\"http://cactus.rulez.org\">cactus.rulez.org</link>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:50
+msgid ""
+"<link xlink:href=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</link>"
+msgstr ""
+"<link xlink:href=\"mailto:andreas.holzmann@epost.de\">Andreas Holzmann</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:53
+msgid ""
+"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
+msgstr ""
+"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:56
+msgid "<link xlink:href=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</link>"
+msgstr "<link xlink:href=\"mailto:madmaxer@poczta.fm\">Jarek Dukat</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:59
+msgid "<link xlink:href=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</link>"
+msgstr "<link xlink:href=\"mailto:morten@wtf.dk\">Morten Brix Pedersen</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:62
+msgid ""
+"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
+"link>"
+msgstr ""
+"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
+"link>"
+
+#. (itstool) path: section/title
+#: C/developers.xml:68
+msgid "Previous maintainers"
+msgstr "Korábbi karbantartók"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:71
+msgid ""
+"<link xlink:href=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</"
+"link>"
+msgstr ""
+"<link xlink:href=\"mailto:glaurent@telegraph-road.org\">Guillaume Laurent</"
+"link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:74
+msgid ""
+"<link xlink:href=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</link>"
+msgstr ""
+"<link xlink:href=\"mailto:terop@assari.cc.tut.fi\">Tero Pulkkinen</link>"
+
+#. (itstool) path: section/para
+#: C/developers.xml:81
+msgid ""
+"There have been many patches, bug fixes and improvements from a lot of "
+"people. Thanks to them."
+msgstr ""
+"Rengeteg javítófolt, hibajavítás és továbbfejlesztés történt sok embertől. "
+"Köszönet nekik."
+
+#. (itstool) path: section/title
+#: C/books.xml:8
+msgid "Recommended Books"
+msgstr "Ajánlott könyvek"
+
+#. (itstool) path: section/para
+#: C/books.xml:10
+msgid ""
+"The <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
+"documentation\">Programming with gtkmm 4</link> and <link xlink:href="
+"\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming with "
+"gtkmm 3</link> tutorials are available online along with the rest of our "
+"<link xlink:href=\"documentation.html\">documentation</link>."
+msgstr ""
+"A <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation"
+"\">Programozás gtkmm 4-gyel</link> és a <link xlink:href=\"https://developer-"
+"old.gnome.org/gtkmm-tutorial/3.24/\">Programozás gtkmm 3-mal</link> "
+"oktatóanyagok elérhetőek az interneten a saját <link xlink:href="
+"\"documentation.html\">dokumentációnk</link> többi részével együtt."
+
+#. (itstool) path: section/para
+#: C/books.xml:13
+msgid ""
+"<link xlink:href=\"https://mesonbuild.com/\">The Meson build system</link> "
+"is also described online."
+msgstr ""
+"<link xlink:href=\"https://mesonbuild.com/\">A Meson összeállító-rendszer</"
+"link> szintén le van írva az interneten."
+
+#. (itstool) path: section/para
+#: C/books.xml:14
+msgid "The gtkmm developers also find these books helpful:"
+msgstr "A gtkmm fejlesztői ezeket a könyveket is hasznosnak találták:"
+
+#. (itstool) path: section/title
+#: C/books.xml:19
+msgid "Core books"
+msgstr "Alapvető könyvek"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:23
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:26
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:29
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
+
+#. (itstool) path: section/title
+#: C/books.xml:36
+msgid "For beginners"
+msgstr "Kezdőknek"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:40
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:51
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:54
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:57
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:60
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</link>"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Meskó Balázs <mesko.balazs at fsf dot hu>, 2016.\n"
+"Úr Balázs <ur.balazs at fsf dot hu>, 2022."
+
+#. (itstool) path: info/subtitle
+#: C/index.docbook:18
+msgid "C++ Interfaces for GTK and GNOME"
+msgstr "C++ interfészek a GTK-hoz és a GNOME-hoz"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:22
+msgid "<link xlink:href=\"index.html\">Home</link>"
+msgstr "<link xlink:href=\"index.html\">Kezdőlap</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:25
+msgid "<link xlink:href=\"license.html\">License</link>"
+msgstr "<link xlink:href=\"license.html\">Licenc</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:28
+msgid "<link xlink:href=\"download.html\">Download</link>"
+msgstr "<link xlink:href=\"download.html\">Letöltés</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:31
+msgid "<link xlink:href=\"documentation.html\">Documentation</link>"
+msgstr "<link xlink:href=\"documentation.html\">Dokumentáció</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:34
+msgid "<link xlink:href=\"developers.html\">Development</link>"
+msgstr "<link xlink:href=\"developers.html\">Fejlesztés</link>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:38
+msgid "Other Resources"
+msgstr "Egyéb erőforrások"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:41
+msgid "<link xlink:href=\"news.html\">News</link>"
+msgstr "<link xlink:href=\"news.html\">Hírek</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:44
+msgid ""
+"<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">FAQ</link>"
+msgstr ""
+"<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/FAQ\">GYIK</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:47
+msgid "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
+msgstr "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:50
+#| msgid "<link xlink:href=\"mailinglist.html\">Mailing Lists</link>"
+msgid "<link xlink:href=\"mailinglist.html\">Discussion</link>"
+msgstr "<link xlink:href=\"mailinglist.html\">Beszélgetés</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:53
+msgid "<link xlink:href=\"git.html\">Git</link>"
+msgstr "<link xlink:href=\"git.html\">Git</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:56
+msgid "<link xlink:href=\"bugs.html\">Bugs</link>"
+msgstr "<link xlink:href=\"bugs.html\">Hibák</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:59
+msgid "<link xlink:href=\"books.html\">Books</link>"
+msgstr "<link xlink:href=\"books.html\">Könyvek</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:62
+msgid "<link xlink:href=\"commercial_support.html\">Commercial Support</link>"
+msgstr ""
+"<link xlink:href=\"commercial_support.html\">Kereskedelmi támogatás</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:65
+msgid "<link xlink:href=\"extra.html\">Additional Resources</link>"
+msgstr "<link xlink:href=\"extra.html\">További erőforrások</link>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:70
+msgid "Language"
+msgstr "Nyelv"
+
+#. (itstool) path: abstract/para
+#. (itstool) id: index.docbook#footer
+#: C/index.docbook:130
+#| msgid ""
+#| "<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
+#| "\">goocanvasmm</link>"
+msgid ""
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings"
+"\"> Contact Us</link>"
+msgstr ""
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings"
+"\">Kapcsolatfelvétel</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:15
+msgid "Documentation Overview"
+msgstr "Dokumentáció áttekintése"
+
+#. (itstool) path: note/para
+#: C/documentation.xml:17
+msgid ""
+"This documentation is for the gtkmm-4.0 API, where nothing else is said. "
+"There is an older gtkmm API, called gtkmm-3.0, which can be installed in "
+"parallel. The gtkmm-3.0/gtkmm-4.0 names refer to the API/ABI series and not "
+"the release version. For instance, gtkmm 3.24.0 is a version of the "
+"gtkmm-3.0 API."
+msgstr ""
+"Ez a dokumentáció a gtkmm-4.0 API-ra vonatkozik, ahol semmi másról nincs "
+"szó. Létezik egy régebbi gtkmm API, a gtkmm-3.0, amely párhuzamosan "
+"telepíthető. A gtkmm-3.0/gtkmm-4.0 nevek az API/ABI sorozatra utalnak, nem "
+"pedig a kiadás verziójára. Például a gtkmm 3.24.0 a gtkmm-3.0 API verziója."
+
+#. (itstool) path: note/para
+#: C/documentation.xml:21
+msgid ""
+"There are even older API versions, such as gtkmm-2.4. Those versions are no "
+"longer supported."
+msgstr ""
+"Vannak még régebbi API-verziók is, mint például a gtkmm-2.4. Ezek a verziók "
+"már nem támogatottak."
+
+#. (itstool) path: section/para
+#: C/documentation.xml:24
+msgid ""
+"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link xlink:href="
+"\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
+"\">gtkmm-list post.</link>"
+msgstr ""
+"A gtkmm-3.0 és gtkmm-4.0 függőségei egy <link xlink:href=\"https://mail."
+"gnome.org/archives/gtkmm-list/2020-December/msg00013.html\">gtkmm-list "
+"bejegyzésben</link> vannak felsorolva."
+
+#. (itstool) path: section/title
+#: C/documentation.xml:28
+msgid "Getting Started with gtkmm"
+msgstr "Első lépések a gtkmm-mel"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:29
+msgid ""
+"You might start by reading the <emphasis role=\"bold\">Programming with "
+"gtkmm</emphasis> online book."
+msgstr ""
+"Kezdheti a <emphasis role=\"bold\">Programozás a gtkmm-mel</emphasis> online "
+"könyv elolvasásával."
+
+#. (itstool) path: section/para
+#: C/documentation.xml:30
+msgid ""
+"<link xlink:href=\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/index."
+"html\">Contents</link> of the whole online book, gtkmm-3.0."
+msgstr ""
+"A teljes online könyv <link xlink:href=\"https://developer-old.gnome.org/"
+"gtkmm-tutorial/3.24/index.html\">Tartalomjegyzéke</link>, gtkmm-3.0."
+
+#. (itstool) path: section/para
+#: C/documentation.xml:31
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"index.html\">Contents</link> of the whole online book, gtkmm-4.0."
+msgstr ""
+"A teljes online könyv <link xlink:href=\"https://gnome.pages.gitlab.gnome."
+"org/gtkmm-documentation/index.html\">Tartalomjegyzéke</link>, gtkmm-4.0."
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:34
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-installation.html\">Installation</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-installation.html\">Telepítés</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:37
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-basics.html\">Basics</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-basics.html\">Alapok</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:40
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-signals.html\">Signals</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-signals.html\">Szignálok</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:43
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-container-widgets.html\">Container Widgets</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-container-widgets.html\">Konténer felületi elemek</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:46
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-treeview.html\">TreeView</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-treeview.html\">Fanézet (TreeView)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:49
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-menus-and-toolbars.html\">Menus and Toolbars</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-menus-and-toolbars.html\">Menük és eszköztárak</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:52
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-memory.html\">Memory Management</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-memory.html\">Memóriakezelés</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:55
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-builder.html\">Glade and Gtk::Builder</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-builder.html\">Glade és a Gtk::Builder</link>"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:32
+msgid "Selected chapters:<_:itemizedlist-1/>"
+msgstr "Kiválasztott fejezetek:<_:itemizedlist-1/>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:61
+msgid "API Reference"
+msgstr "API-hivatkozás"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:64
+msgid "gtkmm (Gtk::)"
+msgstr "gtkmm (Gtk::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:65
+msgid "glibmm (Glib::)"
+msgstr "glibmm (Glib::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:66
+msgid "giomm (Gio::)"
+msgstr "giomm (Gio::)"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:72
+msgid ""
+"<emphasis role=\"bold\"> <link xlink:href=\"https://gnome.pages.gitlab.gnome."
+"org/gtkmm/hierarchy.html\">Hierarchy</link> </emphasis>"
+msgstr ""
+"<emphasis role=\"bold\"> <link xlink:href=\"https://gnome.pages.gitlab.gnome."
+"org/gtkmm/hierarchy.html\">Hierarchia</link> </emphasis>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:77
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Widgets."
+"html\">Widgets</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Widgets."
+"html\">Felületi elemek</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:80
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Containers.html\">Containers</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Containers.html\">Konténerek</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:83
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TreeView.html\">TreeView</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TreeView.html\">Fanézet (TreeView)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:86
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TextView.html\">TextView</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TextView.html\">Szövegnézet (TextView)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:89
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Dialogs."
+"html\">Dialogs</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/group__Dialogs."
+"html\">Párbeszédablakok</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:92
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"classGtk_1_1Application.html\">Application</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"classGtk_1_1Application.html\">Alkalmazás</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:95
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__gtkmmEnums.html\">enums and flags</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__gtkmmEnums.html\">enumok és jelzők</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:98
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/namespaceGtk."
+"html\">Gtk Namespace</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/namespaceGtk."
+"html\">Gtk névtér</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:105
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1ustring.html\">ustring</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1ustring.html\">ustring</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:108
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1Error.html\">Exceptions</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1Error.html\">Kivételek</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:111
+#| msgid ""
+#| "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+#| "group__Streams.html\">Streams</link>"
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/group__RefPtr."
+"html\">RefPtr&lt;&gt;</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/group__RefPtr."
+"html\">RefPtr&lt;&gt;</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:114
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MainLoop.html\">Main Event loop</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MainLoop.html\">Fő eseményciklus</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:117
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/group__Spawn."
+"html\">Spawning Processes</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/group__Spawn."
+"html\">Processzek indítása</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:120
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MiscUtils.html\">Miscellaneous Utility Functions</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MiscUtils.html\">Egyéb segédfüggvények</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:123
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__CharsetConv.html\">Character set conversion</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__CharsetConv.html\">Karakterkészlet átalakítások</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:126
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGlib."
+"html\">Glib Namespace</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGlib."
+"html\">Glib névtér</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:133
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGio_1_1File.html\">File</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGio_1_1File.html\">Fájl</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:136
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__Streams.html\">Streams</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__Streams.html\">Folyamok</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:139
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGio."
+"html\">Gio Namespace</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/namespaceGio."
+"html\">Gio névtér</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:148
+msgid "Extra Modules"
+msgstr "További modulok"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:149
+msgid ""
+"API reference documentation for other C++ modules, such as pangomm, "
+"gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <link "
+"xlink:href=\"https://developer-old.gnome.org/references#c++-bindings"
+"\">developer-old.gnome.org C++ Bindings</link> section. However, this "
+"website is not updated any more."
+msgstr ""
+"Az API-hivatkozás dokumentáció más C++ modulokhoz, mint a pangomm, "
+"gstreamermm, libgdamm, goocanvasmm stb. szintén elérhető a <link xlink:href="
+"\"https://developer-old.gnome.org/references#c++-bindings\">developer-old."
+"gnome.org C++ kötések</link> szakaszban. Azonban ezt a weboldalt többé már "
+"nem frissítik."
+
+#. (itstool) path: section/title
+#: C/documentation.xml:156
+msgid "Other Information"
+msgstr "Egyéb információk"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:159
+msgid "External Documentation"
+msgstr "Külső dokumentáció"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:160
+msgid "Unusual Platforms"
+msgstr "Szokatlan platformok"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:166
+msgid ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++ website</link>"
+msgstr ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++ weboldal</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:169
+msgid "<link xlink:href=\"https://docs.gtk.org/gtk3/\">GTK3 reference</link>"
+msgstr "<link xlink:href=\"https://docs.gtk.org/gtk3/\">GTK3 hivatkozás</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:172
+msgid "<link xlink:href=\"https://docs.gtk.org/gtk4/\">GTK4 reference</link>"
+msgstr "<link xlink:href=\"https://docs.gtk.org/gtk4/\">GTK4 hivatkozás</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:175
+msgid ""
+"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
+"index.html\">Standard C++ Library (STL)</link>"
+msgstr ""
+"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
+"index.html\">Szabványos C++ programkönyvtár (STL)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:182
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"SUN\">Solaris, with Sun's Forte C++.</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"SUN\">Solaris, a Sun Forte C++-ával.</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:185
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"win32\">Windows, with mingw and cygwin</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/README."
+"win32\">Windows, mingw és cygwin használatával</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:194
+msgid "Examples"
+msgstr "Példák"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:195
+msgid ""
+"Sometimes you need to look at examples to figure out how something should "
+"work. Many examples are included in the gtkmm book, but you can also view "
+"them online: <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/tree/master/examples/book/\">gtkmm examples</link>"
+msgstr ""
+"Néha példákat kell néznie ahhoz, hogy rájöjjön, hogyan kellene valaminek "
+"működnie. Sok példa szerepel a gtkmm könyvben, de az interneten is "
+"megnézheti azokat: <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/tree/master/examples/book/\">gtkmm példák</link>"
+
+#. (itstool) path: section/title
+#: C/download.xml:8
+msgid "Downloading"
+msgstr "Letöltés"
+
+#. (itstool) path: note/para
+#: C/download.xml:10
+msgid ""
+"You should use the <link xlink:href=\"#Binary\">binary packages</link> "
+"provided for your operating system unless you wish to test the latest "
+"versions. However, <link xlink:href=\"#Source\">source packages</link> are "
+"available as well."
+msgstr ""
+"Az operációs rendszeréhez készült <link xlink:href=\"#Binary\">bináris "
+"csomagokat</link> érdemes használnia, hacsak nem a legfrissebb verziókat "
+"szeretné tesztelni. Azonban a <link xlink:href=\"#Source\">forráscsomagok</"
+"link> is elérhetőek."
+
+#. (itstool) path: note/para
+#: C/download.xml:12
+msgid ""
+"This page mentions gtkmm 4 binary packages. To find corresponding gtkmm 3 "
+"packages, in most cases just change <quote>4</quote> to <quote>3</quote>."
+msgstr ""
+"Ez az oldal a gtkmm 4 bináris csomagokat említi. A megfelelő gtkmm 3 csomagok"
+" megtalálásához a legtöbb esetben elég a <quote>4</quote>-et <quote>3</quote"
+">-ra változtatni."
+
+#. (itstool) path: section/title
+#: C/download.xml:17
+msgid "<anchor xml:id=\"Binary\"/>Binary"
+msgstr "<anchor xml:id=\"Binary\"/>Bináris"
+
+#. (itstool) path: section/para
+#: C/download.xml:18
+msgid ""
+"You might find a variety of 3rd party RPMs and debs on the internet, but "
+"only the ones listed here are approved by the gtkmm team. Please encourage "
+"your Linux distribution to provide official gtkmm packages."
+msgstr ""
+"Különböző, harmadik féltől származó RPM-eket és deb-eket találhat az "
+"interneten, de csak az itt felsoroltak a gtkmm csapat által jóváhagyottak. "
+"Biztassa a Linux disztribúcióját, hogy hivatalos gtkmm csomagokat "
+"biztosítsanak."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:21
+#| msgid ""
+#| "<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
+#| "<command>apt-get install libgtkmm-3.0-dev</command>These <link xlink:href="
+#| "\"https://packages.qa.debian.org/g/gtkmm3.0.html\">project pages</link> "
+#| "might give status."
+msgid ""
+"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command>These <link xlink:href="
+"\"https://packages.qa.debian.org/g/gtkmm4.0.html\">project pages</link> "
+"might give status."
+msgstr ""
+"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command> Ezek a <link xlink:href="
+"\"https://packages.qa.debian.org/g/gtkmm4.0.html\">projektoldalak</link> "
+"állapotjelentéssel szolgálhatnak."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:24
+#| msgid ""
+#| "<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link xlink:"
+#| "href=\"https://www.redhat.com\">RedHat</link> Linux: Use <command>yum "
+#| "install gtkmm30-docs</command> to get the runtime, development, and "
+#| "documentation packages."
+msgid ""
+"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link xlink:"
+"href=\"https://www.redhat.com\">RedHat</link> Linux: Use <command>yum "
+"install gtkmm4.0-devel</command> to get the runtime and development packages."
+msgstr ""
+"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link"
+" xlink:href=\"https://www.redhat.com\">RedHat</link> Linux: használja a <"
+"command>yum install gtkmm4.0-devel</command> parancsot a futtatókörnyezet és"
+" a fejlesztői csomagok beszerzéséhez."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:27
+msgid ""
+"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: Get dev-cpp/"
+"gtkmm."
+msgstr ""
+"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: szerezze be "
+"a dev-cpp/gtkmm csomagot."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:30
+#| msgid ""
+#| "<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: Use "
+#| "yast to install gtkmm3-devel."
+msgid ""
+"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: Use "
+"yast to install gtkmm4-devel."
+msgstr ""
+"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: "
+"használja a yast programot a gtkmm4-devel telepítéséhez."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:33
+#| msgid ""
+#| "<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
+#| "<command>apt-get install libgtkmm-3.0-dev</command>"
+msgid ""
+"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command>"
+msgstr ""
+"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:36
+msgid ""
+"Windows: Here is an <link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/"
+"MSWindows\">installer</link>."
+msgstr ""
+"Windows: itt egy <link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/"
+"MSWindows\">telepítő</link>."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:44
+msgid ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <link "
+"xlink:href=\"http://thewrittenword.com\">The Written Word</link> offer "
+"binary gtkmm packages, with package management."
+msgstr ""
+"SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc vagy a platform "
+"fordítóprogramjai): A <link xlink:href=\"http://thewrittenword.com\">The "
+"Written Word</link> bináris gtkmm csomagokat kínál, csomagkezeléssel együtt."
+
+#. (itstool) path: section/para
+#: C/download.xml:47
+msgid "Please tell us about others."
+msgstr "Írjon nekünk más rendszerekről."
+
+#. (itstool) path: section/title
+#: C/download.xml:51
+msgid "<anchor xml:id=\"Source\"/>Source"
+msgstr "<anchor xml:id=\"Source\"/>Forrás"
+
+#. (itstool) path: section/para
+#: C/download.xml:52
+#| msgid ""
+#| "Even-numbered versions (such as 3.16.x) are stable. Odd-numbered versions "
+#| "(such as 3.15.x) are unstable development versions."
+msgid ""
+"Even-numbered versions (such as 4.8.x) are stable. Odd-numbered versions "
+"(such as 4.7.x) are unstable development versions."
+msgstr ""
+"A páros számozású verziók (mint a 4.8.x) stabilak. A páratlan számozású "
+"verziók (mint a 4.7.x) nem stabil, fejlesztői verziók."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:55
+msgid ""
+"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
+msgstr ""
+"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:58
+msgid ""
+"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
+msgstr ""
+"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:61
+msgid ""
+"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
+"\">goocanvasmm</link>"
+msgstr ""
+"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
+"\">goocanvasmm</link>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:64
+msgid ""
+"<link xlink:href=\"https://download.gnome.org/sources/libgdamm/\">libgdamm</"
+"link>"
+msgstr ""
+"<link xlink:href=\"https://download.gnome.org/sources/libgdamm/\">libgdamm</"
+"link>"
+
+#. (itstool) path: section/title
+#: C/download.xml:70
+msgid "Requirements"
+msgstr "Követelmények"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:73
+msgid "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
+msgstr "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:76
+msgid ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++</link>"
+msgstr ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++</link>"
+
+#. (itstool) path: section/title
+#: C/download.xml:82
+msgid "GTK"
+msgstr "GTK"
+
+#. (itstool) path: section/para
+#: C/download.xml:83
+msgid ""
+"You can download GTK and GNOME source code from <link xlink:href=\"https://"
+"download.gnome.org/sources/\">download.gnome.org/sources/</link>."
+msgstr ""
+"A GTK és GNOME forráskódot a <link xlink:href=\"https://download.gnome.org/"
+"sources/\">download.gnome.org/sources/</link> oldalról töltheti le."
