@@ -13,7 +13,8 @@
    <link xlink:href="https://www.gtk.org/">GTK</link>. Highlights include
    typesafe callbacks, and a comprehensive set of widgets that are
    easily extensible via inheritance. You can create user interfaces
-   either in code or with the <link xlink:href="https://glade.gnome.org/">Glade User Interface designer</link>, using Gtk::Builder. There's
+   either in code or with the <link xlink:href="https://gitlab.gnome.org/jpu/cambalache">
+   Cambalache User Interface designer</link>, using Gtk::Builder. There's
    <link xlink:href="documentation.html">extensive documentation</link>,
    including API reference and a tutorial.
   </para>
@@ -85,34 +86,19 @@
 
     <section>
     <title>Other gtkmm-related libraries</title>
-      <section>
-      <title>gnomemm</title>
-        <para>
+   <para>
    gtkmm is a GUI toolkit and nothing more, and it strives to be the
    best C++ GUI toolkit. That mandate does not cover generic C++ data
    structures, an XML parser, or database access. Even our signal/slots
    system is part of a separate (<link xlink:href="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</link>) library.
    However, gtkmm is designed to work well with all other C++ libraries.
    </para>
-        <para>
-   The gnomemm libraries cover some of these other tasks, but they are
-   optional.
+    <para>
+    Be sure to check out our companion libraries,
+    <link xlink:href="https://gnome.pages.gitlab.gnome.org/glibmm/">glibmm</link> (UTF8 strings, etc),
+    <link xlink:href="https://gnome.pages.gitlab.gnome.org/pangomm/">pangomm</link> (font layout),
+    <link xlink:href="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</link> (signal/slots) and
+    <link xlink:href="https://libxmlplusplus.github.io/libxmlplusplus/">libxml++</link> (XML parser).
    </para>
-      </section>
-
-      <section>
-      <title>libsigc++</title>
-        <para>
-    Also, be sure to check out our companion libraries, glibmm (UTF8 strings, threading, etc) and <link xlink:href="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++</link> (signal/slots).
-   </para>
-      </section>
-
-      <section>
-      <title>Others</title>
-        <para>
-    Be sure to check out <link xlink:href="http://bakery.sourceforge.net/">Bakery</link>,
-    a framework for constructing gtkmm/gnomemm applications.  It allows use of the Document/View architecture.
-   </para>
-      </section>
     </section>
   </article>

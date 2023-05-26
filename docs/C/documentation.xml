@@ -52,7 +52,7 @@
               <para><link xlink:href="&url_refdocs_base_book_html;chapter-memory.html">Memory Management</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="&url_refdocs_base_book_html;chapter-builder.html">Glade and Gtk::Builder</link></para>
+              <para><link xlink:href="&url_refdocs_base_book_html;chapter-builder.html">Gtk::Builder</link></para>
             </listitem>
           </itemizedlist></para>
       </section>

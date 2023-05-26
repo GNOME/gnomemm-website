@@ -8,20 +8,11 @@
     <title>Additional Resources</title>
       <section>
       <title>Available widgets</title>
-        <para>In addition to the wrappers distributed with gtkmm and gnomemm, additional
+        <para>In addition to the wrappers distributed with gtkmm, additional
 widgets and libraries are available from other sources.
     <itemizedlist>
             <listitem>
-              <para><link xlink:href="http://gtkglext.sourceforge.net">GtkGlExtmm</link> OpenGL rendering for gtkmm</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/">gtkmozembedmm</link> Mozilla-based web browser widget</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://plotmm.sourceforge.net/">Plotmm</link> plot widget for scientific applications</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://home.gna.org/gtksourceviewmm/">gtksourceviewmm</link> wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/">gstreamermm</link> wrappers for gstreamer (streaming media)</para>
@@ -33,9 +24,6 @@ widgets and libraries are available from other sources.
               <para><link xlink:href="http://gtkextramm.sourceforge.net/">gtkextramm</link> wrappers for GtkExtra (plot, sheet, etc)</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://www.nongnu.org/om-synth/flowcanvas.html">FlowCanvas</link> canvas for data flow systems</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://carlowood.github.io/cwchessboard/">cwchessboard</link> C++ chess board tool set for gtkmm</para>
             </listitem>
           </itemizedlist></para>
@@ -45,13 +33,11 @@ widgets and libraries are available from other sources.
       <title>gtkmm tools</title>
         <para><itemizedlist>
             <listitem>
-              <para><link xlink:href="https://glade.gnome.org/">Glade</link> User Interface Designer for GTK, glade UI files can be used from a gtkmm program by using Gtk::Builder</para>
+              <para><link xlink:href="https://gitlab.gnome.org/jpu/cambalache">Cambalache</link> User Interface Designer for GTK.
+              Cambalache UI files can be used from a gtkmm program by using Gtk::Builder.</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://home.wtal.de/petig/Gtk/">glademm</link> glade module for automatically generating gtkmm code (note: glademm is different than libglademm or Gtk::Builder)</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://bakery.sourceforge.net/">Bakery</link> Document/View Model</para>
+              <para><emphasis role="bold">Glade</emphasis> User Interface Designer for GTK3 has been replaced by Cambalache.</para>
             </listitem>
           </itemizedlist></para>
       </section>
@@ -68,18 +54,10 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://regexxer.sourceforge.net/">Regexxer</link> multi-file search/replace with visual feedback</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://subsubsub.sourceforge.net">SubSubSub</link> creation of hierarchical text documents</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://prefixsuffix.sourceforge.net/">PrefixSuffix</link> renames batches of files</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://towel.sourceforge.net">Towel</link> audio player</para>
             </listitem>
-<!-- Website appears to be gone
-  <listitem><para><ulink url="http://www.coaster-burn.org/">Coaster</ulink> CD burning</para></listitem>
-  -->            <listitem>
-              <para><link xlink:href="http://www.glom.org/">Glom</link> database environment</para>
+            <listitem>
+              <para><link xlink:href="https://gitlab.gnome.org/Archive/glom">Glom</link> database environment</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://cactus.rulez.org/projects/guikachu/">Guikachu</link> graphical resource editor for PalmOS  applications</para>
@@ -89,9 +67,6 @@ some other projects using the same toolkit.</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://gnomoradio.org/">Gnomoradio</link> peer to peer sharing of freely licensed music</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="https://packages.debian.org/sid/gip">Gip</link> IP address calculator</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://www.k-3d.org/">K-3D</link> 3D modelling and animation</para>
@@ -108,16 +83,8 @@ some other projects using the same toolkit.</para>
             <listitem>
               <para><link xlink:href="http://gparted.sourceforge.net/">GParted</link> disk partitioning tool</para>
             </listitem>
-<!-- website appears to be gone
-  <listitem><para><ulink url="http://sysinfo.r8.org/">Sysinfo</ulink> system monitor</para></listitem>
-  -->            <listitem>
+            <listitem>
               <para><link xlink:href="http://cdrdao.sourceforge.net/">gcdmaster</link> cdrdao frontend</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://planetearthworm.com/projects/wp_tray/">Wallpaper Tray</link> GNOME panel applet</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.freespiders.org/projects/gmlview/">MLView</link> XML Editor</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://sourceforge.net/projects/duty-roaster">Duty Roaster</link> manages duty rotas</para>
@@ -127,9 +94,6 @@ some other projects using the same toolkit.</para>
             </listitem>
             <listitem>
               <para><link xlink:href="https://code.google.com/p/pinot-search/">Pinot</link> metasearch tool</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://home.gna.org/colorscheme/">Agave</link> color scheme generator</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://amyedit.sourceforge.net/">AmyEdit</link> LaTeX editor</para>
@@ -144,28 +108,13 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://free-doko.sourceforge.net/en/">FreeDoko</link> card game</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://www.minisip.org/">miniSIP</link> Internet telephone</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://goupil.tuxfamily.org/">Goupil</link> membership management</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.nongnu.org/om-synth/index.html">Om</link> modular synthesizer and effects processor</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://projects.l3ib.org/nitrogen/">Nitrogen</link> background browser and setter</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://home.gna.org/nemiver/">Nemiver</link> GUI for the GNU debugger gdb</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://beep-media-player.org/">BMP</link> audio player</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://usbsink.sourceforge.net/">USBSink</link> file synchronization over USB</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://home.gna.org/elfelli/">Elfelli</link> electric flux line simulation</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://github.com/egroeper/referencer/">Referencer</link> document organiser and bibliography manager</para>
@@ -213,9 +162,6 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://gex.sourceforge.net/">Gex</link> file manager</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://www.cvine.freeserve.co.uk/efax-gtk/">Efax-gtk</link> GUI frontend for the efax fax program</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://visage.sourceforge.net">Visage</link> organise and visualise information</para>
             </listitem>
             <listitem>
@@ -223,60 +169,6 @@ some other projects using the same toolkit.</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://liarliar.sourceforge.net/">Liar Liar</link> voice stress analysis tool</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://freecode.com/projects/cug">CUG</link> 3D equation plotter</para>
-            </listitem>
-          </itemizedlist>
-        </section>
-
-        <section>
-        <title>Using gtkmm 1.2:</title>
-          <itemizedlist>
-            <listitem>
-              <para><link xlink:href="http://gensql.sourceforge.net/">genSQL</link> generic SQL GUI</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://cactus.rulez.org/projects/gnomoku/">Gnomoku</link> Gomoku game for GNOME</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.tucows.com/preview/25500/GNUvoice">gnuvoice</link> GUI voicemail / speakerphone / caller ID application</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gtkmail.sourceforge.net/">gtkmail</link> MIME compliant GUI email client</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gvbox.sourceforge.net/">Gvbox</link> graphical frontend to isdn4linux answering machine</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.medini.org/software/ped/ped.html">Ped</link> path editor utility </para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://picmonger.sourceforge.net/">PicMonger</link> Usenet picture grabber</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://cactus.rulez.org/projects/radioactive/">RadioActive</link> radio application for Video4Linux-compatible radio tuner cards</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://softwerk.sourceforge.net/">softwerk</link> software analogue MIDI sequencer</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.firedrake.org/terraform/">terraform</link> terrain generator (very cool)</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://ickle.sourceforge.net/">ickle</link> ICQ client</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://cap.sourceforge.net/">Chained Audio Plugins</link></para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://zarb.org/~gc/html/grany.html">Grany-3</link> cellular automaton simulator</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://paloma.sourceforge.net/">Paloma</link> music management system</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://cellumat3d.sourceforge.net/">Cellumat3D</link> 3D cellular automata simulator</para>
             </listitem>
           </itemizedlist>
         </section>

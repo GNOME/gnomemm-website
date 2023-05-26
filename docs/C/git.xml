@@ -45,9 +45,9 @@
               </tr>
               <tr>
                 <td rowspan="1" colspan="1">gtkmm-4.0</td>
-                <td rowspan="1" colspan="1">4.2</td>
+                <td rowspan="1" colspan="1">4.10</td>
                 <td rowspan="1" colspan="1">gtkmm</td>
-                <td rowspan="1" colspan="1">gtkmm-4-2</td>
+                <td rowspan="1" colspan="1">gtkmm-4-10</td>
               </tr>
               <tr>
                 <td rowspan="1" colspan="1">gtkmm-3.0</td>
@@ -63,82 +63,15 @@
               </tr>
               <tr>
                 <td rowspan="1" colspan="1">glibmm-2.68</td>
-                <td rowspan="1" colspan="1">2.68</td>
+                <td rowspan="1" colspan="1">2.76</td>
                 <td rowspan="1" colspan="1">glibmm</td>
-                <td rowspan="1" colspan="1">glibmm-2-68</td>
+                <td rowspan="1" colspan="1">glibmm-2-76</td>
               </tr>
               <tr>
                 <td rowspan="1" colspan="1">glibmm-2.4</td>
                 <td rowspan="1" colspan="1">2.66</td>
                 <td rowspan="1" colspan="1">glibmm</td>
                 <td rowspan="1" colspan="1">glibmm-2-66</td>
-              </tr>
-            </informaltable></para>
-        </section>
-
-        <section><title>gnomemm</title>
-          <para><informaltable>
-              <tr>
-                <th rowspan="1" colspan="1">Component</th>
-                <th rowspan="1" colspan="1">API Version</th>
-                <th rowspan="1" colspan="1">Git Module</th>
-                <th rowspan="1" colspan="1">Branch name</th>
-              </tr>
-              <tr>
-                <td rowspan="1" colspan="1">libglademm</td>
-                <td rowspan="1" colspan="1"/>
-                <td rowspan="1" colspan="1">libglademm</td>
-                <td rowspan="1" colspan="1">master</td>
-              </tr>
-              <tr>
-                <td rowspan="1" colspan="1">gconfmm</td>
-                <td rowspan="1" colspan="1"/>
-                <td rowspan="1" colspan="1">gconfmm</td>
-                <td rowspan="1" colspan="1">master</td>
-              </tr>
-              <tr>
-                <td rowspan="1" colspan="1">libgnomecanvasmm</td>
-                <td rowspan="1" colspan="1"/>
-                <td rowspan="1" colspan="1">libgnomecanvasmm</td>
-                <td rowspan="1" colspan="1">master</td>
-              </tr>
-            </informaltable></para>
-        </section>
-
-        <section>
-        <title>*mm bindings for other GNOME-related APIs</title>
-          <para>The following bindings are not necessarily on the same schedule as those
-    listed above.</para>
-          <para><informaltable>
-              <tr>
-                <th rowspan="1" colspan="1">Component</th>
-                <th rowspan="1" colspan="1">Version</th>
-                <th rowspan="1" colspan="1">Git Module</th>
-                <th rowspan="1" colspan="1">Branch name</th>
-              </tr>
-              <tr>
-                <td rowspan="1" colspan="1">libgdamm</td>
-                <td rowspan="1" colspan="1"/>
-                <td rowspan="1" colspan="1">libgdamm</td>
-                <td rowspan="1" colspan="1">master</td>
-              </tr>
-              <tr>
-                <td rowspan="1" colspan="1">libgnomedbmm</td>
-                <td rowspan="1" colspan="1"/>
-                <td rowspan="1" colspan="1">libgnomedbmm</td>
-                <td rowspan="1" colspan="1">master</td>
-              </tr>
-              <tr>
-                <td rowspan="1" colspan="1">goocanvasmm</td>
-                <td rowspan="1" colspan="1"/>
-                <td rowspan="1" colspan="1">goocanvasmm</td>
-                <td rowspan="1" colspan="1">master</td>
-              </tr>
-              <tr>
-                <td rowspan="1" colspan="1">libpanelappletmm</td>
-                <td rowspan="1" colspan="1"/>
-                <td rowspan="1" colspan="1">libpanelappletmm</td>
-                <td rowspan="1" colspan="1">master</td>
               </tr>
             </informaltable></para>
         </section>
