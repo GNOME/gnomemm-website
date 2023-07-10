@@ -4,6 +4,7 @@ DISTCHECK_CONFIGURE_FLAGS = --enable-warnings=fatal
 SUBDIRS = docs
 
 dist_noinst_SCRIPTS = autogen.sh
+dist_noinst_DATA = README.md
 
 # Distribute files needed when building with Meson.
 EXTRA_DIST = \

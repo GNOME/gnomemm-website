@@ -13,6 +13,27 @@ When a commit is pushed to the master branch in the git repository, the website
 is built and published at https://gnome.pages.gitlab.gnome.org/gnomemm-website
 and https://www.gtkmm.org.
 
+# General information
+
+Web site
+ - https://www.gtkmm.org
+ - https://gnome.pages.gitlab.gnome.org/gnomemm-website
+
+Discussion on GNOME's discourse forum
+ - https://discourse.gnome.org/tag/cplusplus
+ - https://discourse.gnome.org/c/platform
+
+Git repository
+ - https://gitlab.gnome.org/GNOME/gnomemm-website
+
+Bugs can be reported to
+ - https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues
+
+Patches can be submitted to
+ - https://gitlab.gnome.org/GNOME/gnomemm-website/-/merge_requests
+
+# Building
+
 ## Building with Meson
 
 - Create a build directory and configure it:
