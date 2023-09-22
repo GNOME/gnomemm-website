@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the gnomemm-website package.
 # Mario Blättermann <mario.blaettermann@gmail.com>, 2010, 2011, 2015.
 # Christian Kirbach <Christian.Kirbach@googlemail.com>, 2010.
-# Jürgen Benvenuti <gastornis@posteo.org>, 2022.
+# Jürgen Benvenuti <gastornis@posteo.org>, 2022, 2023.
 # Tim Sabsch <tim@sabsch.com>, 2022.
+# Philipp Kiemle <philipp.kiemle@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2022-11-14 17:38+0000\n"
-"PO-Revision-Date: 2022-12-25 12:36+0100\n"
+"POT-Creation-Date: 2023-07-30 21:27+0000\n"
+"PO-Revision-Date: 2023-09-22 20:10+0200\n"
 "Last-Translator: Jürgen Benvenuti <gastornis@posteo.org>\n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.1.1\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #. (itstool) path: section/title
 #: C/bugs.xml:8
@@ -124,14 +125,14 @@ msgstr "<anchor xml:id=\"NewBugs\"/>Wo soll man berichten?"
 #. (itstool) path: listitem/para
 #: C/bugs.xml:46
 msgid ""
-"Bugs are tracked in GNOME's <link xlink:href=\"https://gitlab.gnome.org"
-"\">issue tracker</link>. Submit gtkmm bugs <link xlink:href=\"https://gitlab."
-"gnome.org/GNOME/gtkmm/issues/new/\">here</link>."
+"Bugs are tracked in GNOME's <link xlink:href=\"https://gitlab.gnome."
+"org\">issue tracker</link>. Submit gtkmm bugs <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gtkmm/issues/new/\">here</link>."
 msgstr ""
-"Fehler werden in GNOMEs <link xlink:href=\"https://gitlab.gnome.org"
-"\">Fehlererfassungssystem</link> aufgenommen. Senden Sie gtkmm-Fehler <link "
-"xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/\">hier</link> "
-"ein."
+"Fehler werden in GNOMEs <link xlink:href=\"https://gitlab.gnome."
+"org\">Fehlererfassungssystem</link> aufgenommen. Senden Sie gtkmm-Fehler "
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/\">hier</"
+"link> ein."
 
 #. (itstool) path: listitem/para
 #: C/bugs.xml:51
@@ -588,8 +589,8 @@ msgid ""
 "link>."
 msgstr ""
 "<link xlink:href=\"http://www.i-medlab.com/\">iMed</link> Medizinische "
-"Bildgebung - <link xlink:href=\"http://www.i-medlab.com/Products/page1.html"
-"\">CAD Colon</link>."
+"Bildgebung - <link xlink:href=\"http://www.i-medlab.com/Products/page1."
+"html\">CAD Colon</link>."
 
 #. (itstool) path: listitem/para
 #: C/commercial_support.xml:101
@@ -636,8 +637,8 @@ msgstr ""
 #. (itstool) path: section/para
 #: C/commercial_support.xml:112
 msgid ""
-"See also <emphasis>Apps built with GTK</emphasis> at <link xlink:href="
-"\"https://www.gtk.org\">the GTK website</link>."
+"See also <emphasis>Apps built with GTK</emphasis> at <link xlink:"
+"href=\"https://www.gtk.org\">the GTK website</link>."
 msgstr ""
 "Lesen Sie außerdem <emphasis>Apps built with GTK</emphasis> auf <link xlink:"
 "href=\"https://www.gtk.org\">der GTK-Webseite</link>."
@@ -656,20 +657,20 @@ msgid ""
 "at <link xlink:href=\"https://wiki.gnome.org/Git\">wiki.gnome.org/Git</link>."
 msgstr ""
 "Wir setzen <link xlink:href=\"http://git-scm.com/\">Git</link> zur "
-"Verwaltung unseres Quellcodes im <link xlink:href=\"https://www.gnome.org"
-"\">GNOME</link> Git-Softwarebestand ein. Weitere Informationen über gitlab."
-"gnome.org finden Sie unter <link xlink:href=\"https://wiki.gnome.org/Git"
-"\">wiki.gnome.org/Git</link>."
+"Verwaltung unseres Quellcodes im <link xlink:href=\"https://www.gnome."
+"org\">GNOME</link> Git-Softwarebestand ein. Weitere Informationen über "
+"gitlab.gnome.org finden Sie unter <link xlink:href=\"https://wiki.gnome.org/"
+"Git\">wiki.gnome.org/Git</link>."
 
 #. (itstool) path: section/para
 #: C/git.xml:12
 msgid ""
 "glibmm and gtkmm are in the <link xlink:href=\"https://gitlab.gnome.org/"
 "GNOME/glibmm/\">glibmm</link> and <link xlink:href=\"https://gitlab.gnome."
-"org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link xlink:href="
-"\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-documentation</"
-"link> module which contains the gtkmm book and its examples. See below for "
-"instructions."
+"org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link xlink:"
+"href=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-"
+"documentation</link> module which contains the gtkmm book and its examples. "
+"See below for instructions."
 msgstr ""
 "glibmm und gtkmm finden Sie in den Modulen <link xlink:href=\"https://gitlab."
 "gnome.org/GNOME/glibmm/\">glibmm</link> und <link xlink:href=\"https://"
@@ -691,9 +692,9 @@ msgstr ""
 "Meson ist das empfohlene Build-System. Falls Sie mit Autotools arbeiten "
 "(autoconf, automake usw.), müssen Sie das Skript autogen.sh ausführen, um "
 "die Build-Dateien zu erzeugen. Wir empfehlen <link xlink:href=\"https://"
-"gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> oder <link xlink:href="
-"\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-meta</link>, "
-"um einen separaten Entwicklungspräfix zu erstellen."
+"gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> oder <link xlink:"
+"href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-meta</"
+"link>, um einen separaten Entwicklungspräfix zu erstellen."
 
 #. (itstool) path: note/para
 #: C/git.xml:21
@@ -728,8 +729,8 @@ msgid ""
 "branch names</link>."
 msgstr ""
 "Wir folgen dem GNOME-Veröffentlichungsrhythmus, daher verwenden wir <link "
-"xlink:href=\"https://wiki.gnome.org/MaintainersCorner#branches"
-"\">standardisierte GNOME-Zweignamen</link>."
+"xlink:href=\"https://wiki.gnome.org/"
+"MaintainersCorner#branches\">standardisierte GNOME-Zweignamen</link>."
 
 #. (itstool) path: section/title
 #: C/git.xml:32
@@ -737,22 +738,22 @@ msgid "gtkmm and glibmm"
 msgstr "gtkmm und glibmm"
 
 #. (itstool) path: tr/th
-#: C/git.xml:35 C/git.xml:82 C/git.xml:114
+#: C/git.xml:35
 msgid "Component"
 msgstr "Komponente"
 
 #. (itstool) path: tr/th
-#: C/git.xml:36 C/git.xml:115
+#: C/git.xml:36
 msgid "Version"
 msgstr "Version"
 
 #. (itstool) path: tr/th
-#: C/git.xml:37 C/git.xml:84 C/git.xml:116
+#: C/git.xml:37
 msgid "Git Module"
 msgstr "Git-Modul"
 
 #. (itstool) path: tr/th
-#: C/git.xml:38 C/git.xml:85 C/git.xml:117
+#: C/git.xml:38
 msgid "Branch name"
 msgstr "Zweigname"
 
@@ -773,20 +774,19 @@ msgid "gtkmm"
 msgstr "gtkmm"
 
 #. (itstool) path: tr/td
-#: C/git.xml:44 C/git.xml:62 C/git.xml:91 C/git.xml:97 C/git.xml:103
-#: C/git.xml:123 C/git.xml:129 C/git.xml:135 C/git.xml:141
+#: C/git.xml:44 C/git.xml:62
 msgid "master"
 msgstr "master"
 
 #. (itstool) path: tr/td
 #: C/git.xml:48
-msgid "4.2"
-msgstr "4.2"
+msgid "4.10"
+msgstr "4.10"
 
 #. (itstool) path: tr/td
 #: C/git.xml:50
-msgid "gtkmm-4-2"
-msgstr "gtkmm-4-2"
+msgid "gtkmm-4-10"
+msgstr "gtkmm-4-10"
 
 #. (itstool) path: tr/td
 #: C/git.xml:53
@@ -815,13 +815,13 @@ msgstr "glibmm"
 
 #. (itstool) path: tr/td
 #: C/git.xml:66
-msgid "2.68"
-msgstr "2.68"
+msgid "2.76"
+msgstr "2.76"
 
 #. (itstool) path: tr/td
 #: C/git.xml:68
-msgid "glibmm-2-68"
-msgstr "glibmm-2-68"
+msgid "glibmm-2-76"
+msgstr "glibmm-2-76"
 
 #. (itstool) path: tr/td
 #: C/git.xml:71
@@ -838,65 +838,6 @@ msgstr "2.66"
 msgid "glibmm-2-66"
 msgstr "glibmm-2-66"
 
-#. (itstool) path: section/title
-#: C/git.xml:79 C/main.xml:89
-msgid "gnomemm"
-msgstr "gnomemm"
-
-#. (itstool) path: tr/th
-#: C/git.xml:83
-msgid "API Version"
-msgstr "API-Version"
-
-#. (itstool) path: tr/td
-#: C/git.xml:88 C/git.xml:90
-msgid "libglademm"
-msgstr "libglademm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:94 C/git.xml:96
-msgid "gconfmm"
-msgstr "gconfmm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:100 C/git.xml:102
-msgid "libgnomecanvasmm"
-msgstr "libgnomecanvasmm"
-
-#. (itstool) path: section/title
-#: C/git.xml:109
-msgid "*mm bindings for other GNOME-related APIs"
-msgstr "*mm-Bindungen für weitere GNOME-bezogene APIs"
-
-#. (itstool) path: section/para
-#: C/git.xml:110
-msgid ""
-"The following bindings are not necessarily on the same schedule as those "
-"listed above."
-msgstr ""
-"Die folgenden Bindungen unterliegen nicht notwendigerweise dem gleichen "
-"Veröffentlichungsrhythmus wie die oben bereits erwähnten Bindungen."
-
-#. (itstool) path: tr/td
-#: C/git.xml:120 C/git.xml:122
-msgid "libgdamm"
-msgstr "libgdamm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:126 C/git.xml:128
-msgid "libgnomedbmm"
-msgstr "libgnomedbmm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:132 C/git.xml:134
-msgid "goocanvasmm"
-msgstr "goocanvasmm"
-
-#. (itstool) path: tr/td
-#: C/git.xml:138 C/git.xml:140
-msgid "libpanelappletmm"
-msgstr "libpanelappletmm"
-
 #. (itstool) path: note/para
 #: C/main.xml:11
 msgid ""
@@ -904,23 +845,23 @@ msgid ""
 "popular GUI library <link xlink:href=\"https://www.gtk.org/\">GTK</link>. "
 "Highlights include typesafe callbacks, and a comprehensive set of widgets "
 "that are easily extensible via inheritance. You can create user interfaces "
-"either in code or with the <link xlink:href=\"https://glade.gnome.org/"
-"\">Glade User Interface designer</link>, using Gtk::Builder. There's <link "
-"xlink:href=\"documentation.html\">extensive documentation</link>, including "
-"API reference and a tutorial."
+"either in code or with the <link xlink:href=\"https://gitlab.gnome.org/jpu/"
+"cambalache\"> Cambalache User Interface designer</link>, using Gtk::Builder. "
+"There's <link xlink:href=\"documentation.html\">extensive documentation</"
+"link>, including API reference and a tutorial."
 msgstr ""
 "<application>gtkmm</application> ist die offizielle C++-Schnittstelle für "
 "die populäre Grafikbibliothek <link xlink:href=\"https://www.gtk.org/\">GTK</"
 "link>. Besondere Merkmale sind u.A. typensichere Callbacks und eine "
-"umfassende Menge Widgets, die einfach durch Vererbung erweiterbar sind. Sie "
+"umfassende Menge Widgets, die durch Vererbung einfach erweiterbar sind. Sie "
 "können Benutzeroberflächen entweder direkt im Code oder mit dem <link xlink:"
-"href=\"https://glade.gnome.org/\">Glade Oberflächendesigner</link> "
-"erstellen, mittels Gtk::Builder. Dafür ist eine <link xlink:href="
-"\"documentation.html\">ausführliche Dokumentation</link> verfügbar, "
-"einschließlich API-Referenz und einem Tutorial."
+"href=\"https://gitlab.gnome.org/jpu/cambalache\">Cambalache "
+"Oberflächendesigner</link> erstellen, mittels Gtk::Builder. Dafür ist eine "
+"<link xlink:href=\"documentation.html\">ausführliche Dokumentation</link> "
+"verfügbar, einschließlich API-Referenz und einem Tutorial."
 
 #. (itstool) path: note/para
-#: C/main.xml:20
+#: C/main.xml:21
 msgid ""
 "<application>gtkmm</application> is free software distributed under the GNU "
 "Lesser General Public License (<link xlink:href=\"license.html\">LGPL</"
@@ -931,27 +872,27 @@ msgstr ""
 "link>) verteilt wird."
 
 #. (itstool) path: section/title
-#: C/main.xml:35
+#: C/main.xml:36
 msgid "Features"
 msgstr "Funktionsmerkmale"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:39
+#: C/main.xml:40
 msgid "Use inheritance to derive custom widgets."
 msgstr "Vererbung zur Ableitung benutzerdefinierter Widgets."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:42
+#: C/main.xml:43
 msgid "Type-safe signal handlers, in standard C++."
 msgstr "Typensichere Signal-Handler, in Standard C++."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:45
+#: C/main.xml:46
 msgid "Polymorphism."
 msgstr "Polymorphismus."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:48
+#: C/main.xml:49
 msgid ""
 "Use of Standard C++ Library, including strings, containers, and iterators."
 msgstr ""
@@ -959,37 +900,37 @@ msgstr ""
 "und Iteratoren."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:51
+#: C/main.xml:52
 msgid "Full internationalisation with UTF8."
 msgstr "Vollständige Internationalisierung mit UTF8."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:57
+#: C/main.xml:58
 msgid "Object composition"
 msgstr "Objekterzeugung"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:60
+#: C/main.xml:61
 msgid "Automatic deallocation of dynamically allocated widgets."
 msgstr "Automatische Entkopplung dynamisch zugewiesener Widgets."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:54
+#: C/main.xml:55
 msgid "Complete C++ memory management <_:itemizedlist-1/>"
 msgstr "Komplette C++-Speicherverwaltung <_:itemizedlist-1/>"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:66
+#: C/main.xml:67
 msgid "Full use of C++ namespaces."
 msgstr "Volle Nutzung von C++-Namensräumen."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:69
+#: C/main.xml:70
 msgid "No macros."
 msgstr "Keine Makros."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:72
+#: C/main.xml:73
 msgid ""
 "Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
 "Forte), Win32 (gcc, MSVC 2013 or later (gtkmm3), MSVC 2017 or later "
@@ -1000,7 +941,7 @@ msgstr ""
 "neuer (gtkmm4)), MacOS X (gcc) und andere"
 
 #. (itstool) path: listitem/para
-#: C/main.xml:76
+#: C/main.xml:77
 msgid ""
 "Free software and free of cost for both Open Source and proprietary "
 "development."
@@ -1008,17 +949,17 @@ msgstr ""
 "Freie, kostenlose Software für Open-Source als auch proprietäre Entwicklung."
 
 #. (itstool) path: listitem/para
-#: C/main.xml:80
+#: C/main.xml:81
 msgid "Discussed, designed and implemented in public."
 msgstr "Wird öffentlich besprochen, entworfen und implementiert."
 
 #. (itstool) path: section/title
-#: C/main.xml:87
+#: C/main.xml:88
 msgid "Other gtkmm-related libraries"
 msgstr "Andere Bibliotheken mit Bezug zu gtkmm"
 
 #. (itstool) path: section/para
-#: C/main.xml:90
+#: C/main.xml:89
 msgid ""
 "gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
 "GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
@@ -1030,51 +971,29 @@ msgstr ""
 "gtkmm ist ein GUI-Toolkit und nicht mehr als das. Wir streben danach, das "
 "beste GUI-Toolkit für C++ zu entwickeln. Dieser Auftrag schließt nicht "
 "generische C++-Datenstrukturen, einen XML-Parser oder Datenbankzugriffe ein. "
-"Selbst unser Signale/Slots-System ist Teil einer separaten (<link xlink:href="
-"\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>) "
-"Bibliothek. Dennoch ist gktmm entworfen worden, um gut mit allen anderen C++-"
-"Bibliotheken zusammen zu arbeiten."
+"Selbst unser Signale/Slots-System ist Teil einer separaten (<link xlink:"
+"href=\"https://libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</"
+"link>) Bibliothek. Dennoch ist gktmm entworfen worden, um gut mit allen "
+"anderen C++-Bibliotheken zusammen zu arbeiten."
 
 #. (itstool) path: section/para
-#: C/main.xml:97
+#: C/main.xml:96
 msgid ""
-"The gnomemm libraries cover some of these other tasks, but they are optional."
+"Be sure to check out our companion libraries, <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/glibmm/\">glibmm</link> (UTF8 strings, etc), "
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/pangomm/\">pangomm</"
+"link> (font layout), <link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link> (signal/slots) and <link xlink:"
+"href=\"https://libxmlplusplus.github.io/libxmlplusplus/\">libxml++</link> "
+"(XML parser)."
 msgstr ""
-"Die gnomemm-Bibliotheken decken einige dieser weiteren Aufgaben ab, sie sind "
-"aber optional."
-
-#. (itstool) path: section/title
-#: C/main.xml:104
-msgid "libsigc++"
-msgstr "libsigc++"
-
-#. (itstool) path: section/para
-#: C/main.xml:105
-msgid ""
-"Also, be sure to check out our companion libraries, glibmm (UTF8 strings, "
-"threading, etc) and <link xlink:href=\"https://libsigcplusplus.github.io/"
-"libsigcplusplus/\">libsigc++</link> (signal/slots)."
-msgstr ""
-"Sehen Sie sich unbedingt auch unsere begleitenden Bibliotheken an, glibmm "
-"(UTF8-Zeichenketten, Threading usw.) und <link xlink:href=\"https://"
+"Schauen Sie sich auch unsere Begleitbibliotheken an, <link xlink:"
+"href=\"https://gnome.pages.gitlab.gnome.org/glibmm/\">glibmm</link> (UTF8-"
+"Zeichenketten, etc), <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/"
+"pangomm/\">pangomm</link> (Schriften zeichnen), <link xlink:href=\"https://"
 "libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link> (Signale/"
-"Slots)."
-
-#. (itstool) path: section/title
-#: C/main.xml:111 C/books.xml:47
-msgid "Others"
-msgstr "Weitere"
-
-#. (itstool) path: section/para
-#: C/main.xml:112
-msgid ""
-"Be sure to check out <link xlink:href=\"http://bakery.sourceforge.net/"
-"\">Bakery</link>, a framework for constructing gtkmm/gnomemm applications. "
-"It allows use of the Document/View architecture."
-msgstr ""
-"Sehen Sie sich unbedingt <link xlink:href=\"http://bakery.sourceforge.net/"
-"\">Bakery</link>an, ein Framework für die Erstellung von gtkmm/gnomemm-"
-"Anwendungen. Es ermöglicht die Verwendung der Dokument/Ansicht-Architektur."
+"Slots) und <link xlink:href=\"https://libxmlplusplus.github.io/"
+"libxmlplusplus/\">libxml++</link> (XML-Parser)."
 
 #. (itstool) path: section/title
 #: C/mailinglist.xml:8
@@ -1091,16 +1010,16 @@ msgstr "Wo kann über gtkmm diskutiert werden?"
 msgid ""
 "C++ modules such as <emphasis role=\"bold\">gtkmm</emphasis> and <emphasis "
 "role=\"bold\">glibmm</emphasis>: Use GNOME's <link xlink:href=\"https://"
-"discourse.gnome.org\">Discourse forum</link>, under the <link xlink:href="
-"\"https://discourse.gnome.org/c/platform/language-bindings\"> Platform/"
+"discourse.gnome.org\">Discourse forum</link>, under the <link xlink:"
+"href=\"https://discourse.gnome.org/c/platform/language-bindings\"> Platform/"
 "Language bindings</link> category with a <literal>cplusplus</literal> tag."
 msgstr ""
 "C++-Module wie etwa <emphasis role=\"bold\">gtkmm</emphasis> und <emphasis "
-"role=\"bold\">glibmm</emphasis>: Verwenden Sie das <link xlink:href="
-"\"https://discourse.gnome.org\">Discourse-Forum</link> von GNOME unter der "
-"Kategorie <link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
-"bindings\"> Platform/Language bindings</link> mit dem <literal>cplusplus</"
-"literal>-Schlagwort."
+"role=\"bold\">glibmm</emphasis>: Verwenden Sie das <link xlink:"
+"href=\"https://discourse.gnome.org\">Discourse-Forum</link> von GNOME unter "
+"der Kategorie <link xlink:href=\"https://discourse.gnome.org/c/platform/"
+"language-bindings\"> Platform/Language bindings</link> mit dem "
+"<literal>cplusplus</literal>-Schlagwort."
 
 #. (itstool) path: listitem/para
 #: C/mailinglist.xml:20
@@ -1143,8 +1062,9 @@ msgid ""
 "list/\"> gtkmm-list archive</link>."
 msgstr ""
 "Es gibt eine alte Mailing-Liste, die jetzt geschlossen ist für neue "
-"Nachrichten. Ihr Archiv befindet sich auf der Seite <link xlink:href="
-"\"https://mail.gnome.org/archives/gtkmm-list/\"> gtkmm-list archive</link>."
+"Nachrichten. Ihr Archiv befindet sich auf der Seite <link xlink:"
+"href=\"https://mail.gnome.org/archives/gtkmm-list/\"> gtkmm-list archive</"
+"link>."
 
 #. (itstool) path: section/para
 #: C/mailinglist.xml:40
@@ -1188,24 +1108,6 @@ msgstr "Verfügbare Widgets"
 #. (itstool) path: listitem/para
 #: C/extra.xml:15
 msgid ""
-"<link xlink:href=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</link> "
-"OpenGL rendering for gtkmm"
-msgstr ""
-"<link xlink:href=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</link>, "
-"OpenGL-Darstellung für gtkmm"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:18
-msgid ""
-"<link xlink:href=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
-"\">gtkmozembedmm</link> Mozilla-based web browser widget"
-msgstr ""
-"<link xlink:href=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
-"\">gtkmozembedmm</link>, Mozilla-basiertes Webbrowser-Widget"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:21
-msgid ""
 "<link xlink:href=\"http://plotmm.sourceforge.net/\">Plotmm</link> plot "
 "widget for scientific applications"
 msgstr ""
@@ -1213,16 +1115,7 @@ msgstr ""
 "Widget für wissenschaftliche Anwendungen"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:24
-msgid ""
-"<link xlink:href=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</"
-"link> wrappers for GtkSourceView (Gtk::TextView with syntax highlighting)"
-msgstr ""
-"<link xlink:href=\"http://home.gna.org/gtksourceviewmm/\">gtksourceviewmm</"
-"link>, Wrapper für GtkSourceView (Gtk::TextView mit Syntaxhervorhebung)"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:27
+#: C/extra.xml:18
 msgid ""
 "<link xlink:href=\"http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/"
 "\">gstreamermm</link> wrappers for gstreamer (streaming media)"
@@ -1231,7 +1124,7 @@ msgstr ""
 "\">gstreamermm</link>, Wrapper für gstreamer (Streaming-Medien)"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:30
+#: C/extra.xml:21
 msgid ""
 "<link xlink:href=\"http://vtemm.sourceforge.jp/\">VTEmm</link> terminal "
 "widget"
@@ -1240,7 +1133,7 @@ msgstr ""
 "Widget"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:33
+#: C/extra.xml:24
 msgid ""
 "<link xlink:href=\"http://gtkextramm.sourceforge.net/\">gtkextramm</link> "
 "wrappers for GtkExtra (plot, sheet, etc)"
@@ -1249,16 +1142,7 @@ msgstr ""
 "Wrapper für GtkExtra (Plot, Datenblatt usw.)"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:36
-msgid ""
-"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas.html"
-"\">FlowCanvas</link> canvas for data flow systems"
-msgstr ""
-"<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas.html"
-"\">FlowCanvas</link>, Zeichenfläche für Flussdiagramme"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:39
+#: C/extra.xml:27
 msgid ""
 "<link xlink:href=\"http://carlowood.github.io/cwchessboard/\">cwchessboard</"
 "link> C++ chess board tool set for gtkmm"
@@ -1269,55 +1153,44 @@ msgstr ""
 #. (itstool) path: section/para
 #: C/extra.xml:11
 msgid ""
-"In addition to the wrappers distributed with gtkmm and gnomemm, additional "
-"widgets and libraries are available from other sources. <_:itemizedlist-1/>"
+"In addition to the wrappers distributed with gtkmm, additional widgets and "
+"libraries are available from other sources. <_:itemizedlist-1/>"
 msgstr ""
-"Ergänzend zu den in gtkmm und gnomemm enthaltenen Wrappers sind zusätzliche "
-"Widgets und Bibliotheken aus weiteren Quellen verfügbar. <_:itemizedlist-1/>"
+"Ergänzend zu den in gtkmm enthaltenen Wrappers sind zusätzliche Widgets und "
+"Bibliotheken aus weiteren Quellen verfügbar. <_:itemizedlist-1/>"
 
 #. (itstool) path: section/title
-#: C/extra.xml:45
+#: C/extra.xml:33
 msgid "gtkmm tools"
 msgstr "gtkmm-Werkzeuge"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:48
+#: C/extra.xml:36
 msgid ""
-"<link xlink:href=\"https://glade.gnome.org/\">Glade</link> User Interface "
-"Designer for GTK, glade UI files can be used from a gtkmm program by using "
-"Gtk::Builder"
+"<link xlink:href=\"https://gitlab.gnome.org/jpu/cambalache\">Cambalache</"
+"link> User Interface Designer for GTK. Cambalache UI files can be used from "
+"a gtkmm program by using Gtk::Builder."
 msgstr ""
-"<link xlink:href=\"https://glade.gnome.org/\">Glade</link>, "
-"Oberflächendesigner für GTK. Die von Glade erzeugten UI-Dateien können in "
-"einem gtkmm-Programm mittels Gtk::Builder genutzt werden"
+"<link xlink:href=\"https://gitlab.gnome.org/jpu/cambalache\">Cambalache</"
+"link>, Oberflächendesigner für GTK. Die von Cambalache erzeugten UI-Dateien "
+"können in einem gtkmm-Programm mittels Gtk::Builder genutzt werden."
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:51
+#: C/extra.xml:40
 msgid ""
-"<link xlink:href=\"http://home.wtal.de/petig/Gtk/\">glademm</link> glade "
-"module for automatically generating gtkmm code (note: glademm is different "
-"than libglademm or Gtk::Builder)"
+"<emphasis role=\"bold\">Glade</emphasis> User Interface Designer for GTK3 "
+"has been replaced by Cambalache."
 msgstr ""
-"<link xlink:href=\"http://home.wtal.de/petig/Gtk/\">glademm</link>, Glade-"
-"Module für die automatische Erzeugung von gtkmm-Code. (Achtung: glademm "
-"unterscheidet sich von libglademm oder Gtk::Builder)"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:54
-msgid ""
-"<link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</link> Document/"
-"View Model"
-msgstr ""
-"<link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</link>, Dokument/"
-"Ansicht-Modell"
+"<emphasis role=\"bold\">Glade</emphasis>, Oberflächendesigner für GTK3, "
+"wurde durch Cambalache ersetzt."
 
 #. (itstool) path: section/title
-#: C/extra.xml:60
+#: C/extra.xml:46
 msgid "Applications using gtkmm"
 msgstr "Anwendungen, die gtkmm benutzen"
 
 #. (itstool) path: section/para
-#: C/extra.xml:61
+#: C/extra.xml:47
 msgid ""
 "If all else fails, sometimes it is good to look at the source of some other "
 "projects using the same toolkit."
@@ -1326,12 +1199,12 @@ msgstr ""
 "weiterhelfen, die das gleiche Toolkit verwenden."
 
 #. (itstool) path: section/title
-#: C/extra.xml:65
+#: C/extra.xml:51
 msgid "Using gtkmm:"
 msgstr "gtkmm wird verwendet von:"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:68
+#: C/extra.xml:54
 msgid ""
 "<link xlink:href=\"http://regexxer.sourceforge.net/\">Regexxer</link> multi-"
 "file search/replace with visual feedback"
@@ -1340,25 +1213,7 @@ msgstr ""
 "Suchen/Ersetzen in mehreren Dateien mit visuellen Rückmeldungen"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:71
-msgid ""
-"<link xlink:href=\"http://subsubsub.sourceforge.net\">SubSubSub</link> "
-"creation of hierarchical text documents"
-msgstr ""
-"<link xlink:href=\"http://subsubsub.sourceforge.net\">SubSubSub</link>, "
-"Erstellung hierarchischer Textdokumente"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:74
-msgid ""
-"<link xlink:href=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</"
-"link> renames batches of files"
-msgstr ""
-"<link xlink:href=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</"
-"link>, mehrere Dateien umbenennen"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:77
+#: C/extra.xml:57
 msgid ""
 "<link xlink:href=\"http://towel.sourceforge.net\">Towel</link> audio player"
 msgstr ""
@@ -1366,14 +1221,16 @@ msgstr ""
 "Wiedergabe"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:82
+#: C/extra.xml:60
 msgid ""
-"<link xlink:href=\"http://www.glom.org/\">Glom</link> database environment"
+"<link xlink:href=\"https://gitlab.gnome.org/Archive/glom\">Glom</link> "
+"database environment"
 msgstr ""
-"<link xlink:href=\"http://www.glom.org/\">Glom</link>, Datenbankumgebung"
+"<link xlink:href=\"https://gitlab.gnome.org/Archive/glom\">Glom</link>, "
+"Datenbankumgebung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:85
+#: C/extra.xml:63
 msgid ""
 "<link xlink:href=\"http://cactus.rulez.org/projects/guikachu/\">Guikachu</"
 "link> graphical resource editor for PalmOS applications"
@@ -1382,7 +1239,7 @@ msgstr ""
 "link>, graphischer Ressourceneditor für PalmOS-Anwendungen"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:88
+#: C/extra.xml:66
 msgid ""
 "<link xlink:href=\"http://www.inkscape.org/\">Inkscape</link> vector "
 "graphics drawing"
@@ -1391,7 +1248,7 @@ msgstr ""
 "Grafiken zeichnen"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:91
+#: C/extra.xml:69
 msgid ""
 "<link xlink:href=\"http://gnomoradio.org/\">Gnomoradio</link> peer to peer "
 "sharing of freely licensed music"
@@ -1400,16 +1257,7 @@ msgstr ""
 "Verteilung frei lizensierter Musik"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:94
-msgid ""
-"<link xlink:href=\"https://packages.debian.org/sid/gip\">Gip</link> IP "
-"address calculator"
-msgstr ""
-"<link xlink:href=\"https://packages.debian.org/sid/gip\">Gip</link>, IP-"
-"Adressen berechnen"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:97
+#: C/extra.xml:72
 msgid ""
 "<link xlink:href=\"http://www.k-3d.org/\">K-3D</link> 3D modelling and "
 "animation"
@@ -1418,7 +1266,7 @@ msgstr ""
 "Animation"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:100
+#: C/extra.xml:75
 msgid ""
 "<link xlink:href=\"http://www.fnxweb.com/hardware-monitor-applet\">Hardware "
 "Monitor</link> GNOME panel applet"
@@ -1427,7 +1275,7 @@ msgstr ""
 "Monitor</link>, Panel-Applet für GNOME"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:103
+#: C/extra.xml:78
 msgid ""
 "<link xlink:href=\"http://www.workrave.org/\">Workrave</link> assists in "
 "recovery and prevention of RSI"
@@ -1436,7 +1284,7 @@ msgstr ""
 "RSI-Prävention und Wiederherstellung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:106
+#: C/extra.xml:81
 msgid ""
 "<link xlink:href=\"http://timfx.sourcearchive.com/\">timfx</link> digital "
 "video effects plug-in for Kino"
@@ -1445,7 +1293,7 @@ msgstr ""
 "für digitale Videoeffekte für Kino"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:109
+#: C/extra.xml:84
 msgid ""
 "<link xlink:href=\"http://gparted.sourceforge.net/\">GParted</link> disk "
 "partitioning tool"
@@ -1454,7 +1302,7 @@ msgstr ""
 "Partitionierungswerkzeug"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:114
+#: C/extra.xml:87
 msgid ""
 "<link xlink:href=\"http://cdrdao.sourceforge.net/\">gcdmaster</link> cdrdao "
 "frontend"
@@ -1463,25 +1311,7 @@ msgstr ""
 "Frontend für cdrdao"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:117
-msgid ""
-"<link xlink:href=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper "
-"Tray</link> GNOME panel applet"
-msgstr ""
-"<link xlink:href=\"http://planetearthworm.com/projects/wp_tray/\">Wallpaper "
-"Tray</link>, GNOME Panel-Applet"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:120
-msgid ""
-"<link xlink:href=\"http://www.freespiders.org/projects/gmlview/\">MLView</"
-"link> XML Editor"
-msgstr ""
-"<link xlink:href=\"http://www.freespiders.org/projects/gmlview/\">MLView</"
-"link>, XML-Editor"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:123
+#: C/extra.xml:90
 msgid ""
 "<link xlink:href=\"http://sourceforge.net/projects/duty-roaster\">Duty "
 "Roaster</link> manages duty rotas"
@@ -1490,7 +1320,7 @@ msgstr ""
 "Roaster</link>, Dienstplanverwaltung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:126
+#: C/extra.xml:93
 msgid ""
 "<link xlink:href=\"http://gobby.0x539.de\">Gobby</link> collaborative text "
 "editor"
@@ -1499,7 +1329,7 @@ msgstr ""
 "Texteditor"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:129
+#: C/extra.xml:96
 msgid ""
 "<link xlink:href=\"https://code.google.com/p/pinot-search/\">Pinot</link> "
 "metasearch tool"
@@ -1508,16 +1338,7 @@ msgstr ""
 "Multi-Suchwerkzeug"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:132
-msgid ""
-"<link xlink:href=\"http://home.gna.org/colorscheme/\">Agave</link> color "
-"scheme generator"
-msgstr ""
-"<link xlink:href=\"http://home.gna.org/colorscheme/\">Agave</link>, "
-"Farbschema-Generator"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:135
+#: C/extra.xml:99
 msgid ""
 "<link xlink:href=\"http://amyedit.sourceforge.net/\">AmyEdit</link> LaTeX "
 "editor"
@@ -1526,7 +1347,7 @@ msgstr ""
 "Editor"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:138
+#: C/extra.xml:102
 msgid ""
 "<link xlink:href=\"http://aeskulap.nongnu.org/\">Aeskulap</link> medical "
 "image viewer"
@@ -1535,7 +1356,7 @@ msgstr ""
 "Medizinischer Bildbetrachter"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:141
+#: C/extra.xml:105
 msgid ""
 "<link xlink:href=\"http://gspeakers.sourceforge.net/\">gspeakers</link> "
 "loudspeaker designer"
@@ -1544,7 +1365,7 @@ msgstr ""
 "Lautsprecherdesigner"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:144
+#: C/extra.xml:108
 msgid ""
 "<link xlink:href=\"http://free-doko.sourceforge.net/en/\">FreeDoko</link> "
 "card game"
@@ -1553,15 +1374,7 @@ msgstr ""
 "Kartenspiel"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:147
-msgid ""
-"<link xlink:href=\"http://www.minisip.org/\">miniSIP</link> Internet "
-"telephone"
-msgstr ""
-"<link xlink:href=\"http://www.minisip.org/\">miniSIP</link>, Internet-Telefon"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:150
+#: C/extra.xml:111
 msgid ""
 "<link xlink:href=\"http://goupil.tuxfamily.org/\">Goupil</link> membership "
 "management"
@@ -1570,34 +1383,7 @@ msgstr ""
 "Mitgliederverwaltung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:153
-msgid ""
-"<link xlink:href=\"http://www.nongnu.org/om-synth/index.html\">Om</link> "
-"modular synthesizer and effects processor"
-msgstr ""
-"<link xlink:href=\"http://www.nongnu.org/om-synth/index.html\">Om</link>, "
-"modularer Synthesizer und Effektprozessor"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:156
-msgid ""
-"<link xlink:href=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</link> "
-"background browser and setter"
-msgstr ""
-"<link xlink:href=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</link>, "
-"Hintergründe durchsuchen und festlegen"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:159
-msgid ""
-"<link xlink:href=\"http://home.gna.org/nemiver/\">Nemiver</link> GUI for the "
-"GNU debugger gdb"
-msgstr ""
-"<link xlink:href=\"http://home.gna.org/nemiver/\">Nemiver</link>, GUI für "
-"den GNU-Debugger »gdb«"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:162
+#: C/extra.xml:114
 msgid ""
 "<link xlink:href=\"http://beep-media-player.org/\">BMP</link> audio player"
 msgstr ""
@@ -1605,7 +1391,7 @@ msgstr ""
 "Wiedergabe"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:165
+#: C/extra.xml:117
 msgid ""
 "<link xlink:href=\"http://usbsink.sourceforge.net/\">USBSink</link> file "
 "synchronization over USB"
@@ -1614,16 +1400,7 @@ msgstr ""
 "Dateiabgleich über USB"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:168
-msgid ""
-"<link xlink:href=\"http://home.gna.org/elfelli/\">Elfelli</link> electric "
-"flux line simulation"
-msgstr ""
-"<link xlink:href=\"http://home.gna.org/elfelli/\">Elfelli</link>, Simulation "
-"des elektrischen Stromflusses"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:171
+#: C/extra.xml:120
 msgid ""
 "<link xlink:href=\"http://github.com/egroeper/referencer/\">Referencer</"
 "link> document organiser and bibliography manager"
@@ -1632,7 +1409,7 @@ msgstr ""
 "link>, Dokument- und Bibliografieverwaltung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:174
+#: C/extra.xml:123
 msgid ""
 "<link xlink:href=\"http://granule.sourceforge.net/\">Granule</link> index "
 "cards"
@@ -1641,7 +1418,7 @@ msgstr ""
 "Indexkarten"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:177
+#: C/extra.xml:126
 msgid ""
 "<link xlink:href=\"http://ardour.org/\">Ardour 2</link> multichannel hard "
 "disk recorder and digital audio workstation"
@@ -1650,7 +1427,7 @@ msgstr ""
 "Festplattenrekorder und digitale Audio-Workstation"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:180
+#: C/extra.xml:129
 msgid ""
 "<link xlink:href=\"http://www.stacken.kth.se/project/pptout/\">Passepartout</"
 "link> desktop publishing"
@@ -1659,7 +1436,7 @@ msgstr ""
 "link>, DTP-Programm"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:183
+#: C/extra.xml:132
 msgid ""
 "<link xlink:href=\"http://gwavmerger.sourceforge.net\">gwavmerger</link> "
 "foreign language learning tool"
@@ -1668,7 +1445,7 @@ msgstr ""
 "Werkzeug zum Erlernen von Fremdsprachen"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:186
+#: C/extra.xml:135
 msgid ""
 "<link xlink:href=\"http://wavemixer.sourceforge.net/\">WaveMixer</link> "
 "sound editor"
@@ -1677,7 +1454,7 @@ msgstr ""
 "Bearbeitung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:189
+#: C/extra.xml:138
 msgid ""
 "<link xlink:href=\"http://lostirc.sourceforge.net/\">LostIRC</link> IRC "
 "client"
@@ -1686,7 +1463,7 @@ msgstr ""
 "Client"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:192
+#: C/extra.xml:141
 msgid ""
 "<link xlink:href=\"http://dev.mysql.com/downloads/workbench/\">MySQL "
 "Workbench</link> database GUI"
@@ -1695,7 +1472,7 @@ msgstr ""
 "Workbench</link>, grafische Benutzeroberfläche für Datenbanken"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:195
+#: C/extra.xml:144
 msgid ""
 "<link xlink:href=\"http://paco.sourceforge.net/\">Paco</link> source code "
 "package organizer"
@@ -1704,7 +1481,7 @@ msgstr ""
 "Quellpaketverwaltung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:198
+#: C/extra.xml:147
 msgid ""
 "<link xlink:href=\"https://www.gnome.org/\">GNOME System Monitor</link> "
 "system monitor"
@@ -1713,12 +1490,12 @@ msgstr ""
 "Systemüberwachung"
 
 #. (itstool) path: section/title
-#: C/extra.xml:204
+#: C/extra.xml:153
 msgid "Using gtkmm 2.0/2.2:"
-msgstr "gtkmm 2.0/2.2 wir verwendet von:"
+msgstr "gtkmm 2.0/2.2 wird verwendet von:"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:207
+#: C/extra.xml:156
 msgid ""
 "<link xlink:href=\"http://heavymole.sourceforge.net/\">HeavyMole</link> file "
 "sharing client"
@@ -1727,7 +1504,7 @@ msgstr ""
 "Filesharing-Client"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:210
+#: C/extra.xml:159
 msgid ""
 "<link xlink:href=\"http://gabber.sourceforge.net/\">Gabber 2</link> GNOME "
 "Jabber IM client"
@@ -1736,23 +1513,14 @@ msgstr ""
 "Client für den Jabber-Sofortnachrichtendienst"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:213
+#: C/extra.xml:162
 msgid ""
 "<link xlink:href=\"http://gex.sourceforge.net/\">Gex</link> file manager"
 msgstr ""
 "<link xlink:href=\"http://gex.sourceforge.net/\">Gex</link>, Dateiverwaltung"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:216
-msgid ""
-"<link xlink:href=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</"
-"link> GUI frontend for the efax fax program"
-msgstr ""
-"<link xlink:href=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</"
-"link>, grafische Oberfläche für das Faxprogramm efax"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:219
+#: C/extra.xml:165
 msgid ""
 "<link xlink:href=\"http://visage.sourceforge.net\">Visage</link> organise "
 "and visualise information"
@@ -1761,7 +1529,7 @@ msgstr ""
 "Informationen organisieren und visualisieren"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:222
+#: C/extra.xml:168
 msgid ""
 "<link xlink:href=\"http://www.nongnu.org/ghosts/\">Ghosts GEDCOM Viewer</"
 "link> geneology database viewer"
@@ -1770,7 +1538,7 @@ msgstr ""
 "link>, Betrachter für Ahnentafel-Datenbanken"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:225
+#: C/extra.xml:171
 msgid ""
 "<link xlink:href=\"http://liarliar.sourceforge.net/\">Liar Liar</link> voice "
 "stress analysis tool"
@@ -1778,183 +1546,35 @@ msgstr ""
 "<link xlink:href=\"http://liarliar.sourceforge.net/\">Liar Liar</link>, "
 "Analyse der Stimmanspannung"
 
-#. (itstool) path: listitem/para
-#: C/extra.xml:228
-msgid ""
-"<link xlink:href=\"http://freecode.com/projects/cug\">CUG</link> 3D equation "
-"plotter"
-msgstr ""
-"<link xlink:href=\"http://freecode.com/projects/cug\">CUG</link>, 3D-Plotter "
-"für Gleichungen"
-
 #. (itstool) path: section/title
-#: C/extra.xml:234
-msgid "Using gtkmm 1.2:"
-msgstr "gtkmm 1.2 wir verwendet von:"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:237
-msgid ""
-"<link xlink:href=\"http://gensql.sourceforge.net/\">genSQL</link> generic "
-"SQL GUI"
-msgstr ""
-"<link xlink:href=\"http://gensql.sourceforge.net/\">genSQL</link>, eine "
-"allgemeine Oberfläche für SQL"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:240
-msgid ""
-"<link xlink:href=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</"
-"link> Gomoku game for GNOME"
-msgstr ""
-"<link xlink:href=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</"
-"link>, das Spiel »Gomoku« für GNOME"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:243
-msgid ""
-"<link xlink:href=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</"
-"link> GUI voicemail / speakerphone / caller ID application"
-msgstr ""
-"<link xlink:href=\"http://www.tucows.com/preview/25500/GNUvoice\">gnuvoice</"
-"link>, eine GUI-Anwendung für die Voicemail- / Lautsprecher- / Anruferkennung"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:246
-msgid ""
-"<link xlink:href=\"http://gtkmail.sourceforge.net/\">gtkmail</link> MIME "
-"compliant GUI email client"
-msgstr ""
-"<link xlink:href=\"http://gtkmail.sourceforge.net/\">gtkmail</link>, ein "
-"MIME-kompatibler grafischer E-Mail-Client"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:249
-msgid ""
-"<link xlink:href=\"http://gvbox.sourceforge.net/\">Gvbox</link> graphical "
-"frontend to isdn4linux answering machine"
-msgstr ""
-"<link xlink:href=\"http://gvbox.sourceforge.net/\">Gvbox</link>, grafisches "
-"Frontend für den isdn4linux-Anrufbeantworter"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:252
-msgid ""
-"<link xlink:href=\"http://www.medini.org/software/ped/ped.html\">Ped</link> "
-"path editor utility"
-msgstr ""
-"<link xlink:href=\"http://www.medini.org/software/ped/ped.html\">Ped</link>, "
-"Pfadeditor-Hilfsprogramm"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:255
-msgid ""
-"<link xlink:href=\"http://picmonger.sourceforge.net/\">PicMonger</link> "
-"Usenet picture grabber"
-msgstr ""
-"<link xlink:href=\"http://picmonger.sourceforge.net/\">PicMonger</link>, "
-"Usenet-Bildersammler"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:258
-msgid ""
-"<link xlink:href=\"http://cactus.rulez.org/projects/radioactive/"
-"\">RadioActive</link> radio application for Video4Linux-compatible radio "
-"tuner cards"
-msgstr ""
-"<link xlink:href=\"http://cactus.rulez.org/projects/radioactive/"
-"\">RadioActive</link>, Radio-Anwendung für Video4Linux-kompatible "
-"Radioempfänger-Karten"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:261
-msgid ""
-"<link xlink:href=\"http://softwerk.sourceforge.net/\">softwerk</link> "
-"software analogue MIDI sequencer"
-msgstr ""
-"<link xlink:href=\"http://softwerk.sourceforge.net/\">softwerk</link>, "
-"Analoger MIDI-Software-Sequenzer"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:264
-msgid ""
-"<link xlink:href=\"http://www.firedrake.org/terraform/\">terraform</link> "
-"terrain generator (very cool)"
-msgstr ""
-"<link xlink:href=\"http://www.firedrake.org/terraform/\">Terraform</link>, "
-"Geländeoberflächengenerator (sehr cool)"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:267
-msgid ""
-"<link xlink:href=\"http://ickle.sourceforge.net/\">ickle</link> ICQ client"
-msgstr ""
-"<link xlink:href=\"http://ickle.sourceforge.net/\">ickle</link>, ein ICQ-"
-"Client"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:270
-msgid ""
-"<link xlink:href=\"http://cap.sourceforge.net/\">Chained Audio Plugins</link>"
-msgstr ""
-"<link xlink:href=\"http://cap.sourceforge.net/\">Chained Audio Plugins</link>"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:273
-msgid ""
-"<link xlink:href=\"http://zarb.org/~gc/html/grany.html\">Grany-3</link> "
-"cellular automaton simulator"
-msgstr ""
-"<link xlink:href=\"http://zarb.org/~gc/html/grany.html\">Grany-3</link>, "
-"zellulärer Automaten-Simulator"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:276
-msgid ""
-"<link xlink:href=\"http://paloma.sourceforge.net/\">Paloma</link> music "
-"management system"
-msgstr ""
-"<link xlink:href=\"http://paloma.sourceforge.net/\">Paloma</link>, "
-"Musikverwaltungssystem"
-
-#. (itstool) path: listitem/para
-#: C/extra.xml:279
-msgid ""
-"<link xlink:href=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</link> 3D "
-"cellular automata simulator"
-msgstr ""
-"<link xlink:href=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</link>, "
-"3D-Simulator für einen zellulären Automaten"
-
-#. (itstool) path: section/title
-#: C/extra.xml:286
+#: C/extra.xml:178
 msgid "Links"
 msgstr "Verweise"
 
 #. (itstool) path: section/title
-#: C/extra.xml:288
+#: C/extra.xml:180
 msgid "GTK resources"
 msgstr "GTK-Ressourcen"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:291
+#: C/extra.xml:183
 msgid "<link xlink:href=\"https://www.gtk.org/\">GTK homepage</link>"
 msgstr "<link xlink:href=\"https://www.gtk.org/\">GTK-Homepage</link>"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:294
+#: C/extra.xml:186
 msgid "<link xlink:href=\"https://www.gnome.org/\">GNOME homepage</link>"
 msgstr "<link xlink:href=\"https://www.gnome.org/\">GNOME-Homepage</link>"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:297
+#: C/extra.xml:189
 msgid ""
 "<link xlink:href=\"https://developer.gnome.org/\">GNOME development</link>"
 msgstr ""
 "<link xlink:href=\"https://developer.gnome.org/\">GNOME Entwicklung</link>"
 
 #. (itstool) path: listitem/para
-#: C/extra.xml:300
+#: C/extra.xml:192
 msgid "<link xlink:href=\"https://www.gimp.org/\">Gimp homepage</link>"
 msgstr "<link xlink:href=\"https://www.gimp.org/\">Gimp-Homepage</link>"
 
@@ -1968,18 +1588,18 @@ msgstr "Neuigkeiten"
 msgid ""
 "This list will not be updated each time a new release is made. The listed "
 "versions are the latest stable versions at the time of writing, but there "
-"may be newer releases when you read this text. See <link xlink:href="
-"\"https://download.gnome.org/sources/\">download.gnome.org/sources/</link> "
-"and <link xlink:href=\"https://www.cairographics.org/releases/\">www."
+"may be newer releases when you read this text. See <link xlink:"
+"href=\"https://download.gnome.org/sources/\">download.gnome.org/sources/</"
+"link> and <link xlink:href=\"https://www.cairographics.org/releases/\">www."
 "cairographics.org/releases/</link>."
 msgstr ""
 "Diese Liste wird nicht bei jeder neuen Freigabe aktualisiert. Die "
 "aufgelisteten Versionen sind die neuesten stabilen Version zum Zeitpunkt der "
 "Niederschrift, aber es mag bereits neuere Versionen geben, während Sie "
 "diesen Text lesen. Besuchen Sie <link xlink:href=\"https://download.gnome."
-"org/sources/\">download.gnome.org/sources/</link> und <link xlink:href="
-"\"https://www.cairographics.org/releases/\">www.cairographics.org/releases/</"
-"link>."
+"org/sources/\">download.gnome.org/sources/</link> und <link xlink:"
+"href=\"https://www.cairographics.org/releases/\">www.cairographics.org/"
+"releases/</link>."
 
 #. (itstool) path: listitem/para
 #: C/news.xml:17
@@ -2035,8 +1655,8 @@ msgstr ""
 "\">GNOME</link> Git-Softwarebestand. Um mit der Entwicklung mit gtkmm zu "
 "beginnen, lesen Sie die <link xlink:href=\"git.html\">detaillierten Git-"
 "Anweisungen</link>. Diskussionen über die Entwicklung von gtkmm finden im "
-"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings"
-"\"> Discourse-Forum</link> statt."
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
+"bindings\"> Discourse-Forum</link> statt."
 
 #. (itstool) path: note/para
 #: C/developers.xml:14
@@ -2184,16 +1804,16 @@ msgstr "Empfohlene Bücher"
 #: C/books.xml:10
 msgid ""
 "The <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
-"documentation\">Programming with gtkmm 4</link> and <link xlink:href="
-"\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming with "
-"gtkmm 3</link> tutorials are available online along with the rest of our "
-"<link xlink:href=\"documentation.html\">documentation</link>."
+"documentation\">Programming with gtkmm 4</link> and <link xlink:"
+"href=\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming "
+"with gtkmm 3</link> tutorials are available online along with the rest of "
+"our <link xlink:href=\"documentation.html\">documentation</link>."
 msgstr ""
 "Die Anleitungen <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/"
-"gtkmm-documentation\">Programming with gtkmm 4</link> und <link xlink:href="
-"\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming with "
-"gtkmm 3</link> sind online zusammen mit dem Rest unserer <link xlink:href="
-"\"documentation.html\">Dokumentation</link> verfügbar."
+"gtkmm-documentation\">Programming with gtkmm 4</link> und <link xlink:"
+"href=\"https://developer-old.gnome.org/gtkmm-tutorial/3.24/\">Programming "
+"with gtkmm 3</link> sind online zusammen mit dem Rest unserer <link xlink:"
+"href=\"documentation.html\">Dokumentation</link> verfügbar."
 
 #. (itstool) path: section/para
 #: C/books.xml:13
@@ -2257,6 +1877,11 @@ msgstr ""
 "murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
 "Andrew Koenig &amp; Barbara E. Moo</link>"
 
+#. (itstool) path: section/title
+#: C/books.xml:47
+msgid "Others"
+msgstr "Weitere"
+
 #. (itstool) path: listitem/para
 #: C/books.xml:51
 msgid ""
@@ -2307,8 +1932,9 @@ msgid "translator-credits"
 msgstr ""
 "Mario Blättermann <mario.blaettermann@gmail.com>, 2010, 2011, 2015.\n"
 "Christian Kirbach <Christian.Kirbach@googlemail.com>, 2010.\n"
-"Jürgen Benvenuti <gastornis@posteo.org>, 2022.\n"
-"Tim Sabsch <tim@sabsch.com>, 2022."
+"Jürgen Benvenuti <gastornis@posteo.org>, 2022, 2023.\n"
+"Tim Sabsch <tim@sabsch.com>, 2022.\n"
+"Philipp Kiemle <philipp.kiemle@gmail.com>, 2023."
 
 #. (itstool) path: info/subtitle
 #: C/index.docbook:18
@@ -2400,13 +2026,13 @@ msgstr "Sprache"
 
 #. (itstool) path: abstract/para
 #. (itstool) id: index.docbook#footer
-#: C/index.docbook:130
+#: C/index.docbook:133
 msgid ""
-"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings"
-"\"> Contact Us</link>"
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
+"bindings\"> Contact Us</link>"
 msgstr ""
-"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings"
-"\"> Kontaktieren Sie uns</link>"
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
+"bindings\"> Kontaktieren Sie uns</link>"
 
 #. (itstool) path: section/title
 #: C/documentation.xml:15
@@ -2440,13 +2066,13 @@ msgstr ""
 #. (itstool) path: section/para
 #: C/documentation.xml:24
 msgid ""
-"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link xlink:href="
-"\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
-"\">gtkmm-list post.</link>"
+"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link xlink:"
+"href=\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013."
+"html\">gtkmm-list post.</link>"
 msgstr ""
-"Abhängigkeiten von gtkmm-3.0 und gtkmm-4.0 sind in einer <link xlink:href="
-"\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013.html"
-"\">Nachricht in der gtkmm-Mailingliste</link> aufgelistet."
+"Abhängigkeiten von gtkmm-3.0 und gtkmm-4.0 sind in einer <link xlink:"
+"href=\"https://mail.gnome.org/archives/gtkmm-list/2020-December/msg00013."
+"html\">Nachricht in der gtkmm-Mailingliste</link> aufgelistet."
 
 #. (itstool) path: section/title
 #: C/documentation.xml:28
@@ -2459,8 +2085,8 @@ msgid ""
 "You might start by reading the <emphasis role=\"bold\">Programming with "
 "gtkmm</emphasis> online book."
 msgstr ""
-"Für den Anfang konnten Sie sich mit dem Online-Buch <emphasis role=\"bold"
-"\">Programming with gtkmm</emphasis> befassen."
+"Für den Anfang konnten Sie sich mit dem Online-Buch <emphasis "
+"role=\"bold\">Programming with gtkmm</emphasis> befassen."
 
 #. (itstool) path: section/para
 #: C/documentation.xml:30
@@ -2547,10 +2173,10 @@ msgstr ""
 #: C/documentation.xml:55
 msgid ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-builder.html\">Glade and Gtk::Builder</link>"
+"chapter-builder.html\">Gtk::Builder</link>"
 msgstr ""
 "<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
-"chapter-builder.html\">Glade und Gtk::Builder</link>"
+"chapter-builder.html\">Gtk::Builder</link>"
 
 #. (itstool) path: section/para
 #: C/documentation.xml:32
@@ -2767,15 +2393,15 @@ msgstr "Zusätzliche Module"
 msgid ""
 "API reference documentation for other C++ modules, such as pangomm, "
 "gstreamermm, libgdamm, goocanvasmm, etc, is also available from the <link "
-"xlink:href=\"https://developer-old.gnome.org/references#c++-bindings"
-"\">developer-old.gnome.org C++ Bindings</link> section. However, this "
-"website is not updated any more."
+"xlink:href=\"https://developer-old.gnome.org/references#c++-"
+"bindings\">developer-old.gnome.org C++ Bindings</link> section. However, "
+"this website is not updated any more."
 msgstr ""
 "API-Referenzdokumentation für andere C++-Module, wie gdkmm, pangomm, "
-"gstreamermm, libgdamm, goocanvasmm usw. ist auch über die <link xlink:href="
-"\"https://developer-old.gnome.org/references#c++-bindings\">developer.gnome."
-"org C++-Bindungen</link> verfügbar. Diese Webseite wird allerdings nicht "
-"mehr aktualisiert."
+"gstreamermm, libgdamm, goocanvasmm usw. ist auch über die <link xlink:"
+"href=\"https://developer-old.gnome.org/references#c++-bindings\">developer."
+"gnome.org C++-Bindungen</link> verfügbar. Diese Webseite wird allerdings "
+"nicht mehr aktualisiert."
 
 #. (itstool) path: section/title
 #: C/documentation.xml:156
@@ -2870,10 +2496,10 @@ msgid ""
 "versions. However, <link xlink:href=\"#Source\">source packages</link> are "
 "available as well."
 msgstr ""
-"Sie sollten die für Ihre Distribution verfügbaren <link xlink:href=\"#Binary"
-"\">Binärpakete</link> verwenden, sofern Sie nicht die neuesten Versionen "
-"testen wollen. <link xlink:href=\"#Source\">Quellpakete</link> sind "
-"ebenfalls verfügbar."
+"Sie sollten die für Ihre Distribution verfügbaren <link xlink:"
+"href=\"#Binary\">Binärpakete</link> verwenden, sofern Sie nicht die neuesten "
+"Versionen testen wollen. <link xlink:href=\"#Source\">Quellpakete</link> "
+"sind ebenfalls verfügbar."
 
 #. (itstool) path: note/para
 #: C/download.xml:12
@@ -2906,13 +2532,13 @@ msgstr ""
 #: C/download.xml:21
 msgid ""
 "<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
-"<command>apt-get install libgtkmm-4.0-dev</command>These <link xlink:href="
-"\"https://packages.qa.debian.org/g/gtkmm4.0.html\">project pages</link> "
+"<command>apt-get install libgtkmm-4.0-dev</command>These <link xlink:"
+"href=\"https://packages.qa.debian.org/g/gtkmm4.0.html\">project pages</link> "
 "might give status."
 msgstr ""
 "<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
-"<command>apt-get install libgtkmm-4.0-dev</command>. Diese <link xlink:href="
-"\"https://packages.qa.debian.org/g/gtkmm4.0.html\">Projektseiten</link> "
+"<command>apt-get install libgtkmm-4.0-dev</command>. Diese <link xlink:"
+"href=\"https://packages.qa.debian.org/g/gtkmm4.0.html\">Projektseiten</link> "
 "geben Auskunft über den Status."
 
 #. (itstool) path: listitem/para
@@ -3011,11 +2637,11 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: C/download.xml:61
 msgid ""
-"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
-"\">goocanvasmm</link>"
+"<link xlink:href=\"https://download.gnome.org/sources/"
+"goocanvasmm\">goocanvasmm</link>"
 msgstr ""
-"<link xlink:href=\"https://download.gnome.org/sources/goocanvasmm"
-"\">goocanvasmm</link>"
+"<link xlink:href=\"https://download.gnome.org/sources/"
+"goocanvasmm\">goocanvasmm</link>"
 
 #. (itstool) path: listitem/para
 #: C/download.xml:64
@@ -3059,6 +2685,327 @@ msgstr ""
 "Sie können den Quellcode von GTK und GNOME von <link xlink:href=\"https://"
 "download.gnome.org/sources/\">download.gnome.org/sources/</link> beziehen."
 
+#~ msgid "4.2"
+#~ msgstr "4.2"
+
+#~ msgid "2.68"
+#~ msgstr "2.68"
+
+#~ msgid "gnomemm"
+#~ msgstr "gnomemm"
+
+#~ msgid "API Version"
+#~ msgstr "API-Version"
+
+#~ msgid "libglademm"
+#~ msgstr "libglademm"
+
+#~ msgid "gconfmm"
+#~ msgstr "gconfmm"
+
+#~ msgid "libgnomecanvasmm"
+#~ msgstr "libgnomecanvasmm"
+
+#~ msgid "*mm bindings for other GNOME-related APIs"
+#~ msgstr "*mm-Bindungen für weitere GNOME-bezogene APIs"
+
+#~ msgid ""
+#~ "The following bindings are not necessarily on the same schedule as those "
+#~ "listed above."
+#~ msgstr ""
+#~ "Die folgenden Bindungen unterliegen nicht notwendigerweise dem gleichen "
+#~ "Veröffentlichungsrhythmus wie die oben bereits erwähnten Bindungen."
+
+#~ msgid "libgdamm"
+#~ msgstr "libgdamm"
+
+#~ msgid "libgnomedbmm"
+#~ msgstr "libgnomedbmm"
+
+#~ msgid "goocanvasmm"
+#~ msgstr "goocanvasmm"
+
+#~ msgid "libpanelappletmm"
+#~ msgstr "libpanelappletmm"
+
+#~ msgid ""
+#~ "The gnomemm libraries cover some of these other tasks, but they are "
+#~ "optional."
+#~ msgstr ""
+#~ "Die gnomemm-Bibliotheken decken einige dieser weiteren Aufgaben ab, sie "
+#~ "sind aber optional."
+
+#~ msgid "libsigc++"
+#~ msgstr "libsigc++"
+
+#~ msgid ""
+#~ "Also, be sure to check out our companion libraries, glibmm (UTF8 strings, "
+#~ "threading, etc) and <link xlink:href=\"https://libsigcplusplus.github.io/"
+#~ "libsigcplusplus/\">libsigc++</link> (signal/slots)."
+#~ msgstr ""
+#~ "Sehen Sie sich unbedingt auch unsere begleitenden Bibliotheken an, glibmm "
+#~ "(UTF8-Zeichenketten, Threading usw.) und <link xlink:href=\"https://"
+#~ "libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link> (Signale/"
+#~ "Slots)."
+
+#~ msgid ""
+#~ "Be sure to check out <link xlink:href=\"http://bakery.sourceforge.net/"
+#~ "\">Bakery</link>, a framework for constructing gtkmm/gnomemm "
+#~ "applications. It allows use of the Document/View architecture."
+#~ msgstr ""
+#~ "Sehen Sie sich unbedingt <link xlink:href=\"http://bakery.sourceforge.net/"
+#~ "\">Bakery</link>an, ein Framework für die Erstellung von gtkmm/gnomemm-"
+#~ "Anwendungen. Es ermöglicht die Verwendung der Dokument/Ansicht-"
+#~ "Architektur."
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</link> "
+#~ "OpenGL rendering for gtkmm"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://gtkglext.sourceforge.net\">GtkGlExtmm</link>, "
+#~ "OpenGL-Darstellung für gtkmm"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+#~ "\">gtkmozembedmm</link> Mozilla-based web browser widget"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://ftp.gnome.org/pub/gnome/sources/gtkmozembedmm/"
+#~ "\">gtkmozembedmm</link>, Mozilla-basiertes Webbrowser-Widget"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://home.gna.org/gtksourceviewmm/"
+#~ "\">gtksourceviewmm</link> wrappers for GtkSourceView (Gtk::TextView with "
+#~ "syntax highlighting)"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://home.gna.org/gtksourceviewmm/"
+#~ "\">gtksourceviewmm</link>, Wrapper für GtkSourceView (Gtk::TextView mit "
+#~ "Syntaxhervorhebung)"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas."
+#~ "html\">FlowCanvas</link> canvas for data flow systems"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.nongnu.org/om-synth/flowcanvas."
+#~ "html\">FlowCanvas</link>, Zeichenfläche für Flussdiagramme"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://home.wtal.de/petig/Gtk/\">glademm</link> glade "
+#~ "module for automatically generating gtkmm code (note: glademm is "
+#~ "different than libglademm or Gtk::Builder)"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://home.wtal.de/petig/Gtk/\">glademm</link>, Glade-"
+#~ "Module für die automatische Erzeugung von gtkmm-Code. (Achtung: glademm "
+#~ "unterscheidet sich von libglademm oder Gtk::Builder)"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</link> "
+#~ "Document/View Model"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://bakery.sourceforge.net/\">Bakery</link>, "
+#~ "Dokument/Ansicht-Modell"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://subsubsub.sourceforge.net\">SubSubSub</link> "
+#~ "creation of hierarchical text documents"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://subsubsub.sourceforge.net\">SubSubSub</link>, "
+#~ "Erstellung hierarchischer Textdokumente"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</"
+#~ "link> renames batches of files"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://prefixsuffix.sourceforge.net/\">PrefixSuffix</"
+#~ "link>, mehrere Dateien umbenennen"
+
+#~ msgid ""
+#~ "<link xlink:href=\"https://packages.debian.org/sid/gip\">Gip</link> IP "
+#~ "address calculator"
+#~ msgstr ""
+#~ "<link xlink:href=\"https://packages.debian.org/sid/gip\">Gip</link>, IP-"
+#~ "Adressen berechnen"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://planetearthworm.com/projects/wp_tray/"
+#~ "\">Wallpaper Tray</link> GNOME panel applet"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://planetearthworm.com/projects/wp_tray/"
+#~ "\">Wallpaper Tray</link>, GNOME Panel-Applet"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.freespiders.org/projects/gmlview/\">MLView</"
+#~ "link> XML Editor"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.freespiders.org/projects/gmlview/\">MLView</"
+#~ "link>, XML-Editor"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://home.gna.org/colorscheme/\">Agave</link> color "
+#~ "scheme generator"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://home.gna.org/colorscheme/\">Agave</link>, "
+#~ "Farbschema-Generator"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.minisip.org/\">miniSIP</link> Internet "
+#~ "telephone"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.minisip.org/\">miniSIP</link>, Internet-"
+#~ "Telefon"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.nongnu.org/om-synth/index.html\">Om</link> "
+#~ "modular synthesizer and effects processor"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.nongnu.org/om-synth/index.html\">Om</link>, "
+#~ "modularer Synthesizer und Effektprozessor"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</link> "
+#~ "background browser and setter"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://projects.l3ib.org/nitrogen/\">Nitrogen</link>, "
+#~ "Hintergründe durchsuchen und festlegen"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://home.gna.org/nemiver/\">Nemiver</link> GUI for "
+#~ "the GNU debugger gdb"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://home.gna.org/nemiver/\">Nemiver</link>, GUI für "
+#~ "den GNU-Debugger »gdb«"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://home.gna.org/elfelli/\">Elfelli</link> electric "
+#~ "flux line simulation"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://home.gna.org/elfelli/\">Elfelli</link>, "
+#~ "Simulation des elektrischen Stromflusses"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</"
+#~ "link> GUI frontend for the efax fax program"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.cvine.freeserve.co.uk/efax-gtk/\">Efax-gtk</"
+#~ "link>, grafische Oberfläche für das Faxprogramm efax"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://freecode.com/projects/cug\">CUG</link> 3D "
+#~ "equation plotter"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://freecode.com/projects/cug\">CUG</link>, 3D-"
+#~ "Plotter für Gleichungen"
+
+#~ msgid "Using gtkmm 1.2:"
+#~ msgstr "gtkmm 1.2 wir verwendet von:"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://gensql.sourceforge.net/\">genSQL</link> generic "
+#~ "SQL GUI"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://gensql.sourceforge.net/\">genSQL</link>, eine "
+#~ "allgemeine Oberfläche für SQL"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</"
+#~ "link> Gomoku game for GNOME"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://cactus.rulez.org/projects/gnomoku/\">Gnomoku</"
+#~ "link>, das Spiel »Gomoku« für GNOME"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.tucows.com/preview/25500/"
+#~ "GNUvoice\">gnuvoice</link> GUI voicemail / speakerphone / caller ID "
+#~ "application"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.tucows.com/preview/25500/"
+#~ "GNUvoice\">gnuvoice</link>, eine GUI-Anwendung für die Voicemail- / "
+#~ "Lautsprecher- / Anruferkennung"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://gtkmail.sourceforge.net/\">gtkmail</link> MIME "
+#~ "compliant GUI email client"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://gtkmail.sourceforge.net/\">gtkmail</link>, ein "
+#~ "MIME-kompatibler grafischer E-Mail-Client"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://gvbox.sourceforge.net/\">Gvbox</link> graphical "
+#~ "frontend to isdn4linux answering machine"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://gvbox.sourceforge.net/\">Gvbox</link>, "
+#~ "grafisches Frontend für den isdn4linux-Anrufbeantworter"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.medini.org/software/ped/ped.html\">Ped</"
+#~ "link> path editor utility"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.medini.org/software/ped/ped.html\">Ped</"
+#~ "link>, Pfadeditor-Hilfsprogramm"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://picmonger.sourceforge.net/\">PicMonger</link> "
+#~ "Usenet picture grabber"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://picmonger.sourceforge.net/\">PicMonger</link>, "
+#~ "Usenet-Bildersammler"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://cactus.rulez.org/projects/radioactive/"
+#~ "\">RadioActive</link> radio application for Video4Linux-compatible radio "
+#~ "tuner cards"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://cactus.rulez.org/projects/radioactive/"
+#~ "\">RadioActive</link>, Radio-Anwendung für Video4Linux-kompatible "
+#~ "Radioempfänger-Karten"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://softwerk.sourceforge.net/\">softwerk</link> "
+#~ "software analogue MIDI sequencer"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://softwerk.sourceforge.net/\">softwerk</link>, "
+#~ "Analoger MIDI-Software-Sequenzer"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://www.firedrake.org/terraform/\">terraform</link> "
+#~ "terrain generator (very cool)"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://www.firedrake.org/terraform/\">Terraform</"
+#~ "link>, Geländeoberflächengenerator (sehr cool)"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://ickle.sourceforge.net/\">ickle</link> ICQ client"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://ickle.sourceforge.net/\">ickle</link>, ein ICQ-"
+#~ "Client"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://cap.sourceforge.net/\">Chained Audio Plugins</"
+#~ "link>"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://cap.sourceforge.net/\">Chained Audio Plugins</"
+#~ "link>"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://zarb.org/~gc/html/grany.html\">Grany-3</link> "
+#~ "cellular automaton simulator"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://zarb.org/~gc/html/grany.html\">Grany-3</link>, "
+#~ "zellulärer Automaten-Simulator"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://paloma.sourceforge.net/\">Paloma</link> music "
+#~ "management system"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://paloma.sourceforge.net/\">Paloma</link>, "
+#~ "Musikverwaltungssystem"
+
+#~ msgid ""
+#~ "<link xlink:href=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</link> "
+#~ "3D cellular automata simulator"
+#~ msgstr ""
+#~ "<link xlink:href=\"http://cellumat3d.sourceforge.net/\">Cellumat3D</"
+#~ "link>, 3D-Simulator für einen zellulären Automaten"
+
 #~ msgid "<link xlink:href=\"mailto:gtkmm-list@gnome.org\">Contact Us</link>"
 #~ msgstr "<link xlink:href=\"mailto:gtkmm-list@gnome.org\">Kontakt</link>"
 
@@ -3087,15 +3034,15 @@ msgstr ""
 #~ msgstr "Wo ist die gtkmm-Mailingliste?"
 
 #~ msgid ""
-#~ "<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <link xlink:href="
-#~ "\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. To "
+#~ "<emphasis role=\"bold\">gtkmm mailing list</emphasis>: <link xlink:"
+#~ "href=\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. To "
 #~ "subscribe, go to the <link xlink:href=\"https://mail.gnome.org/mailman/"
 #~ "listinfo/gtkmm-list\">subscribe page</link>."
 #~ msgstr ""
-#~ "<emphasis role=\"bold\">gtkmm-Mailingliste</emphasis>: <link xlink:href="
-#~ "\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. Um diese "
-#~ "Liste zu abonnieren, besuchen Sie die <link xlink:href=\"https://mail."
-#~ "gnome.org/mailman/listinfo/gtkmm-list\">Anmeldeseite</link>."
+#~ "<emphasis role=\"bold\">gtkmm-Mailingliste</emphasis>: <link xlink:"
+#~ "href=\"mailto:gtkmm-list@gnome.org\">gtkmm-list@gnome.org</link>. Um "
+#~ "diese Liste zu abonnieren, besuchen Sie die <link xlink:href=\"https://"
+#~ "mail.gnome.org/mailman/listinfo/gtkmm-list\">Anmeldeseite</link>."
 
 #~ msgid "The archive of messages can be found at:"
 #~ msgstr "Das Nachrichtenarchiv finden Sie hier:"
@@ -3130,12 +3077,12 @@ msgstr ""
 #~ "predictable schedule, delivering C++ API for the underlying GTK+ and "
 #~ "GNOME APIs as soon as possible."
 #~ msgstr ""
-#~ "<application>gtkmm</application> folgt dem offiziellen <link url="
-#~ "\"https://www.gnome.org/start/unstable/\">Veröffentlichungsrhythmus für "
-#~ "GNOME-Plattform-Bindungen</link>. Dies garantiert API/ABI-Stabilität und "
-#~ "neue Veröffentlichungen in einem planbaren Rhythmus, wodurch eine C++-API "
-#~ "für die zugrunde liegenden GTK+- und GNOME-APIs so schnell wie möglich "
-#~ "geliefert werden kann."
+#~ "<application>gtkmm</application> folgt dem offiziellen <link "
+#~ "url=\"https://www.gnome.org/start/unstable/\">Veröffentlichungsrhythmus "
+#~ "für GNOME-Plattform-Bindungen</link>. Dies garantiert API/ABI-Stabilität "
+#~ "und neue Veröffentlichungen in einem planbaren Rhythmus, wodurch eine C++-"
+#~ "API für die zugrunde liegenden GTK+- und GNOME-APIs so schnell wie "
+#~ "möglich geliefert werden kann."
 
 #~ msgid "Edit the ChangeLog"
 #~ msgstr "Bearbeiten Sie das ChangeLog"
@@ -3206,23 +3153,23 @@ msgstr ""
 #~ "For general GTK+ discussion, please use the <link xlink:href=\"http://www."
 #~ "gtk.org/mailing-lists.php\">gtk-list</link>."
 #~ msgstr ""
-#~ "Für allgemeine Diskussionen zu GTK+ nutzen Sie bitte die <link url="
-#~ "\"http://www.gtk.org/mailing-lists.php\">GTK-Mailingliste</link>."
+#~ "Für allgemeine Diskussionen zu GTK+ nutzen Sie bitte die <link "
+#~ "url=\"http://www.gtk.org/mailing-lists.php\">GTK-Mailingliste</link>."
 
 #~ msgid ""
 #~ "April 6, 2011: <link xlink:href=\"http://mail.gnome.org/archives/gnome-"
-#~ "announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</link> and <link url="
-#~ "\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042."
-#~ "html\">glibmm 2.28.0</link> released, as per the GNOME schedule. gtkmm "
-#~ "3.0 wraps the API in GTK+ 3.0 and installs in parallel with the gtkmm-2.4 "
-#~ "API."
+#~ "announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</link> and <link "
+#~ "url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/"
+#~ "msg00042.html\">glibmm 2.28.0</link> released, as per the GNOME schedule. "
+#~ "gtkmm 3.0 wraps the API in GTK+ 3.0 and installs in parallel with the "
+#~ "gtkmm-2.4 API."
 #~ msgstr ""
 #~ "6. April 2011: <link xlink:href=\"http://mail.gnome.org/archives/gnome-"
-#~ "announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</link> und <link url="
-#~ "\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/msg00042."
-#~ "html\">glibmm 2.28.0</link> wurden veröffentlicht, gemäß dem GNOME-"
-#~ "Veröffentlichungsrhythmus. gtkmm 3.0 erfasst die neue API in GTK+ 3.0 und "
-#~ "lässt sich parallel zu gtkmm 2.4 installieren."
+#~ "announce-list/2011-April/msg00043.html\">gtkmm 3.0.0</link> und <link "
+#~ "url=\"http://mail.gnome.org/archives/gnome-announce-list/2011-April/"
+#~ "msg00042.html\">glibmm 2.28.0</link> wurden veröffentlicht, gemäß dem "
+#~ "GNOME-Veröffentlichungsrhythmus. gtkmm 3.0 erfasst die neue API in GTK+ "
+#~ "3.0 und lässt sich parallel zu gtkmm 2.4 installieren."
 
 #~ msgid ""
 #~ "February 10, 2011: gtkmm 2.24.0 <link xlink:href=\"http://mail.gnome.org/"
@@ -3233,8 +3180,8 @@ msgstr ""
 #~ "prepare for gtkmm 3.0."
 #~ msgstr ""
 #~ "10. Februar 2011: gtkmm 2.24.0 wurde <link xlink:href=\"http://mail.gnome."
-#~ "org/archives/gnome-announce-list/2011-February/msg00020.html"
-#~ "\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
+#~ "org/archives/gnome-announce-list/2011-February/msg00020."
+#~ "html\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
 #~ "gtkmm 2.24.0 erfasst die neue API in GTK+ 2.24 und ist API/ABI-kompatibel "
 #~ "mit gtkmm &gt;= 2.4. Es ist eine Version der gtkmm-2.4-API mit API-"
 #~ "Erweiterungen. Einige APIs sind nun als veraltet markiert, was "
@@ -3248,25 +3195,25 @@ msgstr ""
 #~ "gtkmm-2.4 API with API additions."
 #~ msgstr ""
 #~ "22. September 2010: gtkmm 2.22.0 wurde <link xlink:href=\"http://mail."
-#~ "gnome.org/archives/gnome-announce-list/2010-September/msg00087.html"
-#~ "\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
+#~ "gnome.org/archives/gnome-announce-list/2010-September/msg00087."
+#~ "html\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
 #~ "gtkmm 2.22.0 erfasst die neue API in GTK+ 2.22 und ist API/ABI-kompatibel "
 #~ "mit gtkmm &gt;= 2.4. Es ist eine Version der gtkmm-2.4-API, mit API-"
 #~ "Erweiterungen."
 
 #~ msgid ""
 #~ "March 29, 2010: gtkmm 2.20.0 and glibmm 2.24.0 <link xlink:href=\"http://"
-#~ "mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070.html"
-#~ "\">released</link>, as per the GNOME schedule. gtkmm 2.20.0 wraps new API "
-#~ "in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a "
+#~ "mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070."
+#~ "html\">released</link>, as per the GNOME schedule. gtkmm 2.20.0 wraps new "
+#~ "API in GTK+ 2.20 and is API/ABI-compatible with gtkmm &gt;= 2.4. It is a "
 #~ "version of the gtkmm-2.4 API with API additions."
 #~ msgstr ""
-#~ "29. März 2010: gtkmm 2.20.0 und glibmm 2.24.0 wurden <link xlink:href="
-#~ "\"http://mail.gnome.org/archives/gnome-announce-list/2010-March/msg00070."
-#~ "html\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
-#~ "gtkmm 2.20.0 erfasst die neue API in GTK+ 2.20 und ist API/ABI-kompatibel "
-#~ "mit gtkmm &gt;= 2.4. Es ist eine Version der gtkmm-2.4-API mit API-"
-#~ "Erweiterungen."
+#~ "29. März 2010: gtkmm 2.20.0 und glibmm 2.24.0 wurden <link xlink:"
+#~ "href=\"http://mail.gnome.org/archives/gnome-announce-list/2010-March/"
+#~ "msg00070.html\">veröffentlicht</link>, gemäß dem GNOME-"
+#~ "Veröffentlichungsrhythmus. gtkmm 2.20.0 erfasst die neue API in GTK+ 2.20 "
+#~ "und ist API/ABI-kompatibel mit gtkmm &gt;= 2.4. Es ist eine Version der "
+#~ "gtkmm-2.4-API mit API-Erweiterungen."
 
 #~ msgid ""
 #~ "September 22, 2008: gtkmm 2.14.0 <link xlink:href=\"http://mail.gnome.org/"
@@ -3276,22 +3223,22 @@ msgstr ""
 #~ "a version of the gtkmm-2.4 API, with API additions."
 #~ msgstr ""
 #~ "22. September 2008: gtkmm 2.14.0 wurde <link xlink:href=\"http://mail."
-#~ "gnome.org/archives/gnome-announce-list/2008-September/msg00099.html"
-#~ "\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
+#~ "gnome.org/archives/gnome-announce-list/2008-September/msg00099."
+#~ "html\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
 #~ "gtkmm 2.14.0 erfasst die neue API in GTK+ 2.14 und ist API/ABI-kompatibel "
 #~ "mit gtkmm 2.12, 2.10, 2.8, 2.6 und 2.4. Es ist eine Version der gtkmm-2.4-"
 #~ "API, mit API-Erweiterungen."
 
 #~ msgid ""
-#~ "September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <link xlink:href="
-#~ "\"http://mail.gnome.org/archives/gnome-announce-list/2007-September/"
+#~ "September 14, 2007: gtkmm 2.12.0 and glibmm 2.14.0 <link xlink:"
+#~ "href=\"http://mail.gnome.org/archives/gnome-announce-list/2007-September/"
 #~ "msg00040.html\">released</link>, as per the GNOME schedule. gtkmm 2.12.0 "
 #~ "wraps new API in GTK+ 2.12 and is API/ABI-compatible with gtkmm 2.10, "
 #~ "2.8, 2.6 and 2.4. It is a version of the gtkmm-2.4 API, with API "
 #~ "additions."
 #~ msgstr ""
-#~ "14. September 2007: gtkmm 2.12.0 und glibmm 2.14.0 wurden <link url="
-#~ "\"http://mail.gnome.org/archives/gnome-announce-list/2007-September/"
+#~ "14. September 2007: gtkmm 2.12.0 und glibmm 2.14.0 wurden <link "
+#~ "url=\"http://mail.gnome.org/archives/gnome-announce-list/2007-September/"
 #~ "msg00040.html\">veröffentlicht</link>, gemäß dem GNOME-"
 #~ "Veröffentlichungsrhythmus. gtkmm 2.12.0 erfasst die neue API in GTK+ 2.12 "
 #~ "und ist API/ABI-kompatibel mit gtkmm 2.10, 2.8, 2.6 und 2.4. Es ist eine "
@@ -3304,8 +3251,8 @@ msgstr ""
 #~ "API/ABI-compatible with gtkmm 2.8, with API additions."
 #~ msgstr ""
 #~ "August 2006: gtkmm und glibmm 2.10.0 wurden <link xlink:href=\"http://"
-#~ "mail.gnome.org/archives/gtkmm-list/2006-August/msg00254.html"
-#~ "\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
+#~ "mail.gnome.org/archives/gtkmm-list/2006-August/msg00254."
+#~ "html\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
 #~ "gtkmm 2.10.0 erfasst die neue API in GTK+ 2.10 und ist API/ABI-kompatibel "
 #~ "mit gtkmm 2.8, mit API-Erweiterungen."
 
@@ -3325,8 +3272,8 @@ msgstr ""
 #~ "and is API/ABI-compatible with gtkmm 2.4, with API additions."
 #~ msgstr ""
 #~ "März 2005: gtkmm und glibmm 2.6.0 wurden <link xlink:href=\"http://mail."
-#~ "gnome.org/archives/gnome-announce-list/2005-March/msg00026.html"
-#~ "\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
+#~ "gnome.org/archives/gnome-announce-list/2005-March/msg00026."
+#~ "html\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
 #~ "gtkmm 2.6.0 erfasst die neue API in GTK+ 2.6 und ist API/ABI-kompatibel "
 #~ "mit gtkmm 2.4, mit API-Erweiterungen."
 
@@ -3337,8 +3284,8 @@ msgstr ""
 #~ "and installs in parallel with gtkmm 2.2."
 #~ msgstr ""
 #~ "April 2004: gtkmm und glibmm 2.4.0 wurden <link xlink:href=\"http://lists."
-#~ "gnome.org/archives/gnome-announce-list/2004-April/msg00016.html"
-#~ "\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
+#~ "gnome.org/archives/gnome-announce-list/2004-April/msg00016."
+#~ "html\">veröffentlicht</link>, gemäß dem GNOME-Veröffentlichungsrhythmus. "
 #~ "gtkmm 2.4.0 erfasst die neue API in GTK+ 2.4 und lässt sich parallel zu "
 #~ "gtkmm 2.2 installieren."
 
@@ -3475,8 +3422,9 @@ msgstr ""
 
 #~ msgid ""
 #~ "<link xlink:href=\"http://www.mandrakelinux.com/\">Mandrake</link> Linux: "
-#~ "Get libgtkmm2.4 from the contrib directory on their <link xlink:href="
-#~ "\"http://www.mandrakelinux.com/en/cookerdevel.php3\">ftp</link> servers."
+#~ "Get libgtkmm2.4 from the contrib directory on their <link xlink:"
+#~ "href=\"http://www.mandrakelinux.com/en/cookerdevel.php3\">ftp</link> "
+#~ "servers."
 #~ msgstr ""
 #~ "<link xlink:href=\"http://www.mandrakelinux.com/\">Mandrake</link> Linux: "
 #~ "libgtkmm2.4 ist im contrib-Ordner auf deren <link xlink:href=\"http://www."
@@ -3513,8 +3461,8 @@ msgstr ""
 #~ msgstr "gtkmm-hello 2.4"
 
 #~ msgid ""
-#~ "Here is a dependency graphs for <link xlink:href=\"jhbuild_dot_gtkmm.png"
-#~ "\">gtkmm</link>, generated automatically with jhbuild and graphviz."
+#~ "Here is a dependency graphs for <link xlink:href=\"jhbuild_dot_gtkmm."
+#~ "png\">gtkmm</link>, generated automatically with jhbuild and graphviz."
 #~ msgstr ""
 #~ "Hier ist ein Abhängigkeitsgraph für <link xlink:href=\"jhbuild_dot_gtkmm."
 #~ "png\">gtkmm</link>, der automatisch mit jhbuild und graphviz erstellt "
@@ -3704,8 +3652,8 @@ msgstr ""
 #~ "product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;"
 #~ "camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4\">Programming "
 #~ "with gtkmm 2</link> books are available for Amazon's Kindle E-Reader, and "
-#~ "also available online along with the rest of our <link url="
-#~ "\"documentation.html\">documentation</link>."
+#~ "also available online along with the rest of our <link "
+#~ "url=\"documentation.html\">documentation</link>."
 #~ msgstr ""
 #~ "Die Bücher <link xlink:href=\"http://www.amazon.com/gp/product/B0050I6FR4/"
 #~ "ref=as_li_ss_tl?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;"
@@ -3714,8 +3662,8 @@ msgstr ""
 #~ "product/B0049P1RP4?ie=UTF8&amp;tag=murrayswebpages&amp;linkCode=as2&amp;"
 #~ "camp=1789&amp;creative=9325&amp;creativeASIN=B0049P1RP4\">Programming "
 #~ "with gtkmm 2</link> sind für den E-Book-Reeder Kindle von Amazon "
-#~ "verfügbar, außerdem online zusammen mit unserer übrigen <link url="
-#~ "\"documentation.html\">Dokumentation</link>."
+#~ "verfügbar, außerdem online zusammen mit unserer übrigen <link "
+#~ "url=\"documentation.html\">Dokumentation</link>."
 
 #~ msgid "The C++ Programming Language, Bjarne Stroustrup"
 #~ msgstr "The C++ Programming Language, Bjarne Stroustrup"
