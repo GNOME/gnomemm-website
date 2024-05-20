@@ -27,7 +27,6 @@
       <section>
       <title>Getting Started with gtkmm</title>
         <para>You might start by reading the <emphasis role="bold">Programming with gtkmm</emphasis> online book.</para>
-        <para><link xlink:href="https://developer-old.gnome.org/gtkmm-tutorial/3.24/index.html">Contents</link> of the whole online book, gtkmm-3.0.</para>
         <para><link xlink:href="&url_refdocs_base_book_html;index.html">Contents</link> of the whole online book, gtkmm-4.0.</para>
         <para>Selected chapters:<itemizedlist>
             <listitem>
@@ -55,6 +54,10 @@
               <para><link xlink:href="&url_refdocs_base_book_html;chapter-builder.html">Gtk::Builder</link></para>
             </listitem>
           </itemizedlist></para>
+      <para>The <emphasis role="bold">Programming with gtkmm 3</emphasis> tutorial is not available online any more.
+        It can be downloaded from <link xlink:href="https://download.gnome.org/sources/gtkmm-documentation/3.24/">here</link>.
+      </para>
+
       </section>
 
       <section>
@@ -145,14 +148,6 @@
       </section>
 
       <section>
-      <title>Extra Modules</title>
-        <para>API reference documentation for other C++ modules, such as pangomm,
-          gstreamermm, libgdamm, goocanvasmm, etc, is also available from the
-          <link xlink:href="https://developer-old.gnome.org/references#c++-bindings">developer-old.gnome.org C++ Bindings</link>
-          section. However, this website is not updated any more.</para>
-      </section>
-
-      <section>
       <title>Other Information</title>
         <informaltable>
           <tr>
@@ -164,6 +159,12 @@
               <itemizedlist>
                 <listitem>
                   <para><link xlink:href="https://libsigcplusplus.github.io/libsigcplusplus/">libsigc++ website</link></para>
+                </listitem>
+                <listitem>
+                  <para><link xlink:href="https://www.cairographics.org/cairomm/">cairomm website</link></para>
+                </listitem>
+                <listitem>
+                  <para><link xlink:href="https://gnome.pages.gitlab.gnome.org/pangomm/">pangomm reference</link></para>
                 </listitem>
                 <listitem>
                   <para><link xlink:href="https://docs.gtk.org/gtk3/">GTK3 reference</link></para>
