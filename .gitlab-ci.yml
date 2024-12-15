@@ -1,4 +1,4 @@
-# 2023-02-13: ubuntu:latest = 22.04, ubuntu:rolling = 22.10, ubuntu:devel = 23.04
+# 2024-12-13: ubuntu:latest = 24.04, ubuntu:rolling = 24.10, ubuntu:devel = 25.04
 # See https://hub.docker.com/_/ubuntu
 image: ubuntu:rolling
 
@@ -54,7 +54,7 @@ pages:
   needs: ["website_build"]
   script:
     - mkdir public
-    - mv _build/docs/html/.htaccess _build/docs/html/* public
+    - mv _build/docs/html/* public
   artifacts:
     paths:
       - public
