@@ -1,7 +1,7 @@
 AC_PREREQ([2.59])
 AC_INIT([gnomemm-website], [2.91.4],
-        [http://bugzilla.gnome.org/enter_bug.cgi?product=gtkmm],
-        [gnomemm-website], [http://www.gtkmm.org/])
+        [https://gitlab.gnome.org/GNOME/gnomemm-website/issues/],
+        [gnomemm-website], [https://gtkmm.gnome.org/])
 
 AC_CONFIG_SRCDIR([docs/C/index.docbook])
 AC_CONFIG_AUX_DIR([build])

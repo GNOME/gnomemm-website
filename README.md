@@ -1,6 +1,6 @@
 # Gtkmm's website
 
-This is the source of the [gtkmm website](https://www.gtkmm.org).
+This is the source of the [gtkmm website](https://gtkmm.gnome.org).
 
 The source consists of a DocBook 5.0 document.
 It requires the docbook5-xml and docbook-xsl-ns packages (Ubuntu names,
@@ -11,12 +11,12 @@ The website can be built with Meson or Autotools.
 
 When a commit is pushed to the master branch in the git repository, the website
 is built and published at https://gnome.pages.gitlab.gnome.org/gnomemm-website
-and https://www.gtkmm.org.
+and https://gtkmm.gnome.org.
 
 # General information
 
 Web site
- - https://www.gtkmm.org
+ - https://gtkmm.gnome.org
  - https://gnome.pages.gitlab.gnome.org/gnomemm-website
 
 Discussion on GNOME's discourse forum
@@ -54,7 +54,7 @@ Patches can be submitted to
 
   Open \<build-dir>/docs/html/index.html in a web browser.
 
-- Publish the website at www.gtkmm.org:
+- Publish the website at gtkmm.gnome.org:
 
   Done automatically when new git commits are pushed to the master branch.
 
@@ -78,7 +78,7 @@ Patches can be submitted to
 
   Open docs/html/index.html in a web browser.
 
-- Publish the website at www.gtkmm.org:
+- Publish the website at gtkmm.gnome.org:
 
   Done automatically when new git commits are pushed to the master branch.
 

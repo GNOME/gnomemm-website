@@ -27,7 +27,6 @@ copy_obj = run_command(
   project_source_root / 'docs' / 'html',
   project_build_root / 'docs' / 'html',
   'index.html',
-  '.htaccess',
   'images',
   'style',
   check: false,
