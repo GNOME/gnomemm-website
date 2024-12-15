@@ -15,13 +15,7 @@ widgets and libraries are available from other sources.
               <para><link xlink:href="http://plotmm.sourceforge.net/">Plotmm</link> plot widget for scientific applications</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://ftp.gnome.org/pub/GNOME/sources/gstreamermm/">gstreamermm</link> wrappers for gstreamer (streaming media)</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://vtemm.sourceforge.jp/">VTEmm</link> terminal widget</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gtkextramm.sourceforge.net/">gtkextramm</link> wrappers for GtkExtra (plot, sheet, etc)</para>
+              <para><link xlink:href="https://gitlab.gnome.org/GNOME/gstreamermm">gstreamermm</link> wrappers for gstreamer (streaming media)</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://carlowood.github.io/cwchessboard/">cwchessboard</link> C++ chess board tool set for gtkmm</para>
@@ -51,12 +45,6 @@ some other projects using the same toolkit.</para>
         <title>Using gtkmm:</title>
           <itemizedlist>
             <listitem>
-              <para><link xlink:href="http://regexxer.sourceforge.net/">Regexxer</link> multi-file search/replace with visual feedback</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://towel.sourceforge.net">Towel</link> audio player</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="https://gitlab.gnome.org/Archive/glom">Glom</link> database environment</para>
             </listitem>
             <listitem>
@@ -72,13 +60,7 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://www.k-3d.org/">K-3D</link> 3D modelling and animation</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://www.fnxweb.com/hardware-monitor-applet">Hardware Monitor</link> GNOME panel applet</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://www.workrave.org/">Workrave</link> assists in recovery and prevention of RSI</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://timfx.sourcearchive.com/">timfx</link> digital video effects plug-in for Kino</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://gparted.sourceforge.net/">GParted</link> disk partitioning tool</para>
@@ -93,16 +75,10 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://gobby.0x539.de">Gobby</link> collaborative text editor</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="https://code.google.com/p/pinot-search/">Pinot</link> metasearch tool</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://amyedit.sourceforge.net/">AmyEdit</link> LaTeX editor</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://aeskulap.nongnu.org/">Aeskulap</link> medical image viewer</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gspeakers.sourceforge.net/">gspeakers</link> loudspeaker designer</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://free-doko.sourceforge.net/en/">FreeDoko</link> card game</para>
@@ -117,19 +93,10 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://usbsink.sourceforge.net/">USBSink</link> file synchronization over USB</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://github.com/egroeper/referencer/">Referencer</link> document organiser and bibliography manager</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://granule.sourceforge.net/">Granule</link> index cards</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://ardour.org/">Ardour 2</link> multichannel hard disk recorder and digital audio workstation</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.stacken.kth.se/project/pptout/">Passepartout</link> desktop publishing</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gwavmerger.sourceforge.net">gwavmerger</link> foreign language learning tool</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://wavemixer.sourceforge.net/">WaveMixer</link> sound editor</para>
@@ -141,7 +108,7 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://dev.mysql.com/downloads/workbench/">MySQL Workbench</link> database GUI</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://paco.sourceforge.net/">Paco</link> source code package organizer</para>
+              <para><link xlink:href="https://porg.sourceforge.net/">Porg</link> source code package organizer</para>
             </listitem>
             <listitem>
               <para><link xlink:href="https://www.gnome.org/">GNOME System Monitor</link> system monitor</para>
@@ -152,6 +119,27 @@ some other projects using the same toolkit.</para>
         <section>
         <title>Using gtkmm 2.0/2.2:</title>
           <itemizedlist>
+            <listitem>
+              <para><link xlink:href="http://regexxer.sourceforge.net/">Regexxer</link> multi-file search/replace with visual feedback</para>
+            </listitem>
+            <listitem>
+              <para><link xlink:href="http://towel.sourceforge.net">Towel</link> audio player</para>
+            </listitem>
+            <listitem>
+              <para><link xlink:href="http://www.fnxweb.com/hardware-monitor-applet">Hardware Monitor</link> GNOME panel applet</para>
+            </listitem>
+            <listitem>
+              <para><link xlink:href="http://gspeakers.sourceforge.net/">gspeakers</link> loudspeaker designer</para>
+            </listitem>
+            <listitem>
+              <para><link xlink:href="http://github.com/egroeper/referencer/">Referencer</link> document organiser and bibliography manager</para>
+            </listitem>
+            <listitem>
+              <para><link xlink:href="http://www.stacken.kth.se/project/pptout/">Passepartout</link> desktop publishing</para>
+            </listitem>
+            <listitem>
+              <para><link xlink:href="http://gwavmerger.sourceforge.net">gwavmerger</link> foreign language learning tool</para>
+            </listitem>
             <listitem>
               <para><link xlink:href="http://heavymole.sourceforge.net/">HeavyMole</link> file sharing client</para>
             </listitem>

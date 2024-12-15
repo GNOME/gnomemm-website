@@ -8,7 +8,8 @@
     <title>Git</title>
       <para>We use <link xlink:href="https://git-scm.com/">Git</link> to maintain our source
     code, in the <link xlink:href="https://www.gnome.org">GNOME</link> Git repository.
-    Additional information about gitlab.gnome.org is available at <link xlink:href="https://wiki.gnome.org/Git">wiki.gnome.org/Git</link>.</para>
+    Additional information about gitlab.gnome.org is available at
+    <link xlink:href="https://handbook.gnome.org/infrastructure/gitlab.html">handbook.gnome.org/infrastructure/gitlab.html</link>.</para>
       <para>glibmm and gtkmm are in the <link xlink:href="https://gitlab.gnome.org/GNOME/glibmm/">glibmm</link> and <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm/">gtkmm</link> modules.
     There is also a <link xlink:href="https://gitlab.gnome.org/GNOME/gtkmm-documentation/">gtkmm-documentation</link> module which contains the gtkmm book and its examples. See below for instructions.</para>
       <para>Meson is the recommended build system. If you build with Autotools
@@ -26,7 +27,8 @@
 
       <section>
       <title>Modules and branches</title>
-        <para>We are synchronized with the GNOME release schedule, so we use <link xlink:href="https://wiki.gnome.org/MaintainersCorner#branches">standard GNOME branch names</link>.</para>
+        <para>We are synchronized with the GNOME release schedule, so we use
+        <link xlink:href="https://handbook.gnome.org/maintainers/branches.html">standard GNOME branch names</link>.</para>
 
         <section>
         <title>gtkmm and glibmm</title>

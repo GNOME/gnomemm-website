@@ -33,15 +33,9 @@ operating system unless you wish to test the latest versions. However, <link xli
             <para><link xlink:href="https://www.ubuntu.com/">Ubuntu</link> Linux: <command>apt-get install libgtkmm-4.0-dev</command></para>
           </listitem>
           <listitem>
-            <para>Windows: Here is an <link xlink:href="https://wiki.gnome.org/Projects/gtkmm/MSWindows">installer</link>.</para>
-          </listitem>
-<!-- TODO: Is there a gtkmm3 or gtkmm4 version of this?
-          <listitem>
-            <para>MacOS X: There is a <link xlink:href="https://pdb.finkproject.org/pdb/package.php/gtkmm2.4-gtk-dev">Fink package</link>.</para>
-          </listitem>
--->
-          <listitem>
-            <para>SUN, IBM AIX, SGI IRIX, HP-UX, Tru64 (gcc or the platform compilers): <link xlink:href="http://thewrittenword.com">The Written Word</link> offer binary gtkmm packages, with package management.</para>
+            <para>IBM AIX, HP-UX, Redhat Enterprise Linux, Solaris (gcc or the platform compilers):
+            <link xlink:href="http://thewrittenword.com">The Written Word</link>
+            offers binary gtkmm packages, with package management (probably only gtkmm2).</para>
           </listitem>
         </itemizedlist>
         <para>Please tell us about others.</para>
