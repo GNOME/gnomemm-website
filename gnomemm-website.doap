@@ -11,13 +11,14 @@
 Website for gtkmm and a few other C++ modules, such as glibmm, pangomm and libsigc++.
 Except for libsigc++, these modules are C++ language bindings of C modules.
   </description>
-  <homepage rdf:resource="https://www.gtkmm.org/" />
+  <homepage rdf:resource="https://gtkmm.gnome.org/" />
   <developer-forum rdf:resource="https://discourse.gnome.org/tag/cplusplus/" />
   <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/gnomemm-website/issues" />
   <category rdf:resource="http://api.gnome.org/doap-extensions#infrastructure" />
   <programming-language>XML</programming-language>
 
   <!-- 2023-07-10: murrayc is not a member of the gnomecvs group
+       https://gitlab.gnome.org/Infrastructure/gitaly-custom-hooks/-/blob/main/bin/validate-doap
   <maintainer>
     <foaf:Person>
       <foaf:name>Murray Cumming</foaf:name>
