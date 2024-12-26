@@ -33,6 +33,13 @@ operating system unless you wish to test the latest versions. However, <link xli
             <para><link xlink:href="https://www.ubuntu.com/">Ubuntu</link> Linux: <command>apt-get install libgtkmm-4.0-dev</command></para>
           </listitem>
           <listitem>
+            <para>Windows: Here is a (somewhat outdated) description how to
+              <link xlink:href="https://wiki.gnome.org/Projects/gtkmm/MSWindows">install on Windows</link>.
+              There are links to several README files in the Gtkmm tutorial, chapter
+              <link xlink:href="https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/sec-windows-installation.html">gtkmm and Win32</link>.
+            </para>
+          </listitem>
+          <listitem>
             <para>IBM AIX, HP-UX, Redhat Enterprise Linux, Solaris (gcc or the platform compilers):
             <link xlink:href="http://thewrittenword.com">The Written Word</link>
             offers binary gtkmm packages, with package management (probably only gtkmm2).</para>
