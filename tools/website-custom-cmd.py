@@ -102,6 +102,45 @@ def xmllint():
   return 0
 
 # Called from custom_target()
+def translate_xml():
+  #      argv[2]         argv[3]          argv[4]          argv[5]          argv[6:]
+  # <input_po_file> <input_xml_dir> <output_xml_dir> <stamp_file_path> <input_xml_files>...
+
+  input_po_file = sys.argv[2]
+  input_xml_dir = sys.argv[3]
+  output_xml_dir = sys.argv[4] # Absolute path
+  stamp_file_path = sys.argv[5]
+  input_xml_files = sys.argv[6:]
+
+  # Create the destination directory, if it does not exist.
+  os.makedirs(output_xml_dir, exist_ok=True)
+
+  # Create an .mo file.
+  language = os.path.splitext(os.path.basename(input_po_file))[0]
+  mo_file = os.path.join(output_xml_dir, language + '.mo')
+  cmd = [
+    'msgfmt',
+    '-o', mo_file,
+    input_po_file,
+  ]
+  result = subprocess.run(cmd)
+  if result.returncode:
+    return result.returncode
+
+  # Create translated XML files.
+  cmd = [
+    'itstool',
+    '-m', mo_file,
+    '-o', output_xml_dir,
+  ] + input_xml_files
+  result = subprocess.run(cmd, cwd=input_xml_dir)
+  if result.returncode:
+    return result.returncode
+
+  Path(stamp_file_path).touch(exist_ok=True)
+  return 0
+
+# Called from custom_target()
 def html():
   #        argv[2]              argv[3]          argv[4]            argv[5]          argv[6]
   # <allow_network_access> <stylesheet_file> <input_xml_file> <output_html_dir> <stamp_file_path>
@@ -145,6 +184,25 @@ def html():
   Path(stamp_file_path).touch(exist_ok=True)
   return 0
 
+# Called from meson.add_install_script()
+def install():
+  #      argv[2]           argv[3]              argv[4:]
+  # <input_xml_dir> <rel_install_xml_dir> <input_xml_files>...
+
+  # <rel_install_xml_dir> is the installation directory, relative to {prefix}.
+  input_xml_dir = sys.argv[2]
+  rel_install_xml_dir = sys.argv[3]
+  input_xml_files =  sys.argv[4:]
+  destdir_xmldir = os.path.join(os.getenv('MESON_INSTALL_DESTDIR_PREFIX'), rel_install_xml_dir)
+
+  # Create the installation directory, if it does not exist.
+  os.makedirs(destdir_xmldir, exist_ok=True)
+
+  for f in input_xml_files:
+    # shutil.copy2() copies timestamps and some other file metadata.
+    shutil.copy2(os.path.join(input_xml_dir, f), destdir_xmldir)
+  return 0
+
 # Called from run_target()
 def publish():
   import glob
@@ -177,8 +235,12 @@ if subcommand == 'get_languages':
   sys.exit(get_languages())
 if subcommand == 'xmllint':
   sys.exit(xmllint())
+if subcommand == 'translate_xml':
+  sys.exit(translate_xml())
 if subcommand == 'html':
   sys.exit(html())
+if subcommand == 'install':
+  sys.exit(install())
 if subcommand == 'publish':
   sys.exit(publish())
 print(sys.argv[0], ': illegal subcommand,', subcommand)
