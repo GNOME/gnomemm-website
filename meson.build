@@ -2,11 +2,10 @@
 
 project('gnomemm-website',
   version: '2.91.4',
-  meson_version: '>= 0.55.0', # required for meson.add_dist_script(python3, ...)
-                              # and meson.add_install_script(python3, ...)
+  meson_version: '>= 0.61.0', # required for gnome.yelp() to be useful
 )
 
-python3 = find_program('python3', version: '>=3.5')
+python3 = find_program('python3', version: '>=3.7')
 
 # Installation directories are relative to {prefix}.
 install_prefix = get_option('prefix')
@@ -61,12 +60,6 @@ if get_option('validation') and not validate
   explain_val = ' (requires xmllint with Relax NG and DocBook V5.0 support)'
 endif
 
-build_translations = build_translations_by_default and can_build_translations
-explain_trans = ''
-if build_translations_by_default and not build_translations
-  explain_trans = ' (requires msgfmt and itstool)'
-endif
-
 summary = [
   '',
   '------',
@@ -74,7 +67,7 @@ summary = [
   '',
   '      XML validation: @0@@1@'.format(validate, explain_val),
   'Allow network access: @0@'.format(get_option('allow-network-access')),
-  '  Build translations: @0@@1@'.format(build_translations, explain_trans),
+  '  Build translations: @0@'.format(build_translations),
   'Directories:',
   '              prefix: @0@'.format(install_prefix),
   '             datadir: @0@'.format(install_prefix / install_datadir),
