@@ -1,10 +1,14 @@
 # docs
 
 # input: install_datadir, website_custom_cmd, python3
-# output: can_parse_and_validate, build_translations_by_default, can_build_translations
+# output: can_parse_and_validate, build_translations
 
 # xsltproc is required by website_custom_cmd html.
 xsltproc = find_program('xsltproc', required: true)
+
+build_translations = get_option('build-translations')
+msgfmt = find_program('msgfmt', required: build_translations)
+itstool = find_program('itstool', required: build_translations)
 
 xmllint = find_program('xmllint', required: false)
 can_parse_and_validate = xmllint.found()
@@ -35,10 +39,6 @@ if xmllint.found()
   endif
 endif
 
-can_build_translations = find_program('msgfmt', required: false).found() and \
-                         find_program('itstool', required: false).found()
-build_translations_by_default = get_option('build-translations')
-
 # index.withimg is index.docbook with images.
 # index.withimg shall not be found by the translation module damned-lies.
 # https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
@@ -62,7 +62,7 @@ foreach f : xml_files
   xml_C_files += 'C' / f
 endforeach
 
-if can_build_translations and build_translations_by_default
+if build_translations
   # Get a list of translated languages.
   language_obj = run_command(
     python3, website_custom_cmd, 'get_languages',
@@ -115,9 +115,12 @@ publishing_targets += custom_target('en_html_index.html',
 # Install the C locale's XML files.
 install_data(xml_C_files, install_dir: install_datadir / 'help' / 'C' / meson.project_name())
 
-# gnome.yelp() is not used. It builds translations only at install time.
-# This project is not necessarily installed before it's published at www.gtkmm.org.
-# See https://github.com/mesonbuild/meson/issues/2775
+# gnome.yelp() is not used. It does not return anything, such as a custom target
+# object. It's not possible to guarantee that translated html files are created
+# *after* the translated xml files.
+# Meson module i18n is not used. It requires a different directory structure
+# with all .po files in the same directory. Probably it also has other
+# problematic restrictions.
 
 foreach language : languages
   # Create translated XML files.

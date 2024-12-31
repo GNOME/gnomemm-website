@@ -6,7 +6,7 @@ project('gnomemm-website',
                               # and meson.add_install_script(python3, ...)
 )
 
-python3 = find_program('python3', version: '>=3.5')
+python3 = find_program('python3', version: '>=3.7')
 
 # Installation directories are relative to {prefix}.
 install_prefix = get_option('prefix')
@@ -22,6 +22,7 @@ website_custom_cmd = script_dir / 'website-custom-cmd.py'
 extra_dist_cmd = script_dir / 'extra-dist-cmd.py'
 
 # Copy some files to the build directory.
+# (fs.copyfile() would be useful, if there were also a fs.copydir().)
 copy_obj = run_command(
   python3, website_custom_cmd, 'copy_files_and_dirs',
   project_source_root / 'docs' / 'html',
@@ -61,12 +62,6 @@ if get_option('validation') and not validate
   explain_val = ' (requires xmllint with Relax NG and DocBook V5.0 support)'
 endif
 
-build_translations = build_translations_by_default and can_build_translations
-explain_trans = ''
-if build_translations_by_default and not build_translations
-  explain_trans = ' (requires msgfmt and itstool)'
-endif
-
 summary = [
   '',
   '------',
@@ -74,7 +69,7 @@ summary = [
   '',
   '      XML validation: @0@@1@'.format(validate, explain_val),
   'Allow network access: @0@'.format(get_option('allow-network-access')),
-  '  Build translations: @0@@1@'.format(build_translations, explain_trans),
+  '  Build translations: @0@'.format(build_translations),
   'Directories:',
   '              prefix: @0@'.format(install_prefix),
   '             datadir: @0@'.format(install_prefix / install_datadir),
