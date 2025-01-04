@@ -190,3 +190,7 @@ td
 {
     vertical-align: top;
 }
+
+.nowrap {
+    white-space: nowrap;
+}

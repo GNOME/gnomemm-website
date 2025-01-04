@@ -51,6 +51,7 @@ xml_files = [
   'documentation.xml',
   'download.xml',
   'extra.xml',
+  'faq.xml',
   'git.xml',
   'license.xml',
   'mailinglist.xml',

@@ -19,6 +19,7 @@ HELP_FILES = \
   documentation.xml \
   download.xml \
   extra.xml \
+  faq.xml \
   git.xml \
   license.xml \
   mailinglist.xml \

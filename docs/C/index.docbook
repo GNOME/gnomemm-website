@@ -41,7 +41,7 @@ https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
               <para><link xlink:href="news.html">News</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="https://wiki.gnome.org/Projects/gtkmm/FAQ">FAQ</link></para>
+              <para><link xlink:href="faq.html">FAQ</link></para>
             </listitem>
             <listitem>
               <para><link xlink:href="https://wiki.gnome.org/Projects/gtkmm">Wiki</link></para>
@@ -143,6 +143,7 @@ https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="documentation.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="download.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="extra.xml"/>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="faq.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="git.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="license.xml"/>
   <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="mailinglist.xml"/>
