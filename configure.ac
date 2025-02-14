@@ -1,5 +1,5 @@
 AC_PREREQ([2.59])
-AC_INIT([gnomemm-website], [2.91.4],
+AC_INIT([gnomemm-website], [4.0.0],
         [https://gitlab.gnome.org/GNOME/gnomemm-website/issues/],
         [gnomemm-website], [https://gtkmm.gnome.org/])
 

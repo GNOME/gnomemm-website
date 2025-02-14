@@ -114,7 +114,10 @@ publishing_targets += custom_target('en_html_index.html',
 )
 
 # Install the C locale's XML files.
-install_data(xml_C_files, install_dir: install_datadir / 'help' / 'C' / meson.project_name())
+install_data(xml_C_files,
+  install_dir: install_datadir / 'help' / 'C' / meson.project_name(),
+  install_tag: 'doc',
+)
 
 # gnome.yelp() is not used. It does not return anything, such as a custom target
 # object. It's not possible to guarantee that translated html files are created
@@ -162,6 +165,7 @@ foreach language : languages
     meson.current_build_dir() / language,
     install_datadir / 'help' / language / meson.project_name(),
     xml_files,
+    install_tag: 'doc',
   )
 endforeach
 
