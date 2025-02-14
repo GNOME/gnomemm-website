@@ -1,5 +1,9 @@
-# 2024-12-13: ubuntu:latest = 24.04, ubuntu:rolling = 24.10, ubuntu:devel = 25.04
+# 2025-02-13: ubuntu:latest = 24.04, ubuntu:rolling = 24.10, ubuntu:devel = 25.04
 # See https://hub.docker.com/_/ubuntu
+
+# gitlab.gnome.org/GNOME/citemplates/release-service is not included.
+# This module is never released.
+
 image: ubuntu:rolling
 
 stages:
@@ -58,5 +62,5 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-    - master
+  rules:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
