@@ -10,15 +10,13 @@
       <title>Available widgets</title>
         <para>In addition to the wrappers distributed with gtkmm, additional
 widgets and libraries are available from other sources.
+At the time of writing (2025-09-23) they can only be used with gtkmm3 (not gtkmm4).
     <itemizedlist>
-            <listitem>
-              <para><link xlink:href="http://plotmm.sourceforge.net/">Plotmm</link> plot widget for scientific applications</para>
-            </listitem>
             <listitem>
               <para><link xlink:href="https://gitlab.gnome.org/GNOME/gstreamermm">gstreamermm</link> wrappers for gstreamer (streaming media)</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://carlowood.github.io/cwchessboard/">cwchessboard</link> C++ chess board tool set for gtkmm</para>
+              <para><link xlink:href="https://gitlab.gnome.org/GNOME/gtksourceviewmm">gtksourceviewmm</link> wrapper for gtksourceview (extends Gtk::TextView)</para>
             </listitem>
           </itemizedlist></para>
       </section>
@@ -48,13 +46,7 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="https://gitlab.gnome.org/Archive/glom">Glom</link> database environment</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://cactus.rulez.org/projects/guikachu/">Guikachu</link> graphical resource editor for PalmOS  applications</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://www.inkscape.org/">Inkscape</link> vector graphics drawing</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gnomoradio.org/">Gnomoradio</link> peer to peer sharing of freely licensed music</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://www.k-3d.org/">K-3D</link> 3D modelling and animation</para>
@@ -69,40 +61,13 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="http://cdrdao.sourceforge.net/">gcdmaster</link> cdrdao frontend</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://sourceforge.net/projects/duty-roaster">Duty Roaster</link> manages duty rotas</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://gobby.0x539.de">Gobby</link> collaborative text editor</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://amyedit.sourceforge.net/">AmyEdit</link> LaTeX editor</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://aeskulap.nongnu.org/">Aeskulap</link> medical image viewer</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://free-doko.sourceforge.net/en/">FreeDoko</link> card game</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="http://goupil.tuxfamily.org/">Goupil</link> membership management</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://beep-media-player.org/">BMP</link> audio player</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://usbsink.sourceforge.net/">USBSink</link> file synchronization over USB</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://granule.sourceforge.net/">Granule</link> index cards</para>
-            </listitem>
-            <listitem>
               <para><link xlink:href="http://ardour.org/">Ardour 2</link> multichannel hard disk recorder and digital audio workstation</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://wavemixer.sourceforge.net/">WaveMixer</link> sound editor</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://lostirc.sourceforge.net/">LostIRC</link> IRC client</para>
             </listitem>
             <listitem>
               <para><link xlink:href="http://dev.mysql.com/downloads/workbench/">MySQL Workbench</link> database GUI</para>
@@ -111,52 +76,7 @@ some other projects using the same toolkit.</para>
               <para><link xlink:href="https://porg.sourceforge.net/">Porg</link> source code package organizer</para>
             </listitem>
             <listitem>
-              <para><link xlink:href="https://www.gnome.org/">GNOME System Monitor</link> system monitor</para>
-            </listitem>
-          </itemizedlist>
-        </section>
-
-        <section>
-        <title>Using gtkmm 2.0/2.2:</title>
-          <itemizedlist>
-            <listitem>
-              <para><link xlink:href="http://regexxer.sourceforge.net/">Regexxer</link> multi-file search/replace with visual feedback</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://towel.sourceforge.net">Towel</link> audio player</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.fnxweb.com/hardware-monitor-applet">Hardware Monitor</link> GNOME panel applet</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gspeakers.sourceforge.net/">gspeakers</link> loudspeaker designer</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://github.com/egroeper/referencer/">Referencer</link> document organiser and bibliography manager</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.stacken.kth.se/project/pptout/">Passepartout</link> desktop publishing</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gwavmerger.sourceforge.net">gwavmerger</link> foreign language learning tool</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://heavymole.sourceforge.net/">HeavyMole</link> file sharing client</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gabber.sourceforge.net/">Gabber 2</link> GNOME Jabber IM client</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://gex.sourceforge.net/">Gex</link> file manager</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://visage.sourceforge.net">Visage</link> organise and visualise information</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://www.nongnu.org/ghosts/">Ghosts GEDCOM Viewer</link> geneology database viewer</para>
-            </listitem>
-            <listitem>
-              <para><link xlink:href="http://liarliar.sourceforge.net/">Liar Liar</link> voice stress analysis tool</para>
+              <para><link xlink:href="https://gitlab.gnome.org/GNOME/gnome-system-monitor">GNOME System Monitor</link> system monitor</para>
             </listitem>
           </itemizedlist>
         </section>
