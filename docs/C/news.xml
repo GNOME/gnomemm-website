@@ -14,24 +14,16 @@
         and <link xlink:href="https://www.cairographics.org/releases/">www.cairographics.org/releases/</link>.</para>
       <para><itemizedlist>
           <listitem>
-            <para>
-  September 10, 2024: <link xlink:href="https://download.gnome.org/sources/gtkmm/4.16/">gtkmm 4.16.0</link>
-  </para>
+            <para>2025-09-19: <link xlink:href="https://download.gnome.org/sources/gtkmm/4.20/">gtkmm 4.20.0</link></para>
           </listitem>
           <listitem>
-            <para>
-  March 17, 2024: <link xlink:href="https://download.gnome.org/sources/gtkmm/3.24/">gtkmm 3.24.9</link>
-  </para>
+            <para>2025-03-24: <link xlink:href="https://download.gnome.org/sources/gtkmm/3.24/">gtkmm 3.24.10</link></para>
           </listitem>
           <listitem>
-            <para>
-  August 27, 2024: <link xlink:href="https://download.gnome.org/sources/glibmm/2.82/">glibmm 2.82.0</link>
-  </para>
+            <para>2025-09-19: <link xlink:href="https://download.gnome.org/sources/glibmm/2.86/">glibmm 2.86.0</link></para>
           </listitem>
           <listitem>
-            <para>
-  March 22, 2024: <link xlink:href="https://download.gnome.org/sources/glibmm/2.66/">glibmm 2.66.7</link>
-  </para>
+            <para>2025-03-17: <link xlink:href="https://download.gnome.org/sources/glibmm/2.66/">glibmm 2.66.8</link></para>
           </listitem>
         </itemizedlist></para>
     </section>

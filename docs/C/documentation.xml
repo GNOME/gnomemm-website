@@ -42,7 +42,10 @@
               <para><link xlink:href="&url_refdocs_base_book_html;chapter-container-widgets.html">Container Widgets</link></para>
             </listitem>
             <listitem>
-              <para><link xlink:href="&url_refdocs_base_book_html;chapter-treeview.html">TreeView</link></para>
+              <para><link xlink:href="&url_refdocs_base_book_html;chapter-treeview.html">TreeView</link> (deprecated since gtkmm 4.10)</para>
+            </listitem>
+            <listitem>
+              <para><link xlink:href="&url_refdocs_base_book_html;chapter-listmodel.html">ListView, GridView, ColumnView</link> (use these instead of TreeView)</para>
             </listitem>
             <listitem>
               <para><link xlink:href="&url_refdocs_base_book_html;chapter-menus-and-toolbars.html">Menus and Toolbars</link></para>
@@ -84,6 +87,9 @@
                 </listitem>
                 <listitem>
                   <para><link xlink:href="&url_refdocs_base_gtkmm_html;group__TreeView.html">TreeView</link></para>
+                </listitem>
+                <listitem>
+                  <para><link xlink:href="&url_refdocs_base_gtkmm_html;group__ListView.html">ListView</link></para>
                 </listitem>
                 <listitem>
                   <para><link xlink:href="&url_refdocs_base_gtkmm_html;group__TextView.html">TextView</link></para>

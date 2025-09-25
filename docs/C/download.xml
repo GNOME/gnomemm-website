@@ -61,9 +61,6 @@ operating system unless you wish to test the latest versions. However, <link xli
             <listitem>
               <para><link xlink:href="https://download.gnome.org/sources/goocanvasmm">goocanvasmm</link></para>
             </listitem>
-            <listitem>
-              <para><link xlink:href="https://download.gnome.org/sources/libgdamm/">libgdamm</link></para>
-            </listitem>
           </itemizedlist>
       </section>
 

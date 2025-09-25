@@ -20,14 +20,8 @@ Discussion about gtkmm development happens on the
     <section>
     <title>Developers and Contributors</title>
       <section>
-      <title>Current maintainers</title>
+      <title>Current maintainer</title>
         <itemizedlist>
-          <listitem>
-            <para><link xlink:href="mailto:murrayc@murrayc.com">Murray Cumming</link> (<link xlink:href="http://www.murrayc.com">www.murrayc.com</link>)</para>
-          </listitem>
-          <listitem>
-            <para><link xlink:href="mailto:daniel.kitta@googlemail.com">Daniel Elstner</link></para>
-          </listitem>
           <listitem>
             <para><link xlink:href="mailto:kjellahlstedt@gmail.com">Kjell Ahlstedt</link></para>
           </listitem>
@@ -41,25 +35,19 @@ Discussion about gtkmm development happens on the
             <para><link xlink:href="mailto:bryan@reigndropsfall.net">Bryan Forbes</link>  (<link xlink:href="http://www.reigndropsfall.net/">www.reigndropsfall.net</link>)</para>
           </listitem>
           <listitem>
-            <para>Karl Nelson</para>
-          </listitem>
-          <listitem>
-            <para><link xlink:href="mailto:cactus@cactus.rulez.org">Gergő Érdi</link> (<link xlink:href="http://cactus.rulez.org">cactus.rulez.org</link>)</para>
-          </listitem>
-          <listitem>
-            <para><link xlink:href="mailto:andreas.holzmann@epost.de">Andreas Holzmann</link></para>
-          </listitem>
-          <listitem>
             <para><link xlink:href="mailto:mhl.schulze@t-online.de">Martin Schulze</link></para>
           </listitem>
           <listitem>
-            <para><link xlink:href="mailto:madmaxer@poczta.fm">Jarek Dukat</link></para>
-          </listitem>
-          <listitem>
-            <para><link xlink:href="mailto:morten@wtf.dk">Morten Brix Pedersen</link></para>
-          </listitem>
-          <listitem>
             <para><link xlink:href="mailto:jonathon.jongsma@gmail.com">Jonathon Jongsma</link></para>
+          </listitem>
+          <listitem>
+            <para><link xlink:href="mailto:fanc999@yahoo.com.tw">Chun-wei Fan</link></para>
+          </listitem>
+          <listitem>
+            <para><link xlink:href="mailto:dboles.src@gmail.com">Daniel Boles</link></para>
+          </listitem>
+          <listitem>
+            <para><link xlink:href="mailto:chris@cvine.freeserve.co.uk">Chris Vine</link></para>
           </listitem>
         </itemizedlist>
       </section>
@@ -68,10 +56,10 @@ Discussion about gtkmm development happens on the
       <title>Previous maintainers</title>
         <itemizedlist>
           <listitem>
-            <para><link xlink:href="mailto:glaurent@telegraph-road.org">Guillaume Laurent</link></para>
+            <para><link xlink:href="mailto:murrayc@murrayc.com">Murray Cumming</link> (<link xlink:href="http://www.murrayc.com">www.murrayc.com</link>)</para>
           </listitem>
           <listitem>
-            <para><link xlink:href="mailto:terop@assari.cc.tut.fi">Tero Pulkkinen</link></para>
+            <para><link xlink:href="mailto:daniel.kitta@gmail.com">Daniel Elstner</link></para>
           </listitem>
         </itemizedlist>
       </section>
