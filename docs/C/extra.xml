@@ -78,6 +78,27 @@ some other projects using the same toolkit.</para>
             <listitem>
               <para><link xlink:href="https://gitlab.gnome.org/GNOME/gnome-system-monitor">GNOME System Monitor</link> system monitor</para>
             </listitem>
+            <listitem>
+              <para><link xlink:href="https://github.com/Peta-T">GitHub/Peta-T</link> several samples of gtkmm4 applications
+                <itemizedlist>
+                  <listitem>
+                    <para><link xlink:href="https://github.com/Peta-T/gtkmm4-gesture-ai-sample-test">GestureAI</link> neural network and AI using mouse gestures</para>
+                  </listitem>
+                  <listitem>
+                    <para><link xlink:href="https://github.com/Peta-T/gtkmm4-opencascade-sample-test">OpenCascade app</link> OpenCascade and gtkmm</para>
+                  </listitem>
+                  <listitem>
+                    <para><link xlink:href="https://github.com/Peta-T/gtkmm4-dropdown-language-selection">LangSel</link> language selection dropdown</para>
+                  </listitem>
+                  <listitem>
+                    <para><link xlink:href="https://github.com/Peta-T/gtkmm4-cairoapp-sample-test">Cairo app</link> Cairomm and gtkmm</para>
+                  </listitem>
+                  <listitem>
+                    <para><link xlink:href="https://github.com/Peta-T/gtkmm4-database-viewer-sample-test">Database app</link> database viewer using libgda</para>
+                  </listitem>
+                </itemizedlist>
+              </para>
+            </listitem>
           </itemizedlist>
         </section>
       </section>
