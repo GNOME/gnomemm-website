@@ -1,13 +1,13 @@
 # Swedish translation for gnomemm-website.
-# Copyright © 2015-2025 gnomemm-website's COPYRIGHT HOLDER
+# Copyright © 2015-2026 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
-# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2018, 2020, 2022, 2023, 2024, 2025.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2018, 2020, 2022, 2023, 2024, 2025, 2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2025-09-30 06:53+0000\n"
-"PO-Revision-Date: 2025-09-30 17:37+0200\n"
+"POT-Creation-Date: 2026-01-20 14:51+0000\n"
+"PO-Revision-Date: 2026-01-21 01:40+0100\n"
 "Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. (itstool) path: section/title
 #: C/bugs.xml:8
@@ -1149,8 +1149,8 @@ msgstr "Extern dokumentation"
 
 #. (itstool) path: tr/th
 #: C/documentation.xml:161
-msgid "Unusual Platforms"
-msgstr "Ovanliga plattformar"
+msgid "C++ Documentation"
+msgstr "C++-dokumentation"
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:167
@@ -1200,29 +1200,32 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:189
-msgid ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.SUN\">Solaris, with Sun's Forte C++.</link>"
-msgstr ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.SUN\">Solaris, med Suns Forte C++.</link>"
+msgid "<link xlink:href=\"https://en.cppreference.com/\">C++ reference</link>"
+msgstr "<link xlink:href=\"https://en.cppreference.com/\">C++-referens</link>"
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:192
 msgid ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.win32\">Windows, with mingw and cygwin</link>"
+"<link xlink:href=\"https://cplusplus.com/\">The C++ Resources Network</link>"
+msgstr "<link xlink:href=\"https://cplusplus.com/\">C++-resursnätverket</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:195
+#| msgid "<link xlink:href=\"https://www.gimp.org/\">Gimp homepage</link>"
+msgid ""
+"<link xlink:href=\"https://www.stroustrup.com/\">Bjarne Stroustrup's "
+"homepage</link>"
 msgstr ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.win32\">Windows, med mingw och cygwin</link>"
+"<link xlink:href=\"https://www.stroustrup.com/\">Bjarne Stroustrups "
+"webbsida</link>"
 
 #. (itstool) path: section/title
-#: C/documentation.xml:201
+#: C/documentation.xml:204
 msgid "Examples"
 msgstr "Exempel"
 
 #. (itstool) path: section/para
-#: C/documentation.xml:202
+#: C/documentation.xml:205
 msgid ""
 "Sometimes you need to look at examples to figure out how something should "
 "work. Many examples are included in the gtkmm book, but you can also view "
@@ -2097,47 +2100,42 @@ msgstr "<link xlink:href=\"faq.html\">Frågor och svar</link>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:47
-msgid "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
-msgstr "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:50
 msgid "<link xlink:href=\"mailinglist.html\">Discussion</link>"
 msgstr "<link xlink:href=\"mailinglist.html\">Diskussion</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:53
+#: C/index.docbook:50
 msgid "<link xlink:href=\"git.html\">Git</link>"
 msgstr "<link xlink:href=\"git.html\">Git</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:56
+#: C/index.docbook:53
 msgid "<link xlink:href=\"bugs.html\">Bugs</link>"
 msgstr "<link xlink:href=\"bugs.html\">Fel</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:59
+#: C/index.docbook:56
 msgid "<link xlink:href=\"books.html\">Books</link>"
 msgstr "<link xlink:href=\"books.html\">Böcker</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:62
+#: C/index.docbook:59
 msgid "<link xlink:href=\"commercial_support.html\">Commercial Support</link>"
 msgstr "<link xlink:href=\"commercial_support.html\">Kommersiellt stöd</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:65
+#: C/index.docbook:62
 msgid "<link xlink:href=\"extra.html\">Additional Resources</link>"
 msgstr "<link xlink:href=\"extra.html\">Ytterligare resurser</link>"
 
 #. (itstool) path: formalpara/title
-#: C/index.docbook:70
+#: C/index.docbook:67
 msgid "Language"
 msgstr "Språk"
 
 #. (itstool) path: abstract/para
 #. (itstool) id: index.docbook#footer
-#: C/index.docbook:133
+#: C/index.docbook:130
 msgid ""
 "<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
 "bindings\"> Contact Us</link>"
@@ -2978,6 +2976,28 @@ msgstr ""
 "kapitlet <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
 "documentation/chapter-multi-threaded-programs.html\"> flertrådade program</"
 "link> i gtkmm-boken."
+
+#~ msgid "Unusual Platforms"
+#~ msgstr "Ovanliga plattformar"
+
+#~ msgid ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.SUN\">Solaris, with Sun's Forte C++.</link>"
+#~ msgstr ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.SUN\">Solaris, med Suns Forte C++.</link>"
+
+#~ msgid ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.win32\">Windows, with mingw and cygwin</link>"
+#~ msgstr ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.win32\">Windows, med mingw och cygwin</link>"
+
+#~ msgid ""
+#~ "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
+#~ msgstr ""
+#~ "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
 
 #~ msgid "Karl Nelson"
 #~ msgstr "Karl Nelson"
