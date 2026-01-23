@@ -1,21 +1,21 @@
 # Brazilian Portuguese translation for gnomemm-website.
-# Copyright (C) 2025 gnomemm-website's COPYRIGHT HOLDER
+# Copyright (C) 2026 gnomemm-website's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnomemm-website package.
 # Alex Jr <alexalencarjr@outlook.com>, 2023.
-# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2025.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2013-2026.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnomemm-website master\n"
-"POT-Creation-Date: 2025-09-30 06:53+0000\n"
-"PO-Revision-Date: 2025-10-04 21:35-0300\n"
+"POT-Creation-Date: 2026-01-21 21:37+0000\n"
+"PO-Revision-Date: 2026-01-23 14:48-0300\n"
 "Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <https://br.gnome.org/traducao>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1)\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Gtranslator 49.0\n"
 "X-Project-Style: gnome\n"
 
@@ -1155,8 +1155,8 @@ msgstr "Documentação externa"
 
 #. (itstool) path: tr/th
 #: C/documentation.xml:161
-msgid "Unusual Platforms"
-msgstr "Plataformas incomuns"
+msgid "C++ Documentation"
+msgstr "Documentação do C++"
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:167
@@ -1208,29 +1208,33 @@ msgstr ""
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:189
-msgid ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.SUN\">Solaris, with Sun's Forte C++.</link>"
+msgid "<link xlink:href=\"https://en.cppreference.com/\">C++ reference</link>"
 msgstr ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.SUN\">Solaris, com Forte C++ da Sun.</link>"
+"<link xlink:href=\"https://en.cppreference.com/\">Referência do C++</link>"
 
 #. (itstool) path: listitem/para
 #: C/documentation.xml:192
 msgid ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.win32\">Windows, with mingw and cygwin</link>"
+"<link xlink:href=\"https://cplusplus.com/\">The C++ Resources Network</link>"
 msgstr ""
-"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
-"README.win32\">Windows, com mingw e cygwin</link>"
+"<link xlink:href=\"https://cplusplus.com/\">A rede de recursos do C++</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:195
+msgid ""
+"<link xlink:href=\"https://www.stroustrup.com/\">Bjarne Stroustrup's "
+"homepage</link>"
+msgstr ""
+"<link xlink:href=\"https://www.stroustrup.com/\">Site de Bjarne Stroustrup</"
+"link>"
 
 #. (itstool) path: section/title
-#: C/documentation.xml:201
+#: C/documentation.xml:204
 msgid "Examples"
 msgstr "Exemplos"
 
 #. (itstool) path: section/para
-#: C/documentation.xml:202
+#: C/documentation.xml:205
 msgid ""
 "Sometimes you need to look at examples to figure out how something should "
 "work. Many examples are included in the gtkmm book, but you can also view "
@@ -2108,47 +2112,42 @@ msgstr "<link xlink:href=\"faq.html\">FAQ</link>"
 
 #. (itstool) path: listitem/para
 #: C/index.docbook:47
-msgid "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
-msgstr "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
-
-#. (itstool) path: listitem/para
-#: C/index.docbook:50
 msgid "<link xlink:href=\"mailinglist.html\">Discussion</link>"
 msgstr "<link xlink:href=\"mailinglist.html\">Discussão</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:53
+#: C/index.docbook:50
 msgid "<link xlink:href=\"git.html\">Git</link>"
 msgstr "<link xlink:href=\"git.html\">Git</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:56
+#: C/index.docbook:53
 msgid "<link xlink:href=\"bugs.html\">Bugs</link>"
 msgstr "<link xlink:href=\"bugs.html\">Problemas</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:59
+#: C/index.docbook:56
 msgid "<link xlink:href=\"books.html\">Books</link>"
 msgstr "<link xlink:href=\"books.html\">Livros</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:62
+#: C/index.docbook:59
 msgid "<link xlink:href=\"commercial_support.html\">Commercial Support</link>"
 msgstr "<link xlink:href=\"commercial_support.html\">Suporte comercial</link>"
 
 #. (itstool) path: listitem/para
-#: C/index.docbook:65
+#: C/index.docbook:62
 msgid "<link xlink:href=\"extra.html\">Additional Resources</link>"
 msgstr "<link xlink:href=\"extra.html\">Recursos adicionais</link>"
 
 #. (itstool) path: formalpara/title
-#: C/index.docbook:70
+#: C/index.docbook:67
 msgid "Language"
 msgstr "Idioma"
 
 #. (itstool) path: abstract/para
 #. (itstool) id: index.docbook#footer
-#: C/index.docbook:133
+#: C/index.docbook:130
 msgid ""
 "<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
 "bindings\"> Contact Us</link>"
@@ -3011,6 +3010,28 @@ msgstr ""
 "xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
 "chapter-multi-threaded-programs.html\">Programas multithread</link> no livro "
 "do gtkmm."
+
+#~ msgid "Unusual Platforms"
+#~ msgstr "Plataformas incomuns"
+
+#~ msgid ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.SUN\">Solaris, with Sun's Forte C++.</link>"
+#~ msgstr ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.SUN\">Solaris, com Forte C++ da Sun.</link>"
+
+#~ msgid ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.win32\">Windows, with mingw and cygwin</link>"
+#~ msgstr ""
+#~ "<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/blob/master/"
+#~ "README.win32\">Windows, com mingw e cygwin</link>"
+
+#~ msgid ""
+#~ "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
+#~ msgstr ""
+#~ "<link xlink:href=\"https://wiki.gnome.org/Projects/gtkmm\">Wiki</link>"
 
 #~ msgid "Karl Nelson"
 #~ msgstr "Karl Nelson"
