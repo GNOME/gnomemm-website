@@ -1,0 +1,3015 @@
+# Italian translation for gnomemm-website.
+# Copyright (C) 2026 gnomemm-website's COPYRIGHT HOLDER
+# This file is distributed under the same license as the gnomemm-website package.
+# Salvatore Cocuzza <info@salvatorecocuzza.it>, 2026.
+# Davide Ferracin <davide.ferracin@icloud.com>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnomemm-website master\n"
+"POT-Creation-Date: 2026-06-11 01:20+0000\n"
+"PO-Revision-Date: 2026-06-13 12:00+0200\n"
+"Last-Translator: Davide Ferracin <davide.ferracin@icloud.com>\n"
+"Language-Team: Italian <gnome-it-list@gnome.org>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 50.0\n"
+
+#. (itstool) path: section/title
+#: C/bugs.xml:8
+msgid "Bugs"
+msgstr "Bug"
+
+#. (itstool) path: note/para
+#: C/bugs.xml:10
+msgid ""
+"See <link xlink:href=\"#NewBugs\">Where to report</link> to submit new bugs "
+"or patches."
+msgstr ""
+"Consultare <link xlink:href=\"#NewBugs\">Dove segnalare</link> per inviare "
+"nuovi bug o patch."
+
+#. (itstool) path: section/title
+#: C/bugs.xml:14
+msgid "Current bugs and patches"
+msgstr "Bug e patch attuali"
+
+#. (itstool) path: section/para
+#: C/bugs.xml:15
+msgid "A good way to get involved."
+msgstr "Un ottimo modo per partecipare."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:18
+msgid ""
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/"
+"\">gtkmm bugs</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/\">Bug di "
+"gtkmm</link> in sospeso"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:21
+msgid ""
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/glibmm/issues/"
+"\">glibmm bugs</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/glibmm/issues/\">Bug di "
+"glibmm</link> in sospeso"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:24
+msgid ""
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/pangomm/issues/"
+"\">pangomm bugs</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/pangomm/issues/\">Bug di "
+"pangomm</link> in sospeso"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:27
+msgid ""
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/issues/\">gtkmm-documentation bugs</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/issues/"
+"\">Bug di gtkmm-documentation</link> in sospeso"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:30
+msgid ""
+"Outstanding <link xlink:href=\"https://gitlab.gnome.org/GNOME/mm-common/"
+"issues/\">mm-common bugs</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/mm-common/issues/\">Bug di "
+"mm-common</link> in sospeso"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:33
+msgid ""
+"Outstanding <link xlink:href=\"https://gitlab.freedesktop.org/cairo/cairomm/"
+"issues\">cairomm bugs</link>"
+msgstr ""
+"<link xlink:href=\"https://gitlab.freedesktop.org/cairo/cairomm/issues\">Bug "
+"di cairomm</link> in sospeso"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:36
+msgid ""
+"Outstanding <link xlink:href=\"https://github.com/libsigcplusplus/"
+"libsigcplusplus/issues\">libsigc++ bugs</link>"
+msgstr ""
+"<link xlink:href=\"https://github.com/libsigcplusplus/libsigcplusplus/"
+"issues\">Bug di libsigc++</link> in sospeso"
+
+#. (itstool) path: section/para
+#: C/bugs.xml:39
+msgid ""
+"As soon as a gtkmm patch has been clearly approved by a maintainer, anybody "
+"with git write access may apply it."
+msgstr ""
+"Non appena una patch di gtkmm è stata chiaramente approvata da un "
+"manutentore, chiunque abbia accesso in scrittura a git può applicarla."
+
+#. (itstool) path: section/title
+#: C/bugs.xml:43
+msgid "<anchor xml:id=\"NewBugs\"/>Where to report?"
+msgstr "<anchor xml:id=\"NewBugs\"/>Dove segnalare?"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:46
+msgid ""
+"Bugs are tracked in GNOME's <link xlink:href=\"https://"
+"gitlab.gnome.org\">issue tracker</link>. Submit gtkmm bugs <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm/issues/new/\">here</link>."
+msgstr ""
+"I bug sono tracciati nel <link xlink:href=\"https://"
+"gitlab.gnome.org\">sistema di tracciamento dei problemi</link> di GNOME. "
+"Inviare i bug di gtkmm <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
+"gtkmm/issues/new/\">qui</link>."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:51
+msgid ""
+"Patches should be attached to existing issues or MRs (merge requests) rather "
+"than sent to GNOME's Discourse forum. When reporting a new bug you'll get a "
+"chance to attach a file to it immediately <emphasis role=\"bold\">after</"
+"emphasis> opening the issue."
+msgstr ""
+"Le patch dovrebbero essere allegate alle issue esistenti o alle MR "
+"(richieste di merge), invece di essere inviate al forum Discourse di GNOME. "
+"Quando si segnala un nuovo bug, si avrà la possibilità di allegare un file "
+"immediatamente <emphasis role=\"bold\">dopo</emphasis> aver aperto il "
+"problema."
+
+#. (itstool) path: section/title
+#: C/bugs.xml:60
+msgid "What information is needed for a bug report?"
+msgstr "Quali informazioni sono necessarie per la segnalazione di un bug?"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:63
+msgid ""
+"version numbers of GTK, gtkmm and other related software, including your "
+"platform/distro/compiler."
+msgstr ""
+"Numeri di versione di GTK, gtkmm e altro software correlato, inclusi "
+"piattaforma/distribuzione/compilatore."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:66
+msgid "description of the bug"
+msgstr "Una descrizione del bug"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:69
+msgid "information to reproduce the bug"
+msgstr "Le informazioni per riprodurre il bug"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:72
+msgid ""
+"stack dump, if relevant: <command> gdb ./proggy ; run ; *crash* ; where </"
+"command>"
+msgstr ""
+"Il dump dello stack, se pertinente: <command> gdb ./programma ; run ; "
+"*crash* ; where </command>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:76
+msgid "keep it small but detailed"
+msgstr "Mantenere la segnalazione breve ma dettagliata"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:79
+msgid "if possible, provide a patch"
+msgstr "Se possibile, fornire una patch"
+
+#. (itstool) path: section/para
+#: C/bugs.xml:82
+msgid ""
+"If we can't solve the problem immediately then we might ask you to create a "
+"simple-as-possible example that actually builds. This helps us to isolate "
+"the problem, and proves that the problem is not caused by your own code."
+msgstr ""
+"Se non riusciamo a risolvere il problema immediatamente, potremmo chiedere a "
+"chi lo segnala di creare un esempio il più semplice possibile che possa "
+"essere compilato. Questo ci aiuta a isolare il problema e prova che esso non "
+"è causato dal codice che è stato fornito."
+
+#. (itstool) path: section/title
+#: C/bugs.xml:89
+msgid "<anchor xml:id=\"CreatingPatches\"/>How do I create a patch?"
+msgstr "<anchor xml:id=\"CreatingPatches\"/>Come si crea una patch?"
+
+#. (itstool) path: section/para
+#: C/bugs.xml:90
+msgid ""
+"There are many ways to use Git, but this is the simplest way to create a "
+"patch if you are unfamiliar with Git:"
+msgstr ""
+"Esistono molti modi per usare Git, ma questo è il modo più semplice per "
+"creare una patch se non avete familiarità con Git:"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:93
+msgid "Take code from <link xlink:href=\"git.html\">git</link>"
+msgstr "Prelevare il codice da <link xlink:href=\"git.html\">git</link>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:96
+msgid "Modify that version"
+msgstr "Modificare quella versione"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:99
+msgid "Check it compiles"
+msgstr "Controllare che compili"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:102
+msgid ""
+"Use git to create a patch <command> git diff -u &gt; my_fix.patch </command>"
+msgstr ""
+"Usare git per creare una patch <command> git diff -u &gt; "
+"mia_correzione.patch </command>"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:106
+msgid "Add the patch in the issue tracker (see above)."
+msgstr "Aggiungere la patch nel sistema di tracciamento (vedere sopra)."
+
+#. (itstool) path: section/title
+#: C/bugs.xml:112
+msgid "Should I send a bug report?"
+msgstr "Dovrei segnalare un bug?"
+
+#. (itstool) path: section/para
+#: C/bugs.xml:113
+msgid "Always send a bug report:"
+msgstr "Segnalare sempre un bug:"
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:118
+msgid "If you get a crash and you think it might be problem with gtkmm."
+msgstr ""
+"Se si verifica un arresto anomalo e si pensa che possa essere un problema di "
+"gtkmm."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:121
+msgid "If you cannot compile gtkmm."
+msgstr "Se non si riesce a compilare gtkmm."
+
+#. (itstool) path: listitem/para
+#: C/bugs.xml:124
+msgid "If you have a good idea of how to make gtkmm better."
+msgstr "Se si ha un'ottima idea su come migliorare gtkmm."
+
+#. (itstool) path: section/para
+#: C/bugs.xml:127
+msgid ""
+"If you know how to fix the bug, you can <link xlink:href=\"https://"
+"gitlab.gnome.org/help/user/project/merge_requests/"
+"creating_merge_requests.md\"> create a merge request</link> instead of (or "
+"in addition to) an issue."
+msgstr ""
+"Se si sa come correggere il bug, è possibile <link xlink:href=\"https://"
+"gitlab.gnome.org/help/user/project/merge_requests/"
+"creating_merge_requests.md\"> creare una richiesta di merge (merge request)</"
+"link> invece di (o in aggiunta a) creare un'issue."
+
+#. (itstool) path: section/title
+#: C/developers.xml:8
+msgid "gtkmm Development"
+msgstr "Sviluppo di gtkmm"
+
+#. (itstool) path: section/para
+#: C/developers.xml:9
+msgid ""
+"gtkmm development is done in the <link xlink:href=\"https://gnome.org/"
+"\">GNOME</link> Git repository. To get started developing gtkmm, see the "
+"<link xlink:href=\"git.html\">detailed Git instructions</link>. Discussion "
+"about gtkmm development happens on the <link xlink:href=\"https://"
+"discourse.gnome.org/c/platform/language-bindings\">Discourse forum</link>."
+msgstr ""
+"Lo sviluppo di gtkmm viene effettuato nel repository Git di <link "
+"xlink:href=\"https://gnome.org/\">GNOME</link>. Per iniziare a sviluppare "
+"gtkmm, consultare le <link xlink:href=\"git.html\">istruzioni dettagliate su "
+"Git</link>. Le discussioni sullo sviluppo di gtkmm avvengono sul <link "
+"xlink:href=\"https://discourse.gnome.org/c/platform/language-"
+"bindings\">forum Discourse</link>."
+
+#. (itstool) path: note/para
+#: C/developers.xml:14
+msgid ""
+"Please do not mail us directly - use the <link xlink:href=\"https://"
+"discourse.gnome.org/c/platform/language-bindings\"> Discourse forum</link> "
+"instead."
+msgstr ""
+"Siete pregati di non scriverci direttamente via email: usate invece il <link "
+"xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings\"> "
+"forum Discourse</link>."
+
+#. (itstool) path: section/title
+#: C/developers.xml:21
+msgid "Developers and Contributors"
+msgstr "Sviluppatori e collaboratori"
+
+#. (itstool) path: section/title
+#: C/developers.xml:23
+msgid "Current maintainer"
+msgstr "Responsabile attuale"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:26
+msgid ""
+"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
+msgstr ""
+"<link xlink:href=\"mailto:kjellahlstedt@gmail.com\">Kjell Ahlstedt</link>"
+
+#. (itstool) path: section/title
+#: C/developers.xml:32
+msgid "Other gtkmm developers"
+msgstr "Altri sviluppatori di gtkmm"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:35
+msgid ""
+"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
+"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
+"link>)"
+msgstr ""
+"<link xlink:href=\"mailto:bryan@reigndropsfall.net\">Bryan Forbes</link> "
+"(<link xlink:href=\"http://www.reigndropsfall.net/\">www.reigndropsfall.net</"
+"link>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:38
+msgid ""
+"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
+msgstr ""
+"<link xlink:href=\"mailto:mhl.schulze@t-online.de\">Martin Schulze</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:41
+msgid ""
+"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
+"link>"
+msgstr ""
+"<link xlink:href=\"mailto:jonathon.jongsma@gmail.com\">Jonathon Jongsma</"
+"link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:44
+msgid "<link xlink:href=\"mailto:fanc999@yahoo.com.tw\">Chun-wei Fan</link>"
+msgstr "<link xlink:href=\"mailto:fanc999@yahoo.com.tw\">Chun-wei Fan</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:47
+msgid "<link xlink:href=\"mailto:dboles.src@gmail.com\">Daniel Boles</link>"
+msgstr "<link xlink:href=\"mailto:dboles.src@gmail.com\">Daniel Boles</link>"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:50
+msgid ""
+"<link xlink:href=\"mailto:chris@cvine.freeserve.co.uk\">Chris Vine</link>"
+msgstr ""
+"<link xlink:href=\"mailto:chris@cvine.freeserve.co.uk\">Chris Vine</link>"
+
+#. (itstool) path: section/title
+#: C/developers.xml:56
+msgid "Previous maintainers"
+msgstr "Responsabili precedenti"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:59
+msgid ""
+"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
+"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
+msgstr ""
+"<link xlink:href=\"mailto:murrayc@murrayc.com\">Murray Cumming</link> (<link "
+"xlink:href=\"http://www.murrayc.com\">www.murrayc.com</link>)"
+
+#. (itstool) path: listitem/para
+#: C/developers.xml:62
+msgid ""
+"<link xlink:href=\"mailto:daniel.kitta@gmail.com\">Daniel Elstner</link>"
+msgstr ""
+"<link xlink:href=\"mailto:daniel.kitta@gmail.com\">Daniel Elstner</link>"
+
+#. (itstool) path: section/para
+#: C/developers.xml:69
+msgid ""
+"There have been many patches, bug fixes and improvements from a lot of "
+"people. Thanks to them."
+msgstr ""
+"Ci sono state molte patch, correzioni di bug e miglioramenti da parte di "
+"molte persone. Un ringraziamento a loro."
+
+#. (itstool) path: note/para
+#: C/main.xml:11
+msgid ""
+"<application>gtkmm</application> is the official C++ interface for the "
+"popular GUI library <link xlink:href=\"https://www.gtk.org/\">GTK</link>. "
+"Highlights include typesafe callbacks, and a comprehensive set of widgets "
+"that are easily extensible via inheritance. You can create user interfaces "
+"either in code or with the <link xlink:href=\"https://gitlab.gnome.org/jpu/"
+"cambalache\"> Cambalache User Interface designer</link>, using Gtk::Builder. "
+"There's <link xlink:href=\"documentation.html\">extensive documentation</"
+"link>, including API reference and a tutorial."
+msgstr ""
+"<application>gtkmm</application> è l'interfaccia C++ ufficiale per la "
+"popolare libreria GUI <link xlink:href=\"https://www.gtk.org/\">GTK</link>. "
+"Le caratteristiche principali includono callback tipo-sicuri (typesafe) e un "
+"insieme completo di widget facilmente estensibili tramite eredità. È "
+"possibile creare interfacce utente sia via codice che con il designer di "
+"interfacce <link xlink:href=\"https://gitlab.gnome.org/jpu/cambalache\"> "
+"Cambalache</link>, utilizzando Gtk::Builder. È disponibile una <link "
+"xlink:href=\"documentation.html\">vasta documentazione</link>, inclusi i "
+"riferimenti API e un tutorial."
+
+#. (itstool) path: note/para
+#: C/main.xml:21
+msgid ""
+"<application>gtkmm</application> is free software distributed under the GNU "
+"Lesser General Public License (<link xlink:href=\"license.html\">LGPL</"
+"link>)."
+msgstr ""
+"<application>gtkmm</application> è software libero distribuito sotto la GNU "
+"Lesser General Public License (<link xlink:href=\"license.html\">LGPL</"
+"link>)."
+
+#. (itstool) path: section/title
+#: C/main.xml:36
+msgid "Features"
+msgstr "Caratteristiche"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:40
+msgid "Use inheritance to derive custom widgets."
+msgstr "Uso dell'eredità per derivare widget personalizzati."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:43
+msgid "Type-safe signal handlers, in standard C++."
+msgstr "Gestori dei segnali tipo-sicuri (type-safe), in C++ standard."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:46
+msgid "Polymorphism."
+msgstr "Polimorfismo."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:49
+msgid ""
+"Use of Standard C++ Library, including strings, containers, and iterators."
+msgstr ""
+"Uso della libreria standard C++, inclusi stringhe, contenitori e iteratori."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:52
+msgid "Full internationalisation with UTF8."
+msgstr "Internazionalizzazione completa con UTF8."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:58
+msgid "Object composition"
+msgstr "Composizione degli oggetti"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:61
+msgid "Automatic deallocation of dynamically allocated widgets."
+msgstr "Deallocazione automatica dei widget allocati dinamicamente."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:55
+msgid "Complete C++ memory management <_:itemizedlist-1/>"
+msgstr "Gestione completa della memoria in C++ <_:itemizedlist-1/>"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:67
+msgid "Full use of C++ namespaces."
+msgstr "Uso completo dei namespace C++."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:70
+msgid "No macros."
+msgstr "Nessuna macro."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:73
+msgid ""
+"Cross-platform: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC 2013 or later (gtkmm3), MSVC 2017 or later "
+"(gtkmm4)), MacOS X (gcc), others"
+msgstr ""
+"Multi-piattaforma: Linux (gcc), FreeBSD (gcc), NetBSD (gcc), Solaris (gcc, "
+"Forte), Win32 (gcc, MSVC 2013 o successivo (gtkmm3), MSVC 2017 o successivo "
+"(gtkmm4)), MacOS X (gcc), altri"
+
+#. (itstool) path: listitem/para
+#: C/main.xml:77
+msgid ""
+"Free software and free of cost for both Open Source and proprietary "
+"development."
+msgstr ""
+"Software libero e gratuito sia per lo sviluppo open source che per quello "
+"proprietario."
+
+#. (itstool) path: listitem/para
+#: C/main.xml:81
+msgid "Discussed, designed and implemented in public."
+msgstr "Discusso, progettato e implementato pubblicamente."
+
+#. (itstool) path: section/title
+#: C/main.xml:88
+msgid "Other gtkmm-related libraries"
+msgstr "Altre librerie correlate a gtkmm"
+
+#. (itstool) path: section/para
+#: C/main.xml:89
+msgid ""
+"gtkmm is a GUI toolkit and nothing more, and it strives to be the best C++ "
+"GUI toolkit. That mandate does not cover generic C++ data structures, an XML "
+"parser, or database access. Even our signal/slots system is part of a "
+"separate (<link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link>) library. However, gtkmm is designed to "
+"work well with all other C++ libraries."
+msgstr ""
+"gtkmm è un toolkit GUI e nulla più, e si impegna per essere il miglior "
+"toolkit GUI in C++. Questo mandato non copre strutture dati C++ generiche, "
+"parser XML o accesso a database. Persino il nostro sistema di segnali/slot "
+"fa parte di una libreria separata (<link xlink:href=\"https://"
+"libsigcplusplus.github.io/libsigcplusplus/\">libsigc++</link>). Tuttavia, "
+"gtkmm è progettato per funzionare bene con tutte le altre librerie C++."
+
+#. (itstool) path: section/para
+#: C/main.xml:96
+msgid ""
+"Be sure to check out our companion libraries, <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/glibmm/\">glibmm</link> (UTF8 strings, etc), "
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/pangomm/\">pangomm</"
+"link> (font layout), <link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link> (signal/slots) and <link "
+"xlink:href=\"https://libxmlplusplus.github.io/libxmlplusplus/\">libxml++</"
+"link> (XML parser)."
+msgstr ""
+"Consigliamo di dare un'occhiata anche alle nostre librerie complementari: "
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/\">glibmm</"
+"link> (stringhe UTF8, ecc.), <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/pangomm/\">pangomm</link> (layout dei "
+"caratteri), <link xlink:href=\"https://libsigcplusplus.github.io/"
+"libsigcplusplus/\">libsigc++</link> (segnali/slot) e <link "
+"xlink:href=\"https://libxmlplusplus.github.io/libxmlplusplus/\">libxml++</"
+"link> (parser XML)."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:8
+msgid "Discussion"
+msgstr "Discussione"
+
+#. (itstool) path: section/title
+#. (itstool) path: question/para
+#: C/mailinglist.xml:10 C/faq.xml:170
+msgid "Where can gtkmm be discussed?"
+msgstr "Dove si può discutere di gtkmm?"
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:13
+msgid ""
+"C++ modules such as <emphasis role=\"bold\">gtkmm</emphasis> and <emphasis "
+"role=\"bold\">glibmm</emphasis>: Use GNOME's <link xlink:href=\"https://"
+"discourse.gnome.org\">Discourse forum</link>, under the <link "
+"xlink:href=\"https://discourse.gnome.org/c/platform/language-bindings\"> "
+"Platform/Language bindings</link> category with a <literal>cplusplus</"
+"literal> tag."
+msgstr ""
+"Per moduli C++ come <emphasis role=\"bold\">gtkmm</emphasis> e <emphasis "
+"role=\"bold\">glibmm</emphasis>: usare il <link xlink:href=\"https://"
+"discourse.gnome.org\">forum Discourse</link> di GNOME, sotto la categoria "
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
+"bindings\"> Platform/Language bindings</link> con l'etichetta "
+"<literal>cplusplus</literal>."
+
+#. (itstool) path: listitem/para
+#: C/mailinglist.xml:20
+msgid ""
+"For general GTK discussion, please use the <link xlink:href=\"https://"
+"discourse.gnome.org/c/platform/core\"> Platform/Core</link> category."
+msgstr ""
+"Per discussioni generali su GTK, usare la categoria <link "
+"xlink:href=\"https://discourse.gnome.org/c/platform/core\"> Platform/Core</"
+"link>."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:28
+msgid "What subject material is appropriate to discuss?"
+msgstr "Di quali argomenti è appropriato discutere?"
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:29
+msgid ""
+"The Discourse forum is used for discussion of development, suggestions, and "
+"improvements of the C++ wrappers themselves. There is also discussion of the "
+"use of the wrapper. Bugs are better reported and discussed in GitLab issues "
+"and merge requests."
+msgstr ""
+"Il forum Discourse viene utilizzato per discussioni sullo sviluppo, "
+"suggerimenti e miglioramenti dei wrapper C++ stessi. Si discute anche "
+"dell'uso del wrapper. I bug vengono segnalati e discussi meglio nelle issue "
+"e nelle richieste di merge (merge request) di GitLab."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:36
+msgid "Mailing List Archives"
+msgstr "Archivi della mailing list"
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:37
+msgid ""
+"There is an old mailing list, which is now closed for new posts. It is "
+"archived at the <link xlink:href=\"https://mail.gnome.org/archives/gtkmm-"
+"list/\"> gtkmm-list archive</link>."
+msgstr ""
+"Esiste una vecchia mailing list, che ora è chiusa ai nuovi messaggi. È "
+"archiviata presso l'<link xlink:href=\"https://mail.gnome.org/archives/gtkmm-"
+"list/\">archivio gtkmm-list</link>."
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:40
+msgid ""
+"<link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> archives "
+"messages even from before 2002, and has a more reliable search engine."
+msgstr ""
+"<link xlink:href=\"https://marc.info/?l=gtkmm\">MARC</link> archivia i "
+"messaggi sin da prima del 2002 e ha un motore di ricerca più affidabile."
+
+#. (itstool) path: section/title
+#: C/mailinglist.xml:45
+msgid "IRC channel"
+msgstr "Canale IRC"
+
+#. (itstool) path: section/para
+#: C/mailinglist.xml:46
+msgid ""
+"Development can also be discussed in the <emphasis role=\"bold\">#c++</"
+"emphasis> channel on <link xlink:href=\"irc://irc.gnome.org/#c++\"/>, but "
+"questions are more likely to be answered properly on Discourse. Plus, "
+"Discourse is archived, so others can benefit from the answers."
+msgstr ""
+"Si può discutere dello sviluppo anche nel canale <emphasis role=\"bold\">#c+"
+"+</emphasis> su <link xlink:href=\"irc://irc.gnome.org/#c++\"/>, ma è più "
+"probabile che le domande ricevano una risposta adeguata su Discourse. Tra "
+"l'altro, Discourse viene archiviato, quindi le risposte possono tornare "
+"utili ad altri."
+
+#. (itstool) path: section/title
+#: C/news.xml:9
+msgid "News"
+msgstr "Novità"
+
+#. (itstool) path: section/para
+#: C/news.xml:10
+msgid ""
+"This list will not be updated each time a new release is made. The listed "
+"versions are the latest stable versions at the time of writing, but there "
+"may be newer releases when you read this text. See <link "
+"xlink:href=\"https://download.gnome.org/sources/\">download.gnome.org/"
+"sources/</link> and <link xlink:href=\"https://www.cairographics.org/"
+"releases/\">www.cairographics.org/releases/</link>."
+msgstr ""
+"Questo elenco non verrà aggiornato ogni volta che viene effettuato un nuovo "
+"rilascio. Le versioni elencate sono le ultime versioni stabili al momento "
+"della scrittura, ma potrebbero esserci rilasci più recenti quando leggerete "
+"questo testo. Consultare <link xlink:href=\"https://download.gnome.org/"
+"sources/\">download.gnome.org/sources/</link> e <link xlink:href=\"https://"
+"www.cairographics.org/releases/\">www.cairographics.org/releases/</link>."
+
+#. (itstool) path: listitem/para
+#: C/news.xml:17
+msgid ""
+"2025-09-19: <link xlink:href=\"https://download.gnome.org/sources/gtkmm/"
+"4.20/\">gtkmm 4.20.0</link>"
+msgstr ""
+"19-09-2025: <link xlink:href=\"https://download.gnome.org/sources/gtkmm/"
+"4.20/\">gtkmm 4.20.0</link>"
+
+#. (itstool) path: listitem/para
+#: C/news.xml:20
+msgid ""
+"2025-03-24: <link xlink:href=\"https://download.gnome.org/sources/gtkmm/"
+"3.24/\">gtkmm 3.24.10</link>"
+msgstr ""
+"24-03-2025: <link xlink:href=\"https://download.gnome.org/sources/gtkmm/"
+"3.24/\">gtkmm 3.24.10</link>"
+
+#. (itstool) path: listitem/para
+#: C/news.xml:23
+msgid ""
+"2025-09-19: <link xlink:href=\"https://download.gnome.org/sources/glibmm/"
+"2.86/\">glibmm 2.86.0</link>"
+msgstr ""
+"19-09-2025: <link xlink:href=\"https://download.gnome.org/sources/glibmm/"
+"2.86/\">glibmm 2.86.0</link>"
+
+#. (itstool) path: listitem/para
+#: C/news.xml:26
+msgid ""
+"2025-03-17: <link xlink:href=\"https://download.gnome.org/sources/glibmm/"
+"2.66/\">glibmm 2.66.8</link>"
+msgstr ""
+"17-03-2025: <link xlink:href=\"https://download.gnome.org/sources/glibmm/"
+"2.66/\">glibmm 2.66.8</link>"
+
+#. (itstool) path: section/title
+#: C/license.xml:8
+msgid "License"
+msgstr "Licenza"
+
+#. (itstool) path: section/para
+#: C/license.xml:9
+msgid ""
+"gtkmm is licensed under the <link xlink:href=\"https://www.gnu.org\">GNU</"
+"link> Lesser General Public License (<link xlink:href=\"https://www.gnu.org/"
+"licenses/lgpl.html#TOC1\">LGPL</link>) for all platforms. Our intent in "
+"licensing it in this way is to provide it for use through shared libraries "
+"in all projects both open and proprietary. Other GNU projects may of course "
+"integrate and link in a static manner. The full body of the license is "
+"provided for your inspection."
+msgstr ""
+"gtkmm è rilasciato sotto la <link xlink:href=\"https://www.gnu.org\">GNU</"
+"link> Lesser General Public License (<link xlink:href=\"https://www.gnu.org/"
+"licenses/lgpl.html#TOC1\">LGPL</link>) per tutte le piattaforme. Il nostro "
+"intento nel licenziarlo in questo modo è quello di fornirlo per l'uso "
+"attraverso librerie condivise in tutti i progetti, sia aperti che "
+"proprietari. Altri progetti GNU possono ovviamente integrare e collegare "
+"(link) in modo statico. Il corpo completo della licenza è fornito per vostra "
+"consultazione."
+
+#. (itstool) path: section/para
+#: C/license.xml:15
+msgid ""
+"This is the only license which grants you use of the software, so if you do "
+"not agree to its terms, you may not use this software."
+msgstr ""
+"Questa è l'unica licenza che concede l'uso del software; pertanto, se non si "
+"è d'accordo con i suoi termini, non è possibile utilizzare questo software."
+
+#. (itstool) path: note/para
+#: C/license.xml:18
+msgid ""
+"Note that this license <emphasis role=\"bold\">does not require you to "
+"release the source code of your own applications or libraries</emphasis> and "
+"<emphasis role=\"bold\">does not require you to pay any fees.</emphasis>"
+msgstr ""
+"Notare che questa licenza <emphasis role=\"bold\">non richiede di rilasciare "
+"il codice sorgente delle proprie applicazioni o librerie</emphasis> e "
+"<emphasis role=\"bold\">non richiede di pagare alcuna commissione.</emphasis>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:15
+msgid "Documentation Overview"
+msgstr "Panoramica della documentazione"
+
+#. (itstool) path: note/para
+#: C/documentation.xml:17
+msgid ""
+"This documentation is for the gtkmm-4.0 API, where nothing else is said. "
+"There is an older gtkmm API, called gtkmm-3.0, which can be installed in "
+"parallel. The gtkmm-3.0/gtkmm-4.0 names refer to the API/ABI series and not "
+"the release version. For instance, gtkmm 3.24.0 is a version of the "
+"gtkmm-3.0 API."
+msgstr ""
+"Questa documentazione è relativa alle API di gtkmm-4.0, se non diversamente "
+"specificato. Esiste una versione più vecchia delle API di gtkmm, chiamata "
+"gtkmm-3.0, che può essere installata in parallelo. I nomi gtkmm-3.0/"
+"gtkmm-4.0 si riferiscono alla serie API/ABI e non alla versione di rilascio. "
+"Ad esempio, gtkmm 3.24.0 è una versione delle API di gtkmm-3.0."
+
+#. (itstool) path: note/para
+#: C/documentation.xml:21
+msgid ""
+"There are even older API versions, such as gtkmm-2.4. Those versions are no "
+"longer supported."
+msgstr ""
+"Esistono versioni delle API ancora più vecchie, come gtkmm-2.4. Tali "
+"versioni non sono più supportate."
+
+#. (itstool) path: section/para
+#: C/documentation.xml:24
+msgid ""
+"Dependencies of gtkmm-3.0 and gtkmm-4.0 are listed in a <link "
+"xlink:href=\"https://mail.gnome.org/archives/gtkmm-list/2020-December/"
+"msg00013.html\">gtkmm-list post.</link>"
+msgstr ""
+"Le dipendenze di gtkmm-3.0 e gtkmm-4.0 sono elencate in un <link "
+"xlink:href=\"https://mail.gnome.org/archives/gtkmm-list/2020-December/"
+"msg00013.html\">post di gtkmm-list.</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:28
+msgid "Getting Started with gtkmm"
+msgstr "Primi passi con gtkmm"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:29
+msgid ""
+"You might start by reading the <emphasis role=\"bold\">Programming with "
+"gtkmm</emphasis> online book."
+msgstr ""
+"Per iniziare, si può leggere il libro online <emphasis "
+"role=\"bold\">Programmare con gtkmm</emphasis>."
+
+#. (itstool) path: section/para
+#: C/documentation.xml:30
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"index.html\">Contents</link> of the whole online book, gtkmm-4.0."
+msgstr ""
+"I <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
+"documentation/index.html\">contenuti</link> dell'intero libro online, "
+"gtkmm-4.0."
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:33
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-installation.html\">Installation</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-installation.html\">Installazione</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:36
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-basics.html\">Basics</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-basics.html\">Fondamenti</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:39
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-signals.html\">Signals</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-signals.html\">Segnali</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:42
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-container-widgets.html\">Container Widgets</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-container-widgets.html\">Widget contenitori</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:45
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-treeview.html\">TreeView</link> (deprecated since gtkmm 4.10)"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-treeview.html\">TreeView</link> (deprecato da gtkmm 4.10)"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:48
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-listmodel.html\">ListView, GridView, ColumnView</link> (use these "
+"instead of TreeView)"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-listmodel.html\">ListView, GridView, ColumnView</link> (usare questi "
+"al posto di TreeView)"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:51
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-menus-and-toolbars.html\">Menus and Toolbars</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-menus-and-toolbars.html\">Menù e barre degli strumenti</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:54
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-memory.html\">Memory Management</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-memory.html\">Gestione della memoria</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:57
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-builder.html\">Gtk::Builder</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/"
+"chapter-builder.html\">Gtk::Builder</link>"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:31
+msgid "Selected chapters:<_:itemizedlist-1/>"
+msgstr "Capitoli scelti:<_:itemizedlist-1/>"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:60 C/books.xml:13
+msgid ""
+"The <emphasis role=\"bold\">Programming with gtkmm 3</emphasis> tutorial is "
+"not available online any more. It can be downloaded from <link "
+"xlink:href=\"https://download.gnome.org/sources/gtkmm-documentation/"
+"3.24/\">here</link>."
+msgstr ""
+"Il tutorial <emphasis role=\"bold\">Programmare con gtkmm 3</emphasis> non è "
+"più disponibile online. Può essere scaricato da <link xlink:href=\"https://"
+"download.gnome.org/sources/gtkmm-documentation/3.24/\">qui</link>."
+
+#. (itstool) path: section/title
+#: C/documentation.xml:67
+msgid "API Reference"
+msgstr "Riferimento per l'API"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:70
+msgid "gtkmm (Gtk::)"
+msgstr "gtkmm (Gtk::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:71
+msgid "glibmm (Glib::)"
+msgstr "glibmm (Glib::)"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:72
+msgid "giomm (Gio::)"
+msgstr "giomm (Gio::)"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:78
+msgid ""
+"<emphasis role=\"bold\"> <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/gtkmm/hierarchy.html\">Hierarchy</link> </"
+"emphasis>"
+msgstr ""
+"<emphasis role=\"bold\"> <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/gtkmm/hierarchy.html\">Gerarchia</link> </"
+"emphasis>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:83
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Widgets.html\">Widgets</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Widgets.html\">Widget</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:86
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Containers.html\">Containers</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Containers.html\">Contenitori</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:89
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TreeView.html\">TreeView</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TreeView.html\">TreeView</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:92
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__ListView.html\">ListView</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__ListView.html\">ListView</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:95
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TextView.html\">TextView</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__TextView.html\">TextView</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:98
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Dialogs.html\">Dialogs</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__Dialogs.html\">Finestre di dialogo</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:101
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"classGtk_1_1Application.html\">Application</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"classGtk_1_1Application.html\">Applicazione</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:104
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__gtkmmEnums.html\">enums and flags</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"group__gtkmmEnums.html\">enum e flag</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:107
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"namespaceGtk.html\">Gtk Namespace</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"namespaceGtk.html\">Namespace Gtk</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:114
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1ustring.html\">ustring</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1ustring.html\">ustring</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:117
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1Error.html\">Exceptions</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGlib_1_1Error.html\">Eccezioni</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:120
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__RefPtr.html\">RefPtr&lt;&gt;</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__RefPtr.html\">RefPtr&lt;&gt;</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:123
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MainLoop.html\">Main Event loop</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MainLoop.html\">Ciclo di eventi principale (main loop)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:126
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__Spawn.html\">Spawning Processes</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__Spawn.html\">Creazione di processi (spawn)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:129
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MiscUtils.html\">Miscellaneous Utility Functions</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__MiscUtils.html\">Funzioni di utilità varie</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:132
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__CharsetConv.html\">Character set conversion</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__CharsetConv.html\">Conversione dei set di caratteri</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:135
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"namespaceGlib.html\">Glib Namespace</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"namespaceGlib.html\">Namespace Glib</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:142
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGio_1_1File.html\">File</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"classGio_1_1File.html\">File</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:145
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__Streams.html\">Streams</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"group__Streams.html\">Flussi (stream)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:148
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"namespaceGio.html\">Gio Namespace</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/glibmm/"
+"namespaceGio.html\">Namespace Gio</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:157
+msgid "Other Information"
+msgstr "Altre informazioni"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:160
+msgid "External Documentation"
+msgstr "Documentazione esterna"
+
+#. (itstool) path: tr/th
+#: C/documentation.xml:161
+msgid "C++ Documentation"
+msgstr "Documentazione di C++"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:167
+msgid ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++ website</link>"
+msgstr ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/\">Sito "
+"web di libsigc++</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:170
+msgid ""
+"<link xlink:href=\"https://www.cairographics.org/cairomm/\">cairomm website</"
+"link>"
+msgstr ""
+"<link xlink:href=\"https://www.cairographics.org/cairomm/\">Sito web di "
+"cairomm</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:173
+msgid ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/pangomm/\">pangomm "
+"reference</link>"
+msgstr ""
+"<link xlink:href=\"https://gnome.pages.gitlab.gnome.org/pangomm/"
+"\">Riferimenti per pangomm</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:176
+msgid "<link xlink:href=\"https://docs.gtk.org/gtk3/\">GTK3 reference</link>"
+msgstr ""
+"<link xlink:href=\"https://docs.gtk.org/gtk3/\">Riferimenti per GTK3</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:179
+msgid "<link xlink:href=\"https://docs.gtk.org/gtk4/\">GTK4 reference</link>"
+msgstr ""
+"<link xlink:href=\"https://docs.gtk.org/gtk4/\">Riferimenti per GTK4</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:182
+msgid ""
+"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
+"index.html\">Standard C++ Library (STL)</link>"
+msgstr ""
+"<link xlink:href=\"https://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/"
+"index.html\">Libreria standard C++ (STL)</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:189
+msgid "<link xlink:href=\"https://en.cppreference.com/\">C++ reference</link>"
+msgstr ""
+"<link xlink:href=\"https://en.cppreference.com/\">Riferimenti per C++</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:192
+msgid ""
+"<link xlink:href=\"https://cplusplus.com/\">The C++ Resources Network</link>"
+msgstr ""
+"<link xlink:href=\"https://cplusplus.com/\">The C++ Resources Network</link>"
+
+#. (itstool) path: listitem/para
+#: C/documentation.xml:195
+msgid ""
+"<link xlink:href=\"https://www.stroustrup.com/\">Bjarne Stroustrup's "
+"homepage</link>"
+msgstr ""
+"<link xlink:href=\"https://www.stroustrup.com/\">Sito web di Bjarne "
+"Stroustrup</link>"
+
+#. (itstool) path: section/title
+#: C/documentation.xml:204
+msgid "Examples"
+msgstr "Esempi"
+
+#. (itstool) path: section/para
+#: C/documentation.xml:205
+msgid ""
+"Sometimes you need to look at examples to figure out how something should "
+"work. Many examples are included in the gtkmm book, but you can also view "
+"them online: <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/tree/master/examples/book/\">gtkmm examples</link>"
+msgstr ""
+"A volte è necessario guardare degli esempi per capire come dovrebbe "
+"funzionare qualcosa. Molti esempi sono inclusi nel libro di gtkmm, ma è "
+"possibile visualizzarli anche online: <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gtkmm-documentation/tree/master/examples/book/"
+"\">esempi di gtkmm</link>"
+
+#. (itstool) path: section/title
+#: C/books.xml:8
+msgid "Recommended Books"
+msgstr "Libri consigliati"
+
+#. (itstool) path: section/para
+#: C/books.xml:10
+msgid ""
+"The <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
+"documentation\">Programming with gtkmm 4</link> tutorial is available online "
+"along with the rest of our <link "
+"xlink:href=\"documentation.html\">documentation</link>."
+msgstr ""
+"Il tutorial <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
+"documentation\">Programmare con gtkmm 4</link> è disponibile online insieme "
+"al resto della nostra <link "
+"xlink:href=\"documentation.html\">documentazione</link>."
+
+#. (itstool) path: section/para
+#: C/books.xml:12
+msgid ""
+"<link xlink:href=\"https://mesonbuild.com/\">The Meson build system</link> "
+"is also described online."
+msgstr ""
+"Anche <link xlink:href=\"https://mesonbuild.com/\">il sistema di "
+"compilazione Meson</link> è descritto online."
+
+#. (itstool) path: section/para
+#: C/books.xml:16
+msgid "The gtkmm developers also find these books helpful:"
+msgstr "Gli sviluppatori di gtkmm trovano utili anche questi libri:"
+
+#. (itstool) path: section/title
+#: C/books.xml:21
+msgid "Core books"
+msgstr "Libri fondamentali"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:25
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201889544/"
+"murrayswebpages/\">The C++ Programming Language, Bjarne Stroustrup</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:28
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379260/"
+"murrayswebpages/\">The C++ Standard Library, Nicolai M. Josuttis</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:31
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201633612/"
+"murrayswebpages/\">Design Patterns, Erich Gamma et al</link>"
+
+#. (itstool) path: section/title
+#: C/books.xml:38
+msgid "For beginners"
+msgstr "Per principianti"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:42
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=020170353X/"
+"murrayswebpages/\">Accelerated C++ - Practical Programming by Example, "
+"Andrew Koenig &amp; Barbara E. Moo</link>"
+
+#. (itstool) path: section/title
+#: C/books.xml:49
+msgid "Others"
+msgstr "Altri"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:53
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0764526413/"
+"murrayswebpages/\">About Face 3: The essentials of interaction design, Alan "
+"Cooper &amp; Robert M. Reimann</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:56
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=0201379279/"
+"murrayswebpages/\">Advanced CORBA Programming with C++, Michi Henning &amp; "
+"Steve Vinoski</link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:59
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1578701902/"
+"murrayswebpages/\">GNU Autoconf, Automake, and Libtool, Gary Vaughan et al</"
+"link>"
+
+#. (itstool) path: listitem/para
+#: C/books.xml:62
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</link>"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/exec/obidos/ISBN=1565921127/"
+"murrayswebpages/\">Programming With Gnu Software, Michael Kosta Loukides et "
+"al</link>"
+
+#. (itstool) path: section/title
+#: C/git.xml:8
+msgid "Git"
+msgstr "Git"
+
+#. (itstool) path: section/para
+#: C/git.xml:9
+msgid ""
+"We use <link xlink:href=\"https://git-scm.com/\">Git</link> to maintain our "
+"source code, in the <link xlink:href=\"https://www.gnome.org\">GNOME</link> "
+"Git repository. Additional information about gitlab.gnome.org is available "
+"at <link xlink:href=\"https://handbook.gnome.org/infrastructure/"
+"gitlab.html\">handbook.gnome.org/infrastructure/gitlab.html</link>."
+msgstr ""
+"Usiamo <link xlink:href=\"https://git-scm.com/\">Git</link> per gestire il "
+"nostro codice sorgente nel repository Git di <link xlink:href=\"https://"
+"www.gnome.org\">GNOME</link>. Ulteriori informazioni su gitlab.gnome.org "
+"sono disponibili su <link xlink:href=\"https://handbook.gnome.org/"
+"infrastructure/gitlab.html\">handbook.gnome.org/infrastructure/gitlab.html</"
+"link>."
+
+#. (itstool) path: section/para
+#: C/git.xml:13
+msgid ""
+"glibmm and gtkmm are in the <link xlink:href=\"https://gitlab.gnome.org/"
+"GNOME/glibmm/\">glibmm</link> and <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gtkmm/\">gtkmm</link> modules. There is also a <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-"
+"documentation</link> module which contains the gtkmm book and its examples. "
+"See below for instructions."
+msgstr ""
+"glibmm e gtkmm si trovano nei moduli <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/glibmm/\">glibmm</link> e <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gtkmm/\">gtkmm</link>. Esiste anche il modulo <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-documentation/\">gtkmm-"
+"documentation</link> che contiene il libro di gtkmm e i relativi esempi. "
+"Vedere sotto per le istruzioni."
+
+#. (itstool) path: section/para
+#: C/git.xml:15
+msgid ""
+"Meson is the recommended build system. If you build with Autotools "
+"(autoconf, automake,etc.), you will need to run the autogen.sh script to "
+"generate the build files. We recommend <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> or <link "
+"xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-"
+"meta</link> for setting up a separate development prefix."
+msgstr ""
+"Meson è il sistema di compilazione consigliato. Se si compila con Autotools "
+"(autoconf, automake, ecc.), sarà necessario eseguire lo script autogen.sh "
+"per generare i file di compilazione. Consigliamo <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/jhbuild\">jhbuild</link> o <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gnome-build-meta\">gnome-build-meta</link> per "
+"impostare un prefisso di sviluppo separato."
+
+#. (itstool) path: note/para
+#: C/git.xml:22
+msgid "<emphasis role=\"bold\">Anonymous Access</emphasis>"
+msgstr "<emphasis role=\"bold\">Accesso anonimo</emphasis>"
+
+#. (itstool) path: note/para
+#: C/git.xml:23
+msgid ""
+"For those who do not have a GNOME login, anonymous checkouts are available."
+msgstr ""
+"Per chi non dispone di un account GNOME, sono disponibili i checkout anonimi."
+
+#. (itstool) path: note/para
+#: C/git.xml:25
+msgid ""
+"For instance, to check out the latest version of gtkmm: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
+msgstr ""
+"Ad esempio, per scaricare l'ultima versione di gtkmm: <command>git clone "
+"https://gitlab.gnome.org/GNOME/gtkmm.git</command>"
+
+#. (itstool) path: section/title
+#: C/git.xml:29
+msgid "Modules and branches"
+msgstr "Moduli e rami (branch)"
+
+#. (itstool) path: section/para
+#: C/git.xml:30
+msgid ""
+"We are synchronized with the GNOME release schedule, so we use <link "
+"xlink:href=\"https://handbook.gnome.org/maintainers/branches.html\">standard "
+"GNOME branch names</link>."
+msgstr ""
+"Siamo sincronizzati con il calendario dei rilasci di GNOME, quindi usiamo i "
+"<link xlink:href=\"https://handbook.gnome.org/maintainers/"
+"branches.html\">nomi standard dei rami di GNOME</link>."
+
+#. (itstool) path: section/title
+#: C/git.xml:34
+msgid "gtkmm and glibmm"
+msgstr "gtkmm e glibmm"
+
+#. (itstool) path: tr/th
+#: C/git.xml:37
+msgid "Component"
+msgstr "Componente"
+
+#. (itstool) path: tr/th
+#: C/git.xml:38
+msgid "Version"
+msgstr "Versione"
+
+#. (itstool) path: tr/th
+#: C/git.xml:39
+msgid "Git Module"
+msgstr "Modulo Git"
+
+#. (itstool) path: tr/th
+#: C/git.xml:40
+msgid "Branch name"
+msgstr "Nome del ramo"
+
+#. (itstool) path: tr/td
+#: C/git.xml:43 C/git.xml:49
+msgid "gtkmm-4.0"
+msgstr "gtkmm-4.0"
+
+#. (itstool) path: tr/td
+#: C/git.xml:44 C/git.xml:62
+msgid "latest"
+msgstr "ultima"
+
+#. (itstool) path: tr/td
+#. (itstool) path: info/title
+#: C/git.xml:45 C/git.xml:51 C/git.xml:57 C/index.docbook:17
+msgid "gtkmm"
+msgstr "gtkmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:46 C/git.xml:64
+msgid "master"
+msgstr "master"
+
+#. (itstool) path: tr/td
+#: C/git.xml:50
+msgid "4.10"
+msgstr "4.10"
+
+#. (itstool) path: tr/td
+#: C/git.xml:52
+msgid "gtkmm-4-10"
+msgstr "gtkmm-4-10"
+
+#. (itstool) path: tr/td
+#: C/git.xml:55
+msgid "gtkmm-3.0"
+msgstr "gtkmm-3.0"
+
+#. (itstool) path: tr/td
+#: C/git.xml:56
+msgid "3.24"
+msgstr "3.24"
+
+#. (itstool) path: tr/td
+#: C/git.xml:58
+msgid "gtkmm-3-24"
+msgstr "gtkmm-3-24"
+
+#. (itstool) path: tr/td
+#: C/git.xml:61 C/git.xml:67
+msgid "glibmm-2.68"
+msgstr "glibmm-2.68"
+
+#. (itstool) path: tr/td
+#: C/git.xml:63 C/git.xml:69 C/git.xml:75
+msgid "glibmm"
+msgstr "glibmm"
+
+#. (itstool) path: tr/td
+#: C/git.xml:68
+msgid "2.76"
+msgstr "2.76"
+
+#. (itstool) path: tr/td
+#: C/git.xml:70
+msgid "glibmm-2-76"
+msgstr "glibmm-2-76"
+
+#. (itstool) path: tr/td
+#: C/git.xml:73
+msgid "glibmm-2.4"
+msgstr "glibmm-2.4"
+
+#. (itstool) path: tr/td
+#: C/git.xml:74
+msgid "2.66"
+msgstr "2.66"
+
+#. (itstool) path: tr/td
+#: C/git.xml:76
+msgid "glibmm-2-66"
+msgstr "glibmm-2-66"
+
+#. (itstool) path: section/title
+#: C/extra.xml:8
+msgid "Additional Resources"
+msgstr "Risorse aggiuntive"
+
+#. (itstool) path: section/title
+#: C/extra.xml:10
+msgid "Available widgets"
+msgstr "Widget disponibili"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:16
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gstreamermm\">gstreamermm</"
+"link> wrappers for gstreamer (streaming media)"
+msgstr ""
+"Wrapper <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
+"gstreamermm\">gstreamermm</link> per gstreamer (streaming multimediale)"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:19
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/"
+"gtksourceviewmm\">gtksourceviewmm</link> wrapper for gtksourceview (extends "
+"Gtk::TextView)"
+msgstr ""
+"Wrapper <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
+"gtksourceviewmm\">gtksourceviewmm</link> per gtksourceview (estende "
+"Gtk::TextView)"
+
+#. (itstool) path: section/para
+#: C/extra.xml:11
+msgid ""
+"In addition to the wrappers distributed with gtkmm, additional widgets and "
+"libraries are available from other sources. At the time of writing "
+"(2025-09-23) they can only be used with gtkmm3 (not gtkmm4). "
+"<_:itemizedlist-1/>"
+msgstr ""
+"Oltre ai wrapper distribuiti con gtkmm, sono disponibili widget e librerie "
+"aggiuntivi da altre fonti. Al momento della scrittura (23-09-2025), essi "
+"possono essere usati solo con gtkmm3 (non con gtkmm4). <_:itemizedlist-1/>"
+
+#. (itstool) path: section/title
+#: C/extra.xml:25
+msgid "gtkmm tools"
+msgstr "Strumenti per gtkmm"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:28
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/jpu/cambalache\">Cambalache</"
+"link> User Interface Designer for GTK. Cambalache UI files can be used from "
+"a gtkmm program by using Gtk::Builder."
+msgstr ""
+"Lo strumento di progettazione di interfacce utente <link "
+"xlink:href=\"https://gitlab.gnome.org/jpu/cambalache\">Cambalache</link> per "
+"GTK. I file UI di Cambalache possono essere usati da un programma gtkmm "
+"utilizzando Gtk::Builder."
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:32
+msgid ""
+"<emphasis role=\"bold\">Glade</emphasis> User Interface Designer for GTK3 "
+"has been replaced by Cambalache."
+msgstr ""
+"Lo strumento di progettazione di interfacce utente <emphasis "
+"role=\"bold\">Glade</emphasis> per GTK3 è stato sostituito da Cambalache."
+
+#. (itstool) path: section/title
+#: C/extra.xml:38
+msgid "Applications using gtkmm"
+msgstr "Applicazioni che usano gtkmm"
+
+#. (itstool) path: section/para
+#: C/extra.xml:39
+msgid ""
+"If all else fails, sometimes it is good to look at the source of some other "
+"projects using the same toolkit."
+msgstr ""
+"Se tutto il resto fallisce, a volte è utile consultare i sorgenti di altri "
+"progetti che usano lo stesso toolkit."
+
+#. (itstool) path: section/title
+#: C/extra.xml:43
+msgid "Using gtkmm:"
+msgstr "Usano gtkmm:"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:46
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/Archive/glom\">Glom</link> "
+"database environment"
+msgstr ""
+"Ambiente di database <link xlink:href=\"https://gitlab.gnome.org/Archive/"
+"glom\">Glom</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:49
+msgid ""
+"<link xlink:href=\"http://www.inkscape.org/\">Inkscape</link> vector "
+"graphics drawing"
+msgstr ""
+"Disegno vettoriale <link xlink:href=\"http://www.inkscape.org/\">Inkscape</"
+"link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:52
+msgid ""
+"<link xlink:href=\"http://www.k-3d.org/\">K-3D</link> 3D modelling and "
+"animation"
+msgstr ""
+"Modellazione e animazione 3D <link xlink:href=\"http://www.k-3d.org/\">K-3D</"
+"link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:55
+msgid ""
+"<link xlink:href=\"http://www.workrave.org/\">Workrave</link> assists in "
+"recovery and prevention of RSI"
+msgstr ""
+"<link xlink:href=\"http://www.workrave.org/\">Workrave</link>, assiste nel "
+"recupero e nella prevenzione dell'RSI"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:58
+msgid ""
+"<link xlink:href=\"http://gparted.sourceforge.net/\">GParted</link> disk "
+"partitioning tool"
+msgstr ""
+"Strumento di partizionamento dischi <link xlink:href=\"http://"
+"gparted.sourceforge.net/\">GParted</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:61
+msgid ""
+"<link xlink:href=\"http://cdrdao.sourceforge.net/\">gcdmaster</link> cdrdao "
+"frontend"
+msgstr ""
+"Frontend per cdrdao <link xlink:href=\"http://cdrdao.sourceforge.net/"
+"\">gcdmaster</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:64
+msgid ""
+"<link xlink:href=\"http://gobby.0x539.de\">Gobby</link> collaborative text "
+"editor"
+msgstr ""
+"Editor di testo collaborativo <link xlink:href=\"http://"
+"gobby.0x539.de\">Gobby</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:67
+msgid ""
+"<link xlink:href=\"http://free-doko.sourceforge.net/en/\">FreeDoko</link> "
+"card game"
+msgstr ""
+"Gioco di carte <link xlink:href=\"http://free-doko.sourceforge.net/en/"
+"\">FreeDoko</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:70
+msgid ""
+"<link xlink:href=\"http://ardour.org/\">Ardour 2</link> multichannel hard "
+"disk recorder and digital audio workstation"
+msgstr ""
+"Registratore multicanale su disco rigido e workstation audio digitale <link "
+"xlink:href=\"http://ardour.org/\">Ardour 2</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:73
+msgid ""
+"<link xlink:href=\"http://dev.mysql.com/downloads/workbench/\">MySQL "
+"Workbench</link> database GUI"
+msgstr ""
+"GUI per database <link xlink:href=\"http://dev.mysql.com/downloads/workbench/"
+"\">MySQL Workbench</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:76
+msgid ""
+"<link xlink:href=\"https://porg.sourceforge.net/\">Porg</link> source code "
+"package organizer"
+msgstr ""
+"Organizzatore di pacchetti di codice sorgente <link xlink:href=\"https://"
+"porg.sourceforge.net/\">Porg</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:79
+msgid ""
+"<link xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-system-"
+"monitor\">GNOME System Monitor</link> system monitor"
+msgstr ""
+"Monitor di sistema <link xlink:href=\"https://gitlab.gnome.org/GNOME/gnome-"
+"system-monitor\">Monitor di sistema GNOME</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:85
+msgid ""
+"<link xlink:href=\"https://github.com/Peta-T/gtkmm4-gesture-ai-sample-"
+"test\">GestureAI</link> neural network and AI using mouse gestures"
+msgstr ""
+"Rete neurale e IA che usa i gesti del mouse <link xlink:href=\"https://"
+"github.com/Peta-T/gtkmm4-gesture-ai-sample-test\">GestureAI</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:88
+msgid ""
+"<link xlink:href=\"https://github.com/Peta-T/gtkmm4-opencascade-sample-"
+"test\">OpenCascade app</link> OpenCascade and gtkmm"
+msgstr ""
+"OpenCascade e gtkmm <link xlink:href=\"https://github.com/Peta-T/gtkmm4-"
+"opencascade-sample-test\">App OpenCascade</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:91
+msgid ""
+"<link xlink:href=\"https://github.com/Peta-T/gtkmm4-dropdown-language-"
+"selection\">LangSel</link> language selection dropdown"
+msgstr ""
+"Menù a discesa per la selezione della lingua <link xlink:href=\"https://"
+"github.com/Peta-T/gtkmm4-dropdown-language-selection\">LangSel</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:94
+msgid ""
+"<link xlink:href=\"https://github.com/Peta-T/gtkmm4-cairoapp-sample-"
+"test\">Cairo app</link> Cairomm and gtkmm"
+msgstr ""
+"Cairomm e gtkmm <link xlink:href=\"https://github.com/Peta-T/gtkmm4-cairoapp-"
+"sample-test\">App Cairo</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:97
+msgid ""
+"<link xlink:href=\"https://github.com/Peta-T/gtkmm4-database-viewer-sample-"
+"test\">Database app</link> database viewer using libgda"
+msgstr ""
+"Visualizzatore di database che usa libgda <link xlink:href=\"https://"
+"github.com/Peta-T/gtkmm4-database-viewer-sample-test\">App Database</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:82
+msgid ""
+"<link xlink:href=\"https://github.com/Peta-T\">GitHub/Peta-T</link> several "
+"samples of gtkmm4 applications <_:itemizedlist-1/>"
+msgstr ""
+"<link xlink:href=\"https://github.com/Peta-T\">GitHub/Peta-T</link> diversi "
+"esempi di applicazioni gtkmm4 <_:itemizedlist-1/>"
+
+#. (itstool) path: section/title
+#: C/extra.xml:107
+msgid "Links"
+msgstr "Collegamenti"
+
+#. (itstool) path: section/title
+#: C/extra.xml:109
+msgid "GTK resources"
+msgstr "Risorse per GTK"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:112
+msgid "<link xlink:href=\"https://www.gtk.org/\">GTK homepage</link>"
+msgstr "Sito web di <link xlink:href=\"https://www.gtk.org/\">GTK</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:115
+msgid "<link xlink:href=\"https://www.gnome.org/\">GNOME homepage</link>"
+msgstr "Sito web di <link xlink:href=\"https://www.gnome.org/\">GNOME</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:118
+msgid ""
+"<link xlink:href=\"https://developer.gnome.org/\">GNOME development</link>"
+msgstr ""
+"Sviluppo di <link xlink:href=\"https://developer.gnome.org/\">GNOME</link>"
+
+#. (itstool) path: listitem/para
+#: C/extra.xml:121
+msgid "<link xlink:href=\"https://www.gimp.org/\">Gimp homepage</link>"
+msgstr "Sito web di <link xlink:href=\"https://www.gimp.org/\">GIMP</link>"
+
+#. (itstool) path: section/title
+#: C/download.xml:8
+msgid "Downloading"
+msgstr "Scaricamento"
+
+#. (itstool) path: note/para
+#: C/download.xml:10
+msgid ""
+"You should use the <link xlink:href=\"#Binary\">binary packages</link> "
+"provided for your operating system unless you wish to test the latest "
+"versions. However, <link xlink:href=\"#Source\">source packages</link> are "
+"available as well."
+msgstr ""
+"Si dovrebbero usare i <link xlink:href=\"#Binary\">pacchetti binari</link> "
+"forniti per il proprio sistema operativo, a meno che non si desideri testare "
+"le ultime versioni. Tuttavia, sono disponibili anche i <link "
+"xlink:href=\"#Source\">pacchetti sorgenti</link>."
+
+#. (itstool) path: note/para
+#: C/download.xml:12
+msgid ""
+"This page mentions gtkmm 4 binary packages. To find corresponding gtkmm 3 "
+"packages, in most cases just change <quote>4</quote> to <quote>3</quote>."
+msgstr ""
+"Questa pagina menziona i pacchetti binari di gtkmm 4. Per trovare i "
+"corrispondenti pacchetti di gtkmm 3, nella maggior parte dei casi basta "
+"sostituire <quote>4</quote> con <quote>3</quote>."
+
+#. (itstool) path: section/title
+#: C/download.xml:17
+msgid "<anchor xml:id=\"Binary\"/>Binary"
+msgstr "<anchor xml:id=\"Binary\"/>Binari"
+
+#. (itstool) path: section/para
+#: C/download.xml:18
+msgid ""
+"You might find a variety of 3rd party RPMs and debs on the internet, but "
+"only the ones listed here are approved by the gtkmm team. Please encourage "
+"your Linux distribution to provide official gtkmm packages."
+msgstr ""
+"Su Internet si potrebbero trovare vari RPM e deb di terze parti, ma solo "
+"quelli elencati qui sono approvati dal team di gtkmm. È bene incoraggiare la "
+"propria distribuzione Linux a fornire i pacchetti ufficiali di gtkmm."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:21
+msgid ""
+"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command>These <link "
+"xlink:href=\"https://packages.qa.debian.org/g/gtkmm4.0.html\">project pages</"
+"link> might give status."
+msgstr ""
+"<link xlink:href=\"https://www.debian.org/\">Debian</link> GNU/Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command> Queste <link "
+"xlink:href=\"https://packages.qa.debian.org/g/gtkmm4.0.html\">pagine del "
+"progetto</link> potrebbero indicarne lo stato."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:24
+msgid ""
+"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link "
+"xlink:href=\"https://www.redhat.com\">RedHat</link> Linux: Use <command>yum "
+"install gtkmm4.0-devel</command> to get the runtime and development packages."
+msgstr ""
+"<link xlink:href=\"https://fedoraproject.org/\">Fedora</link>/<link "
+"xlink:href=\"https://www.redhat.com\">RedHat</link> Linux: usare "
+"<command>yum install gtkmm4.0-devel</command> per ottenere i pacchetti "
+"runtime e di sviluppo."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:27
+msgid ""
+"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: Get dev-cpp/"
+"gtkmm."
+msgstr ""
+"<link xlink:href=\"https://www.gentoo.org\">Gentoo Linux</link>: scaricare "
+"dev-cpp/gtkmm."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:30
+msgid ""
+"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: Use "
+"yast to install gtkmm4-devel."
+msgstr ""
+"<link xlink:href=\"https://www.novell.com/linux/\">SuSE Linux</link>: usare "
+"yast per installare gtkmm4-devel."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:33
+msgid ""
+"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command>"
+msgstr ""
+"<link xlink:href=\"https://www.ubuntu.com/\">Ubuntu</link> Linux: "
+"<command>apt-get install libgtkmm-4.0-dev</command>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:36
+msgid ""
+"Windows: Here is a (somewhat outdated) description how to <link "
+"xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/MSWindows\">install on "
+"Windows</link>. There are links to several README files in the Gtkmm "
+"tutorial, chapter <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/"
+"gtkmm-documentation/sec-windows-installation.html\">gtkmm and Win32</link>."
+msgstr ""
+"Windows: qui c'è una descrizione (un po' datata) su come <link "
+"xlink:href=\"https://wiki.gnome.org/Projects/gtkmm/MSWindows\">installare su "
+"Windows</link>. Sono presenti collegamenti a diversi file README nel "
+"tutorial di gtkmm, capitolo <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/gtkmm-documentation/sec-windows-"
+"installation.html\">gtkmm e Win32</link>."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:43
+msgid ""
+"IBM AIX, HP-UX, Redhat Enterprise Linux, Solaris (gcc or the platform "
+"compilers): <link xlink:href=\"http://thewrittenword.com\">The Written Word</"
+"link> offers binary gtkmm packages, with package management (probably only "
+"gtkmm2)."
+msgstr ""
+"IBM AIX, HP-UX, Redhat Enterprise Linux, Solaris (gcc o i compilatori della "
+"piattaforma): <link xlink:href=\"http://thewrittenword.com\">The Written "
+"Word</link> offre pacchetti binari di gtkmm, con gestione dei pacchetti "
+"(probabilmente solo gtkmm2)."
+
+#. (itstool) path: section/para
+#: C/download.xml:48
+msgid "Please tell us about others."
+msgstr "Se ne conoscete altri, segnalateceli."
+
+#. (itstool) path: section/title
+#: C/download.xml:52
+msgid "<anchor xml:id=\"Source\"/>Source"
+msgstr "<anchor xml:id=\"Source\"/>Sorgenti"
+
+#. (itstool) path: section/para
+#: C/download.xml:53
+msgid ""
+"Even-numbered versions (such as 4.8.x) are stable. Odd-numbered versions "
+"(such as 4.7.x) are unstable development versions."
+msgstr ""
+"Le versioni con numeri pari (come 4.8.x) sono stabili. Le versioni con "
+"numeri dispari (come 4.7.x) sono versioni di sviluppo instabili."
+
+#. (itstool) path: listitem/para
+#: C/download.xml:56
+msgid ""
+"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
+msgstr ""
+"<link xlink:href=\"https://download.gnome.org/sources/glibmm/\">glibmm</link>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:59
+msgid ""
+"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
+msgstr ""
+"<link xlink:href=\"https://download.gnome.org/sources/gtkmm/\">gtkmm</link>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:62
+msgid ""
+"<link xlink:href=\"https://download.gnome.org/sources/"
+"goocanvasmm\">goocanvasmm</link>"
+msgstr ""
+"<link xlink:href=\"https://download.gnome.org/sources/"
+"goocanvasmm\">goocanvasmm</link>"
+
+#. (itstool) path: section/title
+#: C/download.xml:68
+msgid "Requirements"
+msgstr "Requisiti"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:71
+msgid "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
+msgstr "<link xlink:href=\"https://www.gtk.org\">GTK</link>"
+
+#. (itstool) path: listitem/para
+#: C/download.xml:74
+msgid ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++</link>"
+msgstr ""
+"<link xlink:href=\"https://libsigcplusplus.github.io/libsigcplusplus/"
+"\">libsigc++</link>"
+
+#. (itstool) path: section/title
+#: C/download.xml:80
+msgid "GTK"
+msgstr "GTK"
+
+#. (itstool) path: section/para
+#: C/download.xml:81
+msgid ""
+"You can download GTK and GNOME source code from <link xlink:href=\"https://"
+"download.gnome.org/sources/\">download.gnome.org/sources/</link>."
+msgstr ""
+"È possibile scaricare il codice sorgente di GTK e GNOME da <link "
+"xlink:href=\"https://download.gnome.org/sources/\">download.gnome.org/"
+"sources/</link>."
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Salvatore Cocuzza <info@salvatorecocuzza.it>, 2026."
+
+#. (itstool) path: info/subtitle
+#: C/index.docbook:18
+msgid "C++ Interfaces for GTK and GNOME"
+msgstr "Interfacce C++ per GTK e GNOME"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:22
+msgid "<link xlink:href=\"index.html\">Home</link>"
+msgstr "<link xlink:href=\"index.html\">Home</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:25
+msgid "<link xlink:href=\"license.html\">License</link>"
+msgstr "<link xlink:href=\"license.html\">Licenza</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:28
+msgid "<link xlink:href=\"download.html\">Download</link>"
+msgstr "<link xlink:href=\"download.html\">Scaricamento</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:31
+msgid "<link xlink:href=\"documentation.html\">Documentation</link>"
+msgstr "<link xlink:href=\"documentation.html\">Documentazione</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:34
+msgid "<link xlink:href=\"developers.html\">Development</link>"
+msgstr "<link xlink:href=\"developers.html\">Sviluppo</link>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:38
+msgid "Other Resources"
+msgstr "Altre risorse"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:41
+msgid "<link xlink:href=\"news.html\">News</link>"
+msgstr "<link xlink:href=\"news.html\">Novità</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:44
+msgid "<link xlink:href=\"faq.html\">FAQ</link>"
+msgstr "<link xlink:href=\"faq.html\">FAQ</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:47
+msgid "<link xlink:href=\"mailinglist.html\">Discussion</link>"
+msgstr "<link xlink:href=\"mailinglist.html\">Discussione</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:50
+msgid "<link xlink:href=\"git.html\">Git</link>"
+msgstr "<link xlink:href=\"git.html\">Git</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:53
+msgid "<link xlink:href=\"bugs.html\">Bugs</link>"
+msgstr "<link xlink:href=\"bugs.html\">Bug</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:56
+msgid "<link xlink:href=\"books.html\">Books</link>"
+msgstr "<link xlink:href=\"books.html\">Libri</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:59
+msgid "<link xlink:href=\"commercial_support.html\">Commercial Support</link>"
+msgstr ""
+"<link xlink:href=\"commercial_support.html\">Supporto commerciale</link>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:62
+msgid "<link xlink:href=\"extra.html\">Additional Resources</link>"
+msgstr "<link xlink:href=\"extra.html\">Risorse aggiuntive</link>"
+
+#. (itstool) path: formalpara/title
+#: C/index.docbook:67
+msgid "Language"
+msgstr "Lingua"
+
+#. (itstool) path: abstract/para
+#. (itstool) id: index.docbook#footer
+#: C/index.docbook:133
+msgid ""
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
+"bindings\"> Contact Us</link>"
+msgstr ""
+"<link xlink:href=\"https://discourse.gnome.org/c/platform/language-"
+"bindings\"> Contatti</link>"
+
+#. (itstool) path: section/title
+#: C/commercial_support.xml:8
+msgid "Commercial Support"
+msgstr "Supporto commerciale"
+
+#. (itstool) path: section/para
+#: C/commercial_support.xml:9
+msgid ""
+"The Discourse forum, irc, and documentation are helpful, but your company "
+"might require more in-depth assistance or custom development. If so feel "
+"free to contact the following freelance developers and companies directly to "
+"discuss a commercial arrangement."
+msgstr ""
+"Il forum Discourse, IRC e la documentazione sono utili, ma la vostra azienda "
+"potrebbe richiedere un'assistenza più approfondita o uno sviluppo "
+"personalizzato. In tal caso, sentitevi liberi di contattare direttamente i "
+"seguenti sviluppatori freelance e aziende per discutere un accordo "
+"commerciale."
+
+#. (itstool) path: tr/th
+#: C/commercial_support.xml:14
+msgid "Name, email"
+msgstr "Nome, email"
+
+#. (itstool) path: tr/th
+#: C/commercial_support.xml:15
+msgid "Location"
+msgstr "Posizione"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:18
+msgid ""
+"<link xlink:href=\"http://www.m2osw.com\">Made to Order Software Corp.</"
+"link>: Quality software with easy to use interfaces from simple utilities to "
+"complex e-Business solutions."
+msgstr ""
+"<link xlink:href=\"http://www.m2osw.com\">Made to Order Software Corp.</"
+"link>: software di qualità con interfacce facili da usare, da semplici "
+"utilità a complesse soluzioni di e-Business."
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:19
+msgid "USA, UK"
+msgstr "USA, Regno Unito"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:22
+msgid "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
+msgstr "<link xlink:href=\"http://dianiuxinnova.com/\">Dianiux Innova</link>"
+
+#. (itstool) path: tr/td
+#: C/commercial_support.xml:23
+msgid "Valencia, Spain"
+msgstr "Valencia, Spagna"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:29
+msgid "<link xlink:href=\"http://www.mysql.com\">MySQL</link> - Databases"
+msgstr "<link xlink:href=\"http://www.mysql.com\">MySQL</link> - Database"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:32
+msgid ""
+"<link xlink:href=\"http://www.vmware.com/\">VMWare</link> - Virtualization, "
+"network management"
+msgstr ""
+"<link xlink:href=\"http://www.vmware.com/\">VMWare</link> - "
+"Virtualizzazione, gestione della rete"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:35
+msgid ""
+"<link xlink:href=\"http://www.amazon.com/\">Amazon</link> - MP3 Downloader"
+msgstr ""
+"<link xlink:href=\"http://www.amazon.com/\">Amazon</link> - Downloader MP3"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:38
+msgid ""
+"<link xlink:href=\"http://www.garmin.com/\">Garmin</link> - Consumer "
+"navigation devices"
+msgstr ""
+"<link xlink:href=\"http://www.garmin.com/\">Garmin</link> - Dispositivi di "
+"navigazione per consumatori"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:41
+msgid ""
+"<link xlink:href=\"http://www.spacetec.no/\">Kongsberg Spacetec</link> - "
+"satellite/meteorological"
+msgstr ""
+"<link xlink:href=\"http://www.spacetec.no/\">Kongsberg Spacetec</link> - "
+"satellitare/meteorologico"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:44
+msgid ""
+"<link xlink:href=\"http://www.solvo.ru/\">Solvo Ltd.</link> - warehouse "
+"management systems"
+msgstr ""
+"<link xlink:href=\"http://www.solvo.ru/\">Solvo Ltd.</link> - sistemi di "
+"gestione per magazzini"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:47
+msgid ""
+"<link xlink:href=\"http://www.northropgrumman.com\">Northrup Grumman</link> "
+"- military/defense"
+msgstr ""
+"<link xlink:href=\"http://www.northropgrumman.com\">Northrup Grumman</link> "
+"- militare/difesa"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:50
+msgid ""
+"<link xlink:href=\"http://www.henson.com\">Jim Henson's Muppet Workshop</"
+"link> - animatronics"
+msgstr ""
+"<link xlink:href=\"http://www.henson.com\">Jim Henson's Muppet Workshop</"
+"link> - animatronica"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:53
+msgid ""
+"<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> - electrical "
+"engineering"
+msgstr ""
+"<link xlink:href=\"http://www.isotrol.com\">Isotrol</link> - ingegneria "
+"elettrica"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:56
+msgid ""
+"<link xlink:href=\"http://linuxaudiosystems.com/\">Linux Audio Systems</"
+"link> - professional audio/music systems"
+msgstr ""
+"<link xlink:href=\"http://linuxaudiosystems.com/\">Linux Audio Systems</"
+"link> - sistemi audio/musicali professionali"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:59
+msgid ""
+"<link xlink:href=\"http://www.designadvantage.com\">Design Advantage</link> "
+"- electrical/mechanical engineering"
+msgstr ""
+"<link xlink:href=\"http://www.designadvantage.com\">Design Advantage</link> "
+"- ingegneria elettrica/meccanica"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:62
+msgid "<link xlink:href=\"http://www.dme.net\">DME</link> - mold engineering"
+msgstr ""
+"<link xlink:href=\"http://www.dme.net\">DME</link> - ingegneria degli stampi"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:65
+msgid ""
+"<link xlink:href=\"http://www.aplik.com/\">Aplik</link> - process engineering"
+msgstr ""
+"<link xlink:href=\"http://www.aplik.com/\">Aplik</link> - ingegneria di "
+"processo"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:68
+msgid ""
+"<link xlink:href=\"http://www.fis-cal.com/\">Fiscal</link> - fiscal Systems, "
+"POS"
+msgstr ""
+"<link xlink:href=\"http://www.fis-cal.com/\">Fiscal</link> - sistemi "
+"fiscali, POS"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:71
+msgid ""
+"<link xlink:href=\"http://www.thewrittenword.com/\">The Written Word</link> "
+"- prebuilt software packages"
+msgstr ""
+"<link xlink:href=\"http://www.thewrittenword.com/\">The Written Word</link> "
+"- pacchetti software pre-compilati"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:74
+msgid ""
+"<link xlink:href=\"https://www.sendoutcards.com/\">SendOutCards.com</link> - "
+"Specialized internal applications"
+msgstr ""
+"<link xlink:href=\"https://www.sendoutcards.com/\">SendOutCards.com</link> - "
+"Applicazioni interne specializzate"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:77
+msgid ""
+"<link xlink:href=\"http://www.epictechnology.co.uk/\">EPIC Technology</link> "
+"- Point Of Sale systems"
+msgstr ""
+"<link xlink:href=\"http://www.epictechnology.co.uk/\">EPIC Technology</link> "
+"- sistemi Point Of Sale (punti vendita)"
+
+#. (itstool) path: listitem/para
+#: C/commercial_support.xml:80
+msgid ""
+"<link xlink:href=\"http://www.innoventis.de/\">Innoventis</link> - "
+"Automotive systems"
+msgstr ""
+"<link xlink:href=\"http://www.innoventis.de/\">Innoventis</link> - sistemi "
+"automobilistici"
+
+#. (itstool) path: section/para
+#: C/commercial_support.xml:26
+msgid ""
+"Many corporations use gtkmm to implement their products and internal "
+"projects. Here is a list of some of those companies:<_:itemizedlist-1/>"
+msgstr ""
+"Molte aziende usano gtkmm per implementare i propri prodotti e progetti "
+"interni. Ecco un elenco di alcune di queste aziende:<_:itemizedlist-1/>"
+
+#. (itstool) path: section/para
+#: C/commercial_support.xml:83
+msgid ""
+"If you would like to be listed here please open a <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gnomemm-website/issues/\"> GNOME/gnomemm-website "
+"issue</link> or <link xlink:href=\"https://gitlab.gnome.org/GNOME/gnomemm-"
+"website/merge_requests/\"> merge request</link>."
+msgstr ""
+"Se desiderate essere elencati qui, aprite una <link xlink:href=\"https://"
+"gitlab.gnome.org/GNOME/gnomemm-website/issues/\"> issue di GNOME/gnomemm-"
+"website</link> o una <link xlink:href=\"https://gitlab.gnome.org/GNOME/"
+"gnomemm-website/merge_requests/\"> richiesta di merge</link>."
+
+#. (itstool) path: section/para
+#: C/commercial_support.xml:88
+msgid ""
+"See also <emphasis>Apps built with GTK</emphasis> at <link "
+"xlink:href=\"https://www.gtk.org\">the GTK website</link>."
+msgstr ""
+"Consultate anche <emphasis>App create con GTK</emphasis> sul <link "
+"xlink:href=\"https://www.gtk.org\">sito web di GTK</link>."
+
+#. (itstool) path: section/title
+#: C/faq.xml:13
+msgid "Frequently Asked Questions"
+msgstr "Domande frequenti (FAQ)"
+
+#. (itstool) path: qandadiv/title
+#: C/faq.xml:16
+msgid "gtkmm's place in the world"
+msgstr "Il posto di gtkmm nel mondo"
+
+#. (itstool) path: question/para
+#: C/faq.xml:18
+msgid "What is GTK?"
+msgstr "Che cos'è GTK?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:19
+msgid ""
+"GTK is the GUI widget toolkit, written in C, which serves as the foundation "
+"for the GNOME project as well as many stand-alone applications. GTK is the "
+"foundation on which gtkmm is built. See <link xlink:href=\"https://"
+"www.gtk.org\"/>."
+msgstr ""
+"GTK è il toolkit di widget GUI, scritto in C, che funge da fondamento per il "
+"progetto GNOME e per molte applicazioni stand-alone. GTK è la base su cui è "
+"costruito gtkmm. Consultare <link xlink:href=\"https://www.gtk.org\"/>."
+
+#. (itstool) path: question/para
+#: C/faq.xml:25
+msgid "Why is it named gtkmm?"
+msgstr "Perché si chiama gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:26
+msgid ""
+"gtkmm was originally named gtk-- because GTK was originally named GTK+ and "
+"had a + in the name. However, as -- is not easily indexed by search engines, "
+"the package generally went by the name gtkmm, and that's what we stuck with."
+msgstr ""
+"gtkmm era originariamente chiamato gtk-- perché GTK si chiamava "
+"originariamente GTK+ e aveva un + nel nome. Tuttavia, poiché -- non è "
+"facilmente indicizzabile dai motori di ricerca, il pacchetto ha assunto "
+"generalmente il nome gtkmm, e questo è il nome che abbiamo mantenuto."
+
+#. (itstool) path: question/para
+#: C/faq.xml:32
+msgid "Why use gtkmm instead of GTK?"
+msgstr "Perché usare gtkmm invece di GTK?"
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:35
+msgid ""
+"gtkmm allows you to write code using normal <phrase role=\"nowrap\">C++</"
+"phrase> techniques such as encapsulation, derivation, and polymorphism. As a "
+"<phrase role=\"nowrap\">C++</phrase> programmer you probably already realize "
+"that this leads to clearer and better organized code."
+msgstr ""
+"gtkmm vi consente di scrivere codice usando le normali tecniche <phrase "
+"role=\"nowrap\">C++</phrase>, come incapsulamento, derivazione e "
+"polimorfismo. Come programmatori <phrase role=\"nowrap\">C++</phrase>, "
+"probabilmente già saprete che ciò porta a un codice più chiaro e meglio "
+"organizzato."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:40
+msgid ""
+"gtkmm is more type-safe, so the compiler can detect errors that would only "
+"be detected at run-time when using C. This use of specific types also makes "
+"the API clearer because you can see what types should be used just by "
+"looking at a method's declaration."
+msgstr ""
+"gtkmm è più tipo-sicuro (type-safe), quindi il compilatore può rilevare "
+"errori che verrebbero individuati, usando C, solo durante l'esecuzione. "
+"Questo uso di tipi specifici rende anche l'API più chiara, perché si può "
+"vedere quali tipi dovrebbero essere usati semplicemente guardando la "
+"dichiarazione di un metodo."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:46
+msgid ""
+"Inheritance can be used to derive new widgets. The derivation of new widgets "
+"in GTK C code is so complicated and error prone that almost no C coders do "
+"it. As a <phrase role=\"nowrap\">C++</phrase> developer you know that "
+"derivation is an essential Object Orientated technique."
+msgstr ""
+"L'ereditarietà può essere usata per derivare nuovi widget. La derivazione di "
+"nuovi widget nel codice C di GTK è così complicata e soggetta a errori che "
+"quasi nessun programmatore C la usa nella prat. È noto ai programmatori in "
+"<phrase role=\"nowrap\">C++</phrase> che la derivazione è una tecnica "
+"fondamentale della programmazione orientata agli oggetti."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:52
+msgid ""
+"Member instances can be used, simplifying memory management. All GTK C "
+"widgets are dealt with by use of pointers. As a <phrase role=\"nowrap\">C++</"
+"phrase> coder you know that pointers should be avoided where possible."
+msgstr ""
+"Possono essere usate istanze di membri, semplificando la gestione della "
+"memoria. Tutti i widget C di GTK vengono gestiti tramite puntatori. In "
+"<phrase role=\"nowrap\">C++</phrase> è una buona pratica evitare di usare "
+"puntatori, ove possibile."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:57
+msgid ""
+"Less code. The GTK C object model uses prefixed function names and cast "
+"macros. For instance: <code>gtk_button_set_text(GTK_BUTTON(button), "
+"\"sometext\");</code> gtkmm <phrase role=\"nowrap\">C++</phrase> code is "
+"shorter and clearer. For instance: <code>button.set_text(\"sometext\");</"
+"code>"
+msgstr ""
+"Meno codice. Il modello a oggetti C di GTK usa nomi di funzione con prefisso "
+"e macro di cast. Ad esempio: <code>gtk_button_set_text(GTK_BUTTON(button), "
+"\"sometext\");</code> il codice <phrase role=\"nowrap\">C++</phrase> di "
+"gtkmm è più breve e chiaro. Ad esempio: <code>button.set_text(\"sometext\");"
+"</code>"
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:62
+msgid "There's no need to worry about GTK's reference-counting policy."
+msgstr ""
+"Non c'è bisogno di preoccuparsi della politica di conteggio dei riferimenti "
+"(reference-counting) di GTK."
+
+#. (itstool) path: question/para
+#: C/faq.xml:67
+msgid "Why use libsigc++? Why not use the GTK signal functions?"
+msgstr ""
+"Perché usare libsigc++? Perché non usare le funzioni di segnale di GTK?"
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:70
+msgid ""
+"GTK signals aren't typesafe. The compiler can't tell you whether your "
+"callback has the wrong number or type of arguments or return value."
+msgstr ""
+"I segnali GTK non sono tipo-sicuri (typesafe). Il compilatore non può dirvi "
+"se la vostra callback ha il numero o il tipo errato di argomenti o valore di "
+"ritorno."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:74
+msgid ""
+"They can only be used with functions or static methods. With <phrase "
+"role=\"nowrap\">libsigc++</phrase> callbacks can also be instance methods, "
+"using the member data of a particular object. They can also be virtual "
+"methods which you could override in a derived class."
+msgstr ""
+"Possono essere usati solo con funzioni o metodi statici. Con <phrase "
+"role=\"nowrap\">libsigc++</phrase> le callback possono anche essere metodi "
+"d'istanza, usando i dati membri di un particolare oggetto. Possono anche "
+"essere metodi virtuali, che possono essere sovrascritti in una classe "
+"derivata."
+
+#. (itstool) path: question/para
+#: C/faq.xml:81
+msgid ""
+"Why isn't GTK/GNOME itself written in <phrase role=\"nowrap\">C++</phrase>?"
+msgstr ""
+"Perché GTK e GNOME stessi non sono scritti in <phrase role=\"nowrap\">C++</"
+"phrase>?"
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:84
+msgid ""
+"C is a simpler language so more people are familiar with it, particularly on "
+"Unix."
+msgstr ""
+"Il C è un linguaggio più semplice, quindi più persone lo conoscono, "
+"specialmente su Unix."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:88
+msgid ""
+"C can be wrapped by any other language, making the API available to more "
+"developers."
+msgstr ""
+"Il C può essere avvolto (wrapped) da qualsiasi altro linguaggio, rendendo "
+"l'API disponibile a più sviluppatori."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:92
+msgid ""
+"GTK and GNOME have very well organized C code, much more sane than most of "
+"the C code that we encounter. This is partly due to its C-based object-"
+"orientated structure."
+msgstr ""
+"GTK e GNOME hanno un codice C molto ben organizzato, molto più sensato della "
+"maggior parte del codice C che si incontra in giro. Ciò è in parte dovuto "
+"alla sua struttura orientata agli oggetti basata su C."
+
+#. (itstool) path: question/para
+#: C/faq.xml:99
+msgid ""
+"Why not use Qt if you like <phrase role=\"nowrap\">C++</phrase> so much?"
+msgstr ""
+"Perché non usate Qt, se vi piace così tanto il <phrase role=\"nowrap\">C++</"
+"phrase>?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:100
+msgid ""
+"gtkmm developers tend to prefer gtkmm to Qt because gtkmm does things in a "
+"more <phrase role=\"nowrap\">C++</phrase> way. Qt originates from a time "
+"when <phrase role=\"nowrap\">C++</phrase> and the standard library were not "
+"standardized or well supported by compilers. It therefore duplicates a lot "
+"of stuff that is now in the standard library, such as containers and type "
+"information. Most significantly, they modified the <phrase role=\"nowrap\">C+"
+"+</phrase> language to provide signals, so that Qt classes cannot be used "
+"easily with non-Qt classes. gtkmm was able to use standard <phrase "
+"role=\"nowrap\">C++</phrase> to provide signals without changing the <phrase "
+"role=\"nowrap\">C++</phrase> language."
+msgstr ""
+"Gli sviluppatori di gtkmm tendono a preferire gtkmm rispetto a Qt perché "
+"gtkmm è più conforme al <phrase role=\"nowrap\">C++</phrase>. Qt ha origine "
+"in un'epoca in cui il <phrase role=\"nowrap\">C++</phrase> e la libreria "
+"standard non erano standardizzati o ben supportati dai compilatori. "
+"Pertanto, duplica molte cose che ora si trovano nella libreria standard, "
+"come i contenitori e le informazioni sui tipi. Un aspetto più significativo: "
+"hanno modificato il linguaggio <phrase role=\"nowrap\">C++</phrase> per "
+"fornire i segnali, cosicché le classi Qt non possono essere usate facilmente "
+"con classi non di Qt. gtkmm è stato in grado di usare il <phrase "
+"role=\"nowrap\">C++</phrase> standard per fornire i segnali senza cambiare "
+"il linguaggio <phrase role=\"nowrap\">C++</phrase>."
+
+#. (itstool) path: answer/para
+#: C/faq.xml:108
+msgid ""
+"Also, gtkmm and the other *mm modules allow you to build software which "
+"works more closely with the GNOME desktop."
+msgstr ""
+"Inoltre, gtkmm e gli altri moduli *mm permettono di creare software che "
+"lavora più a stretto contatto con l'ambiente desktop GNOME."
+
+#. (itstool) path: qandadiv/title
+#: C/faq.xml:113
+msgid "How good is gtkmm?"
+msgstr "Quanto è valido gtkmm?"
+
+#. (itstool) path: question/para
+#: C/faq.xml:115
+msgid "What systems does it run under?"
+msgstr "Su quali sistemi gira?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:116
+msgid ""
+"gtkmm should run under any UNIX-type system with the proper compilers and "
+"libraries installed. The GNU <phrase role=\"nowrap\">C++</phrase> compiler "
+"(g++, part of gcc) together with the GNU toolset (such as found on Linux and "
+"*BSD systems) comprise its default build environment. It can also be built "
+"and used on Windows with the mingw build tools or MSVC."
+msgstr ""
+"gtkmm dovrebbe girare su qualsiasi sistema di tipo UNIX con i compilatori e "
+"le librerie corretti installati. Il compilatore GNU <phrase "
+"role=\"nowrap\">C++</phrase> (g++, parte di gcc) insieme al toolset GNU "
+"(come quello che si trova sui sistemi Linux e *BSD) costituiscono il suo "
+"ambiente di compilazione predefinito. Può anche essere compilato e usato su "
+"Windows con gli strumenti di compilazione mingw o MSVC."
+
+#. (itstool) path: question/para
+#: C/faq.xml:123
+msgid "How complete is it?"
+msgstr "Quanto è completo?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:124
+msgid ""
+"gtkmm tries to offer all of the functionality offered by GTK. This means "
+"that you should be able to do anything with gtkmm that's supported by GTK, "
+"and do it more easily. If something isn't covered then we want to know about "
+"it."
+msgstr ""
+"gtkmm cerca di offrire tutte le funzionalità offerte da GTK. Ciò significa "
+"che con gtkmm dovrebbe essere possibile fare tutto ciò che è supportato da "
+"GTK, e farlo più facilmente. Se qualcosa non è coperto, vorremmo saperlo."
+
+#. (itstool) path: answer/para
+#: C/faq.xml:128
+msgid ""
+"GLib contains classes with similar functionality as standard <phrase "
+"role=\"nowrap\">C++</phrase> classes, for instance <classname>GThread</"
+"classname> and <classname>GTree</classname>. Such GLib classes are not "
+"wrapped in glibmm."
+msgstr ""
+"GLib contiene classi con funzionalità simili alle classi <phrase "
+"role=\"nowrap\">C++</phrase> standard, ad esempio <classname>GThread</"
+"classname> e <classname>GTree</classname>. Tali classi GLib non sono avvolte "
+"(wrapped) in glibmm."
+
+#. (itstool) path: question/para
+#: C/faq.xml:133
+msgid ""
+"Does gtkmm use Standard <phrase role=\"nowrap\">C++</phrase> containers such "
+"as <classname>std::string</classname> and <classname>std::vector</classname>?"
+msgstr ""
+"gtkmm usa i contenitori <phrase role=\"nowrap\">C++</phrase> standard come "
+"<classname>std::string</classname> e <classname>std::vector</classname>?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:134
+msgid ""
+"Yes, we believe in reusing standard <phrase role=\"nowrap\">C++</phrase> "
+"code wherever possible. This might not be obvious at first because gtkmm has "
+"<classname>Glib::ustring</classname> which has almost the same interface as "
+"<classname>std::string</classname>. <classname>Glib::ustring</classname> "
+"exists because the <phrase role=\"nowrap\">C++</phrase> standard does not "
+"support UTF8-encoded strings well."
+msgstr ""
+"Sì, crediamo nel riutilizzo del codice <phrase role=\"nowrap\">C++</phrase> "
+"standard ovunque possibile. Questo potrebbe non essere ovvio all'inizio, "
+"perché gtkmm ha <classname>Glib::ustring</classname> che ha quasi la stessa "
+"interfaccia di <classname>std::string</classname>. <classname>Glib::ustring</"
+"classname> esiste perché lo standard <phrase role=\"nowrap\">C++</phrase> "
+"non supporta bene le stringhe codificate in UTF8."
+
+#. (itstool) path: question/para
+#: C/faq.xml:141
+msgid "How does gtkmm compare to Qt?"
+msgstr "Come si confronta gtkmm con Qt?"
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:144
+msgid ""
+"gtkmm uses pure <phrase role=\"nowrap\">C++</phrase>. Qt requires extensions "
+"to <phrase role=\"nowrap\">C++</phrase> that are parsed by the moc pre-"
+"processor."
+msgstr ""
+"gtkmm usa <phrase role=\"nowrap\">C++</phrase> puro. Qt richiede estensioni "
+"al <phrase role=\"nowrap\">C++</phrase> che vengono analizzate dal pre-"
+"processore moc."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:148
+msgid ""
+"gtkmm uses <classname>std::string</classname>, <classname>std::vector</"
+"classname>, iterators, etc. Qt has its own Qt-specific containers."
+msgstr ""
+"gtkmm usa <classname>std::string</classname>, <classname>std::vector</"
+"classname>, iteratori, ecc. Qt ha i propri contenitori specifici."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:152
+msgid ""
+"With gtkmm normal <phrase role=\"nowrap\">C++</phrase> memory management can "
+"be used. Qt demands that all widgets are dealt with as pointers, and that "
+"deletion of widgets is delegated to parent widgets."
+msgstr ""
+"Con gtkmm si può usare la normale gestione della memoria <phrase "
+"role=\"nowrap\">C++</phrase>. Qt esige che tutti i widget siano gestiti come "
+"puntatori e che la loro eliminazione sia delegata ai widget genitori."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:157
+msgid ""
+"Arrangement of widgets seems to be easier in gtkmm. In Qt, Containers and "
+"Layouts are separate classes, and child widgets must be added to both."
+msgstr ""
+"La disposizione dei widget sembra essere più facile in gtkmm. In Qt, "
+"contenitori e layout sono classi separate e i widget figli devono essere "
+"aggiunti a entrambi."
+
+#. (itstool) path: listitem/para
+#: C/faq.xml:161
+msgid ""
+"The gtkmm API tends to be more explicit. The behavior of Qt classes is often "
+"dependent upon the implicit effects of overridden constructors."
+msgstr ""
+"L'API di gtkmm tende a essere più esplicita. Il comportamento delle classi "
+"Qt dipende spesso dagli effetti impliciti dei costruttori sovrascritti."
+
+#. (itstool) path: qandadiv/title
+#: C/faq.xml:168
+msgid "Further information"
+msgstr "Ulteriori informazioni"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:171
+msgid "See the <link xlink:href=\"mailinglist.html\">Discussion</link> page."
+msgstr ""
+"Consultare la pagina <link xlink:href=\"mailinglist.html\">Discussione</"
+"link>."
+
+#. (itstool) path: question/para
+#: C/faq.xml:175
+msgid "What documentation is there for gtkmm?"
+msgstr "Quale documentazione esiste per gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:176
+msgid ""
+"See the <link xlink:href=\"documentation.html\">Documentation</link> page."
+msgstr ""
+"Consultare la pagina <link xlink:href=\"documentation.html\">Documentazione</"
+"link>."
+
+#. (itstool) path: question/para
+#: C/faq.xml:180
+msgid "Where can I find some example code?"
+msgstr "Dove posso trovare del codice d'esempio?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:181
+msgid ""
+"See the <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/tree/master/examples/book/\">examples directory</link> in the "
+"gtkmm-documentation module. Most of these appear in the gtkmm book."
+msgstr ""
+"Consultare la <link xlink:href=\"https://gitlab.gnome.org/GNOME/gtkmm-"
+"documentation/tree/master/examples/book/\">directory degli esempi</link> nel "
+"modulo gtkmm-documentation. La maggior parte di essi appare nel libro di "
+"gtkmm."
+
+#. (itstool) path: qandadiv/title
+#: C/faq.xml:186
+msgid "Using gtkmm"
+msgstr "Usare gtkmm"
+
+#. (itstool) path: question/para
+#: C/faq.xml:188
+msgid "What compiler arguments should I use to compile a gtkmm program?"
+msgstr ""
+"Quali argomenti del compilatore si dovrebbero usare per compilare un "
+"programma gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:189
+msgid ""
+"See the <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"\">reference documentation</link>."
+msgstr ""
+"Consultare la <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm/"
+"\">documentazione di riferimento</link>."
+
+#. (itstool) path: question/para
+#: C/faq.xml:193
+msgid "How can I get the GTK object from a gtkmm object?"
+msgstr "Come ottenere l'oggetto GTK da un oggetto gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:194
+msgid ""
+"If you need some GTK functionality which is not supported through gtkmm, you "
+"can call the <methodname>gobj()</methodname> method in the relevant class, "
+"which will return a pointer to the plain C GTK object. You can then operate "
+"directly on this C object as you would in any GTK program."
+msgstr ""
+"Se si ha bisogno di alcune funzionalità GTK non supportate tramite gtkmm, è "
+"possibile chiamare il metodo <methodname>gobj()</methodname> nella classe "
+"pertinente, che restituirà un puntatore all'oggetto GTK in C semplice. Si "
+"può quindi operare direttamente su questo oggetto C come si farebbe in un "
+"qualsiasi programma GTK."
+
+#. (itstool) path: question/para
+#: C/faq.xml:200
+msgid "How can I wrap a GTK widget in a gtkmm instance?"
+msgstr "Come avvolgere (wrap) un widget GTK in un'istanza gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:201
+msgid ""
+"<function>Glib::wrap()</function> will give you a pointer to a gtkmm object. "
+"It is an overloaded function, so it will give you an instance of the "
+"appropriate class."
+msgstr ""
+"<function>Glib::wrap()</function> fornirà un puntatore a un oggetto gtkmm. "
+"Si tratta di una funzione in overload, che quindi fornirà un'istanza della "
+"classe appropriata."
+
+#. (itstool) path: question/para
+#: C/faq.xml:206
+msgid "Can I use <phrase role=\"nowrap\">C++</phrase> exceptions with gtkmm?"
+msgstr ""
+"Posso usare le eccezioni <phrase role=\"nowrap\">C++</phrase> con gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:207
+msgid ""
+"Yes, but there are restrictions. Since plain C doesn't know what a <phrase "
+"role=\"nowrap\">C++</phrase> exception is, you can use exceptions in your "
+"gtkmm code as long as there are no C functions in your call stack between "
+"the thrower and the catcher. This means that you have to catch your "
+"exception locally."
+msgstr ""
+"Sì, ma ci sono delle restrizioni. Poiché il C semplice non sa cosa sia "
+"un'eccezione <phrase role=\"nowrap\">C++</phrase>, si possono usare le "
+"eccezioni nel proprio codice gtkmm a patto che non ci siano funzioni C nello "
+"stack delle chiamate tra chi lancia l'eccezione (thrower) e chi la "
+"intercetta (catcher). Ciò significa che bisogna catturare l'eccezione "
+"localmente."
+
+#. (itstool) path: answer/para
+#: C/faq.xml:211
+msgid ""
+"You will be warned at runtime about uncaught exceptions, and you can specify "
+"a different handler for uncaught exceptions. Some gtkmm methods use "
+"exceptions to report errors. The exception types that might be thrown are "
+"listed in the reference documentation of these methods."
+msgstr ""
+"Si verrà avvertiti sulle eccezioni non catturate durante l'esecuzione, e per "
+"tali eccezioni si potrà specificare un gestore diverso. Alcuni metodi di "
+"gtkmm usano le eccezioni per segnalare errori. I tipi di eccezione che "
+"potrebbero essere lanciati sono elencati nella documentazione di riferimento "
+"di tali metodi."
+
+#. (itstool) path: question/para
+#: C/faq.xml:217
+msgid "How can I use Cambalache or Glade with gtkmm?"
+msgstr "Come usare Cambalache o Glade con gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:218
+msgid ""
+"See the <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
+"documentation/chapter-builder.html\">Gtk::Builder</link> chapter in the "
+"gtkmm book. <application>Cambalache</application> replaces the "
+"<application>Glade</application> application. <application>Glade</"
+"application> can't be used with GTK4/gtkmm4."
+msgstr ""
+"Consultare il capitolo <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/gtkmm-documentation/chapter-"
+"builder.html\">Gtk::Builder</link> nel libro di gtkmm. "
+"<application>Cambalache</application> sostituisce l'applicazione "
+"<application>Glade</application>. <application>Glade</application> non può "
+"essere usata con GTK4/gtkmm4."
+
+#. (itstool) path: question/para
+#: C/faq.xml:224
+msgid "What does <function>Gtk::make_managed&lt;T&gt;(args)</function> do?"
+msgstr "Cosa fa <function>Gtk::make_managed&lt;T&gt;(args)</function>?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:225
+msgid ""
+"This means <quote>The container widget will delete this child widget.</"
+"quote> Use it if you don't want to worry about when to delete dynamically "
+"allocated widgets."
+msgstr ""
+"Significa che <quote>il widget contenitore eliminerà questo widget figlio</"
+"quote>. Usarlo se non ci si vuole preoccupare di quando eliminare i widget "
+"allocati dinamicamente."
+
+#. (itstool) path: question/para
+#: C/faq.xml:230
+msgid ""
+"How can I learn about arranging widgets? I am confused by the packing "
+"options."
+msgstr ""
+"Come imparare a disporre i widget? Le opzioni di impacchettamento (packing) "
+"sono complicate."
+
+#. (itstool) path: answer/para
+#: C/faq.xml:231
+msgid ""
+"<application>Cambalache</application> is a great way to see what can be done "
+"with GTK and GNOME widgets. Use <application>Cambalache</application> to "
+"explore the choice of widgets and to see how they can be put together."
+msgstr ""
+"<application>Cambalache</application> è un ottimo modo per vedere cosa si "
+"può fare con i widget GTK e GNOME. Usare <application>Cambalache</"
+"application> per esplorare la scelta dei widget e per vedere come possono "
+"essere messi insieme."
+
+#. (itstool) path: question/para
+#: C/faq.xml:236
+msgid ""
+"I'm used to MFC (Microsoft Foundation Class Library). Where is the Document "
+"and the View?"
+msgstr ""
+"Sono abituato a MFC (Microsoft Foundation Class Library). Dove sono il "
+"Documento e la Vista?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:237
+msgid ""
+"Document/View (which is a version of the Model–View–Controller (MVC) "
+"software design pattern) is not supported directly by GTK. However, the "
+"<classname>Gtk::TextView</classname> and <classname>Gtk::ListView</"
+"classname> classes are split up into model and view."
+msgstr ""
+"Document/View (che è una versione del pattern di progettazione software "
+"Model–View–Controller (MVC)) non è supportato direttamente da GTK. Tuttavia, "
+"le classi <classname>Gtk::TextView</classname> e <classname>Gtk::ListView</"
+"classname> sono suddivise in modello e vista."
+
+#. (itstool) path: question/para
+#: C/faq.xml:243
+msgid "How do I load pictures for use with gtkmm?"
+msgstr "Come si caricano le immagini da usare con gtkmm?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:244
+msgid ""
+"Use <classname>Gdk::Pixbuf</classname> and/or <classname>Gtk::Image</"
+"classname>. Both are easy to use and support a wide range of image file "
+"types."
+msgstr ""
+"Usare <classname>Gdk::Pixbuf</classname> e/o <classname>Gtk::Image</"
+"classname>. Entrambi sono facili da usare e supportano una vasta gamma di "
+"tipi di file immagine."
+
+#. (itstool) path: question/para
+#: C/faq.xml:248
+msgid "Is gtkmm thread-safe?"
+msgstr "gtkmm è thread-safe?"
+
+#. (itstool) path: answer/para
+#: C/faq.xml:249
+msgid ""
+"Neither GTK nor gtkmm are thread-safe. All GUI code must run in the same "
+"thread. If your program might benefit from using multiple threads, have a "
+"look at the <link xlink:href=\"https://gnome.pages.gitlab.gnome.org/gtkmm-"
+"documentation/chapter-multi-threaded-programs.html\"> Multi-threaded "
+"programs</link> chapter in the gtkmm book."
+msgstr ""
+"Né GTK né gtkmm sono thread-safe. Tutto il codice GUI deve essere eseguito "
+"nello stesso thread. Se il proprio programma potrebbe trarre beneficio "
+"dall'uso di più thread, consultare il capitolo <link xlink:href=\"https://"
+"gnome.pages.gitlab.gnome.org/gtkmm-documentation/chapter-multi-threaded-"
+"programs.html\"> Programmi multi-thread</link> nel libro di gtkmm."
