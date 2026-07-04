@@ -2,12 +2,14 @@
 
 This is the source of the [gtkmm website](https://gtkmm.gnome.org).
 
-The source consists of a DocBook 5.0 document.
-It requires the docbook5-xml and docbook-xsl-ns packages (Ubuntu names,
-can have other names in other distros). It may be possible to build without
-these packages, but it will be __much__ slower (minutes instead of seconds).[^1]
+The source consists of a DocBook 5.0 document. These packages are recommended
+when building the website (can have other names in other distros):
+ - docbook5-xml (Ubuntu and Debian) or docbook5-schemas (Fedora)
+ - docbook-xsl-ns (Ubuntu and Debian) or docbook-style-xsl (Fedora)
+It may be possible to build without these packages, but it will be error prone
+and __much__ slower (minutes instead of seconds).[^1]
 
-The website can be built with Meson or Autotools.
+The website can be built with Meson.
 
 When a commit is pushed to the master branch in the git repository, the website
 is built and published at https://gnome.pages.gitlab.gnome.org/gnomemm-website
@@ -32,18 +34,13 @@ Bugs can be reported to
 Patches can be submitted to
  - https://gitlab.gnome.org/GNOME/gnomemm-website/-/merge_requests
 
-# Building
-
-## Building with Meson
+# Building with Meson
 
 - Create a build directory and configure it:
   ```sh
   cd gnomemm-website
   meson setup [options] <build-dir>
   ```
-  Do not call the build-dir gnomemm-website/build. There is already such a
-  directory, used when building with Autotools.
-
 - Create the html files of the website:
   ```sh
   cd <build-dir>
@@ -61,31 +58,7 @@ Patches can be submitted to
   There is a `publish` target (requiring a login at www.gtkmm.org),
   but it is disabled and there is no reason to use it.
 
-## Building with Autotools
-
-- Configure, build in the source directory:
-  ```sh
-  cd gnomemm-website
-  ./autogen.sh
-  ```
-
-- Create the html files of the website:
-  ```sh
-  make
-  ```
-
-- Watch the result:
-
-  Open docs/html/index.html in a web browser.
-
-- Publish the website at gtkmm.gnome.org:
-
-  Done automatically when new git commits are pushed to the master branch.
-
-  There is a `post-html` target (requiring a login at www.gtkmm.org),
-  but there is no reason to use it.
-
-## Adding a new language
+# Adding a new language
 
 - Generate a temporary .pot file and the .po file for your locale, say xx_XX:
   ```sh
@@ -106,11 +79,9 @@ Patches can be submitted to
   </listitem>
   ```
 
-- Add your language to docs/LINGUAS (used when building with Meson).
+- Add your language to docs/LINGUAS.
 
-- Add your language to HELP_LINGUAS in docs/Makefile.am (used when building with Autotools).
-
-- Run `make` or `ninja` to generate all pages.
+- Run `ninja` to generate all pages.
 
 --------------------
 <!-- footnote -->

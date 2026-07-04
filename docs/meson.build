@@ -41,6 +41,9 @@ endif
 
 # index.withimg is index.docbook with images.
 # index.withimg shall not be found by the translation module damned-lies.
+# See Infrastructure/damned-lies/stats/services/pot/documentation.py,
+# DocumentationFormat.source_files().
+# https://gitlab.gnome.org/Infrastructure/damned-lies/-/issues/58
 # https://gitlab.gnome.org/GNOME/gnomemm-website/-/issues/4
 xml_files = [
   'index.withimg', # Must be the first element in the list
