@@ -6,6 +6,7 @@ The source consists of a DocBook 5.0 document. These packages are recommended
 when building the website (can have other names in other distros):
  - docbook5-xml (Ubuntu and Debian) or docbook5-schemas (Fedora)
  - docbook-xsl-ns (Ubuntu and Debian) or docbook-style-xsl (Fedora)
+
 It may be possible to build without these packages, but it will be error prone
 and __much__ slower (minutes instead of seconds).[^1]
 
