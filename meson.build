@@ -5,7 +5,8 @@ project('gnomemm-website',
   meson_version: '>= 0.60.0', # required for install_tag keyword argument.
 )
 
-python3 = find_program('python3', version: '>=3.7')
+# Use the Python installation that Meson uses. Its version is >= 3.7.
+python3 = import('python').find_installation()
 
 # Installation directories are relative to {prefix}.
 install_prefix = get_option('prefix')
