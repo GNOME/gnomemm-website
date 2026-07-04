@@ -2,6 +2,7 @@
 
 project('gnomemm-website',
   version: '4.0.0',
+  license: 'GPL-3.0-or-later',
   meson_version: '>= 0.60.0', # required for install_tag keyword argument.
 )
 
